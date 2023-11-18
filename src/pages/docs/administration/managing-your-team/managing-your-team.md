@@ -1,5 +1,5 @@
 ---
-title: "Manage your team"
+title: "Manage team members"
 updated: 2023-06-08
 contextual_links:
   - type: section
@@ -28,32 +28,14 @@ Postman provides a variety of options to customize your team's experience, from 
 
 ## Contents
 
-* [Setting up your team](#setting-up-your-team)
 * [Managing team members](#managing-team-members)
     * [Inviting users](#inviting-users)
     * [Managing invites](#managing-invites)
     * [Removing team members](#removing-team-members)
     * [Managing team roles](#managing-team-roles)
+    * Manage groups
     * [Managing Partners](#managing-partners)
     * [Managing Guests](#managing-guests)
-* [Manage your team's workspaces](#manage-your-teams-workspaces)
-* [Manage your team's product access](#manage-your-teams-product-access)
-    * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
-    * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
-* [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
-    * [Changing team size](#changing-team-size)
-    * [Upgrading your plan](#upgrading-your-plan)
-* [Updating your team’s Postman version](#updating-your-teams-postman-version)
-* [Next steps](#next-steps)
-
-## Setting up your team
-
-Once you've created your Postman team, you can take the following steps to enable an efficient user onboarding process:
-
-* Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that Postman is available on all devices used by your organization and that it functions as expected.
-* [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to let other Postman users from your organization request to join your team.
-* [Configure SSO](/docs/administration/sso/admin-sso/) ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
-* [Configure SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) ([Enterprise plans only](https://www.postman.com/pricing)).
 
 ## Managing team members
 
