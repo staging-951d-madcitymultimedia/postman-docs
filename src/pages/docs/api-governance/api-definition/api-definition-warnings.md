@@ -24,7 +24,7 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
 ---
 
-Following Postman API Governance and API Security rules when you create an API definition helps you create consistent and secure APIs. When your API definition violates one of these rules, it doesn't mean that the definition is broken. Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these rule violations and helps you understand their implications and possible ways to fix them. Postman supports API governance and API security rules for API definitions in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
+Following Postman API Governance and API Security rules when you create an API definition helps you create consistent and secure APIs. When your API definition violates one of these rules, it doesn't mean that the definition is broken. Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these rule violations and helps you understand their implications and possible ways to fix them. Postman supports API governance and API security rules for API definitions in [OpenAPI 3.1](/docs/api-governance/api-definition/openapi3/), [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/), and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
 
 > **Rule customization**. [Enterprise teams](https://www.postman.com/pricing/) can also customize the rules that Postman applies to API definitions. For more information, see [Configuring API governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [Configuring API security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
 
@@ -61,4 +61,4 @@ To see the results, go to the build run page and use the arrows to expand the de
 
 ## Next steps
 
-For the list of all the rule violations that Postman might show at the API definition phase of development, see [OpenAPI 3.0 rules](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0 rules](/docs/api-governance/api-definition/openapi2/).
+For the list of all the rule violations that Postman might show at the API definition phase of development, see [OpenAPI 3 rules](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2 rules](/docs/api-governance/api-definition/openapi2/).
