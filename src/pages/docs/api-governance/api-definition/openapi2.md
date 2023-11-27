@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI 2.0 security and formatting warnings"
+title: "OpenAPI 2 security and formatting warnings"
 updated: 2022-07-20
 contextual_links:
   - type: section
@@ -20,9 +20,9 @@ You can use Postman to identify any potential security and formatting issues whe
 
 <img alt="OpenAPI 2.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi2-v10.1.jpg" />
 
-### Warnings for OpenAPI 2.0
+### Warnings for OpenAPI 2
 
-For all APIs defined in OpenAPI 2.0, the following list describes possible warning messages and potential ways to resolve them.
+For all APIs defined in OpenAPI 2, the following list describes possible warning messages and potential ways to resolve them.
 
 <!-- vale off -->
 
