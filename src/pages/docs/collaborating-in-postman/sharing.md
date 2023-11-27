@@ -58,7 +58,7 @@ You can share your collections, requests, examples, collection folders, APIs, Fl
 
 You can share collections, requests, examples, collection folders, APIs, Flows, and environments, directly with collaborators, including team members, groups, and external users.
 
-1. From the element you want to share, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share, then select **Share**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share, then select **Share**.
 1. If you're sharing a collection, select the **With people** tab.
 1. Enter the name, email address, or [group name](/docs/collaborating-in-postman/user-groups/) for the people you want to share the element with.
 1. If you have an Editor role for the element you are sharing, you can give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the element. If you have a Viewer role for the element, you can share it, but you won't be able to assign roles.
