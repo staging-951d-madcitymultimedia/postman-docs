@@ -630,7 +630,7 @@ The `pm.execution.skipRequest` method enables you to stop the execution of a req
 pm.execution.skipRequest()
 ```
 
-You can use the `pm.execution.skipRequest` method on the **Pre-request Script** tab of a request, collection, or folder. When `pm.execution.skipRequest()` is encountered, the request isn't sent. Any remaining scripts on the **Pre-request Script** tab are skipped, and no tests are executed. Also, a message that the request was skipped is logged in the Postman Console.
+You can use the `pm.execution.skipRequest` method on the **Pre-request Script** tab of a request, collection, or folder. When `pm.execution.skipRequest()` is encountered, the request isn't sent. Any remaining scripts on the **Pre-request Script** tab are skipped, and no tests are executed.
 
 For example:
 
