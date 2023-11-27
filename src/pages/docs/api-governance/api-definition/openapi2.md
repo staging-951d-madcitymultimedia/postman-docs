@@ -22,7 +22,7 @@ You can use Postman to identify any potential security and formatting issues whe
 
 ### Warnings for OpenAPI 2
 
-For all APIs defined in OpenAPI 2, the following list describes possible warning messages and potential ways to resolve them.
+For all APIs defined in OpenAPI 2.0, the following list describes possible warning messages and potential ways to resolve them.
 
 <!-- vale off -->
 
