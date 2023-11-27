@@ -56,7 +56,7 @@ You can share your collections, requests, examples, collection folders, APIs, Fl
 
 ### Sharing using names, emails, or groups
 
-You can share collections, requests, examples, collection folders, APIs, Flows, and environments, directly with collaborators, including team members and groups. You can also share collections with external users.
+You can share collections, requests, examples, collection folders, APIs, Flows, and environments, directly with collaborators, including team members, groups, and external users.
 
 1. From the element you want to share, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share, then select **Share**.
 1. If you're sharing a collection, select the **With people** tab.
