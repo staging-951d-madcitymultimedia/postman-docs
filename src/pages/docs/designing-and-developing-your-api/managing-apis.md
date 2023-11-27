@@ -29,7 +29,7 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 ## Sharing APIs
 
-You can share APIs with teammates by going to the API you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you want to share, then select **Share**.
+You can share APIs with collaborators by going to the API you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you want to share, then select **Share**.
 
 <img alt="Share API" src="https://assets.postman.com/postman-docs/v10/share-api-v10-21.jpg"/>
 

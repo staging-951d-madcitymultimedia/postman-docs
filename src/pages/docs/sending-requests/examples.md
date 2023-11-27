@@ -138,7 +138,7 @@ To edit an example after trying it, do the following:
 
 ## Sharing an example
 
-You can share examples with teammates by going to the example you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the example you want to share, then select **Share**.
+You can share examples with collaborators by going to the example you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the example you want to share, then select **Share**.
 
 <img alt="Share example" src="https://assets.postman.com/postman-docs/v10/share-request-v10-21.jpg"/>
 
