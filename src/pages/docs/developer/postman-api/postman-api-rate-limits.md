@@ -1,6 +1,6 @@
 ---
 title: "Track Postman API call limits"
-updated: 2022-11-30
+updated: 2023-11-27
 search_keyword: "postman-api, api-rate-limits, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
   - type: section
@@ -34,7 +34,7 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/postman-public-workspace/api/72a32ca3-f06a-4e83-a933-2821a0e6616f/definition/d429098b-1789-4c62-b77b-cf02024aba53?view=documentation"
 ---
 
-Postman's API access rate limits are applied at a per-key basis in unit time.
+Postman's API access rate limits are applied at a per-user basis in unit time.
 
 Access to the API using a key is limited to **300 requests per minute**. Every API response includes the following set of headers to identify the status of your consumption:
 
