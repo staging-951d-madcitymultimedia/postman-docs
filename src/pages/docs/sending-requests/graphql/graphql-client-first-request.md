@@ -52,7 +52,7 @@ This example creates and executes a GraphQL query using the schema explorer.
 1. In Postman, select **New > GraphQL** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **GraphQL**.)
 1. Select the URL field, then enter your URL or select `https://graphql.postman-echo.com/graphql` from the dropdown list. Postman uses introspection to load the schema and populate the schema explorer with data fields.
     > In the schema explorer, the data fields are grouped under their respective types: **Query**, **Mutation**, and **Subscription**.
-1. In the schema explorer, select the `hello` field, then select arguments `person`, `age`, and `name`. A query based on your selections appears in the query editor.
+1. In the schema explorer, select the `hello` field, then select arguments `person`, `name`, and `age`. A query based on your selections appears in the query editor.
 1. Enter your age and name in the input boxes next to `age` and `name` or in the query editor.
 1. Select **Query**.
 
@@ -60,10 +60,18 @@ This example creates and executes a GraphQL query using the schema explorer.
 
 ## Create multiple GraphQL queries
 
-The GraphQL request interface enables you to create multiple queries and execute them one at a time. You can select a checkbox in the schema explorer and select **Query** to execute only the selected query.
+This example creates multiple queries and executes them one at a time. You can select a checkbox in the schema explorer and select **Query** to execute only the selected query.
 
-<img src="https://assets.postman.com/postman-docs/v10/sending-multiquery-v10-1.gif" alt="Sending a single query using the Schema Explorer">
+1. [Create a new GraphQL request](#create-a-graphql-query) and select `https://graphql.postman-echo.com/graphql` from the dropdown list.
 
-You can also use the **Query** button dropdown to browse and select queries.
+1. In the schema explorer, select the `hello`, `person`, and `name` fields. Enter your name for the `name` field's value. A query appears in the query editor.
+
+1. In the schema explorer, scroll down and select the `greetings` field. A second query appears in the query editor and the first query is dimmed.
+
+1. In the query editor, select anywhere in the first query to activate it and select **Query**.
+
+1. Select anywhere in the second query and select **Query**.
+
+> You can also use the **Query** button dropdown list to browse and select queries from a request with multiple queries.
 
 <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/multiquery-switcher.jpg" alt="Sending multiple queries using the Query button">
