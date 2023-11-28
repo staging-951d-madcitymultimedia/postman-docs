@@ -133,24 +133,25 @@ const Header = (props) => {
       $('.nav-primary').toggleClass('activeMenu');
       $('.nav-secondary').toggleClass('activeMenu');
     });
-    // Dropdown Slideup Animation
+    // Toggles Dropdown Menu and Fade Animation
     function showBsDropdown() {
       $(this)
         .find('.dropdown-menu')
         .first()
         .stop(true, true)
-        .slideDown(225);
+        .fadeToggle(250)
       $(this)
         .find('.arrow-icon')
         .addClass('show');
     }
     $('.dropdown').on('show.bs.dropdown', showBsDropdown);
-    // Dropdown Slidedown Animation
+
+    // Unbinds Dropdown Menu and Fade Animation
     function hideBsDropdown() {
       $(this)
         .find('.dropdown-menu')
         .stop(true, true)
-        .slideUp(225);
+        .fadeToggle(250)
       $(this)
         .find('.arrow-icon')
         .removeClass('show');

@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI 3.0 security and formatting warnings"
+title: "OpenAPI 3 security and formatting warnings"
 updated: 2022-07-20
 contextual_links:
   - type: section
@@ -25,9 +25,9 @@ You can use Postman to identify any potential security and formatting issues whe
 
 <img alt="OpenAPI 3.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi3-v10.1.jpg" />
 
-### Warnings for OpenAPI 3.0
+### Warnings for OpenAPI 3
 
-For all APIs defined in OpenAPI 3.0, the following list describes possible warning messages and potential ways to resolve them.
+For all APIs defined in OpenAPI 3.0 and 3.1, the following list describes possible warning messages and potential ways to resolve them.
 
 <!-- vale off -->
 

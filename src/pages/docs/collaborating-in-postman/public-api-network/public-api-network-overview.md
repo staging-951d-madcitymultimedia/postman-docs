@@ -44,4 +44,5 @@ You can use these best practices and tips to help your API's consumers get start
 
 * [Organizing your public workspace](/docs/collaborating-in-postman/public-api-network/organizing-your-workspace/)
 * [Sharing your public workspace](/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/)
+* [Maintain APIs in your public workspace](/docs/collaborating-in-postman/public-api-network/maintain-api-in-workspace/)
 * [Syncing APIs with your public workspace](/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/)

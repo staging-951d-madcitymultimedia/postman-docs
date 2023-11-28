@@ -34,7 +34,7 @@ Create a monitor and a Flow to get the high and low temperature forecasts for a 
 * A [Twitter app](https://developer.twitter.com/en/docs/apps/overview):
     * For the **User authentication settings**, select **Read and write**.
     * For **Type of App**, select **Web App, Automated App or Bot**.
-    * For the **Callback URI** and **Website URL**, enter `https://postman.postman.co/`.
+    * For the **Callback URI** and **Website URL**, enter `https://go.postman.co/`.
 * Twitter keys and secrets:
     * API (consumer) key.
     * API (consumer) key secret.
