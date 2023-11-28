@@ -111,6 +111,8 @@ Select the team roles you'd like to assign to the group, or deselect team roles 
 
 You can control a group's access to individual workspaces, collections, APIs, environments, mock servers, and monitors. For more information on managing workspaces, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
+> You can use the Postman API to programmatically manage users and user groups for workspaces. For more information, see the [Postman API collection](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
+
 For collections, APIs, environments, mock servers, and monitors, go to the element you'd like to edit roles for. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then select **Manage roles**.
 
 <img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/v10/add-group-to-collection-v10.15.jpg" width="500px"/>
