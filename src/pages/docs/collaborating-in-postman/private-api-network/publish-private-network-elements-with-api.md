@@ -1,6 +1,6 @@
 ---
 title: "Automate publishing to the Private API Network using the Postman API"
-updated: 2023-08-02
+updated: 2023-11-27
 contextual_links:
   - type: section
     name: "Additional resources"
