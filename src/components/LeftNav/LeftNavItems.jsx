@@ -372,7 +372,7 @@ export const leftNavItems = [
             url: '/docs/sending-requests/graphql/graphql-overview/',
           },
           {
-            name: 'Create a GraphQL request',
+            name: 'Create GraphQL requests',
             url: '/docs/sending-requests/graphql/graphql-client-first-request/',
           },
           {
@@ -380,7 +380,7 @@ export const leftNavItems = [
             url: '/docs/sending-requests/graphql/graphql-http/',
           },
           {
-            name: 'GraphQL interface',
+            name: 'The GraphQL interface',
             url: '/docs/sending-requests/graphql/graphql-client-interface/',
           },
         ]
