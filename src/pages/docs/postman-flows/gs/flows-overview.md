@@ -1,6 +1,6 @@
 ---
 title: "Build API applications visually using Postman Flows"
-updated: 2023-07-17
+updated: 2023-11-22
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -37,9 +37,17 @@ contextual_links:
 
 ![Postman Flows](https://assets.postman.com/postman-docs/postman-flows-overview.gif)
 
+## Contents
+
+* [What is Postman Flows?](#what-is-postman-flows)
+* [What can you do with Flows?](#what-can-you-do-with-flows)
+* [Enabling Postman Flows](#enabling-postman-flows)
+* [Quick start](#quick-start)
+* [Contribute](#contribute)
+
 ## What is Postman Flows?
 
-Flows is an API-centric visual application development interface. It provides you with an infinite canvas to arrange and connect APIs.
+Postman Flows is an API-centric visual application development interface. It provides you with an infinite canvas to arrange and connect APIs.
 
 It's powered by the Postman Public API Network and your Collections. Flows provides data manipulation capabilities to bridge the gap between your APIs, and data visualization to show the final output of your Flow.
 
@@ -65,7 +73,9 @@ These Flow examples include multiple APIs for different products and tools as we
 
 ## Enabling Postman Flows
 
-To get started using Postman Flows in a Professional or Basic plan, assign the Flow Editor role to one or more of your team members. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+To get started using Postman Flows in a Professional or Basic plan, assign the Flow Editor role to one or more of your team members. The Flow Editor role is necessary for Professional and Basic plan team members to create, edit, and run Flows. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+
+The first time a team member in a Professional or Basic plan creates a Flow or selects **Flows** in the sidebar, a dialog notifies the team member that Postman is about to assign them the [Flow Editor](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role. Select **Continue** to assign the role or **Explore Flows gallery** to browse Flows templates, or close the dialog to cancel assigning the **Flow Editor** role.
 
 ## Quick start
 

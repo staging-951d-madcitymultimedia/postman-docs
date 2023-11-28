@@ -1,6 +1,6 @@
 ---
 title: "Select values using Postman Flow blocks"
-updated: 2023-08-15
+updated: 2023-11-22
 ---
 
 API requests often return a lot of information. In many cases, when using the information to perform a task, only some values are used. This is where the **Select** block is useful for picking one value at a time to work with.
@@ -15,6 +15,10 @@ API requests often return a lot of information. In many cases, when using the in
 Use the **Select** block when more than one value is returned. It's almost always used after a **Send Request** block because **Send Request** blocks always return more than one value.
 
 <img src="https://assets.postman.com/postman-labs-docs/concepts/adding-a-select-block-updated.gif" alt="Select block" fetchpriority="low" loading="lazy" />
+
+You can also create a **Select** block by dragging and dropping output data from a **Send Request** or **Output** block. The new **Select** block automatically selects the data you dragged and dropped.
+
+<img src="https://assets.postman.com/postman-docs/v10/flows-drag-and-drop-v10-20.gif" alt="Select block" fetchpriority="low" loading="lazy" />
 
 Connecting a **Select** block to a block that has already run or to a request that has a [saved example](/docs/sending-requests/examples/) displays a menu where you can select the value you want to use. This example (which uses the currency conversion API from our spotlight examples) selects `eur`, which automatically generates the structure to get that value. In this case, the request returns a set of data called `body`, which holds the two `date` and `eur` values. All requests have a data set named `body`, but the structure after that is different depending on the API being used.
 
