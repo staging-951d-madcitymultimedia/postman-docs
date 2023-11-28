@@ -47,7 +47,7 @@ contextual_links:
 
 ## What is Postman Flows?
 
-Flows is an API-centric visual application development interface. It provides you with an infinite canvas to arrange and connect APIs.
+Postman Flows is an API-centric visual application development interface. It provides you with an infinite canvas to arrange and connect APIs.
 
 It's powered by the Postman Public API Network and your Collections. Flows provides data manipulation capabilities to bridge the gap between your APIs, and data visualization to show the final output of your Flow.
 
