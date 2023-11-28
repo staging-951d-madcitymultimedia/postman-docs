@@ -102,7 +102,15 @@ Once you've reached your usage limit, you will no longer be able to run performa
 
 ## Test data usage
 
-Info about test data storage and retrieval...
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for [uploaded test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs). Your plan also gives you a limited number of file retrievals from the cloud each month.
+
+You can check your test data usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). You can view the amount of test data storage your team is using. You can also view the number of times test data has been retrieved from the cloud. Test data is retrieved each time a request that uses an uploaded file is sent manually or automatically by a scheduled collection run, monitor, or the Postman CLI.
+
+To manage your team's uploaded test data files, select **View detailed usage**. For each uploaded file, you can view the file name, who uploaded the file and when, the size of the file, when it was last retrieved, and the number of times it's been retrieved. You can filter the list by file name by typing in the search box, or filter the list by who uploaded the file by select a team member in the dropdown list.
+
+Select the download icon next to a file to download the file. Select the more actions icon next to a file and select **Delete** to delete the file. To delete a test data file, you must be a Team Admin.
+
+SCREENSHOT
 
 ## Postbot calls
 

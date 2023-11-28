@@ -70,6 +70,8 @@ See the following sections for other configuration options you can select for yo
 
 ![Create monitor page](https://assets.postman.com/postman-docs/v10/create-a-monitor-tab-1-v10.jpg)
 
+> Because monitors run in the Postman cloud, they don't support requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/requests/#sending-body-data). Instead, [upload your test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs) to make them available for monitors in the cloud.
+
 > Postman maintains limits on various team and user actions, including monitor creation. For more information, see [Monitor activity limits](/docs/monitoring-your-api/monitor-usage/#monitor-activity-limits).
 
 ### Uploading a data file

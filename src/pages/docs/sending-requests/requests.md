@@ -166,7 +166,7 @@ Choose the data type you need for your request body—[form data](#form-data), [
 
 Website forms often send data to APIs as `multipart/form-data`. You can replicate this in Postman using the `form-data` __Body__ tab. Form data enables you to send key-value pairs and specify the content type.
 
-You can also attach a file using form data and send it with your request. Hover over a key and select the **File** option. Then select **Select file** and choose the file you want to send. You can select a file from your local system, and Postman saves the file path in the request.
+You can also attach a file using form data and send it with your request. Select **File** in the dropdown list next to a key name, then select the file you want to send. You can select a file from your local system, and Postman saves the file path in the request.
 
 >You can also upload a file to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests-and-cloud-runs).
 
@@ -198,7 +198,7 @@ For JSON raw body data, you can add comments, and they will be stripped out when
 
 You can use __binary__ data to send information you can't enter manually in the Postman editor with your request body, such as image, audio, and video files. (You can also send text files.)
 
-Select **Select file** and choose the file you want to send. You can select a file from your local system, and Postman saves the file path in the request.
+Select the file you want to send with the request. You can select a file from your local system, and Postman saves the file path in the request.
 
 >You can also upload a file to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests-and-cloud-runs).
 
