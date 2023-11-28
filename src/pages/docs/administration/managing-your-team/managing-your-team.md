@@ -36,7 +36,7 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Managing team roles](#managing-team-roles)
     * [Managing Partners](#managing-partners)
     * [Managing Guests](#managing-guests)
-* [Manage your team's workspaces](#manage-your-teams-workspaces)
+* [Manage your team workspaces](#manage-your-team-workspaces)
 * [Manage your team's product access](#manage-your-teams-product-access)
     * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
     * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
@@ -182,9 +182,11 @@ To learn more about sharing collections with external users, see [Allowing exter
 
 For information on how to remove an external user from a team or collection, see [Changing external user access to collections](/docs/collaborating-in-postman/sharing/#changing-external-user-access-to-collections).
 
-## Manage your team's workspaces
+## Manage your team workspaces
 
 > **[Workspace management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+
+A _team workspace_ is a type of workspace that enables you to share projects with collaborators and manage access to them within your team. You can limit or prohibit creation of new team workspaces by users on your team.
 
 You can specify users and [groups](/docs/collaborating-in-postman/user-groups/) who have permission to [create team workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in your team. [Super Admins and Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create team workspaces whether you specify users and groups or not.
 
