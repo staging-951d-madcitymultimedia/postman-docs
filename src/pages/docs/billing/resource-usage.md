@@ -28,6 +28,7 @@ Refer to the following sections to understand what happens when your resource us
 * [Storage usage](#storage-usage)
 * [Flows usage](#flows-usage)
 * [Performance test limit](#performance-test-limit)
+* [Test data usage](#test-data-usage)
 * [Postbot calls](#postbot-calls)
 * [Postman API usage](#postman-api-usage)
 * [Integrations](#integrations)
@@ -98,6 +99,10 @@ You can check your performance test usage on the [Resource Usage dashboard](http
 <img alt="Performance test usage error" src="https://assets.postman.com/postman-docs/v10/usage-error-performance-test-v10-15.jpg" width="545px"/>
 
 Once you've reached your usage limit, you will no longer be able to run performance tests. To resume running performance tests before your monthly limit resets, you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
+
+## Test data usage
+
+Info about test data storage and retrieval...
 
 ## Postbot calls
 
