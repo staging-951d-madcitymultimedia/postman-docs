@@ -47,7 +47,7 @@ GraphQL requests in Postman include a variety of tools, views, and controls to h
 
 ## The request interface
 
-The request interface enables you to add configurations to connect to the server and execute the query. You can define the URL, load the schema, build your query, and select **Query** to execute it. Based on the API requirements, you may also need to pass authorization details, additional metadata, and settings along with the query.
+The request interface enables you to add configurations to connect to the server and execute the query. You can define the URL, load the schema, build your query, and select **Query** to execute it. Based on the API requirements, you may also need to pass authorization details, metadata, and settings along with the query.
 
 <img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10-20-5.jpg" alt="Different sections of the request interface">
 
@@ -57,16 +57,16 @@ The request interface enables you to add configurations to connect to the server
 
     > You can't change the request protocol after you save the request.
 
-* **URL field** - Enter the endpoint where the service is hosted here. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster when you're executing different queries with the same point.
+* **URL field** - Enter the endpoint where the service is hosted here. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster when you're executing different queries with the same endpoint.
 * **Query tab** - The **Query** tab has three subsections: the schema explorer, the query editor, and the variables editor.
-    * **Schema explorer** - Once the schema is loaded, the available data fields, arguments to be passed, and their respective descriptions appear in this section. The schema explorer also doubles as an interactive visual query editor enabling you to select individual fields and arguments to build your query.
+    * **Schema explorer** - Once the schema is loaded, the available data fields, arguments, and descriptions appear in this section. The schema explorer also doubles as an interactive visual query editor enabling you to select individual fields and arguments to build your query.
     * **Query editor** - Build and edit your queries here.
     * **Variables editor** - GraphQL enables you to pass variables as arguments for values defined dynamically in the client. You can use those variables in the query and define their values separately using the variables editor.
 * **Save button** - Saves the request into a collection so that you can reuse it later or document and share it with others.
 * **Query button** - Once you have defined the URL and built the query, you can select **Query** to execute it. Once the query is executed, the server sends back a response with the requested data.
-* **Other tabs** - The GraphQL interface also includes the following tabs:
+* **Other tabs** - The GraphQL client interface also includes the following tabs:
     * **Authorization** - You can enter authorization credentials here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/authorization).
-    * **Headers** - The **Headers** tab enables you to pass additional headers with the request in the form of key-value pairs. The client uses these headers to provide more information about the call to the server.
+    * **Headers** - The **Headers** tab enables you to pass headers with the request in the form of key-value pairs. The client uses these headers to provide information about the call to the server.
     * **Schema** - The **Schema** tab lets you configure a GraphQL schema to make the client aware of the data fields available from the server. You can select an API from a Postman workspace, import a schema from your computer, or use GraphQL introspection.
     * **Scripts** - The **Scripts** tab accesses Postman's powerful scripting environment that enables you to add JavaScript code (scripts) to your GraphQL requests. You can use scripts to write API tests, debug your requests by logging them to the [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](https://learning.postman.com/docs/sending-requests/variables/).
 
@@ -79,10 +79,10 @@ The response section has the following items for a single response:
 * **Body** - This tab shows the data returned by the server for the fields mentioned in the query.
 * **Wrap lines** - Select the wrap lines icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icons/wrap-lines-icon-v10-20.jpg#icon" width="18px"> to convert long lines of text into multiple lines so they don't extend beyond the boundary of the response section.
 * **Search** - Select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> to look for specific elements within the response.
-* **Headers** - This tab shows headers returned by the server, which typically consist of additional information about the execution.
+* **Headers** - This tab shows headers returned by the server, which typically include information about the execution.
 * **Test results** - This tab shows results for assertions you write in the scripts section. Based on the test script, the results can be one of three types: Passed, Failed, or Skipped.
 
-## Multiple responses
+### Multiple responses
 
 While executing a subscription-type query that returns multiple responses over a persistent connection, the response section shows these responses as a stream.
 

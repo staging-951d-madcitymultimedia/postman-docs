@@ -38,7 +38,7 @@ warning: false
 
 You can make [GraphQL](graphql.org) requests with the same interface you use to create HTTP requests in Postman.
 
-> You can also create GraphQL requests with [the GraphQL client](/docs/sending-requests/graphql/graphql-overview/). The GraphQL client is designed specifically for creating GraphQL requests and has additional features to streamline the process.
+> You can also create GraphQL requests with [the GraphQL client](/docs/sending-requests/graphql/graphql-overview/). The GraphQL client is designed specifically for creating GraphQL requests and has features that streamline the process.
 
 You can use Postman's HTTP request interface to create and send GraphQL requests in the following ways:
 
@@ -122,7 +122,7 @@ To import a GraphQL schema manually, do the following:
 
 ## Importing the query as a cURL request
 
-1. Select **Import** in the upper left.
+1. Select **Import**.
 1. Select **Raw text**.
 1. Paste your cURL command in the text field, then **Continue**. Your cURL command must contain a GraphQL endpoint URL and must specify the `POST` request method.
 
