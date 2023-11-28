@@ -1,6 +1,6 @@
 ---
 title: "Track Postman API call limits"
-updated: 2023-11-27
+updated: 2022-11-30
 search_keyword: "postman-api, api-rate-limits, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
   - type: section
