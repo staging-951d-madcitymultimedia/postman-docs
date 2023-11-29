@@ -270,7 +270,6 @@ You can manage Cookies for your domains from Postman. Select __Cookies__ (under 
 
 You can attach a file with test data to a request as form data or binary data. Postman will save the file path relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory) and use the file when sending the request. However, if you share the request in a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), the local file isn't shared. This means other team members won't be able to send the request unless they put a copy of the same file in their own local working directory. Also, a local file won't be available when sending a request from a [monitor](/docs/monitoring-your-api/intro-monitors/) or a [scheduled collection run](/docs/collections/running-collections/scheduling-collection-runs/), which are run in the Postman cloud and not locally.
 
-
 To enable sharing requests that use test data files, you can upload the files to the Postman cloud. Uploaded files are available to all members of your team and can be used to send requests that are shared in a workspace. Uploaded files are also available to requests sent from monitors and scheduled collection runs, and can be used from the [Postman CLI](/docs/postman-cli/postman-cli-overview/) (but not [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/)).
 
 > You must have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to upload a file for a request in the collection. Files can't be uploaded from scripts.
@@ -296,7 +295,7 @@ After uploading the file, other team members can send the request without needin
 
 Uploaded files can be used in any requests you or other members of your team create. Team members can [download files](/docs/billing/resource-usage/#test-data-usage) that have been uploaded to the team. Uploaded files can also be accessed by the Postman CLI when automating runs. If you fork a collection that uses test data files, you may need to upload any files that haven't been uploaded to your team.
 
-> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for uploaded test data files and a limited number of file retrievals from the cloud. To delete a test data file, you must be a Team Admin. Learn more about [managing test data usage](/docs/billing/resource-usage/#test-data-usage).
+> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for uploaded test data files. Your plan also gives you a limited number of file retrievals from the cloud. Learn more about [managing test data usage](/docs/billing/resource-usage/#test-data-usage).
 
 ## Choosing custom settings
 
