@@ -104,22 +104,22 @@ Once you've reached your usage limit, you will no longer be able to run performa
 
 Test data is made up of the data files you use to test various scenarios for your API. Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for [uploaded test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs). Your plan also gives you a limited number of file retrievals from the cloud each month.
 
-You can check your test data usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). You can view the amount of test data storage your team is using and the number of times test data has been retrieved from the cloud. Test data is retrieved each time a request that uses an uploaded file is sent manually or automatically from a scheduled collection run, monitor, or the Postman CLI.
+You can check your test data usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). You can view the amount of test data storage your team is using and the number of times test data has been retrieved from the cloud. Test data is retrieved each time a request that uses an uploaded file is sent manually or automatically from a [scheduled collection run](/docs/collections/running-collections/scheduling-collection-runs/), [monitor](/docs/monitoring-your-api/intro-monitors/), [Postman Flows](/docs/postman-flows/gs/flows-overview/), or the [Postman CLI](/docs/postman-cli/postman-cli-overview/). Multiple instances of the same file in a collection run or monitor run count as a single retrieval.
 
-To manage your team's uploaded test data files, select **View detailed usage**. For each uploaded file, you can view the file name, who uploaded the file and when, and file size. You can also view when the file was last retrieved and the number of times it's been retrieved.
+To manage your team's uploaded test data files, select **View detailed usage**. For each uploaded file, you can view the file name, who uploaded the file and when, and file size. You can also view when the file was last retrieved and the number of times it's been retrieved. You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to manage test data or delete test data files.
 
 To manage test data files, do any of the following:
 
 * To filter the list by file name, start typing in the search box.
 * To filter the list by who uploaded the file, select a team member in the dropdown list.
 * To download a file, select the download icon ICON next to a file.
-* To delete a file, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a file and select **Delete**. To delete a test data file, you must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+* To delete a file, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a file and select **Delete**.
 
 SCREENSHOT
 
 Once you've reached your test data storage limit, you won't be able to upload more test data files. You can delete files to free up storage space, or you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
-Once you're reached your test data retrieval limit, you won't be able to send requests that use data files. This includes sending files manually or automatically from a scheduled collection run, monitor, or the Postman CLI. To resume using test data before your monthly limit resets, you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
+Once you're reached your test data retrieval limit, you won't be able to send requests that use data files. This includes sending files manually or automatically from a scheduled collection run, monitor, Postman Flows, or the Postman CLI. To resume using test data before your monthly limit resets, you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
 ## Postbot calls
 
