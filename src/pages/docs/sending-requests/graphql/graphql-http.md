@@ -40,7 +40,7 @@ You can make [GraphQL](graphql.org) requests with the same interface you use to 
 
 > You can also create GraphQL requests with [the GraphQL client](/docs/sending-requests/graphql/graphql-overview/). The GraphQL client is designed specifically for creating GraphQL requests and has features that streamline the process.
 
-You can use Postman's HTTP request interface to create and send GraphQL requests in the following ways:
+## Contents
 
 * [Using Postman's built-in support for GraphQL](#using-postmans-built-in-support-for-graphql)
 * [Using JSON in the request body](#using-json-in-the-request-body)
