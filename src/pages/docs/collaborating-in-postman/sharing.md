@@ -89,7 +89,7 @@ You can share collections in a website or README with a Run in Postman button.
 
 For more information on making and using a Run in Postman button, read [Create Run in Postman buttons](/docs/publishing-your-api/run-in-postman/creating-run-button/).
 
-<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-2.jpg"/>
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-3.jpg"/>
 
 ### Sharing using the Postman API
 

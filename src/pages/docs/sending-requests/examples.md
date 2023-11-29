@@ -24,6 +24,7 @@ Examples show your API endpoints in action and give more details on how requests
     * [Adding a custom example](#adding-a-custom-example)
 * [Trying an example](#trying-an-example)
 * [Editing an example](#editing-an-example)
+* [Adding comments to an example](#adding-comments-to-an-example)
 * [Duplicating an example](#duplicating-an-example)
 * [Deleting an example](#deleting-an-example)
 * [Using examples in documentation](#using-examples-in-documentation)
@@ -85,7 +86,7 @@ Examples are stored in a collection with their associated requests. You can try 
 1. Select a request, and then select an example to open it.
 1. Select **Try** to open the example as a request in a new tab. The request will automatically send in the new tab.
 
-    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10-2.jpg)
+    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10-20.jpg)
 
 1. Review the request and response details.
 
@@ -119,7 +120,7 @@ To edit an example after trying it, do the following:
 1. Select a request, and then select an example to open it.
 1. Select **Try** to open the example as a request in a new tab.
 
-    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10-2.jpg)
+    ![Trying example](https://assets.postman.com/postman-docs/v10/sending-example-response-v10-20.jpg)
 
 1. Make any changes to the new request.
 1. Select **Send**.
@@ -133,6 +134,14 @@ To edit an example after trying it, do the following:
 1. Choose a location to save the new request, and then select **Save**.
 
     <img alt="Save request" src="https://assets.postman.com/postman-docs/v10/sending-example-response-save-request-v10-2.jpg" width="450px">
+
+## Adding comments to an example
+
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar and enter your comment.
+1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection that the example is in.
+1. Select **Comment** to add your comment.
+
+> You can learn more about [using comments to collaborate on examples](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
 
 ## Duplicating an example
 

@@ -98,5 +98,9 @@
     {
       "key": "PMLC_AUTH_AKAMAI_EDGEGRID_V1",
       "file": "/docs/sending-requests/authorization/akamai-edgegrid/"
+    },
+    {
+      "key": "PMLC_AUTH_ATLASSIAN_ASAP_V1",
+      "file": "/docs/sending-requests/authorization/atlassian/"
     }
   ]

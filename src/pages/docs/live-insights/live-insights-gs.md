@@ -78,7 +78,7 @@ Set up the LCA in your Kubernetes environment using `kube inject`, and edit the 
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
-    You can find the Postman API key in your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+    You can find the Postman API key in your [API keys](https://go.postman.co/settings/me/api-keys) page.
 
     The script consists of your Postman API key, the `postman-lc-agent kube inject` command, and the collection ID.
 
@@ -184,7 +184,7 @@ Configuring ECS requires:
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
-* Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+* Postman API key. You can copy it from your [API keys](https://go.postman.co/settings/me/api-keys) page.
 
 #### Install LCA as a sidecar
 
@@ -348,7 +348,7 @@ Configuring EC2/Linux Server requires:
 
     ![Get the collection ID](https://assets.postman.com/postman-docs/v10/live-insights-collectionID-v10-19.jpg)
 
-* Postman API key. You can copy it from your [API keys](https://postman.postman.co/settings/me/api-keys) page.
+* Postman API key. You can copy it from your [API keys](https://go.postman.co/settings/me/api-keys) page.
 
 #### Limitations
 
@@ -440,7 +440,7 @@ Creating a live collection activates an **Insights** tab where you can observe e
 
 > This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](mailto:live.insights.alpha@postman.com).
 
-![Insights tab](https://assets.postman.com/postman-docs/v10/live-insights-insights-tab-v10-19-2.jpg)
+![Insights tab](https://assets.postman.com/postman-docs/v10/live-insights-insights-tab-v10-20-2.jpg)
 
 Live Insights returns a list of categories for endpoints with most errors, endpoints with the highest error rate, and endpoints with new errors over the last 7 days, selectable from a dropdown list:
 

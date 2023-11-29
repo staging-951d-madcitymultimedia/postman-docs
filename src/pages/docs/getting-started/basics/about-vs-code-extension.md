@@ -1,6 +1,6 @@
 ---
 title: "About the Postman VS Code extension"
-updated: 2023-09-20
+updated: 2023-11-15
 search_keyword: "vs code extension, vs code plugin, vs code rest client, vs code api, VSC extension, visual studio extension"
 contextual_links:
   - type: section
@@ -31,10 +31,11 @@ The VS Code extension enables you to:
 * Edit and send requests from a workspace's request history.
 * Create cookies and send them with requests.
 * Create and manage collections and environments.
+* Run a collection's requests in a sequence using the Collection Runner.
 * Troubleshoot API requests in the Postman Console.
 
 > The Postman VS Code extension is in beta.
 
 To install and learn more about the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
-![Postman VS Code extension](https://assets.postman.com/postman-docs/postman-vs-code-extension-3.jpg)
+![Postman VS Code extension](https://assets.postman.com/postman-docs/postman-vs-code-extension-v0-14-3.jpg)

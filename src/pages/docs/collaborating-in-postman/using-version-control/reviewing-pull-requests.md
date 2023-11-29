@@ -64,16 +64,10 @@ The diff will tell you whether a change is an addition, a deletion, or a modific
 
 ## Adding comments
 
-Adding comments as a reviewer is an important part of the pull request process, facilitating meaningful conversations and allowing stakeholders to have a voice in the process.
+1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar and enter your comment.
+1. Select **Comment** to add your comment.
 
-To add a comment to a pull request, do the following:
-
-1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
-1. Once you've written your comment, select **Add Comment**.
-
-<img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/v10/pr-add-comment-v10.jpg"/>
-
-> To tag another user in your comment, use the **@** symbol before their username.
+> You can learn more about [using comments to collaborate on pull requests](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
 
 ## Editing or declining a pull request
 

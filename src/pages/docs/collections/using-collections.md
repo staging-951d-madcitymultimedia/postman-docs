@@ -254,7 +254,7 @@ You can fork collections in your own workspace to [develop collection versions](
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
 1. Select **Comment** to add your comment.
 
-> To learn more about using comments to collaborate on collections and requests, go to [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
+> To learn more about using comments to collaborate on collections and requests, go to [Comment on collections, folders, and requests](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
 
 ### Reverting collection changes
 

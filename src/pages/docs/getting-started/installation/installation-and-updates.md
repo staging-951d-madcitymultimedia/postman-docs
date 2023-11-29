@@ -106,6 +106,7 @@ When installing Postman on Linux, also be aware of the following:
 * Avoid starting Postman using the `sudo` command, as it will create permission issues on the files created by Postman.
 * Make sure you have read/write permission for the `~/.config` folder where Postman stores information.
 * If you're an Ubuntu 18 user, you will also need to install the `libgconf-2-4` package with the command `apt-get install libgconf-2-4`.
+* Make sure you have `openssl` installed on your machine.
 
 ## Use the Postman web app
 
@@ -163,7 +164,7 @@ Postman's infrastructure runs on Amazon's AWS platform. If you're operating behi
 * `*.getpostman.com`
 * `*.postman.co`
 * `*.pstmn.io`
-* `*postman.com`
+* `*.postman.com`
 
 By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). For Postman v10, allow the following domains:
 

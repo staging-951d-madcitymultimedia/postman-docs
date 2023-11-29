@@ -42,3 +42,9 @@ Explore [workspaces, collections, and more](https://www.postman.com/explore) tha
 ## Collection templates
 
 > <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> When you see a box like this in the Learning Center docs, it contains a link to a collection template. Select **Use Template** on the overview page to copy it to your workspace and try it out!
+
+## Quick Help
+
+If you have a quick question about something in the Postman app, look for "learn more" help link or the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the Workbench. These will open context-sensitive help from the Postman Learning Center in a side pane in the Postman app.
+
+You can open Quick Help in your web browser with the Open in icon <img alt="Open in icon" src="https://assets.postman.com/postman-docs/icons/icon-open-in.jpg#icon" width="16px">.

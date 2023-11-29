@@ -41,6 +41,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Tabs](#tabs)
     * [Right sidebar](#right-sidebar)
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
+    * [Quick Help](#quick-help)
 * [Footer](#footer)
 
 <img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10.jpg"/>
@@ -255,6 +256,12 @@ The environment selector enables you to choose which [environment](/docs/sending
 <img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
 
 To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
+
+### Quick Help
+
+If you have a quick question about something in the Postman app, look for "learn more" help links or the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the Workbench. These will open context-sensitive help from the Postman Learning Center in a side pane in the Postman app.
+
+You can open the displayed Quick Help in a new web browser window with the open in icon <img alt="Open in icon" src="https://assets.postman.com/postman-docs/icons/icon-open-in.jpg#icon" width="16px">.
 
 ## Footer
 
