@@ -1,7 +1,7 @@
 ---
 title: "Define roles and permissions within a Postman team"
 order: 72
-updated: 2022-12-19
+updated: 2023-12-15
 page_id: "roles_and_permissions"
 warning: false
 contextual_links:
@@ -116,6 +116,8 @@ You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-worksp
 * **Partner Lead** (External, [Enterprise Ultimate plans only](https://www.postman.com/pricing)) - Can invite other partners from their organization to join a [Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/). To learn more, see [Partner team and Partner Workspace roles](#partner-team-and-partner-workspace-roles).
 
 Partners have different permissions for Workspace Editor and Viewer roles in Partner Workspaces ([Enterprise Ultimate plans only](https://www.postman.com/pricing)). To learn more, see [Partner team and Partner Workspace roles](#partner-team-and-partner-workspace-roles).
+
+> You can use the Postman API to programmatically manage users and user groups for workspaces. For more information, see the [Postman API collection](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 
 The following roles control access at a workspace level:
 
