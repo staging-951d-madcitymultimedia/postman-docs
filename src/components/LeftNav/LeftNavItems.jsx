@@ -376,12 +376,12 @@ export const leftNavItems = [
             url: '/docs/sending-requests/graphql/graphql-client-first-request/',
           },
           {
-            name: 'Other GraphQL requests',
-            url: '/docs/sending-requests/graphql/graphql-http/',
-          },
-          {
             name: 'The GraphQL interface',
             url: '/docs/sending-requests/graphql/graphql-client-interface/',
+          },
+          {
+            name: 'Other GraphQL requests',
+            url: '/docs/sending-requests/graphql/graphql-http/',
           },
         ]
       },
