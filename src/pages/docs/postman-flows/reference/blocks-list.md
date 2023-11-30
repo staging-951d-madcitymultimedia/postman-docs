@@ -1,6 +1,6 @@
 ---
 title: "Postman Flows blocks"
-updated: 2023-04-12
+updated: 2023-11-22
 ---
 
 The blocks available in Postman Flows are described below.
@@ -88,6 +88,10 @@ Outputs the current date and time.
 <img alt="Select block" src="https://assets.postman.com/postman-labs-docs/all-blocks/select-block.png" width="142px"/>
 
 Selects a specific part of the information output from another block. If the input information is from a **Send Request** block with a saved example, a drop-down will pop up that has all the information available to choose from and selecting that information will auto-fill the select block.
+
+You can also create a **Select** block by dragging and dropping output data from a **Send Request** or **Output** block. The new **Select** block automatically selects the data you dragged and dropped.
+
+<img src="https://assets.postman.com/postman-docs/v10/flows-drag-and-drop-v10-20.gif" alt="Select block" fetchpriority="low" loading="lazy" />
 
 [Example](https://www.postman.com/postman/workspace/flows-snippets/flow/63bc6e92e308d202595085cb)
 
@@ -257,7 +261,7 @@ Runs a request in a collection and outputs the result. If a request that has a s
 
 ### Log (Console)
 
-<img alt="Log (console) block" src="https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png" width="78px"/>
+<img alt="Log block" src="https://assets.postman.com/postman-labs-docs/all-blocks/log-block.png" width="78px"/>
 
 Sends the information input to the block to the Postman Console.
 

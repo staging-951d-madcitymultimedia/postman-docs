@@ -1021,6 +1021,10 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/',
           },
           {
+            name: 'Maintain APIs in your public workspace',
+            url: '/docs/collaborating-in-postman/public-api-network/maintain-api-in-workspace/',
+          },
+          {
             name: 'Sync APIs with your public workspace',
             url: '/docs/collaborating-in-postman/public-api-network/sync-api-with-workspace/',
           },
@@ -1472,11 +1476,11 @@ export const leftNavItems = [
             url: '/docs/api-governance/api-definition/api-definition-warnings/',
           },
           {
-            name: 'OpenAPI 3.0 rules',
+            name: 'OpenAPI 3 rules',
             url: '/docs/api-governance/api-definition/openapi3/',
           },
           {
-            name: 'OpenAPI 2.0 rules',
+            name: 'OpenAPI 2 rules',
             url: '/docs/api-governance/api-definition/openapi2/',
           },
         ],

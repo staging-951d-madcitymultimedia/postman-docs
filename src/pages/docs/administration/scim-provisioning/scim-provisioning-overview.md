@@ -78,6 +78,8 @@ Postman supports the following provisioning features:
 
         > Users in a group have the roles assigned to the group. You can [update group roles in Postman](/docs/collaborating-in-postman/user-groups/#editing-team-roles-for-a-group) and [control a group's access to workspaces and individual Postman elements](/docs/collaborating-in-postman/user-groups/#managing-roles-on-workspaces-and-postman-elements), such as collections and APIs.
 
+    > Updating group information from Postman to your IdP isn't supported in [SCIM provisioning through Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/). If you're using Okta and you want to use this provisioning feature, use the [SCIM 2.0 Okta app](https://www.okta.com/integrations/scim-2-0-test-app-header-auth/).
+
 Postman doesn't support the following provisioning features:
 
 * Push groups from Postman to your IdP
