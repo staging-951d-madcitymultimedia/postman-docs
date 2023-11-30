@@ -22,6 +22,8 @@ If there are no collections in the workspace, six easy-to-use requests will appe
 
 This example uses [Postman's echo service API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation).
 
+> Postman Flows can't run requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/requests/#sending-body-data). If your collection has requests that use files, [upload your test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs) to make them available to Postman Flows.
+
 ### Variables
 
 _Variables_ are values that can change from one request to another. These can be things like IDs, usernames, and numbers.

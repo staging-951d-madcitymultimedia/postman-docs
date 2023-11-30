@@ -295,7 +295,7 @@ To upload a file to the Postman cloud, do the following:
 
 After uploading the file, other team members can send the request without needing to place a copy of the file in their local working directory. Instead, the request will use the uploaded file. Also, the uploaded file is used if the request is sent from a monitor or a scheduled collection run.
 
-Uploaded files can be used in any requests you or other members of your team create. Uploaded files can also be accessed by Postman Flows and the Postman CLI when automating runs. If you fork a collection that uses test data files, you may need to upload any files that haven't been uploaded to your team.
+Uploaded files can be used in any requests you or other members of your team create (except in public workspaces). Uploaded files can also be accessed by Postman Flows and the Postman CLI when automating runs. If you fork a collection that uses test data files, you may need to upload any files that haven't been uploaded to your team.
 
 > Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for uploaded test data files. Your plan also gives you a limited number of file retrievals from the cloud. Learn more about [managing test data usage](/docs/billing/resource-usage/#test-data-usage).
 
