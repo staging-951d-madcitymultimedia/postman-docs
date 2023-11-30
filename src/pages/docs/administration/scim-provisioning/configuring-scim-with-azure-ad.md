@@ -31,12 +31,9 @@ Postman can be connected to Microsoft Entra ID using the "non-gallery applicatio
 To set up provisioning with Microsoft Entra ID, do the following:
 
 1. In Postman, [enable SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-in-postman) and [generate a SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
-1. Sign in to the [Microsoft Entra ID portal](https://aad.portal.azure.com/).
-1. In Microsoft Entra ID, select **Enterprise applications** from the left pane.
-1. Select **+ New application**.
-1. Select **+ Create your own application**.
-1. Enter a name, then select **Integrate any other application you don't find in the gallery**.
-1. Select **Add** to create an app object. This adds the new Postman app to the list of enterprise applications and opens to the app management screen.
+1. Sign in to the [Microsoft Entra ID portal](https://entra.microsoft.com/).
+1. Select **Applications**, and then **Enterprise applications** from the left pane.
+1. Select the Postman app if you have already added the same for configuring SSO. Otherwise, select **+ New application**, search for "Postman" and select the Postman app from the results, then select Create.
 1. In the app management screen, select **Provisioning** in the left pane.
 1. In the **Provisioning Mode** menu, select **Automatic**.
 1. In the **Tenant URL** field, enter the Postman SCIM endpoint: `https://api.getpostman.com/scim/v2/`
