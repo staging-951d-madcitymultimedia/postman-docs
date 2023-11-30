@@ -166,13 +166,11 @@ Choose the data type you need for your request body—[form data](#form-data), [
 
 Website forms often send data to APIs as `multipart/form-data`. You can replicate this in Postman using the `form-data` __Body__ tab. Form data enables you to send key-value pairs and specify the content type.
 
-You can also attach a file using form data and send it with your request. Select **File** in the dropdown list next to a key name, then select the file you want to send. You can select a file from your local system, and Postman saves the file path in the request.
+You can also attach a file using form data and send it with your request. Select **File** in the dropdown list next to a key name, then select the file you want to send. You can select a file from your local system, and Postman saves the file path in the request. The saved file path is relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory).
 
->You can also upload a file to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests-and-cloud-runs).
+>You can also upload a file with test data to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests-and-cloud-runs).
 
-UPDATE SCREENSHOT
-
-![Form Data](https://assets.postman.com/postman-docs/v10/form-data-v10.jpg)
+![Add form data](https://assets.postman.com/postman-docs/v10/request-form-data-v10-21.jpg)
 
 #### URL-encoded
 
@@ -198,11 +196,11 @@ For JSON raw body data, you can add comments, and they will be stripped out when
 
 You can use __binary__ data to send information you can't enter manually in the Postman editor with your request body, such as image, audio, and video files. (You can also send text files.)
 
-Select the file you want to send with the request. You can select a file from your local system, and Postman saves the file path in the request.
+Select the file you want to send with the request. You can select a file from your local system, and Postman saves the file path in the request. The saved file path is relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory).
 
->You can also upload a file to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests-and-cloud-runs).
+>You can also upload a file with test data to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests-and-cloud-runs).
 
-SCREENSHOT
+![Add binary data](https://assets.postman.com/postman-docs/v10/request-binary-data-v10-21.jpg)
 
 #### GraphQL
 
@@ -282,16 +280,18 @@ To upload a file to the Postman cloud, do the following:
 1. Select **form-data** or **binary** depending on the type of data you want to send with the request.
 1. If you're attaching form data, select **File** in the dropdown list next to a key name.
 
-    SCREENSHOT
+    ![Select the form data file option](https://assets.postman.com/postman-docs/v10/test-data-file-option-v10-21.jpg)
 
 1. Select the test data file you want to use for the request:
 
     * To use a local file, select **+ New file from local machine**. Select a file and select **Open**. Supported file types are CSV, JSON, and binary.
     * To use a file that was uploaded before, select the file in the list. You can use any file uploaded by a member of your team. To search for a file, start typing the file name.
 
-    SCREENSHOT
+    ![Select a test data file](https://assets.postman.com/postman-docs/v10/test-data-select-file-v10-21.jpg)
 
-1. To upload a file, save the request. Then select the upload icon ICON next to the file and select **Upload**. Uploaded files can't exceed 5 MB in size.
+1. To upload a file, select the upload icon <img alt="Upload icon" src="https://assets.postman.com/postman-docs/icons/icon-upload-file.jpg#icon" width="26px"> next to the file and select **Upload**. Uploaded files can't exceed 5 MB in size.
+
+    ![Upload a test data file](https://assets.postman.com/postman-docs/v10/test-data-upload-file-v10-21.jpg)
 
 After uploading the file, other team members can send the request without needing to place a copy of the file in their local working directory. Instead, the request will use the uploaded file. Also, the uploaded file is used if the request is sent from a monitor or a scheduled collection run.
 

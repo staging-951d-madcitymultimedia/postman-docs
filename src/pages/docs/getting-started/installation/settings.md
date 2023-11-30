@@ -52,13 +52,13 @@ Use the settings on the **General** tab to configure how Postman sends requests 
 
 ### Working directory
 
-When you send a form-data or binary file with a request body, Postman saves a path to the file as part of the collection. The file path is relative to your working directory. Postman uses `~/Postman/files` as the default working directory. To use a different working directory, select **Choose** and then select the directory you want to use.
+When you send a form-data or binary file with a request body, Postman saves a path to the test file as part of the collection. The file path is relative to your working directory. Postman uses `~/Postman/files` as the default working directory. To use a different working directory, select **Choose** and then select the directory you want to use.
 
 ![Working directory settings](https://assets.postman.com/postman-docs/v10/working-directory-web-v10-16a.jpg)
 
 **To make collaboration easier, store files in your working directory.** Storing files in your working directory ensures that requests in shared collections always work. As long as you and your teammates use the same files and working directory location, shared requests will run across everyone's systems. Learn more about [sending body data](/docs/sending-requests/requests/#sending-body-data).
 
-**You can upload files to the Postman cloud and use them to send a request.** If you share the request in a workspace, other team members can send the shared request without needing to copy the files to their local working directory. Learn more about [uploading files for shared requests](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs).
+**You can upload test data files to the Postman cloud and use them to send a request.** If you share the request in a workspace, other team members can send the shared request without needing to copy the files to their local working directory. Learn more about [uploading files for shared requests](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs).
 
 **You can't change the working directory in the Postman web app.** When you send a file with a request, the Postman web app creates a new folder with a random name in the `~/Postman/files` directory. Postman stores a copy of the file in the new folder so you can use it when sending requests. To automatically sync files from the Postman web app with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
@@ -67,7 +67,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 > * To access a file from the Postman desktop app using the web app, copy it from the desktop app’s working directory into `~/Postman/files` so the web app has access to it.
 > * To access a file from the Postman web app using the desktop app, find the file in `~/Postman/files`. When you add a file to a request using the web app, it creates a folder with a random name in `~/Postman/files`. Copy this folder into your desktop app’s working directory so the desktop app has access to it.
 > * If you’re sharing a request with others, each team member must have the files present in the correct working directory. If one team member adds a file to a request using the Postman web app, they need to share the folder and file that's created with everyone who wants to use the request, and this folder must be copied to each team member's working directory.
-> * Instead of copying files to your local system, you can upload files to the Postman cloud. All team members can use the uploaded files to send requests without needing to place the files in their working directory. Learn more about [uploading files for shared requests](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs).
+> * Instead of copying files to your local system, you can upload test data files to the Postman cloud. All team members can use the uploaded files to send requests without needing to place the files in their working directory. Learn more about [uploading files for shared requests](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs).
 
 **The working directory is also used by Newman.** Store files you want to use with Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/collections/using-newman-cli/newman-file-uploads/).
 

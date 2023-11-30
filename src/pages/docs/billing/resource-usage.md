@@ -112,10 +112,10 @@ To manage test data files, do any of the following:
 
 * To filter the list by file name, start typing in the search box.
 * To filter the list by who uploaded the file, select a team member in the dropdown list.
-* To download a file, select the download icon ICON next to a file.
+* To download a file, select the download icon <img alt="Download icon" src="https://assets.postman.com/postman-docs/icon-download-v9.jpg#icon" width="16px"/> next to a file.
 * To delete a file, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a file and select **Delete**.
 
-SCREENSHOT
+![Manage test data](https://assets.postman.com/postman-docs/v10/test-data-manage-v10-21.jpg)
 
 Once you've reached your test data storage limit, you won't be able to upload more test data files. You can delete files to free up storage space, or you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
 
