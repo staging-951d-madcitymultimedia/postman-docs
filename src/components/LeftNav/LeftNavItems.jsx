@@ -1560,6 +1560,10 @@ export const leftNavItems = [
         url: '/docs/reports/api-gov-reports/',
       },
       {
+        name: 'Public API Network report',
+        url: '/docs/reports/public-api-network-reports/',
+      },
+      {
         name: 'Billing overview report',
         url: '/docs/reports/billing-overview-reports/',
       },
