@@ -19,36 +19,17 @@ Your team must have only SAML-based SSO authentication methods enabled to turn o
 
 ## Contents
 
-* [Claim verified accounts](#claim-verified-accounts)
+* [About domain capture](#about-domain-capture)
 
-    * [User experience](#user-experience)
+* [Enable domain capture](#enable-domain-capture)
+
+    * [Claim verified accounts](#claim-verified-accounts)
 
     * [Contact support to manage accounts](#contact-support-to-manage-accounts)
 
 * [Domain capture support and FAQs](#domain-capture-support-and-faqs)
 
-## Claim verified accounts
-
-After you've [added and verified](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#add-and-verify-a-domain) a domain, you can enable domain capture by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). To enable domain capture, a Team Admin must create a request with Postman support. Once the request is approved, you can work with Postman support to manage [unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
-
-To enable domain capture, do the following:
-
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
-1. Select **Manage** next to the domain with the **VERIFIED** status you want to enable domain capture for.
-1. Select **Request To Claim**. Postman support will then contact Team Admins to explain the effects of enabling domain capture.
-1. Once the request is approved, you can [contact Postman support](#contact-support-to-manage-accounts) to manage [unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
-
-To view the status of your request to enable domain capture, select **Manage** next to the domain. After you select **Request To Claim**, the request status is changed to **REQUEST SENT**.
-
-![Request to claim sent](https://assets.postman.com/postman-docs/v10/request-to-claim-sent-v10.jpg)
-
-Once the request is approved, a notification will display towards the top of the screen explaining that **Account Capture has been enabled**.
-
-![Domain capture enabled](https://assets.postman.com/postman-docs/v10/domain-capture-enabled-v10.jpg)
-
-> To turn off domain capture, you must [contact Postman support](#contact-support-to-manage-accounts).
-
-### User experience
+## About domain capture
 
 When domain capture is enabled, new Postman users who sign up for Postman with email addresses associated with your domain or subdomain are automatically added to your team.
 
@@ -66,15 +47,40 @@ For more details on the effects of enabling domain capture, see [Domain capture 
 
 > If users experience any issues when moving to your Postman team, reach out to [Postman support](https://www.postman.com/support/).
 
+## Enable domain capture
+
+Team Admins can work with Postman support to enable domain capture for your team. Navigate to the [domain dashboard](https://go.postman.co/settings/team/domain-capture) and [create a request to claim accounts](#claim-verified-accounts) associated with a verified domain. The request is reviewed by Postman support. When the request is approved, Team Admins can work with Postman support to [manage accounts associated with the verified domain](#contact-support-to-manage-accounts).
+
+### Claim verified accounts
+
+Team Admins can create a request with Postman support to claim verified accounts associated with a [verified domain](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/). Domain capture is enabled once the request is approved. Once the request is approved, you can work with Postman support to manage [unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
+
+To enable domain capture, do the following:
+
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
+1. Select **Manage** next to the domain with the **VERIFIED** status you want to enable domain capture for.
+1. Select **Request To Claim**. Postman support will then contact Team Admins to explain the effects of enabling domain capture.
+1. Domain capture is enabled once the request is approved. You can [contact Postman support](#contact-support-to-manage-accounts) to manage [unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
+
+To view the status of your request to enable domain capture, select **Manage** next to the domain. After you select **Request To Claim**, the request status is changed to **REQUEST SENT**.
+
+![Request to claim sent](https://assets.postman.com/postman-docs/v10/request-to-claim-sent-v10.jpg)
+
+Once the request is approved, a notification will display towards the top of the screen explaining that **Account Capture has been enabled**.
+
+![Domain capture enabled](https://assets.postman.com/postman-docs/v10/domain-capture-enabled-v10.jpg)
+
+> To turn off domain capture, you must [contact Postman support](#contact-support-to-manage-accounts).
+
 ### Contact support to manage accounts
 
-Once the request is approved to enable domain capture, Team Admins can contact Postman support by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Contact Postman support to claim accounts not part of your team, merge teams into your team, and restrict users to only work in your team.
+Once the request is approved to [claim verified accounts](#claim-verified-accounts), Team Admins can contact Postman support to claim accounts not part of your team, merge teams into your team, and restrict users to only work in your team.
 
 1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
 
 1. Select **Manage** next to the domain with the **VERIFIED** status you want to contact support about.
 
-    > Domain capture must be enabled for the domain you want to contact support about.
+    > Domain capture must be enabled for the domain you want to contact support about. Learn more about [enabling domain capture](#claim-verified-accounts).
 
 1. Select **Contact Support**.
 
