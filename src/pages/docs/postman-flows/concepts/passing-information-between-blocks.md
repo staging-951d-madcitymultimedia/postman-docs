@@ -1,6 +1,6 @@
 ---
 title: "Send data between blocks in a Postman Flow"
-updated: 2023-08-15
+updated: 2023-11-22
 ---
 
 A typical Flow often involves making a request, and then doing something with the result of that request. To do this, Flows pass information between blocks to perform tasks.
@@ -17,6 +17,10 @@ Once data is selected, it can be used with other blocks. Sending it to an **Outp
 <img src="https://assets.postman.com/postman-labs-docs/concepts/updated-using-selected-data.gif" alt="Using selected data" fetchpriority="low" loading="lazy" />
 
 Adding another **Send Request** block and then dragging a connection to its `value1` and `value2` variable inputs lets the request use the value for `eur` and `date` that was returned in the first request.
+
+You can also create a **Select** block by dragging and dropping output data from a **Send Request** or **Output** block. The new **Select** block automatically selects the data you dragged and dropped.
+
+<img src="https://assets.postman.com/postman-docs/v10/flows-drag-and-drop-v10-20.gif" alt="Select block" fetchpriority="low" loading="lazy" />
 
 ### Blocks inside of other blocks
 
