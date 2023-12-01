@@ -35,7 +35,7 @@ Use Postman's GraphQL client to create GraphQL requests with one or multiple que
 
 The GraphQL client interface is specifically designed for crafting GraphQL requests. It enables you to explore a GraphQL API's data fields and construct queries by selecting fields or entering code in an editor. For requests with multiple queries, you can select specific queries and run them individually.
 
-> You can also create GraphQL requests [with Postman's HTTP interface](/docs/sending-requests/graphql/graphql-http/), which supports GraphQL but requires more steps than the GraphQL client.
+> You can also create GraphQL requests [with Postman’s HTTP interface](/docs/sending-requests/graphql/graphql-http/), which supports GraphQL but requires more steps than the GraphQL client.
 
 ## Contents
 
