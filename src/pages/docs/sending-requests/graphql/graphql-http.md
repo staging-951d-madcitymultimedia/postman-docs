@@ -36,7 +36,7 @@ warning: false
 
 ---
 
-Postman's [GraphQL client](/docs/sending-requests/graphql/graphql-overview/) is tailored for making GraphQL requests. However, you can also use Postman's [standard HTTP request interface](/docs/sending-requests/requests/) to create GraphQL requests with a few extra steps.
+Postman's [GraphQL client](/docs/sending-requests/graphql/graphql-overview/) is tailored for making GraphQL requests. However, you can also use Postman's [standard HTTP request interface](/docs/sending-requests/requests/) to create GraphQL requests with extra steps.
 
 ## Contents
 

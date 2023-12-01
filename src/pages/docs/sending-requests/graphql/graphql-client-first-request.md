@@ -32,11 +32,11 @@ contextual_links:
 warning: false
 ---
 
-Create a GraphQL request with Postman's GraphQL client.
+Use Postman's GraphQL client to create GraphQL requests with one or multiple queries.
 
-The GraphQL client interface is specifically designed for crafting GraphQL requests, enabling you to explore an API's data fields and construct queries by selecting fields.
+The GraphQL client interface is specifically designed for crafting GraphQL requests. It enables you to explore a GraphQL API's data fields and construct queries by selecting fields or entering code in an editor. For requests with multiple queries, you can select specific queries and run them individually.
 
-> You can also create GraphQL requests [with Postman's regular interface](/docs/sending-requests/graphql/graphql-http/), which supports GraphQL but may require extra steps.
+> You can also create GraphQL requests [with Postman's regular interface](/docs/sending-requests/graphql/graphql-http/), which supports GraphQL but requires more steps than the GraphQL client.
 
 ## Contents
 
@@ -50,17 +50,22 @@ This example creates and executes a GraphQL query using the schema explorer.
 > If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
 1. In Postman, select **New > GraphQL** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **GraphQL**.)
-1. Select the URL field, then enter your URL or select `https://graphql.postman-echo.com/graphql` from the dropdown list. Postman uses introspection to load the schema and populate the schema explorer with data fields.
+1. Select the URL field, then select `https://graphql.postman-echo.com/graphql` from the dropdown list. Postman uses introspection to load the schema and populate the schema explorer with data fields.
     > In the schema explorer, the data fields are grouped under their respective types: **Query**, **Mutation**, and **Subscription**.
 1. In the schema explorer, select the `hello` field, then select arguments `person`, `name`, and `age`. A query based on your selections appears in the query editor.
+    > You can also build a query by entering code in the query editor.
 1. Enter your age and name in the input boxes next to `age` and `name` or in the query editor.
 1. Select **Query**.
+
+    ![GraphQL request with a single query](https://assets.postman.com/postman-docs/v10/graphql-single-query-v10-20.jpg)
 
 ## Create a GraphQL request with multiple queries
 
 This request has multiple queries and executes them one at a time. You can select a checkbox in the schema explorer and select **Query** to execute only the selected query.
 
-1. [Create a new GraphQL request](#create-a-graphql-request-with-one-query) and select `https://graphql.postman-echo.com/graphql` from the dropdown list.
+1. In Postman, select **New > GraphQL** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **GraphQL**.)
+
+1. Select the URL field, then select `https://graphql.postman-echo.com/graphql` from the dropdown list. Postman uses introspection to load the schema and populate the schema explorer with data fields.
 
 1. In the schema explorer, select the `hello`, `person`, and `name` fields. Enter your name for the `name` field's value. A query appears in the query editor.
 
@@ -70,6 +75,8 @@ This request has multiple queries and executes them one at a time. You can selec
 
 1. Select anywhere in the second query and select **Query**.
 
-> You can also use the **Query** button dropdown list to browse and select queries from a request with multiple queries.
+    ![GraphQL request with multiple queries](https://assets.postman.com/postman-docs/v10/graphql-multi-query-v10-20-1.jpg)
 
-<img src="https://assets.postman.com/postman-labs-docs/graphql-docs/multiquery-switcher.jpg" alt="Sending multiple queries using the Query button">
+    > You can also use the **Query** button dropdown list to browse and select queries from a request with multiple queries.
+
+    <img src="https://assets.postman.com/postman-docs/v10/graphql-select-query-v10-20.jpg" alt="Select a query with the Query button dropdown list" width="437" >
