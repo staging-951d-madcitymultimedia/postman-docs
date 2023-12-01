@@ -45,7 +45,7 @@ Postman can make requests using [GraphQL](https://www.graphql.org), an open-sour
 
 APIs that support GraphQL enable clients to ask the server for only the data they need, using GraphQL’s powerful query language and runtime. Unlike REST, which uses multiple endpoints to access different data sets, GraphQL streamlines querying by accessing all data through a single endpoint.
 
-GraphQL is schema-driven, providing insight into an API's functionality and reducing dependency between teams building the client and the server. A client can introspect the schema from the server to see the available data fields, and then send queries specifying which fields to retrieve or manipulate. The server returns or modifies only the data requested in the query, which prevents overfetching or underfetching data.
+GraphQL is schema-driven, providing insight into an API’s functionality and reducing dependency between teams building the client and the server. A client can introspect the schema from the server to see the available data fields, and then send queries specifying which fields to retrieve or manipulate. The server returns or modifies only the data requested in the query, which prevents overfetching or underfetching data.
 
 ## GraphQL requests
 
