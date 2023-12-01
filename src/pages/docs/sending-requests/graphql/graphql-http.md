@@ -74,10 +74,11 @@ To enable autocompletion while writing queries, your request needs a GraphQL sch
 
 <img src="https://assets.postman.com/postman-docs/v10/graphql-autofetch-schema-v10-20.jpg" width="355px" alt="GraphQL auto-fetch schema"/>
 
-You can also import a schema manually. When you [create or import a GraphQL schema](/docs/designing-and-developing-your-api/creating-an-api/) into your workspace, you can select it instead of the auto-fetched schema.
+You also have the option to manually import a schema into your request. After [creating or importing a GraphQL API](/docs/designing-and-developing-your-api/creating-an-api/) into your workspace, you can use that API's schema for your request instead of the auto-fetched schema.
 
-To import a GraphQL schema manually, do the following:
+To import a GraphQL schema into your request manually, do the following:
 
+1. [Create or import a GraphQL API](/docs/designing-and-developing-your-api/creating-an-api/) in your workspace.
 1. Select **New > HTTP** and enter a GraphQL endpoint URL in the URL field.
 1. Select `POST` from the request method dropdown list.
 1. Under the **Body** tab, select the **GraphQL** body type.
@@ -92,7 +93,7 @@ To import a GraphQL schema manually, do the following:
 
 1. Open a new request tab in Postman and enter your GraphQL endpoint URL in the address field.
 1. Select `POST` from the request method dropdown list.
-1. In the **Headers** tab, add the `Content-type` of `application/json`.
+1. Under the **Headers** tab, add the `Content-type` of `application/json`.
 1. Under the **Body** tab, select the **raw** body type. Choose **JSON** from the format dropdown list.
 1. Construct your query in the request body using proper JSON formatting.
 
@@ -103,7 +104,7 @@ To import a GraphQL schema manually, do the following:
 1. Select **New > HTTP** and enter a GraphQL endpoint URL in the URL field.
 1. Select `POST` from the request method dropdown list.
 1. Under the **Body** tab, select the **GraphQL** body type.
-1. In the **Headers** tab, add the `Content-type` of `application/graphql`.
+1. Under the **Headers** tab, add the `Content-type` of `application/graphql`.
 
     ![Set the content-type header](https://assets.postman.com/postman-docs/v10/graphql-http-content-type-v10-20.jpg)
 
@@ -115,4 +116,4 @@ To import a GraphQL schema manually, do the following:
 ## Importing the query as a cURL request
 
 1. Select **Import**.
-1. Paste your cURL command in the request bar. Your cURL command must contain a GraphQL endpoint URL and must specify the `POST` request method. The request opens in a new tab with the GraphQL endpoint URL you specified and the `POST` request method.
+1. Paste your cURL command in the request bar. Your cURL command must contain a GraphQL endpoint URL and must specify the `POST` request method. Postman opens the request in a new tab with the specified GraphQL endpoint URL and the `POST` request method selected.
