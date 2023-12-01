@@ -11,7 +11,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-domain-capture/"
 ---
 
-> **[Domain verification is available on Postman Enterprise plans. Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
+> **[Domain verification is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can add and verify a domain or subdomain to enable Postman to implicitly trust your team and its connection to your organization. It also improves the onboarding process as you continue to grow your Postman team. Domain verification is one of the [prerequisites for enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#prerequisites-for-domain-capture).
 
@@ -26,8 +26,6 @@ Without a verified domain, individual accounts that you invite to your team are 
     * [Verify a domain later](#verify-a-domain-later)
 
 * [View verification details](#view-verification-details)
-
-* [View unclaimed accounts](#view-unclaimed-accounts)
 
 * [Enable domain capture](#enable-domain-capture)
 
@@ -69,7 +67,7 @@ Team Admins can add domains and subdomains to your team in your [domain dashboar
 
     > It may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
 
-1. Once your domain is verified, you can [view unclaimed accounts](#view-unclaimed-accounts) and [request to enable domain capture](#enable-domain-capture).
+1. Once your domain is verified, you can [request to enable domain capture](#enable-domain-capture).
 
 > If you're unable to verify your domain in Postman, please contact your Customer Success Manager or [Postman support](https://www.postman.com/support/) for assistance.
 
@@ -95,7 +93,7 @@ To verify a domain you've already added, do the following:
 
     > It may take up to 24 hours for the TXT changes to take effect to enable successful verification of the domain. Team Admins will receive an email notification when the domain is verified.
 
-1. Once your domain is verified, you can [view unclaimed accounts](#view-unclaimed-accounts) and [request to enable domain capture](#enable-domain-capture).
+1. Once your domain is verified, you can [request to enable domain capture](#enable-domain-capture).
 
 ## View verification details
 
@@ -105,21 +103,8 @@ Team Admins can view verification details for verified and unverified domains in
 1. Select **Manage** next to the domain you want to view verification details for.
 1. Select **View Verification Details**.
 
-## View unclaimed accounts
-
-Unclaimed accounts are accounts associated with a verified domain that haven't signed in since domain capture was enabled and aren't yet part of your team. Team Admins can view unclaimed accounts in the [domain dashboard](https://go.postman.co/settings/team/domain-capture).
-
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Authentication** in the left sidebar, then select the **Domains** tab.
-1. Select **Manage** next to the domain with the **VERIFIED** status you want to view unclaimed accounts for, and then select **View Accounts**.
-
-    > Optionally, you can select the number of unclaimed accounts next to the domain in the domain dashboard.
-
-1. View the list of accounts not part of your team.
-
-    <img alt="View unclaimed accounts" src="https://assets.postman.com/postman-docs/v10/view-unclaimed-accounts-v10.jpg" width="450px"/>
-
-1. Optionally, you can select **Export CSV** to export the list as a CSV file. You will receive an email containing the download link.
-
 ## Enable domain capture
+
+> **[Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 After you've added and verified a domain, you can [enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/).

@@ -19,11 +19,11 @@ contextual_links:
 
 ## Contents
 
-* [Why should my organization enable domain verification and capture in Postman?](#why-should-my-organization-enable-domain-verification-and-capture-in-postman)
+* [Benefits of enabling domain verification and capture](#benefits-of-enabling-domain-verification-and-capture)
 
 * [Prerequisites for domain capture](#prerequisites-for-domain-capture)
 
-## Why should my organization enable domain verification and capture in Postman?
+## Benefits of enabling domain verification and capture
 
 Domain verification removes friction from the developer onboarding process. As users authenticate into Postman with your verified domain, they'll be automatically directed to your organization's official team. This ensures that new teammates are instantly provided with all of the resources they’ll need to be successful contributors.
 

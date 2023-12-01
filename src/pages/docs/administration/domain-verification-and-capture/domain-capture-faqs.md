@@ -50,7 +50,7 @@ The experience for captured users depends on their prior team status:
 
 ### Can a Team Admin view the list of user accounts that will be captured before enabling domain capture?
 
-Yes, a Team Admin can view the list of the unclaimed Postman accounts that will be captured prior to confirming they'd like to enable domain capture. To learn more, see [View unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
+Yes, a Team Admin on an [Enterprise Ultimate plan](https://www.postman.com/pricing) can view the list of the unclaimed Postman accounts that will be captured prior to confirming they'd like to enable domain capture. To learn more, see [View unclaimed accounts](/docs/administration/domain-verification-and-capture/enable-domain-capture/#view-unclaimed-accounts).
 
 ### Does adding a domain automatically add all the team members with the organization’s domain to the organization’s team?
 
