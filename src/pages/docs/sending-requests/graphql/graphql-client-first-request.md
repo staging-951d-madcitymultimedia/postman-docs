@@ -66,7 +66,7 @@ This request has multiple queries and executes them one at a time. To execute on
 
 1. Select the URL field, then select `https://graphql.postman-echo.com/graphql` from the dropdown list. Postman uses introspection to load the schema and populate the schema explorer with data fields.
 
-1. In the schema explorer, select the `hello`, `person`, and `name` fields. Enter your name for the `name` field's value. A query appears in the query editor.
+1. In the schema explorer, select the `hello`, `person`, and `name` fields. Enter your name in the `name` field. A query appears in the query editor.
 
 1. In the schema explorer, scroll down and select the `greetings` field. A second query appears in the query editor and the first query is dimmed.
 
