@@ -1,6 +1,5 @@
 ---
 title: "The GraphQL client interface"
-page_id: "graphql-client-interface"
 updated: 2023-11-15
 contextual_links:
   - type: section
@@ -62,7 +61,7 @@ In the GraphQL client's request section you can enter an endpoint in the URL fie
 
 * **Protocol dropdown list** - Change the protocol for a new request. Select the protocol dropdown list then select a request protocol.
 
-    <img src="https://assets.postman.com/postman-docs/v10/change-protocol-v10-20.jpg" alt="Change protocol" width="216"/>
+    <img src="https://assets.postman.com/postman-docs/v10/change-protocol-v10-20.jpg" alt="Change protocol" width="432"/>
 
     > You can't change the request protocol after you save the request.
 

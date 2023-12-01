@@ -1,6 +1,5 @@
 ---
 title: "GraphQL in Postman"
-page_id: "about-the-graphql-client"
 updated: 2023-11-15
 contextual_links:
   - type: section

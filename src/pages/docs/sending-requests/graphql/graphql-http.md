@@ -1,6 +1,5 @@
 ---
 title: "Other GraphQL requests"
-page_id: "graphql-http"
 updated: 2023-11-15
 contextual_links:
   - type: section
