@@ -60,7 +60,7 @@ This example creates and executes a GraphQL query using the schema explorer.
 
 ## Create a GraphQL request with multiple queries
 
-This request has multiple queries and executes them one at a time. You can select a checkbox in the schema explorer and select **Query** to execute only the selected query.
+This request has multiple queries and executes them one at a time. To execute only the selected query, select a checkbox in the schema explorer and select **Query** .
 
 1. In Postman, select **New > GraphQL** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **GraphQL**.)
 
