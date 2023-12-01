@@ -78,7 +78,7 @@ Postman supports the following Linux distributions: Ubuntu 14.04 and later, Fedo
 
 > The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/latest/development/build-instructions-linux).
 
-You can install Postman on Linux by installing from the [Snap](https://snapcraft.io/postman) store page, or with the command `snap install postman`. You can also [download](https://www.postman.com/downloads/) the latest version of Postman and unzip and untar the file with the command `tar zxf linux_64`.
+You can install Postman on Linux from the [Snap](https://snapcraft.io/postman) store page or by using the command `snap install postman`. If installing from the command line, first ensure that you’re set up for [snaps](https://snapcraft.io/docs/installing-snapd). Alternatively, you can [download](https://www.postman.com/downloads/) the latest version of Postman and unpack the file using the command `tar zxf linux_64`.
 
 > Postman recommends installing using [Snap](https://snapcraft.io/postman) because it includes all the libraries the app needs and they're bundled with the app itself.
 
