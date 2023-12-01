@@ -11,7 +11,7 @@ You can use the **Show By** dropdown list in the upper right to show metrics by 
 
 > These metrics don't include requests to your APIs from user-created collections.
 
-* **Collection views** - The number of times users viewed your public collections. You can switch between total views and unique views. Total views shows the number of times any user viewed your public collections. Unique views shows the number of times users signed in to Postman viewed your public collections.
-* **New collection forks** -
-* **Total API calls** - The number of times that users sent requests in forked collections, and the response codes returned by the APIs.
+* **Collection views** - The number of times users viewed your collections. You can switch between total views and unique users. Total views shows the number of times any user viewed your collections. Unique users shows the number of times users signed in to Postman viewed your collections at least once.
+* **New collection forks** - The number of times your collections were forked. You can switch between total forks and unique users. Total forks shows the number of times any user forked your collections. Unique users shows the number of times users signed in to Postman forked your collections at least once.
+* **Total API calls** - The number of times users sent requests in forked collections, and the response codes returned by the APIs.
 * **Total users vs users with auth failure calls** - The number of users who sent requests to your APIs in forked collections, and the number of users who sent requests to your APIs and received a `401 Unauthorized` response code. You can learn more about [setting up authorization for public APIs](/docs/sending-requests/authorization/authentication-for-public-apis/) in Postman.
