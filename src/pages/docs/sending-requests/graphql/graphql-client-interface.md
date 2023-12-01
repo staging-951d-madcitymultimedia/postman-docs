@@ -56,7 +56,7 @@ The GraphQL client interface has three main sections:
 
 ## The request section
 
-In the GraphQL client's request section you can enter an endpoint in the URL field as you would in the regular Postman request interface. But the GraphQL client adds GraphQL-specific features, including an interactive schema explorer.
+In the GraphQL client's request section, you can enter an endpoint in the URL field as you would in the regular Postman request interface. But the GraphQL client adds GraphQL-specific features, including an interactive schema explorer.
 
 <img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10-20-9.jpg" alt="The request section">
 
