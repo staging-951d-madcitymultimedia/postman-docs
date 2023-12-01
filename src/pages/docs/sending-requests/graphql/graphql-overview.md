@@ -49,7 +49,7 @@ GraphQL is schema-driven, providing insight into an API's functionality and redu
 
 ## GraphQL requests
 
-Every GraphQL request has a URL and a query. The URL is the endpoint where the data is hosted, and the query defines what data to retrieve or manipulate. The API's schema defines available data fields. The request can also contain authentication, headers, and settings based on the requirements specified by the API.
+Every GraphQL request has a URL and a query. The URL is the endpoint where the data is hosted, and the query defines what data to retrieve or manipulate. The API’s schema defines available data fields. The request can also contain authentication, headers, and settings based on the requirements specified by the API.
 
 GraphQL requests can perform three types of operations:
 
