@@ -84,7 +84,7 @@ You can install Postman on Linux by installing from the [Snap](https://snapcraft
 
 ### Create a Linux launcher icon
 
-To start the app from a launcher icon, install the desktop file, located in the bundle, into a `applications` subdirectory of a path contained in [`$XDG_DATA_DIRS`](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) (for example `~/.local/share/applications/`):
+To start the app from a launcher icon, install the desktop file, located in the bundle, into an `applications` subdirectory of a path contained in [`$XDG_DATA_DIRS`](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) (for example `~/.local/share/applications/`):
 
 ```shell
 install -t ~/.local/share/applications/ /</path/to/file>/Postman/app/resources/Postman.desktop
