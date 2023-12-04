@@ -13,11 +13,13 @@ contextual_links:
 
 > **[Domain verification is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can add and verify a domain or subdomain to enable Postman to implicitly trust your team and its connection to your organization. It also improves the onboarding process as you continue to grow your Postman team. Domain verification is one of the [prerequisites for enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#prerequisites-for-domain-capture).
+As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can add and verify a domain or subdomain. This enables Postman to implicitly trust your team and its connection to your organization. It also improves the onboarding process as you continue to grow your Postman team. Domain verification is one of the [prerequisites for enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#prerequisites-for-domain-capture).
 
 When you verify your organization's domain, it removes the friction of adding users who have already verified their email addresses with the relevant domain when they created Postman accounts. Postman will no longer require users' permission to join your team, letting you instantly provide new teammates with all of the resources they’ll need to be successful contributors.
 
 Without a verified domain, individual accounts that you invite to your team are given the option to join or dismiss the invite. If they choose to join, they're also required to reauthenticate prior to accessing the team.
+
+> Learn more about the [benefits of enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture).
 
 ## Contents
 
@@ -28,16 +30,6 @@ Without a verified domain, individual accounts that you invite to your team are 
 * [View verification details](#view-verification-details)
 
 * [Enable domain capture](#enable-domain-capture)
-
-<!-- ## Why should my organization verify a domain with Postman?
-
-Adding and verifying a domain enables Postman to implicitly trust your team and its connection to your organization. It's required to turn on [domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture-in-postman), but it also improves the onboarding process as you continue to grow your Postman team.
-
-Without a verified domain, individual accounts that you invite to your team are given the option to join or dismiss the invite. If they choose to join, they're also required to reauthenticate prior to accessing the team.
-
-When you verify your organization's domain, it removes the friction of adding users who have already verified their email addresses with the relevant domain when they created Postman accounts. Postman will no longer require users' permission to join your team, letting you instantly provide new teammates with all of the resources they’ll need to be successful contributors.
-
-> For more information on the benefits of enabling domain capture, see [Why should my organization enable domain capture in Postman?](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture-in-postman) -->
 
 ## Add and verify a domain
 
@@ -107,4 +99,4 @@ Team Admins can view verification details for verified and unverified domains in
 
 > **[Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-After you've added and verified a domain, you can [enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/).
+After you've added and verified a domain and completed the [prerequisites for enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#prerequisites-for-domain-capture), you can [enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/).
