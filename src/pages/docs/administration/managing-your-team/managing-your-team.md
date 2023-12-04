@@ -48,12 +48,7 @@ Postman provides a variety of options to customize your team's experience, from 
 
 ## Setting up your team
 
-Once you've created your Postman team, you can take the following steps to enable an efficient user onboarding process:
-
-* Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that Postman is available on all devices used by your organization and that it functions as expected.
-* [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to let other Postman users from your organization request to join your team.
-* [Configure SSO](/docs/administration/sso/admin-sso/) ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
-* [Configure SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) ([Enterprise plans only](https://www.postman.com/pricing)).
+Once you've created your Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to set up your team.
 
 ## Managing team members
 
