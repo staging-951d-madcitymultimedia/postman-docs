@@ -166,29 +166,34 @@ The following roles control access at a collection level:
 
 ### API roles
 
-You can [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) two role types in Postman APIs: **Editor** and **Viewer**.
+You can [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) three role types in Postman APIs: **Admin**, **Editor**, and **Viewer**.
 
-* **Editor** - Can edit APIs directly
-* **Viewer** - Can view and export APIs
+* **Admin** - Can publish, move, and delete APIs
+* **Editor** - Can edit APIs and API definitions
+* **Viewer** - Can view published API versions
+
+> If you have the [Workspace Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) role, you will automatically inherit Admin permissions for all APIs in the workspace, even if you are assigned the Editor or Viewer role for an API.
 
 The following roles control access at an API level:
 
-| APIs |   Editor   | Viewer |
-| ---   |   ---     | ---   |
-| Edit and delete APIs |  &#x2714;     |     |
-| Manage roles on APIs  |  &#x2714;   |   |
-| Share APIs  |   &#x2714;   | &#x2714;   |
-| Comment on APIs |   &#x2714;   |    |
-| Comment on published API versions |   &#x2714;   | &#x2714;   |
-| Create new API versions |  &#x2714;   |    |
-| Update schema |  &#x2714;   |    |
-| Generate collections from the schema |   &#x2714;  |    |
-| View reports for APIs |   &#x2714;  | &#x2714;   |
-| Add and remove API environments |   &#x2714;  |    |
-| Add and remove API documentation |   &#x2714;  |   |
-| Add and remove API tests |   &#x2714;  |   |
-| Add and remove API monitors |   &#x2714;  |    |
-| Add and remove API mock servers |   &#x2714;  |    |
+| APIs | Admin |   Editor   | Viewer |
+| ---   |   ---     | ---   | --- |
+| Edit APIs and API definitions |   &#x2714;   |  &#x2714;     |     |
+| Publish APIs |   &#x2714;   |     |     |
+| Move and delete APIs |   &#x2714;   |     |     |
+| Manage roles on APIs  |   &#x2714;   |   &#x2714;&ast;    |   |
+| Comment on APIs |   &#x2714;   |   &#x2714;   |    |
+| Comment on published API versions |   &#x2714;   |   &#x2714;   | &#x2714;   |
+| Share APIs  |   &#x2714;   |   &#x2714;   | &#x2714;   |
+| Generate collections from the API definition |   &#x2714;   |   &#x2714;  |    |
+| Add and remove API documentation collections |   &#x2714;   |   &#x2714;  |   |
+| Add and remove API test collections |   &#x2714;   |   &#x2714;  |   |
+| Add and remove CI integrations |   &#x2714;   |   &#x2714;  |   |
+| Add and remove APM integrations |   &#x2714;   |   &#x2714;  |    |
+| Add and remove API gateway integrations |   &#x2714;   |   &#x2714;  |    |
+| View reports for APIs |   &#x2714;   |   &#x2714;  | &#x2714;   |
+
+&ast;  API Editors can assign users the Viewer or Editor role. API Editors can't assign a user the Admin role, or change an Admin to an Editor or Viewer.
 
 ## Environment roles
 

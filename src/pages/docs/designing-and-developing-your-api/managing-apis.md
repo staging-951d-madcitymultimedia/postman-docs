@@ -39,7 +39,7 @@ For more details, see [Sharing Postman elements](/docs/collaborating-in-postman/
 
 You can move APIs to shared workspaces to [collaborate with your team](https://www.postman.com/api-platform/api-collaboration/).
 
-> You must be an Editor on an API or the Workspace Admin to move the API to another workspace. To learn more about roles and permissions, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
+> You must be an [Admin](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) on an API or the [Workspace Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to move the API to another workspace. To learn more about roles and permissions, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 In the sidebar, select the API you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
@@ -110,7 +110,7 @@ You will also receive an email with the information regarding who made the chang
 
 You can add one or more comments to an API. Use comments to discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders.
 
-API producers ([Editor role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can add comments to an API. API consumers ([Viewer role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can't add comments to an API and won't see comments made by API producers. However, API consumers can comment on [published versions](#commenting-on-published-apis) of an API.
+API producers ([Admin role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) or [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can add comments to an API. API consumers ([Viewer role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can't add comments to an API and won't see comments made by API producers. However, API consumers can comment on [published versions](#commenting-on-published-apis) of an API.
 
 To add a new comment to an API, do the following:
 

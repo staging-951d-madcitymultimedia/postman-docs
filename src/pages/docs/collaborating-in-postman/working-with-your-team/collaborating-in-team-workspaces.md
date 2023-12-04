@@ -53,7 +53,7 @@ You can invite team members to join a [new](/docs/collaborating-in-postman/using
 
 You can move collections, APIs, environments, and Flows to shared workspaces to collaborate with your team.
 
-> You must be an Editor on a collection, API, environment, or Flow, the Workspace Admin, or a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to move an element to another workspace.
+> You must be an Editor on a collection, environment, or Flow, the Workspace Admin, or a Super Admin to move an element to another workspace. For APIs, you must be the API Admin, the Workspace Admin, or a Super Admin.  Learn more about [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
 In the sidebar, select the element you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 

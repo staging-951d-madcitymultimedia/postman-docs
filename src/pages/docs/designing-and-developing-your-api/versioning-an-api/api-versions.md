@@ -34,7 +34,9 @@ You can also publish an API version programmatically with [the Postman CLI](/doc
 
 Publish an API version to share the current state of your API with consumers. You can select the elements (definition and collections) to include with your published API.
 
-> If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud.
+If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud.
+
+> You must have the [API Admin role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) to publish an API.
 
 To publish an API version, do the following:
 
