@@ -46,6 +46,8 @@ The GraphQL client interface has three main sections:
 
 ![Different sections of a GraphQL request](https://assets.postman.com/postman-docs/v10/graphql-request-full-view-v10-4.jpg)
 
+> If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
+
 ## Contents
 
 * [The request section](#the-request-section)
@@ -66,7 +68,7 @@ In the GraphQL client's request section, you can enter an endpoint in the URL fi
     > You can't change the request protocol after you save the request.
 
 * **URL field** - Enter the GraphQL server's URL here. You can also select this field to browse URLs you've already used.
-* **Tabs**
+* **Tabs** - The following tabs are available:
     * **Query** - The **Query** tab has three subsections: the schema explorer, the query editor, and the variables editor.
     * **Authorization** - You can enter authorization credentials here. You can choose from a list of auth types including API key, basic auth, and bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/authorization).
     * **Headers** - The **Headers** tab enables you to pass headers with the request in the form of key-value pairs. The client uses these headers to provide information about the call to the server.

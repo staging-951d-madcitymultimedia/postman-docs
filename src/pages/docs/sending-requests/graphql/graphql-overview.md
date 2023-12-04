@@ -32,7 +32,7 @@ warning: false
 
 ---
 
-Postman can make requests using [GraphQL](https://www.graphql.org), an open-source query language and runtime for APIs. See [Create GraphQL requests in Postman](/docs/sending-requests/graphql/graphql-client-first-request/) to learn how.
+Postman can make requests using GraphQL, an open-source query language and runtime for APIs.
 
 ## Contents
 
@@ -63,7 +63,7 @@ GraphQL requests can perform three types of operations:
 
 Postman's [GraphQL client](/docs/sending-requests/graphql/graphql-client-interface/) loads automatically when you create a new GraphQL request. The GraphQL client interface is specifically designed for crafting GraphQL requests, enabling you to explore an API's data fields and construct queries by selecting fields.
 
-> You can also make GraphQL requests using Postman's HTTP request interface. To learn more, see [Other GraphQL requests](/docs/sending-requests/graphql/graphql-http/).
+> You can also make GraphQL requests using Postman's regular request interface. To learn more, see [Make an HTTP call with GraphQL](/docs/sending-requests/graphql/graphql-http/).
 
 ## Next steps
 
