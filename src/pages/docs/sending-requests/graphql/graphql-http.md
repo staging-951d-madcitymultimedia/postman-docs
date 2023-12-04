@@ -58,7 +58,7 @@ Postman has built-in support for [sending GraphQL queries in the request body](#
 
     ![Select the GraphQL body type](https://assets.postman.com/postman-docs/v10/graphql-http-query-v10-20.jpg)
 
-### Using GraphQL variables
+### Use GraphQL variables
 
 1. Enter your GraphQL variables in the **GraphQL variables** editor.
 1. In the **Query** editor, declare the GraphQL variable in your query. For more information on how to use GraphQL variables, see the [GraphQL variables documentation](https://graphql.org/learn/queries/#variables).
