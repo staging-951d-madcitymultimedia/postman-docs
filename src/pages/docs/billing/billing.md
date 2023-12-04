@@ -239,7 +239,7 @@ Select **Modify Plan** under the plan type for your team. Update the number of F
 
 You can manage which team members consume Postbot seats from the [product access dashboard](https://go.postman.co/settings/team/products-access). Learn how to [manage your team's access to Postbot](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-access-to-postbot).
 
-If you are a free user, you can purchase Postbot seats by selecting **Upgrade** in the Postman header and navigating to the bundle section to add Postbot. Update the number of Postbot seats and select from Annual or Monthly payment options, then select **Next**. Enter your billing information and payment method, then select **Confirm**.
+If you are a Free plan user, you can purchase Postbot seats by selecting **Upgrade** in the Postman header and navigating to the bundle section to add Postbot. Update the number of Postbot seats and select from Annual or Monthly payment options, then select **Next**. Enter your billing information and payment method, then select **Confirm**.
 
 ### Manage Enterprise solutions licenses
 
