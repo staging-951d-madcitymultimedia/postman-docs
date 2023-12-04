@@ -36,7 +36,7 @@ Postman provides a variety of options to customize your team's experience, from 
     * [Managing team roles](#managing-team-roles)
     * [Managing Partners](#managing-partners)
     * [Managing Guests](#managing-guests)
-* [Manage your team's workspaces](#manage-your-teams-workspaces)
+* [Manage your team workspaces](#manage-your-team-workspaces)
 * [Manage your team's product access](#manage-your-teams-product-access)
     * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
     * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
@@ -48,12 +48,7 @@ Postman provides a variety of options to customize your team's experience, from 
 
 ## Setting up your team
 
-Once you've created your Postman team, you can take the following steps to enable an efficient user onboarding process:
-
-* Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that Postman is available on all devices used by your organization and that it functions as expected.
-* [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to let other Postman users from your organization request to join your team.
-* [Configure SSO](/docs/administration/sso/admin-sso/) ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
-* [Configure SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) ([Enterprise plans only](https://www.postman.com/pricing)).
+Once you've created your Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to set up your team.
 
 ## Managing team members
 
@@ -168,6 +163,8 @@ You can manage external partners similarly to internal team members. To learn mo
 
 ### Managing Guests
 
+> **[Guests are available on Free, Basic, and Professional plans.](https://www.postman.com/pricing)**
+
 You can manage external users who have permission to view specific collections and send requests in the collections. External users with these permissions are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). A [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can change an external user's role to the Developer role by going to your [team dashboard](https://go.postman.co/settings/team/members) and selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they're added to the team and get access to all team resources and workspaces.
 
 <img alt="Convert Guest role" src="https://assets.postman.com/postman-docs/v10/manage-guests-v10.15.jpg"/>
@@ -182,9 +179,11 @@ To learn more about sharing collections with external users, see [Allowing exter
 
 For information on how to remove an external user from a team or collection, see [Changing external user access to collections](/docs/collaborating-in-postman/sharing/#changing-external-user-access-to-collections).
 
-## Manage your team's workspaces
+## Manage your team workspaces
 
 > **[Workspace management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+
+A _team workspace_ is a type of workspace that enables you to share projects with collaborators and manage access to them within your team. You can limit or prohibit creation of new team workspaces by users on your team.
 
 You can specify users and [groups](/docs/collaborating-in-postman/user-groups/) who have permission to [create team workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in your team. [Super Admins and Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create team workspaces whether you specify users and groups or not.
 
