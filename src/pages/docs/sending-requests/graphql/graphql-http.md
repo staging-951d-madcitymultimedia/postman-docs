@@ -48,7 +48,7 @@ Postman's [GraphQL client](/docs/sending-requests/graphql/graphql-overview/) is 
 
 Postman has built-in support for [sending GraphQL queries in the request body](#sending-graphql-queries-in-the-request-body), [using GraphQL variables](#using-graphql-variables), and [introspection and importing GraphQL schemas](#introspection-and-importing-graphql-schemas).
 
-### Sending GraphQL queries in the request body
+### Send GraphQL queries in the HTTP request body
 
 1. Select **New > HTTP** and enter a GraphQL endpoint URL in the URL field.
 1. Select `POST` from the request method dropdown list.
