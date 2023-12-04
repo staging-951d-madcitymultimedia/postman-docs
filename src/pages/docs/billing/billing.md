@@ -233,7 +233,7 @@ Update the number of Flow Editor seats, monitoring blocks, mock server blocks, a
 
 > The Postbot add-on is currently available for Free, Basic and Professional plans.
 
-If you are on Basic or Professional plans, you can purchase Flow Editor and Postbot seats by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit plan** on the right.
+If you are on a Basic or Professional plan, you can purchase Flow Editor and Postbot seats by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit plan** on the right.
 
 Select **Modify Plan** under the plan type for your team. Update the number of Flow Editor and Postbot seats in the **Add-on products** section, then select **Next**. Select **Confirm Changes** to purchase more seats.
 
