@@ -19,13 +19,13 @@ contextual_links:
 
 ## Contents
 
-* [Why should my organization enable domain capture?](#why-should-my-organization-enable-domain-capture)
+* [Why should my organization enable domain capture in Postman?](#why-should-my-organization-enable-domain-capture-in-postman)
 
 * [Prerequisites for domain capture](#prerequisites-for-domain-capture)
 
 * [Set up domain capture](#set-up-domain-capture)
 
-## Why should my organization enable domain capture?
+## Why should my organization enable domain capture in Postman?
 
 Domain capture benefits both administrators and developers.
 
