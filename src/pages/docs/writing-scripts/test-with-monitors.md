@@ -2,7 +2,7 @@
 title: "Run API test scripts using Postman Monitors"
 order: 91
 page_id: "test_with_monitors"
-updated: 2022-2-14
+updated: 2023-12-01
 search_keyword: "setEnvironmentVariable, postman.setEnvironmentVariable"
 contextual_links:
   - type: section
@@ -68,7 +68,7 @@ With the stringified nested value in place, it can be passed to subsequent reque
 Response code tests can be done by checking the value of `responseCode.code` within test scripts.
 
 ```js
-tests['Request resulted in 200 OK'] = responseCode.code === 200;
+pm.test('Request resulted in 200 OK', () => pm.response.to.have.status(200));
 ```
 
 ## Monitoring latency
@@ -76,6 +76,6 @@ tests['Request resulted in 200 OK'] = responseCode.code === 200;
 As an alternative to request timeouts, website response latency can be monitored by comparing values of the `responseTime` variable within test scripts.
 
 ```js
-tests['Response latency is acceptable'] = responseTime < 1000;
+pm.test('Response latency is acceptable', () => pm.expect(pm.response.responseTime).to.be.lte(1000));
 // responseTime is in milliseconds
 ```

@@ -78,28 +78,32 @@ Postman supports the following Linux distributions: Ubuntu 14.04 and later, Fedo
 
 > The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/latest/development/build-instructions-linux).
 
-You can install Postman on Linux by manually downloading it, using the [Snap](https://snapcraft.io/postman) store link, or with the command `snap install postman`. You can also [download](https://www.postman.com/downloads/) the latest version of Postman and unzip the file.
+You can install Postman on Linux from the [Snap](https://snapcraft.io/postman) store page or by using the command `snap install postman`. If installing from the command line, first ensure that you’re set up for [snaps](https://snapcraft.io/docs/installing-snapd). Alternatively, you can [download](https://www.postman.com/downloads/) the latest version of Postman and unpack the file using the command `tar zxf linux_64`.
 
 > Postman recommends installing using [Snap](https://snapcraft.io/postman) because it includes all the libraries the app needs and they're bundled with the app itself.
 
-To start the app from a launcher icon, create a desktop file. Name the file `Postman.desktop` and save it in the following location:
+### Create a Linux launcher icon
+
+To start the app from a launcher icon, install the desktop file, located in the bundle, into an `applications` subdirectory of a path contained in [`$XDG_DATA_DIRS`](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) (for example `~/.local/share/applications/`):
 
 ```shell
-~/.local/share/applications/Postman.desktop
+install -t ~/.local/share/applications/ /</path/to/file>/Postman/app/resources/Postman.desktop
 ```
 
-Enter the following content in the file, replacing `/path/to/Downloads` with the location of the file, and save it:
+Enter the following content in the file, replacing `</path/to/file>` with the location of the file, and save it:
 
 ```shell
 [Desktop Entry]
 Encoding=UTF-8
 Name=Postman
-Exec=/path/to/Downloads/Postman/app/Postman %U
-Icon=/path/to/Downloads/Postman/app/resources/app/assets/icon.png
+Exec=</path/to/file>/Postman/app/Postman %U
+Icon=</path/to/file>/Postman/app/resources/app/assets/icon.png
 Terminal=false
 Type=Application
 Categories=Development;
 ```
+
+### Linux installation notes
 
 When installing Postman on Linux, also be aware of the following:
 

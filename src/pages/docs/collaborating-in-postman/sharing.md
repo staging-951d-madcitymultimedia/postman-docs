@@ -130,7 +130,11 @@ If you aren't a Developer on a Free, Basic or Professional plan or a Team Admin 
 
 ## Allowing external users to view collections
 
-You can allow external users who aren't in your Postman team to view a specific collection and send requests in that collection. Once you allow external users to view a specific collection, send them the collection URL to sign in to Postman and view the collection. External users who sign in to Postman using the collection URL are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) at the team level and a limited [Viewer role](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) at the collection level. Assigning an external user the Guest role doesn't consume paid seats.
+On [Free, Basic, and Professional plans](https://www.postman.com/pricing/), Collection Editors can allow external users who aren't in your Postman team to view a specific collection and send requests in that collection. You must have the Editor role in the collection you want to share with external users.
+
+The collection must be in a team workspace. If the collection is in a personal or private workspace, you can't share the collection with external users. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
+
+Once you allow external users to view a specific collection, send them the collection URL to sign in to Postman and view the collection. External users who sign in to Postman using the collection URL are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) at the team level and a limited [Viewer role](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) at the collection level. Assigning an external user the Guest role doesn't consume paid seats.
 
 To allow an external user to view a collection, do the following:
 
@@ -144,8 +148,6 @@ To allow an external user to view a collection, do the following:
 1. Send the collection URL to external users who you want to view the collection. Postman requires external users to sign in to Postman before they can view the collection.
 
 > Anyone who has access to the collection URL can view the collection if the toggle next to **Allow Guests to join your team and view this collection with the link** is turned on.
-
-The collection must be in a team workspace. If the collection is in a personal or private workspace, external users will be unable to view the collection. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
 
 ### Changing external user access to collections
 
