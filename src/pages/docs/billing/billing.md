@@ -297,6 +297,8 @@ To cancel your Postman plan, select **Cancel plan** at the bottom of your [billi
 
 If you have canceled your Postman plan and want to reverse this action, select **Undo cancellation** next to the cancellation notice on your [billing dashboard](http://go.postman.co/billing).
 
+If you are on a Free plan with Postbot subscription and want to cancel your Postbot subscription, select **Remove add-on** at the bottom of [billing dashboard](http://go.postman.co/billing).
+
 ## Next steps
 
 After learning how to navigate the billing dashboard, you can learn more about the Billing role and managing your team.
