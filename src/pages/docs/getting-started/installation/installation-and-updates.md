@@ -54,7 +54,7 @@ Postman is available for Windows 7 and later.
 
 ## Install Postman on Mac
 
-Postman is available for macOS 10.11 (El Capitan) and later.
+Postman is available for macOS 10.13 (High Sierra) and later.
 
 1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 
