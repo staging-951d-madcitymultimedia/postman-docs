@@ -122,7 +122,7 @@ To add elements from your Private API Network, do the following:
 1. Select the collections, APIs, and workspaces you want to add. You can search for elements, and filter elements by tags. Learn more about adding tags to [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs](/docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace).
 
     If you're adding collections and APIs, you can optionally select environments in their workspace to make sure users have access to environment variables. You can also [edit a collection's environments later](/docs/collaborating-in-postman/private-api-network/managing-private-network/#editing-collections).
-   
+
     > Not selecting an environment results in a different behavior between collections and APIs. In the case of collections, _No Environment_ is available in the Private Network. But, if _No Environment_ is selected while adding an API, all environments are available.
 
     You can select **Added elements** in the upper-right corner to show elements already added to the Private API Network. You can select the **Collections** tab and then **Forks** in the upper-right corner to show [forked collections](/docs/collaborating-in-postman/using-version-control/forking-elements/).
