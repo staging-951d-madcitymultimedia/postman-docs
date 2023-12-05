@@ -27,7 +27,7 @@ The Postman VS Code extension enables you to develop and test your APIs in Postm
 The VS Code extension enables you to:
 
 * Create and send HTTP, raw WebSocket, and gRPC requests.
-* Import collections exported from Postman and requests from cURL commands.
+* Import collections exported from Postman, and import requests from cURL commands.
 * Write and view collection documentation.
 * Edit and send requests from a workspace's request history.
 * Create cookies and send them with requests.
