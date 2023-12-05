@@ -81,7 +81,7 @@ Variables in Postman are key-value pairs. Each variable name represents its key,
 
 You can use variables to pass data between requests and tests, for example if you are [chaining requests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-81122f8b-5e07-4760-9504-f4387f45d2bc) in a collection.
 
-You can use environments to group sets of variables together and share them with collaborators, for example if you use one set of config details for your production server and another for testing. See [Managing environments](/docs/sending-requests/managing-environments/) for more on how you can incorporate environments into your team workflows.
+You can use environments to group sets of variables together and share them with collaborators, for example if you use one set of config details for your production server and another for testing. See [Group sets of variables in Postman using environments](/docs/sending-requests/environments/managing-environments/) for more on how you can incorporate environments into your team workflows.
 
 ## Variable scopes
 
@@ -91,7 +91,7 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 
 * **Global variables** enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Since global variables have the broadest scope available in Postman, they're well-suited for testing and prototyping. In later development phases, use more specific scopes.
 * **Collection variables** are available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. Collection variables are suitable if you're using a single environment, for example for auth or URL details.
-* **Environment variables** enable you to scope your work to different environments, for example local development versus testing or production. One environment can be active at a time. If you have a single environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
+* **Environment variables** enable you to scope your work to different environments, for example local development versus testing or production. One environment can be active at a time. If you have a single environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
 * **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) or the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
 * **Local variables** are temporary variables that are accessed in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete. Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
 
@@ -237,7 +237,7 @@ To edit an existing environment variable, do the following:
 > * If you have Editor access to the environment, you can add and edit variables.
 > * If you have Viewer access to the environment, you are restricted to updating the _current value_ of existing variables. Any variables you edit are accessible to you, but not to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 >
-> See [Managing environments](/docs/sending-requests/managing-environments/) for more on working with environments in your team.
+> See [Managing environments](/docs/sending-requests/environments/managing-environments/) for more on working with environments in your team.
 
 You can also [define environment variables in scripts](#defining-variables-in-scripts).
 
@@ -397,7 +397,7 @@ Your local session in Postman can use values that are transient and visible to y
 
 You can edit a current value inline using the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 
-For more information on working with variables as a team, see [Managing environments](/docs/sending-requests/managing-environments/#creating-environments).
+For more information on working with variables as a team, see [Work with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
 
 > Local and data variables have current values, which don't persist beyond request or collection runs.
 

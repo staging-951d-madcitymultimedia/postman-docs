@@ -11,7 +11,7 @@ import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
 function SEO({
-  lang, meta, title, slug, lastModifiedTime
+  lang, meta, title, slug, lastModifiedTime, earlyAccess,
 }) {
   const { site } = useStaticQuery(
     graphql`
@@ -34,6 +34,10 @@ function SEO({
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
+        {
+          name: 'robots',
+          content: `${earlyAccess ? 'noindex' : 'index'}`,
+        },
         {
           name: 'google-site-verification',
           content: '58TM3lGyGn6c2Bj0PvPQSNzrd9_yBsHs2BjJ6KMHlRU',

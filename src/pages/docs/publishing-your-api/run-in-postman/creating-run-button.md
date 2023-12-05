@@ -50,18 +50,18 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 1. You can optionally include an environment to embed with your collection. Select the **Add an environment** dropdown list and choose the environment.
 1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy Code**.
 
-    ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-2.jpg)
+    ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10-3.jpg)
 
     Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
 
 1. Embed the code where you would like the button to display.
 
-    ![Run in postman](https://assets.postman.com/postman-docs/v10/run-in-postman-button-v10-b.gif)
+    ![Run in postman](https://assets.postman.com/postman-docs/v10/run-in-postman-button-v10-3.gif)
 
 ### Sample Markdown snippet
 
 ```markdown
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/:collection_id)
 ```
 
 ### Sample HTML snippet

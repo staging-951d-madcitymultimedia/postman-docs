@@ -29,7 +29,7 @@ You must install the `postman-proxy-ca.crt` certificate on your device to be abl
     * [Installing the security certificate on Windows](#installing-the-security-certificate-on-windows)
 * [macOS](#macos)
 * [CentOS and Red Hat Enterprise Linux](#centos-and-red-hat-enterprise-linux)
-* [Ubuntu](#Ubuntu)
+* [Ubuntu](#ubuntu)
     * [Installing the certificate for use with Chrome](#installing-the-certificate-for-use-with-chrome)
     * [Installing the certificate for use with Mozilla Firefox](#installing-the-certificate-for-use-with-mozilla-firefox)
 * [iOS](#ios)
@@ -213,4 +213,4 @@ To regenerate and reinstall the certificate, do the following:
     * **Linux** - `~/.config/Postman/proxy`
 
 1. Close and restart Postman. Postman regenerates the certificate.
-1. Follow the steps for your device to [reinstall the certificate](#capturing-https-traffic).
+1. If prompted, follow the steps for your device to reinstall the certificate.

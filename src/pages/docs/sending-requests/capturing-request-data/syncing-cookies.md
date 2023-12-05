@@ -34,7 +34,6 @@ Once configured, Postman continuously captures cookies from the browser or clien
 * [Syncing cookies with Postman Interceptor](#syncing-cookies-with-postman-interceptor)
     * [Syncing cookies from the Interceptor extension](#syncing-cookies-from-the-interceptor-extension)
 * [Syncing cookies with the Postman proxy](#syncing-cookies-with-the-postman-proxy)
-* [Next steps](#next-steps)
 
 ## Syncing cookies with Postman Interceptor
 

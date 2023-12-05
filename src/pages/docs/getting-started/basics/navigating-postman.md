@@ -41,6 +41,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Tabs](#tabs)
     * [Right sidebar](#right-sidebar)
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
+    * [Quick Help](#quick-help)
 * [Footer](#footer)
 
 <img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10.jpg"/>
@@ -98,7 +99,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 
 * [Collections](/docs/getting-started/first-steps/creating-the-first-collection/)
 * [APIs](/docs/designing-and-developing-your-api/creating-an-api/)
-* [Environments](/docs/sending-requests/managing-environments/#creating-environments)
+* [Environments](/docs/sending-requests/environments/managing-environments/)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Monitors](/docs/monitoring-your-api/intro-monitors/)
 * [Flows](/docs/postman-flows/gs/flows-overview/)
@@ -250,11 +251,17 @@ Tool | Available for | Description
 
 ### Environment selector and environment quick look
 
-The environment selector enables you to choose which [environment](/docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
+The environment selector enables you to choose which [environment](/docs/sending-requests/environments/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
 
 <img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
 
 To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
+
+### Quick Help
+
+If you have a quick question about something in the Postman app, look for "learn more" help links or the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the Workbench. These will open context-sensitive help from the Postman Learning Center in a side pane in the Postman app.
+
+You can open the displayed Quick Help in a new web browser window with the open in icon <img alt="Open in icon" src="https://assets.postman.com/postman-docs/icons/icon-open-in.jpg#icon" width="16px">.
 
 ## Footer
 

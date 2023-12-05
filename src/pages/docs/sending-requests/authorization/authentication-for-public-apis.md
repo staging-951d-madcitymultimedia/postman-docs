@@ -1,6 +1,6 @@
 ---
 title: "Set up authorization for public APIs in Postman"
-updated: 2023-05-30
+updated: 2023-11-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -35,10 +35,12 @@ contextual_links:
 
 An increasing number of public APIs offer easier authentication through Postman, including Stripe, Open AI, Notion, and Spotify. When you create a request to a supported API, Postman will automatically recognize if the API requires authentication and give you the option to **Set up new authorization**.
 
-<img alt="Postman API set up new authorization" src="https://assets.postman.com/postman-docs/v10/postman-api-easier-auth-v10-2.jpg"/>
+<img alt="Postman API set up new authorization" src="https://assets.postman.com/postman-docs/v10/set-up-new-auth-v10.20.jpg"/>
 
 Select **Set up new authorization** to learn what authentication credentials you'll need to make your request and where you can find them. For APIs that support OAuth 2.0, you can select **Authorize** to complete authorization. For APIs requiring credentials like tokens or API keys, you can paste those directly into your request.
 
-<img alt="Postman API authentication info and link" src="https://assets.postman.com/postman-docs/v10/postman-api-easier-auth-enter-key-v10-2.jpg"/>
+<img alt="Postman API authentication info and link" src="https://assets.postman.com/postman-docs/v10/save-auth-to-collection-v10.20.jpg"/>
+
+If you're creating an individual request, you can select **Save authorization** to save your credentials to an environment for reuse. If you're working on a request that's [inheriting authorization](/docs/sending-requests/authorization/specifying-authorization-details/#inheriting-authorization) from its parent collection, you can select **Save authorization to collection**, which will let you use it for other requests in your collection.
 
 If you're an API publisher, you can set up easier authentication for your public APIs in your team dashboard. For more information, see [Set up authentication for public APIs](/docs/publishing-your-api/setting-up-authentication-for-public-apis/).

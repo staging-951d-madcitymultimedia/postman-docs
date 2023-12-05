@@ -42,11 +42,11 @@ You can [create collections](/docs/collections/using-collections/#creating-colle
 
 ### Creating environments for different use cases
 
-You can [create environments](/docs/sending-requests/managing-environments/#creating-environments) for different use cases, such as testing and production, and add them to your public workspace. This helps consumers understand what they need to configure with your API for their use case.
+You can [create environments](/docs/sending-requests/environments/managing-environments/) for different use cases, such as testing and production, and add them to your public workspace. This helps consumers understand what they need to configure with your API for their use case.
 
 ### Protecting sensitive data
 
-When [creating and sharing environment variables](/docs/sending-requests/managing-environments/#adding-environment-variables), specify example values as the Initial value for the variable. Don't add sensitive data as the Initial value because it's shared with users who can access the environment. The Current value is used in your local instance of Postman, and is never synced to your account or shared with your team unless you choose to persist it.
+When [creating and sharing environment variables](/docs/sending-requests/environments/managing-environments/#add-environment-variables), specify example values as the Initial value for the variable. Don't add sensitive data as the Initial value because it's shared with users who can access the environment. The Current value is used in your local instance of Postman, and is never synced to your account or shared with your team unless you choose to persist it.
 
 ![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 

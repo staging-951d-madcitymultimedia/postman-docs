@@ -37,10 +37,11 @@ export function CustomSearchBox(props) {
 /* eslint-disable react/no-danger */
 const Hits = ({ hits }) => {
 
+  const filteredHits = hits.filter(hit => !hit.early_access === true);
   return (
     // if parent component set is type, render, otherwise hide
     <ul className="algolia-result-style">
-      {hits.map((hit) => {
+      {filteredHits.map((hit) => {
         // handles develop and prod Algolia index
         const excerpt = hit._snippetResult && hit._snippetResult.excerpt.value ? hit._snippetResult.excerpt.value : hit.excerpt
         return (

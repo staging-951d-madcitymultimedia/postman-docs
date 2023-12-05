@@ -37,6 +37,7 @@ Postman automatically creates documentation for your collections and APIs. To gi
 * [Document a collection](#document-a-collection)
 * [Add documentation to an API](#add-documentation-to-an-api)
 * [Write your documentation](#write-your-documentation)
+* [Write documentation with Postbot](#write-documentation-with-postbot)
 * [Publish your documentation](#publish-your-documentation)
 * [View documentation](#view-documentation)
 * [Create a Run in Postman button](#create-a-run-in-postman-button)
@@ -58,6 +59,10 @@ Learn more about [adding documentation to an API](/docs/publishing-your-api/docu
 Add descriptions to your collections (including collections linked to an API) to enhance your documentation and provide more detail. You can use the Postman editor to view how your content will look as you write it, or use standard Markdown syntax to write content. With either editor, you can format text, add links, and insert images and videos in your documentation.
 
 Learn more about [writing your documentation](/docs/publishing-your-api/authoring-your-documentation/).
+
+## Write documentation with Postbot
+
+Postbot can write documentation for your requests. Use Postbot to automatically add descriptions, including request parameters and response examples to your requests. For more information, see [Writing documentation with Postbot](/docs/publishing-your-api/authoring-your-documentation/#writing-documentation-with-postbot).
 
 ## Publish your documentation
 

@@ -53,7 +53,7 @@ While you're in the lightweight API Client, you can create new requests, send re
 
 ## Moving from the lightweight API Client to a workspace
 
-[Workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/) enable you to organize your Postman work and collaborate with teammates. When you're in a workspace, you can save requests to [collections](/docs/collections/using-collections/), use [environments](/docs/sending-requests/managing-environments/) and [variables](/docs/sending-requests/variables/), build [APIs](/docs/designing-and-developing-your-api/the-api-workflow/), and more.
+[Workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/) enable you to organize your Postman work and collaborate with teammates. When you're in a workspace, you can save requests to [collections](/docs/collections/using-collections/), use [environments](/docs/sending-requests/environments/managing-environments/) and [variables](/docs/sending-requests/variables/), build [APIs](/docs/designing-and-developing-your-api/the-api-workflow/), and more.
 
 To switch to a workspace, you need to sign up for a Postman account or sign in to your existing Postman account. You can move all of your open requests and history from the lightweight API Client to your workspace, so you can pick up right where you left off.
 

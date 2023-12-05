@@ -40,7 +40,7 @@ To view documentation for a collection, do the following:
 
 <img alt="View complete documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-complete-v10-16.jpg" />
 
-> You can't view complete documentation if your collection has [gRPC requests](/docs/sending-requests/grpc/grpc-request-interface/#the-right-sidebar) or [WebSocket requests](/docs/sending-requests/websocket/websocket/#documenting-requests). To view the description for a collection or folder, select it in the sidebar. To view the description for a request, open the request and select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.
+> You can't view complete documentation if your collection has [gRPC requests](/docs/sending-requests/grpc/grpc-request-interface/#the-right-sidebar) or [WebSocket requests](/docs/sending-requests/websocket/document-websocket-requests/). To view the description for a collection or folder, select it in the sidebar. To view the request description, open the request and select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.
 
 The documentation includes a [description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) of each request and details such as the method and URL, the required authorization type, and any headers or parameters. For each request, you can view sample code in various client languages, together with example response bodies and headers.
 

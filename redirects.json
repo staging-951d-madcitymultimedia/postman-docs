@@ -837,11 +837,11 @@
   },
   {
     "from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
-    "to": "/docs/sending-requests/managing-environments/"
+    "to": "/docs/sending-requests/environments/managing-environments/"
   },
   {
     "from": "/docs/postman/environments-and-globals/manage-environments/",
-    "to": "/docs/sending-requests/managing-environments/"
+    "to": "/docs/sending-requests/environments/managing-environments/"
   },
   {
     "from": "/docs/postman/environments-and-globals/manage-globals/",
@@ -865,11 +865,11 @@
   },
   {
     "from": "/docs/postman/environments_and_globals/intro_to_environments_and_globals/",
-    "to": "/docs/sending-requests/managing-environments/"
+    "to": "/docs/sending-requests/environments/managing-environments/"
   },
   {
     "from": "/docs/postman/environments_and_globals/manage_environments/",
-    "to": "/docs/sending-requests/managing-environments/"
+    "to": "/docs/sending-requests/environments/managing-environments/"
   },
   {
     "from": "/docs/postman/environments_and_globals/manage_globals/",
@@ -1381,7 +1381,7 @@
   },
   {
     "from": "/docs/postman/variables-and-environments/managing-environments/",
-    "to": "/docs/sending-requests/managing-environments/"
+    "to": "/docs/sending-requests/environments/managing-environments/"
   },
   {
     "from": "/docs/postman/variables-and-environments/variables-list/",
@@ -1393,7 +1393,7 @@
   },
   {
     "from": "/docs/postman/variables_and_environments/managing_environments/",
-    "to": "/docs/sending-requests/managing-environments/"
+    "to": "/docs/sending-requests/environments/managing-environments/"
   },
   {
     "from": "/docs/postman/variables_and_environments/variables/",
@@ -2001,7 +2001,11 @@
   },
   {
     "from": "/docs/sending-requests/supported-api-frameworks/websocket/",
-    "to": "/docs/sending-requests/websocket/websocket/"
+    "to": "/docs/sending-requests/websocket/websocket-overview/"
+  },
+  {
+    "from": "/docs/sending-requests/websocket/websocket/",
+    "to": "/docs/sending-requests/websocket/websocket-overview/"
   },
   {
     "from": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/",
@@ -2374,5 +2378,13 @@
   {
     "from": "/docs/collections/testing-api-performance/",
     "to": "/docs/collections/performance-testing/testing-api-performance/"
+  },
+  {
+    "from": "/docs/sending-requests/managing-environments/",
+    "to": "/docs/sending-requests/environments/managing-environments/"
+  },
+  {
+    "from": "/docs/sending-requests/graphql/graphql-client-overview/",
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   }
 ]

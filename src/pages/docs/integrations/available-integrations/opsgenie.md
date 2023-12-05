@@ -36,11 +36,11 @@ To set up your Opsgenie API key, refer to [Create an API integration](https://su
 
 1. Search and select **Opsgenie**.
 
-1. On the **[Create alert for monitoring failures](https://postman.postman.co/integrations/service/opsgenie/monitor_run_opsgenie)** page, select **Add Integration**.
+1. On the **[Create alert for monitoring failures](https://go.postman.co/integrations/service/opsgenie/monitor_run_opsgenie)** page, select **Add Integration**.
 
-1. On the **[Add integration - Authenticate](https://postman.postman.co/integrations/service/opsgenie/add/monitor_run_opsgenie)** page, enter the Opsgenie API key you saved from your Opsgenie console. Select the [**Opsgenie site region** for your Opsgenie account](https://support.atlassian.com/opsgenie/docs/opsgenie-data-residency/).
+1. On the **[Add integration - Authenticate](https://go.postman.co/integrations/service/opsgenie/add/monitor_run_opsgenie)** page, enter the Opsgenie API key you saved from your Opsgenie console. Select the [**Opsgenie site region** for your Opsgenie account](https://support.atlassian.com/opsgenie/docs/opsgenie-data-residency/).
 
-1. On the **[Add integration - Configure](https://postman.postman.co/integrations/service/opsgenie/add/monitor_run_opsgenie)** page, configure your integration's **Nickname**, **Choose workspace**, **Choose Monitor**, add **Tags**, and **Choose alert priority** settings.
+1. On the **[Add integration - Configure](https://go.postman.co/integrations/service/opsgenie/add/monitor_run_opsgenie)** page, configure your integration's **Nickname**, **Choose workspace**, **Choose Monitor**, add **Tags**, and **Choose alert priority** settings.
 
     <img src="https://assets.postman.com/postman-docs/opsgenie-save-configuration-b.jpg" alt="Save opsgenie configuration" width="500px"/>
 

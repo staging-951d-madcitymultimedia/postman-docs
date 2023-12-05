@@ -49,6 +49,7 @@ Several types of authorization are supported by Postman. Select a type from the 
 * [AWS Signature](/docs/sending-requests/authorization/aws-signature/)
 * [NTLM authentication](/docs/sending-requests/authorization/ntlm-authentication/)
 * [Akamai EdgeGrid](/docs/sending-requests/authorization/akamai-edgegrid/)
+* [ASAP (Atlassian)](/docs/sending-requests/authorization/atlassian/)
 
 ### No auth
 

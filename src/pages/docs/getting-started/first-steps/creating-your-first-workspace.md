@@ -16,7 +16,7 @@ contextual_links:
     url:  "https://academy.postman.com/path/api-beginner"
 ---
 
-Postman workspaces enable you to organize and work together on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/first-steps/creating-the-first-collection/), [environments](/docs/sending-requests/managing-environments/), and other Postman elements.
+Postman workspaces enable you to organize and work together on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/first-steps/creating-the-first-collection/), [environments](/docs/sending-requests/environments/managing-environments/), and other Postman elements.
 
 When you first open Postman, you will be in your default personal workspace. You can create more workspaces for your personal use and to work with teammates. To create more workspaces, you need to sign in to your [Postman account](/docs/getting-started/installation/postman-account/).
 

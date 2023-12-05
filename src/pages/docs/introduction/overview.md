@@ -1,6 +1,8 @@
 ---
 title: "Postman documentation overview"
 updated: 2023-10-19
+early_access: false
+plan: ga
 contextual_links:
   - type: section
     name: "Additional resources"

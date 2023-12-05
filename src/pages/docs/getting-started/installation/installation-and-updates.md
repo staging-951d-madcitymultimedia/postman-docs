@@ -78,34 +78,39 @@ Postman supports the following Linux distributions: Ubuntu 14.04 and later, Fedo
 
 > The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/latest/development/build-instructions-linux).
 
-You can install Postman on Linux by manually downloading it, using the [Snap](https://snapcraft.io/postman) store link, or with the command `snap install postman`. You can also [download](https://www.postman.com/downloads/) the latest version of Postman and unzip the file.
+You can install Postman on Linux from the [Snap](https://snapcraft.io/postman) store page or by using the command `snap install postman`. If installing from the command line, first ensure that you’re set up for [snaps](https://snapcraft.io/docs/installing-snapd). Alternatively, you can [download](https://www.postman.com/downloads/) the latest version of Postman and unpack the file using the command `tar zxf linux_64`.
 
 > Postman recommends installing using [Snap](https://snapcraft.io/postman) because it includes all the libraries the app needs and they're bundled with the app itself.
 
-To start the app from a launcher icon, create a desktop file. Name the file `Postman.desktop` and save it in the following location:
+### Create a Linux launcher icon
+
+To start the app from a launcher icon, install the desktop file, located in the bundle, into an `applications` subdirectory of a path contained in [`$XDG_DATA_DIRS`](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) (for example `~/.local/share/applications/`):
 
 ```shell
-~/.local/share/applications/Postman.desktop
+install -t ~/.local/share/applications/ /</path/to/file>/Postman/app/resources/Postman.desktop
 ```
 
-Enter the following content in the file, replacing `/path/to/Downloads` with the location of the file, and save it:
+Enter the following content in the file, replacing `</path/to/file>` with the location of the file, and save it:
 
 ```shell
 [Desktop Entry]
 Encoding=UTF-8
 Name=Postman
-Exec=/path/to/Downloads/Postman/app/Postman %U
-Icon=/path/to/Downloads/Postman/app/resources/app/assets/icon.png
+Exec=</path/to/file>/Postman/app/Postman %U
+Icon=</path/to/file>/Postman/app/resources/app/assets/icon.png
 Terminal=false
 Type=Application
 Categories=Development;
 ```
+
+### Linux installation notes
 
 When installing Postman on Linux, also be aware of the following:
 
 * Avoid starting Postman using the `sudo` command, as it will create permission issues on the files created by Postman.
 * Make sure you have read/write permission for the `~/.config` folder where Postman stores information.
 * If you're an Ubuntu 18 user, you will also need to install the `libgconf-2-4` package with the command `apt-get install libgconf-2-4`.
+* Make sure you have `openssl` installed on your machine.
 
 ## Use the Postman web app
 
@@ -160,10 +165,10 @@ You can check for updates to the desktop app if it isn't available to install. I
 
 Postman's infrastructure runs on Amazon's AWS platform. If you're operating behind a network firewall, you'll need to allow the following domains to make WebSocket connections for Postman:
 
-* `\*.getpostman.com`
-* `\*.postman.co`
-* `\*.pstmn.io`
-* `\*postman.com`
+* `*.getpostman.com`
+* `*.postman.co`
+* `*.pstmn.io`
+* `*.postman.com`
 
 By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). For Postman v10, allow the following domains:
 

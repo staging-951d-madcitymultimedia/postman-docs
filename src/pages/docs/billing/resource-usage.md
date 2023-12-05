@@ -101,7 +101,7 @@ Once you've reached your usage limit, you will no longer be able to run performa
 
 ## Postbot calls
 
-Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [Postbot](/docs/getting-started/basics/about-postbot/) interactions. To perform more calls, you can [upgrade your plan](/docs/billing/billing/#team-and-plan-changes).
+Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of [Postbot](/docs/getting-started/basics/about-postbot/) interactions. To perform more calls, you can [purchase more Postbot seats](/docs/billing/billing/#purchasing-add-on-products).
 
 ## Postman API usage
 

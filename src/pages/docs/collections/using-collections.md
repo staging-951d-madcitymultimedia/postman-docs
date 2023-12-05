@@ -179,7 +179,7 @@ To share a collection with other users, you can:
 
 * Publish a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button.
 * Invite others to collaborate by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Share**. Learn more about [sharing elements in Postman](/docs/collaborating-in-postman/sharing/#sharing-postman-elements).
-    * To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/managing-environments/#selecting-an-active-environment), copy the element's link to your clipboard, then send the link to team members you want to share with.
+    * To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/environments/managing-environments/#switch-between-environments), copy the element's link to your clipboard, then send the link to team members you want to share with.
 * Allow external users who aren't in your Postman team to view collections by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, selecting **Share**, then turning on the toggle next to **Allow Guests to join your team and view this collection with the link**. Learn more about [allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 * Move the collection to a shared workspace by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 * ([Enterprise](https://www.postman.com/pricing/)) Add the collection to your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-a-collection-from-the-workbench).
@@ -254,7 +254,7 @@ You can fork collections in your own workspace to [develop collection versions](
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection.
 1. Select **Comment** to add your comment.
 
-> To learn more about using comments to collaborate on collections and requests, go to [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
+> To learn more about using comments to collaborate on collections and requests, go to [Comment on collections, folders, and requests](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
 
 ### Reverting collection changes
 
@@ -299,7 +299,7 @@ There are several ways to create a collection from a template:
 
 ## About multi-protocol request collections
 
-You can also save multi-protocol requests, such as [WebSocket](/docs/sending-requests/websocket/websocket/) and [gRPC](/docs/sending-requests/grpc/grpc-client-overview/) requests, into collections.
+You can also save multi-protocol requests, such as [WebSocket](/docs/sending-requests/websocket/websocket-overview/) and [gRPC](/docs/sending-requests/grpc/grpc-client-overview/) requests, into collections.
 
 Because multi-protocol requests have different features than HTTP requests, when they're saved to a collection, it causes the collection to be in a "beta" state with certain limitations.
 

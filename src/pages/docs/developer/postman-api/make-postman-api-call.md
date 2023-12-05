@@ -36,7 +36,7 @@ contextual_links:
 
 The Postman API enables you to programmatically access data stored in your Postman account. You can use the API to perform actions such as managing your collections, APIs, workspaces, and more.
 
-> The access rate limits for your Postman API key depend on your Postman plan. For more information, see [Postman API rate limits](/docs/developer/postman-api/postman-api-rate-limits/).
+> The access rate limits for your Postman account depend on your Postman plan. For more information, see [Postman API rate limits](/docs/developer/postman-api/postman-api-rate-limits/).
 
 This tutorial shows you how to make your first call to the Postman API. You can also learn more about the Postman API by reading the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). There you will find information to help you get started and information about each endpoint and operation.
 
@@ -52,7 +52,7 @@ Before you can use the Postman API, you’ll need an API key. An API key is a wa
 
 ## Store your API key as an environment variable
 
-After you create your API key, store it as a [Postman environment variable](/docs/sending-requests/managing-environments/#adding-environment-variables) named `postman-api-key`. You can use environments to store values that you can later use to make your requests.
+After you create your API key, store it as a [Postman environment variable](/docs/sending-requests/environments/managing-environments/#add-environment-variables) named `postman-api-key`. You can use environments to store values that you can later use to make your requests.
 
 For best security practices, make sure that you:
 

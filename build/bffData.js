@@ -7,6 +7,8 @@ sh.config.silent = true
 
 sh.exec("mkdir -p bff-data")
 
+require('./pmt')
+
 sh.config.silent = false
 
 const TIME = new Date().getTime()

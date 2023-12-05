@@ -66,6 +66,8 @@ postman.setNextRequest(null);
 
 The collection run will stop after Postman completes the current request.
 
+> You can also skip the execution of a request from the **Pre-request Script** tab using the `pm.execution.skipRequest` method. Learn more about [skipping request execution from pre-request scripts](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#skip-request-execution-from-pre-request-scripts).
+
 ## Tips for building request workflows
 
 Keep the following tips in mind when using the `postman.setNextRequest()` function.

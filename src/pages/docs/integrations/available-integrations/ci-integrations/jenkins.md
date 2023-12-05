@@ -85,7 +85,7 @@ With the help of the Postman CLI and the Postman API, you can run Postman collec
 
 Each time a build runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
-> Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API and Jenkins.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-a-jenkins-integration) between your API and Jenkins.
 
 To generate configuration code for the Postman CLI, do the following:
 
