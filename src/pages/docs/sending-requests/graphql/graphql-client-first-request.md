@@ -1,7 +1,6 @@
 ---
-title: "Send GraphQL queries using the Postman GraphQL client"
-page_id: "graphql-client-first-request"
-updated: 2023-05-15
+title: "Create GraphQL requests in Postman"
+updated: 2023-11-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -32,35 +31,51 @@ contextual_links:
 warning: false
 ---
 
-Get started with GraphQL by creating a query and executing it using Postman’s echo endpoint.
+Use Postman's GraphQL client to create GraphQL requests with one or multiple queries.
+
+The GraphQL client interface is specifically designed for crafting GraphQL requests. It enables you to explore a GraphQL API's data fields and construct queries by selecting fields or entering code in an editor. For requests with multiple queries, you can select specific queries and run them individually.
+
+> You can also create GraphQL requests [with Postman’s HTTP interface](/docs/sending-requests/graphql/graphql-http/), which supports GraphQL but requires more steps than the GraphQL client.
 
 ## Contents
 
-* [About GraphQL requests](#about-graphql-requests)
-* [Making a GraphQL query with Postman](#making-a-graphql-query-with-postman)
+* [Create a GraphQL request with one query](#create-a-graphql-request-with-one-query)
+* [Create a GraphQL request with multiple queries](#create-a-graphql-request-with-multiple-queries)
 
-## About GraphQL Requests
+## Create a GraphQL request with one query
 
-Every GraphQL request requires a URL and a query. The URL is the endpoint where the data is hosted, and the query defines what exactly needs to be retrieved from this data source. A GraphQL request can also have a schema configured to inform you of the data fields available from the server that can be included in the query. The request can also contain additional information such as authentication, headers, and settings based on the requirements specified by the API.
+This example creates and executes a GraphQL query using the schema explorer.
 
-Using a GraphQL request, you can execute three different types of Queries:
-
-* **Queries** - Queries retrieve data from the server by specifying data fields and passing required arguments.
-
-* **Mutation** - Mutation-type queries allow you to manipulate the data available on the server. You can create, update, and delete data records by selecting the fields and passing the values as arguments.
-
-* **Subscription** - For a live data source with frequently-changing data, you can subscribe to the data available on different fields. This enables the server to send the data requested over a persistent connection.
-
-## Making a GraphQL query with Postman
-
-This example creates and executes a GraphQL query using the interactive query builder.
-
-> If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
+> If you’re using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
 1. In Postman, select **New > GraphQL** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **GraphQL**.)
-1. In the URL bar, enter `https://graphql.postman-echo.com/graphql`. This will load the schema using introspection.
-1. In the query explorer on the left, select the `hello` field and select `person`, `age`, and `name` as arguments.
-1. Enter your age and name in the input boxes next to `age` and `name`. You should also see a fully-formed query based on your selections on the right.
+1. Select the URL field, then select `https://graphql.postman-echo.com/graphql` from the dropdown list. Postman uses introspection to load the schema and populate the schema explorer with data fields.
+    > In the schema explorer, the data fields are grouped under their respective types: **Query**, **Mutation**, and **Subscription**.
+1. In the schema explorer, select the `hello` field, then select arguments `person`, `name`, and `age`. A query based on your selections appears in the query editor.
+    > You can also build a query by entering code in the query editor.
+1. Enter your age and name in the input boxes next to `age` and `name` or in the query editor.
 1. Select **Query**.
 
-![First GraphQL Query](https://assets.postman.com/postman-docs/v10/graphql-schema-explorer-v10-2.gif)
+    ![GraphQL request with a single query](https://assets.postman.com/postman-docs/v10/graphql-single-query-v10-20.jpg)
+
+## Create a GraphQL request with multiple queries
+
+This request has multiple queries and executes them one at a time. To execute only the selected query, select a checkbox in the schema explorer and select **Query** .
+
+1. In Postman, select **New > GraphQL** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **GraphQL**.)
+
+1. Select the URL field, then select `https://graphql.postman-echo.com/graphql` from the dropdown list. Postman uses introspection to load the schema and populate the schema explorer with data fields.
+
+1. In the schema explorer, select the `hello`, `person`, and `name` fields. Enter your name in the `name` field. A query appears in the query editor.
+
+1. In the schema explorer, scroll down and select the `greetings` field. A second query appears in the query editor and the first query is dimmed.
+
+1. In the query editor, select anywhere in the first query to activate it and select **Query**.
+
+1. Select anywhere in the second query and select **Query**.
+
+    ![GraphQL request with multiple queries](https://assets.postman.com/postman-docs/v10/graphql-multi-query-v10-20-1.jpg)
+
+    You can also use the **Query** button dropdown list to browse and select queries from a request with multiple queries.
+
+    <img src="https://assets.postman.com/postman-docs/v10/graphql-select-query-v10-20.jpg" alt="Select a query with the Query button dropdown list" width="437" >
