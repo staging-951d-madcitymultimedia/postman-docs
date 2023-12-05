@@ -55,6 +55,7 @@ The Postman API supports the following Postman features:
 - [Mock servers](#mock-servers)
 - [Monitors](#monitors)
 - [User and usage data](#user-and-usage-data)
+- [Billing](#billing)
 
 > Some Postman API endpoints are only available on Postman [Enterprise or Professional plans](#apis-for-enterprise-or-professional-plans).
 
@@ -99,9 +100,20 @@ Running monitors lets you programmatically run collections, depending on specifi
 
 The [User APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-c0e35437-9f48-4b8a-a1cc-dcbce8d9d8c6) return information about the API key's owner. You can use it to get data about your API usage and check how many requests you can perform until the end of the month.
 
+### Billing
+
+The [Billing API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-aa3c5de3-d30b-4082-b4da-5459779b5ba3) enables you to get information about your Postman billing account. You can use these endpoints to help with account and compliance. You can also use these endpoints to integrate with your internal systems, such as [SAP](https://www.sap.com/about/what-is-sap.html).
+
 ## APIs for Enterprise or Professional plans
 
 The following APIs are only available for Postman [Enterprise or Professional plan](https://www.postman.com/pricing/) users:
+
+- [Private API Network](#private-api-network)
+- [Tags](#tags)
+- [Secret Scanner](#secret-scanner)
+- [SCIM](#scim)
+- [API security and governance](#api-security-and-governance)
+- [Audit logs](#audit-logs)
 
 ### Private API Network
 
