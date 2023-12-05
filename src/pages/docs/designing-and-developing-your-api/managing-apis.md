@@ -47,7 +47,7 @@ To move an API to a shared workspace, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Move**.
 
-1. Use the search bar to find the workspace you want to move the API to, or select the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> to filter workspaces by visibility.
+1. Use the search box to find the workspace you want to move the API to, or select the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> to filter workspaces by visibility.
 
     > You can move APIs to personal, private, team, and public workspaces that you have access to. You can't move APIs from team, private, or public workspaces to a personal workspace.
 
