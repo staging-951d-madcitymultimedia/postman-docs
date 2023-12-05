@@ -48,7 +48,7 @@ You can manage folders and elements in the Private API Network. You can edit a c
 
 ## Contents
 
-* [Editing collections and APIs](#editing-collections-and-apis)
+* [Editing collections](#editing-collections)
 * [Moving folders and elements](#moving-folders-and-elements)
 * [Renaming folders](#renaming-folders)
 * [Removing folders and elements](#removing-folders-and-elements)
