@@ -48,12 +48,7 @@ Postman provides a variety of options to customize your team's experience, from 
 
 ## Setting up your team
 
-Once you've created your Postman team, you can take the following steps to enable an efficient user onboarding process:
-
-* Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that Postman is available on all devices used by your organization and that it functions as expected.
-* [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to let other Postman users from your organization request to join your team.
-* [Configure SSO](/docs/administration/sso/admin-sso/) ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
-* [Configure SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) ([Enterprise plans only](https://www.postman.com/pricing)).
+Once you've created your Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to set up your team.
 
 ## Managing team members
 
@@ -167,6 +162,8 @@ It's recommended that you create a service user that isn't tied to any individua
 You can manage external partners similarly to internal team members. To learn more, see [Managing a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#managing-a-partner-workspace).
 
 ### Managing Guests
+
+> **[Guests are available on Free, Basic, and Professional plans.](https://www.postman.com/pricing)**
 
 You can manage external users who have permission to view specific collections and send requests in the collections. External users with these permissions are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). A [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can change an external user's role to the Developer role by going to your [team dashboard](https://go.postman.co/settings/team/members) and selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they're added to the team and get access to all team resources and workspaces.
 
