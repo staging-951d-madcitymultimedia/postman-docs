@@ -39,7 +39,7 @@ For more details, see [Sharing Postman elements](/docs/collaborating-in-postman/
 
 You can move APIs to shared workspaces to [collaborate with your team](https://www.postman.com/api-platform/api-collaboration/).
 
-> You must be an [Admin](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) on an API or the [Workspace Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to move the API to another workspace. To learn more about roles and permissions, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
+> You must be an [Admin](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) on an API or the [Workspace Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to move the API to another workspace.
 
 In the sidebar, select the API you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
