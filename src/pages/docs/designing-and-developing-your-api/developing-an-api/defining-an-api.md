@@ -114,12 +114,14 @@ In the upper right of the API definition editor are options to beautify the cont
 
 If you are editing an OpenAPI 2.0 or 3.0 definition, Postman displays a live preview of your API's schema documentation in the right sidebar. The documentation preview is updated as you edit the definition. You can use the preview to help you visualize your changes as you work.
 
-To hide or show the documentation preview, select the documentation icon
-<img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar. To give yourself more space for editing your definition, select the fullscreen icon <img alt="Full screen icon" src="https://assets.postman.com/postman-docs/icons/icon-full-screen.jpg#icon" width="16px"/>. To exit fullscreen, select the exit fullscreen icon <img alt="Full screen icon" src="https://assets.postman.com/postman-docs/icons/icon-exit-fullscreen.jpg#icon" width="16px"/>.
-
 The live preview shows documentation for the `General`, `Servers`, and `Paths` sections of your API definition. The preview doesn't show documentation for other sections such as `Components` and `Security`. Learn more about [viewing schema documentation](/docs/publishing-your-api/documenting-your-api/#view-schema-documentation) for your API.
 
 <img alt="Schema documentation live preview" src="https://assets.postman.com/postman-docs/v10/api-builder-docs-preview-v10-21.jpg"/>
+
+To hide or show the documentation preview, select the documentation icon
+<img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar. To give yourself more space for editing your definition, select the fullscreen icon <img alt="Full screen icon" src="https://assets.postman.com/postman-docs/icons/icon-full-screen.jpg#icon" width="16px"/>. To exit fullscreen, select the exit fullscreen icon <img alt="Full screen icon" src="https://assets.postman.com/postman-docs/icons/icon-exit-fullscreen.jpg#icon" width="16px"/>.
+
+<img alt="Fullscreen view for schema documentation" src="https://assets.postman.com/postman-docs/v10/api-builder-fullscreen-v10-21.jpg"/>
 
 ## Working with multi-file API definitions
 
