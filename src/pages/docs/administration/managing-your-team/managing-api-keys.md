@@ -1,6 +1,6 @@
 ---
 title: "Manage API keys"
-updated: 2023-09-15
+updated: 2023-12-15
 contextual_links:
   - type: section
     name: "Additional resources"
