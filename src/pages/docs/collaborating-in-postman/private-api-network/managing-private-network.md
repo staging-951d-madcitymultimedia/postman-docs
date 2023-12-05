@@ -63,8 +63,6 @@ To change the environment of an API-linked collection, select the parent API, an
 
 To add new elements using bulk edits, from the top left menu, select **+** or **Add to Network**. The **Add elements to the Private API network** opens.
 
-> You can’t edit already added entities.
-
 <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-environment-v10.jpg" width="500px"/>
 
 You can only edit collections added directly from the [Private API Network](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-elements-in-your-private-api-network) or the [workbench](/docs/collaborating-in-postman/private-api-network/organizing-private-network/#adding-a-collection-from-the-workbench). You can't edit collections added to APIs.
