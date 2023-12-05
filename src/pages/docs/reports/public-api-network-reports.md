@@ -3,11 +3,11 @@ title: "View reports about APIs on the Public API Network"
 updated: 2023-12-15
 ---
 
-> [**Reports are available on all Postman Enterprise plans.**](https://www.postman.com/pricing)
+> [**The Public API Network report is available on all Postman plans.**](https://www.postman.com/pricing)
 
-The **Public API Network** report dashboard provides metrics relevant to your team's APIs on the [Public API Network](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/).
+The **Public API Network** report dashboard provides metrics relevant to your team's APIs on the [Public API Network](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/). This report enables you to track API consumer interest and activity in your APIs on the Public API Network. To view metrics in the Public API Network report, you must have at least one [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) in your team.
 
-You can use the **Show By** dropdown list in the upper right to show metrics by week or month. You can also use the **Show** dropdown list in the upper right to show metrics for specific public workspaces and collections.
+You can use the **Show By** dropdown list in the upper right to show metrics by week or month. You can also use the **Show** dropdown list in the upper right to show metrics for APIs in specific public workspaces and collections.
 
 > These metrics don't include requests to your APIs from user-created collections.
 
