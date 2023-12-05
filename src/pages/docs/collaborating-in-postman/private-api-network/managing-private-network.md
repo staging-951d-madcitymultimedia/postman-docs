@@ -61,7 +61,9 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 
 To change the environment of an API, select an API-linked collection, and from the menu options, select **Edit environments**. The same option is available from the menu in the top right corner.
 
-To make bulk edits, from the top left menu, select **+** or **Add to Network**. The **Add elements to the Private API network** opens.
+To add new elements using bulk edits, from the top left menu, select **+** or **Add to Network**. The **Add elements to the Private API network** opens.
+
+> You can’t edit already added entities. 
 
 <img alt="Add elements to the Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-add-environment-v10.jpg" width="500px"/>
 
