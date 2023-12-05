@@ -53,7 +53,7 @@ You can manage folders and elements in the Private API Network. You can edit a c
 * [Renaming folders](#renaming-folders)
 * [Removing folders and elements](#removing-folders-and-elements)
 
-## Editing collections and APIs
+## Editing collections
 
 You can change a collection's or API's associated environments in the Private API Network.
 
