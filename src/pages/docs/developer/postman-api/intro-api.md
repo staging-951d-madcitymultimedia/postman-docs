@@ -1,6 +1,6 @@
 ---
 title: "Integrate Postman into your development toolchain"
-updated: 2023-12-30
+updated: 2023-12-15
 contextual_links:
   - type: section
     name: "Additional resources"
