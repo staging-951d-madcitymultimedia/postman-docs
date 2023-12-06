@@ -121,7 +121,7 @@ The following APIs are only available for Postman [Enterprise or Professional pl
 
 ### Private API Network
 
-The [Private API Network API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533) enables you to programmatically manage your [Private API Network](https://learning.postman.com/docs/collaborating-in-postman/private-api-network/adding-private-network/). Use these endpoints automate the management of your team's internal documentation, integrate it with CI/CD, and ensure that the documentation is always up-to-date. This API also enables you to get all user requests to add elements to the Private API Network and approve or reject them.
+The [Private API Network API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-b7c02959-88ca-4e2f-9b68-99538eed4533) enables you to programmatically manage your [Private API Network](https://learning.postman.com/docs/collaborating-in-postman/private-api-network/adding-private-network/). Use these endpoints to automate the management of your team's internal documentation, integrate it with CI/CD, and ensure that the documentation is always up-to-date. This API also enables you to get all user requests to add elements to the Private API Network and approve or reject them.
 
 ### Tags
 
