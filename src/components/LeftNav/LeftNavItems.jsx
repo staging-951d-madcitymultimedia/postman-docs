@@ -190,7 +190,7 @@ export const leftNavItems = [
           },
           {
             name: 'API client import',
-            url: '/docs/getting-started/importing-and-exporting/importing-from-soapui/',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-api-clients/',
           },
           {
             name: 'Git import',
