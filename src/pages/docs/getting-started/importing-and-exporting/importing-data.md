@@ -32,7 +32,7 @@ You can import collections, API definitions, and other data files so you can wor
 
 To import your data into Postman, select **Import** in the sidebar. You can import your data from files, folders, cURL commands, raw text, or URLs. You can also import data from other sources such as code repositories, API gateways, and application performance management tools.
 
-![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-17.jpg)
+![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-20.jpg)
 
 > You can also import items by dragging and dropping files or folders into Postman.
 
