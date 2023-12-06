@@ -30,7 +30,7 @@ contextual_links:
 
 You can import collections, API definitions, and other data files so you can work with them in Postman.
 
-To import your data into Postman, select **Import** in the sidebar. You can import your data from files, folders, cURL commands, raw text, or URLs. You can also import data from other sources such as code repositories, API gateways, and application performance management tools.
+To import your data into Postman, select **Import** in the sidebar. You can import your data from files, folders, cURL commands, raw text, or URLs. You can also import data from other sources such as code repositories, API gateways, API clients, and application performance management tools.
 
 ![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-20.jpg)
 

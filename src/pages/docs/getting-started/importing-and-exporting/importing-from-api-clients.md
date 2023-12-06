@@ -1,5 +1,5 @@
 ---
-title: "Import data from other API clients"
+title: "Import data from API clients"
 updated: 2023-12-05
 contextual_links:
   - type: section
@@ -21,17 +21,18 @@ contextual_links:
     name: "Differences between Postman Collections and the collection format"
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
-Postman can import data from Hoppscotch, Insomnia, and Thunder Client. Postman validates the files you want to import and recreates their requests, collections, environments, and other data in your Postman workspace.
 
-## Import a SoapUI project
+Postman can import data from the API clients Hoppscotch, Insomnia, and Thunder Client. Postman validates the files you want to import and recreates their requests, collections, environments, and other data in your Postman workspace.
 
-To import a Hoppscotch, Insomnia, or Thunder Client data into Postman, do the following:
+## Import data from an API client
+
+To import Hoppscotch, Insomnia, or Thunder Client data into Postman, do the following:
 
 1. Select **Import**, then select **Migrate to Postman > Other API Clients**.
 1. Select **files** or **folder**, then select the files or folder you want to import.
     * For Hoppscotch, you can select individual exported collection and environment files.
-    * For Insomnia, you can select folders exported with **Preferences > Data > Export > Export all data**.
-    * For Thunder Client, you can select individual exported collection and environment files, or you can select the appropriate `rangav.vscode-thunder-client` folder:
+    * For Insomnia, you can select files and folders exported with **Preferences > Data > Export > Export all data**.
+    * For Thunder Client, you can select individual exported collection and environment files, or you can select the `rangav.vscode-thunder-client` folder:
         * macOS: `~/Library/Application Support/Code/User/globalStorage/rangav.vscode-thunder-client`
         * Windows: `C:\Users\{UserName}\AppData\Roaming\Code\User\globalStorage\rangav.vscode-thunder-client`
 1. Select **Open**. Postman checks if the selected files are valid Hoppscotch, Insomnia, or Thunder Client files.

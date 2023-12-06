@@ -21,6 +21,7 @@ contextual_links:
     name: "Differences between Postman Collections and the collection format"
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
+
 SoapUI is an API testing tool that supports SOAP and REST services. Postman can import SoapUI project files and recreate their requests, collections, environments, and other data in your Postman workspace.
 
 ## Import a SoapUI project
