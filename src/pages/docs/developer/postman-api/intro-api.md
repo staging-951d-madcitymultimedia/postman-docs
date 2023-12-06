@@ -148,6 +148,7 @@ The [API Security API](https://www.postman.com/postman/workspace/postman-public-
 ### Audit logs
 
 Use the [Audit Logs API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-d744246b-6939-4602-9559-5614e5f839cf) to monitor and analyze your Professional or Enterprise Postman teams. [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review audit logs, filter by specific criteria, and get information about:
+
 * When users were added to, removed from, or invited to your team.
 * Which user performed a specific action—and when they did so.
 
