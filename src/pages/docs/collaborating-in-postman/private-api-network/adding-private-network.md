@@ -38,11 +38,13 @@ contextual_links:
 
 The _Private API Network_ provides a [central directory](https://www.postman.com/api-platform/api-catalog/) of workspaces, collections, and APIs your team uses internally. Your Postman team can access these resources and start using them right away. By using the Private API Network, you can enable developers across your organization to discover, consume, and track API development in one place.
 
+The Private API Network is available through the [Postman for Internal API Management solution](/docs/administration/managing-your-team/managing-your-team/#internal-api-management-solution). If you are an Enterprise Essentials user, you must add this solution and a relevant number of seats to enable users on your team to publish and request to publish changes to the network. The rest of the team can consume and read the network.
+
 Workspaces, collections, and APIs in the Private API Network are visible to logged-in users who are on your Postman team. Users who aren't on your team can't find or access these resources.
 
 [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and [API Network Managers](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) can manage all folders and elements in your Private API Network. You can assign team members the [Folder Manager role](/docs/collaborating-in-postman/roles-and-permissions/#network-roles) at the folder level, giving them permission to manage specific folders and the elements in them.
 
-<img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/v10/private-api-network-overview-v10-4.jpg"/>
+<img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/v10/private-api-network-permissions-v10.jpg"/>
 
 ## Contents
 
