@@ -92,7 +92,7 @@ Use the Postman [v10 APIs](https://www.postman.com/postman/workspace/postman-pub
 
 In addition to performing CRUD (Create, Read, Update, and Delete) operations on your [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), you can use the [Mocks API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-4c10162c-e6f1-400b-88fa-5c5aac34eb74) to:
 
-* Set a mock server public or private.
+* Set a mock server to public or private.
 * List all calls received by a mock server.
 * Manage mock server responses for 5XX errors.
 
