@@ -51,7 +51,7 @@ The Postman API supports the following Postman features:
 
 * [Workspaces](#workspaces)
 * [Collections](#collections)
-* [Environments](#environments)
+* [Environments and variables](#environments-and-variables)
 * [APIs](#apis)
 * [Mock servers](#mock-servers)
 * [Monitors](#monitors)
