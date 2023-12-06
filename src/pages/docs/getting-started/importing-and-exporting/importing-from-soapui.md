@@ -21,7 +21,7 @@ contextual_links:
     name: "Differences between Postman Collections and the collection format"
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
-SoapUI is an API testing tool that supports SOAP and REST services. Postman can import SoapUI project files and automatically convert them into collections, folders, and requests.
+SoapUI is an API testing tool that supports SOAP and REST services. Postman can import SoapUI project files and recreate their requests, collections, environments, and other data in your Postman workspace.
 
 ## Import a SoapUI project
 
@@ -29,7 +29,7 @@ To import a SoapUI project into Postman, do the following:
 
 1. Select **Import**, then select **Migrate to Postman > SoapUI**.
 1. Select **files** or **folder**, then select the files or folder you want to import.
-1. Select **Open**.
-1. Select **Start Migration**. A window appears showing the migration’s progress. When the migration is complete, select **Dismiss**. The SoapUI project appears in your workspace as a collection.
+1. Select **Open**. Postman checks if the selected files are valid SoapUI projects.
+1. If the files are valid, you can select **Start Migration**. A window appears showing the migration’s progress. When the migration is complete, select **Dismiss**.
 
   > You can also drag files and folders into the import window.
