@@ -639,7 +639,7 @@ To get the name of the current element, you can use the `pm.execution.location.c
 console.log(pm.execution.location.current);
 ```
 
-You can use the `pm.execution.location` and `pm.execution.location.current` properties in your scripts to understand what items are being executed when a request is sent. This information enables you to implement logic and actions in your scripts that's tailored to the current location within your API testing or collection structure.
+You can use the `pm.execution.location` and `pm.execution.location.current` properties in your scripts to understand what items are being executed when a request is sent. This information enables you to implement logic and actions in your scripts tailored to the current location within your API testing or collection structure.
 
 ### Skip request execution from pre-request scripts
 
