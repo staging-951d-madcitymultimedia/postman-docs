@@ -41,13 +41,14 @@ You can get started by [forking the Postman API collection](https://www.postman.
 
 ## Contents
 
-- [Postman API features](#postman-api-features)
-- [APIs for Enterprise or Professional plans](#apis-for-enterprise-or-professional-plans)
-- [About v9 and v10 APIs](#about-v9-and-v10-apis)
+* [Postman API features](#postman-api-features)
+* [APIs for Enterprise or Professional plans](#apis-for-enterprise-or-professional-plans)
+* [About v9 and v10 APIs](#about-v9-and-v10-apis)
 
 ## Postman API features
 
 The Postman API supports the following Postman features:
+
 * [Workspaces](#workspaces)
 * [Collections](#collections)
 * [Environments](#environments)
@@ -66,9 +67,10 @@ Use the [Workspaces APIs](https://www.postman.com/postman/workspace/postman-publ
 ### Collections
 
 Use the [Collections APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-c705956d-1005-4fbc-803c-b6b985242a85) to manage your [Postman Collections](/docs/collections/collections-overview/) and simplify collection-related workflows. You can use these endpoints to add, delete, or update your collections. You can also use these endpoints to:
-- Update an entire collection or a collection's requests, folders, and responses.
-- Transfer collection items between collections or folders.
-- Manage your collection forks.
+
+* Update an entire collection or a collection's requests, folders, and responses.
+* Transfer collection items between collections or folders.
+* Manage your collection forks.
 
 You can also use these endpoints to import an OpenAPI definition to create a collection or transform an existing collection into an OpenAPI definition. This lets you automatically generate a collection from your source code or API definition so you can then automatically sync it with Postman. Any resources that depend on that collection, such as monitors or mock servers, will also see the updated requests and responses.
 
@@ -81,6 +83,7 @@ The [Environments API](https://www.postman.com/postman/workspace/postman-public-
 > Postman API v9 APIs are [deprecated](#about-v9-and-v10-apis).
 
 Use the Postman [v10 APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-dcbf91c9-f0a6-43c0-adfd-66531b6998a4) to manage your APIs and integrate with your CI/CD systems and automate the publication of new API versions. You can use it to also perform other actions, such as:
+
 * Update or change your API definition.
 * Create and publish new versions of your API.
 * Manage and sync collections attached to an API.
@@ -88,6 +91,7 @@ Use the Postman [v10 APIs](https://www.postman.com/postman/workspace/postman-pub
 ### Mock servers
 
 In addition to performing CRUD (Create, Read, Update, and Delete) operations on your [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), you can use the [Mocks API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-4c10162c-e6f1-400b-88fa-5c5aac34eb74) to:
+
 * Set a mock server public or private.
 * List all calls received by a mock server.
 * Manage mock server responses for 5XX errors.
@@ -126,6 +130,7 @@ Use the [Tags APIs](https://www.postman.com/postman/workspace/postman-public-wor
 ### Secret Scanner
 
 The [Secret Scanner API](https://www.postman.com/postman/workspace/postman-public-workspace/request/12959542-7552368b-7fc3-4f9b-a3e2-e229c3f6d299) programmatically provides the same functionality as the [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) dashboard. These endpoints enable Enterprise Ultimate customers to manage secrets detected by the Postman Secret Scanner. Use it to:
+
 * Search detected secrets (paginated).
 * Find the location of a detected secret.
 * Update the resolution status of a detected secret.
