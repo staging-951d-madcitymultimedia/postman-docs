@@ -82,7 +82,7 @@ The [Environments API](https://www.postman.com/postman/workspace/postman-public-
 
 > Postman API v9 APIs are [deprecated](#about-v9-and-v10-apis).
 
-Use the Postman [v10 APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-dcbf91c9-f0a6-43c0-adfd-66531b6998a4) to manage your APIs and integrate with your CI/CD systems and automate the publication of new API versions. You can use it to also perform other actions, such as:
+Use the Postman [v10 APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-dcbf91c9-f0a6-43c0-adfd-66531b6998a4) to manage your APIs and integrate with your CI/CD systems and automate the publication of new API versions. You can also use it to perform other actions, such as:
 
 * Update or change your API definition.
 * Create and publish new versions of your API.
