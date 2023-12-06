@@ -48,14 +48,14 @@ You can get started by [forking the Postman API collection](https://www.postman.
 ## Postman API features
 
 The Postman API supports the following Postman features:
-- [Workspaces](#workspaces)
-- [Collections](#collections)
-- [Environments](#environments)
-- [APIs](#apis)
-- [Mock servers](#mock-servers)
-- [Monitors](#monitors)
-- [User and usage data](#user-and-usage-data)
-- [Billing](#billing)
+* [Workspaces](#workspaces)
+* [Collections](#collections)
+* [Environments](#environments)
+* [APIs](#apis)
+* [Mock servers](#mock-servers)
+* [Monitors](#monitors)
+* [User and usage data](#user-and-usage-data)
+* [Billing](#billing)
 
 > Some Postman API endpoints are only available on Postman [Enterprise or Professional plans](#apis-for-enterprise-or-professional-plans).
 
@@ -81,16 +81,16 @@ The [Environments API](https://www.postman.com/postman/workspace/postman-public-
 > Postman API v9 APIs are [deprecated](#about-v9-and-v10-apis).
 
 Use the Postman [v10 APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-dcbf91c9-f0a6-43c0-adfd-66531b6998a4) to manage your APIs and integrate with your CI/CD systems and automate the publication of new API versions. You can use it to also perform other actions, such as:
-- Update or change your API definition.
-- Create and publish new versions of your API.
-- Manage and sync collections attached to an API.
+* Update or change your API definition.
+* Create and publish new versions of your API.
+* Manage and sync collections attached to an API.
 
 ### Mock servers
 
 In addition to performing CRUD (Create, Read, Update, and Delete) operations on your [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), you can use the [Mocks API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-4c10162c-e6f1-400b-88fa-5c5aac34eb74) to:
-- Set a mock server public or private.
-- List all calls received by a mock server.
-- Manage mock server responses for 5XX errors.
+* Set a mock server public or private.
+* List all calls received by a mock server.
+* Manage mock server responses for 5XX errors.
 
 ### Monitors
 
@@ -108,12 +108,12 @@ The [Billing API](https://www.postman.com/postman/workspace/postman-public-works
 
 The following APIs are only available for Postman [Enterprise or Professional plan](https://www.postman.com/pricing/) users:
 
-- [Private API Network](#private-api-network)
-- [Tags](#tags)
-- [Secret Scanner](#secret-scanner)
-- [SCIM](#scim)
-- [API security and governance](#api-security-and-governance)
-- [Audit logs](#audit-logs)
+* [Private API Network](#private-api-network)
+* [Tags](#tags)
+* [Secret Scanner](#secret-scanner)
+* [SCIM](#scim)
+* [API security and governance](#api-security-and-governance)
+* [Audit logs](#audit-logs)
 
 ### Private API Network
 
@@ -126,11 +126,11 @@ Use the [Tags APIs](https://www.postman.com/postman/workspace/postman-public-wor
 ### Secret Scanner
 
 The [Secret Scanner API](https://www.postman.com/postman/workspace/postman-public-workspace/request/12959542-7552368b-7fc3-4f9b-a3e2-e229c3f6d299) programmatically provides the same functionality as the [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) dashboard. These endpoints enable Enterprise Ultimate customers to manage secrets detected by the Postman Secret Scanner. Use it to:
-- Search detected secrets (paginated).
-- Find the location of a detected secret.
-- Update the resolution status of a detected secret.
-- Build automatic notification systems.
-- Programmatically resolve detected secrets.
+* Search detected secrets (paginated).
+* Find the location of a detected secret.
+* Update the resolution status of a detected secret.
+* Build automatic notification systems.
+* Programmatically resolve detected secrets.
 
 ### SCIM
 
@@ -143,8 +143,8 @@ The [API Security API](https://www.postman.com/postman/workspace/postman-public-
 ### Audit logs
 
 Use the [Audit Logs API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-d744246b-6939-4602-9559-5614e5f839cf) to monitor and analyze your Professional or Enterprise Postman teams. [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review audit logs, filter by specific criteria, and get information about:
-- When users were added to, removed from, or invited to your team.
-- Which user performed a specific action—and when they did so.
+* When users were added to, removed from, or invited to your team.
+* Which user performed a specific action—and when they did so.
 
 ## About v9 and v10 APIs
 
