@@ -58,7 +58,7 @@ The Postman API supports the following Postman features:
 * [User and usage data](#user-and-usage-data)
 * [Billing](#billing)
 
-> Some Postman API endpoints are only available on Postman [Enterprise or Professional plans](#apis-for-enterprise-or-professional-plans).
+> There are more Postman API endpoints available on Postman [Enterprise and Professional plans only](#apis-for-enterprise-or-professional-plans).
 
 ### Workspaces
 
@@ -98,11 +98,11 @@ In addition to performing CRUD (Create, Read, Update, and Delete) operations on 
 
 ### Monitors
 
-Running monitors lets you programmatically run collections, depending on specific events on your CI/CD pipelines. With the [Monitors API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-e8688124-26f9-4dbe-9226-0c453fedf8a9) you can run a monitor synchronously. You can also create and run a [webhook](/docs/collections/running-collections/collection-webhooks/), which is a special monitor that runs a collection.
+The [Monitors API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-e8688124-26f9-4dbe-9226-0c453fedf8a9) enables you to programmatically run collections, depending on specific events on your CI/CD pipelines. You can also create and run a [webhook](/docs/collections/running-collections/collection-webhooks/), which is a special monitor that runs a collection.
 
 ### User and usage data
 
-The [User APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-c0e35437-9f48-4b8a-a1cc-dcbce8d9d8c6) return information about the API key's owner. You can use it to get data about your API usage and check how many requests you can perform until the end of the month.
+The [User API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-c0e35437-9f48-4b8a-a1cc-dcbce8d9d8c6) return information about the API key's owner. You can use it to get data about your API usage and check how many requests you can perform until the end of the month.
 
 ### Billing
 
@@ -125,11 +125,11 @@ The [Private API Network API](https://www.postman.com/postman/workspace/postman-
 
 ### Tags
 
-Use the [Tags APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-7121c1c4-f792-484c-b3bd-c133d58dbbeb) to manage your Postman tags programmatically. You can use these endpoints to add or remove tags from Postman collections, APIs, and workspaces. You can also use this API to get all Postman elements that match a given tag and then operate on them programmatically.
+Use the [Tags APIs](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-7121c1c4-f792-484c-b3bd-c133d58dbbeb) to manage your Postman tags programmatically. You can use these endpoints to add or remove tags from Postman [collections](/docs/collections/using-collections/#tagging-a-collection), [APIs]( /docs/designing-and-developing-your-api/managing-apis/#tagging-apis), and [workspaces]( /docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a-workspace). You can also use this API to get all Postman elements that match a given tag and then operate on them programmatically.
 
 ### Secret Scanner
 
-The [Secret Scanner API](https://www.postman.com/postman/workspace/postman-public-workspace/request/12959542-7552368b-7fc3-4f9b-a3e2-e229c3f6d299) programmatically provides the same functionality as the [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) dashboard. These endpoints enable Enterprise Ultimate customers to manage secrets detected by the Postman Secret Scanner. Use it to:
+The [Secret Scanner API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-129b53d2-77f7-4593-89d5-a5a600e9d80f) programmatically provides the same functionality as the [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) dashboard. These endpoints enable Enterprise Ultimate customers to manage secrets detected by the Postman Secret Scanner. Use it to:
 
 * Search detected secrets (paginated).
 * Find the location of a detected secret.
@@ -139,11 +139,11 @@ The [Secret Scanner API](https://www.postman.com/postman/workspace/postman-publi
 
 ### SCIM
 
-The [SCIM API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-842bb61b-7d6f-4ed0-832b-921e1d08fb43) supports [SCIM](https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management) (System for Cross-domain Identity Management), which enables you to automate the provisioning of your team. You can deploy Postman at scale across your organization and control access to it with your identity provider. You can use these endpoints to integrate your onboarding process and automatically provision users and groups.
+The [SCIM API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-842bb61b-7d6f-4ed0-832b-921e1d08fb43) supports [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) (System for Cross-domain Identity Management), which enables you to automate the provisioning of your team. You can deploy Postman at scale across your organization and control access to it with your identity provider. You can use these endpoints to integrate your onboarding process and automatically provision users and groups.
 
 ### API security and governance
 
-The [API Security API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-1641318b-f1d5-499b-b295-fc31276f1125) enables you to manage your API’s security by running security checks and validating your API governance rules. For example, you can use the [API definition security validation endpoint](https://www.postman.com/postman/workspace/postman-public-workspace/request/12959542-784ec244-5899-4c69-bab9-c6982e137076) to validate an OpenAPI definition. If everything is OK, you can use it to publish a new version of your API.
+The [API Security API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-1641318b-f1d5-499b-b295-fc31276f1125) enables you to manage your API’s security by running security checks and tracking your API definition's governance and security rule violations. For example, you can use the [API definition security validation endpoint](https://www.postman.com/postman/workspace/postman-public-workspace/request/12959542-784ec244-5899-4c69-bab9-c6982e137076) to validate an OpenAPI definition. You can also use it to publish a new version of your API.
 
 ### Audit logs
 
