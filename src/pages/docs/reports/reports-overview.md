@@ -12,8 +12,6 @@ contextual_links:
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
 ---
 
-> [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
-
 Postman generates reports that enable you to visualize data for how your team uses Postman. These reports give you insights into the state of your APIs, including tests, documentation, and monitoring coverage. They also enable you to track performance and SLA adherence.
 
 Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/overview).
@@ -27,6 +25,8 @@ Access your reports in your [Postman reports dashboard](https://go.postman.co/re
 * [Troubleshooting](#troubleshooting)
 
 ## Getting started with reports
+
+> [__Reports are available on all Postman Enterprise plans. The Public API Network report is available on all Postman plans.__](https://www.postman.com/pricing)
 
 Reports give information about various aspects of your team and plan, including [member](/docs/reports/members-overview-reports/) and [content](/docs/reports/content-activity-reports/) activity, [API security](/docs/reports/api-security-reports/), and [billing and overage](/docs/reports/billing-overview-reports/) information.
 
