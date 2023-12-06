@@ -53,9 +53,9 @@ Postman delivers scan results in the [Secret Scanner dashboard](https://go.postm
 
 ## Secret Scanner dashboard
 
-> **[The Secret Scanner dashboard is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
+> **[The Secret Scanner dashboard is available on Postman Enterprise plans. Secret Scanner reports are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
 
-You can view detected secrets, configure [default](#default-alerts) and [custom](#custom-alerts) alerts, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view detected secrets, configure [default](#default-alerts) and [custom](#custom-alerts) alerts, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
 
 <img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-dashboard2-v10.18.jpg"/>
 
@@ -78,6 +78,8 @@ To resolve a detected secret, select **Unresolved** and then select the reason f
 <img alt="Resolve detected secret" src="https://assets.postman.com/postman-docs/v10/secret-scanner-resolve-detected-secret-v10.18.jpg"/>
 
 ## Manage Secret Scanner findings with the Postman API
+
+> **[The Secret Scanner Postman API endpoints are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
 
 Team Admins, Super Admins, and Workspace Admins can access Secret Scanner findings through the Postman API. Using the Postman API enables you to create custom automated workflows to retrieve and resolve identified secrets. To learn more, see the [Postman API documentation](https://go.pstmn.io/live-docs-api).
 
