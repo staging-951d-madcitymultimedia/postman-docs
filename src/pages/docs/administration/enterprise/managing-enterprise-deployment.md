@@ -289,6 +289,10 @@ sudo snap set postman-enterprise team-ids="1234, 4321"
 
 > To get your Postman team ID, you can [contact Postman support](https://www.postman.com/support/) or contact your Postman Account Manager.
 
+This configuration ensures that users must be signed in to a team you've specified in order to use the Postman Enterprise app. Users will only see the teams you've approved as options when signing in.
+
+<!-- screenshot -->
+
 ## Uninstalling the Postman Enterprise Linux app
 
 Use this command to uninstall the app:
