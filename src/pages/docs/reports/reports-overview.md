@@ -16,7 +16,7 @@ Postman generates reports that enable you to visualize data for how your team us
 
 Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/overview).
 
-<img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/v10/dashboard-reports-overview-v10.jpg" width="1200px"/>
+<img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/v10/dashboard-reports-overview-v10-21.jpg"/>
 
 * [Getting started with reports](#getting-started-with-reports)
     * [Report availability](#report-availability)
@@ -26,7 +26,7 @@ Access your reports in your [Postman reports dashboard](https://go.postman.co/re
 
 ## Getting started with reports
 
-> [__Reports are available on all Postman Enterprise plans. The Public API Network report is available on all Postman plans.__](https://www.postman.com/pricing)
+> [__Reports are available on all Postman Enterprise plans. The Public workspace metrics report is available on all Postman plans.__](https://www.postman.com/pricing)
 
 Reports give information about various aspects of your team and plan, including [member](/docs/reports/members-overview-reports/) and [content](/docs/reports/content-activity-reports/) activity, [API security](/docs/reports/api-security-reports/), and [billing and overage](/docs/reports/billing-overview-reports/) information.
 

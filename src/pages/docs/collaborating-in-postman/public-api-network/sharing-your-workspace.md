@@ -41,7 +41,7 @@ You can use reports that Postman generates to visualize data and track performan
 
 ### Reports
 
-In your [Postman reports dashboard](https://go.postman.co/reports/overview), you can view reports for [APIs on the Public API Network](/docs/reports/public-api-network-reports/). This report enables you to track API consumer interest and activity in your public APIs over a specified period of time. You can view the number of collection views and forks, requests made in forked collections, and more.
+In your [Postman reports dashboard](https://go.postman.co/reports/overview), you can view reports for [public workspaces on the Public API Network](/docs/reports/public-workspace-metrics-reports/). This report enables you to track API consumer interest and activity in your public APIs over a specified period of time. You can view the number of collection views and forks, requests made in forked collections, and more.
 
 You can also view reports for your [public workspaces](/docs/reports/content-activity-reports/#public-workspaces) and [public APIs](/docs/reports/content-activity-reports/#public-apis). These reports provide an overview of your public workspaces and APIs, such as the total number of public workspaces and elements in them, the number of public APIs with tests, and more. You can also track metrics about API consumer interest and activity, such as the number of views, watchers, and comments.
 
