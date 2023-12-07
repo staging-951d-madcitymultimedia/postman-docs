@@ -28,12 +28,10 @@ To sign in to Postman with SSO, do the following:
     <img src="https://assets.postman.com/postman-docs/v10/sign-in-v10.21.jpg" alt="Sign in" width="350px"/>
 
 1. Enter the team domain, then select **Continue**.
-
-    > Select **Stay signed in** if you want to remain signed in until you are inactive for 30 days. If your team has configured a maximum session duration, sessions will be revoked based on the team setting. Clear the checkbox if you don't want to remain signed in on the computer you're working on. Note that Postman will prompt you to sign in again after 30 minutes.
     
     > Select **Stay signed in** if you want to remain signed in until you are inactive for 30 days or until you reach the maximum session duration your team has configured. Clear the checkbox if you don't want to remain signed in on the computer you're working on. Note that Postman will prompt you to sign in again after 30 minutes.
 
-    <img src="https://assets.postman.com/postman-docs/postman-sign-in-sso-v9.16.jpg" alt="Sign in with SSO" width="350px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/sign-in-sso-v10.21.jpg" alt="Sign in with SSO" width="350px"/>
 
 1. Select the authentication method you want to sign in with.
 
