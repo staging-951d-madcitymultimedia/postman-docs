@@ -44,7 +44,7 @@ Importing from New Relic requires you to get your API key (User key) from New Re
 
 ## Import New Relic data
 
-1. Select **Import** in the sidebar, then select **New Relic**.
+1. Select **Import** in the sidebar, then select **Other Sources > New Relic**.
 1. Enter the **API Key** (User key) you copied from New Relic, then select **Next**.
 
     > Postman saves your API key so you don't have to enter it again the next time you import data from New Relic.

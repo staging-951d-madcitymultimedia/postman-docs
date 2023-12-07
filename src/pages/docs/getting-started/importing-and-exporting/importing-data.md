@@ -51,8 +51,7 @@ You can import data that was [exported from Postman](/docs/getting-started/impor
 1. Do one of the following:
     * Select your file or folder, or drag it into Postman.
     * Paste your raw text or URL into the box.
-    * Select a button to import from [GitHub](/docs/getting-started/importing-and-exporting/importing-from-git/#import-from-a-remote-git-repository), [AWS API Gateway](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-amazon-api-gateway), or [New Relic](/docs/getting-started/importing-and-exporting/importing-from-new-relic/).
-    * Select **Other Sources** to import from a [Bitbucket, GitLab, or Azure](/docs/getting-started/importing-and-exporting/importing-from-git/#import-from-a-remote-git-repository) code repository. You can also import an API from [Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/#importing-api-definitions-from-azure-api-management).
+    * Select **Other Sources** and select the type of data you want to import. You can import data from a [GitHub, Bitbucket, GitLab, or Azure](/docs/getting-started/importing-and-exporting/importing-from-git/#import-from-a-remote-git-repository) code repository. You can also import an API from [AWS API Gateway](/docs/designing-and-developing-your-api/importing-an-api/#import-api-definitions-from-amazon-api-gateway) or [Azure API Management](/docs/designing-and-developing-your-api/importing-an-api/#import-api-definitions-from-azure-api-management), or import data from [New Relic](/docs/getting-started/importing-and-exporting/importing-from-new-relic/).
 
 1. If you're importing multiple files, select the files you want to import, then select **Import**.
 
