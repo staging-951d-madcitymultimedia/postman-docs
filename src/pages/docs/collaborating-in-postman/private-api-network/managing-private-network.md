@@ -55,7 +55,7 @@ You can manage folders and elements in the Private API Network. You can edit a c
 
 ## Editing collections
 
-You can change a collection's or API's associated environments in the Private API Network.
+You can change an API or collection's associated environments in the Private API Network.
 
 Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection you would like to edit from the network, then select **Edit environments**. Edit the collection, then select **Edit** to save your changes.
 
