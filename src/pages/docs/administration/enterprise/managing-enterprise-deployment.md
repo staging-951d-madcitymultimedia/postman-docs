@@ -291,7 +291,7 @@ sudo snap set postman-enterprise team-ids="1234, 4321"
 
 This configuration ensures that users must be signed in to a team you've specified in order to use the Postman Enterprise app. Users will only see the teams you've approved as options when signing in.
 
-<!-- screenshot -->
+<!-- add screenshot -->
 
 ## Uninstalling the Postman Enterprise Linux app
 
