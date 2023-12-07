@@ -61,7 +61,7 @@ Make sure you've [downloaded and installed the Postman desktop app](/docs/gettin
 
 Postman displays the response data sent from the server in the lower pane.
 
-<img alt="Sending a request" src="https://assets.postman.com/postman-docs/v10/send-first-request-v10.jpg" width="716px">
+<img alt="Sending a request" src="https://assets.postman.com/postman-docs/v10/send-first-request-v10-2.jpg" width="716px">
 
 ### What happened?
 

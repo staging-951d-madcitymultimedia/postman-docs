@@ -44,7 +44,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Quick Help](#quick-help)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10.jpg"/>
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10-2.jpg"/>
 
 ## Header
 
@@ -161,7 +161,7 @@ To open a new tab, select __+__ in the workbench.
 
 > You can also select **⌘+T** or **Ctrl+T** to open a new tab.
 
-<img alt="Open a new tab" src="https://assets.postman.com/postman-docs/open-new-tab.jpg" width="450px"/>
+<img alt="Open a new tab" src="https://assets.postman.com/postman-docs/v10/open-new-tab-v10-2.jpg" width="200px"/>
 
 If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
 
@@ -175,15 +175,15 @@ If a tab has unsaved changes, Postman displays a dot next to the tab name. Selec
 
 To rename an element, select the element's name and enter a new name.
 
-<img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10-2.jpg" width="300px"/>
+<img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10-3.jpg" width="200px"/>
 
 To copy a link to an element, hover over the element's name in the workbench to display the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">. Select the link icon to copy the element's URL to your clipboard.
 
-<img alt="Copy link to elements" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-v10-2.jpg" width="300px"/>
+<img alt="Copy link to elements" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-v10-3.jpg" width="200px"/>
 
 If the element is in a personal workspace that no one can access, a popup window will display when you select the link icon. The popup window enables you to invite people to your personal workspace before sharing the link. To invite people to your personal workspace, select **Invite People**. To learn more about inviting people to collaborate in a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-<img alt="Invite people before sharing link to element" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-invite-v10.jpg" width="300px"/>
+<img alt="Invite people before sharing link to element" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-invite-v10-2.jpg" width="300px"/>
 
 #### Viewing conflicts
 
