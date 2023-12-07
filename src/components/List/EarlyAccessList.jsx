@@ -1,8 +1,10 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
+import { v4 as uuidv4 } from 'uuid';
+import { useLocation } from '@reach/router';
 
 
-const BulletList = () => (
+const EarlyAccessList = () => (
     <StaticQuery
       query={graphql`
         query {
@@ -23,11 +25,18 @@ const BulletList = () => (
       `}
       render={data => {
         const earlyAccessPages = data.allMarkdownRemark.edges;
+        const location = useLocation();
+        
         return (
-          <div>
+          <div key={uuidv4()}>
             <ul className="mb-5">
               {earlyAccessPages.map(edge => (
-                <li key={edge.node.id}><a href={edge.node.fields.slug}>{edge.node.frontmatter.title}</a></li>
+                <>
+                {/* Do not show the current page in the list */}
+                {edge.node.fields.slug === location.pathname ? null : 
+                  <li key={uuidv4()}><a href={edge.node.fields.slug}>{edge.node.frontmatter.title}</a></li>
+                }
+                </>
               ))}
             </ul>
           </div>
@@ -38,4 +47,4 @@ const BulletList = () => (
    
 
 
-export default BulletList;
+export default EarlyAccessList;
