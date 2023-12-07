@@ -36,7 +36,7 @@ Publish an API version to share the current state of your API with consumers. Yo
 
 If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud.
 
-> You must have the [API Admin role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) to publish an API.
+> You must have the [Admin role for an API](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) or the [Workspace Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to publish an API.
 
 To publish an API version, do the following:
 
