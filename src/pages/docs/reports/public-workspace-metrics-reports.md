@@ -1,5 +1,5 @@
 ---
-title: "View reports about APIs on the Public API Network"
+title: "View reports about public workspaces on the Public API Network"
 updated: 2023-12-15
 ---
 
