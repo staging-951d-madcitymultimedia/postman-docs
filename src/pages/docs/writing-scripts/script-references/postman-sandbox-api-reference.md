@@ -625,7 +625,7 @@ See the [Request definition](http://www.postmanlabs.com/postman-collection/Reque
 
 ### Get the path and name of a request
 
-The `pm.execution.location` property enables you to get the complete path of a request, including the folder and collection, in array format. For example, for a request name **R1** in folder **F1** in collection **C1**, the following test script code will return `["C1", "F1", "R1"]`:
+The `pm.execution.location` property enables you to get the complete path of a request, including the folder and collection, in array format. For example, for a request named **R1** in folder **F1** in collection **C1**, the following test script code will return `["C1", "F1", "R1"]`:
 
 ```js
 // Returns the full path of a request in array format
