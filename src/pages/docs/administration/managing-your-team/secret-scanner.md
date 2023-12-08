@@ -39,8 +39,8 @@ The Secret Scanner is available on all Postman plans and is turned on by default
     * [Secret Scanner summary emails](#secret-scanner-summary-emails)
 * [Manage Secret Scanner findings with the Postman API](#manage-secret-scanner-findings-with-the-postman-api)
 * [Supported secrets](#supported-secrets)
-    * [Default alerts](#default-alerts)
-    * [Custom alerts](#custom-alerts)
+    * [Default patterns](#default-patterns)
+    * [Custom patterns](#custom-patterns)
 * [Protect Postman API keys in GitHub](#protect-postman-api-keys-in-github)
 * [Protect Postman API keys in GitLab](#protect-postman-api-keys-in-gitlab)
 
@@ -56,13 +56,14 @@ Postman delivers scan results in the [Secret Scanner dashboard](https://go.postm
 
 > **[The Secret Scanner dashboard is available on Postman Enterprise plans. Secret Scanner reports are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view detected secrets, configure [default](#default-alerts) and [custom](#custom-alerts) alerts, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view detected secrets, configure [default](#default-patterns) and [custom](#custom-patterns) alerts, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
 
 <img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-dashboard2-v10.18.jpg"/>
+<!-- TODO: update screenshot -->
 
 ### Resolve detected secrets
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-alerts) and [custom](#custom-alerts) secrets that the Secret Scanner has found in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-patterns) and [custom](#custom-patterns) secrets that the Secret Scanner has found in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
 
 > Admins and Super Admins can access all identified secrets within a team, including ones in public workspaces. Workspace Admins can also view secrets within the workspaces they manage.
 
@@ -92,25 +93,80 @@ Team Admins, Super Admins, and Workspace Admins can access Secret Scanner findin
 
 ## Supported secrets
 
-The Secret Scanner scans for a variety of secrets [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
+The Secret Scanner scans for a variety of secrets [by default](#default-patterns). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom patterns](#custom-patterns).
 
-### Default alerts
+### Default patterns
 
-By default, the Secret Scanner checks for tokens issued by common service providers including Amazon, Google, GitHub, Stripe, and Twilio. To view the complete list of default alerts, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts) and select **Configure alerts**.
+By default, the Secret Scanner checks for tokens issued by common service providers including Amazon, Google, GitHub, Stripe, and Twilio. To view the complete list of default alerts, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts) and select **Configure patterns**.
 
-### Custom alerts
+### Custom patterns
 
-> **[Custom alerts are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Custom patterns are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-You can use custom alerts to scan your team's proprietary tokens and any third-party app tokens that aren't scanned by default.
+You can use custom patterns to scan your team's proprietary tokens and any third-party app tokens that aren't scanned by default. You can also [dry run custom patterns](#dry-run-custom-patterns) before adding them to the Secret Scanner, enabling you to test the results that the custom pattern returns.
 
-Your team can add a total of five alerts. You must be a Community Manager or team member with both Developer and Admin roles to add custom alerts.
+Your team can add a total of five patterns. You must be a Community Manager or team member with both Developer and Admin roles to add custom patterns.
 
-To add custom alerts, do the following:
+To add custom patterns, do the following:
 
-1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Secret Scanner** in the left sidebar, then select the **Configure alerts** tab.
-2. In the **Custom alerts** section, select **+ Add Alert**.
-3. Add the details for the custom token, then select **Create Alert**.
+1. Open Postman and select **Team > Team Settings** in the Postman header. Select **Secret Scanner** in the left sidebar, then select the **Configure patterns** tab.
+1. In the **Custom patterns** section, select **+**.
+1. In the **Pattern details** section, add the following details for the custom token:
+
+    * **Name** - The name of your custom pattern.
+    * **Regex** - The regular expression that specifies the pattern of the secrets you want to find a match for.
+    * **Sample value** - A sample value used to validate the regular expression pattern.
+
+1. In the **Scan activation** section, select one of the following:
+
+    * **Add pattern to secret scanner** - Add the secrets the Secret Scanner finds to the **Secrets detected** tab in the dashboard. By default, the **Scan existing elements** checkbox is selected, meaning the Secret Scanner will use the custom pattern to scan existing elements. If you'd like to only scan new elements, clear the **Scan existing elements** checkbox.
+
+    * **Dry run the pattern first with select workspaces** - Dry run the custom pattern before adding it to the Secret Scanner. You can select up to 20 public or team workspaces for the dry run. The results of the dry run won't be added to the **Secrets detected** tab in the dashboard. Learn more about [creating a custom pattern dry run](#dry-run-custom-patterns).
+
+1. Select **Add Custom Pattern** or **Dry Run Pattern**, depending on the option you selected in the **Scan activation** section.
+
+<!-- TODO: add screenshot -->
+
+To edit a custom pattern, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a custom pattern. Edit the name or regular expression, update the sample value, then select **Save**. If you edited the regular expression, select one of the following to confirm your changes:
+
+* **Keep Existing Leaks** - Show detected secrets in the **Secrets detected** tab that are associated with earlier iterations of this custom pattern.
+* **Remove Existing Leaks** - Remove detected secrets from the **Secrets detected** tab that are associated with earlier iterations of this custom pattern.
+
+> When you edit a regular expression in a custom pattern, the updated regular expression is used to scan new elements only. To scan existing elements with the changes to the pattern, create a new custom pattern and make sure the **Scan existing elements** checkbox is selected.
+
+To delete a custom pattern, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a custom pattern. Then select **Delete** to confirm. When you delete a custom pattern, all detected secrets associated with this pattern will be removed from the **Secrets detected** tab.
+
+#### Dry run custom patterns
+
+When you create a custom pattern, you can choose to dry run the regular expression pattern before adding it to the Secret Scanner. This enables you to test the results that the regular expression pattern returns. You can dry run the pattern on up to 20 public or team workspaces. If the dry run works as expected, you can add the custom pattern to the Secret Scanner, enabling your team to review the results in your dashboard.
+
+> The results of the dry run won't be added to the **Secrets detected** tab in the dashboard. You must manually add the custom pattern to the Secret Scanner.
+
+To dry run a custom pattern, do the following:
+
+1. [Add a custom pattern](#custom-patterns), and select **Dry run the pattern first with select workspaces** in the **Scan activation** section.
+1. Select up to 20 public or team workspaces to scan.
+1. Select **Dry Run Pattern**.
+
+<!-- TODO: add screenshot -->
+
+To view the dry run results and add the custom pattern, do the following:
+
+1. Select the **Configure patterns** tab.
+1. In the **Custom patterns** section, select **View results** next to the custom pattern when the dry run is completed.
+
+    > To run the dry run again, select **Re-run Scan** in the top right of **Results** page.
+
+    <!-- TODO: add screenshot -->
+
+1. In the **Results** page, select **Add Pattern to Secret Scanner**. You can also go to the **Custom patterns** section of the dashboard, and turn on the **Scan status** toggle next to the custom pattern.
+
+    <!-- TODO: add screenshot -->
+
+1. To confirm, select one of the following:
+
+    * **Ignore Existing Elements** - Scan only new elements with this custom pattern.
+    * **Scan Existing Elements** - Scan existing elements with this custom pattern.
 
 ## Protect Postman API keys in GitHub
 
