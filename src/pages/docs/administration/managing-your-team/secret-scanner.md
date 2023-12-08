@@ -36,6 +36,7 @@ The Secret Scanner is available on all Postman plans and is turned on by default
 * [How Secret Scanner works](#how-secret-scanner-works)
 * [Secret Scanner dashboard](#secret-scanner-dashboard)
     * [Resolve detected secrets](#resolve-detected-secrets)
+    * [Secret Scanner summary emails](#secret-scanner-summary-emails)
 * [Manage Secret Scanner findings with the Postman API](#manage-secret-scanner-findings-with-the-postman-api)
 * [Supported secrets](#supported-secrets)
     * [Default alerts](#default-alerts)
@@ -76,6 +77,12 @@ To resolve a detected secret, select **Unresolved** and then select the reason f
 * **Won't fix** - This secret is not relevant.
 
 <img alt="Resolve detected secret" src="https://assets.postman.com/postman-docs/v10/secret-scanner-resolve-detected-secret-v10.18.jpg"/>
+
+### Secret Scanner summary emails
+
+Team Admins, Super Admins, and Workspace Admins can stay informed about Secret Scanner findings by subscribing to weekly or monthly summary emails. Subscribers will receive a monthly summary email on the first of every month or a weekly summary email every Monday.
+
+Navigate to [Notification Preferences](https://go.postman.co/settings/me/notifications) or select your avatar in the Postman header, then select **Settings > Notifications** to view the Secret Scanner summary option. From there, you can select the box for either weekly or monthly summaries—or both—and save your preferences.
 
 ## Manage Secret Scanner findings with the Postman API
 
