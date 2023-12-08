@@ -61,7 +61,7 @@ Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissi
 
 ### Resolve detected secrets
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-alerts) and [custom](#custom-alerts) secrets that the Secret Scanner has found in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by workspace visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-alerts) and [custom](#custom-alerts) secrets that the Secret Scanner has found in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
 
 > Admins and Super Admins can access all identified secrets within a team, including ones in public workspaces. Workspace Admins can also view secrets within the workspaces they manage.
 
