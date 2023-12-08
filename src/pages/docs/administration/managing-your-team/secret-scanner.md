@@ -47,7 +47,7 @@ The Secret Scanner is available on all Postman plans and is turned on by default
 
 Postman's Secret Scanner is turned on by default for all Postman teams. It follows all updates made by team members and scans them for [supported secrets](#supported-secrets).
 
-Secret Scanner monitors your team's public workspaces and the collections, environments, global variables, API schemas, and documentation contained within them for exposed secrets. It also monitors all of the documentation your team has [published](/docs/publishing-your-api/publishing-your-docs/), regardless of the [type](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) of workspace it's found in. If you're on an Enterprise Ultimate plan, Secret Scanner will also monitor collections and APIs in your team workspaces.
+Secret Scanner monitors your team's public workspaces and the collections, environments, global variables, API schemas, and documentation contained within them for exposed secrets. It also monitors all of the documentation your team has [published](/docs/publishing-your-api/publishing-your-docs/), regardless of the [type of workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) it's found in. If you're on an Enterprise Ultimate plan, Secret Scanner will also monitor collections and APIs in your team workspaces.
 
 Postman delivers scan results in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). If an exposed secret is found, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
