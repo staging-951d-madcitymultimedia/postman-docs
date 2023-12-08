@@ -168,7 +168,7 @@ Website forms often send data to APIs as `multipart/form-data`. You can replicat
 
 You can also attach a file using form data and send it with your request. Select **File** in the dropdown list next to a key name, then select the file you want to send. You can select a file from your local system, and Postman saves the file path in the request. The saved file path is relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory).
 
-You can also upload a file with test data to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests-and-cloud-runs).
+You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](#upload-files-for-shared-requests-and-cloud-runs).
 
 ![Add form data](https://assets.postman.com/postman-docs/v10/request-form-data-v10-21.jpg)
 
@@ -198,7 +198,7 @@ You can use __binary__ data to send information you can't enter manually in the 
 
 Select the file you want to send with the request. You can select a file from your local system, and Postman saves the file path in the request. The saved file path is relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory).
 
-You can also upload a file with test data to the Postman cloud. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests](#upload-files-for-shared-requests-and-cloud-runs).
+You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](#upload-files-for-shared-requests-and-cloud-runs).
 
 ![Add binary data](https://assets.postman.com/postman-docs/v10/request-binary-data-v10-21.jpg)
 
@@ -266,15 +266,15 @@ You can manage Cookies for your domains from Postman. Select __Cookies__ (under 
 
 ## Upload files for shared requests and cloud runs
 
-> **Test data management is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** To learn more about availability for Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
+> **Test data storage is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** To learn more about availability for Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
 
 You can attach a file with test data to a request as form data or binary data. Postman will save the file path relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory) and use the file when sending the request. However, if you share the request in a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), the local file isn't shared. This means other team members won't be able to send the request unless they put a copy of the same file in their own local working directory. Also, a local file won't be available when sending a request from a [monitor](/docs/monitoring-your-api/intro-monitors/) or a [scheduled collection run](/docs/collections/running-collections/scheduling-collection-runs/), which are run in the Postman cloud and not locally.
 
-To enable sharing requests that use test data files, you can upload the files to the Postman cloud. Uploaded files are available to all members of your team and can be used to send requests that are shared in a workspace. Uploaded files are also available to requests sent from monitors and scheduled collection runs, and can be used from [Postman Flows](/docs/postman-flows/gs/flows-overview/) and the [Postman CLI](/docs/postman-cli/postman-cli-overview/) (but not [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/)).
+To enable sharing requests that use test data files, you can upload the files to your Postman team. Uploaded files are available to all members of your team and can be used to send requests that are shared in a workspace. Uploaded files are also available to requests sent from monitors and scheduled collection runs, and can be used from [Postman Flows](/docs/postman-flows/gs/flows-overview/) and the [Postman CLI](/docs/postman-cli/postman-cli-overview/) (but not [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/)).
 
 > You must have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to upload a file for a request in the collection. Files can't be uploaded from scripts.
 
-To upload a file to the Postman cloud, do the following:
+To upload a file to your Postman team, do the following:
 
 1. Open a request and select the **Body** tab.
 1. Select **form-data** or **binary** depending on the type of data you want to send with the request.
@@ -297,7 +297,7 @@ After uploading the file, other team members can send the request without needin
 
 Uploaded files can be used in any requests you or other members of your team create (except in public workspaces). Uploaded files can also be accessed by Postman Flows and the Postman CLI when automating runs. If you fork a collection that uses test data files, you may need to upload any files that haven't been uploaded to your team.
 
-> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for uploaded test data files. Your plan also gives you a limited number of file retrievals from the cloud. Learn more about [managing test data usage](/docs/billing/resource-usage/#test-data-usage).
+> Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for uploaded test data files. Your plan also gives you a limited number of retrievals of uploaded files. Learn more about [test data usage](/docs/billing/resource-usage/#test-data-usage).
 
 ## Choosing custom settings
 
