@@ -27,9 +27,9 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
 ---
 
-The Postman Secret Scanner scans public workspaces to detect any exposed secrets. It checks all of the collections, global variables, environment variables, API schemas, and documentation in a public workspace to safeguard your organization from potential threats and prevent malicious users from accessing any exposed secrets.
+The Postman Secret Scanner scans public workspaces and published documentation to detect any exposed secrets. It checks all of the collections, global variables, environment variables, API schemas, and documentation in public workspaces to safeguard your organization from potential threats and prevent malicious users from accessing any exposed secrets. It also scans all of the documentation your team has [published](/docs/publishing-your-api/publishing-your-docs/), regardless of the type of workspace it's found in.
 
-The Secret Scanner is available on all Postman plans and is turned on by default. If you're on an [Enterprise Ultimate plan](https://www.postman.com/pricing), Secret Scanner will monitor team workspaces in addition to public workspaces.
+The Secret Scanner is available on all Postman plans and is turned on by default. If you're on an [Enterprise Ultimate plan](https://www.postman.com/pricing), Secret Scanner will monitor team workspaces in addition to public workspaces and documentation.
 
 ## Contents
 
@@ -45,9 +45,9 @@ The Secret Scanner is available on all Postman plans and is turned on by default
 
 ## How Secret Scanner works
 
-Postman's secret scanner follows all updates made by team members and scans them for [supported secrets](#supported-secrets).
+Postman's Secret Scanner is turned on by default for all Postman teams. It follows all updates made by team members and scans them for [supported secrets](#supported-secrets).
 
-Secret Scanner is turned on by default for all Postman teams and will monitor your team's public workspaces, collections, environments, and documentation for exposed secrets. If you're on an [Enterprise Ultimate plan](https://www.postman.com/pricing), Secret Scanner will also monitor collections and APIs in your team workspaces.
+Secret Scanner monitors your team's public workspaces and the collections, environments, global variables, API schemas, and documentation contained within them for exposed secrets. It also monitors all of the documentation your team has [published](/docs/publishing-your-api/publishing-your-docs/), regardless of the [type](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) of workspace it's found in. If you're on an Enterprise Ultimate plan, Secret Scanner will also monitor collections and APIs in your team workspaces.
 
 Postman delivers scan results in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). If an exposed secret is found, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
@@ -61,7 +61,7 @@ Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissi
 
 ### Resolve detected secrets
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-alerts) and [custom](#custom-alerts) secrets that the Secret Scanner has found in public and team workspaces in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by workspace visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-alerts) and [custom](#custom-alerts) secrets that the Secret Scanner has found in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by workspace visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
 
 > Admins and Super Admins can access all identified secrets within a team, including ones in public workspaces. Workspace Admins can also view secrets within the workspaces they manage.
 
