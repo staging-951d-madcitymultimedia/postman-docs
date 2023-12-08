@@ -189,8 +189,16 @@ export const leftNavItems = [
             url: '/docs/getting-started/importing-and-exporting/importing-from-soapui/',
           },
           {
-            name: 'API client import',
-            url: '/docs/getting-started/importing-and-exporting/importing-from-api-clients/',
+            name: 'Hoppscotch import',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-hoppscotch/',
+          },
+          {
+            name: 'Insomnia import',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-insomnia/',
+          },
+          {
+            name: 'Thunder Client import',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-thunder-client/',
           },
           {
             name: 'Git import',
@@ -199,10 +207,6 @@ export const leftNavItems = [
           {
             name: 'New Relic import',
             url: '/docs/getting-started/importing-and-exporting/importing-from-new-relic/',
-          },
-          {
-            name: 'Insomnia import',
-            url: '/docs/getting-started/importing-and-exporting/importing-from-insomnia/',
           },
           {
             name: 'cURL command import',

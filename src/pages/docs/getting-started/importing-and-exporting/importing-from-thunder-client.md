@@ -1,5 +1,5 @@
 ---
-title: "Import from SoapUI"
+title: "Import from Thunder Client"
 updated: 2023-12-05
 contextual_links:
   - type: section
@@ -22,15 +22,17 @@ contextual_links:
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
 
-SoapUI is an API testing tool that supports SOAP and REST services. Postman can import SoapUI project files and recreate their requests, collections, environments, and other data in your Postman workspace.
+Thunder Client is an API client extension in VS Code for testing and working with APIs. Postman can import collection and environment files exported from Thunder Client.
 
-## Import a SoapUI project
+## Import from Thunder Client
 
-To import a SoapUI project into Postman, do the following:
+To import Thunder Client files into Postman, do the following:
 
-1. In Postman, select **Import**, then select **Migrate to Postman > SoapUI**.
-1. Select **files** or **folder**, then select the files or folder you want to import.
-1. Select **Open**. Postman checks if the selected files are valid SoapUI projects.
+1. Select **Import**, then select **Migrate to Postman > Other API Clients**.
+1. Select **files** or **folder**, then select the files or folder you want to import. You can select individual exported collection and environment files, or you can select the `rangav.vscode-thunder-client` folder:
+      * macOS: `~/Library/Application Support/Code/User/globalStorage/rangav.vscode-thunder-client`
+      * Windows: `C:\Users\{UserName}\AppData\Roaming\Code\User\globalStorage\rangav.vscode-thunder-client`
+1. Select **Open**. Postman checks if the selected files are valid Thunder Client files.
 1. If the files are valid, you can select **Start Migration**. A window appears showing the migration’s progress. When the migration is complete, select **Dismiss**.
 
   > You can also drag files and folders into the import window.
