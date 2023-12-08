@@ -67,7 +67,7 @@ You can set the expiration settings for all API keys that your team creates with
 
 #### Revoking
 
-Enable the **Auto revoke exposed Postman API keys** setting to allow Postman to automatically revoke any publicly exposed API keys found in publicly accessible Postman resources, [GitHub repositories](/docs/administration/managing-your-team/secret-scanner/#protect-postman-api-keys-in-github), and [Gitlab repositories](/docs/administration/token-scanner/#protect-postman-api-keys-in-gitlab). When the Postman Secret Scanner detects any exposed keys in public GitHub or GitLab repositories or public Postman resources, it revokes the key and notifies the key's owner by email.
+Enable the **Auto revoke exposed Postman API keys** setting to allow Postman to automatically revoke any publicly exposed API keys found in publicly accessible Postman resources, [GitHub repositories](/docs/administration/managing-your-team/secret-scanner/#protect-postman-api-keys-in-github), and [Gitlab repositories](/docs/administration/managing-your-team/secret-scanner/#protect-postman-api-keys-in-gitlab). When the Postman Secret Scanner detects any exposed keys in public GitHub or GitLab repositories or public Postman resources, it revokes the key and notifies the key's owner by email.
 
 If there are any exposed API keys present when you enable this setting, a warning appears.
 
