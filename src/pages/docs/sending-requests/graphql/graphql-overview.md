@@ -1,7 +1,6 @@
 ---
-title: "Use GraphQL queries in Postman"
-page_id: "graphql"
-updated: 2023-05-15
+title: "GraphQL in Postman"
+updated: 2023-11-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -16,14 +15,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Building secure GraphQL APIs"
-    url: "https://blog.postman.com/building-secure-graphql-apis-at-ndc-oslo-conference/"
-  - type: link
     name: "Don’t Panic: A Developer’s Guide to Building Secure GraphQL APIs"
     url: "https://blog.postman.com/how-to-build-secure-graphql-apis/"
-  - type: link
-    name: "How to choose between REST vs. GraphQL vs. gRPC vs. SOAP"
-    url: "https://blog.postman.com/how-to-choose-between-rest-vs-graphql-vs-grpc-vs-soap/"
   - type: subtitle
     name: "Public workspaces"
   - type: link
@@ -39,14 +32,42 @@ warning: false
 
 ---
 
-Postman can make HTTP calls using GraphQL, an open-source data query and manipulation language for APIs.
+Postman can make requests using GraphQL, an open-source query language and runtime for APIs.
 
-You can use GraphQL with Postman in two ways:
+## Contents
 
-* Using the Postman GraphQL client
+* [About GraphQL](#about-graphql)
+* [GraphQL requests](#graphql-requests)
+* [The Postman GraphQL client](#the-postman-graphql-client)
+* [Next steps](#next-steps)
 
-    Postman's GraphQL client enables you to easily explore schemas with introspection and quickly build [queries, mutations, and subscriptions](/docs/sending-requests/graphql/graphql-client-first-request/#about-graphql-request) to get the data you need. See [About the GraphQL client](/docs/sending-requests/graphql/graphql-client-overview/) to learn more.
+## About GraphQL
 
-* Using the Postman HTTP request interface
+APIs that support GraphQL enable clients to ask the server for only the data they need, using GraphQL’s powerful query language and runtime. Unlike REST, which uses multiple endpoints to access different data sets, GraphQL streamlines querying by accessing all data through a single endpoint.
 
-    Postman's HTTP request interface supports sending GraphQL queries in the request body, using GraphQL variables, and introspection and importing GraphQL schemas. See [Using GraphQL requests with the HTTP request interface](/docs/sending-requests/graphql/graphql-http/) to learn more.
+GraphQL is schema-driven, providing insight into an API’s functionality and reducing dependency between teams building the client and the server. A client can introspect the schema from the server to see the available data fields, and then send queries specifying which fields to retrieve or manipulate. The server returns or modifies only the data requested in the query, which prevents overfetching or underfetching data.
+
+## GraphQL requests
+
+Every GraphQL request has a URL and a query. The URL is the endpoint where the data is hosted, and the query defines what data to retrieve or manipulate. The API’s schema defines available data fields. The request can also contain authentication, headers, and settings based on the requirements specified by the API.
+
+GraphQL requests can perform three types of operations:
+
+* **Query** - Retrieves data from the server. Queries specify the required data fields and can include arguments for more precise data retrieval.
+
+* **Mutation** - Manipulates data on the server, including creating, updating, or deleting records. Mutations specify the fields to be returned after the operation and use arguments to detail the manipulation.
+
+* **Subscription** - Gets real-time data updates from the server. Subscriptions enable clients to listen to specific data fields and receive updates automatically over a persistent connection.
+
+## The Postman GraphQL client
+
+Postman's [GraphQL client](/docs/sending-requests/graphql/graphql-client-interface/) loads automatically when you create a new GraphQL request. The GraphQL client interface is specifically designed for crafting GraphQL requests, enabling you to explore an API's data fields and construct queries by selecting fields.
+
+> You can also make GraphQL requests using Postman's regular request interface. To learn more, see [Make an HTTP call with GraphQL](/docs/sending-requests/graphql/graphql-http/).
+
+## Next steps
+
+To learn more about the GraphQL client and making GraphQL requests, see the following topics:
+
+* [Create GraphQL requests in Postman](/docs/sending-requests/graphql/graphql-client-first-request/)
+* [The GraphQL client interface](/docs/sending-requests/graphql/graphql-client-interface/)
