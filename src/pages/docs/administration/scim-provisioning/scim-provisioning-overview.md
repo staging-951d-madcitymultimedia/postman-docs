@@ -1,9 +1,6 @@
 ---
 title: "SCIM provisioning overview"
-order: 142
-updated: 2022-03-02
-page_id: "scim_provisioning_overview"
-warning: false
+updated: 2023-10-15
 contextual_links:
   - type: section
     name: "Additional resources"
