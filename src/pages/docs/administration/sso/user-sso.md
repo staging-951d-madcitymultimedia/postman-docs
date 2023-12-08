@@ -1,6 +1,6 @@
 ---
 title: "Sign in to an SSO team"
-updated: 2023-10-15
+updated: 2023-12-15
 ---
 
 > **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
