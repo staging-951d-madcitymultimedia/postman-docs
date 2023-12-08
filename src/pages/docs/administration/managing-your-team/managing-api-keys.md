@@ -39,7 +39,7 @@ Tags next to the API key's name specify when it is disabled or revoked. You can 
 
 ### Exposed API keys
 
-If the [Postman Secret Scanner](https://learning.postman.com/docs/administration/token-scanner/) detects exposed Postman API keys in public Postman workspaces, public Postman documentation, or [GitHub](/docs/administration/token-scanner/#protecting-postman-api-keys-in-github) and [GitLab](/docs/administration/token-scanner/#protecting-postman-api-keys-in-gitlab) repositories, the dashboard displays them in the **Exposed API keys** section. This section provides details about the exposed key, such as the date of its exposure detection, the last time it was used, and the location of the exposed API key.
+If the [Postman Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) detects exposed Postman API keys in public Postman workspaces, public Postman documentation, or [GitHub](/docs/administration/managing-your-team/secret-scanner/#protect-postman-api-keys-in-github) and [GitLab](/docs/administration/managing-your-team/secret-scanner/#protect-postman-api-keys-in-gitlab) repositories, the dashboard displays them in the **Exposed API keys** section. This section provides details about the exposed key, such as the date of its exposure detection, the last time it was used, and the location of the exposed API key.
 
 <img alt="Exposed keys section" src="https://assets.postman.com/postman-docs/v10/manage-postman-exposed-api-keys-v10.19.jpg"/>
 
