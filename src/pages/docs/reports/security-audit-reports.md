@@ -1,6 +1,6 @@
 ---
 title: "View reports about detected, unresolved, and resolved secrets"
-updated: 2023-10-15
+updated: 2023-12-15
 ---
 
 > **[Secret Scanner reports are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
