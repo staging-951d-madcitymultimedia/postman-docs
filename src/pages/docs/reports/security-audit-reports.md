@@ -12,8 +12,9 @@ To view the report, open Postman and select **Team > Team Settings** in the Post
 You can filter the report by time and by workspace visibility. The report provides the following information:
 
 * **Detected and resolved secrets** - The number of detected and resolved secrets found by the Secret Scanner.
-* **Unresolved secrets based on workspace visibility** - The number of unresolved secrets found in public and team workspaces.
+* **Unresolved secrets based on elements visibility** - The number of unresolved secrets found in public and team elements.
 * **Workspaces with unresolved secrets** - A list of workspaces containing unresolved secrets, including each workspace's number of unresolved secrets and visibility status.
 * **Unresolved secrets based on secret type** - A list of secret types and how often they've been detected by the Secret Scanner.
+* **Published documentation with unresolved secrets** - A list of published documentation containing unresolved secrets, including a link to the collection, the date it was published, the user who published it, and the number of unresolved secrets within it.
 
 For more details, select an element to open the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). **Secrets detected** will automatically include any workspace or secret type filters based on your selected element, enabling you to take immediate action towards resolution.
