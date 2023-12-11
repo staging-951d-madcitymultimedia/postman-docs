@@ -37,7 +37,7 @@ For example, if you're building a client application (such as a mobile or web ap
 
 When you send a request, Postman displays the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
-<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-2.jpg" width="750px"/>
+<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-3.jpg" width="500px"/>
 
 If you have never sent a request before, check out [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/) before you continue.
 
@@ -71,7 +71,7 @@ Select **Save** to create your request. You can give your request a name and des
 
 Once your new tab is open, you can specify the details you need for your request.
 
-![New Request](https://assets.postman.com/postman-docs/v10/empty-request-v10.jpg)
+<image alt="New Request" src="https://assets.postman.com/postman-docs/v10/empty-request-v10-2.jpg" width="500px"/>
 
 > You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
@@ -87,7 +87,7 @@ You can change the protocol for a new request. Select **New** in the sidebar and
 
 > You can't change the request protocol after you select **Save**.
 
-![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10-2.gif)
+![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10-4.gif)
 
 ### Setting request URLs
 
