@@ -28,4 +28,4 @@ You may have noticed in the previous step that the **Send Request** block has a 
 
 This Flow can be simplified to remove the extra **Select** block and instead use the existing ones in the second **Send Request** block.
 
-<img src="https://assets.postman.com/postman-docs/v10/updated-simplifying-the-flow.gif" alt="Simplifying the Flow" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-docs/v10/flows-simplify-the-flow-v10-20.gif" alt="Simplifying the Flow" fetchpriority="low" loading="lazy" />
