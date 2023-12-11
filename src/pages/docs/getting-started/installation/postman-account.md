@@ -172,7 +172,7 @@ You can opt in to or out of email or in-app notifications about security, usage,
 
 In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events in the **On Slack** column. These notifications are sent to Slack by the integration.
 
-<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/v10/notification-preferences-v10.jpg">
+<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/v10/notification-preferences-v10-2.jpg" width="500px">
 
 ## Managing your active sessions
 
