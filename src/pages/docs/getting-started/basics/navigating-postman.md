@@ -44,7 +44,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Quick Help](#quick-help)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10-3.jpg"/>
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10-4.jpg"/>
 
 ## Header
 
