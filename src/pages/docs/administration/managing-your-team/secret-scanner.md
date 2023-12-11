@@ -56,7 +56,7 @@ Postman delivers scan results in the [Secret Scanner dashboard](https://go.postm
 
 > **[The Secret Scanner dashboard is available on Postman Enterprise plans. Secret Scanner reports are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view detected secrets, configure [default](#default-patterns) and [custom](#custom-patterns) alerts, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view detected secrets, configure [default](#default-patterns) and [custom](#custom-patterns) patterns, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
 
 <img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-dashboard-v10-21.jpg"/>
 
