@@ -41,7 +41,7 @@ To find your local SoapUI project files, do the following:
 
 To import a SoapUI project into Postman, do the following:
 
-1. In Postman, select **Import**, then select **Migrate to Postman > SoapUI**.
+1. In Postman, select **Import > Migrate to Postman > SoapUI**.
 1. Select **files** or **folder**, then select the files or folder you want to import.
 1. Select **Open**. Postman checks if the selected files are valid SoapUI projects.
 1. If the files are valid, you can select **Start Migration**. A window appears showing the migration’s progress. When the migration is complete, select **Dismiss**.

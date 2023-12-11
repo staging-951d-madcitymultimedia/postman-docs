@@ -28,7 +28,7 @@ Hoppscotch is an open-source API development ecosystem used for testing APIs. Po
 
 To import Hoppscotch files into Postman, do the following:
 
-1. In Postman, select **Import**, then select **Migrate to Postman > Other API Clients**.
+1. In Postman, select **Import > Migrate to Postman > Other API Clients**.
 1. Select **files** or **folder**, then select the files or folder you want to import.
 1. Select **Open**. Postman checks if the selected files are valid Hoppscotch files.
 1. If the files are valid, you can select **Start Migration**. A window appears showing the migration’s progress. When the migration is complete, select **Dismiss**.

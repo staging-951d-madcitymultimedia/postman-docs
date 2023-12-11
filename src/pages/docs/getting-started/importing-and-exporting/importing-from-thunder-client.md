@@ -28,7 +28,7 @@ Thunder Client is an API client extension in VS Code for testing and working wit
 
 To import Thunder Client files into Postman, do the following:
 
-1. Select **Import**, then select **Migrate to Postman > Other API Clients**.
+1. Select **Import > Migrate to Postman > Other API Clients**.
 1. Select **files** or **folder**, then select the files or folder you want to import. You can select individual exported collection and environment files, or you can select the `rangav.vscode-thunder-client` folder:
       * macOS: `~/Library/Application Support/Code/User/globalStorage/rangav.vscode-thunder-client`
       * Windows: `C:\Users\{UserName}\AppData\Roaming\Code\User\globalStorage\rangav.vscode-thunder-client`
