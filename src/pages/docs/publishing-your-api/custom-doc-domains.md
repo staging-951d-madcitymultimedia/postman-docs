@@ -34,7 +34,7 @@ Select **Custom domains** to view custom domains that have been added for your t
 
 ![Viewing custom domains](https://assets.postman.com/postman-docs/v10/custom-domains-view-v10.jpg)
 
-To add a new domain, select **Add custom domain** and enter the URL of your domain. You can enter your main domain (like `example.com`) or a subdomain (like `docs.example.com`).
+To add a new domain, select **Add custom domain** and enter the URL of your domain. You can enter a subdomain (like `docs.example.com`). You can't enter your main domain (like `example.com`).
 
 ![Adding a custom domain](https://assets.postman.com/postman-docs/v10/custom-domains-add-v10.jpg)
 
