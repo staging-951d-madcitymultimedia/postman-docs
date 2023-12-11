@@ -628,15 +628,17 @@ See the [Request definition](http://www.postmanlabs.com/postman-collection/Reque
 The `pm.execution.location` property enables you to get the complete path of a request, including the folder and collection, in array format. For example, for a request named **R1** in folder **F1** in collection **C1**, the following test script code will return `["C1", "F1", "R1"]`:
 
 ```js
-// Returns the full path of a request in array format
 console.log(pm.execution.location);
+// Returns the full path of a request in array format, for example:
+// ["C1", "F1", "R1"]
 ```
 
 To get the name of the current element, you can use the `pm.execution.location.current` property. For example, if you add the following code to the pre-request script of a folder named **F1**, it will return `F1`:
 
 ```js
-// Returns the name of the current element
 console.log(pm.execution.location.current);
+// Returns the name of the current element, for example:
+// F1
 ```
 
 You can use the `pm.execution.location` and `pm.execution.location.current` properties in your scripts to understand what items are being executed when a request is sent. This information enables you to implement logic and actions in your scripts tailored to the current location within your API testing or collection structure.
