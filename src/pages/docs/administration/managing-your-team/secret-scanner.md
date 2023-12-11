@@ -58,8 +58,7 @@ Postman delivers scan results in the [Secret Scanner dashboard](https://go.postm
 
 Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view detected secrets, configure [default](#default-patterns) and [custom](#custom-patterns) alerts, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
 
-<img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-dashboard2-v10.18.jpg"/>
-<!-- TODO: update screenshot -->
+<img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-dashboard-v10-21.jpg"/>
 
 ### Resolve detected secrets
 
@@ -125,7 +124,7 @@ To add custom patterns, do the following:
 
 1. Select **Add Custom Pattern** or **Dry Run Pattern**, depending on the option you selected in the **Scan activation** section.
 
-<!-- TODO: add screenshot -->
+    <img alt="Create custom pattern" src="https://assets.postman.com/postman-docs/v10/create-custom-pattern-v10-21.jpg" width="500px"/>
 
 To edit a custom pattern, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a custom pattern. Edit the name or regular expression, update the sample value, then select **Save**. If you edited the regular expression, select one of the following to confirm your changes:
 
@@ -134,7 +133,7 @@ To edit a custom pattern, select the edit icon <img alt="Edit icon" src="https:/
 
 > When you edit a regular expression in a custom pattern, the updated regular expression is used to scan new elements only. To scan existing elements with the changes to the pattern, create a new custom pattern and make sure the **Scan existing elements** checkbox is selected.
 
-To delete a custom pattern, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a custom pattern. Then select **Delete** to confirm. When you delete a custom pattern, all detected secrets associated with this pattern will be removed from the **Secrets detected** tab.
+To delete a custom pattern, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a custom pattern. Then select **Delete** to confirm. When you delete a custom pattern, all detected secrets associated with this pattern will be removed from the **Secrets detected** tab in the dashboard.
 
 #### Dry run custom patterns
 
@@ -145,28 +144,28 @@ When you create a custom pattern, you can choose to dry run the regular expressi
 To dry run a custom pattern, do the following:
 
 1. [Add a custom pattern](#custom-patterns), and select **Dry run the pattern first with select workspaces** in the **Scan activation** section.
-1. Select up to 20 public or team workspaces to scan.
+1. Select public or team workspaces to scan. You can select up to 20 workspaces.
 1. Select **Dry Run Pattern**.
 
-<!-- TODO: add screenshot -->
+    <img alt="Create custom pattern dry run" src="https://assets.postman.com/postman-docs/v10/dry-run-custom-pattern-v10-21.jpg" width="500px"/>
 
 To view the dry run results and add the custom pattern, do the following:
 
 1. Select the **Configure patterns** tab.
-1. In the **Custom patterns** section, select **View results** next to the custom pattern when the dry run is completed.
+1. In the **Custom patterns** section, select **View results** next to the custom pattern when the dry run is completed. You can select results from the dry run to view more details.
 
-    > To run the dry run again, select **Re-run Scan** in the top right of **Results** page.
+    > To run the dry run again, select **Re-run Scan** in the top right of **Results from dry run** page.
 
-    <!-- TODO: add screenshot -->
+1. If the dry run performed as expected, you can add the custom pattern to the Secret Scanner, enabling you to view the results in the dashboard. In the **Results from dry run** page, select **Add Pattern to Secret Scanner**.
 
-1. In the **Results** page, select **Add Pattern to Secret Scanner**. You can also go to the **Custom patterns** section of the dashboard, and turn on the **Scan status** toggle next to the custom pattern.
+    <img alt="Custom pattern dry run results" src="https://assets.postman.com/postman-docs/v10/dry-run-results-v10-21.jpg"/>
 
-    <!-- TODO: add screenshot -->
+    > If you want to make changes to the dry run, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the custom pattern in the dashboard. Then [add the custom pattern](#custom-patterns) and [dry run](#dry-run-custom-patterns) it with your changes.
 
 1. To confirm, select one of the following:
 
     * **Ignore Existing Elements** - Scan only new elements with this custom pattern.
-    * **Scan Existing Elements** - Scan existing elements with this custom pattern.
+    * **Scan Existing Elements** - Scan new and existing elements with this custom pattern.
 
 ## Protect Postman API keys in GitHub
 
