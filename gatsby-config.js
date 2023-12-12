@@ -80,7 +80,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
-        excludes: ['/search/', '/administration/keep-out']
+        excludes: ['/search/', '/administration/keep-out', '/early-access/*'],
       }
     },
     {
