@@ -28,15 +28,15 @@ You can host your [published API documentation](/docs/publishing-your-api/publis
 
 Access [Team Settings](https://go.postman.co/settings/team/general) by selecting **Team** in the header, then selecting **Team Settings**.
 
-<img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/team-settings-menu-selected.jpg" width="350px"/>
+<img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/v10/team-settings-menu-selected-v10.jpg" width="350px"/>
 
 Select **Custom domains** to view custom domains that have been added for your team and the verification status for each domain. Select **View Details** next to a domain get the verification records needed to [verify your domain](#verifying-your-domain).
 
-![Viewing custom domains](https://assets.postman.com/postman-docs/v10/custom-domains-view-v10.jpg)
+![Viewing custom domains](https://assets.postman.com/postman-docs/v10/custom-domains-view-v10-21.jpg)
 
 To add a new domain, select **Add custom domain** and enter the URL of your domain. You can enter a subdomain (like `docs.example.com`). You can't enter your main domain (like `example.com`).
 
-![Adding a custom domain](https://assets.postman.com/postman-docs/v10/custom-domains-add-v10.jpg)
+![Adding a custom domain](https://assets.postman.com/postman-docs/v10/custom-domains-add-v10-21.jpg)
 
 Select **Proceed** to verify the custom domain.
 
@@ -44,7 +44,7 @@ Select **Proceed** to verify the custom domain.
 
 After you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, copy the provided tokens and use them to add TXT and CNAME records to your domain. After adding the TXT and CNAME records to your domain, you can complete the verification in Team Settings.
 
-![Custom domain TXT and CNAM records](https://assets.postman.com/postman-docs/v10/custom-domains-dns-records-v10-9a.jpg)
+![Custom domain TXT and CNAM records](https://assets.postman.com/postman-docs/v10/custom-domains-dns-records-v10-21.jpg)
 
 ### Adding DNS records
 
@@ -86,4 +86,4 @@ If you get an error message when trying to add a TXT or CNAME record to your dom
 
 After your custom domain is verified, you can use it to [publish your API documentation](/docs/publishing-your-api/publishing-your-docs/#making-your-documentation-public). If you have a collection that's already published, you can [edit the publication settings](/docs/publishing-your-api/publishing-your-docs/#changing-publication-settings) to use the new domain.
 
-![Publishing on a custom domain](https://assets.postman.com/postman-docs/v10/custom-domains-publish-v10.jpg)
+![Publishing on a custom domain](https://assets.postman.com/postman-docs/v10/custom-domains-publish-v10-21.jpg)
