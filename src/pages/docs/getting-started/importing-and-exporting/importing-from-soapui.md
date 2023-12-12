@@ -27,7 +27,7 @@ SoapUI is an API testing tool that supports SOAP and REST services. Postman can 
 ## Contents
 
 * [Find your SoapUI project](#find-your-soapui-project)
-* [Import a SoapUI project](#import-a-soapui-project)
+* [Import a SoapUI project to Postman](#import-a-soapui-project-to-postman)
 
 ## Find your SoapUI project
 
@@ -37,7 +37,7 @@ To find your local SoapUI project files, do the following:
 1. Select **Project > Show Project View**.
 1. In the Project View window, the project's file path appears in the **Project Summary** section.
 
-## Import a SoapUI project
+## Import a SoapUI project to Postman
 
 To import a SoapUI project into Postman, do the following:
 

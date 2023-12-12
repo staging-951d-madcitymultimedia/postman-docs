@@ -24,9 +24,14 @@ contextual_links:
 
 Hoppscotch is an open-source API development ecosystem used for testing APIs. Postman can import collection and environment files exported from Hoppscotch.
 
-## Import from Hoppscotch
+## Export files from Hoppscotch
 
-To import Hoppscotch files into Postman, do the following:
+To export files from Hoppscotch, do the following:
+
+1. In Hoppscotch, select the **More** icon next to a collection or environment.
+1. Select **Export** or **Export as JSON**. By default, Hoppscotch exports files to your Downloads directory.
+
+## Import Hoppscotch files to Postman
 
 1. In Postman, select **Import > Migrate to Postman > Other API Clients**.
 1. Select **files** or **folder**, then select the files or folder you want to import.

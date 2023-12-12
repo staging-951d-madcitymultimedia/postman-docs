@@ -40,6 +40,7 @@ To import your data into Postman, select **Import** in the sidebar. You can impo
 
 * [Import Postman data](#import-postman-data)
     * [Convert Postman collections from v1 to v2](#convert-postman-collections-from-v1-to-v2)
+* [Migrate from other API clients](#migrate-from-other-api-clients)
 * [Import from cURL commands](#import-from-curl-commands)
 * [Import API definitions](#import-api-definitions)
 
@@ -90,6 +91,15 @@ You can retrieve a list of `convert` options by running the command with the `-h
    ```
 
 > Go to the [Postman Collection Transformer](https://github.com/postmanlabs/postman-collection-transformer) for more information about collection conversion.
+
+## Migrate from other API Clients
+
+Postman can import requests, environments, and other data from the following API clients:
+
+* [SoapUI](/docs/getting-started/importing-and-exporting/importing-from-soapui/)
+* [Hoppscotch](/docs/getting-started/importing-and-exporting/importing-from-hoppscotch/)
+* [Insomnia](/docs/getting-started/importing-and-exporting/importing-from-insomnia/)
+* [Thunder Client](/docs/getting-started/importing-and-exporting/importing-from-thunder-client/)
 
 ## Import from cURL commands
 

@@ -22,13 +22,21 @@ contextual_links:
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
 
-Thunder Client is an API client extension in VS Code for testing and working with APIs. Postman can import collection and environment files exported from Thunder Client.
+Thunder Client is an API client extension in VS Code for testing and working with APIs. Postman can import collection and environment files from Thunder Client.
 
-## Import from Thunder Client
+## Export files from Thunder Client
 
-To import Thunder Client files into Postman, do the following:
+To export files from Thunder Client, do the following:
 
-1. Select **Import > Migrate to Postman > Other API Clients**.
+1. In the Thunder Client extension in VS Code, select the **More options** icon next to the collection or environment you want to export, then select **Export**.
+1. Select the location where you want to export the data.
+1. Select **Save**.
+
+## Import Thunder Client files to Postman
+
+To import Thunder Client files, do the following:
+
+1. In Postman, select **Import > Migrate to Postman > Other API Clients**.
 1. Select **files** or **folder**, then select the files or folder you want to import. You can select individual exported collection and environment files, or you can select the `rangav.vscode-thunder-client` folder:
       * macOS: `~/Library/Application Support/Code/User/globalStorage/rangav.vscode-thunder-client`
       * Windows: `C:\Users\{UserName}\AppData\Roaming\Code\User\globalStorage\rangav.vscode-thunder-client`

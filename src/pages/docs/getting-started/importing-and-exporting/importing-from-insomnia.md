@@ -26,20 +26,23 @@ Insomnia is an open-source desktop application for creating APIs. You can export
 
 ## Contents
 
-* [Export data from Insomnia](#export-data-from-insomnia)
-* [Import Insomnia data into Postman](#import-insomnia-data-into-postman)
+* [Export files from Insomnia](#export-files-from-insomnia)
+* [Import Insomnia files to Postman](#import-insomnia-files-to-postman)
 
-## Export data from Insomnia
+## Export files from Insomnia
 
-1. In Insomnia, select **Insomnia > Settings > Data > Export all data**.
+1. Sign in to the Insomnia desktop app and select **Insomnia > Settings > Data > Export all data**.
+
+  > Insomnia can also export individual documents, collections, and requests. See the [Insomnia documentation](https://docs.insomnia.rest/insomnia/import-export-data#:~:text=Insomnia%20supports%20importing%20and%20exporting.) to learn more.
+
 1. Select the location where you want to export the data.
 1. Select **Ok** when the export is complete.
 
-## Import Insomnia data into Postman
+## Import Insomnia files to Postman
 
 1. In Postman, select **Import > Migrate to Postman > Other API Clients**.
-1. Select **folder** then select the folder with the exported Insomnia files.
-1. Select **Start Migration**. Postman checks if the selected folder has valid Insomnia files.
+1. Select **files** or **folder** then select the files or folder you want to import.
+1. Select **Start Migration**. Postman checks if the selected files are valid Insomnia files.
 1. If the files are valid, you can select **Start Migration**. A window appears showing the migration’s progress. When the migration is complete, select **Dismiss**.
 
   > You can also drag files and folders into the import window.
