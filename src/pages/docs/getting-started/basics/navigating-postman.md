@@ -214,7 +214,7 @@ If you have a lot of tabs open, they might overflow the area of the tab bar. To 
 
 #### Tab search
 
-To access recently closed tabs or search open tabs, select the tab search dropdown.
+To search open tabs or access recently closed tabs, select the tab search dropdown.
 
 <img alt="Search tabs" src="https://assets.postman.com/postman-docs/v10/tab-search-v10.jpg" width="200px"/>
 
