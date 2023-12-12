@@ -195,7 +195,7 @@ A tab will alert you to a conflict if you or a collaborator changes its contents
 
 You can have many tabs open at the same time. To rearrange your open tabs, select and drag them in the desired order.
 
-To manage your open tabs or to access recently closed tabs, right-click the open tab to activate a menu with action options:
+To manage your open tabs, right-click the open tab to activate a menu with action options:
 
 * **Duplicate Tab** - _(Available on the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/))_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
 * **Close Tab** - Closes the current tab. If the tab has unsaved changes, Postman asks if you want to save before closing.
