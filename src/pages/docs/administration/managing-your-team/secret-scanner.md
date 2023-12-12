@@ -56,13 +56,13 @@ Postman delivers scan results in the [Secret Scanner dashboard](https://go.postm
 
 > **[The Secret Scanner dashboard is available on Postman Enterprise plans. Secret Scanner reports are available on the Postman Enterprise Ultimate plan.](https://www.postman.com/pricing/)**
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view detected secrets, configure [default](#default-patterns) and [custom](#custom-patterns) patterns, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
+[Team Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view detected secrets, configure [default](#default-patterns) and [custom](#custom-patterns) patterns, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
 
 <img alt="Secret Scanner dashboard" src="https://assets.postman.com/postman-docs/v10/secret-scanner-dashboard-v10-21.jpg"/>
 
 ### Resolve detected secrets
 
-Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-patterns) and [custom](#custom-patterns) secrets that the Secret Scanner has found in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
+[Team Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can review the [default](#default-patterns) and [custom](#custom-patterns) secrets that the Secret Scanner has found in the **Secrets detected** tab of the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/findings). You can filter findings by visibility type, workspace name, and secret type. To view the details for a detected secret, select it from the list.
 
 > Admins and Super Admins can access all identified secrets within a team, including ones in public workspaces. Workspace Admins can also view secrets within the workspaces they manage.
 
