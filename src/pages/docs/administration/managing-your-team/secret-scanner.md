@@ -54,7 +54,7 @@ Postman delivers scan results in the [Secret Scanner dashboard](https://go.postm
 
 ## Secret Scanner dashboard
 
-> **[The Secret Scanner dashboard is available on Postman Enterprise plans. Secret Scanner reports are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
+> **[The Secret Scanner dashboard is available on Postman Enterprise plans. Secret Scanner reports are available on the Postman Enterprise Ultimate plan.](https://www.postman.com/pricing/)**
 
 Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can view detected secrets, configure [default](#default-patterns) and [custom](#custom-patterns) patterns, and review [Secret Scanner reports](/docs/reports/security-audit-reports/) in the [Secret Scanner dashboard](https://go.postman.co/settings/team/secret-scanner/). To open the dashboard, select **Team > Team Settings** in the Postman header. Then, select **Secret Scanner** in the left sidebar.
 
@@ -86,13 +86,13 @@ Navigate to [Notification Preferences](https://go.postman.co/settings/me/notific
 
 ## Manage Secret Scanner findings with the Postman API
 
-> **[The Secret Scanner Postman API endpoints are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing/)**
+> **[The Secret Scanner Postman API endpoints are available on the Postman Enterprise Ultimate plan.](https://www.postman.com/pricing/)**
 
 Team Admins, Super Admins, and Workspace Admins can access Secret Scanner findings through the Postman API. Using the Postman API enables you to create custom automated workflows to retrieve and resolve identified secrets. To learn more, see the [Postman API documentation](https://go.pstmn.io/live-docs-api).
 
 ## Supported secrets
 
-The Secret Scanner scans for a variety of secrets [by default](#default-patterns). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom patterns](#custom-patterns).
+The Secret Scanner searches for a variety of secrets [by default](#default-patterns). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom patterns](#custom-patterns).
 
 ### Default patterns
 
