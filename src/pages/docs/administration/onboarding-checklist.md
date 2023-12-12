@@ -88,7 +88,7 @@ After you configure the Postman Enterprise app in your organization, it's recomm
 
 ## Set up your Postman team
 
-After you [set up Postman](#set-up-postman), enable your teammates to find and join your team. You can also share invites with them directly. Once people are added to your team, you can begin assigning them roles based on the permissions each user needs in your team. Then you can begin collaborating with your teammates in workspaces, collections, and other workspaces resources.
+After you [set up Postman](#set-up-postman-in-your-organization), enable your teammates to find and join your team. You can also share invites with them directly. Once people are added to your team, you can begin assigning them roles based on the permissions each user needs in your team. Then you can begin collaborating with your teammates in workspaces, collections, and other workspace resources.
 
 ### Configure team settings
 
