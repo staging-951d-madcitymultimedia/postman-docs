@@ -30,7 +30,7 @@ Your [Team Settings](https://go.postman.co/settings/team/general) enable you to 
     * [Editing your team profile](#editing-your-team-profile)
     * [Making your team profile public](#making-your-team-profile-public)
 * [Making your team discoverable](#making-your-team-discoverable)
-* [Reviewing Secret Scanner alerts](#reviewing-secret-scanner-alerts)
+* [Reviewing Secret Scanner patterns](#reviewing-secret-scanner-patterns)
 * [Adding custom domains](#adding-custom-domains)
 * [Using installed apps](#using-installed-apps)
 * [Editing authentication methods](#editing-authentication-methods)
@@ -107,11 +107,11 @@ Select **Team discovery** to view your options for making your team discoverable
 
 See [Enabling team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) for more information about enabling people in your organization to find and join your team.
 
-## Reviewing Secret Scanner alerts
+## Reviewing Secret Scanner patterns
 
-> **[Custom alerts are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Custom patterns are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-Select **Secret Scanner** to review default alerts for tokens issued by common service providers that the Postman Secret Scanner scans for. You can also add and review custom alerts that scan for your team's proprietary tokens and third-party app tokens.
+Select **Secret Scanner** to review default patterns for tokens issued by common service providers that the Postman Secret Scanner scans for. You can also add and review custom patterns that scan for your team's proprietary tokens and third-party app tokens.
 
 See [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) to learn more about scanning public workspaces to detect exposed secrets.
 
