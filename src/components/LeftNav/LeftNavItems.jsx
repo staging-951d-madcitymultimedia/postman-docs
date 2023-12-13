@@ -1584,7 +1584,7 @@ export const leftNavItems = [
         slug: '/docs/developer/postman-api/intro-api/',
         subMenuItems2: [
           {
-            name: 'Postman API endpoints',
+            name: 'Postman API overview',
             url: '/docs/developer/postman-api/intro-api/'
           },
           {
