@@ -2382,5 +2382,9 @@
   {
     "from": "/docs/sending-requests/managing-environments/",
     "to": "/docs/sending-requests/environments/managing-environments/"
+  },
+  {
+    "from": "/docs/sending-requests/graphql/graphql-client-overview/",
+    "to": "/docs/sending-requests/graphql/graphql-overview/"
   }
 ]
