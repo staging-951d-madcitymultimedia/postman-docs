@@ -1,106 +1,82 @@
-[
-    {
-      "key": "PMLC_COLLECTION_AUTH_OVERVIEW_V1",
-      "file": "/docs/sending-requests/authorization/authorization.md"
-    },
-    {
-        "key": "PMLC_EXECUTION_ORDER_V1",
-        "file": "/docs/writing-scripts/intro-to-scripts.md",
-        "anchor": "#execution-order-of-scripts"
-    },
-    {
-        "key": "PMLC_COLLECTION_PREREQUEST_OVERVIEW_V1",
-        "file": "/docs/writing-scripts/pre-request-scripts.md"
-    },
-    {
-      "key": "PMLC_TEST_SCRIPT_OVERVIEW_V1",
-      "file": "/docs/writing-scripts/test-scripts.md"
-    },
-    {
-        "key": "PMLC_COLLECTION_VARIABLE_OVERVIEW_V1",
-        "file": "/docs/sending-requests/variables.md",
-        "anchor": "#variable-types"
-    },
-    {
-        "key": "PMLC_COLLECTION_VARIABLE_INITIALVALUE_V1",
-        "file": "/docs/sending-requests/variables.md"
-    },
-    {
-      "key": "PMLC_COLLECTION_VARIABLE_CURRENTVALUE_V1",
-      "file": "/docs/sending-requests/variables.md"
-    },
-    {
-        "key": "PMLC_VARIABLE_TYPE_OVERVIEW_V1",
-        "file": "/docs/sending-requests/variables.md",
-        "anchor": "#variable-types"
-    },
-    {
-        "key": "PMLC_VARIABLE_VALUE_OVERVIEW_V1",
-        "file": "/docs/sending-requests/variables.md"
-    },
-    {
-      "key": "PMLC_REQUEST_VARIABLE_OVERVIEW_V1",
-      "file": "/docs/sending-requests/variables.md"
-    },
-    {
-        "key": "PMLC_AUTH_OVERVIEW_V1",
-        "file": "/docs/sending-requests/authorization/authorization.md"
-    },
-    {
-      "key": "PMLC_AUTH_NO_AUTH_V1",
-      "file": "/docs/sending-requests/authorization/authorization-types.md",
-      "anchor": "#no-auth"
-    },
-    {
-      "key": "PMLC_AUTH_API_KEY_V1",
-      "file": "/docs/sending-requests/authorization/authorization-types.md",
-      "anchor": "#api-key"
-    },
-    {
-      "key": "PMLC_AUTH_BEARER_TOKEN_V1",
-      "file": "/docs/sending-requests/authorization/authorization-types.md",
-      "anchor": "#bearer-token"
-    },
-    {
-      "key": "PMLC_AUTH_JWT_BEARER_V1",
-      "file": "/docs/sending-requests/authorization/authorization-types.md",
-      "anchor": "#jwt-bearer"
-    },
-    {
-      "key": "PMLC_AUTH_BASIC_AUTH_V1",
-      "file": "/docs/sending-requests/authorization/authorization-types.md",
-      "anchor": "#basic-auth"
-    },
-    {
-      "key": "PMLC_AUTH_DIGEST_AUTH_V1",
-      "file": "/docs/sending-requests/authorization/digest-auth/"
-    },
-    {
-      "key": "PMLC_AUTH_OAUTH_1_V1",
-      "file": "/docs/sending-requests/authorization/oauth-10/"
-    },
-    {
-      "key": "PMLC_AUTH_OAUTH_2_V1",
-      "file": "/docs/sending-requests/authorization/oauth-20/"
-    },
-    {
-      "key": "PMLC_AUTH_HAWK_AUTHENTICATION_V1",
-      "file": "/docs/sending-requests/authorization/hawk-authentication/"
-    },
-    {
-      "key": "PMLC_AUTH_AWS_SIGNATURE_V1",
-      "file": "/docs/sending-requests/authorization/aws-signature/"
-    },
-    {
-      "key": "PMLC_AUTH_NTLM_AUTHENTICATION_V1",
-      "file": "/docs/sending-requests/authorization/ntlm-authentication/"
-    },
-    {
-      "key": "PMLC_AUTH_AKAMAI_EDGEGRID_V1",
-      "file": "/docs/sending-requests/authorization/akamai-edgegrid/"
-    },
-    {
-      "key": "PMLC_AUTH_ATLASSIAN_ASAP_V1",
-      "file": "/docs/sending-requests/authorization/atlassian/"
-    }
-  ]
+{
+  "PMLC_COLLECTION_AUTH_OVERVIEW_V1": {
+    "filePath": "/docs/sending-requests/authorization/authorization/"
+  },
+  "PMLC_EXECUTION_ORDER_V1": {
+      "filePath": "/docs/writing-scripts/intro-to-scripts/",
+      "subSectionID": "#execution-order-of-scripts"
+  },
+  "PMLC_COLLECTION_PREREQUEST_OVERVIEW_V1": {
+      "filePath": "/docs/writing-scripts/pre-request-scripts/"
+  },
+  "PMLC_TEST_SCRIPT_OVERVIEW_V1": {
+    "filePath": "/docs/writing-scripts/test-scripts/"
+  },
+  "PMLC_COLLECTION_VARIABLE_OVERVIEW_V1": {
+      "filePath": "/docs/sending-requests/variables/",
+      "subSectionID": "#variable-types"
+  },
+  "PMLC_COLLECTION_VARIABLE_INITIALVALUE_V1": {
+      "filePath": "/docs/sending-requests/variables/"
+  },
+  "PMLC_COLLECTION_VARIABLE_CURRENTVALUE_V1": {
+    "filePath": "/docs/sending-requests/variables/"
+  },
+  "PMLC_VARIABLE_TYPE_OVERVIEW_V1": {
+      "filePath": "/docs/sending-requests/variables/",
+      "subSectionID": "#variable-types"
+  },
+  "PMLC_VARIABLE_VALUE_OVERVIEW_V1": {
+      "filePath": "/docs/sending-requests/variables/"
+  },
+  "PMLC_REQUEST_VARIABLE_OVERVIEW_V1": {
+    "filePath": "/docs/sending-requests/variables/"
+  },
+  "PMLC_AUTH_OVERVIEW_V1": {
+      "filePath": "/docs/sending-requests/authorization/authorization/"
+  },
+  "PMLC_AUTH_NO_AUTH_V1": {
+    "filePath": "/docs/sending-requests/authorization/authorization-types/",
+    "subSectionID": "#no-auth"
+  },
+  "PMLC_AUTH_API_KEY_V1": {
+    "filePath": "/docs/sending-requests/authorization/authorization-types/",
+    "subSectionID": "#api-key"
+  },
+  "PMLC_AUTH_BEARER_TOKEN_V1": {
+    "filePath": "/docs/sending-requests/authorization/authorization-types/",
+    "subSectionID": "#bearer-token"
+  },
+  "PMLC_AUTH_JWT_BEARER_V1": {
+    "filePath": "/docs/sending-requests/authorization/authorization-types/",
+    "subSectionID": "#jwt-bearer"
+  },
+  "PMLC_AUTH_BASIC_AUTH_V1": {
+    "filePath": "/docs/sending-requests/authorization/authorization-types/",
+    "subSectionID": "#basic-auth"
+  },
+  "PMLC_AUTH_DIGEST_AUTH_V1": {
+    "filePath": "/docs/sending-requests/authorization/digest-auth/"
+  },
+  "PMLC_AUTH_OAUTH_1_V1": {
+    "filePath": "/docs/sending-requests/authorization/oauth-10/"
+  },
+  "PMLC_AUTH_OAUTH_2_V1": {
+    "filePath": "/docs/sending-requests/authorization/oauth-20/"
+  },
+  "PMLC_AUTH_HAWK_AUTHENTICATION_V1": {
+    "filePath": "/docs/sending-requests/authorization/hawk-authentication/"
+  },
+  "PMLC_AUTH_AWS_SIGNATURE_V1": {
+    "filePath": "/docs/sending-requests/authorization/aws-signature/"
+  },
+  "PMLC_AUTH_NTLM_AUTHENTICATION_V1": {
+    "filePath": "/docs/sending-requests/authorization/ntlm-authentication/"
+  },
+  "PMLC_AUTH_AKAMAI_EDGEGRID_V1": {
+    "filePath": "/docs/sending-requests/authorization/akamai-edgegrid/"
+  },
+  "PMLC_AUTH_ATLASSIAN_ASAP_V1": {
+    "filePath": "/docs/sending-requests/authorization/atlassian/"
+  }
+}
