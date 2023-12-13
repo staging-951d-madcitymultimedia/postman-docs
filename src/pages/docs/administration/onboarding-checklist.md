@@ -61,7 +61,7 @@ Contact your IT team to establish the procedure for adding a new piece of softwa
 
 ### Secure your Postman team
 
-Depending on your [plan](https://www.postman.com/pricing), you can secure your Postman team by setting up [SSO](/docs/administration/sso/intro-sso/), [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), and domain [verification](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#why-should-my-organization-verify-a-domain-with-postman) and [capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture-in-postman). You must first configure SSO before you can configure SCIM provisioning and domain capture.
+Depending on your [plan](https://www.postman.com/pricing), you can secure your Postman team by setting up [SSO](/docs/administration/sso/intro-sso/), [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), and [domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). You must first configure SSO before you can configure SCIM provisioning and domain capture.
 
 > You might need to contact your IT team for help with configuring SSO, SCIM, and domain verification and capture.
 
