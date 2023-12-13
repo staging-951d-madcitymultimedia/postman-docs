@@ -39,4 +39,4 @@ The VS Code extension enables you to:
 
 To install and learn more about the VS Code extension, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
-![Postman VS Code extension](https://assets.postman.com/postman-docs/postman-vs-code-extension-v0-14-3.jpg)
+![Postman VS Code extension](https://assets.postman.com/postman-docs/postman-vs-code-extension-v0-16-0.jpg)
