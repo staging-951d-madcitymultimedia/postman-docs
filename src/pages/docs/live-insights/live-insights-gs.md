@@ -38,7 +38,7 @@ Next, create a collection and install the LCA locally. Then, configure the LCA f
 
 1. In the collection **Overview**, select **Enable Now** to enable a live collection.
 
-    ![Enable live collection](https://assets.postman.com/postman-docs/v10/live-insights-test-collection-v10-21.jpg)
+    ![Enable live collection](https://assets.postman.com/postman-docs/v10/live-insights-test-collection-v10-21-2.jpg)
 
 1. In the **Enabling Live** tab, select **Using the Live Collection Agent.**
 
