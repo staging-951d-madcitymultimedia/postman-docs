@@ -101,4 +101,4 @@ For more details on the effects of enabling domain capture, see [Domain capture 
 
 ## Domain capture support and FAQs
 
-For more information on the effects of enabling domain capture and how to contact Postman support for help, see [Domain capture FAQs](/docs/administration/domain-verification-and-capture/domain-capture-faqs/).
+For more information on the effects of enabling domain capture, see [Domain capture FAQs](/docs/administration/domain-verification-and-capture/domain-capture-faqs/).
