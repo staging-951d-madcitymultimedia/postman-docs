@@ -16,19 +16,19 @@ When building applications with any language (Flows included), sometimes things 
 
 When a **Send Request** block runs, the output of the block can be viewed after the request has run in either the **Success** or **Failure** outputs (depending on the outcome). This is useful for checking that the request is successful and returning the information expected.
 
-<img src="https://assets.postman.com/postman-labs-docs/concepts/send-request-ports.gif" alt="Using send request ports" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-docs/v10/flows-send-request-ports-v10-21.gif" alt="Using send request ports" fetchpriority="low" loading="lazy" />
 
 ### The Output block
 
 The output block doesn't change the information that passes through it, which makes it ideal for monitoring the data flowing between two blocks. Sometimes, **Send Request** blocks can return large amounts of information and most of it isn't relevant to the issue being debugged. Selecting only the relevant information and displaying it in an output block simplifies the debugging process so you don't need to scroll to find the information in the outputs of larger responses.
 
-<img src="https://assets.postman.com/postman-labs-docs/concepts/output-debugging.gif" alt="Output debugging" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-docs/v10/flows-output-debugging-10-21-1.gif" alt="Output debugging" fetchpriority="low" loading="lazy" />
 
 ### The Console
 
 Every request and response is sent to the Postman Console, which keeps a history of events that happened in a Flow. If something specific needs to be output to the Console, use the **Log** block to send the information there. This can be especially useful when using loops because an **Output** block would show only the last item passed through it once the Flow finished running.
 
-<img src="https://assets.postman.com/postman-labs-docs/concepts/console-logging.gif" alt="Console logging" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-docs/v10/flows-console-logging-v10-21.gif" alt="Console logging" fetchpriority="low" loading="lazy" />
 
 ### General tips
 
