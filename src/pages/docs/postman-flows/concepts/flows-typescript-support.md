@@ -7,7 +7,7 @@ plan: beta
 
 Postman Flows now supports [TypeScript](https://www.typescriptlang.org/) in addition to [Flows Query Langauge (FQL)](/docs/postman-flows/flows-query-language/introduction-to-fql/) in the **Evaluate** and **If** blocks.
 
-<img src="https://assets.postman.com/postman-docs/v10/flows-typescript-v10-20.jpg" alt="TypeScript in an Evaluate block"/>
+<img src="https://assets.postman.com/postman-docs/v10/flows-typescript-filter-v10-21.jpg" alt="TypeScript in an Evaluate block"/>
 
 ## Contents
 
@@ -17,7 +17,7 @@ Postman Flows now supports [TypeScript](https://www.typescriptlang.org/) in addi
 
 ## TypeScript compared to FQL
 
-While FQL is tailored for querying and transforming JSON data within Postman Flows, TypeScript offers the robustness and flexibility of a full programming language. This makes TypeScript more suitable for complex logic, large-scale projects, and developers familiar with both JavaScript and TypeScript ecosystems. TypeScript's static typing also provides better predictability and error checking than FQL.
+While FQL is tailored for querying and transforming JSON data within Postman Flows, TypeScript offers the robustness and flexibility of a full programming language. This makes TypeScript more suitable for complex logic and large-scale projects. Also, developers who are familiar with both JavaScript and TypeScript ecosystems may prefer using TypeScript over FQL.
 
 ## Restrictions and notes
 
