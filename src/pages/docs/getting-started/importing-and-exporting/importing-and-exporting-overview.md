@@ -38,4 +38,6 @@ Postman can import and export Postman data, including collections, environments,
 
 * You can [import a cURL command](/docs/getting-started/importing-and-exporting/importing-curl-commands/#import-a-curl-command-into-postman) as a new Postman request or [convert a Postman request to a cURL command](/docs/getting-started/importing-and-exporting/importing-curl-commands/#convert-a-postman-request-to-curl). You can also [import Swagger APIs](/docs/getting-started/importing-and-exporting/importing-from-swagger/) or [import OpenAPI definitions](/docs/integrations/available-integrations/working-with-openAPI/).
 
+* You can use the [Postman VS Code extension](/docs/getting-started/basics/about-vs-code-extension/) to import collections into Postman, and import a cURL command as a new request.
+
 * You can [export collections and environments](/docs/getting-started/importing-and-exporting/exporting-data/) from Postman as JSON files. You can also [export a data dump](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-data-dumps) with all of your Postman collections, environments, globals, and header presets. After exporting, you can import the files into any Postman instance or use them with [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
