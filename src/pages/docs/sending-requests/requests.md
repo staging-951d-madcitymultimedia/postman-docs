@@ -183,7 +183,7 @@ URL-encoded data uses the same encoding as URL parameters. If your API requires 
 
 You can use raw body data to send anything you can enter as text. Use the __raw__ tab, and the type dropdown list to indicate the format of your data (__Text__, __JavaScript__, __JSON__, __HTML__, or __XML__) and Postman will enable syntax-highlighting and appending the relevant headers to your request.
 
-<img alt="Body JSON" src="https://assets.postman.com/postman-docs/v10/body-raw-data-v10-2.jpg" width="500px"/>
+<img alt="Body JSON" src="https://assets.postman.com/postman-docs/v10/body-raw-data-v10-2.jpg" />
 
 > You can set a content type header manually if you need to override the one Postman sends automatically.
 
