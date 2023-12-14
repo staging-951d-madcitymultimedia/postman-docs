@@ -60,7 +60,7 @@ To create and use a variable, do the following:
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**, then close the environment tab.
 1. Open a new request tab and enter `https://postman-echo.com/get?var={{my_variable}}` as the URL. Hover over the variable name to inspect the variable's value and scope.
 
-    <img alt="View the variable value and scope" src="https://assets.postman.com/postman-docs/v10/variable-quick-start-hover-v10-21.jpg" width="525px"/>
+    <img alt="View the variable value and scope" src="https://assets.postman.com/postman-docs/v10/variable-quick-start-hover-v10-21.jpg" />
 
 1. Select __Send__ and send the request. Inspect the response, which confirms that Postman sent the variable value to the API.
 1. Change the value in the environment quick look and send the request again.
