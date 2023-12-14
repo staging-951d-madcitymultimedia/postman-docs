@@ -204,7 +204,7 @@ To manage your open tabs, right-click the open tab to activate a menu with actio
 * **Close All Tabs** - Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close All Tabs** - Closes all tabs without saving any changes.
 
-<img alt="Manage tabs using the actions menu" src="https://assets.postman.com/postman-docs/v10/manage-tabs-v10.jpg" width="200px"/>
+<img alt="Manage tabs using the actions menu" src="https://assets.postman.com/postman-docs/v10/manage-tabs-v10.jpg" width="265px"/>
 
 > **Closing unsaved tabs.** You can set whether Postman asks you to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **General > Request**, select **Always ask when closing unsaved tabs** to turn this option on or off.
 
