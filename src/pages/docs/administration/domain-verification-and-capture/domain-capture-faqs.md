@@ -50,11 +50,11 @@ The experience for captured users depends on their prior team status:
 
 ### Can a Team Admin view the list of user accounts that will be captured before enabling domain capture?
 
-Yes, a Team Admin can view the list of the unclaimed Postman accounts that will be captured prior to confirming they'd like to enable domain capture. To learn more, see [View unclaimed accounts](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/#view-unclaimed-accounts).
+Yes, a Team Admin on an [Enterprise Ultimate plan](https://www.postman.com/pricing) can view the list of the unclaimed Postman accounts that will be captured prior to confirming they'd like to enable domain capture. To learn more, see [View unclaimed accounts](/docs/administration/domain-verification-and-capture/enable-domain-capture/#view-unclaimed-accounts).
 
 ### Does adding a domain automatically add all the team members with the organization’s domain to the organization’s team?
 
-No, after a Team Admin adds a domain, they must create a request for Postman's team to verify the domain or subdomain. Once both criteria are met, a Team Admin can create a request to enable domain capture. Postman support will then contact Team Admins to explain the effects of enabling domain capture. To learn more, see [Enable domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/).
+No, after a Team Admin adds and verifies a domain and completes the [prerequisites for enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#prerequisites-for-domain-capture), they can create a request to enable domain capture. Postman support will then contact Team Admins to explain the effects of enabling domain capture. To learn more, see [Enable domain capture in Postman](/docs/administration/domain-verification-and-capture/enable-domain-capture/).
 
 ### How do I delete a domain?
 
