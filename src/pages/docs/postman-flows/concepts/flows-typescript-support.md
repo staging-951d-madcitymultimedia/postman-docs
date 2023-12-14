@@ -25,6 +25,7 @@ Scripts written with TypeScript in Postman Flows have the following restrictions
 
 * Scripts can't import or require libraries.
 * Scripts don't have file system access.
+* Scripts can't make API calls (i.e., `fetch` is not available).
 * The top level code must be an expression.
 
 TypeScript in Postman Flows uses a forked version of the CryptoJS library. This forked version uses an internal API for random number generation.
