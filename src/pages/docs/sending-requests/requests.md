@@ -37,7 +37,7 @@ For example, if you're building a client application (such as a mobile or web ap
 
 When you send a request, Postman displays the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
-<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-3.jpg" width="500px"/>
+<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-3.jpg" />
 
 If you have never sent a request before, check out [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/) before you continue.
 
