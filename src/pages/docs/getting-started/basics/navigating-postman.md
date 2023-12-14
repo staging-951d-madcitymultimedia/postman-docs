@@ -175,7 +175,7 @@ If a tab has unsaved changes, Postman displays a dot next to the tab name. Selec
 
 To rename an element, select the element's name and enter a new name.
 
-<img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10-4.jpg" width="200px"/>
+<img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10-4.jpg" width="223px"/>
 
 To copy a link to an element, hover over the element's name in the workbench to display the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">. Select the link icon to copy the element's URL to your clipboard.
 
