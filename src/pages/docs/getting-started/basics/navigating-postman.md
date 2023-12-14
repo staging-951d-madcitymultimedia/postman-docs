@@ -161,7 +161,7 @@ To open a new tab, select __+__ in the workbench.
 
 > You can also select **⌘+T** or **Ctrl+T** to open a new tab.
 
-<img alt="Open a new tab" src="https://assets.postman.com/postman-docs/v10/open-new-tab-v10-2.jpg" width="200px"/>
+<img alt="Open a new tab" src="https://assets.postman.com/postman-docs/v10/open-new-tab-v10-2.jpg" width="225px"/>
 
 If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
 
