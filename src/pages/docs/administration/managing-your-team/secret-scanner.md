@@ -96,7 +96,7 @@ The Secret Scanner searches for a variety of secrets [by default](#default-patte
 
 ### Default patterns
 
-By default, the Secret Scanner checks for tokens issued by common service providers including Amazon, Google, GitHub, Stripe, and Twilio. To view the complete list of default alerts, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts) and select **Configure patterns**.
+By default, the Secret Scanner checks for tokens issued by common service providers including Amazon, Google, GitHub, Stripe, and Twilio. To view the complete list of default patterns, open the [Secret Scanner](https://go.postman.co/settings/team/secret-scanner/alerts) and select **Configure patterns**.
 
 ### Custom patterns
 
