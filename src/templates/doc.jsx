@@ -15,7 +15,6 @@ import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import { BaseLinkStyles, BaseLink, UnorderedListStyles, OrderedListStyles, } from 'aether-marketing';
-import EarlyAccessList from '../components/List/EarlyAccessList';
 
 const DocWrapper = styled.div`
   /* Used for Deeplinking */   
@@ -365,10 +364,6 @@ const DocPage = ({ data }) => {
                 }
                 <h1>{post.frontmatter.title}</h1>
                 <DocContent id="LoadDoc" />
-                {post.frontmatter.early_access === true ? 
-                  <EarlyAccessList /> :
-                  null
-                }
                 {
                   excerptCount ?
                     <div className='events__alert mb-3'>
