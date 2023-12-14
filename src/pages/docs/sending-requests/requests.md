@@ -169,7 +169,7 @@ Choose the data type you need for your request body—[form data](#form-data), [
 
 Website forms often send data to APIs as `multipart/form-data`. You can replicate this in Postman using the `form-data` __Body__ tab. Form data enables you to send key-value pairs, and specify the content type.
 
-![Form Data](https://assets.postman.com/postman-docs/v10/form-data-v10-2.jpg)
+![Form Data](https://assets.postman.com/postman-docs/v10/form-data-v10.jpg)
 
 > You can attach files using form data. When you repeatedly make API calls that send the same files, Postman will persist your file paths for later use. This also helps you run collections that contain requests requiring file upload. Uploading multiple files each with their own content type isn't supported.
 
