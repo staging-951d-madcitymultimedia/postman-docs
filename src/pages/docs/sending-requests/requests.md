@@ -113,7 +113,7 @@ By default, Postman will select the `GET` method for new request. `GET` methods 
 * `PATCH` - update some existing data fields
 * `DELETE` - delete existing data
 
-<img alt="Request Methods" src="https://assets.postman.com/postman-docs/v10/request-methods-v10-2.jpg" width="300px"/>
+<img alt="Request Methods" src="https://assets.postman.com/postman-docs/v10/request-methods-v10-2.jpg" width="340px"/>
 
 For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks, a `POST` method to create a new task, and a `PUT` or `PATCH` method to edit an existing task.
 
