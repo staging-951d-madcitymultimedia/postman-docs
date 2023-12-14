@@ -126,7 +126,7 @@ msiexec /i path\to\package.msi /l*v C:\log.txt
 
 Settings can be changed during an MSI application installation.
 
-For example, if your app defines a `team-ids` installation option, you can set a custom value:
+For example, you can set the `team-ids` installation option to specify which Postman teams can use the Enterprise app:
 
 ``` shell
 msiexec /i path\to\package.msi team-ids='1234'
@@ -226,13 +226,13 @@ pkgutil --volume "$HOME" --forget <the bundle id>
 
 Settings can be changed at installation time using the macOS `defaults` tool either before or after installing the PKG.
 
-For example, if your app defines a `team-ids` integer installation option, you can set a custom value:
+For example, you can set the `team-ids` installation option to specify which Postman teams can use the Enterprise app:
 
 ``` shell
 # For system-wide PKGs
-sudo defaults write /Library/Preferences/<the bundle id> team-ids -integer 10
+sudo defaults write /Library/Preferences/<the bundle id> team-ids -integer 1234
 # For per-user PKGs
-defaults write <the bundle id> team-ids -integer 10
+defaults write <the bundle id> team-ids -integer 1234
 ```
 
 Installing a PKG and updating some of its installation options looks like this:
