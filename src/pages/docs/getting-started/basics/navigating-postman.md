@@ -189,7 +189,7 @@ If the element is in a personal workspace that no one can access, a popup window
 
 A tab will alert you to a conflict if you or a collaborator changes its contents in another tab or workspace. Postman prompts you to resolve any conflicts that happen.
 
-<img alt="Tab displaying a conflict" src="https://assets.postman.com/postman-docs/v10/tab-conflict-v10.jpg" width="200px"/>
+<img alt="Tab displaying a conflict" src="https://assets.postman.com/postman-docs/v10/tab-conflict-v10.jpg" width="212px"/>
 
 #### Managing tabs
 
