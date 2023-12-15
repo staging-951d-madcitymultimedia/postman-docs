@@ -29,31 +29,29 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 ## Sharing APIs
 
-You can share your APIs with collaborators by navigating to the API you want to share in the sidebar. Select it, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Share**.
+You can share APIs with collaborators by going to the API you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you want to share, then select **Share**.
 
-<img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
+<img alt="Share API" src="https://assets.postman.com/postman-docs/v10/share-api-v10-21.jpg"/>
 
-For more details, see [Sharing Postman elements](/docs/collaborating-in-postman/sharing/#sharing-postman-elements).
+For more details about sharing APIs, see [Share your work in Postman](/docs/collaborating-in-postman/sharing/).
 
 ## Collaborating on APIs
 
-You can move APIs to shared workspaces to [collaborate with your team](https://www.postman.com/api-platform/api-collaboration/).
+You can move APIs to shared private, team, or public workspaces to [collaborate with your team](https://www.postman.com/api-platform/api-collaboration/) on API development.
 
-> You must be an Editor on an API or the Workspace Admin to move the API to another workspace. To learn more about roles and permissions, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
+> You must be an [Admin](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) on an API or the [Workspace Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to move the API to another workspace. Learn more about [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
-In the sidebar, select the API you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
+To move an API to a shared workspace, do the following:
 
-Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
+1. Select **APIs** in the sidebar.
 
-You can move APIs to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces enable you to collaborate with others.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Move**.
 
-> You can't move APIs from team, private, or public workspaces to a personal workspace.
+1. Use the search box to find the workspace you want to move the API to, or select the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px"> to filter workspaces by visibility.
 
-<!-- -->
+    > You can move APIs to personal, private, team, and public workspaces that you have access to. You can't move APIs from team, private, or public workspaces to a personal workspace.
 
-> Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
-
-Select the workspace, then select **Move API**. Any collections in the API will move with the API to the new workspace.
+1. Select the workspace, then select **Move API**. Any collections in the API will move with the API to the new workspace.
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
 
@@ -110,7 +108,7 @@ You will also receive an email with the information regarding who made the chang
 
 You can add one or more comments to an API. Use comments to discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders.
 
-API producers ([Editor role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can add comments to an API. API consumers ([Viewer role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can't add comments to an API and won't see comments made by API producers. However, API consumers can comment on [published versions](#commenting-on-published-apis) of an API.
+API producers ([Admin role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) or [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can add comments to an API. API consumers ([Viewer role](/docs/collaborating-in-postman/roles-and-permissions/#api-roles)) can't add comments to an API and won't see comments made by API producers. However, API consumers can comment on [published versions](#commenting-on-published-apis) of an API.
 
 To add a new comment to an API, do the following:
 
