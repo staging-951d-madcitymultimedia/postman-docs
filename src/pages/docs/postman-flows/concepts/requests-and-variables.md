@@ -16,7 +16,7 @@ To use an API, a _request_ must be made to either send, update, delete, or retur
 
 In Postman Flows, the **Send Request** block enables you to select a request from a collection.
 
-<img src="https://assets.postman.com/postman-labs-docs/concepts/updated-selecting-a-request.gif" alt="Selecting a request" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-docs/v10/flows-select-a-request-v10-20.gif" alt="Select a request" fetchpriority="low" loading="lazy" />
 
 If there are no collections in the workspace, six easy-to-use requests will appear in the spotlight to choose from to get started.
 
@@ -30,6 +30,6 @@ _Variables_ are values that can change from one request to another. These can be
 
 The variables part of the **Send Request** block opens automatically and enables you to enter values.
 
-<img src="https://assets.postman.com/postman-labs-docs/concepts/updated-adding-a-variable.gif" alt="Filling in a variable" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-docs/v10/flows-add-a-variable-v10-20.gif" alt="Adding variables" fetchpriority="low" loading="lazy" />
 
 In this request, the two variables are named `value1` and `value2` and were set up in the request. (For more information on setting up variables in requests, visit [here](/docs/sending-requests/variables/).) Once the request runs, you can view the values in the **Success** output. The values returned are whatever the `value1` and `value2` variables are set to (in this example, `hello` and `there`).

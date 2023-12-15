@@ -33,7 +33,7 @@ For example, if you're building a client application (such as a mobile or web ap
 
 When you send a request, Postman displays the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
-<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-2.jpg" width="750px"/>
+<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-3.jpg" />
 
 If you have never sent a request before, check out [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/) before you continue.
 
@@ -69,7 +69,7 @@ Select **Save** to create your request. You can give your request a name and des
 
 Once your new tab is open, you can specify the details you need for your request.
 
-![New Request](https://assets.postman.com/postman-docs/v10/empty-request-v10.jpg)
+<img alt="New Request" src="https://assets.postman.com/postman-docs/v10/empty-request-v10-2.jpg" />
 
 > You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
@@ -85,7 +85,7 @@ You can change the protocol for a new request. Select **New** in the sidebar and
 
 > You can't change the request protocol after you select **Save**.
 
-![Select protocol](https://assets.postman.com/postman-docs/v10/select-protocol-v10-2.gif)
+<img alt="Select protocol" src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-4.gif" />
 
 ### Setting request URLs
 
@@ -104,14 +104,14 @@ You can optionally enter _query_ parameters into the URL field, or you can [ente
 
 ### Selecting request methods
 
-By default Postman will select the `GET` method for new request. `GET` methods are typically for retrieving data from an API. You can use a variety of other methods to send data to your APIs, including the following most common options:
+By default, Postman will select the `GET` method for new request. `GET` methods are typically for retrieving data from an API. You can use a variety of other methods to send data to your APIs, including the following most common options:
 
 * `POST` - add new data
 * `PUT` - replace existing data
 * `PATCH` - update some existing data fields
 * `DELETE` - delete existing data
 
-<img alt="Request Methods" src="https://assets.postman.com/postman-docs/v10/request-methods-v10.jpg" width="300px"/>
+<img alt="Request Methods" src="https://assets.postman.com/postman-docs/v10/request-methods-v10-2.jpg" width="340px"/>
 
 For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks, a `POST` method to create a new task, and a `PUT` or `PATCH` method to edit an existing task.
 
@@ -183,7 +183,7 @@ URL-encoded data uses the same encoding as URL parameters. If your API requires 
 
 You can use raw body data to send anything you can enter as text. Use the __raw__ tab, and the type dropdown list to indicate the format of your data (__Text__, __JavaScript__, __JSON__, __HTML__, or __XML__) and Postman will enable syntax-highlighting and appending the relevant headers to your request.
 
-<img alt="Body JSON" src="https://assets.postman.com/postman-docs/v10/body-raw-data-v10.jpg" width="500px"/>
+<img alt="Body JSON" src="https://assets.postman.com/postman-docs/v10/body-raw-data-v10-2.jpg" />
 
 > You can set a content type header manually if you need to override the one Postman sends automatically.
 
@@ -213,7 +213,7 @@ Check out [Using GraphQL](/docs/sending-requests/graphql/graphql-overview/) for 
 
 Some APIs require auth details you can send in Postman. Authentication involves confirming the identity of the client sending a request, and authorization involves confirming that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
 
-![Request Auth](https://assets.postman.com/postman-docs/v10/authorization-tab-v10.jpg)
+![Request Auth](https://assets.postman.com/postman-docs/v10/authorization-tab-v10-2.jpg)
 
 Postman will automatically include your auth details in the relevant part of the request, for example in __Headers__.
 
@@ -225,7 +225,7 @@ Once your auth and other request details are set up, select __Send__ to run your
 
 Some APIs require you to send particular headers along with requests, typically to provide more metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you enter text, Postman prompts you with common options you can use to autocomplete your setup, such as `Content-Type`.
 
-![Header Types](https://assets.postman.com/postman-docs/v10/presets-v10.jpg)
+![Header Types](https://assets.postman.com/postman-docs/v10/presets-v10-2.jpg)
 
 > You can save commonly used headers together in a header preset. In the __Headers__ tab, select __Presets__, and choose __Manage Presets__. Add each preset by providing a name, and entering the key plus value. Select __Add__ and your preset will be available in the __Presets__ dropdown list. Selecting the preset will autopopulate the fields in your request headers.
 
@@ -243,7 +243,7 @@ Hover over a header for details about it. Postman will indicate why the header h
 
 If you need to change a header, you can do so in the relevant part of Postman, for example the __Authorization__ tab, the request __Body__, __Cookies__ for the request domain, the __Settings__, and in some cases directly in the __Headers__ tab itself.
 
-![Token Header](https://assets.postman.com/postman-docs/v10/headers-added-v10.jpg)
+![Token Header](https://assets.postman.com/postman-docs/v10/headers-added-v10-2.jpg)
 
 If you need to go to a different part of the app, Postman will show a link on the right-hand side.
 
