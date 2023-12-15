@@ -1,6 +1,6 @@
 ---
 title: "Import from Thunder Client"
-updated: 2023-12-05
+updated: 2023-12-15
 contextual_links:
   - type: section
     name: "Additional resources"
