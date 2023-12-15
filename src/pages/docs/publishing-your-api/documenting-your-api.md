@@ -52,6 +52,8 @@ To view the documentation for an OpenAPI 2.0 or 3.0 API, do the following:
 
 <img alt="Viewing schema documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-schema-docs-v10-16.jpg" />
 
+> You can also view schema documentation while editing your OpenAPI 2.0 or 3.0 definition. Postman displays a live preview of the documentation as you work on your API. Learn more about [previewing schema documentation](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#previewing-schema-documentation).
+
 ## Create new documentation for an API
 
 To generate a new collection for API documentation, do the following:

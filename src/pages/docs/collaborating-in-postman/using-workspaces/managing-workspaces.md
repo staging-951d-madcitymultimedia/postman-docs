@@ -78,7 +78,7 @@ You can add a note and select **Request Access** to submit the request. All Work
 
 Workspace Admins can edit workspace details or change the visibility of a workspace.
 
-> You can use workspace templates to help set up a new workspace. For more information, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+> You can use workspace templates to help set up a new workspace. For more information, see [Apply a template to a workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#apply-a-template-to-a-workspace).
 
 ### Editing workspace details
 
@@ -91,8 +91,6 @@ On the workspace's **Overview** tab, select the workspace name and enter a new n
 ### Changing workspace visibility
 
 The visibility setting for a workspace determines who can access it. You must be a [Workspace Admin](#managing-workspace-roles) to change the visibility for a workspace.
-
-> You can't change a workspace's visibility to personal.
 
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.

@@ -50,7 +50,7 @@ The Private API Network provides a [central directory](https://www.postman.com/a
 
 Postman Enterprise plans provide you with advanced [API governance](https://www.postman.com/api-platform/api-governance/) and [API security](https://www.postman.com/api-platform/api-security/) features:
 
-* **Secret Scanner** - Create [custom alerts](/docs/administration/managing-your-team/secret-scanner/#custom-alerts) to proactively check for secret leaks.
+* **Secret Scanner** - Create [custom patterns](/docs/administration/managing-your-team/secret-scanner/#custom-patterns) to proactively check for secret leaks.
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
 * **Audit logs** - Use [audit logs](/docs/administration/managing-your-team/audit-logs/) to understand how your team members are using Postman.
 * **Configurable API governance and API security warnings** - Custom API governance and API security warnings enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases. You can also use the [Postman CLI](/docs/postman-cli/postman-cli-overview/) to return Postman API Governance and API Security warnings.

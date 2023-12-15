@@ -34,6 +34,7 @@ When the Postman CLI runs a collection, the collection and its tests execute loc
 * [Running a collection locally with the Postman CLI](#running-a-collection-locally-with-the-postman-cli)
 * [Running a collection in CI/CD](#running-a-collection-in-cicd)
 * [Running a collection in a specific order](#running-a-collection-in-a-specific-order)
+* [Running a collection that uses test data files](#running-a-collection-that-uses-test-data-files)
 
 ## Running a collection locally with the Postman CLI
 
@@ -114,3 +115,7 @@ By default, when you generate the command to run a collection from the Collectio
 If you need to change the order of execution, select a request in the Collection Runner and drag it to move it to its new order. You can also remove an individual request from the run by clearing the checkbox next to its name.
 
 When you change the folder and request sequence and **Automate runs via CLI** is selected, the command in the **Postman CLI command** window will also change. In addition to the Collection ID, the generated command will specify a number of folder and request UIDs with the `-i` option. This will run each of the folders or requests in that specified order.
+
+## Running a collection that uses test data files
+
+The Postman CLI can't run requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/requests/#sending-body-data). If your collection has requests that use files, [upload your test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs) to make them available to the Postman CLI.
