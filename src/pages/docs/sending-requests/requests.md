@@ -56,6 +56,7 @@ If you have never sent a request before, check out [sending your first request](
     * [Using cookies](#using-cookies)
 * [Choosing custom settings](#choosing-custom-settings)
     * [Encoding your request URLs](#encoding-your-request-urls)
+* [Sharing your requests](#sharing-your-requests)
 * [Troubleshooting your requests](#troubleshooting-your-requests)
 * [Next steps](#next-steps)
 
@@ -278,6 +279,14 @@ The processor will encode characters depending on where they occur in the URL:
 The processor is turned on by default in Postman, but you can turn off encoding if you are working with an unusual server implementation. To turn this setting on or off in your request, select **Settings > Encode URL automatically**.
 
 > You can selectively encode parts of your URL by highlighting the text and right-clicking, then choosing **EncodeURIComponent**.
+
+## Sharing your requests
+
+You can share requests with collaborators by going to the request you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the request you want to share, then select **Share**.
+
+<img alt="Share request" src="https://assets.postman.com/postman-docs/v10/share-request-v10-21.jpg"/>
+
+For more details about sharing requests, see [Share your work in Postman](/docs/collaborating-in-postman/sharing/).
 
 ## Troubleshooting your requests
 

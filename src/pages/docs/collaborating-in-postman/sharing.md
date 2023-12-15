@@ -25,11 +25,11 @@ contextual_links:
     url: "https://blog.postman.com/introducing-postmans-new-guest-role-to-share-collections-instantly/"
 ---
 
-You can [collaborate on Postman elements](https://www.postman.com/api-platform/api-collaboration/) including collections, requests, collection folders, APIs, Flows, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
+You can [collaborate on Postman elements](https://www.postman.com/api-platform/api-collaboration/) including collections, requests, examples, collection folders, APIs, Flows, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
 
 To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/installation/postman-account/).
 
-> This page has information about sharing Postman collections, collection folders, APIs, requests, Flows, and environments using the **Share** function. Other Postman elements are shared differently:
+> This page has information about sharing Postman collections, collection folders, APIs, requests, examples, Flows, and environments using the **Share** function. Other Postman elements are shared differently:
 >
 > * To share a collection run, see [Using the Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/).
 > * To share a collection as a file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
@@ -46,25 +46,25 @@ To share your work using workspaces, you need to be signed in to your [Postman a
 
 ## Sharing Postman elements
 
-You can share your collections, collection folders, APIs, and environments with collaborators. There are several different ways to share an element:
+You can share your collections, requests, examples, collection folders, APIs, Flows, and environments with collaborators. There are several different ways to share an element:
 
 * In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share, then select **Share**.
 * For collections, APIs, Flows, and environments, open the element you want to share, then select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share** from the element's overview page.
 * Hover over the element's name in the overview page and select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to copy the element's URL to the clipboard.
-* You can also select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share and select **Copy Link** to copy the element's URL to the clipboard.
-* To share a URL to a collection, folder, or request with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/environments/managing-environments/#switch-between-environments), copy the element's link to your clipboard, then send the link to team members you want to share with.
+* For requests and collection folders, you can also select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share and select **Copy link** to copy the element's URL to the clipboard.
+* To share a URL to a collection, collection folder, request, or example with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/environments/managing-environments/#switch-between-environments), copy the element's link to your clipboard, then send the link to team members you want to share with.
 
 ### Sharing using names, emails, or groups
 
-You can share collections, APIs, and environments directly with collaborators, including team members, groups, and external users.
+You can share collections, requests, examples, collection folders, APIs, Flows, and environments, directly with collaborators, including team members, groups, and external users.
 
-1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
-1. Select **With people**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share, then select **Share**.
+1. If you're sharing a collection, select the **With people** tab.
 1. Enter the name, email address, or [group name](/docs/collaborating-in-postman/user-groups/) for the people you want to share the element with.
 1. If you have an Editor role for the element you are sharing, you can give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the element. If you have a Viewer role for the element, you can share it, but you won't be able to assign roles.
-1. If you're sharing a collection, folder, or request, you can optionally select an environment to be the active environment. This will be the active environment for the team members and groups you want to share with. Select the **Select an Environment** dropdown list and choose the environment.
+1. If you're sharing a collection, collection folder, request, or example, you can optionally select an environment to be the active environment. This will be the active environment for the team members and groups you want to share with. Select the **Select an Environment** dropdown list and choose the environment.
 
-    > To change the environment that's active for the team members and groups you want to share with, you must re-share the collection, folder, or request with them. Choose a new environment in the **Select an Environment** dropdown list, then select **Share**.
+    > To change the environment that's active for the team members and groups you want to share with, you must re-share the collection, collection folder, request, or example with them. Choose a new environment in the **Select an Environment** dropdown list, then select **Share**.
 
 1. Select **Share**.
 
