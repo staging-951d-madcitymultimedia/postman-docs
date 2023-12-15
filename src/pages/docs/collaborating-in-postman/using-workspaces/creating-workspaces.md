@@ -54,7 +54,7 @@ _Workspace as an element_ represents a whole container where being an Admin give
 
     <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/workspace-switcher-v10.14.jpg" width="300px"/>
 
-1. You can select a [workspace template](#apply-a-template-to-a-workspace) like the API development template, the API testing template, and others to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
+1. You can select a [workspace template](#apply-a-template-to-a-workspace) like the API development template, the API testing template, and others to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections and environments, or select **Blank workspace** to create an empty workspace. Then select **Next**.
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Apply a template to a workspace](#apply-a-template-to-a-workspace).
 
@@ -80,7 +80,7 @@ You can also create a new workspace in the [Workspaces dashboard](https://app.ge
 
 You can apply a workspace template to an existing workspace. Workspace templates are available for a variety of common use cases, including API demos, engineering onboarding, and API testing.
 
-When you apply a workspace template, it will populate the workspace description with an introduction and information to help you get started. Each workspace template also includes sample collections that you can use and change as needed. To use a template, [create a new workspace](#create-a-new-workspace) or open a newly created workspace.
+When you apply a workspace template, it will populate the workspace description with an introduction and information to help you get started. Each workspace template also includes sample collections and environments that you can use and change as needed. To use a template, [create a new workspace](#create-a-new-workspace) or open a newly created workspace.
 
 To use a template in a newly created workspace, do the following:
 
