@@ -94,7 +94,7 @@ To move an element to a Partner Workspace, do the following:
 
 Items related to what you're moving, such as monitors and mock servers, won't move with the element automatically. For more information, see [Moving elements to team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
-If you'd like to keep certain elements in other workspaces, you can [fork them into Partner Workspaces](/docs/collaborating-in-postman/using-version-control/forking-elements/#creating-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/using-version-control/forking-elements/#pulling-updates-from-a-parent-element) with any changes to the parent element.
+If you'd like to keep certain elements in other workspaces, you can [fork them into Partner Workspaces](/docs/collaborating-in-postman/using-version-control/forking-elements/#create-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/using-version-control/forking-elements/#pull-updates-from-a-parent-element) with any changes to the parent element.
 
 ## Inviting collaborators to a Partner Workspace
 

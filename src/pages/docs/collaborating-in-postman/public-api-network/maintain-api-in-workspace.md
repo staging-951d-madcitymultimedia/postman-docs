@@ -19,9 +19,9 @@ When you're ready to share your API definitions and collections with your API's 
 
 ## Postman's version control
 
-If your collections are stored in a non-public workspace in Postman, such as a [team workspace](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/), you can use [Postman's version control](/docs/collaborating-in-postman/using-version-control/version-control-overview/) to [fork the collection](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork) in a public workspace.
+If your collections are stored in a non-public workspace in Postman, such as a [team workspace](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/), you can use [Postman's version control](/docs/collaborating-in-postman/using-version-control/version-control-overview/) to [fork the collection](/docs/collaborating-in-postman/using-version-control/forking-entities/#create-a-forkin a public workspace.
 
-When you're ready to share your collections with your API's consumers, you can [pull changes from the parent collection](/docs/collaborating-in-postman/using-version-control/forking-entities/#pulling-updates-from-a-parent-element) (in your non-public workspace) to the forked collection (in your public workspace).
+When you're ready to share your collections with your API's consumers, you can [pull changes from the parent collection](/docs/collaborating-in-postman/using-version-control/forking-entities/#pull-updates-from-a-parent-element) (in your non-public workspace) to the forked collection (in your public workspace).
 
 ## The Postman API
 
