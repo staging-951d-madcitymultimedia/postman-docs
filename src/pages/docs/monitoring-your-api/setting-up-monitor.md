@@ -110,11 +110,13 @@ Static IPs are available on Postman Professional and Enterprise plans when you m
 
 When configuring a monitor, you can choose to receive email notifications for monitor run failures and errors. You can add up to five email recipients to receive notifications.
 
-> Once the number of consecutive failures exceeds the defined limit, Postman will stop sending failure notifications. The default limit is 3 consecutive failures.
+Postman will send an email notification each time the monitor fails. By default, Postman will stop sending failure notifications after 3 consecutive failures. You can specify a different value if you want Postman to send more or fewer emails when a monitor fails.
 
-You will receive daily and weekly summaries of your active monitors by email. If you want to opt out of daily or weekly summaries, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header and select **Manage Preferences**.
+Once the monitor run is successful, Postman will send an email notification to let you know the monitor has recovered. Note that if the number of monitor failures is less than the consecutive failure limit, you won't get a recovery email when the monitor is successful.
 
-[![monitor summary](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)
+![monitor summary](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)
+
+> You will receive daily and weekly summaries of your active monitors by email. If you want to opt out of daily or weekly summaries, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header and select **Manage Preferences**.
 
 ### Using retry on failure
 
