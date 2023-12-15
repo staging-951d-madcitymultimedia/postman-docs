@@ -67,6 +67,6 @@ The verified badge also displays next to a verified team's name in their [profil
 
 ## Next steps
 
-* To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#creating-a-fork).
+* To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#create-a-fork).
 
 * To learn more about sharing APIs, workspaces, and collections to the Public API Network, see [Public API Network overview](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/).

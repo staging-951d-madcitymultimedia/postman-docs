@@ -57,4 +57,4 @@ Track the number of [forks](/docs/collaborating-in-postman/using-version-control
 
 <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/v10/fork-information-count-v10.jpg" width="500px"/>
 
-For more details about viewing the number of people who forked a Postman element, see [Viewing fork information](/docs/collaborating-in-postman/using-version-control/forking-elements/#viewing-fork-information).
+For more details about viewing the number of people who forked a Postman element, see [Viewing fork information](/docs/collaborating-in-postman/using-version-control/forking-elements/#view-fork-information).
