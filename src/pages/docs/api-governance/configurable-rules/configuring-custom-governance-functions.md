@@ -19,7 +19,7 @@ You can create custom governance functions and use them in your [custom API Gove
 
 ## Adding a custom function
 
-You can add custom governance functions to use in your custom API Governance rules. Postman provides you with a boilerplate function to help you start writing your custom governance function. You must write custom functions in JavaScript using CommonJS syntax.
+You can add custom governance functions to use in your custom API Governance rules. Postman provides you with a boilerplate function to help you start writing your custom governance function. You must write custom functions in JavaScript using ES6 syntax or CommonJS syntax.
 
 1. Go to the [Postman home screen](https://go.postman.co/), and then select **API Governance** from the team information pane.
 1. Select the **Rule Library** tab, and then select the **Functions** tab.

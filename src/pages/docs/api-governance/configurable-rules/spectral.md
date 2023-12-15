@@ -11,7 +11,7 @@ contextual_links:
     url: "https://youtu.be/TDOuZcKQId4"
 ---
 
-Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team. Postman also supports CommonJS syntax for custom functions configurable in custom governance rules.
+Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configurable [API governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team. Postman also supports ES6 syntax and CommonJS syntax for custom functions configurable in custom governance rules.
 
 ## Contents
 
@@ -27,7 +27,10 @@ Spectral is a linting engine that helps you define custom rules and enforce them
     * [Spectral function parameters](#spectral-function-parameters)
     * [Spectral function return statement properties](#spectral-function-return-statement-properties)
     * [Export your custom function](#export-your-custom-function)
+    * [Supported Spectral functions](#supported-spectral-functions)
+    * [JSON Schema](#json-schema)
     * [Example: Checking that a value isn't in a list](#example-checking-that-a-value-isnt-in-a-list)
+    * [Example: Checking that a value isn't in a list (JSON Schema)](#example-checking-that-a-value-isnt-in-a-list-json-schema)
     * [Example: Rule that uses a custom function](#example-rule-that-uses-a-custom-function)
 
 ## How Spectral works
@@ -64,10 +67,10 @@ A Spectral document (often called a ruleset) has a `rules` property that can hav
 
 ```json
 rules:
-api-name-doesnt-contain-api:
-# ...
-api-name-length:
-# ...
+    api-name-doesnt-contain-api:
+    # ...
+    api-name-length:
+    # ...
 ```
 
 Spectral identifies each rule with a key, which can be any JSON-compatible string.
@@ -107,15 +110,15 @@ You will find each rule defined in `rules` in the **Custom Rules** section in th
 |<div style="width:110px">Property</div> | Description
 --- | ---
 `description` | An optional description of the rule. If you provide one, it will be shown in the configurable rules page for either API Governance or API Security.
-`message` | If the rule is triggered, the list of rule violations will contain the `message`, used in Postman as the name of the rule. This message aims to help users solve the problem. Keep it as short and meaningful as possible. It can contain optional placeholders: <br><ul><li>`{{error}}` - The error message returned by `function`.</li><li>`{{description}}` - The description of the rule.</li><li>`{{path}}` - The path of the error (the last element is the `property` below).</li><li>`{{property}}` - The name of the property causing the error. This is useful when `given` returns many different property names or when `then` is a list that uses multiple `fields`).</li><li>`{{value}}` - The value causing the error.</li></ul><br> If `message` isn't provided, the `description` is used instead. And if `description` isn't available, the rule's key (in `rules`) is used.
-`severity` | The severity of the problem detected by the rule. The possible values are `error`, `warn` (default), `info`, and `hint`. These values can be used as follows: <br><ul><li>`error` - An obvious error that must be fixed. </li><li>`warn` - A possible error. If it's an error, it must be fixed. Some deviation on specific rules may be tolerated, like a `POST` without a body.</li><li>`info` - Something that could possibly be improved. An optional pattern defined in the guidelines could be applied.</li><li>`hint` - Something to be discussed during an API design review.</li></ul>
+`message` | <p>If the rule is triggered, the list of rule violations will contain the `message`, used in Postman as the name of the rule. This message aims to help users solve the problem. Keep it as short and meaningful as possible. It can contain optional placeholders:</p>  <ul><li>`{{error}}` - The error message returned by `function`.</li><li>`{{description}}` - The description of the rule.</li><li>`{{path}}` - The path of the error (the last element is the `property` below).</li><li>`{{property}}` - The name of the property causing the error. This is useful when `given` returns many different property names or when `then` is a list that uses multiple `fields`).</li><li>`{{value}}` - The value causing the error.</li></ul><br> If `message` isn't provided, the `description` is used instead. And if `description` isn't available, the rule's key (in `rules`) is used.
+`severity` | <p>The severity of the problem detected by the rule. The possible values are `error`, `warn` (default), `info`, and `hint`. These values can be used as follows:</p> <ul><li>`error` - An obvious error that must be fixed. </li><li>`warn` - A possible error. If it's an error, it must be fixed. Some deviation on specific rules may be tolerated, like a `POST` without a body.</li><li>`info` - Something that could possibly be improved. An optional pattern defined in the guidelines could be applied.</li><li>`hint` - Something to be discussed during an API design review.</li></ul>
 `resolved` | <p>Determines whether your OpenAPI document is a resolved or unresolved document when Spectral executes your rule. This affects whether Spectral resolves `$ref` properties when executing your rule.</p> <p>A `$ref` property is a reference in the form of a URI that references other components, which can be in your OpenAPI document. In a resolved document, references are replaced with the components each URI points to. In an unresolved document, references aren't replaced. The possible values are `true` (default) and `false`. These values can be used as follows:</p> <ul><li>`true` - The OpenAPI document is a resolved document when Spectral executes your rule. Each reference (`$ref`) is replaced with the component each URI points to, meaning you can't target `$ref` properties.</li><li>`false` - The OpenAPI document is an unresolved document when Spectral executes your rule. Each reference (`$ref`) isn't replaced. This enables you to target the `$ref` property to check its presence and the URI value as a string.</li></ul>
-`formats` | The list of document formats to which the rule will be applied. The accepted values are: <br><ul><li>`oas2` - Targets OpenAPI (Swagger) documents</li><li>`oas3` - Targets OpenAPI 3.x documents (3.0 and 3.1)</li><li>`oas3_0` - Targets OpenAPI 3.0 documents</li><li>`oas3_1` - Targets OpenAPI 3.1 documents</li></ul><br> By default, a rule will target all versions 2 and 3.x (the default value is `[oas2,oas3]`).
-`given` | **Required**. This can be a list with at least one element or a single element. Each value is a [JSON Path Plus expression](#json-path-and-json-path-plus) that may return zero, one, or more elements.<br>If `given` paths don't find any value, the `then` controls won't execute.
-`then` | **Required**. This can be a list with at least one element or a single element. If the given [JSON Path Plus expressions](#json-path-and-json-path-plus) return values, the functions will be applied to all of them.
-`then.field` | This optional name can be used if the value returned by the `given` paths is an object to target a specific field inside it. This value must be a name and can't hold a [JSON Path Plus expression](#json-path-and-json-path-plus). <br>The keyword `@key` can be used to check all keys of an object returned by the `given` paths.
-`then.function` | **Required**. The name of the function to use. You can use all Spectral core functions in Postman. [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
-`then.functionOptions` | **May be required depending on the function**. The options of the function. You can use all Spectral core functions in Postman. [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
+`formats` | <p>The list of document formats to which the rule will be applied. The accepted values are:</p> <ul><li>`oas2` - Targets OpenAPI (Swagger) documents</li><li>`oas3` - Targets OpenAPI 3.x documents (3.0 and 3.1)</li><li>`oas3_0` - Targets OpenAPI 3.0 documents</li><li>`oas3_1` - Targets OpenAPI 3.1 documents</li></ul><br> By default, a rule will target all versions 2 and 3.x (the default value is `[oas2,oas3]`).
+`given` | <p>**Required**. This can be a list with at least one element or a single element. Each value is a [JSON Path Plus expression](#json-path-and-json-path-plus) that may return zero, one, or more elements.</p> <p>If `given` paths don't find any value, the `then` controls won't execute.
+`then` | **Required**. This can be a list with at least one element or a single element. If the given [JSON Path Plus expressions](#json-path-and-json-path-plus) return values, the functions will be applied to all of them.</p>
+`then.field` | <p>This optional name can be used if the value returned by the `given` paths is an object to target a specific field inside it. This value must be a name and can't hold a [JSON Path Plus expression](#json-path-and-json-path-plus).</p> <p>The keyword `@key` can be used to check all keys of an object returned by the `given` paths.</p>
+`then.function` | **Required**. The name of the function to use. You can use all Spectral core functions in Postman. For more information about Spectral core functions, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md). [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules.
+`then.functionOptions` | **May be required depending on the function**. The options of the function. You can use all Spectral core functions in Postman. For more information about Spectral core functions, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md). [Custom functions](#spectral-custom-functions) are supported in custom API Governance rules.
 
 <!-- vale Microsoft.Headings = NO -->
 
@@ -177,9 +180,11 @@ rules:
 
 ## Spectral custom functions
 
-You can [add custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) to use in your custom governance rules. You can use these guidelines to write custom functions in JavaScript and add them to your custom governance rules. Postman supports CommonJS syntax for custom functions.
+You can [add custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) to use in your custom governance rules. You can use these guidelines to write custom functions in JavaScript and add them to your custom governance rules. Postman supports ES6 syntax and CommonJS syntax for custom functions.
 
-To write a custom function, your function must have the [`targetVal` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and the [`module.exports` object property](#export-your-custom-function) exporting your function.
+> Postman recommends using ES6 syntax for your custom functions.
+
+Your custom function must have the [`targetVal` parameter](#spectral-function-parameters), the [`message` property](#spectral-function-return-statement-properties) in your return statement, and either the [`export default` declaration (ES6) or `module.exports` object property (CommonJS)](#export-your-custom-function) exporting your function.
 
 To add a custom function to a rule, your rule must have the [`then.function` property](#spectral-rule-properties) whose value is the name of the file containing the custom function. The filename is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
 
@@ -192,7 +197,7 @@ Use the following parameters in your custom functions depending on your use case
 |<div style="width:150px">Parameter</div> | Description
 --- | ---
 `targetVal` | <p>**Required**. The first parameter you must add to your function. This can be any data type, such as a string or array. This is the value that the [`given` property](#spectral-rule-properties) returns. The rule tests the value of `targetVal` using your custom function.</p> <p>If you also define a value for the [`then.field` property](#spectral-rule-properties) in your rule, `targetVal` is the value returned by the `given` path appended with `then.field`.</p>
-`options` | <p>The second parameter you can add to your function. This is the optional value of the [`then.functionOptions` property](#spectral-rule-properties). Add this parameter to your function if your function expects options.</p>
+`options` | <p>The second parameter you can add to your function. This is the optional value of the [`then.functionOptions` property](#spectral-rule-properties). Add this parameter to your function if your function expects options.</p> <p>If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).</p>
 `context` | <p>The third parameter you can add to your function. You can use this optional parameter to access properties about the context in which the custom function is called. For example, you can access the `targetVal` path or other locations in the document. These properties are as follows: </p><ul><li>`path` - The path to `targetVal` in the form of an array of strings. For example, `["paths", "/resources", "get", "responses", "306"]`. To learn how to use it, see [Spectral function return statement properties](#spectral-function-return-statement-properties). </li><li>`document` - The document you're attempting to lint.</li><li>`rule` - The rule that's using the function.</li><li>`documentInventory` - Provides access to resolved and unresolved documents, the `$ref` resolution graph, and other advanced properties.</li></ul>
 
 ```js
@@ -224,26 +229,146 @@ return [
 
 ### Export your custom function
 
-**Required**. Export your custom function. This enables you to add the custom function's filename to your custom rule using the [`then.function` property](#spectral-rule-properties). To learn more, see [Example: Rule that uses a custom function](#example-rule-that-uses-a-custom-function).
+**Required**. Export your custom function. This enables you to add the custom function's filename to your custom rule using the [`then.function` property](#spectral-rule-properties). The custom function name you export must match the name in the function declaration.
 
-The custom function name you export must match the name in the function declaration. Use the following syntax: `module.exports = function-name;`.
+> If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).
+
+* For ES6 format, use the following syntax: `export default function-name`.
+* For CommonJS format, use the following syntax: `module.exports = function-name`.
 
 ```js
 function myCustomFunction(targetVal, options, context) { ... }
 
-module.exports = myCustomFunction;
+// ES6 syntax
+export default myCustomFunction;
+// CommonJS syntax
+// module.exports = myCustomFunction;
+```
+
+### Supported Spectral functions
+
+You can import the following Spectral functions into your custom function file in Postman.
+
+#### createRulesetFunction
+
+The `createRulesetFunction` function is an optional Spectral function you can import from the `@stoplight/spectral-core` module.
+
+This function enables you to use a [JSON Schema](#json-schema) to define your custom function's options, enabling you to validate whether the [options provided in your rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) using `then.functionOptions` match specific criteria. The JSON Schema must be nested inside of a JSON object. If the provided options don't match the JSON Schema, an error message will explain the issue when editing your rule.
+
+> If you use ES6 syntax, error messages refer to your custom function as `"<unknown>" function`.
+
+Add a JSON Schema for each of the following to your JSON object:
+
+|<div style="width:150px">Key</div> | Description
+--- | ---
+`input` | <p>**Required**. Postman expects a key named `input` in the JSON object. This is the JSON Schema that defines the [`targetVal` parameter](#spectral-function-parameters) in your custom function. This JSON Schema enables you to define and validate whether the value of `targetVal` matches specific criteria.</p> <p>If the `targetVal` value doesn't match the `input` JSON Schema, your rule won't call the function. You won't receive an error if the `targetVal` value doesn't match the `input` JSON Schema.</p> <p>Enter the following to skip validation for the `input` JSON Schema: `input: null,`.</p>
+`options` | **Required**. Postman expects a key named `options` in the JSON object. This is the JSON Schema that defines the [`options` parameter](#spectral-function-parameters) in your custom function. Options are provided in your rule using the [`then.functionOptions` property](#spectral-rule-properties). This JSON Schema enables you to define and validate whether the values of `options` matches specific criteria.
+
+```json
+  {
+    // JSON Schema of the targetVal parameter
+    input: null,
+    // JSON Schema of the options parameter
+    options: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        values: {
+          type: "array"
+        }
+      },
+      required: ["values"],
+    },
+  },
+```
+
+When you [export your custom function](#export-your-custom-function), call the `createRulesetFunction` Spectral function and include a JSON object containing JSON Schemas and the custom function's name as arguments. For a complete example of using a JSON Schema with a custom function, see [Checking that a value isn't in a list (JSON Schema)](#example-checking-that-a-value-isnt-in-a-list-json-schema).
+
+* ES6 format:
+    * To import, use the following syntax: `import { createRulesetFunction } from "@stoplight/spectral-core";`.
+    * To export, use the following syntax: `export default createRulesetFunction(json-object, function-name);`.
+* CommonJS format:
+    * To import, use the following syntax: `const { createRulesetFunction } = require("@stoplight/spectral-core");`.
+    * To export, use the following syntax: `module.exports = createRulesetFunction(json-object, function-name);`.
+
+```js
+// ES6 syntax
+import { createRulesetFunction } from "@stoplight/spectral-core";
+// CommonJS syntax
+// const { createRulesetFunction } = require("@stoplight/spectral-core");
+
+function myCustomFunction(targetVal, options, context) { ... }
+
+// ES6 Syntax
+export default createRulesetFunction(
+// CommonJS Syntax
+// module.exports = createRulesetFunction(
+  {
+    // JSON Schema of the targetVal parameter
+    input: null,
+    // JSON Schema of the options parameter
+    options: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        values: {
+          type: "array"
+        }
+      },
+      required: ["values"],
+    },
+  },
+
+  myCustomFunction,
+);
+```
+
+### JSON Schema
+
+JSON Schema specification enables you to describe a JSON document using a standard format.
+
+You can add a JSON Schema that defines and validates your custom function's options. To learn about adding a JSON Schema to your custom function, see the [`createRulesetFunction` Spectral function](#createrulesetfunction).
+
+You can use the [official JSON Schema documentation](https://json-schema.org/learn/getting-started-step-by-step.html) to learn more about describing a JSON document using this format.
+
+#### JSON Schema examples
+
+The following examples show JSON Schema key-value pairs you can use to validate your custom function's options:
+
+* `$.options` - The root object that contains the JSON Schema of your custom function's options.
+* `$.options.type` - A validation keyword that defines a constraint on the JSON data. In this example, the value is `object`, meaning the data must be a JSON object.
+* `$.options.properties` - An object whose values define the parameter used to pass options to your custom function. In this example, `values` is a variable that stores the value of the [`options` parameter](#spectral-function-parameters).
+* `$.options.required` - A validation keyword that's an array of strings containing keys from `$.options.properties`. Add properties to the array if they must be defined in the JSON Schema. In this example, `values` must be defined in the JSON Schema.
+
+```json
+  {
+    input: null,
+    options: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        values: {
+          type: "array"
+        }
+      },
+      required: ["values"],
+    },
+  },
 ```
 
 ### Example: Checking that a value isn't in a list
 
 The following custom function named `notInEnumeration` is in a file named `not_in_enumeration`. The filename is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
 
+> If your custom function accepts options, Postman recommends adding a [JSON Schema](#json-schema) to your custom function. A JSON Schema enables you to define and validate your custom function's options when editing your rule. This requires you to export your custom function using the [`createRulesetFunction` Spectral function](#createrulesetfunction).
+
 The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using the [`then.functionOptions` property](#spectral-rule-properties). The value of `values` is a list of numeric strings. If `targetVal` is a value already in the list, the rule violation is triggered.
 
-After the function, `module.exports` references the function's name. This exports the custom function so the rule can add it using the [`then.function` property](#spectral-rule-properties).
+After the custom function, `export default` or `module.exports` references the custom function's name. This exports the custom function so the rule can add it using the [`then.function` property](#spectral-rule-properties).
 
 ```js
 // filename: not_in_enumeration
+
 function notInEnumeration(targetVal, options, context) {
   const { values } = options;
   if (values.includes(targetVal)) {
@@ -255,7 +380,63 @@ function notInEnumeration(targetVal, options, context) {
   }
 }
 
-module.exports = notInEnumeration;
+// ES6 syntax
+export default notInEnumeration;
+// CommonJS syntax
+// module.exports = notInEnumeration;
+```
+
+### Example: Checking that a value isn't in a list (JSON Schema)
+
+The following custom function named `notInEnumeration` is in a file named `not_in_enumeration`. The filename is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function).
+
+Before the custom function, the [`createRulesetFunction` Spectral function](#createrulesetfunction) is imported into the file. This enables you to define the expected options in a [JSON Schema](#json-schema) to validate whether the [provided options in your rule](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) match specific criteria.
+
+The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using the [`then.functionOptions` property](#spectral-rule-properties). The value of `values` is a list of numeric strings. If `targetVal` is a value already in the list, the rule violation is triggered.
+
+After the custom function, `export default` or `module.exports` calls the `createRulesetFunction` Spectral function and includes the following arguments: a JSON object containing JSON Schemas of the `targetVal` parameter and `options` parameter, and the custom function's name. This exports the custom function so the rule can add it using the [`then.function` property](#spectral-rule-properties).
+
+```js
+// filename: not_in_enumeration
+
+// ES6 Syntax
+import { createRulesetFunction } from "@stoplight/spectral-core";
+// CommonJS Syntax
+// const { createRulesetFunction } = require("@stoplight/spectral-core");
+
+function notInEnumeration(targetVal, options, context) {
+  const { values } = options;
+  if (values.includes(targetVal)) {
+    return [
+      {
+        message: `Value must be different from "${values.join(',')}".`,
+      },
+    ];
+  }
+}
+
+// ES6 Syntax
+export default createRulesetFunction(
+// CommonJS Syntax
+// module.exports = createRulesetFunction(
+  {
+    // JSON Schema of the targetVal parameter
+    input: null,
+    // JSON Schema of the options parameter
+    options: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        values: {
+          type: "array"
+        }
+      },
+      required: ["values"],
+    },
+  },
+
+  notInEnumeration,
+);
 ```
 
 ### Example: Rule that uses a custom function

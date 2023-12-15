@@ -185,16 +185,28 @@ export const leftNavItems = [
             url: '/docs/getting-started/importing-and-exporting/importing-data/',
           },
           {
+            name: 'SoapUI import',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-soapui/',
+          },
+          {
+            name: 'Hoppscotch import',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-hoppscotch/',
+          },
+          {
+            name: 'Insomnia import',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-insomnia/',
+          },
+          {
+            name: 'Thunder Client import',
+            url: '/docs/getting-started/importing-and-exporting/importing-from-thunder-client/',
+          },
+          {
             name: 'Git import',
             url: '/docs/getting-started/importing-and-exporting/importing-from-git/',
           },
           {
             name: 'New Relic import',
             url: '/docs/getting-started/importing-and-exporting/importing-from-new-relic/',
-          },
-          {
-            name: 'Insomnia import',
-            url: '/docs/getting-started/importing-and-exporting/importing-from-insomnia/',
           },
           {
             name: 'cURL command import',
@@ -1554,6 +1566,10 @@ export const leftNavItems = [
       {
         name: 'API Governance report',
         url: '/docs/reports/api-gov-reports/',
+      },
+      {
+        name: 'Public workspace metrics report',
+        url: '/docs/reports/public-workspace-metrics-reports/',
       },
       {
         name: 'Billing overview report',
