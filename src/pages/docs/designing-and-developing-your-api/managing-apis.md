@@ -29,11 +29,11 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 ## Sharing APIs
 
-You can share your APIs with collaborators by navigating to the API you want to share in the sidebar. Select it, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Share**.
+You can share APIs with collaborators by going to the API you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you want to share, then select **Share**.
 
-<img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
+<img alt="Share API" src="https://assets.postman.com/postman-docs/v10/share-api-v10-21.jpg"/>
 
-For more details, see [Sharing Postman elements](/docs/collaborating-in-postman/sharing/#sharing-postman-elements).
+For more details about sharing APIs, see [Share your work in Postman](/docs/collaborating-in-postman/sharing/).
 
 ## Collaborating on APIs
 
