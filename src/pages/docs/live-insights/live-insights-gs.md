@@ -36,9 +36,9 @@ Next, create a collection and install the LCA locally. Then, configure the LCA f
 
 1. In Postman, create and name a collection. For more information about how to create and manage collections, see [Collections overview](https://learning.postman.com/docs/collections/collections-overview/).
 
-1. In the collection **Overview**, select **Get Started** to enable a live collection.
+1. In the collection **Overview**, select **Enable Now** to enable a live collection.
 
-    ![Enable live collection](https://assets.postman.com/postman-docs/v10/live-insights-test-collection-v10-19.jpg)
+    ![Enable live collection](https://assets.postman.com/postman-docs/v10/live-insights-test-collection-v10-21-2.jpg)
 
 1. In the **Enabling Live** tab, select **Using the Live Collection Agent.**
 
@@ -440,7 +440,7 @@ Creating a live collection activates an **Insights** tab where you can observe e
 
 > This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](mailto:live.insights.alpha@postman.com).
 
-![Insights tab](https://assets.postman.com/postman-docs/v10/live-insights-insights-tab-v10-20-5.jpg)
+![Insights tab](https://assets.postman.com/postman-docs/v10/live-insights-insights-tab-v10-21-3.jpg)
 
 Live Insights returns a list of categories for endpoints with most errors, endpoints with the highest error rate, endpoints with new errors over the last 7 days, and slowest endpoints, selectable from a dropdown list:
 

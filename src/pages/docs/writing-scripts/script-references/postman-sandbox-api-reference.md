@@ -35,6 +35,7 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
         * [Request info](#scripting-with-request-info)
         * [Cookies](#scripting-with-request-cookies)
     * [Sending requests from scripts](#sending-requests-from-scripts)
+    * [Get the path and name of a request](#get-the-path-and-name-of-a-request)
     * [Skip request execution from pre-request scripts](#skip-request-execution-from-pre-request-scripts)
 * [Scripting workflows](#scripting-workflows)
 * [Scripting Postman Visualizations](#scripting-postman-visualizations)
@@ -621,6 +622,26 @@ pm.sendRequest('https://postman-echo.com/get', (error, response) => {
 ```
 
 See the [Request definition](http://www.postmanlabs.com/postman-collection/Request.html#~definition) and [Response structure](http://www.postmanlabs.com/postman-collection/Response.html) reference docs for more detail.
+
+### Get the path and name of a request
+
+The `pm.execution.location` property enables you to get the complete path of a request, including the folder and collection, in array format. For example, for a request named **R1** in folder **F1** in collection **C1**, the following test script code will return `["C1", "F1", "R1"]`:
+
+```js
+console.log(pm.execution.location);
+// Returns the full path of a request in array format, for example:
+// ["C1", "F1", "R1"]
+```
+
+To get the name of the current element, you can use the `pm.execution.location.current` property. For example, if you add the following code to the pre-request script of a folder named **F1**, it will return `F1`:
+
+```js
+console.log(pm.execution.location.current);
+// Returns the name of the current element, for example:
+// F1
+```
+
+You can use the `pm.execution.location` and `pm.execution.location.current` properties in your scripts to understand what items are being executed when a request is sent. This information enables you to implement logic and actions in your scripts tailored to the current location within your API testing or collection structure.
 
 ### Skip request execution from pre-request scripts
 
