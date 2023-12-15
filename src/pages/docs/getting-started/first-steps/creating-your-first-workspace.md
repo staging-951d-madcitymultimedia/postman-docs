@@ -27,9 +27,7 @@ To create a new workspace, do the following:
 
     <img alt="Change workspace or create new" src="https://assets.postman.com/postman-docs/v10/workspace-switcher-v10.1.jpg" width="450px"/>
 
-1. You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
-
-    > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+1. You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#apply-a-template-to-a-workspace) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
 
     <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10-2.jpg"/>
 

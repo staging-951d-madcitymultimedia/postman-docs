@@ -78,7 +78,7 @@ You can add a note and select **Request Access** to submit the request. All Work
 
 Workspace Admins can edit workspace details or change the visibility of a workspace.
 
-> You can use workspace templates to help set up a new workspace. For more information, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+> You can use workspace templates to help set up a new workspace. For more information, see [Apply a template to a workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#apply-a-template-to-a-workspace).
 
 ### Editing workspace details
 

@@ -24,6 +24,7 @@ Examples show your API endpoints in action and give more details on how requests
     * [Adding a custom example](#adding-a-custom-example)
 * [Trying an example](#trying-an-example)
 * [Editing an example](#editing-an-example)
+* [Sharing an example](#sharing-an-example)
 * [Adding comments to an example](#adding-comments-to-an-example)
 * [Duplicating an example](#duplicating-an-example)
 * [Deleting an example](#deleting-an-example)
@@ -135,13 +136,21 @@ To edit an example after trying it, do the following:
 
     <img alt="Save request" src="https://assets.postman.com/postman-docs/v10/sending-example-response-save-request-v10-2.jpg" width="450px">
 
+## Sharing an example
+
+You can share examples with collaborators by going to the example you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the example you want to share, then select **Share**.
+
+<img alt="Share example" src="https://assets.postman.com/postman-docs/v10/share-request-v10-21.jpg"/>
+
+For more details about sharing examples, see [Share your work in Postman](/docs/collaborating-in-postman/sharing/).
+
 ## Adding comments to an example
 
 1. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar and enter your comment.
 1. (Optional) Select the **Watch collection** checkbox to be notified when there are changes to the collection that the example is in.
 1. Select **Comment** to add your comment.
 
-> You can learn more about [using comments to collaborate on examples](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
+You can learn more about [using comments to collaborate on examples](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
 
 ## Duplicating an example
 
