@@ -1568,6 +1568,10 @@ export const leftNavItems = [
         url: '/docs/reports/api-gov-reports/',
       },
       {
+        name: 'Public workspace metrics report',
+        url: '/docs/reports/public-workspace-metrics-reports/',
+      },
+      {
         name: 'Billing overview report',
         url: '/docs/reports/billing-overview-reports/',
       },
