@@ -1,6 +1,6 @@
 ---
 title: "Integrate Postman with third-party solutions"
-updated: 2022-12-05
+updated: 2023-12-15
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
@@ -15,7 +15,15 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-You can connect Postman to your API workflows with integrations for popular third-party solutions. Use integrations to automatically share data between Postman and the other tools you rely on for API development. Sync your collections and API definitions to a source control repository. Send monitor alerts to your monitoring service or team messaging app. Or view your continuous integration (CI) builds from within Postman.
+You can connect Postman to your API workflows with integrations for popular third-party solutions. Integrations enable you to automatically share data between Postman and the other tools you rely on for API development, such as GitHub, Slack, CircleCI, Amazon API Gateway, and more.
+
+You can use Postman integrations to do the following:
+
+* Sync your collections and API definitions to a source control repository.
+* Send monitor alerts to your monitoring service or team messaging app.
+* View your continuous integration (CI) builds from within Postman.
+* Deploy your API to an API gateway such as [Amazon API Gateway](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/), [Apigee X](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/), or [Azure API Management](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/).
+* View APM metrics in Postman.
 
 > **The maximum number of integrations you can use is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
 
