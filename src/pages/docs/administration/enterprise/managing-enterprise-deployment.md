@@ -126,10 +126,10 @@ msiexec /i path\to\package.msi /l*v C:\log.txt
 
 Settings can be changed during an MSI application installation.
 
-For example, you can set the `team-ids` installation option to specify which Postman teams can use the Enterprise app:
+For example, you can set the `TEAM_IDS` installation option to specify which Postman teams can use the Enterprise app:
 
 ``` shell
-msiexec /i path\to\package.msi team-ids='1234'
+msiexec /i path\to\package.msi TEAM_IDS='1234'
 ```
 
 You can also install an MSI with multiple installation options:
@@ -226,13 +226,13 @@ pkgutil --volume "$HOME" --forget <the bundle id>
 
 Settings can be changed at installation time using the macOS `defaults` tool either before or after installing the PKG.
 
-For example, you can set the `team-ids` installation option to specify which Postman teams can use the Enterprise app:
+For example, you can set the `TEAM_IDS` installation option to specify which Postman teams can use the Enterprise app:
 
 ``` shell
 # For system-wide PKGs
-sudo defaults write /Library/Preferences/<the bundle id> team-ids -integer 1234
+sudo defaults write /Library/Preferences/<the bundle id> TEAM_IDS -integer 1234
 # For per-user PKGs
-defaults write <the bundle id> team-ids -integer 1234
+defaults write <the bundle id> TEAM_IDS -integer 1234
 ```
 
 Installing a PKG and updating some of its installation options looks like this:
@@ -290,10 +290,10 @@ sudo snap remove postman-enterprise
 
 ## Login policy
 
-You can specify which Postman teams can use the app with the `team-ids` option. For example, in Linux, if you want teams with IDs `1234` and `4321` to have access:
+You can specify which Postman teams can use the app with the `TEAM_IDS` option. For example, in Linux, if you want teams with IDs `1234` and `4321` to have access:
 
 ``` shell
-sudo snap set postman-enterprise team-ids="1234, 4321"
+sudo snap set postman-enterprise TEAM_IDS="1234, 4321"
 ```
 
 > To get your Postman team ID, you can [contact Postman support](https://www.postman.com/support/) or contact your Postman Account Manager.
