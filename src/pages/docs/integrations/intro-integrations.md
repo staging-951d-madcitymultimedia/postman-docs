@@ -1,6 +1,6 @@
 ---
 title: "Integrate Postman with third-party solutions"
-updated: 2023-12-15
+updated: 2023-12-18
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
@@ -15,15 +15,15 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-You can connect Postman to your API workflows with integrations for popular third-party solutions. Integrations enable you to automatically share data between Postman and the other tools you rely on for API development, such as GitHub, Slack, CircleCI, Amazon API Gateway, and more.
+You can connect Postman to your API workflows with integrations for popular third-party solutions. Integrations enable you to automatically share data between Postman and the other tools you rely on for API development, such as GitHub, Slack, CircleCI, Amazon API Gateway, and New Relic.
 
 You can use Postman integrations to do the following:
 
 * Sync your collections and API definitions to a source control repository.
 * Send monitor alerts to your monitoring service or team messaging app.
 * View your continuous integration (CI) builds from within Postman.
-* Deploy your API to an API gateway such as [Amazon API Gateway](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/), [Apigee X](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/), or [Azure API Management](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/).
-* View APM metrics in Postman.
+* Manage API deployments to an API gateway.
+* View application performance management (APM) metrics in Postman.
 
 > **The maximum number of integrations you can use is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
 
@@ -44,6 +44,8 @@ To view available integrations, select **Integrations** on the Postman **[Home](
 Each integration's page explains how to use the integration and what it can do. Depending on the tool or service you're integrating with, more than one integration may be available. Select **Add Integration** next to the integration you want to add. Enter your account authorization details and any other required information to complete the setup process.
 
 ![Add an integration](https://assets.postman.com/postman-docs/v10/integrations-add-v10.jpg)
+
+> For a list of all third-party solutions you can integrate with Postman, go to Available Integrations.
 
 ## Viewing or editing integrations
 
@@ -69,8 +71,8 @@ Learn more about [adding and using installed apps in integrations](/docs/integra
 
 You must allowlist a static IP address to enable integrations and custom webhooks that access hosted (private) networks. Static IP support is available for the following integrations:
 
-* [GitHub custom domain backup](/docs/integrations/available-integrations/github/#backup-collections-to-github-on-custom-domain)
-* [GitLab custom domain backup](/docs/integrations/available-integrations/gitlab/#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
+* [GitHub custom domain backup](/docs/integrations/available-integrations/github/#backing-up-collections-to-github-enterprise-server)
+* [GitLab custom domain backup](/docs/integrations/available-integrations/gitlab/#back-up-your-postman-collections-to-gitlab-on-a-custom-domain)
 * [Custom webhooks](/docs/integrations/webhooks/)
 
 Contact your IT team to allowlist the following static IP in your firewall:
@@ -83,6 +85,6 @@ Once you allowlist this IP address, collection backup integrations and custom we
 
 ## CI integrations
 
-Postman integrates with some of the most widely-used continuous integration and continuous delivery (CI/CD) tools. After you set up a CI integration for your API, you can view the status of builds or start a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
+Postman integrates with some of the most widely used continuous integration and continuous delivery (CI/CD) tools. After you set up a CI integration for your API, you can view the status of builds or start a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
 
-To learn more about how CI integrations work, and for detailed configuration steps, see [CI integrations](/docs/integrations/ci-integrations/).
+To learn more about how CI integrations work, and for detailed configuration steps, go to [CI integrations](/docs/integrations/ci-integrations/).
