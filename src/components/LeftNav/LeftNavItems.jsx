@@ -1659,8 +1659,12 @@ export const leftNavItems = [
       {
         name: 'Postman integrations',
         subParentSlug: 'available-integrations',
-        slug: '/docs/integrations/available-integrations/apimatic/',
+        slug: '/docs/integrations/available-integrations/postman-integrations/',
         subMenuItems2: [
+          {
+            name: 'All integrations',
+            url: '/docs/integrations/available-integrations/postman-integrations/',
+          },
           {
             name: 'APIMatic',
             url: '/docs/integrations/available-integrations/apimatic/',

@@ -29,13 +29,13 @@ You can use Postman integrations to do the following:
 
 ## Contents
 
-* [Adding integrations](#adding-integrations)
-* [Viewing or editing integrations](#viewing-or-editing-integrations)
+* [Add integrations](#add-integrations)
+* [View or edit integrations](#view-or-edit-integrations)
 * [Installed apps](#installed-apps)
 * [Static IP support](#static-ip-support)
 * [CI integrations](#ci-integrations)
 
-## Adding integrations
+## Add integrations
 
 To view available integrations, select **Integrations** on the Postman **[Home](http://go.postman.co/)** page, then select **Browse All Integrations**. On the **[Browse Integrations](https://go.postman.co/integrations/browse)** page, search and select the tool or service you want to integrate with.
 
@@ -45,9 +45,9 @@ Each integration's page explains how to use the integration and what it can do. 
 
 ![Add an integration](https://assets.postman.com/postman-docs/v10/integrations-add-v10.jpg)
 
-> For a list of all third-party solutions you can integrate with Postman, go to Available Integrations.
+> For a list of all third-party solutions you can integrate with Postman, go to [Available Postman integrations](/docs/integrations/available-integrations/postman-integrations).
 
-## Viewing or editing integrations
+## View or edit integrations
 
 You can view the integrations that have been configured for your team from the **[Browse Integrations](https://go.postman.co/integrations/browse)** page. Search and select the tool or service you want to view integrations for. Select **View** or **View All** next to an integration to view any integrations that have already been configured.
 

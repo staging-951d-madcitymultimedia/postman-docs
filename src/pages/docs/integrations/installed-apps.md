@@ -94,7 +94,7 @@ Any team member can use an installed app when adding a [supported integration](#
 
 If an installed app is deleted, any integrations you added using the installed app will stop working. You must re-authenticate the affected integrations for them to continue working.
 
-* **Slack** - [Edit the Slack integration](/docs/integrations/intro-integrations/#viewing-or-editing-integrations) and select **Reauthenticate**. A browser tab opens asking you to sign in to Slack. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman. Select **Save Changes**.
+* **Slack** - [Edit the Slack integration](/docs/integrations/intro-integrations/#view-or-edit-integrations) and select **Reauthenticate**. A browser tab opens asking you to sign in to Slack. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman. Select **Save Changes**.
 * **GitHub Enterprise Server or GitLab Self-Managed** - Add the installed app again. For details, go to [Connecting an API using an installed app](/docs/designing-and-developing-your-api/versioning-an-api/using-on-prem-git-repo/#connecting-an-api-using-an-installed-app).
 
 <img alt="Re-authenticating an integration" src="https://assets.postman.com/postman-docs/installed-apps-reauthorize-v9-24.jpg" width="530px">
