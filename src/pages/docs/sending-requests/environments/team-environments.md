@@ -144,6 +144,8 @@ If the initial value includes sensitive data, you can mask the value by selectin
 
 A variable's current value is used when sending requests in your local instance of Postman and is never synced to your Postman account or shared with your team. This means it's safe to use the current value for sensitive data such as API keys, passwords, or tokens. Keep in mind that if you [persist a variable](/docs/sending-requests/environments/environment-variables/#persist-environment-variables), the initial value is set to the current value. The value is then shared with anyone who can access the environment.
 
+> You can also [use your Postman vault to store secrets](/docs/sending-requests/postman-vault-variables/) locally as variables. Secret variables are locally available to reuse in all of your workspaces in your Postman team, and aren't synced to the Postman cloud. This enables you to store and reuse sensitive data while using Postman.
+
 ## Fork an environment
 
 You can fork an environment to make changes to it without impacting the parent environment. You can also use a fork to contribute to an environment without having Editor access.

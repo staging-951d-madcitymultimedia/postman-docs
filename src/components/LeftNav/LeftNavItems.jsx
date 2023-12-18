@@ -301,6 +301,10 @@ export const leftNavItems = [
         url: '/docs/sending-requests/variables/',
       },
       {
+        name: 'Store secret variables in Postman vault',
+        url: '/docs/sending-requests/postman-vault-variables/',
+      },
+      {
         name: 'Group values in environments',
         subParentSlug: 'environments',
         slug: '/docs/sending-requests/environments/managing-environments/',
