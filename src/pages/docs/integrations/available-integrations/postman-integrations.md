@@ -18,18 +18,54 @@ With [Postman integrations](/docs/integrations/intro-integrations/), you can con
 
 ## Contents
 
-* [Sync collections and APIs to source control](#sync-collections-and-apis-to-source-control)
-* [Send monitor alerts and metrics](#send-monitor-alerts-and-metrics)
-* [View continuous integration (CI) builds](#view-continuous-integration-ci-builds)
-* [Manage API gateway deployments](#manage-api-gateway-deployments)
-* [View application performance metrics](#view-application-performance-metrics)
+* [Backup and source control](#backup-and-source-control)
+* [Monitoring and alerts](#monitoring-and-alerts)
+* [Continuous integration (CI)](#continuous-integration-ci)
+* [API gateways](#api-gateways)
+* [Application performance management (APM)](#application-performance-management-apm)
 
-## Sync collections and APIs to source control
+## Backup and source control
 
-## Send monitor alerts and metrics
+Use the following integrations to backup your collections or connect your API in Postman to a source code repository:
 
-## View continuous integration (CI) builds
+* Azure DevOps
+* Bitbucket
+* Dropbox
+* GitHub
+* GitLab
+* OpenAPI
 
-## Manage API gateway deployments
+## Monitoring and alerts
 
-## View application performance metrics
+BigPanda
+Coralogix
+Keen
+Microsoft Power Automate
+Microsoft Teams
+Opsgenie
+PagerDuty
+Slack
+Splunk
+Splunk On-Call
+Statuspage
+
+## Continuous integration (CI)
+
+Azure Pipelines
+Bitbucket Pipelines
+CircleCI
+GitHub Actions
+GitLab CI/CD
+Jenkins
+Travis CI
+
+## API gateways
+
+Apigee
+AWS API Gateway
+Azure API Management
+
+## Application performance management (APM)
+
+Datadog
+New Relic
