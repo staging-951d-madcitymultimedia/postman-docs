@@ -1,6 +1,6 @@
 ---
 title: "Integrate Postman with third-party solutions"
-updated: 2023-12-18
+updated: 2023-12-19
 search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
@@ -25,7 +25,7 @@ You can use Postman integrations to do the following:
 * Manage API deployments to an API gateway.
 * View application performance management (APM) metrics in Postman.
 
-> **The maximum number of integrations you can use is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
+For a list of all third-party solutions you can integrate with Postman, go to [Available Postman integrations](/docs/integrations/available-integrations/postman-integrations).
 
 ## Contents
 
@@ -37,6 +37,8 @@ You can use Postman integrations to do the following:
 
 ## Add integrations
 
+> **The maximum number of integrations you can use is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
+
 To view available integrations, select **Integrations** on the Postman **[Home](http://go.postman.co/)** page, then select **Browse All Integrations**. On the **[Browse Integrations](https://go.postman.co/integrations/browse)** page, search and select the tool or service you want to integrate with.
 
 ![Browse all integrations](https://assets.postman.com/postman-docs/v10/integrations-browse-all-v10.jpg)
@@ -44,8 +46,6 @@ To view available integrations, select **Integrations** on the Postman **[Home](
 Each integration's page explains how to use the integration and what it can do. Depending on the tool or service you're integrating with, more than one integration may be available. Select **Add Integration** next to the integration you want to add. Enter your account authorization details and any other required information to complete the setup process.
 
 ![Add an integration](https://assets.postman.com/postman-docs/v10/integrations-add-v10.jpg)
-
-> For a list of all third-party solutions you can integrate with Postman, go to [Available Postman integrations](/docs/integrations/available-integrations/postman-integrations).
 
 ## View or edit integrations
 
