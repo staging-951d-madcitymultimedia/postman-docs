@@ -111,7 +111,7 @@ The [User API](https://www.postman.com/postman/workspace/postman-public-workspac
 
 #### Workspace roles
 
-With the [Workspace Roles API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-0ad661ea-2ba2-47f8-929c-044ddaa0ef6a) you can manage user and user group permissions within a specific workspace. You can use these endpoints to help you with onboarding or offboarding, automating role-based workflows, as well as simplifying compliance and auditing processes by ensuring the right team members have access to sensitive information.
+With the [Workspace Roles API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-0ad661ea-2ba2-47f8-929c-044ddaa0ef6a) you can manage user and user group permissions within a specific workspace. You can use these endpoints to help you with onboarding or offboarding, automating role-based workflows, and simplifying compliance and auditing processes by ensuring the right team members have access to sensitive information.
 
 ### Billing
 
