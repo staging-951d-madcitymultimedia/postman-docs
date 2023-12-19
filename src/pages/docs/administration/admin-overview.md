@@ -32,7 +32,7 @@ If you're setting up a new Postman team, you can check out Postman's [onboarding
 
 You can [invite and manage collaborators](/docs/administration/managing-your-team/managing-your-team/#managing-team-members) in your Postman team, which includes updating roles assigned to collaborators. You can also [adjust your team's Postman plan](/docs/administration/managing-your-team/managing-your-team/#managing-your-teams-postman-plan) as needed.
 
-You can [configure your team settings](/docs/administration/managing-your-team/team-settings/) to further customize the experience for both your Postman team and your API's consumers. This includes team discoverability, your team's public profile, and authentication methods.
+You can [configure your team settings](/docs/administration/managing-your-team/team-settings/) to further customize the experience for both your Postman team and your API's consumers. This includes managing your team's public profile and making your team discoverable.
 
 If you're setting up an [Enterprise team](https://www.postman.com/pricing), you can learn more about the extra features available to you with [Postman Enterprise plans](/docs/administration/enterprise/about-postman-enterprise/). Enterprise features include advanced identity management, reports, a Private API Network, API governance and security controls, and features that enhance collaboration and administrative customization.
 
