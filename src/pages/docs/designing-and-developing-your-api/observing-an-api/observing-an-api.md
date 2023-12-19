@@ -85,7 +85,7 @@ Connect Postman to one or more monitoring integrations to send collection-based 
 1. Select **API Performance**.
 1. Under **Connect Postman to your monitoring workflows**, select a monitor integration.
 1. Enter a **Nickname** for the integration and choose a monitor. Postman will send the results of this monitor to the application you're integrating with.
-1. Finish entering the requested information. This information varies depending on the application you're integrating with, and typically includes an API key. For more help with a specific application, see [Integrating with Postman](/docs/integrations/intro-integrations/) and select [Available integrations](/docs/integrations/available-integrations/apimatic/) in the left navigation pane.
+1. Finish entering the requested information. This information varies depending on the application you're integrating with, and typically includes an API key. For more help with a specific application, go to [Available Postman integrations](/docs/integrations/available-integrations/postman-integrations/) and select an integration.
 1. Select **Add integration**.
 
 > You can configure multiple integrations for a collection-based monitor, or even have more than one instance of the same integration. For example, you can configure two Slack integrations for a monitor that send the monitor's results to two different Slack channels.
