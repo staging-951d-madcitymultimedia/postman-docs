@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-With [Postman integrations](/docs/integrations/intro-integrations/), you can connect the tools you rely on for API development to Postman. Sync your collections and APIs to a source code repository, send alerts to your team messaging app, and view API build and deployment information from within Postman.
+With [Postman integrations](/docs/integrations/intro-integrations/), you can connect Postman to the tools you use in your API development workflow. Sync your collections and APIs to a source code repository, send alerts to your team messaging app, view API build and deployment information in Postman, and more.
 
 ## Contents
 
@@ -26,7 +26,7 @@ With [Postman integrations](/docs/integrations/intro-integrations/), you can con
 
 ## Backup and source control
 
-Use the following integrations to backup your collections or connect your API in Postman to a source code repository:
+Use the following integrations to backup your Postman Collections or connect your API to a source code repository:
 
 * Azure DevOps
 * Bitbucket
@@ -37,35 +37,43 @@ Use the following integrations to backup your collections or connect your API in
 
 ## Monitoring and alerts
 
-BigPanda
-Coralogix
-Keen
-Microsoft Power Automate
-Microsoft Teams
-Opsgenie
-PagerDuty
-Slack
-Splunk
-Splunk On-Call
-Statuspage
+Use the following integrations to send Postman Monitor alerts to your monitoring service or your team messaging app:
+
+* BigPanda
+* Coralogix
+* Keen
+* Microsoft Power Automate
+* Microsoft Teams
+* Opsgenie
+* PagerDuty
+* Slack
+* Splunk
+* Splunk On-Call
+* Statuspage
 
 ## Continuous integration (CI)
 
-Azure Pipelines
-Bitbucket Pipelines
-CircleCI
-GitHub Actions
-GitLab CI/CD
-Jenkins
-Travis CI
+Use the following integrations to view and run continuous integration (CI) builds from within Postman:
+
+* Azure Pipelines
+* Bitbucket Pipelines
+* CircleCI
+* GitHub Actions
+* GitLab CI/CD
+* Jenkins
+* Travis CI
 
 ## API gateways
 
-Apigee
-AWS API Gateway
-Azure API Management
+Use the following integrations to view and manage API deployments to an API gateway:
+
+* Apigee
+* AWS API Gateway
+* Azure API Management
 
 ## Application performance management (APM)
 
-Datadog
-New Relic
+Use the following integrations to view application performance management (APM) metrics in Postman:
+
+* Datadog
+* New Relic

@@ -21,7 +21,7 @@ You can use Postman integrations to do the following:
 
 * Sync your collections and API definitions to a source control repository.
 * Send monitor alerts to your monitoring service or team messaging app.
-* View your continuous integration (CI) builds from within Postman.
+* View and run continuous integration (CI) builds from within Postman.
 * Manage API deployments to an API gateway.
 * View application performance management (APM) metrics in Postman.
 
