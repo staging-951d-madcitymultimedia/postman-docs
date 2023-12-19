@@ -231,11 +231,15 @@ Update the number of Flow Editor seats, monitoring blocks, mock server blocks, a
 
 ### Purchasing add-on products
 
-You can purchase Flow Editor and Postbot seats by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit plan** on the right.
+> The Postbot add-on is currently available for Free, Basic and Professional plans.
+
+If you are on a Basic or Professional plan, you can purchase Flow Editor and Postbot seats by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit plan** on the right.
 
 Select **Modify Plan** under the plan type for your team. Update the number of Flow Editor and Postbot seats in the **Add-on products** section, then select **Next**. Select **Confirm Changes** to purchase more seats.
 
 You can manage which team members consume Postbot seats from the [product access dashboard](https://go.postman.co/settings/team/products-access). Learn how to [manage your team's access to Postbot](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-access-to-postbot).
+
+If you are a Free plan user, you can purchase Postbot seats by selecting **Upgrade** in the Postman header and navigating to the bundle section to add Postbot. Update the number of Postbot seats and select from Annual or Monthly payment options, then select **Next**. Enter your billing information and payment method, then select **Confirm**.
 
 ### Manage Enterprise solutions licenses
 
@@ -292,6 +296,8 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 To cancel your Postman plan, select **Cancel plan** at the bottom of your [billing dashboard](http://go.postman.co/billing).
 
 If you have canceled your Postman plan and want to reverse this action, select **Undo cancellation** next to the cancellation notice on your [billing dashboard](http://go.postman.co/billing).
+
+If you are on a Free plan with Postbot subscription and want to cancel your Postbot subscription, select **Remove add-on** at the bottom of [billing dashboard](http://go.postman.co/billing).
 
 ## Next steps
 

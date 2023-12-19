@@ -75,7 +75,14 @@ To change the name of an API, select **APIs** in the sidebar. Select the more ac
 
 ## Deleting an API
 
+> You must have the [Admin role for an API](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) or the [Workspace Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to delete an API.
+
 1. Select **APIs** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Delete**.
 
-> When you delete an API, any API definitions or collections contained in the API are deleted with it. Configured integrations are also deleted.
+When you delete an API, the following items are deleted with it:
+
+* API definitions or collections contained in the API
+* Published API versions (including versions published to the Private API Network)
+* The Private API Network listing for the API
+* Integrations configured for the API

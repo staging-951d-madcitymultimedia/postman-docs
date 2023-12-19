@@ -34,7 +34,7 @@ cURL is a popular command-line tool for making HTTP requests. When testing a web
 1. Select **Import** in the sidebar.
 1. Paste your cURL command into the box at the top. Postman creates and opens a request automatically.
 
-![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-17.jpg)
+![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-20.jpg)
 
 > You can also paste cURL commands into a request's URL box.
 

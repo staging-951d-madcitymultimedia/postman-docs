@@ -40,7 +40,7 @@ The first step is to [fork](/docs/collaborating-in-postman/using-version-control
 
 The collections contain the requests that will get all the customer profiles from the Stripe API in a single response, divide the response into pages, and post the profiles to the Brevo API as contacts. The collections and the environment also contain variables used by the requests.
 
-<img alt="Fork the collections and environment" src="https://assets.postman.com/postman-docs/v10/flows-tut-system-fork-v10.gif" fetchpriority="low" loading="lazy"/>
+<img alt="Fork the collections" src="https://assets.postman.com/postman-docs/v10/flows-tut-system-fork-v10-1.gif" fetchpriority="low" loading="lazy"/>
 
 Create a new Flow and add a **Send Request** block, then add a GET request by selecting **Select a request > Stripe API > Customers > List all customers**. Select **Add environment > Stripe + Brevo**. The **Send Request** block shows three variables, provided by the GET request. The `baseUrl` and `stripe_secret_key` variables are populated automatically from values stored in the request’s collection and environment. You can hover over them to see their values and scope. For the `limit` variable, enter `5` to specify how many contacts to include in each page of results. This tutorial uses 15 contacts, so a limit of 5 will send three pages of results.
 

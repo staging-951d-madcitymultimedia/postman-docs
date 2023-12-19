@@ -59,7 +59,7 @@ You can import data from a remote GitHub, Bitbucket, GitLab, or Azure DevOps rep
 
 1. In Postman, select **Import** in the sidebar.
 
-1. Select the type of repository you want to import from. You can select **GitHub**, or select **Other Sources** and select **Bitbucket**, **GitLab**, or **Azure**.
+1. Select the type of repository you want to import from. Select **Other Sources** and then select **GitHub**, **Bitbucket**, **GitLab**, or **Azure**.
 
 1. A browser tab opens asking you to sign in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 

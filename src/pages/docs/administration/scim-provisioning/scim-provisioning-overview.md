@@ -1,9 +1,6 @@
 ---
 title: "SCIM provisioning overview"
-order: 142
-updated: 2022-03-02
-page_id: "scim_provisioning_overview"
-warning: false
+updated: 2023-12-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -46,7 +43,7 @@ You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-
 
 Postman supports the following provisioning features:
 
-* **Create user** - Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user. If an account with the same email ID exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
+* **Create user** - Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user if their email ID isn't attached to an existing Postman account. If a Postman account with the same email ID exists and it's associated with a domain your team has [verified](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/), the user will be automatically added to your team. If a Postman account with the same email ID exists and it's not associated with a verified domain, an email invite to join your Postman team is sent to the user. Once the user accepts the invite, they'll be added to your team.
 
     > The newly added user will have the Developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 

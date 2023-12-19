@@ -84,7 +84,7 @@ This integration supports importing OpenAPI 3.0 definitions for both HTTP and RE
 
 To import an API from AWS API Gateway, do the following:
 
-1. Select **Import** in the sidebar, then select **AWS API Gateway**.
+1. Select **Import** in the sidebar, then select **Other Sources > AWS API Gateway**.
 1. Connect to the AWS API Gateway as follows.
 
 When importing an API from AWS API Gateway, you can choose to authenticate by creating an AWS IAM role or by using an AWS access key. Follow the steps for your chosen method:

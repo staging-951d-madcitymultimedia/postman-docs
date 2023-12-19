@@ -54,11 +54,11 @@ For the final step, run the command you created in the first step in the Slack c
 
 To make your own Slack app from scratch with Postman Flows, follow the same steps as [Connect a Flow to a Slack app](#connect-a-flow-to-a-slack-app). This time, name the app **Stock App**, make the **stock-quote** command, and use the URL of the new Flow you're going to make.
 
-<img src="https://assets.postman.com/postman-docs/v10/new-slack-request-url-v10-1.gif" alt="New Slack command" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-docs/v10/new-slack-request-url-v10-2.gif" alt="New Slack command" fetchpriority="low" loading="lazy" />
 
 Next, fork (which means copy in this case) the collection found [here](https://www.postman.com/postman/workspace/slack-integration-flows/collection/23919558-0fc87fc5-de53-4c48-b30f-362a1a7ceba3?action=share&creator=23919558) and the environment found [here](https://www.postman.com/postman/workspace/slack-integration-flows/environment/23919558-144c823d-9dcf-42ff-b85b-66e8e1d41e2a). These contain the saved requests and variables you're going to use in this Flow.
 
-<img src="https://assets.postman.com/postman-labs-docs/cloud-execution/fork-collection-and-environment.gif" alt="Fork collection and environment" fetchpriority="low" loading="lazy" />
+<img src="https://assets.postman.com/postman-docs/v10/flows-fork-collection-v10-20.gif" alt="Fork collection" fetchpriority="low" loading="lazy" />
 
 In the environment you forked, paste your Polygon.io API key where it says **YOUR_API_KEY_HERE**. You're ready to start building the Flow.
 

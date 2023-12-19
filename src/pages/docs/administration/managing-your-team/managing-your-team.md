@@ -183,15 +183,13 @@ For information on how to remove an external user from a team or collection, see
 
 > **[Workspace management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-A _team workspace_ is a type of workspace that enables you to share projects with collaborators and manage access to them within your team. You can limit or prohibit creation of new team workspaces by users on your team.
+A _team workspace_ is a type of workspace that enables you to share projects with collaborators and manage access to them within your team. [Super Admins and Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can limit or prohibit creation of new team workspaces by users on your team.
 
-You can specify users and [groups](/docs/collaborating-in-postman/user-groups/) who have permission to [create team workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in your team. [Super Admins and Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create team workspaces whether you specify users and groups or not.
+You can specify users and [groups](/docs/collaborating-in-postman/user-groups/) who have permission to [create team workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in your team. Super Admins and Team Admins can create team workspaces whether you specify users and groups or not.
 
 If you specify users and groups, all other team members will require approval to create team workspaces by a Super Admin, Team Admin, or user with permission to create team workspaces. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until the request is approved.
 
 If you give all team members permission to create team workspaces, team members won't need approval to create team workspaces. This won't give users assigned the Partner or Guest role permission to create team workspaces.
-
-> To request workspace management for your team, contact your Postman Account Manager.
 
 To specify users or groups who can create team workspaces, do the following:
 
@@ -270,8 +268,8 @@ You can add team members to the [Internal API Management solution](https://www.p
 When you add team members to the Internal API Management solution:
 
 * You can then assign them the [API Network Manager and API Governance Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) roles. Learn more about [managing team roles](#managing-team-roles).
-* All team members get access to the Private API Network.
-* Only team members added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs. Team members not added to this solution will only have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
+* Only the team members added to this solution can publish or request to publish changes to the Private API Network, while the rest of the team can consume and read from the network.
+* Only the team members added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs. Team members not added to this solution only have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
 
     > If team members are assigned the API Editor role in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) and you add at least one team member to the Internal API Management solution, team members not added to this solution will no longer be assigned the API Editor role. They'll only be assigned the API Viewer role.
 
