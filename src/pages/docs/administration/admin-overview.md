@@ -1,6 +1,6 @@
 ---
 title: "Administration overview"
-updated: 2023-10-27
+updated: 2023-12-19
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -20,7 +20,7 @@ Postman has a variety of tools you can use to set up, manage, and secure your Po
 
 You must be a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to set up, manage, and secure your Postman team.
 
-If you're setting up a new Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to walk you through setting up your team for success.
+If you're setting up a new Postman team, you can check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to walk you through setting up your team.
 
 ## Contents
 
@@ -39,9 +39,6 @@ If you're setting up an [Enterprise team](https://www.postman.com/pricing), you 
 ## Secure your Postman team
 
 Depending on your [plan](https://www.postman.com/pricing), you can secure your Postman team's users by setting up [SSO](/docs/administration/sso/intro-sso/), [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), and [domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). You can also [manage your team's API keys](/docs/administration/managing-your-team/managing-api-keys/), [use the Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) to detect exposed secrets, and [access your team's audit logs](/docs/administration/managing-your-team/audit-logs/).
-
-> The Secret Scanner is available on all Postman plans. You can [upgrade your plan](/docs/administration/managing-your-team/managing-your-team/#upgrading-your-plan) to monitor more types of workspaces.
-<!-- Note is TBD -->
 
 ## Admin FAQs
 
