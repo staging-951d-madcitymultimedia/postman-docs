@@ -54,7 +54,7 @@ You can add JavaScript code to execute during two events in the flow:
 
 Postman will prompt you with suggestions as you enter text. Select one to autocomplete your code.
 
-![Script autocomplete](https://assets.postman.com/postman-docs/v10/autocomplete-v10-21-1.gif)
+![Script autocomplete](https://assets.postman.com/postman-docs/v10/autocomplete-v10-21-3.gif)
 
 You can add pre-request and test scripts to a collection, a folder, a request within a collection, or a request not saved to a collection.
 
