@@ -35,9 +35,9 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/aa5fb3b8-0090-4b5e-b3b4-fa5c1f2d080d"
 ---
 
-Postman's runtime is based on Node.js and lets you add dynamic behavior to requests and collections. You can use pre-request and test scripts to write API tests, build requests that can contain dynamic parameters, pass data between requests, and more.
+Postman's runtime is based on [Node.js](https://nodejs.org/en/about) and lets you add dynamic behavior to requests and collections. You can use pre-request and test scripts to write API tests, build requests that can contain dynamic parameters, pass data between requests, and more.
 
-Pre-request and test scripts execute asynchronously. This enables you to execute multiple scripts without waiting for the previous one to complete. If you'd like scripts to execute in sequence, you can use a callback function.
+Pre-request and test scripts execute asynchronously. This enables you to execute multiple scripts without waiting for the previous script to complete. If you'd like scripts to execute in sequence, you can use a callback function.
 
 ## Contents
 
