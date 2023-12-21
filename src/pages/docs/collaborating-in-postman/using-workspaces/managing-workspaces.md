@@ -16,6 +16,11 @@ contextual_links:
     name: "Consuming REST APIs | Postman Enterprise"
     url: "https://youtu.be/oI-GyWB_6jA"
   - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "The ultimate guide to setting up team workspaces"
+    url: "https://blog.postman.com/the-ultimate-guide-to-setting-up-team-workspaces/"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "PayPal uses workspaces for private views"

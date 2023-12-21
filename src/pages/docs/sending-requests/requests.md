@@ -18,8 +18,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "What are HTTP headers?"
-    url: "https://blog.postman.com/what-are-http-headers/"
+    name: "Introducing file storage for tests and requests"
+    url: "https://blog.postman.com/introducing-file-storage-for-tests-and-requests/"
   - type: subtitle
     name: "Public workspaces"
   - type: link
