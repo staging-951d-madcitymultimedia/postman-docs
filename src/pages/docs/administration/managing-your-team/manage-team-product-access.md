@@ -82,8 +82,8 @@ You can add team members to the [Internal API Management solution](https://www.p
 When you add team members to the Internal API Management solution:
 
 * You can then assign them the [API Network Manager and API Governance Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) roles. Learn more about [managing team roles](#managing-team-roles).
-* All team members get access to the Private API Network.
-* Only team members added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs. Team members not added to this solution will only have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
+* Only the team members added to this solution can publish or request to publish changes to the Private API Network, while the rest of the team can consume and read from the network.
+* Only the team members added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs. Team members not added to this solution only have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
 
     > If team members are assigned the API Editor role in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) and you add at least one team member to the Internal API Management solution, team members not added to this solution will no longer be assigned the API Editor role. They'll only be assigned the API Viewer role.
 
