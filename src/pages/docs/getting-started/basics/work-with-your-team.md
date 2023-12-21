@@ -46,7 +46,7 @@ Teams have _team workspaces_, which are shared workspaces where your team can wo
 * [Move elements into a team workspace](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces) to share them with your team.
 * [Watch team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#watching-team-workspaces) to be notified when teammates make changes.
 * [Add comments](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) to discuss work with your team.
-* [Share your work](https://learning.postman.com/docs/collaborating-in-postman/sharing/) with collaborators or external users.
+* [Share your work](/docs/collaborating-in-postman/sharing/) with collaborators or external users.
 
 By default, team workspaces are visible to everyone in your company or organization who uses Postman. You can use [private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-private-workspaces) and [user groups](/docs/collaborating-in-postman/user-groups/) to control who can view or make changes in a workspace.
 

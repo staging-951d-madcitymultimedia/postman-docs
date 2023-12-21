@@ -62,8 +62,8 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Community Manager** ([Professional and Enterprise plans only](https://www.postman.com/pricing)) - Manages the public visibility of workspaces and team profile.
 * **Partner Manager** (Internal, [Enterprise Ultimate plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner team and Partner Workspace roles](#partner-team-and-partner-workspace-roles).
 * **Partner** (External, [Enterprise Ultimate plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner team and Partner Workspace roles](#partner-team-and-partner-workspace-roles).
-* **Guest** (External) - Views collections and sends requests in collections that have been shared with them. This role can't be directly assigned to a user. To learn more, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
-* **Flow Editor** ([Basic and Professional plans only](https://www.postman.com/pricing/#postman-flows-access-and-pricing)) - Can create, edit, and deploy [Postman Flows](/docs/postman-flows/gs/flows-overview/).
+* **Guest** (External, [Free, Basic, and Professional plans only](https://www.postman.com/pricing/#postman-flows-access-and-pricing)) - Views collections and sends requests in collections that have been shared with them. This role can't be directly assigned to a user. To learn more, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
+* **Flow Editor** ([Basic and Professional plans only](https://www.postman.com/pricing/#postman-flows-access-and-pricing)) - Can create, edit, run, and publish [Postman Flows](/docs/postman-flows/gs/flows-overview/).
 
 > If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/collaborating-in-postman/user-groups/).
 
@@ -117,6 +117,8 @@ You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-worksp
 
 Partners have different permissions for Workspace Editor and Viewer roles in Partner Workspaces ([Enterprise Ultimate plans only](https://www.postman.com/pricing)). To learn more, see [Partner team and Partner Workspace roles](#partner-team-and-partner-workspace-roles).
 
+> You can use the Postman API to programmatically manage users and user groups for workspaces. For more information, see the [Postman API collection](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
+
 The following roles control access at a workspace level:
 
 | Action | Admin | Editor | Viewer |
@@ -166,29 +168,34 @@ The following roles control access at a collection level:
 
 ### API roles
 
-You can [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) two role types in Postman APIs: **Editor** and **Viewer**.
+You can [assign](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles) three role types in Postman APIs: **Admin**, **Editor**, and **Viewer**.
 
-* **Editor** - Can edit APIs directly
-* **Viewer** - Can view and export APIs
+* **Admin** - Can publish, move, and delete APIs
+* **Editor** - Can edit APIs and API definitions
+* **Viewer** - Can view published API versions
+
+> If you have the [Workspace Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) role, you will automatically inherit Admin permissions for all APIs in the workspace, even if you are assigned the Editor or Viewer role for an API.
 
 The following roles control access at an API level:
 
-| APIs |   Editor   | Viewer |
-| ---   |   ---     | ---   |
-| Edit and delete APIs |  &#x2714;     |     |
-| Manage roles on APIs  |  &#x2714;   |   |
-| Share APIs  |   &#x2714;   | &#x2714;   |
-| Comment on APIs |   &#x2714;   |    |
-| Comment on published API versions |   &#x2714;   | &#x2714;   |
-| Create new API versions |  &#x2714;   |    |
-| Update schema |  &#x2714;   |    |
-| Generate collections from the schema |   &#x2714;  |    |
-| View reports for APIs |   &#x2714;  | &#x2714;   |
-| Add and remove API environments |   &#x2714;  |    |
-| Add and remove API documentation |   &#x2714;  |   |
-| Add and remove API tests |   &#x2714;  |   |
-| Add and remove API monitors |   &#x2714;  |    |
-| Add and remove API mock servers |   &#x2714;  |    |
+| APIs | Admin |   Editor   | Viewer |
+| ---   |   ---     | ---   | --- |
+| Edit APIs and API definitions |   &#x2714;   |  &#x2714;     |     |
+| Publish APIs |   &#x2714;   |     |     |
+| Move and delete APIs |   &#x2714;   |     |     |
+| Manage roles on APIs  |   &#x2714;   |   &#x2714;&ast;    |   |
+| Comment on APIs |   &#x2714;   |   &#x2714;   |    |
+| Comment on published API versions |   &#x2714;   |   &#x2714;   | &#x2714;   |
+| Share APIs  |   &#x2714;   |   &#x2714;   | &#x2714;   |
+| Generate collections from the API definition |   &#x2714;   |   &#x2714;  |    |
+| Add and remove API documentation collections |   &#x2714;   |   &#x2714;  |   |
+| Add and remove API test collections |   &#x2714;   |   &#x2714;  |   |
+| Add and remove CI integrations |   &#x2714;   |   &#x2714;  |   |
+| Add and remove APM integrations |   &#x2714;   |   &#x2714;  |    |
+| Add and remove API gateway integrations |   &#x2714;   |   &#x2714;  |    |
+| View reports for APIs |   &#x2714;   |   &#x2714;  | &#x2714;   |
+
+&ast;  API Editors can assign users the Viewer or Editor role. API Editors can't assign a user the Admin role, or change an Admin to an Editor or Viewer.
 
 ## Environment roles
 

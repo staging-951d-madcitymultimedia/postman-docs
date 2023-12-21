@@ -36,6 +36,7 @@ You create the structure of your API using the _API definition_. The API definit
 * [Importing an API definition](#importing-an-api-definition)
 * [Adding an API definition from a connected repository](#adding-an-api-definition-from-a-connected-repository)
 * [Editing an API definition file](#editing-an-api-definition-file)
+    * [Previewing schema documentation](#previewing-schema-documentation)
 * [Working with multi-file API definitions](#working-with-multi-file-api-definitions)
     * [About root files](#about-root-files)
     * [Editing a multi-file API definition](#editing-a-multi-file-api-definition)
@@ -97,7 +98,7 @@ To edit an API definition, select an API in the sidebar to expand it, then selec
 
 The left pane of the editor displays an outline of your API definition. When you first open the editor, the top level nodes are expanded, and you can select a node to expand or collapse it. Select an element in the outline to jump to it in the editor. You can also select the API definition outline icon <img alt="API definition outline icon" src="https://assets.postman.com/postman-docs/icon-schema-outline-v9.jpg#icon" width="16px"/> to hide or show the outline.
 
-<img alt="Editing an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-edit-definition-v10.jpg"/>
+<img alt="Editing an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-edit-definition-v10-21.jpg"/>
 
 In the API definition editor, when you hover over a `#ref` component and press **⌘** or **Ctrl**, a popup window displays the first 200 characters of the reference component. Select the component while pressing **⌘** or **Ctrl** to jump to the reference location.
 
@@ -105,9 +106,22 @@ In the API definition editor, when you hover over a `#ref` component and press *
 
 In the upper right of the API definition editor are options to beautify the content, wrap text, copy, change the file format, and search. When you finish editing your API definition, select **Save**.
 
-<img alt="API Builder editing options" src="https://assets.postman.com/postman-docs/v10/api-builder-edit-options-v10.jpg"/>
+<img alt="API Builder editing options" src="https://assets.postman.com/postman-docs/v10/api-builder-edit-options-v10-21.jpg"/>
 
 > Postman will indicate any [validation errors](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/) as you work on your API definition.
+
+### Previewing schema documentation
+
+If you are editing an OpenAPI 2.0 or 3.0 definition, Postman displays a live preview of your API's schema documentation in the right sidebar. The documentation preview is updated as you edit the definition. You can use the preview to help you visualize your changes as you work.
+
+The live preview shows documentation for the `General`, `Servers`, and `Paths` sections of your API definition. The preview doesn't show documentation for other sections such as `Components` and `Security`. Learn more about [viewing schema documentation](/docs/publishing-your-api/documenting-your-api/#view-schema-documentation) for your API.
+
+<img alt="Schema documentation live preview" src="https://assets.postman.com/postman-docs/v10/api-builder-docs-preview-v10-21.jpg"/>
+
+To hide or show the documentation preview, select the documentation icon
+<img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar. To give yourself more space for editing your definition, select the fullscreen icon <img alt="Full screen icon" src="https://assets.postman.com/postman-docs/icons/icon-full-screen.jpg#icon" width="16px"/>. To exit fullscreen, select the exit fullscreen icon <img alt="Full screen icon" src="https://assets.postman.com/postman-docs/icons/icon-exit-fullscreen.jpg#icon" width="16px"/>.
+
+<img alt="Fullscreen view for schema documentation" src="https://assets.postman.com/postman-docs/v10/api-builder-fullscreen-v10-21.jpg"/>
 
 ## Working with multi-file API definitions
 

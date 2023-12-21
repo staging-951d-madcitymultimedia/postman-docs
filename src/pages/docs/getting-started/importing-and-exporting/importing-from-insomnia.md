@@ -22,39 +22,27 @@ contextual_links:
     url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
 ---
 
-Insomnia is an open-source desktop application for creating APIs. You can export Insomnia requests and collections as an HTTP Archive (HAR) file, then import the HAR file into Postman. You can also use Insomnia's [Postman Export plugin](https://insomnia.rest/plugins/insomnia-plugin-postman-export) to convert Insomnia assets into a Postman-compatible format.
+Insomnia is an open-source desktop application for creating APIs. You can export requests, environments, and other data from Insomnia, then import them into Postman.
 
 ## Contents
 
-* [Export a HAR file from Insomnia](#export-a-har-file-from-insomnia)
-* [Use Insomnia's Postman Export plugin](#use-insomnias-postman-export-plugin)
-* [Import the data into Postman](#import-the-data-into-postman)
+* [Export files from Insomnia](#export-files-from-insomnia)
+* [Import Insomnia files to Postman](#import-insomnia-files-to-postman)
 
-## Export a HAR file from Insomnia
+## Export files from Insomnia
 
-1. In Insomnia, from the collection name dropdown menu, select **Export**.
-1. Select the collections or requests you want to export.
-1. Select **Export**.
-1. From the dropdown, select **HAR - HTTP Archive Format** .
-1. Select **Done**.
-1. When Insomnia asks if you want to include private environments, select **Yes** or **No**.
-1. Enter a file name, select a save location, and select **Export**.
+1. Sign in to the Insomnia desktop app and select **Insomnia > Settings > Data > Export all data**.
 
-## Use Insomnia's Postman Export plugin
+  > Insomnia can also export individual documents, collections, and requests. See the [Insomnia documentation](https://docs.insomnia.rest/insomnia/import-export-data#:~:text=Insomnia%20supports%20importing%20and%20exporting.) to learn more.
 
-1. In Insomnia, install the [Postman Export plugin](https://insomnia.rest/plugins/insomnia-plugin-postman-export).
-1. From the collection name dropdown menu, select **Export as Postman Collection**.
-1. (Optional) Enter a regular expression to filter requests.
-1. Select **OK**.
-1. (Optional) Enter the file name of the request ID CSV.
-1. Select **OK**.
-1. Enter an output path and select **Initiate (Please Wait for "All Done!")**.
-1. Select **OK**.
+1. Select the location where you want to export the data.
+1. Select **Ok** when the export is complete.
 
-## Import the data into Postman
+## Import Insomnia files to Postman
 
-1. In Postman, go to your workspace and select **Import**.
-1. Select **files**.
-1. Select the file you want to import and select **Open**.
+1. In Postman, select **Import > Migrate to Postman > Other API Clients**.
+1. Select **files** or **folder** then select the files or folder you want to import.
+1. Select **Start Migration**. Postman checks if the selected files are valid Insomnia files.
+1. If the files are valid, you can select **Start Migration**. A window appears showing the migration’s progress. When the migration is complete, select **Dismiss**.
 
-  > You can also drag files into the import window.
+  > You can also drag files and folders into the import window.

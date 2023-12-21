@@ -37,9 +37,13 @@ Open the public workspace, then select the link icon <img alt="Link icon" src="h
 
 ## Tracking public workspace metrics
 
-You can use the number of watchers and forks in your public workspace to track your API's success.
+You can use reports that Postman generates to visualize data and track performance for your APIs. You can use the number of watchers and forks in your public workspace to track your API's success.
 
-> For more metrics, you can also view reports for [public workspaces](/docs/reports/content-activity-reports/#public-workspaces) and [public APIs](/docs/reports/content-activity-reports/#public-apis) in your [Postman reports dashboard](https://go.postman.co/reports/overview) ([Enterprise plans only](https://www.postman.com/pricing)).
+### Reports
+
+In your [Postman reports dashboard](https://go.postman.co/reports/overview), you can view reports for [public workspaces on the Public API Network](/docs/reports/public-workspace-metrics-reports/). This report enables you to track API consumer interest and activity in your public APIs over a specified period of time. You can view the number of collection views and forks, requests made in forked collections, and more.
+
+You can also view reports for your [public workspaces](/docs/reports/content-activity-reports/#public-workspaces) and [public APIs](/docs/reports/content-activity-reports/#public-apis). These reports provide an overview of your public workspaces and APIs, such as the total number of public workspaces and elements in them, the number of public APIs with tests, and more. You can also track metrics about API consumer interest and activity, such as the number of views, watchers, and comments.
 
 ### Watchers
 
@@ -53,4 +57,4 @@ Track the number of [forks](/docs/collaborating-in-postman/using-version-control
 
 <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/v10/fork-information-count-v10.jpg" width="500px"/>
 
-For more details about viewing the number of people who forked a Postman element, see [Viewing fork information](/docs/collaborating-in-postman/using-version-control/forking-elements/#viewing-fork-information).
+For more details about viewing the number of people who forked a Postman element, see [Viewing fork information](/docs/collaborating-in-postman/using-version-control/forking-elements/#view-fork-information).

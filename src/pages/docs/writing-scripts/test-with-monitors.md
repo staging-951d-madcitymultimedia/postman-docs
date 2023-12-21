@@ -2,7 +2,7 @@
 title: "Run API test scripts using Postman Monitors"
 order: 91
 page_id: "test_with_monitors"
-updated: 2022-2-14
+updated: 2023-12-01
 search_keyword: "setEnvironmentVariable, postman.setEnvironmentVariable"
 contextual_links:
   - type: section
@@ -29,7 +29,7 @@ Postman Monitors provide a way to automatically run test scripts and perform oth
 
 Below are some ways you can use collection-based monitors to test your APIs and ensure they're functioning correctly.
 
-> For examples of monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#creating-a-fork), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
+> For examples of monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#create-a-fork), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 
 ## Monitoring an API endpoint
 
@@ -68,7 +68,7 @@ With the stringified nested value in place, it can be passed to subsequent reque
 Response code tests can be done by checking the value of `responseCode.code` within test scripts.
 
 ```js
-tests['Request resulted in 200 OK'] = responseCode.code === 200;
+pm.test('Request resulted in 200 OK', () => pm.response.to.have.status(200));
 ```
 
 ## Monitoring latency
@@ -76,6 +76,6 @@ tests['Request resulted in 200 OK'] = responseCode.code === 200;
 As an alternative to request timeouts, website response latency can be monitored by comparing values of the `responseTime` variable within test scripts.
 
 ```js
-tests['Response latency is acceptable'] = responseTime < 1000;
+pm.test('Response latency is acceptable', () => pm.expect(pm.response.responseTime).to.be.lte(1000));
 // responseTime is in milliseconds
 ```

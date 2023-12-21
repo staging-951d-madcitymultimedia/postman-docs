@@ -36,7 +36,7 @@ contextual_links:
 
 The Postman API enables you to programmatically access data stored in your Postman account. You can use the API to perform actions such as managing your collections, APIs, workspaces, and more.
 
-> The access rate limits for your Postman API key depend on your Postman plan. For more information, see [Postman API rate limits](/docs/developer/postman-api/postman-api-rate-limits/).
+> The access rate limits for your Postman account depend on your Postman plan. For more information, see [Postman API rate limits](/docs/developer/postman-api/postman-api-rate-limits/).
 
 This tutorial shows you how to make your first call to the Postman API. You can also learn more about the Postman API by reading the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). There you will find information to help you get started and information about each endpoint and operation.
 

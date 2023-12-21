@@ -1,6 +1,6 @@
 ---
 title: "Enterprise deployment"
-updated: 2023-10-18
+updated: 2023-12-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -46,8 +46,9 @@ Postman Enterprise offers greater control to administrators looking to deploy an
 * [Installing the Postman Enterprise Linux app](#installing-the-postman-enterprise-linux-app)
 
     * [Encrypting data](#encrypting-data)
-    * [Login policy](#login-policy)
     * [Uninstalling the Postman Enterprise Linux app](#uninstalling-the-postman-enterprise-linux-app)
+
+* [Login policy](#login-policy)
 
 ## Managing Postman app versioning
 
@@ -125,10 +126,10 @@ msiexec /i path\to\package.msi /l*v C:\log.txt
 
 Settings can be changed during an MSI application installation.
 
-For example, if your app defines a `MY_OPTION` installation option, you can set a custom value:
+For example, you can set the `team-ids` installation option to specify which Postman teams can use the Enterprise app:
 
 ``` shell
-msiexec /i path\to\package.msi MY_OPTION='hello'
+msiexec /i path\to\package.msi team-ids='1234'
 ```
 
 You can also install an MSI with multiple installation options:
@@ -225,13 +226,13 @@ pkgutil --volume "$HOME" --forget <the bundle id>
 
 Settings can be changed at installation time using the macOS `defaults` tool either before or after installing the PKG.
 
-For example, if your app defines a `MY_OPTION` integer installation option, you can set a custom value:
+For example, you can set the `team-ids` installation option to specify which Postman teams can use the Enterprise app:
 
 ``` shell
 # For system-wide PKGs
-sudo defaults write /Library/Preferences/<the bundle id> MY_OPTION -integer 10
+sudo defaults write /Library/Preferences/<the bundle id> team-ids -integer 1234
 # For per-user PKGs
-defaults write <the bundle id> MY_OPTION -integer 10
+defaults write <the bundle id> team-ids -integer 1234
 ```
 
 Installing a PKG and updating some of its installation options looks like this:
@@ -269,7 +270,7 @@ sudo snap install /path/to/postman-enterprise.snap --dangerous
 
 The `--dangerous` option is required because the Postman Enterprise app isn't distributed through the Snap store. See the [Snap documentation](https://snapcraft.io/docs/install-modes#heading--dangerous) to learn more.
 
-## Encrypting data
+### Encrypting data
 
 > This step is mandatory.
 
@@ -279,9 +280,17 @@ To securely store local data, you must connect the Snap password manager service
 sudo snap connect postman-enterprise:password-manager-service
 ```
 
+### Uninstalling the Postman Enterprise Linux app
+
+Use this command to uninstall the app:
+
+``` shell
+sudo snap remove postman-enterprise
+```
+
 ## Login policy
 
-You can specify which Postman teams can use the app with the `team-ids` option. For example, if you want teams with IDs `1234` and `4321` to have access:
+You can specify which Postman teams can use the app with the `team-ids` option. For example, in Linux, if you want teams with IDs `1234` and `4321` to have access:
 
 ``` shell
 sudo snap set postman-enterprise team-ids="1234, 4321"
@@ -289,10 +298,4 @@ sudo snap set postman-enterprise team-ids="1234, 4321"
 
 > To get your Postman team ID, you can [contact Postman support](https://www.postman.com/support/) or contact your Postman Account Manager.
 
-## Uninstalling the Postman Enterprise Linux app
-
-Use this command to uninstall the app:
-
-``` shell
-sudo snap remove postman-enterprise
-```
+This configuration ensures that users must be signed in to a team you've specified in order to use the Postman Enterprise app. Users will only see the teams you've approved as options when signing in.

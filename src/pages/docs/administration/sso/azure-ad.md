@@ -6,7 +6,7 @@ search_keyword: "azure ad"
 
 > **[SSO with Microsoft Entra ID is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-To configure SSO with Microsoft Entra ID (formerly Azure Active Directory), you can use the available Postman app in Microsoft Entra ID or create a custom SAML application. You must be an administrator in both Microsoft Entra ID and Postman to configure SSO for your team.
+To configure SSO with Microsoft Entra ID (formerly Azure Active Directory), you can use the available Postman app in Microsoft Entra ID. You must be an administrator in both Microsoft Entra ID and Postman to configure SSO for your team.
 
 ## Contents
 
@@ -24,7 +24,7 @@ To continue configuring your SAML application, do the following:
 
 1. Open your Microsoft Entra ID management portal in a new tab.
 1. Go to **Enterprise applications** and select **+ New application**.
-1. Search for "Postman" and select the Postman app from the results, then select **Create**. Or, you can **+ Create your own application**.
+1. Search for "Postman" and select the Postman app from the results, then select **Create**.
 1. Select **Set up single sign on > SAML**.
 1. Take the **Entity ID**, **Login URL**, and **ACS URL** from Postman and add them to your SAML configuration in Microsoft Entra ID.
 

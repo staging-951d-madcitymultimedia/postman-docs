@@ -17,7 +17,7 @@ contextual_links:
     url: "https://blog.postman.com/generative-ai-and-the-impact-on-apis-and-software-development/"
 ---
 
-> Postbot is free to try on the Free plan. Postbot is available as an add-on to the [Basic and Professional plans](https://www.postman.com/pricing/). Postbot isn't currently available in the Enterprise plan.
+> Postbot is available as an add-on to the [Free, Basic, and Professional plans](https://www.postman.com/pricing/). Postbot isn't currently available in Enterprise plans.
 
 Postbot is your AI assistant for API workflows in Postman. You can ask Postbot to help you debug and understand APIs, write tests, create Postman Flows, and make sense of large data sets.
 

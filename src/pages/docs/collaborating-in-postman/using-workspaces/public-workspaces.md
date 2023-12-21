@@ -72,9 +72,7 @@ To create a public workspace, do the following:
 
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/v10/workspace-switcher-v10.jpg" width="300px"/>
 
-1. You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
-
-    > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+1. You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#apply-a-template-to-a-workspace) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
 
     <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10-2.jpg"/>
 
@@ -204,7 +202,7 @@ If you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#t
 
 To collaborate with someone else in their public workspace, select **Workspaces** from the header, and then select the workspace you want to work in.
 
-For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#creating-a-fork) and request to merge changes using a [pull request](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
+For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#create-a-fork) and request to merge changes using a [pull request](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
 
 For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an Editor role.
 

@@ -59,7 +59,7 @@ You can get started by [forking the Postman API collection](https://www.postman.
 
 You will also need an API key to use the Postman API. For information, see [Generate a Postman API key](/docs/developer/postman-api/authentication/#generate-a-postman-api-key).
 
-> Access rate limits for your Postman API key depend on your Postman plan. For more information, see [Postman API rate limits](/docs/developer/postman-api/postman-api-rate-limits/).
+> Access rate limits for your Postman account depend on your Postman plan. For more information, see [Postman API rate limits](/docs/developer/postman-api/postman-api-rate-limits/).
 
 ## Create a Private API Network folder
 
