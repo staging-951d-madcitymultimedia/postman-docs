@@ -1311,6 +1311,10 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/managing-your-team/',
           },
           {
+            name: 'Manage team members',
+            url: '/docs/administration/managing-your-team/manage-team-members/',
+          },
+          {
             name: "Manage team workspaces",
             url: '/docs/administration/managing-your-team/manage-team-workspaces/'
           },
