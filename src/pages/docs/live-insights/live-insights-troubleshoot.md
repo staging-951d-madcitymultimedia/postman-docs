@@ -22,16 +22,16 @@ As you work with the Postman Live Collections Agent (LCA), you may encounter err
 
 * [Error messages](#error-messages)
 * [ECS memory issues troubleshooting](#ecs-memory-issues-troubleshooting)
-  * [Out of memory](#out-of-memory)
-  * [Container size is too large](#container-size-is-too-large)
+    * [Out of memory](#out-of-memory)
+    * [Container size is too large](#container-size-is-too-large)
 * [Frequently asked questions](#frequently-asked-questions)
-  * [Why isn't my API traffic showing up?](#why-isnt-my-api-traffic-showing-up)
-  * [What do I do if my traffic is encrypted?](#what-do-i-do-if-my-traffic-is-encrypted)
-  * [What does the LCA agent do with sensitive data?](#what-does-the-lca-agent-do-with-sensitive-data)
-  * [I can't update my collection.](#i-cant-update-my-collection)
-  * [How will the LCA running on my Kubernetes know my machine IP address?](#how-will-the-lca-running-on-my-kubernetes-know-my-machine-ip-address)
-  * [I'm not seeing the traffic I'm looking for in my API model.](#im-not-seeing-the-traffic-im-looking-for-in-my-api-model)
-  * [My API model is mostly health checks and infrastructure endpoints.](#my-api-model-is-mostly-health-checks-and-infrastructure-endpoints)
+    * [Why isn't my API traffic showing up?](#why-isnt-my-api-traffic-showing-up)
+    * [What do I do if my traffic is encrypted?](#what-do-i-do-if-my-traffic-is-encrypted)
+    * [What does the LCA agent do with sensitive data?](#what-does-the-lca-agent-do-with-sensitive-data)
+    * [I can't update my collection.](#i-cant-update-my-collection)
+    * [How will the LCA running on my Kubernetes know my machine IP address?](#how-will-the-lca-running-on-my-kubernetes-know-my-machine-ip-address)
+    * [I'm not seeing the traffic I'm looking for in my API model.](#im-not-seeing-the-traffic-im-looking-for-in-my-api-model)
+    * [My API model is mostly health checks and infrastructure endpoints.](#my-api-model-is-mostly-health-checks-and-infrastructure-endpoints)
 
 ## Error messages
 
