@@ -12,21 +12,24 @@ const runtime = {
   pm: [''],
 };
 
-function cacheCdn(url, name) {
-  sh.exec('mkdir -p public');
+const cacheCdn = (url, name) =>
+  new Promise((resolve) => {
+    sh.exec('mkdir -p public');
 
-  fetch(url).then((res) => {
-    res.text().then((resp) => {
-      if (resp) {
-        fs.writeFile(path.join('public', `${name}.js`), resp, (err) => {
-          if (err) {
-            throw err;
-          }
-        });
-      }
+    fetch(url).then((res) => {
+      res.text().then((resp) => {
+        if (resp) {
+          fs.writeFile(path.join('public', `${name}.js`), resp, (err) => {
+            if (err) {
+              throw err;
+            } else {
+              resolve(true);
+            }
+          });
+        }
+      });
     });
-  })
-}
+  });
 
 if (process.env.PM_TECH) {
   sh.exec('mkdir -p public');
@@ -91,9 +94,19 @@ const prefetch = async () => {
 
   const UACode = 'G-CX7P9K6W67';
   const GCode = UACode;
+  const RampMetrics = `
+    var _rmq=_rmq||[],_rmq_domain="postman.com";
+    _rmq.push(["setAccount","asLtEBCh7D4pMetaFgSz","asLtEBCh7D4pMetaFgSz:LsgKvmHz1TMJTazA_M37"]);
+    _rmq.push(["trackPageview"]);_rmq.push(["trackSubmit"]);
+    (function(){var a=document.createElement("script");
+    a.type="text/javascript";a['src']="/rm.min.js";
+    var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
+  `;
+
 
   const script = (process.env.PM_TECH_RT
       && `
+${RampMetrics}
 ${pmt}
 setTimeout(function(){
   var propertyName = 'postman-docs';
@@ -162,13 +175,14 @@ function load(src, cb) {
   console.info('Postman OSS');
 `;
 
-  fs.writeFile('bff.json', JSON.stringify({ script }), (err) => {
+  fs.writeFile('bff.json', JSON.stringify({ script }), async (err) => {
     if (err) {
       throw err;
     }
 
-    cacheCdn('https://www.google-analytics.com/analytics.js', '_ga');
-    cacheCdn('https://www.googletagmanager.com/gtag/js', '_gtag');
+    await cacheCdn('https://www.google-analytics.com/analytics.js', '_ga');
+    await cacheCdn('https://www.googletagmanager.com/gtag/js', '_gtag');
+    sh.exec('cp node_modules/@rampmetrics/rm/rm.min.js public/');
   });
 };
 
