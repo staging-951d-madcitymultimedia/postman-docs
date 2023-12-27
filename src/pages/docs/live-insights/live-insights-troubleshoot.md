@@ -80,7 +80,7 @@ If you don't specify a task-level memory limit, then the CLI `ecs add` command s
 
 If you use a Docker Compose file to create your ECS task or service, then if no memory limit is specified, the Postman Agent sidecar is allocated 512 MB by default.
 
-If you've already tuned the other containers in your task definition based on the instance size used in your cluster, the total size of the base container and the sidecar may be too large to schedule, resulting in the following message.
+If you've already tuned the other containers in your task definition based on the instance size used in your cluster, the total size of the base container and the sidecar may be too large to schedule, resulting in the following message:
 
 ```bash
 INFO[0006] (service mgg-test) was unable to place a task because no container instance met all of its requirements. The closest matching (container-instance 79cac21ecdb44097a989744944e202d7) has insufficient memory available. For more information, see the Troubleshooting section of the Amazon ECS Developer Guide. timestamp="2023-12-18 23:31:31 +0000 UTC"
