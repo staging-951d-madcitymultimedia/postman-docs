@@ -1,6 +1,6 @@
 ---
 title: "Simulate your API in Postman with a mock server"
-updated: 2023-12-21
+updated: 2023-12-27
 contextual_links:
   - type: section
     name: "Additional resources"
