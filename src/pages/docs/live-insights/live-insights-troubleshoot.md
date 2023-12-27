@@ -58,7 +58,7 @@ The following is the complete list of error messages.
 
 ## ECS memory issues troubleshooting
 
-The Live Collections Agent (LCA) needs additional memory to run, so if you have used most of the memory available on an instance, some changes may be necessary.
+The Live Collections Agent (LCA) needs at least 300 MB of memory to run. if you’ve used most memory available, you need to make adjustments. Consider specifying an upper limit.
 
 Because the agent requires at least 300 MB of memory to operate, consider setting an upper limit.
 
