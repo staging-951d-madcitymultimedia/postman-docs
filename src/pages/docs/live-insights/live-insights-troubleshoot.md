@@ -76,7 +76,7 @@ For more information about debugging, see [How do I troubleshoot OutOfMemory err
 
 ### Container size is too large
 
-If you don't specify a task-level memory limit, then the CLI `ecs add` command sets a request of 300 MB. This means that your task requires an additional 300 MB of memory to be scheduled on an instance.
+If you don't specify a task-level memory limit, then the CLI `ecs add` command sets a container-level memory request of 300 MB. This means that your task requires an additional 300 MB of memory to be scheduled on an instance.
 
 If you use a Docker Compose file to create your ECS task or service, then if no memory limit is specified, the Postman Agent sidecar is allocated 512 MB by default.
 
