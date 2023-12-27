@@ -1,6 +1,6 @@
 ---
 title: "Define and develop your API in Postman"
-updated: 2023-05-18
+updated: 2023-12-27
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/build-better-apis-using-the-new-and-improved-api-builder/"
 ---
 
-Use the Postman API Builder to develop your API's definition and build out your API with tests, documentation, and server-side code. Create or import common API definition types, including OpenAPI, GraphQL, Protobuf, RAML, and WSDL. Postman automatically validates requests and checks for errors as you work on your API.
+Use Postman's API-first tools to develop your API definition and build out your API with tests, documentation, and server-side code. Create or import common API definition types, including OpenAPI, GraphQL, Protobuf, RAML, and WSDL. Postman automatically validates requests and checks for errors as you work on your API.
 
 ## Contents
 
