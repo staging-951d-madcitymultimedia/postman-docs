@@ -92,7 +92,7 @@ In this case, you may need to reduce the memory or `memoryReservation` parameter
 
 ## Frequently asked questions
 
-Following topics can help you get traffic in the right state and get API models show the information you're looking for.
+The following topics can help you get traffic in the right state and get API models to show the information you need.
 
 * [Why isn't my API traffic showing up?](#why-isnt-my-api-traffic-showing-up)
 
