@@ -60,7 +60,6 @@ The following is the complete list of error messages.
 
 The Live Collections Agent (LCA) needs at least 300 MB of memory to run. if you’ve used most memory available, you need to make adjustments. Consider specifying an upper limit.
 
-
 For more information, see [How Amazon ECS manages CPU and memory resources](https://aws.amazon.com/blogs/containers/how-amazon-ecs-manages-cpu-and-memory-resources/).
 
 ### Out of memory
