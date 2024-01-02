@@ -1,6 +1,6 @@
 ---
 title: "Diagnose and troubleshoot errors"
-updated: 2023-10-30
+updated: 2023-12-27
 early_access: true
 plan: alpha
 contextual_links:
@@ -17,6 +17,21 @@ contextual_links:
 ---
 
 As you work with the Postman Live Collections Agent (LCA), you may encounter errors and receive error messages. You may also come across frequently encountered issues. You'll find [solutions](#frequently-asked-questions) to some of these issues below.
+
+## Contents
+
+* [Error messages](#error-messages)
+* [ECS memory issues troubleshooting](#ecs-memory-issues-troubleshooting)
+    * [Out of memory](#out-of-memory)
+    * [Container size is too large](#container-size-is-too-large)
+* [Frequently asked questions](#frequently-asked-questions)
+    * [Why isn't my API traffic showing up?](#why-isnt-my-api-traffic-showing-up)
+    * [What do I do if my traffic is encrypted?](#what-do-i-do-if-my-traffic-is-encrypted)
+    * [What does the LCA agent do with sensitive data?](#what-does-the-lca-agent-do-with-sensitive-data)
+    * [I can't update my collection.](#i-cant-update-my-collection)
+    * [How will the LCA running on my Kubernetes know my machine IP address?](#how-will-the-lca-running-on-my-kubernetes-know-my-machine-ip-address)
+    * [I'm not seeing the traffic I'm looking for in my API model.](#im-not-seeing-the-traffic-im-looking-for-in-my-api-model)
+    * [My API model is mostly health checks and infrastructure endpoints.](#my-api-model-is-mostly-health-checks-and-infrastructure-endpoints)
 
 ## Error messages
 
@@ -41,9 +56,41 @@ The following is the complete list of error messages.
 | _Traffic capture failure_       | Error in capturing traffic                                                            | Something went wrong while capturing traffic. Please try again.                                                                                                                                                                      |
 | _Something went wrong_          | Something went wrong                                                                  | Something went wrong while starting the Agent. Please try again.                                                                                                                                                                     |
 
+## ECS memory issues troubleshooting
+
+The Live Collections Agent (LCA) needs at least 300 MB of memory to run. if you’ve used most memory available, you need to make adjustments. Consider specifying an upper limit.
+
+For more information, see [How Amazon ECS manages CPU and memory resources](https://aws.amazon.com/blogs/containers/how-amazon-ecs-manages-cpu-and-memory-resources/).
+
+### Out of memory
+
+If you have specified a task-level memory limit (which is required for ECS Fargate, but optional for ECS on EC2 instance) then the CLI `ecs add` command doesn't specify a memory size for the LCA. This means it shares memory with other containers in the task.
+
+If the instance runs out of memory, one of the containers may stop operating. If you see instances restarting after an `OutOfMemory` outage, you may wish to either increase the hard limit for the task, or impose a hard limit on the agent. If you're performing the latter, set the **Memory hard limit** value in the container definition to at least 700 MB.
+
+![Memory hard limit](https://assets.postman.com/postman-docs/v10/live-insights-memory-hard-limit-v10-21.jpg)
+
+For more information about debugging, see [How do I troubleshoot OutOfMemory errors in Amazon ECS?](https://repost.aws/knowledge-center/ecs-resolve-outofmemory-errors).
+
+### Container size is too large
+
+If you don't specify a task-level memory limit, then the CLI `ecs add` command sets a container-level memory request of 300 MB. This means that your task requires an additional 300 MB of memory to be scheduled on an instance.
+
+If you use a Docker Compose file to create your ECS task or service, then if no memory limit is specified, the Postman Agent sidecar is allocated 512 MB by default.
+
+If you've already tuned the other containers in your task definition based on the instance size used in your cluster, the total size of the base container and the sidecar may be too large to schedule, resulting in the following message:
+
+```bash
+INFO[0006] (service mgg-test) was unable to place a task because no container instance met all of its requirements. The closest matching (container-instance 79cac21ecdb44097a989744944e202d7) has insufficient memory available. For more information, see the Troubleshooting section of the Amazon ECS Developer Guide. timestamp="2023-12-18 23:31:31 +0000 UTC"
+```
+
+![Insufficient memory](https://assets.postman.com/postman-docs/v10/live-insights-insufficient-memory-v10-21.jpg)
+
+In this case, you may need to reduce the memory or `memoryReservation` parameters on other containers in the task by the 300 MB (or 512 MB) requested by the Postman Live Agent.
+
 ## Frequently asked questions
 
-Following topics can help you get traffic in the right state and get API models show the information you’re looking for.
+The following topics can help you get traffic in the right state and get API models to show the information you need.
 
 * [Why isn't my API traffic showing up?](#why-isnt-my-api-traffic-showing-up)
 
@@ -60,8 +107,6 @@ Following topics can help you get traffic in the right state and get API models 
 * [My API model is mostly health checks and infrastructure endpoints.](#my-api-model-is-mostly-health-checks-and-infrastructure-endpoints)
 
 ### Why isn't my API traffic showing up?
-
-_I am running the LCA, but the LCA isn't seeing my traffic._
 
 You've set up the LCA, and you've been running API traffic across the network, but your API model page is either empty or shows random endpoints you don't care about.
 
@@ -150,8 +195,6 @@ The LCA is installed as a sidecar in the application pod, so it doesn't need to 
 Postman can see the IPv4 or IPv6 addresses used to send and receive information as part of packet capture, but that's not presented in the live collection.
 
 ### I'm not seeing the traffic I'm looking for in my API model.
-
-_I was able to successfully generate an API model, but I'm not able to see the endpoints I want to see._
 
 If you're not seeing the endpoints you're expecting in your first live collection, do not worry! There are a few reasons, many of them addressable.
 
