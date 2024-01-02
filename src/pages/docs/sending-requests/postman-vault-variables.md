@@ -1,9 +1,11 @@
 ---
-title: "Store secrets as local variables in your Postman vault"
+title: "Store secrets locally as variables in your Postman vault"
 updated: 2024-01-15
 ---
 
-*Postman vault* enables you to store secrets locally as variables and reuse them in Postman. You can store secret variables in your Postman vault to reuse them throughout your HTTP collections, requests, and test scripts. Secret variables are locally available to reuse in all of your workspaces, and aren't synced to the Postman cloud. Store values as variables in your Postman vault to securely store and reuse sensitive data while using Postman.
+*Postman vault* enables you to store secrets locally as variables and reuse them in Postman. This enables you to securely reuse sensitive data throughout your HTTP collections, requests, and test scripts. Only you can access and reuse secret variables in your Postman vault, and secret variables aren't synced to the Postman cloud.
+
+You can use your Postman vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/). You can also use your Postman vault from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
 <!-- TODO: add screenshot -->
 
@@ -13,15 +15,17 @@ updated: 2024-01-15
 * [Add secrets as variables](#add-secrets-as-variables)
 * [Edit secret variables in your Postman vault](#edit-secret-variables-in-your-postman-vault)
 * [Use secrets stored as variables](#use-secrets-stored-as-variables)
-* [Fixing unresolved secret variables](#fixing-unresolved-secret-variables)
+* [Fix unresolved secret variables](#fix-unresolved-secret-variables)
 
 ## Access your Postman vault
 
-To access your Postman vault, select <img alt="Vault icon" src="https://assets.postman.com/postman-docs/icons/icon-vault.jpg#icon" width="12px"> **Vault** from the Postman footer. If you don't have any secrets stored in your Postman vault, select **Add Vault Secret** to get started.
+To access your Postman vault, select <img alt="Vault icon" src="https://assets.postman.com/postman-docs/icons/icon-vault.jpg#icon" width="12px"> **Vault** from the Postman footer. You can also can use **Shift+Control+V** or **Ctrl+Alt+V** to access your Postman vault. If you don't have any secrets stored in your Postman vault, select **Add Vault Secret** to get started.
 
 ## Add secrets as variables
 
-You can add secrets as variables from your Postman vault. You can also add secrets as variables from the HTTP request builder. Secret variables stored in your Postman vault are encrypted using the AES-256-GCM encryption algorithm.
+You can add secrets, such as API keys and passwords, as variables in your Postman vault. You can also add secrets as variables from the HTTP request builder. Secret variables stored in your Postman vault are encrypted using the AES-256-GCM encryption algorithm.
+
+> Team members can't access secret variables in your Postman vault.
 
 To add secrets from your Postman vault, do the following:
 
@@ -36,6 +40,8 @@ To add secrets from your Postman vault, do the following:
     * **Domains** - The comma-separated list of domains you can send requests to with the secret variable. If a domain isn't in this list, you can't send the secret variable in your requests. By default, you can include secret variables in requests to any domain. To add domains, select **All** then enter your domains.
 
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**.
+
+    > If [autosave](/docs/getting-started/installation/settings/#application) is turned on, you must manually save changes to your Postman vault.
 
     <!-- TODO: add screenshot -->
 
@@ -64,6 +70,8 @@ To edit secret variables, select **Vault** from the Postman footer. You can take
 * To make a secret variable unavailable without deleting it, clear the checkbox next to the variable. Any references to the variable will be unresolved. To make the variable available again, select the checkbox.
 * Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save any changes you've made.
 
+> If [autosave](/docs/getting-started/installation/settings/#application) is turned on, you must manually save changes to your Postman vault.
+
 <!-- TODO: add screenshot -->
 
 ## Use secrets stored as variables
@@ -76,11 +84,20 @@ You can reference secret variables stored in your Postman vault in any of your w
 
 <!-- TODO: add screenshot -->
 
-> Secret variables stored in your Postman vault are redacted when you log variable values to the Postman Console.
+### Use secret variables in scripts
 
-## Fixing unresolved secret variables
+You can get the current value of a secret variable in your scripts using the following syntax:
 
-An *unresolved variable* is a secret variable that's not defined in the Postman vault.
+```js
+//access a secret variable in you Postman vault
+pm.variables.get("vault:variable_key");
+```
+
+> Secret variables stored in your Postman vault are redacted when you log their values to the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
+
+## Fix unresolved secret variables
+
+An *unresolved secret variable* is a secret variable that's not defined in the Postman vault.
 
 A secret variable can be unresolved for the following reasons:
 

@@ -97,6 +97,8 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 * **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) or the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
 * **Local variables** are temporary variables that are accessed in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete. Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
 
+<!-- TODO: mention the vault scope -->
+
 ![Variable scope](https://assets.postman.com/postman-docs/v10/var-scope-v10.jpg)
 
 > If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used. For example, if there is a global variable named `username` and a local variable named `username`, the local value will be used when the request runs.
@@ -154,7 +156,9 @@ Editors can change a variable's initial values, which are shared with collaborat
 
 ## Defining variables
 
-You can define variables in a variety of ways, depending on if you need [global](#defining-global-variables), [environment](#defining-environment-variables), or [collection](#defining-collection-variables) scope. You can also define secret variables locally at the [vault](/docs/sending-requests/postman-vault-variables/) scope using your Postman vault.
+You can define variables in a variety of ways, depending on if you need [global](#defining-global-variables), [environment](#defining-environment-variables), or [collection](#defining-collection-variables) scope.
+
+> You can also define secret variables locally at the [vault](/docs/sending-requests/postman-vault-variables/) scope using your Postman vault.
 
 To define variables at any scope in the request builder, do the following:
 
