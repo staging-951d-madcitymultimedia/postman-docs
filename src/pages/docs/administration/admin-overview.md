@@ -51,4 +51,4 @@ Depending on your [plan](https://www.postman.com/pricing), you can secure your t
 
 ## Admin FAQs
 
-For frequently asked questions about Postman teams, see [Admin FAQs](/docs/administration/admin-faqs/).
+To learn more about managing Postman teams, see [Admin FAQs](/docs/administration/admin-faqs/).
