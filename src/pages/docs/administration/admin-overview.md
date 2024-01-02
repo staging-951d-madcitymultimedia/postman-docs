@@ -20,7 +20,7 @@ Postman has a variety of tools you can use to set up, manage, and secure your Po
 
 You must be a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to set up, manage, and secure your Postman team.
 
-If you're setting up a new Postman team, you can check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to walk you through setting up your team.
+To set up a new Postman team, you can follow the steps in Postman's [onboarding checklist](/docs/administration/onboarding-checklist/).
 
 ## Contents
 
@@ -34,11 +34,20 @@ You can [invite and manage collaborators](/docs/administration/managing-your-tea
 
 You can [configure your team settings](/docs/administration/managing-your-team/team-settings/) to further customize the experience for both your Postman team and your API's consumers. This includes managing your team's public profile and making your team discoverable.
 
-If you're setting up an [Enterprise team](https://www.postman.com/pricing), you can learn more about the extra features available to you with [Postman Enterprise plans](/docs/administration/enterprise/about-postman-enterprise/). Enterprise features include advanced identity management, reports, a Private API Network, API governance and security controls, and features that enhance collaboration and administrative customization.
+If you're setting up an [Enterprise team](https://www.postman.com/pricing), more features are available to you with [Postman Enterprise plans](/docs/administration/enterprise/about-postman-enterprise/). Enterprise features include advanced identity management, reports, a Private API Network, API governance and security controls, and features that enhance collaboration and administration customization.
+
+> To set up a new Postman team, you can follow the steps in Postman's [onboarding checklist](/docs/administration/onboarding-checklist/).
 
 ## Secure your Postman team
 
-Depending on your [plan](https://www.postman.com/pricing), you can secure your Postman team's users by setting up [SSO](/docs/administration/sso/intro-sso/), [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), and [domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/). You can also [manage your team's API keys](/docs/administration/managing-your-team/managing-api-keys/), [use the Secret Scanner](/docs/administration/managing-your-team/secret-scanner/) to detect exposed secrets, and [access your team's audit logs](/docs/administration/managing-your-team/audit-logs/).
+Depending on your [plan](https://www.postman.com/pricing), you can secure your team's user accounts by setting up and using the following:
+
+* [SSO](/docs/administration/sso/intro-sso/)
+* [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/)
+* [Domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/)
+* [Postman API key management](/docs/administration/managing-your-team/managing-api-keys/)
+* [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/)
+* [Audit logs](/docs/administration/managing-your-team/audit-logs/)
 
 ## Admin FAQs
 
