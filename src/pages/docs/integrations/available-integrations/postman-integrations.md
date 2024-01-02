@@ -54,6 +54,8 @@ Use the following integrations to send Postman Monitor alerts and other updates 
 * [Splunk On-Call](/docs/integrations/available-integrations/splunk-on-call/)
 * [Statuspage](/docs/integrations/available-integrations/statuspage/)
 
+> You can configure more than one integration for the same collection-based monitor. For example, you can configure two Slack integrations for a monitor that send the monitor's results to two different Slack channels.
+
 ## Continuous integration (CI)
 
 Use the following integrations to view and run continuous integration (CI) builds from within Postman:
