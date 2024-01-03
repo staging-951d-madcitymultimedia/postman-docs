@@ -46,7 +46,7 @@ Once you have your collection, you're ready to [create a new mock server](/docs/
 
 ## Level up with step-by-step guides
 
-If you need more help setting up a mock server, follow the step-by-step guide to [mocking your API using saved response examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/). You'll learn how to add requests and examples to your collection, then use the collection to configure and use a mock server.
+If you need more help setting up a mock server, follow the step-by-step guide to [mock your API using saved response examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/). You'll learn how to add requests and examples to your collection, then use the collection to configure and use a mock server.
 
 You can also get step-by-step help for [creating mock servers using the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/) if you want to automate mock server creation.
 
