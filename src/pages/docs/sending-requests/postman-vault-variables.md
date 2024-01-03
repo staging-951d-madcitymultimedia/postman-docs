@@ -7,8 +7,6 @@ updated: 2024-01-15
 
 You can use your Postman vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/). You can also use your Postman vault from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
-<!-- TODO: add screenshot -->
-
 ## Contents
 
 * [Access your Postman vault](#access-your-postman-vault)
@@ -27,7 +25,7 @@ You can add secrets, such as API keys and passwords, as variables in your Postma
 
 > Team members can't access variables in your Postman vault.
 
-To add secrets from your Postman vault, do the following:
+To add vault variables from your Postman vault, do the following:
 
 1. Open your Postman vault.
 1. Enter the following values in an empty row:
@@ -43,19 +41,23 @@ To add secrets from your Postman vault, do the following:
 
     > If [autosave](/docs/getting-started/installation/settings/#application) is turned on, you must manually save changes to your Postman vault.
 
-    <!-- TODO: add screenshot -->
+    ![Add variables to Postman vault](https://assets.postman.com/postman-docs/v10/add-postman-vault-variables-v10-22.jpg)
 
 To set data as vault variables from the HTTP request builder, do the following:
 
-1. Select the data you need, for example in the address, parameters, or headers. Select **Set as variable**.
-1. Select **Set as new variable**.
-1. Enter the **Name** of the vault variable, confirm the **Value** is correct, and select **Vault** as the scope. Select **Set variable**.
+1. Select the data you need, for example in the address, parameters, or headers. Then select **Set as variable**.
+1. Select **+ Set as new variable**.
 
-    <!-- TODO: add screenshot -->
+    ![Create new variable](https://assets.postman.com/postman-docs/v10/set-data-as-new-vault-variable-v10-22.jpg)
 
-From the HTTP request builder, you can also [reference vault variables](#use-secrets-stored-as-variables) that don't exist yet, enabling you to add new variables to your Postman vault. Enter the vault variable name that doesn't exist using the following syntax: `{{vault:variable-name}}`. Hover over the reference to the vault variable, select **Enter value**, enter a value, then select **Add Secret**.
+1. Enter the **Name** of the vault variable, confirm that the **Value** is correct, and select **Vault** as the scope.
+1. Select **Set Variable**.
 
-<!-- TODO: add screenshot -->
+    ![Set as new vault variable](https://assets.postman.com/postman-docs/v10/set-data-as-vault-variable-v10-22.jpg)
+
+From the HTTP request builder, you can also [reference vault variables](#use-secrets-stored-as-variables) that don't exist yet, then add new variables to your Postman vault. Enter the vault variable name that doesn't exist using the following syntax: `{{vault:variable-name}}`. Hover over the unresolved reference to the vault variable, enter the value, then select **Add Secret**.
+
+![Set as new vault variable](https://assets.postman.com/postman-docs/v10/reference-and-create-new-vault-variable-v10-22.jpg)
 
 ## Edit variables in your Postman vault
 
@@ -72,7 +74,7 @@ To edit vault variables, select **Vault** from the Postman footer. You can take 
 
 > If [autosave](/docs/getting-started/installation/settings/#application) is turned on, you must manually save changes to your Postman vault.
 
-<!-- TODO: add screenshot -->
+![Edit vault variables](https://assets.postman.com/postman-docs/v10/edit-postman-vault-variables-v10-22.jpg)
 
 ## Use secrets stored as variables
 
@@ -105,10 +107,10 @@ A vault variable can be unresolved for the following reasons:
 * The variable was created but the changes weren't saved
 * The variable is turned off in your Postman vault
 
-When you're' working on an API request, Postman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. Postman highlights unresolved variable text in red. For more details about the error and how to resolve it, hover over the unresolved variable.
+When you're' working on an API request, Postman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. Postman highlights unresolved variable text in red.
 
-<!-- TODO: add screenshot -->
+![Unresolved vault variables](https://assets.postman.com/postman-docs/v10/unresolved-postman-vault-variable-v10-22.jpg)
 
-If the variable exists in the Postman vault and it's turned off, select the reference to the variable, then select **Enable Secret**.
+If the variable exists in your Postman vault and it's turned off, hover over the reference to the variable, then select **Enable Secret**.
 
-<!-- TODO: add screenshot -->
+![Turn on vault variables](https://assets.postman.com/postman-docs/v10/turn-on-postman-vault-variable-v10-22.jpg)

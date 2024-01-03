@@ -164,7 +164,7 @@ To define variables at any scope in the request builder, do the following:
 
 1. Select the data you need, for example in the address, parameters, headers, or body. Select **Set as variable**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-prompt-v10-21.jpg" alt="Set as variable"/>
+    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-prompt-v10-22.jpg" alt="Set as variable"/>
 
 1. Select **Set as a new variable**.
 
@@ -172,7 +172,7 @@ To define variables at any scope in the request builder, do the following:
 
 1. Enter a **Name**, confirm the **Value** is correct, and select a scope. Select **Set variable**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-modal-v10-21.jpg" alt="Set as variable"/> <!-- TODO: update screenshot -->
+    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-modal-v10-22.jpg" alt="Set as variable"/>
 
 > Remember to delete variables you are no longer using.
 
