@@ -301,7 +301,7 @@ export const leftNavItems = [
         url: '/docs/sending-requests/variables/',
       },
       {
-        name: 'Store secret variables in Postman vault',
+        name: 'Store secrets as variables in Postman vault',
         url: '/docs/sending-requests/postman-vault-variables/',
       },
       {

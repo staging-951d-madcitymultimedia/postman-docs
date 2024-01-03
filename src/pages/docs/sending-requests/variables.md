@@ -124,7 +124,7 @@ Beyond scope, global and environment variables can also be defined by type. The 
 * **Default type** is automatically assigned to variables. This type is shown as plain text and doesn't have extra properties.
 * **Secret type** masks the [initial and current values](#specifying-variable-detail) for all workspace members and can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
 
-    > You can also [define secret variables locally](/docs/sending-requests/postman-vault-variables/) using your Postman vault.
+    > You can also [use your Postman vault to store secrets](/docs/sending-requests/postman-vault-variables/) locally as vault variables. This enables you to store and reuse sensitive data while using Postman.
 
 Users with [Editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to secret type.
 
@@ -158,7 +158,7 @@ Editors can change a variable's initial values, which are shared with collaborat
 
 You can define variables in a variety of ways, depending on if you need [global](#defining-global-variables), [environment](#defining-environment-variables), or [collection](#defining-collection-variables) scope.
 
-> You can also define secret variables locally at the [vault](/docs/sending-requests/postman-vault-variables/) scope using your Postman vault.
+> You can also define variables locally at the [vault](/docs/sending-requests/postman-vault-variables/) scope using your Postman vault. This enables you to store and reuse sensitive data while using Postman.
 
 To define variables at any scope in the request builder, do the following:
 
