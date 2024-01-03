@@ -1423,7 +1423,7 @@ export const leftNavItems = [
         slug: '/docs/administration/domain-verification-and-capture/domain-capture-overview/',
         subMenuItems2: [
           {
-            name: 'Verify and capture domains',
+            name: 'Overview',
             url: '/docs/administration/domain-verification-and-capture/domain-capture-overview/',
           },
           {
