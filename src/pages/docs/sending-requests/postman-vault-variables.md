@@ -3,7 +3,7 @@ title: "Store secrets locally as variables in your Postman vault"
 updated: 2024-01-15
 ---
 
-*Postman vault* enables you to store secrets locally as vault variables and reuse them in Postman. This enables you to securely reuse sensitive data throughout your HTTP collections, requests, and test scripts. Only you can access and reuse vault variables in your Postman vault, and vault variables aren't synced to the Postman cloud.
+*Postman vault* enables you to store secrets locally as vault variables and reuse them in Postman. This enables you to securely reuse sensitive data throughout your HTTP collections and requests. Only you can access and reuse vault variables in your Postman vault, and vault variables aren't synced to the Postman cloud.
 
 You can use your Postman vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/). You can also use your Postman vault from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
@@ -13,6 +13,7 @@ You can use your Postman vault from the [Postman desktop app](/docs/getting-star
 * [Add secrets as vault variables](#add-secrets-as-vault-variables)
 * [Edit variables in your Postman vault](#edit-variables-in-your-postman-vault)
 * [Use secrets stored as variables](#use-secrets-stored-as-variables)
+* [Run collections with vault variables](#run-collections-with-vault-variables)
 * [Fix unresolved vault variables](#fix-unresolved-vault-variables)
 
 ## Access your Postman vault
@@ -30,7 +31,7 @@ To add vault variables from your Postman vault, do the following:
 1. Open your Postman vault.
 1. Enter the following values in an empty row:
 
-    * **Key** - The name of the vault variable. Use the name to [reference the variable](#use-secrets-stored-as-variables) in your HTTP collections, requests, and test scripts.
+    * **Key** - The name of the vault variable. Use the name to [reference the variable](#use-secrets-stored-as-variables) in your HTTP collections and requests.
     * **Value** - The value used when sending requests in your local instance of Postman. It's never synced to your account or shared with your team.
 
         > To show or hide a vault variable's value, hover over the variable and select the eye icon <img alt="Unmask variable icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px">.
@@ -84,18 +85,20 @@ You can reference variables stored in your Postman vault in any of your workspac
 {{vault:api-key}}
 ```
 
-<!-- TODO: add screenshot -->
-
-### Use vault variables in scripts
+<!-- ### Use vault variables in scripts
 
 You can get the current value of a vault variable in your scripts using the following syntax:
 
 ```js
 //access a vault variable in you Postman vault
 pm.variables.get("vault:variable-key");
-```
+``` -->
 
-> Variables stored in your Postman vault are redacted when you log their values to the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
+> Variables stored in your Postman vault are redacted when they're logged to the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
+
+## Run collections with vault variables
+
+You can use the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/) to run collections that reference vault variables. You can learn more about [running collections manually](/docs/collections/running-collections/intro-to-collection-runs/) and [scheduling collection runs](/docs/collections/running-collections/scheduling-collection-runs/).
 
 ## Fix unresolved vault variables
 
