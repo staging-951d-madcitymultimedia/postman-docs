@@ -179,11 +179,18 @@ CORS is enabled for Postman mock servers, so you can stub your web apps with moc
 
 You can view and search the details of calls to your mock servers using the mock call log. To view the call log, select **Mock Servers** in the sidebar and select a mock server.
 
-<img alt="Viewing mock calls" src="https://assets.postman.com/postman-docs/v10/mock-server-call-log-v10.jpg" />
+<img alt="Viewing mock calls" src="https://assets.postman.com/postman-docs/v10/mock-server-call-log-v10-22.jpg" />
 
-The call log displays a list of calls made to the mock server URL. Each entry shows the time the request was sent, the request method and path, and a response overview. Select an entry for more details about the request headers and body or the response headers and body.
+The call log displays a list of calls made to the mock server URL. Each entry shows the time the request was sent, the request method and path, and a response overview.
 
-You can use the search box to find particular calls. Select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to view the most recent requests.
+You can work with the mock server call log in the following ways:
+
+* Enter text in the search box to find particular calls.
+* Select the <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh Logs** to view the most recent requests.
+* Select an entry for more details about the request headers and body or the response headers and body.
+* Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete an entry from the call log.
+* To get a link to the mock server you can share with others, select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy URL**.
+* To view the documentation for the mocked collection, select <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> **View Collection Docs**.
 
 ### Troubleshooting mock calls
 
