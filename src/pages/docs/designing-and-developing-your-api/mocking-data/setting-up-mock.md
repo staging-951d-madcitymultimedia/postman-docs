@@ -186,9 +186,9 @@ The call log displays a list of calls made to the mock server URL. Each entry sh
 You can work with the mock server call log in the following ways:
 
 * Enter text in the search box to find particular calls.
-* Select the <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh Logs** to view the most recent requests.
+* Select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh Logs** to view the most recent requests.
 * Select an entry for more details about the request headers and body or the response headers and body.
-* Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete an entry from the call log.
+* Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to remove an entry from the call log.
 * To get a link to the mock server you can share with others, select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy URL**.
 * To view the documentation for the mocked collection, select <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> **View Collection Docs**.
 
