@@ -40,7 +40,7 @@ A mock server enables you to simulate your API without having to configure a rea
 
 Before you set up a new mock server, create a [collection](/docs/sending-requests/intro-to-collections/) with the API requests you want to mock, then add [saved examples](/docs/sending-requests/examples/) to each request. The examples have the data you want the mock server to return in response to each request.
 
-Once you have your collection, you're ready to [create a new mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). You can then [make calls to the mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#making-requests-to-mock-servers) from Postman or from a client application. The mock server simulates your API's behavior, enabling your to test your API or develop new functionality before your API is production ready.
+Once you have your collection, you're ready to [create a new mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). You can then [make calls to the mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#making-requests-to-mock-servers) from Postman or from a client application. The mock server simulates your API's behavior, enabling you to test your API or develop new functionality before your API is production ready.
 
 > If needed, the mock server can [generate dynamic responses](/docs/designing-and-developing-your-api/mocking-data/creating-dynamic-responses/) using variables and templates, enabling you to better simulate real-world behavior.
 
@@ -48,7 +48,7 @@ Once you have your collection, you're ready to [create a new mock server](/docs/
 
 If you need more help setting up a mock server, follow the step-by-step guide to [mock your API using saved response examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/). You'll learn how to add requests and examples to your collection, then use the collection to configure and use a mock server.
 
-You can also get step-by-step help for [creating mock servers using the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/) if you want to automate mock server creation.
+If you want to automate your mock servers, follow the step-by-step guide to [set up mock servers using the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/). You'll learn how to use the Postman API to mock a collection and get the mock server URL.
 
 ## Learn how Postman mock servers work
 
