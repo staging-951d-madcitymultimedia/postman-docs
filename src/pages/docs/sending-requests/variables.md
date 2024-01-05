@@ -170,7 +170,7 @@ To define variables at any scope in the request builder, do the following:
 
 1. Enter a **Name**, confirm the **Value** is correct, and select a scope. Select **Set variable**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-modal-v10-21.jpg" alt="Set as variable"/>
+    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-modal-v10-21.jpg" alt="Set as variable"/> <!-- TODO: update screenshot to include Postman Vault scope -->
 
 > Remember to delete variables you are no longer using.
 
