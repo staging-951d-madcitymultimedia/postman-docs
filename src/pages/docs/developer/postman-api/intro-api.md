@@ -15,11 +15,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Filtering and Sorting APIs Using the Postman API"
-    url: "https://blog.postman.com/filtering-and-sorting-apis-using-the-postman-api/"
-  - type: link
-    name: "Introducing an API to Access Mock Server Call Logs"
-    url: "https://blog.postman.com/introducing-an-api-to-access-mock-server-call-logs/"
+    name: "Manage your Postman environments with the Postman API"
+    url: "https://blog.postman.com/manage-your-postman-environments-with-the-postman-api/"
   - type: link
     name: "Introducing APIs to Access and Manage Server-Level Responses on a Mock Server"
     url: "https://blog.postman.com/apis-to-access-manage-server-level-responses-mock-server/"
