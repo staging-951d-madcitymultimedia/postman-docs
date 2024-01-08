@@ -49,7 +49,7 @@ To add secrets to your Postman Vault, do the following:
 
 To set data as vault secrets, do the following:
 
-1. Select the data you need, for example in the address, parameters, or headers. Then select **Set as variable**.
+1. Select the data you need, for example in the address, parameters, or headers of a request. Then select **Set as variable**.
 1. Select **+ Set as new variable**.
 
     ![Create new variable](https://assets.postman.com/postman-docs/v10/set-data-as-new-vault-variable-v10-22.jpg)
