@@ -15,9 +15,11 @@ contextual_links:
   - type: link
     name: "Workshop: Mock API Server Responses"
     url: "https://www.youtube.com/live/Adaw475mwTM?feature=share"
-  - type: dynamic_blog
+  - type: subtitle
     name: "Blog posts"
-    blog_tag: "mock-server"
+  - type: link
+    name: "End-to-end testing best practices with Postman mock servers"
+    url: "https://blog.postman.com/end-to-end-testing-best-practices-postman-mock-servers/"
   - type: subtitle
     name: "Case Studies"
   - type: link

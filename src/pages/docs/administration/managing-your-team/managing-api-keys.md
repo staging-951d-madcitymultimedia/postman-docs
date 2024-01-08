@@ -7,8 +7,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Securely manage your team’s Postman API keys"
-    url: "https://blog.postman.com/securely-manage-your-teams-postman-api-keys/"
+    name: "Manage publicly exposed Postman API keys"
+    url: "https://blog.postman.com/manage-publicly-exposed-postman-api-keys/"
 ---
 
 > **[Postman API key management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
