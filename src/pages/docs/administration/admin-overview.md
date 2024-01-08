@@ -1,6 +1,6 @@
 ---
 title: "Administration overview"
-updated: 2023-12-19
+updated: 2024-01-09
 contextual_links:
   - type: section
     name: "Additional resources"
