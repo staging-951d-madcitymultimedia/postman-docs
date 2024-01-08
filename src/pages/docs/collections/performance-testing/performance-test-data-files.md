@@ -40,7 +40,7 @@ To run a performance test with a data file, do the following:
 
     > The data file must be in CSV or JSON format. Learn more about [formatting a data file](#data-file-format).
 
-    <img alt="Selecting a data type for imported data" src="https://assets.postman.com/postman-docs/v10/performance-test-select-data-type-v10-19a.jpg" />
+    <img alt="Selecting a data type for imported data" src="https://assets.postman.com/postman-docs/v10/performance-test-select-data-type-v10-22.jpg" />
 
 1. Postman automatically detects the **Data file type**. If needed, you can select a different file type (CSV or JSON).
 1. Under **VU data mapping**, select how rows in the data file are mapped to virtual users:
@@ -58,7 +58,7 @@ To run a performance test with a data file, do the following:
 
     > You can select the settings icon <img alt="Data file settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> to reconfigure the data file. You can also select a new data file or select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to remove the data file.
 
-    <img alt="Configure a data file" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-data-file-v10-19.jpg" width="548px" />
+    <img alt="Configure a data file" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-data-file-v10-22.jpg" />
 
 1. Select **Run** to run the performance test using the data file. Each VU uses the assigned data from the data file to populate variables when running the requests in the collection.
 

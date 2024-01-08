@@ -70,7 +70,7 @@ To configure a performance test in the Postman desktop app, do the following:
     * You can view real-time performance metrics while the test is running. Learn more about [viewing performance test metrics](/docs/collections/performance-testing/performance-test-metrics/).
     * After the test completes, you can view details for any errors that occurred during the performance test. Learn more about [debugging performance test errors](/docs/collections/performance-testing/performance-test-errors/).
 
-<img alt="Configuring a performance test" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-v10-19.jpg"/>
+<img alt="Configuring a performance test" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-v10-22.jpg"/>
 
 > Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of performance runs you can use each month. A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/billing/resource-usage/#performance-test-limit) in Postman.
 
