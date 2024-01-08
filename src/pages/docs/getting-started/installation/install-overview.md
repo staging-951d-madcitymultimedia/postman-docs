@@ -46,7 +46,7 @@ Postman enables you to customize your user experience by adjusting your UI theme
 
 ## Manage your Postman account
 
-With a free Postman account, you can access your work from different machines and collaborate with others on your API projects. To learn how to sign up, sign in, and manage your Postman account settings, see [Manage your Postman account](/docs/getting-started/installation/postman-account/#upgrading-your-account). Postman ensures your personal data is secure by using encryption and communication over HTTPS and Secure WebSockets.
+With a free Postman account, you can access your work from different machines and collaborate with others on your API projects. To learn how to sign up, sign in, and manage your Postman account settings, see [Manage your Postman account](/docs/getting-started/installation/postman-account/). Postman ensures your personal data is secure by using encryption and communication over HTTPS and Secure WebSockets.
 
 ## Manage your Postman profile
 
