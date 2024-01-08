@@ -7,8 +7,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "GraphQL in Postman Demo"
-    url: "https://youtu.be/7pUbezVADQs"
+    name: "Working with GraphQL APIs in Postman"
+    url: "https://youtu.be/xV2Ujx0iUlw?si=U8moFWv1M22pnrs5"
   - type: link
     name: "GraphQL introspection | Postman Level Up"
     url: "https://youtu.be/k-j3FwTjJkE"
