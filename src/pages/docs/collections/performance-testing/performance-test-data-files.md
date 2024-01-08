@@ -54,7 +54,9 @@ To run a performance test with a data file, do the following:
 
     > If your CSV file has numbers longer than 16 digits, numbers with preceding zeroes (for example, `000000345`), or phone numbers (for example, `+12125556709`), select the **String** data type to prevent values from being truncated.
 
-1. Select **Save** to save the file configuration. If needed, you can select **Configure File** to change any settings. You can also select a new data file or select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to remove the data file.
+1. Select **Continue** when you're done configuring the data file.
+
+    > You can select the settings icon <img alt="Data file settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> to reconfigure the data file. You can also select a new data file or select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to remove the data file.
 
     <img alt="Configure a data file" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-data-file-v10-19.jpg" width="548px" />
 
