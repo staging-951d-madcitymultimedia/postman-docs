@@ -32,7 +32,7 @@ You can also create a new MQTT request by selecting the New Tab icon <img alt="N
 
 ## The MQTT request interface
 
-In the request interface, you can add configuration to connect to an MQTT broker, subscribe to topics, and publish messages. Additionally, you can add last will details, authorization details, custom properties, and settings along with the request.
+In the request interface, you can add configuration to connect to an MQTT broker, subscribe to topics, and publish messages. Additionally, you can add last will details, authorization details, properties, and settings along with the request.
 
   <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-interface-v10.jpg" alt="MQTT interface"/>
 
@@ -41,7 +41,10 @@ In the request interface, you can add configuration to connect to an MQTT broker
     - **MQTT Version** - Every MQTT version has some distinctions in terms of the protocol features. Postman supports two major versions of MQTT: 3.1.1 and 5.0. Version 5.0 is selected by default.
     - **Client ID** - Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. You can override this by selecting **Client ID** and entering a custom client ID.
 - **Message** - This is where you compose and publish messages to the broker. You can write your message in the text area, enter a topic name, and select **Send** to publish the message.
-    - **Properties** - You can add custom properties to your message. These properties are sent along with each message to the broker.
+    - **Properties** - You can define properties to be sent along with each message to the broker. You can add custom properties and these standardized MQTT protocol properties:
+        - Response topic
+        - Correlation data
+        - Topic alias
     - **Message type** - You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to render it correctly.
     - **Topic** - You can define the topic name for the message. The broker uses the topic name to route the message to the appropriate subscribers.
     - **QoS** - Quality of Service (QoS) defines the guarantee of delivery for the message. You can configure the QoS level for the message by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and selecting a QoS level.
