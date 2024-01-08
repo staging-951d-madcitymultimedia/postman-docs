@@ -1092,8 +1092,12 @@ export const leftNavItems = [
       {
         name: 'Develop an API',
         subParentSlug: 'developing-an-api',
-        slug: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
+        slug: '/docs/designing-and-developing-your-api/developing-an-api/develop-an-api/',
         subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/develop-an-api/',
+          },
           {
             name: 'Manage API definitions',
             url: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
@@ -1165,8 +1169,12 @@ export const leftNavItems = [
       {
         name: 'Mock an API',
         subParentSlug: 'mocking-data',
-        slug: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
+        slug: '/docs/designing-and-developing-your-api/mocking-data/mock-an-api/',
         subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/designing-and-developing-your-api/mocking-data/mock-an-api/',
+          },
           {
             name: 'Set up mock servers',
             url: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
