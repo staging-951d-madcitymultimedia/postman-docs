@@ -7,7 +7,7 @@ Microsoft Power Automate enables you to automate workflows between your favorite
 
 You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, back up your Postman Collections, and use a Microsoft Power Automate Webhook URL.
 
-> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor or collection by opening the monitor or collection and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#viewing-or-editing-integrations).
+> **You can view your configured integrations on the [Browse Integrations](https://go.postman.co/integrations/browse) page.** You can also view integrations that have been configured for a monitor or collection by opening the monitor or collection and selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Learn more about [viewing or editing integrations](/docs/integrations/intro-integrations/#view-or-edit-integrations).
 
 ## Contents
 
