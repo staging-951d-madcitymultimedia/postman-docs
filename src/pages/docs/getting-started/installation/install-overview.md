@@ -36,7 +36,7 @@ Postman provides several installation options and enables you to customize your 
 
 You can [install Postman](/docs/getting-started/installation/installation-and-updates) on a number of operating systems including [Windows](/docs/getting-started/installation/installation-and-updates/#install-postman-on-windows), [macOS](/docs/getting-started/installation/installation-and-updates/#install-postman-on-mac), and [Linux](/docs/getting-started/installation/installation-and-updates/#install-postman-on-linux) or use the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app). If you use the Postman web app, for best experience download and install the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent) to take advantage of additional features.
 
-Postman Visual Studio Code extension enables you to test and collaborate on your APIs. You can install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
+The Postman Visual Studio Code extension enables you to test and collaborate on your APIs. You can install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode).
 
 To learn more about updating and troubleshooting your Postman installation, see [Install and update Postman](/docs/getting-started/installation/installation-and-updates).
 
