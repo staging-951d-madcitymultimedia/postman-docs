@@ -54,4 +54,4 @@ A Postman profile helps you organize your work and enables you to share your pub
 
 ## Configure a proxy server
 
-A proxy server prevents others from accessing your internal network. By default, the Postman desktop app uses your system's configured proxy to send API requests or access the internet. But you can configure Postman to use the system proxy or a custom proxy when sending requests. To learn more, see [Configure Postman to use a proxy server](/docs/getting-started/installation/proxy/).
+A proxy server prevents others from accessing your internal network. By default, the Postman desktop app uses your system's configured proxy to send API requests or access the internet. But you can also configure Postman to use the system proxy or a custom proxy when sending requests. To learn more, see [Configure Postman to use a proxy server](/docs/getting-started/installation/proxy/).
