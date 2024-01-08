@@ -84,7 +84,7 @@ To edit vault secrets, select <img alt="Vault icon" src="https://assets.postman.
 
 You can reference vault secrets in your HTTP collections and requests in your Postman team. You can reference vault secrets as the values of your [global](/docs/sending-requests/variables/#defining-global-variables), [environment](/docs/sending-requests/variables/#defining-environment-variables), and [collection](/docs/sending-requests/variables/#defining-collection-variables) variables. You can also use the Collection Runner to [manually run collections](/docs/collections/running-collections/intro-to-collection-runs/) that reference vault secrets.
 
-Use double curly braces and prefix the vault secret's name with `vault:` to reference it throughout your Postman team. For example, to reference a secret named "postman-api-key", use the following syntax:
+Enclose the vault secret in double curly braces (`{{ }}`) and prefix the secret's name with `vault:` to reference it throughout your Postman team. For example, to reference a secret named "postman-api-key", use the following syntax:
 
 ```txt
 {{vault:postman-api-key}}
@@ -107,7 +107,7 @@ pm.variables.get("vault:variable-key");
 
 ## Fix unresolved secrets
 
-An *unresolved vault secret* is a secret that's not defined in the Postman Vault.
+An *unresolved vault secret* is a secret that's not defined in your Postman Vault.
 
 A vault secret can be unresolved for the following reasons:
 
