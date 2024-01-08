@@ -28,7 +28,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/ovo/"
 ---
 
-A mock server enables you to simulate your API without having to configure a real API server. You can use a Postman Collection to set up a mock server. When you send a request to the mock server, Postman returns a real-world response using data from your collection.
+A _mock server_ enables you to simulate your API without having to configure a real API server. You can use a Postman Collection to set up a mock server. When you send a request to the mock server, Postman returns a real-world response using data from your collection.
 
 ## Contents
 
