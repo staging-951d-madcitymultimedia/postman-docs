@@ -7,6 +7,9 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
+    name: "5 ways to set up your Postman team profile for greater success"
+    url: "https://blog.postman.com/5-ways-to-set-up-your-postman-team-profile/"
+  - type: link
     name: "How to publish and market your API to maximize adoption"
     url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
   - type: link

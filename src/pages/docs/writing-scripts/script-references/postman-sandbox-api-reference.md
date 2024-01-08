@@ -10,6 +10,9 @@ contextual_links:
     name: "Use External Libraries | Postman Level Up"
     url: "https://youtu.be/515xUz1rSNQ"
   - type: link
+    name: "Skip Requests | Postman Level Up"
+    url: "https://youtu.be/HSWYbmlmgP0?si=XRBFkDOccqS3v3lt"
+  - type: link
     name: "Data Encryption with CryptoJS"
     url: "https://youtu.be/W_Gj1Q0lEOU"
   - type: subtitle

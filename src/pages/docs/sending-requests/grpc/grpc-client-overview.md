@@ -10,11 +10,8 @@ contextual_links:
     name: "Working with gRPC | The Exploratory"
     url: "https://youtu.be/RbHOs2xchGE"
   - type: link
-    name: "From Zero to Proto - Design and Test a gRPC API"
-    url: "https://youtu.be/EA4eCY0tkpA"
-  - type: link
-    name: "How We Built It: gRPC support"
-    url: "https://youtu.be/XaryQIjm4h0"
+    name: "Testing and Developing gRPC APIs | Postman Intergalactic"
+    url: "https://youtu.be/QpHp1O3C5Zk?si=XZ3x8NYgOu4Kfy8v"
   - type: subtitle
     name: "Blog posts"
   - type: link
