@@ -186,7 +186,7 @@ To write a test with Postbot, do the following:
 1. In the upper right corner of the test editor, select the Postbot icon <img alt="Postbot icon" src="https://assets.postman.com/postman-docs/v10/icon-postbot-v10-16.jpg#icon" width="18px">.
 1. Enter your query as a simple text sentence, or select one of the suggested queries to tell Postbot what you need.
 
-      <img alt="Postbot writing a test" src="https://assets.postman.com/postman-docs/v10/postbot-add-test-v10-16.gif" width="300px" />
+      <img alt="Postbot writing a test" src="https://assets.postman.com/postman-docs/v10/postbot-add-test-v10-21-11-2.gif" />
 
 1. Select the play button. Postbot writes a test for you.
 

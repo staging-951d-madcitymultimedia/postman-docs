@@ -83,11 +83,13 @@ You can use variables to pass data between requests and tests, for example if yo
 
 You can use environments to group sets of variables together and share them with collaborators, for example if you use one set of config details for your production server and another for testing. See [Group sets of variables in Postman using environments](/docs/sending-requests/environments/managing-environments/) for more on how you can incorporate environments into your team workflows.
 
+<!-- You can also [use your Postman Vault to store secrets](/docs/sending-requests/postman-vault-secrets/) locally. Secrets are locally available to reuse in all of your workspaces in your Postman team, and aren't synced to the Postman cloud. This enables you to store and reuse sensitive data while using Postman. -->
+
 ## Variable scopes
 
 Postman supports variables at different scopes, allowing you to tailor your processing to a variety of development, testing, and collaboration tasks. Scopes in Postman relate to the different contexts that your requests run in, and different variable scopes are suited to different tasks.
 
-In order from broadest to narrowest, these scopes are: _global_, _collection_, _environment_, _data_, and _local_.
+In order from broadest to narrowest, these scopes are: _global_, _collection_, _environment_, _data_, and _local_. <!-- TODO: mention the vault scope for Postman Vault -->
 
 * **Global variables** enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Since global variables have the broadest scope available in Postman, they're well-suited for testing and prototyping. In later development phases, use more specific scopes.
 * **Collection variables** are available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. Collection variables are suitable if you're using a single environment, for example for auth or URL details.
@@ -119,6 +121,8 @@ Beyond scope, global and environment variables can also be defined by type. The 
 
 * **Default type** is automatically assigned to variables. This type is shown as plain text and doesn't have extra properties.
 * **Secret type** masks the [initial and current values](#specifying-variable-detail) for all workspace members and can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
+
+<!-- You can also [use your Postman Vault to store secrets](/docs/sending-requests/postman-vault-secrets/) locally. This enables you to store and reuse sensitive data while using Postman. -->
 
 Users with [Editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to secret type.
 
@@ -152,6 +156,8 @@ Editors can change a variable's initial values, which are shared with collaborat
 
 You can define variables in a variety of ways, depending on if you need [global](#defining-global-variables), [environment](#defining-environment-variables), or [collection](#defining-collection-variables) scope.
 
+<!-- You can also define secrets locally at the [vault](/docs/sending-requests/postman-vault-variables/) scope using your Postman Vault. This enables you to store and reuse sensitive data while using Postman. -->
+
 To define variables at any scope in the request builder, do the following:
 
 1. Select the data you need, for example in the address, parameters, headers, or body. Select **Set as variable**.
@@ -164,7 +170,7 @@ To define variables at any scope in the request builder, do the following:
 
 1. Enter a **Name**, confirm the **Value** is correct, and select a scope. Select **Set variable**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-modal-v10-21.jpg" alt="Set as variable"/>
+    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-modal-v10-21.jpg" alt="Set as variable"/> <!-- TODO: update screenshot to include Postman Vault scope -->
 
 > Remember to delete variables you are no longer using.
 

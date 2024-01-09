@@ -15,14 +15,14 @@ contextual_links:
   - type: link
     name: "Super Admin Role for Enterprise | Postman Level Up"
     url: "https://youtu.be/SbvSAvs0Ii8"
-  - type: link
-    name: "Securing APIs | Postman Enterprise"
-    url: "https://youtu.be/tiYgp4QEwZQ"
   - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Managing team members and roles in Postman just got easier"
     url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
+  - type: link
+    name: "Introducing the API-level Admin role for better version management"
+    url: "https://blog.postman.com/introducing-the-api-admin-role-better-version-management/"
   - type: subtitle
     name: "Case Studies"
   - type: link

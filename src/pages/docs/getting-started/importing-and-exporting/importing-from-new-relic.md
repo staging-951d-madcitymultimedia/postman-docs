@@ -15,11 +15,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Postman Essentials: Exploring the Collection Format"
-    url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
-  - type: link
-    name: "Differences between Postman Collections and the collection format"
-    url: "https://blog.postman.com/differences-between-postman-collections-and-collection-format/"
+    name: "Generate Postman Collections from New Relic services"
+    url: "https://blog.postman.com/generate-postman-collections-from-new-relic-services/"
 ---
 > Importing from New Relic is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).
 

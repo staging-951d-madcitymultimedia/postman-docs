@@ -21,11 +21,11 @@ contextual_links:
     name: "What is an API endpoint?"
     url: "https://blog.postman.com/what-is-an-api-endpoint/"
   - type: link
+    name: "What are HTTP methods?"
+    url: "https://blog.postman.com/what-are-http-methods/"
+  - type: link
     name: "What are HTTP headers?"
     url: "https://blog.postman.com/what-are-http-headers/"
-  - type: link
-    name: "First 5 Things to Try If You’re New to Postman"
-    url: "https://blog.postman.com/postman-first-5-things-to-try/"
   - type: subtitle
     name: "Public workspaces"
   - type: link
