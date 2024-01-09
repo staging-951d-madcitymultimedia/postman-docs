@@ -2,7 +2,7 @@
 title: "Store secrets locally in your Postman Vault"
 updated: 2024-01-10
 early_access: true
-plan: alpha
+plan: beta
 ---
 
 *Postman Vault* enables you to store secrets locally and reuse them throughout your Postman workspaces. This enables you to securely reuse sensitive data throughout your HTTP collections, environments, and requests. Only you can access and reuse secrets in your Postman Vault, and secrets aren't synced to the Postman cloud.
