@@ -49,19 +49,19 @@ To add secrets to your Postman Vault, do the following:
 
 To set data as vault secrets, do the following:
 
-1. Select the data you need, for example in the address, parameters, or headers of a request. Then select **Set as variable**.
+1. Select the data you need, for example in the address, parameters, or authorization of a request. Then select **Set as variable**.
 1. Select **+ Set as new variable**.
 
-    ![Create new variable](https://assets.postman.com/postman-docs/v10/set-data-as-new-vault-variable-v10-22.jpg)
+    <img src="https://assets.postman.com/postman-docs/v10/set-data-as-new-vault-secret-v10-22.jpg" alt="Create new variable with vault secret" width="350px"/>
 
 1. Enter the **Name** of the vault secret, confirm that the **Value** is correct, and select **Vault** as the scope.
 1. Select **Set Variable**.
 
-    ![Set as new vault variable](https://assets.postman.com/postman-docs/v10/set-data-as-vault-variable-v10-22.jpg)
+    ![Set as new vault variable](https://assets.postman.com/postman-docs/v10/set-data-as-vault-secret-v10-22.jpg)
 
 From the HTTP request builder, you can also [reference vault secrets](#use-secrets) that don't exist yet, then add new secrets to your Postman Vault. Enter a name that doesn't exist using the following syntax: `{{vault:secret-name}}`. Hover over the unresolved reference to the secret, enter the value, then select **Add Secret**.
 
-![Set as new vault secret](https://assets.postman.com/postman-docs/v10/reference-and-create-new-vault-variable-v10-22.jpg)
+![Set as new vault secret](https://assets.postman.com/postman-docs/v10/reference-and-create-new-vault-secret-v10-22.jpg)
 
 ## Edit secrets
 
