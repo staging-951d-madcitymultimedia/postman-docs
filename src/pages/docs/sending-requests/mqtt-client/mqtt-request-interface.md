@@ -28,35 +28,26 @@ Create a new MQTT request by selecting the **New** button in the sidebar, which 
 
 You can also create a new MQTT request by selecting the New Tab icon <img alt="New Tab icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> in the tabs bar and selecting the **Request type** button next to the request name (Untitled Request) and selecting **MQTT** from the list.
 
-  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-tab-request-v10.jpg" alt="Create a MQTT request with the New Tab  icon" width="200px"/>
+  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-tab-request-v10.jpg" alt="Create a MQTT request with the New Tab icon" width="200px"/>
 
 ## The MQTT request interface
 
 In the request interface, you can add configuration to connect to an MQTT broker, subscribe to topics, and publish messages. Additionally, you can add last will details, authorization details, properties, and settings along with the request.
 
-  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-interface-v10.jpg" alt="MQTT interface"/>
+  <img src="https://assets.postman.com/postman-docs/v10/mqtt-interface-v10-1.jpg" alt="MQTT interface"/>
 
 - **Enter URL** - This is where you enter the broker's address, such as `test.mosquitto.org`. Some MQTT services also require you to define a port number. You can define a port number in the URL by appending the port number to the URL. For example, `test.mosquitto.org:1883`.
     > To connect to the broker over TLS, you need to use `mqtts://` as your URL scheme. For example, `mqtts://test.mosquitto.org`.
     - **MQTT Version** - Every MQTT version has some distinctions in terms of the protocol features. Postman supports two major versions of MQTT: 3.1.1 and 5.0. Version 5.0 is selected by default.
     - **Client ID** - Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. You can override this by selecting **Client ID** and entering a custom client ID.
 - **Message** - This is where you compose and publish messages to the broker. You can write your message in the text area, enter a topic name, and select **Send** to publish the message.
-    - **Properties** - You can define properties to be sent along with each message to the broker. You can add custom properties and these standardized MQTT connection and publish properties:
-        - sessionExpiryInterval
-        - receiveMaximum
-        - maximumPacketSize
-        - topicAliasMaximum
-        - requestResponseInformation
-        - requestProblemInformation
-        - userProperties
-        - payloadFormatIndicator
-        - messageExpiryInterval
-        - topicAlias
-        - responseTopic
-        - correlationData
-        - userProperties
-        - subscriptionIdentifier
-        - contentType
+    - **More actions icon** <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> - You can add custom properties and settings to each message here. Settings include the following:
+        - Topic Alias
+        - Response Topic
+        - Correlation Data
+        - Message Expiry Interval
+        - Content Type
+        - Payload Format Indicator
     - **Message type** - You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to render it correctly.
     - **Topic** - You can define the topic name for the message. The broker uses the topic name to route the message to the appropriate subscribers.
     - **QoS** - Quality of Service (QoS) defines the guarantee of delivery for the message. You can configure the QoS level for the message by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and selecting a QoS level.
