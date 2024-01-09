@@ -41,6 +41,7 @@ In the request interface, you can add configuration to connect to an MQTT broker
     - **MQTT Version** - Every MQTT version has some distinctions in terms of the protocol features. Postman supports two major versions of MQTT: 3.1.1 and 5.0. Version 5.0 is selected by default.
     - **Client ID** - Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. You can override this by selecting **Client ID** and entering a custom client ID.
 - **Message** - This is where you compose and publish messages to the broker. You can write your message in the text area, enter a topic name, and select **Send** to publish the message.
+    - **Message type** - You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to render it correctly.
     - **More actions icon** <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> - You can add custom properties and settings to each message here. Settings include the following:
         - Topic Alias
         - Response Topic
@@ -48,10 +49,9 @@ In the request interface, you can add configuration to connect to an MQTT broker
         - Message Expiry Interval
         - Content Type
         - Payload Format Indicator
-    - **Message type** - You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to render it correctly.
-    - **Topic** - You can define the topic name for the message. The broker uses the topic name to route the message to the appropriate subscribers.
-    - **QoS** - Quality of Service (QoS) defines the guarantee of delivery for the message. You can configure the QoS level for the message by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and selecting a QoS level.
     - **Retain** - Retain is a flag that asks the broker to retain the last message sent on the topic and send it to the new subscribers. The broker will retain the last message even if the new subscribers join the network after the message was sent from the client. You can configure the retain flag for the message by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and toggling the **Retain** switch.
+    - **QoS** - Quality of Service (QoS) defines the guarantee of delivery for the message. You can configure the QoS level for the message by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and selecting a QoS level.
+    - **Add Topic** - You can define the topic name for the message. The broker uses the topic name to route the message to the appropriate subscribers.
     - **Send** - Once you have configured the payload, select **Send** to publish the message to the broker.
 - **Topics** - This is where you can list and document multiple topics, and subscribe to them. You can also configure the QoS level for each topic listed.
 - **Last Will** - Last Will is a message that's sent by the broker to the subscribers when the client disconnects from the broker. You can configure the Last Will message by going to the **Last Will** tab, entering the message, and configuring additional settings such as topic name, QoS level, and retain flag. You can also configure the delay interval by selecting the more actioncs icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and entering the delay interval in milliseconds.
