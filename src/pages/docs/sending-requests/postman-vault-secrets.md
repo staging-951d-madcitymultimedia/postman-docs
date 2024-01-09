@@ -5,7 +5,7 @@ early_access: true
 plan: alpha
 ---
 
-*Postman Vault* enables you to store secrets locally and reuse them throughout your Postman workspaces. This enables you to securely reuse sensitive data throughout your HTTP collections, environments, and requests. Only you can access and reuse vault secrets in your Postman Vault, and secrets aren't synced to the Postman cloud.
+*Postman Vault* enables you to store secrets locally and reuse them throughout your Postman workspaces. This enables you to securely reuse sensitive data throughout your HTTP collections, environments, and requests. Only you can access and reuse secrets in your Postman Vault, and secrets aren't synced to the Postman cloud.
 
 You can use your Postman Vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/). You can also use your Postman Vault from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
@@ -69,11 +69,11 @@ You can edit secrets stored in your Postman Vault by adding new secrets, changin
 
 To edit vault secrets, select <img alt="Vault icon" src="https://assets.postman.com/postman-docs/icons/icon-vault.jpg#icon" width="12px"> **Vault** from the Postman footer. You can take the following actions:
 
-* To filter the list of vault secrets by name, enter text in the **Filter secrets** box.
-* To sort the list of vault secrets, select a column header. You can toggle between ascending and descending order.
-* To add a new vault secrets, select **Add new secret** in the bottom row of the table.
-* To delete a vault secret, hover over a secrets and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
-* To make a vault secret unavailable without deleting it, clear the checkbox next to the secret. Any references to the secret will be unresolved. To make the secret available again, select the checkbox.
+* To filter the list of secrets by name, enter text in the **Filter secrets** box.
+* To sort the list of secrets, select a column header. You can toggle between ascending and descending order.
+* To add a new secret, select **Add new secret** in the bottom row of the table.
+* To delete a secret, hover over a secrets and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
+* To make a secret unavailable without deleting it, clear the checkbox next to the secret. Any references to the secret will be unresolved. To make the secret available again, select the checkbox.
 * Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save any changes you've made.
 
 > If [autosave](/docs/getting-started/installation/settings/#application) is turned on, you must manually save changes to your Postman Vault.
@@ -99,7 +99,7 @@ You can get the current value of a vault variable in your scripts using the foll
 pm.variables.get("vault:variable-key");
 ``` -->
 
-> When you reference a vault secret as the initial value of a variable, the reference to the vault secret (for example `{{vault:secret-name}}`) is synced using Postman's cloud servers, and shared with anyone who has access to the workspace. The secret stored in your Postman Vault isn't synced or shared. Learn more about [initial and current values](/docs/sending-requests/variables/#initial-and-current-values).
+> When you reference a vault secret as the initial value of a variable, the reference to the secret (for example `{{vault:secret-name}}`) is synced using Postman's cloud servers, and shared with anyone who has access to the workspace. The secret stored in your Postman Vault isn't synced or shared. Learn more about [initial and current values](/docs/sending-requests/variables/#initial-and-current-values).
 
 <!-- -->
 
