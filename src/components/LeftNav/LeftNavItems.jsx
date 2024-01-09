@@ -1315,7 +1315,7 @@ export const leftNavItems = [
         slug: '/docs/administration/managing-your-team/managing-your-team/',
         subMenuItems2: [
           {
-            name: 'Team management overview',
+            name: 'Overview',
             url: '/docs/administration/managing-your-team/managing-your-team/',
           },
           {
