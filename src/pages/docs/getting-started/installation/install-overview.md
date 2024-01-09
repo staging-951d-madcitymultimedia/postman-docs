@@ -22,7 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
 ---
 
-Postman provides several installation options and enables you to customize your user experience. With the free Postman account, you can securely access your APIs from different machines and collaborate with others on API design. To scale up your API lifecycle, take advantage of paid Postman plans. You can also set up a proxy server as an additional security barrier.
+Postman provides several installation options and enables you to customize your user experience. With a free Postman account, you can securely access your APIs from different machines and collaborate with others on API design. To scale up your API lifecycle, take advantage of paid Postman plans. You can also set up a proxy server as an additional security barrier.
 
 ## Contents
 
