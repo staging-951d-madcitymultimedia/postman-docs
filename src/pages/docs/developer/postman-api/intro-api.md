@@ -53,6 +53,7 @@ The Postman API supports the following Postman features:
 * [Mock servers](#mock-servers)
 * [Monitors](#monitors)
 * [User and usage data](#user-and-usage-data)
+* [Roles](#roles)
 * [Billing](#billing)
 
 > There are more Postman API endpoints available on Postman [Enterprise and Professional plans only](#apis-for-enterprise-or-professional-plans).
@@ -100,6 +101,14 @@ The [Monitors API](https://www.postman.com/postman/workspace/postman-public-work
 ### User and usage data
 
 The [User API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-c0e35437-9f48-4b8a-a1cc-dcbce8d9d8c6) return information about the API key's owner. You can use it to get data about your API usage and check how many requests you can perform until the end of the month.
+
+### Roles
+
+[Roles](/docs/collaborating-in-postman/roles-and-permissions/) define user permissions within Postman elements, such as workspaces, collections, and APIs. These endpoints enable you to programmatically manage user permissions.
+
+#### Workspace roles
+
+With the [Workspace Roles API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-0ad661ea-2ba2-47f8-929c-044ddaa0ef6a) you can manage user and user group permissions within a specific workspace. You can use these endpoints to help you with onboarding or offboarding, automating role-based workflows, and simplifying compliance and auditing processes by ensuring the right team members have access to sensitive information.
 
 ### Billing
 
