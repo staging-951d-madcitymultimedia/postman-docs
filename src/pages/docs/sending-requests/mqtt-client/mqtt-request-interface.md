@@ -50,7 +50,7 @@ In the request interface, you can add configuration to connect to an MQTT broker
         - Content Type
         - Payload Format Indicator
     - **Retain** - Retain is a flag that asks the broker to retain the last message sent on the topic and send it to the new subscribers. The broker will retain the last message even if the new subscribers join the network after the message was sent from the client. You can configure the retain flag for the message by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and toggling the **Retain** switch.
-    - **QoS** - Quality of Service (QoS) defines the guarantee of delivery for the message. You can configure the QoS level for the message by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and selecting a QoS level.
+    - **QoS** - Quality of Service (QoS) defines the guarantee of delivery for the message. You can configure the QoS level for the message by selecting a QoS level from the dropdown list.
     - **Add Topic** - You can define the topic name for the message. The broker uses the topic name to route the message to the appropriate subscribers.
     - **Send** - Once you have configured the payload, select **Send** to publish the message to the broker.
 - **Topics** - This is where you can list and document multiple topics, and subscribe to them. You can also configure the QoS level for each topic listed.
