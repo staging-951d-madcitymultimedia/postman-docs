@@ -21,28 +21,20 @@ contextual_links:
 
 > **[Groups are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-With Postman groups, you can arrange users into groups that reflect your organizational structure. You can add users to a group, then assign that group roles and access to the resources they'll be using across Postman. You can also efficiently onboard new team members by adding them to existing groups in your organization, instantly giving them access to the elements they'll be working on. Groups enable you to broadly control access from a single dashboard in Postman and manage it at scale across your Enterprise team.
+With Postman groups, you can arrange users into groups that reflect your organizational structure. You can add users to a group, then assign that group roles and access to the resources they'll be using across Postman. You can also efficiently onboard new team members by adding them to existing groups in your organization, instantly giving them access to the elements they'll be working on. Groups enable you to control access from a single dashboard in Postman and manage it at scale across your Enterprise team.
 
 [Admins and Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create, manage, and delete groups. [Developers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can also create, manage, and delete Developer-only groups.
 
 ## Contents
 
 * [Creating a group](#creating-a-group)
-
 * [Managing a group](#managing-a-group)
-
     * [Managing members of a group](#managing-members-of-a-group)
-
     * [Managing group managers](#managing-group-managers)
-
     * [Managing access control for a group](#managing-access-control-for-a-group)
-
         * [Editing team roles for a group](#editing-team-roles-for-a-group)
-
         * [Managing roles on workspaces and Postman elements](#managing-roles-on-workspaces-and-postman-elements)
-
     * [Editing details for a group](#editing-details-for-a-group)
-
 * [Deleting a group](#deleting-a-group)
 
 ## Creating a group
