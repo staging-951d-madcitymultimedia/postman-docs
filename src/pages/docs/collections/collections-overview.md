@@ -23,7 +23,7 @@ contextual_links:
 
 A _Postman Collection_ is a set of API endpoints or requests, along with each endpoint's authorization type, parameters, headers, request bodies, tests, and settings grouped under the same collection ID.
 
-A collection allows you to group requests with different method types (for example `GET`, `POST`, `DELETE`, and `PUT`) and organize them into folders or subfolders. You can share collections with team members, as well as import and export them into other Postman instances.
+A collection enables you to group requests with different method types (for example `GET`, `POST`, `DELETE`, and `PUT`) and organize them into folders or subfolders. You can share collections with team members, as well as import and export them into other Postman instances.
 
 The _Collection Format_ is the specification that drives collections in Postman. It's:
 
