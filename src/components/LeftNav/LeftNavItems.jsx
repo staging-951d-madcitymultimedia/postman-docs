@@ -1246,7 +1246,7 @@ export const leftNavItems = [
         slug: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
         subMenuItems2: [
           {
-            name: 'Share with Run in Postman',
+            name: 'Run in Postman overview',
             url: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
           },
           {
