@@ -44,7 +44,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Quick Help](#quick-help)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10-4.jpg"/> <!-- TODO: update screenshot with Postman Vault in footer -->
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10-21-11.jpg"/> <!-- TODO: update screenshot with Postman Vault in footer -->
 
 ## Header
 
@@ -161,7 +161,7 @@ To open a new tab, select __+__ in the workbench.
 
 > You can also select **⌘+T** or **Ctrl+T** to open a new tab.
 
-<img alt="Open a new tab" src="https://assets.postman.com/postman-docs/v10/open-new-tab-v10-2.jpg" width="225px"/>
+<img alt="Open a new tab" src="https://assets.postman.com/postman-docs/v10/open-new-tab-v10-21-11.jpg" width="216px"/>
 
 If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
 
@@ -175,21 +175,21 @@ If a tab has unsaved changes, Postman displays a dot next to the tab name. Selec
 
 To rename an element, select the element's name and enter a new name.
 
-<img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10-4.jpg" width="223px"/>
+<img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10-21-11.jpg" width="212px"/>
 
 To copy a link to an element, hover over the element's name in the workbench to display the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">. Select the link icon to copy the element's URL to your clipboard.
 
-<img alt="Copy link to elements" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-v10-3.jpg" width="213px"/>
+<img alt="Copy link to elements" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-v10-21-11.jpg" width="215px"/>
 
 If the element is in a personal workspace that no one can access, a popup window will display when you select the link icon. The popup window enables you to invite people to your personal workspace before sharing the link. To invite people to your personal workspace, select **Invite People**. To learn more about inviting people to collaborate in a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-<img alt="Invite people before sharing link to element" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-invite-v10-2.jpg" width="322px"/>
+<img alt="Invite people before sharing link to element" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-invite-v10-21-11.jpg" width="332px"/>
 
 #### Viewing conflicts
 
-A tab will alert you to a conflict if you or a collaborator changes its contents in another tab or workspace. Postman prompts you to resolve any conflicts that happen.
+If you are making changes to the same request in two different tabs, before you can save the changes, the tab alerts you to a conflict. Selecting the tab displays a message that the request was modified since the last time you opened the tab. By selecting **Save**, you can either override the previous change or save the request as a new one.
 
-<img alt="Tab displaying a conflict" src="https://assets.postman.com/postman-docs/v10/tab-conflict-v10.jpg" width="212px"/>
+<img alt="Tab displaying a conflict" src="https://assets.postman.com/postman-docs/v10/tab-conflict-v10-21-11.jpg" width="247px"/>
 
 #### Managing tabs
 
@@ -204,7 +204,7 @@ To manage your open tabs, right-click the open tab to activate a menu with actio
 * **Close All Tabs** - Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close All Tabs** - Closes all tabs without saving any changes.
 
-<img alt="Manage tabs using the actions menu" src="https://assets.postman.com/postman-docs/v10/manage-tabs-v10.jpg" width="265px"/>
+<img alt="Manage tabs using the actions menu" src="https://assets.postman.com/postman-docs/v10/manage-tabs-v10-21-11.jpg" width="235px"/>
 
 > **Closing unsaved tabs.** You can set whether Postman asks you to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**. Under **General > Request**, select **Always ask when closing unsaved tabs** to turn this option on or off.
 
@@ -216,7 +216,7 @@ If you have a lot of tabs open, they might overflow the area of the tab bar. To 
 
 To search open tabs or access recently closed tabs, select the tab search dropdown list.
 
-<img alt="Search tabs" src="https://assets.postman.com/postman-docs/v10/tab-search-v10.jpg" width="303px"/>
+<img alt="Search tabs" src="https://assets.postman.com/postman-docs/v10/tab-search-v10-21-11.jpg" width="301px"/>
 
 #### Browser tabs in the Postman web app
 
