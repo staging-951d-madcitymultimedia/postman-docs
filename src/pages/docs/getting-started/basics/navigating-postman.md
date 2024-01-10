@@ -44,27 +44,27 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Quick Help](#quick-help)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10-21-11.jpg"/> <!-- TODO: update screenshot with Postman Vault in footer -->
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-v10-21-12.jpg"/> <!-- TODO: update screenshot with Postman Vault in footer -->
 
 ## Header
 
 The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/billing/buying/).
 
-<img alt="Postman header left side" src="https://assets.postman.com/postman-docs/postman-desktop-app-header-v10.10.jpg" width="350px"/>
-
 * **&#8592; &#8594;** - _(Available on the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/))_ Navigate backward and forward through pages you've visited within Postman.
+
+  <img alt="Postman header left side" src="https://assets.postman.com/postman-docs/v10/postman-desktop-app-header-v10-21-11.jpg" width="369px"/>
+
 * **Home** - Go to your personal home page, which includes your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) if applicable.
 * **Workspaces** - Search for workspaces, view your recently visited workspaces, or [create a new workspace](/docs/getting-started/first-steps/creating-your-first-workspace/).
 * **API Network** - Explore the [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
-* **Explore** - Browse public APIs, teams, workspaces, and collections on Postman.
-
-<img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/v10/navigating-postman-search-v10.jpg">
-
 * <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, requests, APIs, Flows, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
 
-<img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="300px"/>
+  <img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/v10/navigating-postman-search-v10.jpg">
 
 * **Invite** - If you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) on a workspace, you can invite other users to collaborate.
+
+  <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="300px"/>
+
 * <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings** - Access [Postman settings](/docs/getting-started/installation/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications** - View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
 * **Your avatar** - View your profile, access your [account and notification settings](/docs/getting-started/installation/postman-account/), see all active sessions for your account, or sign out of your account.
