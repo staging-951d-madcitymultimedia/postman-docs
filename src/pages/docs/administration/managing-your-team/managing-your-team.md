@@ -37,8 +37,8 @@ Use formatting techniques such as headings, bullet points, and short paragraphs 
 
 ## Contents
 
-* [](#)
-    * [](#)
+<!-- * [](#)
+    * [](#) -->
 
 ## Setting up your team
 
@@ -53,7 +53,6 @@ Once you've created your Postman team, check out Postman's [onboarding checklist
 ## Manage team roles
 
 ## Manage team workspaces-->
-
 
 ## Managing your team’s Postman plan
 
