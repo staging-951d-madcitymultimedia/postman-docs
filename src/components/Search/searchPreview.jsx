@@ -7,7 +7,6 @@ const { v4: uuidv4 } = require('uuid');
 
 // Custom Search Box Widget
 //////////////////////////////////////////////////////////////////////////////
-
 const SearchBox = ({ query, refine }) => (
   <div className="ais-SearchBox">
     <form noValidate action="" role="search" className="ais-SearchBox-form test">
@@ -41,6 +40,7 @@ const Hits = ({ hits }) => {
   return (
     // if parent component set is type, render, otherwise hide
     <ul className="algolia-result-style">
+      {console.log(filteredHits)}
       {filteredHits.map((hit) => {
         // handles develop and prod Algolia index
         const excerpt = hit._snippetResult && hit._snippetResult.excerpt.value ? hit._snippetResult.excerpt.value : hit.excerpt

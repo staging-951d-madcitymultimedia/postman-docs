@@ -28,6 +28,7 @@ const pageQuery = `{
         frontmatter {
           title
           search_keyword
+          early_access
         }
         fields {
           slug
@@ -52,6 +53,7 @@ const queries = [
           
           const chunks = pChunks.map((chnk, index) => ({
             objectID: post.id + '-' + index,
+            earlyAccess: post.frontmatter.earlyAccess,
             headings: post.headings,
             slug: post.fields.slug,
             title: post.frontmatter.title,
