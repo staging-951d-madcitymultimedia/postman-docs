@@ -267,7 +267,9 @@ Add a JSON Schema for each of the following to your JSON object:
 ```json
   {
     // JSON Schema of the targetVal parameter
-    input: null,
+    input: {
+      type: "string"
+    },
     // JSON Schema of the options parameter
     options: {
       type: "object",
@@ -305,7 +307,9 @@ export default createRulesetFunction(
 // module.exports = createRulesetFunction(
   {
     // JSON Schema of the targetVal parameter
-    input: null,
+    input: {
+      type: "string"
+    },
     // JSON Schema of the options parameter
     options: {
       type: "object",
@@ -335,14 +339,16 @@ You can use the [official JSON Schema documentation](https://json-schema.org/lea
 
 The following examples show JSON Schema key-value pairs you can use to validate your custom function's options:
 
-* `$.options` - The root object that contains the JSON Schema of your custom function's options.
+* `$.options` - The root object that contains the JSON Schema of the [`options` parameter](#spectral-function-parameters), which is your custom function's options.
 * `$.options.type` - A validation keyword that defines a constraint on the JSON data. In this example, the value is `object`, meaning the data must be a JSON object.
 * `$.options.properties` - An object whose values define the parameter used to pass options to your custom function. In this example, `values` is a variable that stores the value of the [`options` parameter](#spectral-function-parameters).
 * `$.options.required` - A validation keyword that's an array of strings containing keys from `$.options.properties`. Add properties to the array if they must be defined in the JSON Schema. In this example, `values` must be defined in the JSON Schema.
 
 ```json
   {
-    input: null,
+    input: {
+      type: "string"
+    },
     options: {
       type: "object",
       additionalProperties: false,
@@ -364,7 +370,7 @@ The following custom function named `notInEnumeration` is in a file named `not_i
 
 The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using the [`then.functionOptions` property](#spectral-rule-properties). The value of `values` is a list of numeric strings. If `targetVal` is a value already in the list, the rule violation is triggered.
 
-After the custom function, `export default` or `module.exports` references the custom function's name. This exports the custom function so the rule can add it using the [`then.function` property](#spectral-rule-properties).
+After the custom function, `export default` or `module.exports` references the custom function's name. This exports the custom function, enabling you to add its filename to your rule using the [`then.function` property](#spectral-rule-properties).
 
 ```js
 // filename: not_in_enumeration
@@ -394,7 +400,9 @@ Before the custom function, the [`createRulesetFunction` Spectral function](#cre
 
 The custom function checks the value of the option `values`, which is defined in the [Spectral document](#example-rule-that-uses-a-custom-function) (or ruleset) using the [`then.functionOptions` property](#spectral-rule-properties). The value of `values` is a list of numeric strings. If `targetVal` is a value already in the list, the rule violation is triggered.
 
-After the custom function, `export default` or `module.exports` calls the `createRulesetFunction` Spectral function and includes the following arguments: a JSON object containing JSON Schemas of the `targetVal` parameter and `options` parameter, and the custom function's name. This exports the custom function so the rule can add it using the [`then.function` property](#spectral-rule-properties).
+After the custom function, `export default` or `module.exports` calls the `createRulesetFunction` Spectral function and includes the following arguments: a JSON object containing JSON Schemas of the `targetVal` parameter and `options` parameter, and the custom function's name. This exports the custom function, enabling you to add its filename to your rule using the [`then.function` property](#spectral-rule-properties).
+
+> Learn more about the [JSON Schemas used in this example](#json-schema-examples).
 
 ```js
 // filename: not_in_enumeration
@@ -421,7 +429,9 @@ export default createRulesetFunction(
 // module.exports = createRulesetFunction(
   {
     // JSON Schema of the targetVal parameter
-    input: null,
+    input: {
+      type: "string"
+    },
     // JSON Schema of the options parameter
     options: {
       type: "object",
@@ -441,7 +451,7 @@ export default createRulesetFunction(
 
 ### Example: Rule that uses a custom function
 
-The following Spectral document has a rule named `http-status-obsolete` that uses a custom function file named `not_in_enumeration`, which is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function). The custom function file contains a custom function named `notInEnumeration`. The [custom function file](#example-checking-that-a-value-isnt-in-a-list) is added to the rule using the [`then.function` property](#spectral-rule-properties).
+The following Spectral document has a rule named `http-status-obsolete` that uses a custom function file named `not_in_enumeration`, which is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function). The custom function file contains a custom function named `notInEnumeration`. The [custom function filename](#example-checking-that-a-value-isnt-in-a-list) is added to the rule using the [`then.function` property](#spectral-rule-properties).
 
 The custom function accepts options using the [`then.functionOptions` property](#spectral-rule-properties), defining a property named `values` that's a list of numeric strings. The value of `then.functionOptions.values` is passed to the custom function `notInEnumeration`. The custom function then checks whether a rule violation occurred at the `given` path appended with the value of the [`then.field` property](#spectral-rule-properties).
 
@@ -450,7 +460,7 @@ rules:
   http-status-obsolete:
     formats: [oas2, oas3]
     severity: warn
-    message: "{{property}} is an obsoleted or unused HTTP status code"
+    message: "{{property}} is an obsolete or unused HTTP status code"
     given: $.paths.*.*.responses
     then:
       field: "@key"
