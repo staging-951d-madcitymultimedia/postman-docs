@@ -39,4 +39,3 @@ If you're getting started with collections for the first time, learn how to [Cre
 After you've created collections, you can learn more about how to manage and use them in [Create and manage request collections in Postman](/docs/collections/using-collections/).
 
 You'll also learn how the _Collection Runner_ enables you to run a collection's requests in a specified sequence. You can run collections manually, on a schedule, from a monitor, from a webhook, or in your CI/CD pipeline by running it from the command line. See [Using the Collection Runner](/docs/collections/running-collections/running-collections-overview/) for more information.
-
