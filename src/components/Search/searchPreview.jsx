@@ -7,7 +7,6 @@ const { v4: uuidv4 } = require('uuid');
 
 // Custom Search Box Widget
 //////////////////////////////////////////////////////////////////////////////
-
 const SearchBox = ({ query, refine }) => (
   <div className="ais-SearchBox">
     <form noValidate action="" role="search" className="ais-SearchBox-form test">
