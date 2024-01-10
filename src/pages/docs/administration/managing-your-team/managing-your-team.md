@@ -1,6 +1,6 @@
 ---
 title: "Team management overview"
-updated: 2023-06-08
+updated: 2024-01-09 
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -21,7 +21,19 @@ contextual_links:
 
 > **[Some team options are only available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
-Postman provides a variety of options to customize your team's experience, from the initial setup to ongoing team and plan management. As a Team Admin, you can streamline the onboarding process for your team, manage access control, and keep your team up to date with the latest version of Postman.
+Postman provides a variety of tools you can use to set up, manage, and secure your team. As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can streamline the onboarding process, manage access to workspaces and products, and customize your team's experience to align with your organization's goals.
+
+<!--
+
+Make sure to offer immediate value to readers in the overview. This could be in the form of a solution to a common problem, a brief explanation of a concept, or a preview of what readers can expect from the rest of the documentation.
+
+Write a clear and concise overview that provides a succinct introduction to the topic. Use simple language and avoid unnecessary technical jargon, especially in the beginning.
+
+Integrate long-tail keywords into your overview naturally. These specific phrases can help your content rank higher in searches for more niche topics. A relevant long-tail keyword for a Postman feature could be "Postman API testing tutorial for beginners" or "How to automate API testing with Postman." These keywords target users who are specifically interested in learning about API testing using Postman and indicate that the content will be focused on providing guidance, tutorials, or tips for beginners in this context.
+
+Incorporate relevant internal and external links.
+
+Use formatting techniques such as headings, bullet points, and short paragraphs in a way that enables easier scanning. -->
 
 ## Contents
 
@@ -36,12 +48,18 @@ Once you've created your Postman team, check out Postman's [onboarding checklist
 
 ### Inviting users
 
-### Managing team roles -->
+### Managing team roles 
+
+## Manage team roles
+
+## Manage team workspaces-->
 
 
 ## Managing your team’s Postman plan
 
 You can manage your team size or upgrade your plan at any time during your team's billing cycle.
+
+For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
 
 ### Changing team size
 
