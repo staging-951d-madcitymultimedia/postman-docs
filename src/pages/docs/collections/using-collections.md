@@ -20,11 +20,7 @@ contextual_links:
     blog_tag: "collections"
 ---
 
-You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
-
-Select **Collections** in the sidebar for the list of collections in a workspace.
-
-<img alt="" src="https://assets.postman.com/postman-docs/v10/collections-overview-v10.jpg" width="300px"/>
+Learn how to create and manage collections, use collections in development workflows, take advantage of collection templates, and save multi-protocol requests into collections.
 
 ## Contents
 
