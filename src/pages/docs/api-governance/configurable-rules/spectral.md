@@ -451,7 +451,7 @@ export default createRulesetFunction(
 
 ### Example: Rule that uses a custom function
 
-The following Spectral document has a rule named `http-status-obsolete` that uses a custom function file named `not_in_enumeration`, which is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function). The custom function file contains a custom function named `notInEnumeration`. The [custom function filename](#example-checking-that-a-value-isnt-in-a-list) is added to the rule using the [`then.function` property](#spectral-rule-properties).
+The following Spectral document has a rule named `http-status-obsolete` that uses a custom function file named `not_in_enumeration`, which is defined using the **Name** field when you [create a custom function](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/#adding-a-custom-function). The custom function file contains a custom function named `notInEnumeration`. The custom function filename is added to the rule using the [`then.function` property](#spectral-rule-properties).
 
 The custom function accepts options using the [`then.functionOptions` property](#spectral-rule-properties), defining a property named `values` that's a list of numeric strings. The value of `then.functionOptions.values` is passed to the custom function `notInEnumeration`. The custom function then checks whether a rule violation occurred at the `given` path appended with the value of the [`then.field` property](#spectral-rule-properties).
 
