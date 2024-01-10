@@ -53,7 +53,7 @@ const queries = [
           
           const chunks = pChunks.map((chnk, index) => ({
             objectID: post.id + '-' + index,
-            earlyAccess: post.frontmatter.earlyAccess,
+            earlyAccess: post.frontmatter.early_access,
             headings: post.headings,
             slug: post.fields.slug,
             title: post.frontmatter.title,
