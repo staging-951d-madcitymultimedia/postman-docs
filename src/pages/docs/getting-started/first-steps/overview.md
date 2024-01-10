@@ -1,6 +1,6 @@
 ---
 title: "Your first steps with Postman"
-updated: 2023-07-26
+updated: 2024-01-10
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -35,8 +35,8 @@ contextual_links:
     url:  "https://academy.postman.com/path/api-beginner"
 ---
 
-Welcome to Postman! This section of the Learning Center contains a quick guide on how to first get started with the Postman app.
+Follow this quick guide to get started using Postman. You'll learn how to install the Postman app, send an API request, write your first test, and save requests in a collection. You'll also learn about working with your team in Postman and discovering APIs on the Public API Network.
 
-In this section, you'll learn how to get the Postman app, send an API request, write your first test, and save requests to a Postman Collection. You'll also learn about working with your team in Postman and using the Public API Network.
+When you're ready to begin, select **Download** in the navigation at left. Postman recommends going through each of the topics in this section in order. Make sure to sign up for a free Postman account when directed so you can save your work.
 
-After you've learned the basics, find out how to [take your next steps in Postman](/docs/getting-started/first-steps/next-steps/).
+> You can also use the arrows at the bottom of this page to move between topics.
