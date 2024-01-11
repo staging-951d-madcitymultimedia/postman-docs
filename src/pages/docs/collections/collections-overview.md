@@ -32,7 +32,7 @@ Postman Collections are based on the open source _collection format_ that makes 
 
 ## Get started using collections
 
-To learn more about the format, see the [Postman Collection Format documentation](https://learning.postman.com/collection-format/).
+To learn more about the collection format, see the [Postman Collection Format documentation](https://learning.postman.com/collection-format/).
 
 If you're getting started with collections for the first time, learn how to [Create your first collection](/docs/getting-started/first-steps/creating-the-first-collection/).
 
