@@ -49,11 +49,11 @@ The following are the high-level steps involved when designing and developing yo
 
 To view and work with APIs, select **APIs** in the sidebar. From here, you can open and edit any existing APIs, or create or import new APIs. Use the arrows to expand an API in the sidebar and view the API's definition files and linked elements.
 
-<img src="https://assets.postman.com/postman-docs/v10/api-builder-sidebar-v10-1.jpg" alt="API Builder sidebar" width="382px" />
+<img src="https://assets.postman.com/postman-docs/v10/api-builder-sidebar-v10-21-1.jpg" alt="API Builder sidebar" width="382px" />
 
 When you select an API in the sidebar, the workbench displays an overview of the API. The overview displays a description of the API, tags associated with the API ([Enterprise plans](https://www.postman.com/pricing)), any linked collections, and the API's published versions. The overview also provides quick access to tasks, such as connecting to a Git repository, adding tests, observing API performance, and viewing deployments.
 
-![API Builder overview](https://assets.postman.com/postman-docs/v10/api-builder-overview-v10-3.jpg)
+![API Builder overview](https://assets.postman.com/postman-docs/v10/api-builder-overview-v10-21-1.jpg)
 
 The right sidebar offers more options for working with your API. You can view comments, generate server code from your API definition, and view the API's changelog.
 
