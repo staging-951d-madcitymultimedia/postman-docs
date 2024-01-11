@@ -107,8 +107,12 @@ export const leftNavItems = [
       {
         name: 'Postman basics',
         subParentSlug: '/docs/getting-started/basics/',
-        slug: '/docs/getting-started/basics/navigating-postman/',
+        slug: '/docs/getting-started/basics/postman-basics/',
         subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/getting-started/basics/postman-basics/',
+          },
           {
             name: 'The Postman interface',
             url: '/docs/getting-started/basics/navigating-postman/',
@@ -181,7 +185,7 @@ export const leftNavItems = [
         slug: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
         subMenuItems2: [
           {
-            name: 'Data import and export',
+            name: 'Overview',
             url: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
           },
           {
