@@ -225,6 +225,20 @@ Runs all of the blocks that come after it once for each item in the input list u
 
 ## Action blocks
 
+### Create with AI
+
+<img alt="Create AI block" src="https://assets.postman.com/postman-docs/v10/create-with-ai-block-v10.jpg" width="295px"/>
+
+Transforms incoming data and generates text, images, or JSON objects using prompts and Artificial Intelligence.
+
+**variable** - This input accepts data from other blocks and enables you to assign it to a variable. Select the **Add data blocks** icon <img alt="Add data blocks icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to add more variables as data blocks. The **Create with AI** block can reference these variables.
+
+**Mode selection dropdown list** - Select **Text**, **Image**, or **JSON** to specify the type of data you want to create. Select **Smart** to let the **Create with AI** block automatically recognize the type of data you are asking for.
+
+**Text entry block** - Enter and test AI prompts here.
+
+**Output** - Sends data from the **Create with AI** block. The icon next to this port changes depending on which mode is selected. It shows **Aa** for Text, **?** for Image, and **()** for JSON.
+
 ### Delay
 
 <img alt="Delay block" src="https://assets.postman.com/postman-labs-docs/all-blocks/delay-block.png" width="212px"/>
