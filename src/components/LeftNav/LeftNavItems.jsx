@@ -1461,8 +1461,12 @@ export const leftNavItems = [
   {
     name: 'Billing',
     parentSlug: 'billing',
-    url: '/docs/billing/billing/',
+    url: '/docs/billing/billing-overview/',
     subMenuItems1: [
+      {
+        name: 'Overview',
+        url: '/docs/billing/billing-overview/',
+      },
       {
         name: 'Manage billing',
         url: '/docs/billing/billing/',
