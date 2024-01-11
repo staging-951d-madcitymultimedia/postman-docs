@@ -35,9 +35,9 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/aa5fb3b8-0090-4b5e-b3b4-fa5c1f2d080d"
 ---
 
-Postman's runtime is based on Node.js and lets you add dynamic behavior to requests and collections. You can use pre-request and test scripts to write API tests, build requests that can contain dynamic parameters, pass data between requests, and more.
+Postman's runtime is based on [Node.js](https://nodejs.org/en/about) and lets you add dynamic behavior to requests and collections. You can use pre-request and test scripts to write API tests, build requests that can contain dynamic parameters, pass data between requests, and more.
 
-Pre-request and test scripts execute asynchronously. This enables you to execute multiple scripts without waiting for the previous one to complete. If you'd like scripts to execute in sequence, you can use a callback function.
+Pre-request and test scripts execute asynchronously. This enables you to execute multiple scripts without waiting for the previous script to complete. If you'd like scripts to execute in sequence, you can use a callback function.
 
 ## Contents
 
@@ -54,7 +54,7 @@ You can add JavaScript code to execute during two events in the flow:
 
 Postman will prompt you with suggestions as you enter text. Select one to autocomplete your code.
 
-![Script autocomplete](https://assets.postman.com/postman-docs/autocomplete-v8.gif)
+![Script autocomplete](https://assets.postman.com/postman-docs/v10/autocomplete-v10-21-3.gif)
 
 You can add pre-request and test scripts to a collection, a folder, a request within a collection, or a request not saved to a collection.
 
@@ -65,7 +65,7 @@ In Postman, the script execution order for a single request looks like this:
 * A pre-request script associated with a request will execute before the request is sent
 * A test script associated with a request will execute after the request is sent
 
-![workflow for single request](https://assets.postman.com/postman-docs/req-resp.jpg)
+![Workflow for single request](https://assets.postman.com/postman-docs/req-resp.jpg)
 
 For every request in a collection, scripts will execute in the following order:
 
@@ -80,11 +80,11 @@ For every request in a collection, the scripts will always run according to the 
 
 For example, imagine you had the following collection structured with a single folder and two requests within the folder.
 
-![Console log statement](https://assets.postman.com/postman-docs/console-log-statement-v8.jpg)
+![Console log statement](https://assets.postman.com/postman-docs/v10/console-log-statement-v10-21-1.jpg)
 
 If you created log statements in the pre-request and test script sections for the collection, folder, and requests, the execution order is returned in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
 
-![Logs in the Console](https://assets.postman.com/postman-docs/logs-in-console-v8.jpg)
+![Logs in the Console](https://assets.postman.com/postman-docs/v10/logs-in-console-v10-21-1.jpg)
 
 ### How it works
 
