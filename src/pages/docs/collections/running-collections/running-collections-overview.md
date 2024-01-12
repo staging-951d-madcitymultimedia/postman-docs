@@ -14,7 +14,7 @@ contextual_links:
     blog_tag: "monitors"
 ---
 
-You can run Postman collections to test and interact with your APIs. A collection can be a group of saved [requests](/docs/getting-started/first-steps/sending-the-first-request/), a [workflow](/docs/collections/running-collections/building-workflows/), or a [test suite](/docs/writing-scripts/test-scripts/). Postman enables you to run collections in several ways:
+You can run Postman collections to test and interact with your APIs. In Postman, a collection can be a group of saved [requests](/docs/getting-started/first-steps/sending-the-first-request/), a [workflow](/docs/collections/running-collections/building-workflows/), or a [test suite](/docs/writing-scripts/test-scripts/). Postman enables you to run your collections in the following ways:
 
 * You can [run collections manually](/docs/collections/running-collections/intro-to-collection-runs/), with the Collection Runner. This is useful when you're sending a small number of requests and you don't need to repeat them many times.
     * You can also run collections manually in the [Postman VS Code extension](/docs/getting-started/basics/about-vs-code-extension/), enabling you to run collections in the same application you use to develop your APIs.
