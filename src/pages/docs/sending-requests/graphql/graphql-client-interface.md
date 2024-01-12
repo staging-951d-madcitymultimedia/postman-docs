@@ -44,7 +44,7 @@ The GraphQL client interface has three main sections:
 * The response section
 * The right sidebar
 
-![Different sections of a GraphQL request](https://assets.postman.com/postman-docs/v10/graphql-request-full-view-v10-4.jpg)
+![Different sections of a GraphQL request](https://assets.postman.com/postman-docs/v10/graphql-request-full-view-v10-22.jpg)
 
 > If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
@@ -59,11 +59,11 @@ The GraphQL client interface has three main sections:
 
 In the GraphQL client's request section, you can enter an endpoint in the URL field as you would in the regular Postman request interface. But the GraphQL client adds GraphQL-specific features, including an interactive schema explorer.
 
-<img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10-20-9.jpg" alt="The request section">
+<img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10-22-1.jpg" alt="The request section">
 
 * **Protocol dropdown list** - Change the protocol for a new request. Select the protocol dropdown list then select a request protocol.
 
-    <img src="https://assets.postman.com/postman-docs/v10/change-protocol-v10-20.jpg" alt="Change protocol" width="432"/>
+    <img src="https://assets.postman.com/postman-docs/v10/change-protocol-v10-22.jpg" alt="Change protocol" width="256"/>
 
     > You can't change the request protocol after you save the request.
 
