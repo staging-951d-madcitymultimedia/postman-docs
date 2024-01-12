@@ -22,17 +22,17 @@ contextual_links:
     url: "https://blog.postman.com/api-governance-improvements/"
 ---
 
-> [Configurable API governance and API security rules are available on Postman Enterprise plans.](https://www.postman.com/pricing)
+> **[Configurable API governance and API security rules are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-You can customize the API Governance and Security rules that Postman applies to your API definitions and requests. Postman will show rule violations to team members, enabling you to keep APIs consistent and secure in your team.
+You can customize the API Governance and Security rules that Postman applies to your API definitions and requests. Postman notifies team members if their API definitions and requests violate the configured governance and security rules. This enables team members to keep APIs consistent and secure in your team.
+
+<img alt="API governance dashboard" src="https://assets.postman.com/postman-docs/v10/api-governance-dashboard-v10.jpg"/>
 
 ## Contents
 
 * [Configure governance rules](#configure-governance-rules)
 * [Configure security rules](#configure-security-rules)
 * [Custom governance rule and function guidelines](#custom-governance-rule-and-function-guidelines)
-
-<!-- <img alt="API governance dashboard" src="https://assets.postman.com/postman-docs/v10/api-governance-dashboard-v10.jpg"/> -->
 
 ## Configure governance rules
 
@@ -46,4 +46,8 @@ You can [configure API Security rules](/docs/api-governance/configurable-rules/c
 
 ## Custom governance rule and function guidelines
 
-Postman supports Spectral for custom governance and security rules, and custom governance functions. You can learn how to [write custom governance and security rules using Spectral](/docs/api-governance/configurable-rules/spectral/#how-spectral-works) and configure [Spectral rule properties](/docs/api-governance/configurable-rules/spectral/#spectral-rule-properties). You can also learn how to [write custom governance functions using Spectral](/docs/api-governance/configurable-rules/spectral/#spectral-custom-functions), and use custom functions in your custom governance rules.
+Postman supports [Spectral](/docs/api-governance/configurable-rules/spectral/) for custom governance and security rules, and custom governance functions. For more information about using Spectral in Postman, see the following:
+
+* Learn how to [write custom governance and security rules using Spectral](/docs/api-governance/configurable-rules/spectral/#how-spectral-works) and configure [Spectral rule properties](/docs/api-governance/configurable-rules/spectral/#spectral-rule-properties).
+
+* Learn how to [write custom governance functions using Spectral](/docs/api-governance/configurable-rules/spectral/#spectral-custom-functions) and use them in your custom governance rules.
