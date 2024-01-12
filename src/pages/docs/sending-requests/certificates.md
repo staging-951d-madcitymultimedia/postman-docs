@@ -17,6 +17,8 @@ To connect to an API that uses Mutual TLS (mTLS), you need to add a client certi
 
 You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that's registered with an internal certificate registry, requests sent from Postman will fail with a "self signed certificate" error. Adding a custom CA certificate will enable you to send requests to the endpoint without needing to [turn off SSL verification](#troubleshooting-certificate-errors).
 
+> If you're using the Postman web app to add and manage certificates, you must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
+
 ## Contents
 
 * [Managing certificates](#managing-certificates)
