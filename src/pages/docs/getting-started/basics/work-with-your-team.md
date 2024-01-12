@@ -7,14 +7,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to Postman | Part 1: Send a Request"
-    url: "https://youtu.be/2oOSnxZ28fA"
-  - type: link
-    name: "How to use an API? | Intro to APIs Part 2"
-    url:  "https://youtu.be/woRuedXZyi4"
-  - type: link
-    name: "Postman Student Programs - Finding the right API for the job"
-    url:  "https://youtu.be/d6abDKrGFYU"
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/NwT062tYvzs?si=9skVeEglybbE8nyG"
   - type: subtitle
     name: "Blog posts"
   - type: link

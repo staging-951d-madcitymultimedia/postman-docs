@@ -1,6 +1,14 @@
 ---
 title: "View reports about public workspaces on the Public API Network"
 updated: 2023-12-15
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Blog posts"
+  - type: link
+    name: "Announcing public workspace metrics"
+    url: "https://blog.postman.com/announcing-public-workspace-metrics/"
 ---
 
 > [**The Public workspace metrics report is available on all Postman plans.**](https://www.postman.com/pricing)

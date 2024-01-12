@@ -10,14 +10,17 @@ contextual_links:
   - type: link
     name: "Install the Postman VS Code Extension | Postman Level Up"
     url: "https://youtu.be/-UuC4rpe0Nk"
+  - type: link
+    name: "Postman's VS Code Extension"
+    url: "https://youtu.be/T79fxJzfgrM?si=1PIN6QaedaLo69Z_"
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Introducing the Postman VS Code extension"
-    url: "https://blog.postman.com/introducing-the-postman-vs-code-extension/"
-  - type: link
     name: "The Postman VS Code extension is now in early access with new features"
     url: "https://blog.postman.com/postman-vs-code-extension-early-access-with-new-features/"
+  - type: link
+    name: "Run collections in the Postman VS Code extension"
+    url: "https://blog.postman.com/run-collections-in-postman-vs-code-extension/"
 ---
 
 > **[The Postman VS Code extension is available on Free, Basic, and Professional plans.](https://www.postman.com/pricing/)**
@@ -27,7 +30,7 @@ The Postman VS Code extension enables you to develop and test your APIs in Postm
 The VS Code extension enables you to:
 
 * Create and send HTTP, raw WebSocket, and gRPC requests.
-* Import collections exported from Postman, and import requests from cURL commands.
+* Import collections and environments exported from Postman, and import requests from cURL commands.
 * Write and view collection documentation.
 * Edit and send requests from a workspace's request history.
 * Create cookies and send them with requests.
