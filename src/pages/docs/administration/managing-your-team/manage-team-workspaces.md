@@ -30,8 +30,6 @@ Postman provides a variety of options to customize your team's experience, from 
 
 * [Manage your team's workspaces](#manage-your-teams-workspaces)
 
-## Manage your team's workspaces
-
 ## Manage your team workspaces
 
 > **[Workspace management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**

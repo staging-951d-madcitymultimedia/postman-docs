@@ -28,13 +28,12 @@ Postman provides a variety of options to customize your team's experience, from 
 
 ## Contents
 
-* [Manage your team's product access](#manage-your-teams-product-access)
-    * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
-    * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
-
+* [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
+* [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
+<!-- 
 ## Manage your team's product access
 
-The [product access dashboard](https://go.postman.co/settings/team/products-access) enables you to manage which team members can access your team's products: Postbot and Enterprise solutions.
+The [product access dashboard](https://go.postman.co/settings/team/products-access) enables you to manage which team members can access your team's products: Postbot and Enterprise solutions. -->
 
 ### Manage your team's access to Postbot
 
