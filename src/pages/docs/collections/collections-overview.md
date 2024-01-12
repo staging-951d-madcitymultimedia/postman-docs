@@ -1,5 +1,5 @@
 ---
-title: "Postman Collections overview"
+title: "Organize and automate API requests in Postman Collections"
 updated: 2024-01-10
 contextual_links:
   - type: section
