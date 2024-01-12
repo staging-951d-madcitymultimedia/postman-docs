@@ -1,6 +1,6 @@
 ---
 title: "Manipulate data in FQL"
-updated: 2023-03-29
+updated: 2024-01-12
 contextual_links:
   - type: section
     name: "Additional resources"
