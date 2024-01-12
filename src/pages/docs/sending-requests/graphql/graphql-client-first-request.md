@@ -56,7 +56,7 @@ This example creates and executes a GraphQL query using the schema explorer.
 1. Enter your age and name in the input boxes next to `age` and `name` or in the query editor.
 1. Select **Query**.
 
-    ![GraphQL request with a single query](https://assets.postman.com/postman-docs/v10/graphql-single-query-v10-20.jpg)
+    ![GraphQL request with a single query](https://assets.postman.com/postman-docs/v10/graphql-single-query-v10-22.jpg)
 
 ## Create a GraphQL request with multiple queries
 
@@ -74,7 +74,7 @@ This request has multiple queries and executes them one at a time. To execute on
 
 1. Select anywhere in the second query and select **Query**.
 
-    ![GraphQL request with multiple queries](https://assets.postman.com/postman-docs/v10/graphql-multi-query-v10-20-1.jpg)
+    ![GraphQL request with multiple queries](https://assets.postman.com/postman-docs/v10/graphql-multi-query-v10-22.jpg)
 
     You can also use the **Query** button dropdown list to browse and select queries from a request with multiple queries.
 
