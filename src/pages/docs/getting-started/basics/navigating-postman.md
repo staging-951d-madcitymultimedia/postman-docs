@@ -63,7 +63,7 @@ The header enables you to create workspaces, access reports, explore the public 
 
 * **Invite** - If you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) on a workspace, you can invite other users to collaborate.
 
-  <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="300px"/>
+  <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.19.2.jpg" width="310px"/>
 
 * <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings** - Access [Postman settings](/docs/getting-started/installation/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications** - View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
