@@ -23,6 +23,53 @@ contextual_links:
 
 Postman provides a variety of tools you can use to set up, manage, and secure your team. As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can streamline the onboarding process, manage access to workspaces and products, and customize your team's experience to align with your organization's goals.
 
+> If you've just created your Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to get started.
+
+## Contents
+
+* [Manage team members](#manage-team-members)
+* [Manage team workspaces](#manage-team-workspaces)
+* [Manage product access](#manage-product-access)
+* [Manage team settings](#manage-team-settings)
+* [Secure your Postman team](#secure-your-postman-team)
+
+## Manage team members
+
+You can [invite collaborators](/docs/administration/managing-your-team/manage-team-members/#inviting-users) to your Postman team, including Developers, Admins, external partners, and Guests. You can [update users' assigned roles](/docs/administration/managing-your-team/manage-team-members/#managing-team-roles) and manage their access to resources as needed.
+
+If you're setting up an [Enterprise team](https://www.postman.com/pricing/), you can utilize [Postman groups](https://learning.postman.com/docs/collaborating-in-postman/user-groups/) to assign roles and manage access to elements at scale. 
+
+## Manage team workspaces
+
+[Team workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) enable you to share projects with collaborators and manage access to them within your team. 
+
+If you're setting up a [Professional or Enterprise team](https://www.postman.com/pricing/), you can also create [private workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/). A private workspace is a team workspace that is only visible to the user who created it and team members who have been invited to join it.
+
+If you're setting up an [Enterprise team](https://www.postman.com/pricing/), you can also [manage which users can create team workspaces](/docs/administration/managing-your-team/manage-team-workspaces/). 
+
+## Manage product access
+
+You can [manage access](/docs/administration/managing-your-team/manage-team-product-access/) to add-on products and Enterprise solutions that you've purchased for your team. This enables you to provide additional permissions and features to team members as needed.
+
+## Manage team settings
+
+/docs/administration/managing-your-team/team-settings/
+
+## Secure your Postman team
+
+
+<!-- 
+## Secure your Postman team
+
+Depending on your [plan](https://www.postman.com/pricing), you can secure your team's user accounts by setting up and using the following:
+
+* [SSO](/docs/administration/sso/intro-sso/)
+* [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/)
+* [Domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/)
+* [Postman API key management](/docs/administration/managing-your-team/managing-api-keys/)
+* [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/)
+* [Audit logs](/docs/administration/managing-your-team/audit-logs/)
+ -->
 <!--
 
 Make sure to offer immediate value to readers in the overview. This could be in the form of a solution to a common problem, a brief explanation of a concept, or a preview of what readers can expect from the rest of the documentation.
@@ -34,45 +81,3 @@ Integrate long-tail keywords into your overview naturally. These specific phrase
 Incorporate relevant internal and external links.
 
 Use formatting techniques such as headings, bullet points, and short paragraphs in a way that enables easier scanning. -->
-
-## Contents
-
-<!-- * [](#)
-    * [](#) -->
-
-## Setting up your team
-
-Once you've created your Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to set up your team.
-<!-- 
-## Managing team members
-
-### Inviting users
-
-### Managing team roles 
-
-## Manage team roles
-
-## Manage team workspaces-->
-
-## Managing your team’s Postman plan
-
-You can manage your team size or upgrade your plan at any time during your team's billing cycle.
-
-For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
-
-### Changing team size
-
-If you want to change your team's size, you have two different options:
-
-* **Change the number of paid seats** - Team members with the Billing role can change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
-* **Turn on Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/billing/billing/#using-auto-flex).
-
-For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
-
-### Upgrading your plan
-
-Team members with the Billing role can upgrade your team plan in the [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/billing/billing/#changing-your-plan).
-
-## Updating your team’s Postman version
-
-If your team isn't on the latest version of the desktop app, you can update your team to ensure everyone has access to the complete Postman API development experience.
