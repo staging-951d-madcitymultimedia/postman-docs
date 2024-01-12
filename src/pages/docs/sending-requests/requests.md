@@ -33,7 +33,7 @@ For example, if you're building a client application (such as a mobile or web ap
 
 When you send a request, Postman displays the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
-<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-3.jpg" />
+<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10-21-11.jpg" />
 
 If you have never sent a request before, check out [sending your first request](/docs/getting-started/first-steps/sending-the-first-request/) before you continue.
 
@@ -69,7 +69,7 @@ Select **Save** to create your request. You can give your request a name and des
 
 Once your new tab is open, you can specify the details you need for your request.
 
-<img alt="New Request" src="https://assets.postman.com/postman-docs/v10/empty-request-v10-2.jpg" />
+<img alt="New Request" src="https://assets.postman.com/postman-docs/v10/empty-request-v10-21-11.jpg" />
 
 > You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
@@ -85,7 +85,7 @@ You can change the protocol for a new request. Select **New** in the sidebar and
 
 > You can't change the request protocol after you select **Save**.
 
-<img alt="Select protocol" src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-4.gif" />
+<img alt="Select protocol" src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-21-11.gif" />
 
 ### Setting request URLs
 
@@ -138,7 +138,7 @@ To send a query parameter, add it directly to the URL or open __Params__ and ent
 
 To send a path parameter, enter the parameter name into the URL field, after a colon, for example `:id`. When you enter a path parameter, Postman will populate it in the __Params__ tab, where you can also edit it.
 
-![Path Parameter](https://assets.postman.com/postman-docs/v10/path-param-v10.jpg)
+![Path parameter](https://assets.postman.com/postman-docs/v10/path-param-v10-21-11.jpg)
 
 You can add descriptions to your parameters and they'll appear for anyone sharing the request (for example in your workspace) or viewing your API documentation.
 
@@ -171,7 +171,7 @@ You can also attach a file using form data and send it with your request. Select
 
 You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](#upload-files-for-shared-requests-and-cloud-runs).
 
-![Add form data](https://assets.postman.com/postman-docs/v10/request-form-data-v10-21.jpg)
+![Add form data](https://assets.postman.com/postman-docs/v10/request-form-data-v10-21-11.jpg)
 
 #### URL-encoded
 
@@ -183,7 +183,7 @@ URL-encoded data uses the same encoding as URL parameters. If your API requires 
 
 You can use raw body data to send anything you can enter as text. Use the __raw__ tab, and the type dropdown list to indicate the format of your data (__Text__, __JavaScript__, __JSON__, __HTML__, or __XML__) and Postman will enable syntax-highlighting and appending the relevant headers to your request.
 
-<img alt="Body JSON" src="https://assets.postman.com/postman-docs/v10/body-raw-data-v10-2.jpg" />
+<img alt="Body JSON" src="https://assets.postman.com/postman-docs/v10/body-raw-data-v10-21-11.jpg" />
 
 > You can set a content type header manually if you need to override the one Postman sends automatically.
 
@@ -201,7 +201,7 @@ Select the file you want to send with the request. You can select a file from yo
 
 You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](#upload-files-for-shared-requests-and-cloud-runs).
 
-![Add binary data](https://assets.postman.com/postman-docs/v10/request-binary-data-v10-21.jpg)
+![Add binary data](https://assets.postman.com/postman-docs/v10/request-binary-data-v10-21-12.jpg)
 
 #### GraphQL
 
@@ -213,7 +213,7 @@ Check out [Using GraphQL](/docs/sending-requests/graphql/graphql-overview/) for 
 
 Some APIs require auth details you can send in Postman. Authentication involves confirming the identity of the client sending a request, and authorization involves confirming that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
 
-![Request Auth](https://assets.postman.com/postman-docs/v10/authorization-tab-v10-2.jpg)
+![Request Auth](https://assets.postman.com/postman-docs/v10/authorization-tab-v10-21-12.jpg)
 
 Postman will automatically include your auth details in the relevant part of the request, for example in __Headers__.
 
@@ -225,7 +225,7 @@ Once your auth and other request details are set up, select __Send__ to run your
 
 Some APIs require you to send particular headers along with requests, typically to provide more metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you enter text, Postman prompts you with common options you can use to autocomplete your setup, such as `Content-Type`.
 
-![Header Types](https://assets.postman.com/postman-docs/v10/presets-v10-2.jpg)
+![Header types](https://assets.postman.com/postman-docs/v10/presets-v10-21-11.jpg)
 
 > You can save commonly used headers together in a header preset. In the __Headers__ tab, select __Presets__, and choose __Manage Presets__. Add each preset by providing a name, and entering the key plus value. Select __Add__ and your preset will be available in the __Presets__ dropdown list. Selecting the preset will autopopulate the fields in your request headers.
 
@@ -233,17 +233,17 @@ Some APIs require you to send particular headers along with requests, typically 
 
 Postman will automatically add certain headers to your requests based on your request selections and settings. Select __hidden__ at the top of the headers tab for information about what Postman will send with your request.
 
-<img alt="Hidden Headers" src="https://assets.postman.com/postman-docs/hidden-headers-button.jpg" width="400px"/>
+<img alt="Hidden headers" src="https://assets.postman.com/postman-docs/hidden-headers-button.jpg" width="400px"/>
 
 Hover over a header for details about it. Postman will indicate why the header has been added. The detail will indicate how to deactivate or override a header value if you need to.
 
-<img alt="Host Header" src="https://assets.postman.com/postman-docs/autogenerated-host-header-v9.jpg" width="350px"/>
+<img alt="Host header" src="https://assets.postman.com/postman-docs/autogenerated-host-header-v9.jpg" width="350px"/>
 
 > Deactivating or overriding recommended headers may make your request behave unexpectedly.
 
 If you need to change a header, you can do so in the relevant part of Postman, for example the __Authorization__ tab, the request __Body__, __Cookies__ for the request domain, the __Settings__, and in some cases directly in the __Headers__ tab itself.
 
-![Token Header](https://assets.postman.com/postman-docs/v10/headers-added-v10-2.jpg)
+![Token header](https://assets.postman.com/postman-docs/v10/headers-added-v10-21-12.jpg)
 
 If you need to go to a different part of the app, Postman will show a link on the right-hand side.
 
@@ -281,18 +281,18 @@ To upload a file to your Postman team, do the following:
 1. Select **form-data** or **binary** depending on the type of data you want to send with the request.
 1. If you're attaching form data, select **File** in the dropdown list next to a key name.
 
-    ![Select the form data file option](https://assets.postman.com/postman-docs/v10/test-data-file-option-v10-21.jpg)
+    ![Select the form data file option](https://assets.postman.com/postman-docs/v10/test-data-file-option-v10-21-11.jpg)
 
 1. Select the test data file you want to use for the request:
 
     * To use a local file, select **+ New file from local machine**. Select a file and select **Open**. Supported file types are CSV, JSON, and binary.
     * To use a file that was uploaded before, select the file in the list. You can use any file uploaded by a member of your team. To search for a file, start typing the file name.
 
-    ![Select a test data file](https://assets.postman.com/postman-docs/v10/test-data-select-file-v10-21.jpg)
+    ![Select a test data file](https://assets.postman.com/postman-docs/v10/test-data-select-file-v10-21-12.jpg)
 
 1. To upload a file, select the upload icon <img alt="Upload icon" src="https://assets.postman.com/postman-docs/icons/icon-upload-file.jpg#icon" width="26px"> next to the file and select **Upload**. Uploaded files can't exceed 5 MB in size.
 
-    ![Upload a test data file](https://assets.postman.com/postman-docs/v10/test-data-upload-file-v10-21.jpg)
+    ![Upload a test data file](https://assets.postman.com/postman-docs/v10/test-data-upload-file-v10-21-12.jpg)
 
 After uploading the file, other team members can send the request without needing to place a copy of the file in their local working directory. Instead, the request will use the uploaded file. Also, the uploaded file is used if the request is sent from a monitor or a scheduled collection run.
 
