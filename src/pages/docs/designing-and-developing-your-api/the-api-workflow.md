@@ -22,7 +22,7 @@ contextual_links:
 
 Postman supports [API-first development](https://www.postman.com/api-first/) with the API Builder. You can use the API Builder to [design your API](https://www.postman.com/api-platform/api-design/) in Postman before [developing](/docs/designing-and-developing-your-api/developing-an-api/develop-an-api/) it. Your API definition can then act as the single source of truth for your API project.
 
-With the API Builder, you can connect various Postman elements of your [API development lifecycle](https://www.postman.com/api-platform/api-lifecycle/) to your API definition, such as collections, documentation, and tests. You can also [integrate your API](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) in Postman with a Git repository, such as GitHub, GitLab, or Azure DevOps.
+With the API Builder, you can connect various Postman elements of your [API development lifecycle](https://www.postman.com/api-platform/api-lifecycle/) to your API definition, such as collections, documentation, and tests. You can also [integrate your API](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) in Postman with a Git repository, such as GitHub, GitLab, Bitbucket, or Azure DevOps.
 
 > **The maximum number of API objects you can create in the API Builder is determined by your Postman plan. [Learn more about what's included with each plan](https://www.postman.com/pricing/).**
 
