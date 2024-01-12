@@ -1053,7 +1053,7 @@ $map(input.payments[].amount,$string)
 <tr>
 <td>Result</td>
 <td>
-$map(input.payments[].amount,$string)
+["110.48", "24.49", "110.48", "35.56"]
 </td>
 </tr>
 </tbody>
