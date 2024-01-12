@@ -171,7 +171,7 @@ You can also attach a file using form data and send it with your request. Select
 
 You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](#upload-files-for-shared-requests-and-cloud-runs).
 
-![Add form data](https://assets.postman.com/postman-docs/v10/request-form-data-v10-21-11.jpg)
+![Add form data](https://assets.postman.com/postman-docs/v10/request-form-data-v10-22.jpg)
 
 #### URL-encoded
 
@@ -201,7 +201,7 @@ Select the file you want to send with the request. You can select a file from yo
 
 You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](#upload-files-for-shared-requests-and-cloud-runs).
 
-![Add binary data](https://assets.postman.com/postman-docs/v10/request-binary-data-v10-21-12.jpg)
+![Add binary data](https://assets.postman.com/postman-docs/v10/request-binary-data-v10-22.jpg)
 
 #### GraphQL
 

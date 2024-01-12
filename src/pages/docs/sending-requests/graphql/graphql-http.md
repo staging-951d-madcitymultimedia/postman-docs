@@ -56,14 +56,14 @@ Postman has built-in support for [sending GraphQL queries in the request body](#
 1. Enter your GraphQL query in the **Query** editor. The editor enables you to write and edit queries and variables separately.
 1. Select **Send**.
 
-    ![Select the GraphQL body type](https://assets.postman.com/postman-docs/v10/graphql-http-query-v10-20.jpg)
+    <img alt="Select the GraphQL body type" src="https://assets.postman.com/postman-docs/v10/graphql-http-query-v10-22-1.jpg" />
 
 ### Use GraphQL variables
 
 1. Enter your GraphQL variables in the **GraphQL variables** editor.
 1. In the **Query** editor, declare the GraphQL variable in your query. For more information on how to use GraphQL variables, see the [GraphQL variables documentation](https://graphql.org/learn/queries/#variables).
 
-    ![Using GraphQL variables](https://assets.postman.com/postman-docs/v10/graphql-http-variables-v10-20.jpg)
+    ![Using GraphQL variables](https://assets.postman.com/postman-docs/v10/graphql-http-variables-v10-22.jpg)
 
 > You can also [use Postman variables](/docs/sending-requests/variables/) as data inputs for GraphQL variables using `{{variable}}` syntax.
 
@@ -96,7 +96,7 @@ To import a GraphQL schema into your request manually, do the following:
 1. Under the **Body** tab, select the **raw** body type. Choose **JSON** from the format dropdown list.
 1. Construct your query in the request body using proper JSON formatting.
 
-    ![GraphQL JSON request body](https://assets.postman.com/postman-docs/v10/graphql-http-json-body-v10-20.jpg)
+    ![GraphQL JSON request body](https://assets.postman.com/postman-docs/v10/graphql-http-json-body-v10-22.jpg)
 
 ## Use a GraphQL content type header
 
@@ -110,7 +110,7 @@ To import a GraphQL schema into your request manually, do the following:
 1. Under the **Body** tab, select the **raw** body type. Choose **Text** from the format dropdown list.
 1. Build your query in the request body using standard GraphQL formatting.
 
-    ![GraphQL query request body](https://assets.postman.com/postman-docs/v10/graphql-http-content-type-body-v10-20-1.jpg)
+    ![GraphQL query request body](https://assets.postman.com/postman-docs/v10/graphql-http-content-type-body-v10-22.jpg)
 
 ## Import the query as a cURL request
 
