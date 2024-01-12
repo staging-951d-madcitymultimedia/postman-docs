@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Exploring Postbot | Postman Level Up"
+    url: "https://youtu.be/fdmdgIRheR0?si=-fKgL5SyAbYdSyNq"
+  - type: subtitle
     name: "Blog posts"
   - type: link
     name: "Introducing Postbot, Postman’s new AI assistant"

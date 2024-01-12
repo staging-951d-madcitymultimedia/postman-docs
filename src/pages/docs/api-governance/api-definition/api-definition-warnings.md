@@ -15,8 +15,8 @@ contextual_links:
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Introducing API Security in Postman v10"
-    url: "https://blog.postman.com/introducing-api-security-in-postman-v10/"
+    name: "The 3 fundamental checks of API governance rules"
+    url: "https://blog.postman.com/3-checks-api-governance-rules/"
   - type: subtitle
     name: "Public workspaces"
   - type: link

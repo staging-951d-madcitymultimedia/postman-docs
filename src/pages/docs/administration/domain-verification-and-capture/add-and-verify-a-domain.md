@@ -19,7 +19,7 @@ When you verify your organization's domain, it removes the friction of adding us
 
 Without a verified domain, individual accounts that you invite to your team are given the option to join or dismiss the invite. If they choose to join, they're also required to reauthenticate prior to accessing the team.
 
-> Learn more about the [benefits of enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#why-should-my-organization-enable-domain-capture-in-postman).
+> Learn more about the [benefits of enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#benefits-of-enabling-domain-capture).
 
 ## Contents
 
