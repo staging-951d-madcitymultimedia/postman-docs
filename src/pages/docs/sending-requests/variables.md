@@ -436,6 +436,6 @@ To set a variable that's unresolved because it doesn't exist, do the following:
 1. Enter a **Name**, set a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
 1. Select **Set variable**.
 
-   <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/v10/set-unresolved-variable-v10-22.jpg" width="300px"/>
+   <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/v10/set-unresolved-variable-v10-22.jpg" width="338px"/>
 
 > Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
