@@ -30,6 +30,7 @@ Postman provides a variety of options to customize your team's experience, from 
 
 * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
 * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
+
 <!-- 
 ## Manage your team's product access
 
