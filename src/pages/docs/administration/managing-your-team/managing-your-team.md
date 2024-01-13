@@ -30,7 +30,7 @@ Postman provides a variety of tools you can use to set up, manage, and secure yo
 * [Manage team members](#manage-team-members)
 * [Manage team workspaces](#manage-team-workspaces)
 * [Manage product access](#manage-product-access)
-* [Manage team settings](#manage-team-settings)
+* [Configure team settings](#configure-team-settings)
 * [Secure your Postman team](#secure-your-postman-team)
 
 ## Manage team members
@@ -51,33 +51,17 @@ If you're setting up an [Enterprise team](https://www.postman.com/pricing/), you
 
 You can [manage access](/docs/administration/managing-your-team/manage-team-product-access/) to add-on products and Enterprise solutions that you've purchased for your team. This enables you to provide additional permissions and features to team members as needed.
 
-## Manage team settings
+## Configure team settings
 
-/docs/administration/managing-your-team/team-settings/
+You can manage a variety of settings in your [team settings dashboard](/docs/administration/managing-your-team/team-settings/#accessing-team-settings). From the dashboard, you can configure items such as your team's [profile](/docs/administration/managing-your-team/team-settings/#managing-your-team-profile), [discoverability](/docs/administration/managing-your-team/team-settings/#making-your-team-discoverable), [custom domains](/docs/administration/managing-your-team/team-settings/#adding-custom-domains), and [authentication methods](/docs/administration/managing-your-team/team-settings/#editing-authentication-methods). 
 
 ## Secure your Postman team
 
+Depending on your [plan](https://www.postman.com/pricing), you can secure your team's data and user accounts by using the following:
 
-<!-- 
-## Secure your Postman team
-
-Depending on your [plan](https://www.postman.com/pricing), you can secure your team's user accounts by setting up and using the following:
-
-* [SSO](/docs/administration/sso/intro-sso/)
-* [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/)
-* [Domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/)
 * [Postman API key management](/docs/administration/managing-your-team/managing-api-keys/)
 * [Secret Scanner](/docs/administration/managing-your-team/secret-scanner/)
 * [Audit logs](/docs/administration/managing-your-team/audit-logs/)
- -->
-<!--
-
-Make sure to offer immediate value to readers in the overview. This could be in the form of a solution to a common problem, a brief explanation of a concept, or a preview of what readers can expect from the rest of the documentation.
-
-Write a clear and concise overview that provides a succinct introduction to the topic. Use simple language and avoid unnecessary technical jargon, especially in the beginning.
-
-Integrate long-tail keywords into your overview naturally. These specific phrases can help your content rank higher in searches for more niche topics. A relevant long-tail keyword for a Postman feature could be "Postman API testing tutorial for beginners" or "How to automate API testing with Postman." These keywords target users who are specifically interested in learning about API testing using Postman and indicate that the content will be focused on providing guidance, tutorials, or tips for beginners in this context.
-
-Incorporate relevant internal and external links.
-
-Use formatting techniques such as headings, bullet points, and short paragraphs in a way that enables easier scanning. -->
+* [SSO](/docs/administration/sso/intro-sso/)
+* [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/)
+* [Domain verification and capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/)
