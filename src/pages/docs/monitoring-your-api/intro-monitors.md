@@ -1,6 +1,6 @@
 ---
 title: "Monitor health and performance of your APIs in Postman"
-updated: 2023-03-20
+updated: 2024-01-16
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -38,30 +38,33 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
 ---
 
-Postman Monitors give you [continuous visibility into the health and performance of your APIs](https://www.postman.com/api-platform/api-observability/). Collection-based monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows.
+*Postman Monitors* enable you to [continuously check the health and performance of your APIs](https://www.postman.com/api-platform/api-observability/). You can create collection-based monitors that run requests in selected collections. Requests can run API test scripts, chain together multiple requests, and more. You can also schedule how often Postman runs monitored collections.
 
-Once the monitor is running you’ll be alerted to any test failures, so you can identify and address issues before your API’s consumers are affected.
+You’ll be alerted to any test failures once the monitor is running, so you can identify and address issues before your API’s consumers are affected.
 
 ## Contents
 
-* [Collection-based monitors](#collection-based-monitors)
+* [Use collection-based monitors](#use-collection-based-monitors)
+* [Monitor FAQs](#monitor-faqs)
 * [Monitor use cases](#monitor-use-cases)
-* [Comparing monitors and collection runs](#comparing-monitors-and-collection-runs)
-* [Next steps](#next-steps)
 
-## Collection-based monitors
+## Use collection-based monitors
 
-A collection-based monitor runs a series of requests from the Postman cloud on a schedule you set. When creating a monitor, you choose a [collection](/docs/sending-requests/intro-to-collections/) with the requests you want to run. These can be basic requests that indicate whether an endpoint is up and reachable. More complex collections can make use of [chained requests](https://www.youtube.com/watch?v=shYn3Ys3ygE), [test scripts](/docs/writing-scripts/test-scripts/), and [environment variables](/docs/sending-requests/environments/managing-environments/) to validate API responses and functionality.
+You can [set up collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/), enabling you to run a series of requests from the Postman cloud based on a schedule. When creating a monitor, you choose a [collection](/docs/sending-requests/intro-to-collections/) with the requests you want to run. You can learn more about [use cases for collection-based monitors](#monitor-use-cases).
 
-You can configure your monitors to run as often as you would like, depending on your [Postman plan](https://www.postman.com/pricing/). For paid plans, monitors can be scheduled to run as often as every five minutes. For free plans, monitors can be scheduled to run as often as every hour. If you are on a Postman paid plan, you can even specify which region of the world you’d like to run the collection from.
+Depending on your [plan](https://www.postman.com/pricing), you can [configure monitors to run from static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/). This enables you to monitor APIs that are behind a restricted firewall.
 
-Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or inspect trends over time.
+You can [view results for collection-based monitors](/docs/monitoring-your-api/viewing-monitor-results/) to learn more about the monitors you're running. You can also [manage your team's monitor usage](/docs/monitoring-your-api/monitor-usage/), enabling you to track your team's resource usage and purchase more blocks of monitoring calls.
 
-Learn how to [set up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
+> If you experience a problem with collection-based monitors, you can [troubleshoot monitors in Postman](/docs/monitoring-your-api/troubleshooting-monitors/).
+
+## Monitor FAQs
+
+To learn more about configuring monitors in Postman, see the [Monitor FAQs](/docs/monitoring-your-api/faqs-monitors/).
 
 ## Monitor use cases
 
-Because they run Postman requests and scripts, collection-based monitors can be used to [monitor APIs](https://www.postman.com/api-platform/api-monitoring/) in a variety of ways. Here are some things you can do with collection-based monitors:
+Collection-based monitors run Postman requests and scripts, enabling you to [monitor APIs](https://www.postman.com/api-platform/api-monitoring/) in a variety of ways. The following are examples of what you can check with collection-based monitors:
 
 * **Check API health and performance** - Ensure the API is up and running in production and other environments.
 * **Validate API response structure and data** - Ensure the API is functioning according to specifications.
@@ -71,13 +74,3 @@ Because they run Postman requests and scripts, collection-based monitors can be 
 * **Visualize results on the monitor dashboard** - Get better visibility into API performance over time and identify trends.
 
 > For more examples of monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#create-a-fork), or customize the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections).
-
-## Comparing monitors and collection runs
-
-You can also schedule collection runs using the Collection Runner. Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Choose the Collection Runner to schedule runs for automating API tests and other use cases. Learn more about [Scheduling collection runs](/docs/collections/running-collections/scheduling-collection-runs/).
-
-Because scheduled collection runs and monitors run in the cloud, there are some differences compared to manually sending requests and running collections in Postman. To learn more, see the [Monitoring FAQs](/docs/monitoring-your-api/faqs-monitors/#can-i-upload-data-files-or-attach-files-to-a-monitor).
-
-## Next steps
-
-To learn how to set up a new collection-based monitor, go to [Setting up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
