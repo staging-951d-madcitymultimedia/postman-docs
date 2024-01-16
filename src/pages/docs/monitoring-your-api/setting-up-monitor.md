@@ -82,6 +82,8 @@ See the following sections for other configuration options you can select for yo
 
 You can upload a data file to pass Postman sets of values to use during a monitor run. Postman will substitute the values for [variables](/docs/sending-requests/variables/) in requests or scripts in the monitored collection. By uploading a data file, you can run your tests with multiple sets of values within a single monitor run.
 
+> To learn more about uploading data files and attaching files to monitors, see the [Monitor FAQs](/docs/monitoring-your-api/faqs-monitors/#can-i-upload-data-files-or-attach-files-to-a-monitor).
+
 Data files can be in CSV or JSON format and must use the following structure:
 
 * **CSV** - The first row of the file must contain the variable names, one variable per column. Each following row is considered a data row, with values for each variable. Make sure all rows have the same number of columns and use a UNIX format line ending. Postman will iterate through the data rows, running the monitored collection once for each data row in the file.
