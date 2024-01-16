@@ -37,7 +37,7 @@ With a request open in Postman, use the __Authorization__ tab to select an auth 
 
 > Easier API authentication is available for certain public APIs. For more information, see [Authentication for public APIs](/docs/sending-requests/authorization/authentication-for-public-apis/).
 
-![Authorization tab](https://assets.postman.com/postman-docs/v10/authorization-tab-v10-21.jpg)
+![Authorization tab](https://assets.postman.com/postman-docs/v10/authorization-tab-v10-21-12.jpg)
 
 > You can use these auth types with Newman and monitors as well as in Postman.
 
@@ -45,7 +45,7 @@ When you select a type from the **Type** dropdown list, Postman will indicate wh
 
 Your auth data will appear in the relevant parts of the request, for example in the __Headers__ tab. To show headers that were added automatically, select __hidden__.
 
-<img alt="Hidden Headers" src="https://assets.postman.com/postman-docs/v10/hidden-headers-v10-21.jpg"/>
+<img alt="Hidden headers" src="https://assets.postman.com/postman-docs/v10/hidden-headers-button-v10-21.jpg" width="439px" />
 
 Hover over a header to get information about where it was added. To change an auth header, return to the __Authorization__ tab and update your configuration.
 
