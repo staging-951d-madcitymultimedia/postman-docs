@@ -55,7 +55,7 @@ To edit environment variables, select **Environments** in the sidebar and select
 * To make an environment variable unavailable without deleting it, clear the checkbox next to the variable. Any references to the variable will be unresolved. To make the variable available again, select the checkbox.
 * Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save any changes you've made.
 
-![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-20.jpg)
+![Add environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-22.jpg)
 
 To edit an environment variable, select the variable and change any of the following:
 
