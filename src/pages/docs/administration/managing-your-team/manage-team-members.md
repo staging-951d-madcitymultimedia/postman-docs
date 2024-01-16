@@ -21,55 +21,29 @@ contextual_links:
 
 > **[Some team options are only available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
-Postman provides a variety of options to customize your team's experience, from the initial setup to ongoing team and plan management. As a Team Admin, you can streamline the onboarding process for your team, manage access control, and keep your team up to date with the latest version of Postman.
+As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can invite collaborators, remove existing team members, and update user roles at any time in your team dashboard.
+
+With the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can also change your team size to accommodate additional collaborators at any time in your billing cycle.
 
 ## Contents
 
-* [Managing team members](#managing-team-members)
-    * [Inviting users](#inviting-users)
-    * [Managing invites](#managing-invites)
-    * [Removing team members](#removing-team-members)
-    * [Managing team roles](#managing-team-roles)
-    * Manage groups
-    * [Managing Partners](#managing-partners)
-    * [Managing Guests](#managing-guests)
-billing
+* [Team dashboard](#team-dashboard)
+* [Invite users](#invite-users)
+    * [Manage invites](#manage-invites)
+* [Remove team members](#remove-team-members)
+* [Manage team roles](#manage-team-roles)
+* [Manage groups](#manage-groups)
+* [Manage Partners](#manage-partners)
+* [Manage Guests](#manage-guests)
+* [Change team size](#change-team-size)
 
-<!-- 
-## Managing your team’s Postman plan
-
-You can manage your team size or upgrade your plan at any time during your team's billing cycle.
-
-For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
-
-### Changing team size
-
-If you want to change your team's size, you have two different options:
-
-* **Change the number of paid seats** - Team members with the Billing role can change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
-* **Turn on Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/billing/billing/#using-auto-flex).
-
-For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
-
-### Upgrading your plan
-
-Team members with the Billing role can upgrade your team plan in the [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/billing/billing/#changing-your-plan).
-
-## Updating your team’s Postman version
-
-If your team isn't on the latest version of the desktop app, you can update your team to ensure everyone has access to the complete Postman API development experience. -->
-
-## Setting up your team
-
-Once you've created your Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to set up your team.
-
-## Managing team members
+## Team dashboard
 
 You can invite collaborators, remove existing team members, and update user permissions at any time in your [team dashboard](https://go.postman.co/settings/team/members). To open your team dashboard, select **Team** in the Postman header, then select **Manage Team**.
 
 <img alt="Team dashboard" src="https://assets.postman.com/postman-docs/v10/team-dashboard-members-view-v10.15.jpg"/>
 
-### Inviting users
+## Invite users
 
 1. In your [team dashboard](https://go.postman.co/settings/team/members), select **Invite People**.
 1. Enter the email addresses of the people you want to invite.
@@ -81,7 +55,7 @@ You can invite collaborators, remove existing team members, and update user perm
 
 You can also invite a user to join your team with a link. To do so, select **Copy Invite Link**.
 
-#### Understanding invite permissions
+### Invite permissions
 
 As a Team [Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can directly send invites for any role type. On [Free, Basic, and Professional plans](https://www.postman.com/pricing/), team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin. You can review pending invites on your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. For more details, see [Managing invites](#managing-invites).
 
@@ -91,7 +65,7 @@ You can also let Postman users from your company request to join your team by en
 
 > [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider (IdP).
 
-### Managing invites
+### Manage invites
 
 As a Team Admin, you can manage [pending invites](#invites-sent), review [requests to join your team](#requests-to-join-your-team), review [suggestions](#suggestions) from team members without permission to send invites directly, and manage [invite links](#invite-links).
 
@@ -125,7 +99,7 @@ To copy an active invite URL, hover over its row and select the copy icon <img a
 
 To revoke an active invite, hover over its row and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
 
-### Removing team members
+## Remove team members
 
 To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name. Then to confirm, select **Remove Member**. When you remove a team member, you will still retain access to any data they have shared with the team.
 
@@ -142,7 +116,7 @@ When you remove a team member, their personal workspaces and the data within the
 
 > Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/billing/billing/#using-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/billing/billing/#changing-your-plan).
 
-### Managing team roles
+## Manage team roles
 
 Each team member must have one or more team roles assigned to them, which will allow them to perform different actions within your team. Roles can be granted to team members individually, or to members of a [group](/docs/collaborating-in-postman/user-groups/).
 
@@ -156,7 +130,7 @@ Teams can have two support accounts at no extra cost. Support accounts are team 
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Additional roles are available to [Postman Professional or Enterprise](https://www.postman.com/pricing) teams.
 
-#### Managing Super Admins
+### Managing Super Admins
 
 > **[Super Admins are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
@@ -168,13 +142,15 @@ Regular Team Admins can't remove Super Admins from a team or remove their Super 
 
 It's recommended that you create a service user that isn't tied to any individual and assign that user the Super Admin role. By doing so, your team can avoid the risk of a disruption in services due to an actual user leaving your company and ensure that your team's management is able to sign in to the service account when needed.
 
-### Managing Partners
+## Manage groups
+
+## Manage partners
 
 > **[Partners are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
 You can manage external partners similarly to internal team members. To learn more, see [Managing a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#managing-a-partner-workspace).
 
-### Managing Guests
+## Manage Guests
 
 > **[Guests are available on Free, Basic, and Professional plans.](https://www.postman.com/pricing)**
 
@@ -191,3 +167,17 @@ A Team Admin can also view the workspaces and collections a user assigned the Gu
 To learn more about sharing collections with external users, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 
 For information on how to remove an external user from a team or collection, see [Changing external user access to collections](/docs/collaborating-in-postman/sharing/#changing-external-user-access-to-collections).
+
+## Change team size
+
+<!-- 
+
+### Changing team size
+
+If you want to change your team's size, you have two different options:
+
+* **Change the number of paid seats** - Team members with the Billing role can change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
+* **Turn on Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/billing/billing/#using-auto-flex).
+
+For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
+ -->

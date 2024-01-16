@@ -31,7 +31,20 @@ Postman provides a variety of options to customize your team's experience, from 
 * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
 * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
 
-<!-- 
+<!-- ## Managing your team’s Postman plan
+
+You can manage your team size or upgrade your plan at any time during your team's billing cycle.
+
+For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
+
+### Upgrading your plan
+
+Team members with the Billing role can upgrade your team plan in the [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/billing/billing/#changing-your-plan). 
+
+## Updating your team’s Postman version
+
+If your team isn't on the latest version of the desktop app, you can update your team to ensure everyone has access to the complete Postman API development experience
+
 ## Manage your team's product access
 
 The [product access dashboard](https://go.postman.co/settings/team/products-access) enables you to manage which team members can access your team's products: Postbot and Enterprise solutions. -->
