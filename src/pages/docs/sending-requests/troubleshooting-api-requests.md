@@ -51,11 +51,11 @@ Open the Console by selecting <img alt="Console icon" src="https://assets.postma
 
 You will get an error message if Postman isn't able to send your request or doesn't receive a response from the API you sent the request to. This message includes an overview of the issue and a link to the Console. There you can access detailed information about the request.
 
-![Request not sent](https://assets.postman.com/postman-docs/v10/response-error-console-link-v10.jpg)
+![Request not sent](https://assets.postman.com/postman-docs/v10/response-error-console-link-v10-22.jpg)
 
 Select __View in Console__ to inspect the request details in the Console and find out more about what went wrong.
 
-![Error in Console](https://assets.postman.com/postman-docs/v10/console-pane-opened-from-response-v10-2.jpg)
+<img alt="Error in Console" src="https://assets.postman.com/postman-docs/v10/console-pane-opened-from-response-v10-22.jpg" width="506px"/>
 
 ### Navigating the Console
 
@@ -63,7 +63,7 @@ The Postman Console displays network information and the request and response he
 
 Filter by log message type under **All Logs**. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to turn timestamps and network information on or off.
 
-<img alt="Console options" src="https://assets.postman.com/postman-docs/v10/console-pane-log-options-v10-1.jpg" width="400px"/>
+<img alt="Console options" src="https://assets.postman.com/postman-docs/v10/console-pane-log-options-v10-22.jpg" width="371px"/>
 
 The Console will log the last 5,000 messages and 24 hours by default. Select __Clear__ to empty the list.
 
@@ -77,7 +77,7 @@ Using log statements at appropriate locations in your test scripts can help you 
 * `console.error()`
 * `console.clear()`
 
-![Console info](https://assets.postman.com/postman-docs/v10/console-logs-in-pane-v10-1.jpg)
+<img alt="Console info" src="https://assets.postman.com/postman-docs/v10/console-logs-in-pane-v10-1.jpg" />
 
 ## Common issues
 
