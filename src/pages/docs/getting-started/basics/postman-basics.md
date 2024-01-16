@@ -26,7 +26,7 @@ contextual_links:
     url:  "https://academy.postman.com/getting-started-with-postman-2212"
 ---
 
-This section covers the core capabilities of Postman that help you send API requests, share your work with others, and use Postman in your API development workflow. You'll also learn how to navigate within Postman to find the API-first tools you need.
+This section covers the basic features of Postman that help you send API requests, share your work with others, and use Postman in your API-first workflows. You'll also learn how to navigate within Postman to find the API tools you need.
 
 ## Contents
 
@@ -37,16 +37,24 @@ This section covers the core capabilities of Postman that help you send API requ
 
 ## Find your way around Postman
 
-The Postman interface, Postbot
+Postman has a variety of tools you can use to work with APIs and collaborate with your team. [Learn how to navigate in Postman](/docs/getting-started/basics/navigating-postman/) to find the tools you need.
+
+Need more help? Postbot is your AI assistant for API workflows. You can [ask Postbot](/docs/getting-started/basics/about-postbot/) to add tests to requests, visualize responses, write documentation, and more.
 
 ## Send API requests from Postman
 
-Postman Agent, lightweight API client
+The [Postman Agent](/docs/getting-started/basics/about-postman-agent/#selecting-a-postman-agent-for-requests) enables you to send API requests from a browser using the Postman web app. You can manually select an agent, or Postman can select the best agent for you.
+
+If you're not logged into a Postman account, you can still send multi-protocol requests using the [lightweight API client](/docs/getting-started/basics/using-api-client/).
+
+> For the best experience sending API requests, [download the Postman desktop app](/docs/getting-started/first-steps/get-postman/) and [sign into your Postman account](/docs/getting-started/first-steps/sign-in-to-postman/).
 
 ## Save and share your work in Postman
 
-Collaboration, syncing
+When you're signed in to your Postman account, all of your work is [automatically synced to the Postman cloud](/docs/getting-started/basics/syncing/). That means you can access all of your collections, requests, and other data anywhere you're signed into Postman.
+
+You can also share your work with others on your team using [Postman's collaboration tools](/docs/getting-started/basics/work-with-your-team/). Move your work into a team workspace to begin collaborating with others.
 
 ## Use Postman in your development environment
 
-Postman VS Code extension
+With the [Postman VS Code extension](/docs/getting-started/basics/about-vs-code-extension/), you can use Postman in the same place where you develop your APIs. Send requests, work with Postman Collections, and import Postman data, all without leaving VS Code.
