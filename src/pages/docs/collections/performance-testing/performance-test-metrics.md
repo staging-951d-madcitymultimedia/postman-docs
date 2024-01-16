@@ -33,7 +33,7 @@ You can view the following information about the performance test:
 
 * Name of the collection being run and the active environment (if any). Select the name to open the collection or environment.
 * The number of virtual users (VU). Each virtual user simulates the behavior of a real-world user by running the collection in a repeating loop, in parallel with other virtual users.
-* Start time, duration, load profile (fixed or ramp up), and [data file](/docs/collections/performance-testing/performance-test-data-files/) (if used).
+* Start time, duration, load profile (fixed, ramp up, spike, or peak), and [data file](/docs/collections/performance-testing/performance-test-data-files/) (if used).
 * **Total requests sent** - The total number of requests sent across all virtual users.
 * **Requests/second** - The number of requests sent each second during the performance test, a measure of throughput.
 * **Avg. response time** - The response time in milliseconds of all requests averaged together.
