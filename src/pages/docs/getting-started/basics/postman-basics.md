@@ -45,7 +45,7 @@ Need more help? Postbot is your AI assistant for API workflows. [You can ask Pos
 
 [The Postman Agent](/docs/getting-started/basics/about-postman-agent/#selecting-a-postman-agent-for-requests) enables you to send API requests from a browser using the Postman web app. You can manually select an agent, or Postman can select the best agent for you.
 
-If you're not logged into a Postman account, you can still send multi-protocol requests using the [lightweight API client](/docs/getting-started/basics/using-api-client/).
+If you're not signed in to a Postman account, you can still send multi-protocol requests using the [lightweight API client](/docs/getting-started/basics/using-api-client/).
 
 > For the best experience sending API requests, [download the Postman desktop app](/docs/getting-started/first-steps/get-postman/) and [sign into your Postman account](/docs/getting-started/first-steps/sign-in-to-postman/).
 
