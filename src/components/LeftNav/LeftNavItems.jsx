@@ -581,7 +581,7 @@ export const leftNavItems = [
         slug: '/docs/collections/running-collections/running-collections-overview/',
         subMenuItems2: [
           {
-            name: 'Test API functionality',
+            name: 'Overview',
             url: '/docs/collections/running-collections/running-collections-overview/',
           },
           {
