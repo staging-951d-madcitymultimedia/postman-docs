@@ -26,7 +26,7 @@ contextual_links:
     url:  "https://academy.postman.com/getting-started-with-postman-2212"
 ---
 
-This section covers the basic features of Postman that help you send API requests, share your work with others, and use Postman in your API-first workflows. You'll also get a tour of the Postman user interface to launch you on your API-first journey.
+This section covers the basic features of Postman that help you send API requests, share your work with others, and use Postman in your API development workflows. You'll also get a tour of the Postman user interface to launch you on your API-first journey.
 
 ## Contents
 
