@@ -104,7 +104,7 @@ Workspace Admins, Partner Managers, and Partner Leads can invite partners to Par
 
 To invite partners to a Partner Workspace, do the following:
 
-1. Open the workspace, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings** in the workspace's **Overview** tab, and then select **Invite**.
+1. Open the workspace, select **Settings** in the workspace's **Overview** tab, and then select **Invite**.
 
     > You can also select **Invite** in the Postman header.
 
