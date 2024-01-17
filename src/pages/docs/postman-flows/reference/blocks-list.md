@@ -237,7 +237,7 @@ Transforms incoming data and generates text, images, or JSON objects using Artif
 
 **Text entry block** - Enter and test AI prompts.
 
-**Output** - Sends data from the **Create with AI** block. The icon next to this port changes depending on which mode is selected. It shows **Aa** for Text, **?** for Image, and **()** for JSON.
+**Output** - Send data from the **Create with AI** block. The icon next to this port changes depending on which mode is selected. It shows **Aa** for Text, **?** for Image, and **()** for JSON.
 
 ### Delay
 
