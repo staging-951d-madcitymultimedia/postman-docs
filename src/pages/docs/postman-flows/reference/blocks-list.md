@@ -229,7 +229,7 @@ Runs all of the blocks that come after it once for each item in the input list u
 
 <img alt="Create AI block" src="https://assets.postman.com/postman-docs/v10/create-with-ai-block-v10.jpg" width="295px"/>
 
-Transforms incoming data and generates text, images, or JSON objects using prompts and Artificial Intelligence.
+Transforms incoming data and generates text, images, or JSON objects using prompts and Artificial Intelligence (AI).
 
 **variable** - This input accepts data from other blocks and enables you to assign it to a variable. Select the **Add data blocks** icon <img alt="Add data blocks icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to add more variables as data blocks. The **Create with AI** block can reference these variables.
 
