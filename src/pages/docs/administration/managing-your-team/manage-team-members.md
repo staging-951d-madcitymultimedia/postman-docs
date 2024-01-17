@@ -58,7 +58,9 @@ You can invite collaborators, remove existing team members, and update user perm
 
 You can also invite a user to join your team with a link. To do so, select **Copy Invite Link**.
 
-> If you're on a Postman Enterprise plan, you can set up and use [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) to provision user accounts.
+> If you're on a Postman Enterprise plan, you can set up and use [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) to provision user accounts at scale through your identity provider (IdP).
+
+> Depending on your [plan](https://www.postman.com/pricing), you can also invite [partners](#invite-partners) and [Guests](#invite-guests).
 
 ### Invite permissions
 
@@ -66,15 +68,9 @@ As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permis
 
 If you're on a [Postman Free, Basic, or Professional](https://www.postman.com/pricing/) plan, team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin. You can review all invites that have been sent in your [team dashboard](https://go.postman.co/settings/team/invites). For more details, see [Manage invites](#manage-invites).
 
-<!-- here -->
+If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with you for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**. For more details, see [Managing invites](#managing-invites).
 
-If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with you for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**. For more details, see [Managing invites](#managing-invites).
-
-You can also let Postman users from your company request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
-
-> [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider (IdP).
-
-<!-- add link to inviting guests and partners -->
+You can let Postman users from your company directly request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery). You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**. 
 
 ### Manage invites
 
@@ -82,7 +78,7 @@ As a Team Admin, you can manage [pending invites](#invites-sent), review [reques
 
 #### Invites sent
 
-You can also review pending invites that team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**. To resend an invite, hover over the person's email address and select **Resend Invite**. To copy the invite link, select the copy invite link icon <img alt="Copy invite link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
+You can review pending invites that team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**. To resend an invite, hover over the person's email address and select **Resend Invite**. To copy the invite link, select the copy invite link icon <img alt="Copy invite link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
 
 <img alt="Review invites sent" src="https://assets.postman.com/postman-docs/v10/team-dashboard-invites-sent-v10.15.jpg"/>
 
@@ -94,7 +90,7 @@ If your team has enabled [team discovery](/docs/collaborating-in-postman/working
 
 #### Suggestions
 
-If the team member sending an invite isn't a Developer inviting another Developer (on Free, Basic, or Professional plans) or if they aren't a Team Admin (on any plan), you or another team member with the Admin or Super Admin role must review the invite suggestion. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests** and scrolling down to **Suggestions**.
+If the team member sending an invite isn't a Team Admin or a Developer inviting another Developer (on Free, Basic, or Professional plans), you or another Team Admin must review the invite suggestion. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests** and scrolling down to **Suggestions**.
 
 To approve the suggestion and invite the user to your team, select **Invite**. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
 
@@ -112,17 +108,25 @@ To revoke an active invite, hover over its row and select the delete icon <img a
 
 ### Invite partners
 
+> **[Partners are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
+
+You can invite external partners to collaborate within a Partner Workspace. To learn more, see [Inviting collaborators to a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#inviting-collaborators-to-a-partner-workspace).
+
 ### Invite Guests
+
+> **[Guests are available on Free, Basic, and Professional plans.](https://www.postman.com/pricing)**
+
+You can invite Guests to view specific collections and send requests in those collections. To learn more, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 
 ## Remove team members
 
-> If you're on a Postman Enterprise plan, you can set up and use [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) to automate de-provisioning.
+> If you're on a Postman Enterprise plan, you can set up and use [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) to automate de-provisioning through your identity provider (IdP).
 
 To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name. Then to confirm, select **Remove Member**. When you remove a team member, you will still retain access to any data they have shared with the team.
 
 <img alt="Remove a team member" src="https://assets.postman.com/postman-docs/v10/team-dashboard-members-remove-v10.15.jpg"/>
 
-Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. You must reassign their personal workspaces if one of the following is true:
+Reassign personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. You must reassign their personal workspaces if one of the following is true:
 
 * They're from an Enterprise team.
 * They're from a Free, Basic, or Professional team, and they have an account.
@@ -131,23 +135,29 @@ Reassign their personal workspaces to another team member to ensure the team con
 
 When you remove a team member, their personal workspaces and the data within them move to an account if the following is true: they're from a Free, Basic, or Professional team and they don't have an account.
 
+For help in removing team members and transferring data based on your team's configuration, [contact Postman support](https://www.postman.com/support/).
+
 > Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/billing/billing/#using-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/billing/billing/#changing-your-plan).
 
 ## Manage team roles
 
 Each team member must have one or more team roles assigned to them, which will allow them to perform different actions within your team. Roles can be granted to team members individually, or to members of a [group](/docs/collaborating-in-postman/user-groups/).
 
-You can change a team member's roles in your [team dashboard](https://go.postman.co/settings/team/members).
+You can change a team member's roles at any time in the [team dashboard](https://go.postman.co/settings/team/members).
 
 Search for a specific user by typing their name or email address in the search field. You can also filter users by role type. Select the roles next to the user you'd like to update, then select the roles you'd like to assign or remove. Select **Update Roles** to confirm your changes.
 
 <img alt="Edit team roles" src="https://assets.postman.com/postman-docs/v10/team-dashboard-manage-member-roles-v10.15.jpg"/>
 
+> **[Some team roles are only available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
+
 Teams can have two support accounts at no extra cost. Support accounts are team members with only Admin or Billing roles. Team members with a Super Admin or Developer role will consume a paid seat on your team.
 
-For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Additional roles are available to [Postman Professional or Enterprise](https://www.postman.com/pricing) teams.
+To learn more about the team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
 ### Managing Super Admins
+
+<!-- here -->
 
 > **[Super Admins are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
