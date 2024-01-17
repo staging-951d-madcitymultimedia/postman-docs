@@ -29,17 +29,20 @@ With the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#te
 
 * [Team dashboard](#team-dashboard)
 * [Invite users](#invite-users)
+    * [Invite permissions](#invite-permissions)
     * [Manage invites](#manage-invites)
+    * [Invite partners](#invite-partners)
+    * [Invite Guests](#invite-guests)
 * [Remove team members](#remove-team-members)
 * [Manage team roles](#manage-team-roles)
 * [Manage groups](#manage-groups)
-* [Manage Partners](#manage-partners)
+* [Manage partners](#manage-partners)
 * [Manage Guests](#manage-guests)
 * [Change team size](#change-team-size)
 
 ## Team dashboard
 
-You can invite collaborators, remove existing team members, and update user permissions at any time in your [team dashboard](https://go.postman.co/settings/team/members). To open your team dashboard, select **Team** in the Postman header, then select **Manage Team**.
+You can invite collaborators, remove existing team members, and update user permissions in your [team dashboard](https://go.postman.co/settings/team/members). To open your team dashboard, select **Team** in the Postman header, then select **Manage Team**.
 
 <img alt="Team dashboard" src="https://assets.postman.com/postman-docs/v10/team-dashboard-members-view-v10.15.jpg"/>
 
@@ -55,15 +58,21 @@ You can invite collaborators, remove existing team members, and update user perm
 
 You can also invite a user to join your team with a link. To do so, select **Copy Invite Link**.
 
+> If you're on a Postman Enterprise plan, you can set up and use [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) to provision user accounts.
+
 ### Invite permissions
 
-As a Team [Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can directly send invites for any role type. On [Free, Basic, and Professional plans](https://www.postman.com/pricing/), team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin. You can review pending invites on your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. For more details, see [Managing invites](#managing-invites).
+As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can invite users and assign them one or more [team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+
+On [Free, Basic, and Professional plans](https://www.postman.com/pricing/), team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin. You can review pending invites on your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. For more details, see [Managing invites](#managing-invites).
 
 If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with you for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**. For more details, see [Managing invites](#managing-invites).
 
 You can also let Postman users from your company request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
 > [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider (IdP).
+
+<!-- add link to inviting guests and partners -->
 
 ### Manage invites
 
@@ -99,7 +108,13 @@ To copy an active invite URL, hover over its row and select the copy icon <img a
 
 To revoke an active invite, hover over its row and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
 
+### Invite partners
+
+### Invite Guests
+
 ## Remove team members
+
+> If you're on a Postman Enterprise plan, you can set up and use [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) to automate de-provisioning.
 
 To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name. Then to confirm, select **Remove Member**. When you remove a team member, you will still retain access to any data they have shared with the team.
 

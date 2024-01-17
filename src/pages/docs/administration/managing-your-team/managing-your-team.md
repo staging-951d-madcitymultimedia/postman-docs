@@ -21,7 +21,7 @@ contextual_links:
 
 > **[Some team options are only available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
-Postman provides a variety of tools you can use to set up, manage, and secure your team. As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can streamline the onboarding process, manage access to workspaces and products, and customize your team's experience to align with your organization's goals.
+Postman provides a variety of tools you can use to set up, manage, and secure your team. As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can streamline the onboarding process, manage access to workspaces and products, and customize your team's experience to align with your organization's goals.
 
 > If you've just created your Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to get started.
 
