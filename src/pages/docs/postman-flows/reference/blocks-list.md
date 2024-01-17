@@ -233,7 +233,7 @@ Transforms incoming data and generates text, images, or JSON objects using Artif
 
 **variable** - Take data from other blocks and assign it to a variable. Select the **Add data blocks** icon <img alt="Add data blocks icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to add more variables as data blocks. The **Create with AI** block can reference these variables.
 
-**Mode selection dropdown list** - Select **Text**, **Image**, or **JSON** to specify the type of data you want to create. Select **Smart** to let the **Create with AI** block automatically recognize the type of data you are asking for.
+**Mode selection dropdown list** - Select **Text**, **Image**, or **JSON** to specify the type of data you want to create. Select **Smart** to let the **Create with AI** block automatically recognize the type of data you need.
 
 **Text entry block** - Enter and test AI prompts here.
 
