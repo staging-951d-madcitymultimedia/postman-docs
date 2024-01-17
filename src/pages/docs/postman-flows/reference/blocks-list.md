@@ -235,7 +235,7 @@ Transforms incoming data and generates text, images, or JSON objects using Artif
 
 **Mode selection dropdown list** - Select **Text**, **Image**, or **JSON** to specify the type of data you want to create. Select **Smart** to let the **Create with AI** block automatically recognize the type of data you need.
 
-**Text entry block** - Enter and test AI prompts here.
+**Text entry block** - Enter and test AI prompts.
 
 **Output** - Sends data from the **Create with AI** block. The icon next to this port changes depending on which mode is selected. It shows **Aa** for Text, **?** for Image, and **()** for JSON.
 
