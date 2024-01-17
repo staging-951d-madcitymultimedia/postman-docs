@@ -45,8 +45,8 @@ You’ll be alerted to any test failures once the monitor is running, so you can
 ## Contents
 
 * [Use collection-based monitors](#use-collection-based-monitors)
-* [Monitor FAQs](#monitor-faqs)
 * [Monitor use cases](#monitor-use-cases)
+* [Monitor FAQs](#monitor-faqs)
 
 ## Use collection-based monitors
 
@@ -57,10 +57,6 @@ Depending on your [plan](https://www.postman.com/pricing), you can [configure mo
 You can [view results for collection-based monitors](/docs/monitoring-your-api/viewing-monitor-results/) to learn more about the monitors you're running. You can also [manage your team's monitor usage](/docs/monitoring-your-api/monitor-usage/), enabling you to track your team's resource usage and purchase more blocks of monitoring calls.
 
 > If you experience a problem with collection-based monitors, you can [troubleshoot monitors in Postman](/docs/monitoring-your-api/troubleshooting-monitors/).
-
-## Monitor FAQs
-
-To learn more about configuring monitors in Postman, see the [Monitor FAQs](/docs/monitoring-your-api/faqs-monitors/).
 
 ## Monitor use cases
 
@@ -74,3 +70,7 @@ Collection-based monitors run Postman requests and scripts, enabling you to [mon
 * **Visualize results on the monitor dashboard** - Get better visibility into API performance over time and identify trends.
 
 > For more examples of monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-elements/#create-a-fork), or customize the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-collections).
+
+## Monitor FAQs
+
+To learn more about configuring monitors in Postman, see the [Monitor FAQs](/docs/monitoring-your-api/faqs-monitors/).
