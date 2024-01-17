@@ -51,7 +51,7 @@ If you're not signed in to a Postman account, you can still send multi-protocol 
 
 ## Save and share your work in Postman
 
-When you're signed in to your Postman account, all of your work is [automatically synced to the Postman cloud](/docs/getting-started/basics/syncing/). That means you can access all of your collections, requests, and other data anywhere you're signed into Postman.
+When you're signed in to your Postman account, all of your work is [automatically synced to the Postman cloud](/docs/getting-started/basics/syncing/). That means you can access all of your collections, requests, and other data anywhere you're signed in to Postman.
 
 You can also share your work with members of your team using [Postman's collaboration tools](/docs/getting-started/basics/work-with-your-team/). Move your Postman data into a team workspace to begin collaborating with others.
 
