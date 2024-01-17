@@ -26,19 +26,19 @@ The *Postman Public API Network* enables you to share your public workspaces, co
 
 To get started, share your public workspaces to the Public API Network. You can learn more about [best practices and tips for sharing public workspaces](#best-practices-and-tips-for-public-workspaces) to the Public API Network.
 
-<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10-1.jpg" />
+<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10-22.jpg" />
 
 ## Benefits of the Postman Public API Network
 
-* Improve your API's onboarding experience with detailed documentation, organized workspace resources, and more
-* Increase your API's discovery in organic and Postman search results
-* Collaborate with partners in public workspaces
-* Collect feedback from API consumers through metrics and public comments
-* Customize your public team profile to promote your workspaces and social media
+* Improve your API's onboarding experience with detailed documentation, organized workspace resources, and more.
+* Increase your API's discovery in organic and Postman search results.
+* Collaborate with partners in public workspaces.
+* Collect feedback from API consumers through metrics and public comments.
+* Customize your public team profile to promote your workspaces and social media.
 
 ## Best practices and tips for public workspaces
 
-You can use these best practices and tips to help your API's consumers get started with your APIs and public workspaces on the Public API Network. These best practices and tips can also help you share the latest versions of your APIs with other Postman users.
+You can use these best practices and tips to help your API's consumers get started with your public APIs. These best practices and tips can also help you share the latest versions of your APIs with other Postman users.
 
 * **Prepare your public workspaces** - Before sharing your APIs to the Public API Network, you can [prepare your public workspaces](/docs/collaborating-in-postman/public-api-network/organizing-your-workspace/) to help API consumers get started. You can customize your team profile and make it public, organize workspace resources by category or use case, and write API documentation.
 * **Share your public workspaces** - To [share your public workspaces](/docs/collaborating-in-postman/public-api-network/sharing-your-workspace/) with your API consumers, you can copy and share the public workspace's URL. You can also add links from your documentation to relevant elements in your public workspaces. To track the performance of your APIs, you can review reports, watchers, and forks for your public workspaces.
