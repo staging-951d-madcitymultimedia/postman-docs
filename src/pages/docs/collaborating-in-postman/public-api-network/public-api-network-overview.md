@@ -1,6 +1,6 @@
 ---
 title: "Share your APIs on the Public API Network"
-updated: 2024-01-10
+updated: 2024-01-18
 contextual_links:
   - type: section
     name: "Additional resources"
