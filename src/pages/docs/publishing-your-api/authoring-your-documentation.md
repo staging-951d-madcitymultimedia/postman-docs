@@ -246,7 +246,7 @@ For more information on Postbot, see [About Postbot](/docs/getting-started/basic
 
 **Looking for some documentation inspiration?** Browse through the Public API Network to find examples of great documentation created in Postman.
 
-1. Open the [Public API Network](https://www.postman.com/explore) page or select **Explore** in the Postman header.
+1. Open the [Public API Network](https://www.postman.com/explore) page or select **API Network > View all public APIs** in the Postman header.
 1. Select **Collections** or **Workspaces** in the left pane.
 
     ![Public API Network page](https://assets.postman.com/postman-docs/v10/documentation-explore-docs-v10-16.jpg)
