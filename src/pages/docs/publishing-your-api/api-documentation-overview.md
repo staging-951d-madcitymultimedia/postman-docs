@@ -1,6 +1,6 @@
 ---
 title: "Document your APIs in Postman"
-updated: 2023-09-20
+updated: 2024-01-27
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -28,9 +28,9 @@ contextual_links:
     url: "https://www.postman.com/case-studies/sei-novus/"
 ---
 
-[Documentation](https://www.postman.com/api-platform/api-documentation/) is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to interact with them.
+[Documentation](https://www.postman.com/api-platform/api-documentation/) is an important part of your API. You can add documentation to any Postman Collection and its API requests. You can also use Postman to create API documentation and share it with your API's consumers, so they know what endpoints are available and how to interact with them.
 
-Postman automatically creates documentation for your collections and APIs. To give your consumers more help and context, use Postman's built-in editing tools to add descriptions, images, videos, and more to your documentation.
+Postman automatically generates documentation for your collections and APIs. To give your users more help and context, use Postman's built-in editing tools to add descriptions, images, videos, and more to your documentation.
 
 ## Contents
 
