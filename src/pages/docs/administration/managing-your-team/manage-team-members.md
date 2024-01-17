@@ -64,7 +64,9 @@ You can also invite a user to join your team with a link. To do so, select **Cop
 
 As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can invite users and assign them one or more [team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
-On [Free, Basic, and Professional plans](https://www.postman.com/pricing/), team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin. You can review pending invites on your [team dashboard](https://go.postman.co/settings/team/members) under **Invites sent**. For more details, see [Managing invites](#managing-invites).
+If you're on a [Postman Free, Basic, or Professional](https://www.postman.com/pricing/) plan, team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin. You can review all invites that have been sent in your [team dashboard](https://go.postman.co/settings/team/invites). For more details, see [Manage invites](#manage-invites).
+
+<!-- here -->
 
 If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with you for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**. For more details, see [Managing invites](#managing-invites).
 
