@@ -36,7 +36,7 @@ You can customize the API Governance and Security rules that Postman applies to 
 
 ## Configure governance rules
 
-You can [configure API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) that Postman applies to your API definitions. You can use existing governance rules from the rule library or create custom governance rules. Then you can apply governance rules to specific workspaces in your team.
+You can [configure API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) that Postman applies to your API definitions. You can use existing governance rules from the rule library or create custom governance rules. Then you can apply those rules to specific workspaces in your team.
 
 You can also [create custom governance functions](/docs/api-governance/configurable-rules/configuring-custom-governance-functions/) and use them in your custom governance rules.
 
