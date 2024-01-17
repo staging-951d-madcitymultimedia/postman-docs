@@ -44,7 +44,7 @@ The GraphQL client interface has three main sections:
 * The response section
 * The right sidebar
 
-![Different sections of a GraphQL request](https://assets.postman.com/postman-docs/v10/graphql-request-full-view-v10-4.jpg)
+![Different sections of a GraphQL request](https://assets.postman.com/postman-docs/v10/graphql-request-full-view-v10-22.jpg)
 
 > If you are using the Postman web app, you must use the Postman Desktop Agent. See [About the Postman Agent](/docs/getting-started/basics/about-postman-agent/) for more information.
 
@@ -59,11 +59,11 @@ The GraphQL client interface has three main sections:
 
 In the GraphQL client's request section, you can enter an endpoint in the URL field as you would in the regular Postman request interface. But the GraphQL client adds GraphQL-specific features, including an interactive schema explorer.
 
-<img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10-20-9.jpg" alt="The request section">
+<img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10-22-1.jpg" alt="The request section">
 
 * **Protocol dropdown list** - Change the protocol for a new request. Select the protocol dropdown list then select a request protocol.
 
-    <img src="https://assets.postman.com/postman-docs/v10/change-protocol-v10-20.jpg" alt="Change protocol" width="432"/>
+    <img src="https://assets.postman.com/postman-docs/v10/change-protocol-v10-22.jpg" alt="Change protocol" width="256"/>
 
     > You can't change the request protocol after you save the request.
 
@@ -72,7 +72,7 @@ In the GraphQL client's request section, you can enter an endpoint in the URL fi
     * **Query** - The **Query** tab has three subsections: the schema explorer, the query editor, and the variables editor.
     * **Authorization** - You can enter authorization credentials here. You can choose from a list of auth types including API key, basic auth, and bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/authorization).
     * **Headers** - The **Headers** tab enables you to pass headers with the request in the form of key-value pairs. The client uses these headers to provide information about the call to the server.
-    * **Schema** - The **Schema** tab enables you to select an API from a Postman workspace, import a schema from your computer, or use GraphQL introspection. The GraphQL client populates the schema explorer with fields from the selected schema.
+    * **Schema** - The **Schema** tab enables you to select an API and save it to the request. You can use GraphQL introspection, select an API from a Postman workspace, or import a schema from a local file or a URL. You can also select a specific published release of an API. The GraphQL client populates the schema explorer with fields from the chosen schema.
     * **Scripts** - The **Scripts** tab accesses Postman's powerful scripting environment that enables you to add JavaScript code (scripts) to your GraphQL requests. You can use scripts to write API tests, debug your requests by logging them to the [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](https://learning.postman.com/docs/sending-requests/variables/).
 * **Schema explorer** - When you enter a GraphQL server's endpoint in the **URL field**, the endpoint's schema appears here. The schema explorer is also an interactive visual query editor where you can browse and select fields and arguments to [build queries](/docs/sending-requests/graphql/graphql-client-first-request/#create-a-graphql-request-with-one-query) in the query editor.
 * **Save button** - Saves the request to a collection. GraphQL requests can't be saved to collections that contain HTTP requests.

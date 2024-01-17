@@ -31,7 +31,7 @@ All of your work in the lightweight API Client is stored locally and isn't synce
 
 ## Accessing the lightweight API Client
 
-When you open the Postman desktop app for the first time, you can create a free Postman account or sign in to your Postman account. If you choose to skip creating or signing in to an account, you will enter the lightweight API Client. You'll also enter the lightweight API Client if you sign out of Postman.
+When you open the Postman desktop app for the first time, you can create a free Postman account or sign in to your Postman account. Alternatively, you can continue with the lightweight API Client. You'll have the same option if you sign out of Postman.
 
 <img alt="Postman lightweight API Client" src="https://assets.postman.com/postman-docs/v10/api-client-v10-14.jpg">
 

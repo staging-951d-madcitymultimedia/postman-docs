@@ -134,7 +134,7 @@ If you need to update the initial value of a variable in an environment you have
 1. Select the team member you want to send the request to, and select the **Editor** role.
 1. Select **Send Request**. You'll get an email when your request is approved.
 
-![Viewer role on environment](https://assets.postman.com/postman-docs/v10/environment-request-access-v10-20.jpg)
+![Viewer role on environment](https://assets.postman.com/postman-docs/v10/environment-request-access-v10-22.jpg)
 
 ### Manage sensitive variable values
 
