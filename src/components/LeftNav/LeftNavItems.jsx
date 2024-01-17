@@ -585,7 +585,7 @@ export const leftNavItems = [
         slug: '/docs/collections/running-collections/running-collections-overview/',
         subMenuItems2: [
           {
-            name: 'Test API functionality',
+            name: 'Overview',
             url: '/docs/collections/running-collections/running-collections-overview/',
           },
           {
@@ -1465,8 +1465,12 @@ export const leftNavItems = [
   {
     name: 'Billing',
     parentSlug: 'billing',
-    url: '/docs/billing/billing/',
+    url: '/docs/billing/billing-overview/',
     subMenuItems1: [
+      {
+        name: 'Overview',
+        url: '/docs/billing/billing-overview/',
+      },
       {
         name: 'Manage billing',
         url: '/docs/billing/billing/',
