@@ -16,7 +16,7 @@ contextual_links:
 
 gRPC requests in Postman include a variety of tools, views, and controls to help you use and test your gRPC services effectively and efficiently. This topic highlights the parts of the request interface and how to use it.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-3-v10.jpg" alt="gRPC request interface" />
+<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-v10-22.jpg" alt="gRPC request interface" />
 
 ## Contents
 
@@ -38,13 +38,13 @@ Create a new gRPC request by selecting **New** in the sidebar. Select **gRPC** f
 
 The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition, and a selected method to be invoked. Based on the API requirements, you may have to pass message payloads, metadata, and authorization details along with the request. You may also have to configure TLS and other certificates based on the requirements.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-request-sections-v10-2.jpg" alt="Request pane" />
+<img src="https://assets.postman.com/postman-docs/v10/grpc-request-sections-v10-22.jpg" alt="Request pane" />
 
 * **Protocol menu** - You can change the protocol for a new request. Select **New** in the sidebar and then select a request protocol, or select **+** to open a new tab. Select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.
 
     > You can't change the request protocol after you select **Save**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-2.gif" alt="Select protocol" />
+    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-21-11.gif" alt="Select protocol" />
 
 * **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
