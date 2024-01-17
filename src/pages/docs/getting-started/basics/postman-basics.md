@@ -47,7 +47,7 @@ Need more help? Postbot is your AI assistant for API workflows. [You can ask Pos
 
 If you're not signed in to a Postman account, you can still send multi-protocol requests using the [lightweight API client](/docs/getting-started/basics/using-api-client/).
 
-> For the best experience sending API requests, [download the Postman desktop app](/docs/getting-started/first-steps/get-postman/) and [sign into your Postman account](/docs/getting-started/first-steps/sign-in-to-postman/).
+> For the best experience sending API requests, [download the Postman desktop app](/docs/getting-started/first-steps/get-postman/) and [sign in to your Postman account](/docs/getting-started/first-steps/sign-in-to-postman/).
 
 ## Save and share your work in Postman
 
