@@ -30,7 +30,7 @@ contextual_links:
 
 The _Postman Visualizer_ provides a programmable way to visually represent your request [responses](/docs/sending-requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
 
-![Visualizer rendering](https://assets.postman.com/postman-docs/v10/visualizer-v10.jpg)
+![Visualizer rendering](https://assets.postman.com/postman-docs/v10/visualizer-v10-22.jpg)
 
 The Visualizer enables you to present your response data in ways that help to make sense of it. You can use this to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also understand your visualizations within the context of each request.
 
@@ -115,7 +115,7 @@ The `template` variable is the template string created earlier. The second argum
 
 __Send__ the request in Postman and select the __Visualize__ tab. Postman renders the table as HTML, as it would be in a web browser.
 
-![Visualizer table rendering](https://assets.postman.com/postman-docs/v10/visualizer-table-v10.jpg)
+![Visualizer table rendering](https://assets.postman.com/postman-docs/v10/visualizer-table-v10-22.jpg)
 
 ### Adding styling and interaction to visualizations
 
@@ -155,15 +155,15 @@ For more examples of Visualizer code in action, add any of the following collect
 
 * [DIY collection that renders a bar chart using ChartJS](https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-e5ae7007-0d34-46d4-9491-6f1526eb67ac?action=share&creator=16724969)
 
-    ![Bar Chart](https://assets.postman.com/postman-docs/v10/visualizer-example-v10.jpg)
+    ![Bar Chart](https://assets.postman.com/postman-docs/v10/visualizer-example-v10-22.jpg)
 
 * [Heat map visualization](https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-db597015-0800-45ce-9824-02114848f47f?action=share&creator=16724969)
 
-    ![Heat Map](https://assets.postman.com/postman-docs/v10/visualizer-temp-v10.jpg)
+    ![Heat Map](https://assets.postman.com/postman-docs/v10/visualizer-temp-v10-22.jpg)
 
 * [Various chart and graph examples](https://www.postman.com/postman/workspace/published-postman-templates/collection/223408-f16e1095-c2f7-415f-af26-6bbe3deb10ea?action=share&creator=16724969)
 
-    ![Map Visualizer](https://assets.postman.com/postman-docs/v10/visualizer-map-v10.jpg)
+    ![Map Visualizer](https://assets.postman.com/postman-docs/v10/visualizer-map-v10-22.jpg)
 
 > <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> You can see data visualizations in action in a sample collection template. To try out this template, select [Data visualization](https://www.postman.com/templates/c9e72d75-ded7-4135-a721-5d59ddda6d59/Data-visualization).
 
@@ -183,7 +183,7 @@ You can debug a visualization in Postman by right-clicking in the __Visualize__ 
 
 > The Visualizer Developer Tools are only available in the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/).
 
-![Debugging Visualizers in Postman](https://assets.postman.com/postman-docs/v10/inspect-vis-v10.jpg)
+![Debugging visualizers in Postman](https://assets.postman.com/postman-docs/v10/inspect-vis-v10-22.jpg)
 
 ## Next steps
 

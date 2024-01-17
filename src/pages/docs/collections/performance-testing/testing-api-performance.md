@@ -1,6 +1,6 @@
 ---
 title: "Simulate user traffic to test your API performance"
-updated: 2023-10-16
+updated: 2024-01-15
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -20,7 +20,7 @@ contextual_links:
 
 Performance testing enables you to simulate user traffic, so you can observe how your API behaves under load and find out if the performance meets expectations. It can also help you identify any issues or bottlenecks that affect performance. You can use the _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/).
 
-To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the duration of the test and the number of _virtual users_. Each virtual user runs the requests in the specified order in a repeating loop. All of the virtual users operate in parallel to simulate real-world load on your API. You can choose whether the number of virtual users is fixed for the duration of the test or gradually ramps up during the test. You can also [upload a data file](/docs/collections/performance-testing/performance-test-data-files/) with custom values to use for each virtual user.
+To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the duration of the test and the number of _virtual users_. Each virtual user runs the requests in the specified order in a repeating loop. All of the virtual users operate in parallel to simulate real-world load on your API. You can choose whether the number of virtual users is fixed for the duration of the test or ramps up and down during the test. You can also [upload a data file](/docs/collections/performance-testing/performance-test-data-files/) with custom values to use for each virtual user.
 
 The performance test runs on your computer and not in the cloud. When you start the test, the Collection Runner displays performance metrics in real time. You can [view performance test metrics](/docs/collections/performance-testing/performance-test-metrics/) such as the average response time, error rate, and throughput for all requests or individual requests. You can also [view details about errors](/docs/collections/performance-testing/performance-test-errors/) that occurred during the test to help identify the source of any performance issues.
 
@@ -58,10 +58,11 @@ To configure a performance test in the Postman desktop app, do the following:
     > The maximum number of virtual users you can simulate depends on available system resources and the collection you're using. Learn more about [virtual users and system resources](#virtual-users-and-system-resources).
 
 1. Enter the **Test duration** in minutes.
-1. Select a **Load Profile**.
-
-    * **Fixed** - The number of virtual users you specified is used throughout the test.
-    * **Ramp up** - Enter a **Ramp up duration** in minutes. During the ramp-up period, the number of virtual users gradually increases to the number of users you specified.
+1. Select a **Load profile**.
+    * **Fixed** - The maximum number of virtual users is used throughout the test.
+    * **Ramp up** - Enter an **Initial load** and drag the handles to adjust the length of the ramp up period. During the ramp up period, the number of virtual users increases from the initial load to the maximum.
+    * **Spike** - Enter a **Base load** and drag the handles to adjust the duration of the spike. During the spike, the number of virtual users increases from the base load to the maximum, then decreases back to the base load.
+    * **Peak** - Enter a **Base load** and drag the handles to adjust the duration of the peak. During the peak, the number of virtual users increases from the base load to the maximum, holds steady, then decreases back to the base load.
 
 1. (Optional) Select a **Data file** with custom values to use for each virtual user. The file must be in CSV or JSON format. Learn more about [using a data file to simulate virtual users](/docs/collections/performance-testing/performance-test-data-files/).
 1. When you're ready to begin the performance test, select **Run**.
@@ -69,7 +70,7 @@ To configure a performance test in the Postman desktop app, do the following:
     * You can view real-time performance metrics while the test is running. Learn more about [viewing performance test metrics](/docs/collections/performance-testing/performance-test-metrics/).
     * After the test completes, you can view details for any errors that occurred during the performance test. Learn more about [debugging performance test errors](/docs/collections/performance-testing/performance-test-errors/).
 
-<img alt="Configuring a performance test" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-v10-19.jpg"/>
+<img alt="Configuring a performance test" src="https://assets.postman.com/postman-docs/v10/performance-test-configure-v10-22.jpg"/>
 
 > Your [Postman plan](https://www.postman.com/pricing/) gives you a limited number of performance runs you can use each month. A message will display in the Collection Runner when you're approaching your usage limit. Learn more about [resource usage](/docs/billing/resource-usage/#performance-test-limit) in Postman.
 

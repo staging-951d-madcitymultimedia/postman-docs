@@ -60,7 +60,7 @@ To create and use a variable, do the following:
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**, then close the environment tab.
 1. Open a new request tab and enter `https://postman-echo.com/get?var={{my_variable}}` as the URL. Hover over the variable name to inspect the variable's value and scope.
 
-    <img alt="View the variable value and scope" src="https://assets.postman.com/postman-docs/v10/variable-quick-start-hover-v10-21.jpg" />
+    <img alt="View the variable value and scope" src="https://assets.postman.com/postman-docs/v10/variable-quick-start-hover-v10-22.jpg" />
 
 1. Select __Send__ and send the request. Inspect the response, which confirms that Postman sent the variable value to the API.
 1. Change the value in the environment quick look and send the request again.
@@ -73,9 +73,9 @@ For example, if you have the same URL in more than one request, but the URL migh
 
 The same principle applies to any part of your request where data is repeated. Whatever value is stored in the variable will be included wherever you've referenced the variable when your requests run. If the base URL value is `https://postman-echo.com`, and is listed as part of the request URL using `{{base_url}}/get`, Postman will send the request to `https://postman-echo.com/get`.
 
-![Environment editor](https://assets.postman.com/postman-docs/v10/environment-editor-v10-21.jpg)
+![Environment editor](https://assets.postman.com/postman-docs/v10/environment-editor-v10-22.jpg)
 
-<img alt="Reference variable" src="https://assets.postman.com/postman-docs/v10/reference-var-v10-21.jpg"/>
+<img alt="Reference variable" src="https://assets.postman.com/postman-docs/v10/reference-var-v10-22.jpg"/>
 
 Variables in Postman are key-value pairs. Each variable name represents its key, so referencing the variable name enables you to access its value.
 
@@ -133,7 +133,7 @@ To set the variable type to secret, do the following:
 1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 1. For environment or global variables, select **Edit** to open the editor.
 
-    <img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-v10-21.jpg">
+    <img alt="Environment editor" src="https://assets.postman.com/postman-docs/v10/environment-editor-v10-22.jpg">
 
     > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the sidebar, then selecting your environment.
 
@@ -162,15 +162,15 @@ To define variables at any scope in the request builder, do the following:
 
 1. Select the data you need, for example in the address, parameters, headers, or body. Select **Set as variable**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-prompt-v10-21.jpg" alt="Set as variable"/>
+    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-prompt-v10-22.jpg" alt="Set as variable"/>
 
 1. Select **Set as a new variable**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/set-as-a-new-var-v10.jpg" alt="Set as variable" width="300px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/set-as-a-new-var-v10-22.jpg" alt="Set as variable" width="302px"/>
 
 1. Enter a **Name**, confirm the **Value** is correct, and select a scope. Select **Set variable**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-modal-v10-21.jpg" alt="Set as variable"/> <!-- TODO: update screenshot to include Postman Vault scope -->
+    <img src="https://assets.postman.com/postman-docs/v10/set-as-var-modal-v10-22.jpg" alt="Set as variable"/> <!-- TODO: update screenshot to include Postman Vault scope -->
 
 > Remember to delete variables you are no longer using.
 
@@ -181,7 +181,7 @@ To set the values for existing variables to values from a request's response bod
 1. Select the text, then right-click or Control-click.
 1. Select the relevant scope (environment or global), then select the name of the variable.
 
-<img alt="Set Variable from Text" src="https://assets.postman.com/postman-docs/set-var-text.jpg" width="400px"/>
+   <img alt="Set Variable from Text" src="https://assets.postman.com/postman-docs/v10/set-var-text-v10-22.jpg" width="467px"/>
 
 ### Defining global variables
 
@@ -256,7 +256,7 @@ To create or edit a variable for an existing collection, do the following:
 1. Select **Collections** in the sidebar.
 1. Select a collection, and then select the **Variables** tab.
 
-![Edit Collection](https://assets.postman.com/postman-docs/v10/collection-variables-v10-21.jpg)
+![Edit Collection](https://assets.postman.com/postman-docs/v10/collection-variables-v10-22.jpg)
 
 > If you don't have Editor access to a collection, you can select __Request Access__. Without Editor access, you won't be able to add new collection variables, update initial values, or persist values. You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-postman/requesting-access-to-elements/) to the collection.
 
@@ -286,7 +286,7 @@ Initial values are shared when you share a collection or environment. Current va
 
 ## Using variables
 
-You can use double curly braces to reference variables throughout Postman. For example, to reference a variable named "username" in your request authorization settings, you would use the following syntax with double curly braces around the name:
+You can use double curly braces to reference variables throughout Postman. For example, to reference a variable named `username` in your request authorization settings, you would use the following syntax with double curly braces around the name:
 
 ```js
 {{username}}
@@ -314,19 +314,19 @@ If you are want to access a variable from within a request body, wrap its refere
 
 You can use variables in request URLs, parameters, headers, authorization, body, and header presets.
 
-[![Variables in Request](https://assets.postman.com/postman-docs/var-auth-v8.jpg)](https://assets.postman.com/postman-docs/var-auth-v8.jpg)
+![Variables in request](https://assets.postman.com/postman-docs/v10/var-auth-v10-22.jpg)
 
 When you hover over a variable, Postman shows an overview of its current status. As you add variables to your requests, Postman prompts you with any that are currently defined.
 
-![Variable Prompt](https://assets.postman.com/postman-docs/v10/var-prompt-v10-21.jpg)
+![Variable prompt](https://assets.postman.com/postman-docs/v10/var-prompt-v10-22.jpg)
 
 The prompt indicates the current value, scope (highlighted by color), and overridden status where relevant.
 
-![Overridden Variable](https://assets.postman.com/postman-docs/v10/overridden-var-v10-21.jpg)
+![Overridden variable](https://assets.postman.com/postman-docs/v10/overridden-var-v10-22.jpg)
 
 If a variable is unresolved, Postman highlights it in red. For information on how to fix an unresolved variable, see [Fixing unresolved variables](#fixing-unresolved-variables).
 
-<img alt="Unresolved variable" src="https://assets.postman.com/postman-docs/v10/unresolved-variable-v10-21.jpg"/>
+<img alt="Unresolved variable" src="https://assets.postman.com/postman-docs/v10/unresolved-variable-v10-22.jpg"/>
 
 ### Using dynamic variables
 
@@ -373,7 +373,7 @@ console.log(pm.variables.get("variable_key"));
 
 To view the results, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the footer. You can also access the Console by selecting **View > Show Postman Console**.
 
-![Log a variable value](https://assets.postman.com/postman-docs/v10/log-var-v10-21.jpg)
+![Log a variable value](https://assets.postman.com/postman-docs/v10/log-var-v10-22.jpg)
 
 ### Using data variables
 
@@ -422,7 +422,7 @@ A variable can be unresolved for the following reasons:
 
 When you are working on an API request, Postman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. Postman highlights unresolved variable text in red. For more details about the error and how to resolve it, hover over the unresolved variable.
 
-<img alt="Unresolved variable" src="https://assets.postman.com/postman-docs/v10/unresolved-variable-v10-21.jpg"/>
+<img alt="Unresolved variable" src="https://assets.postman.com/postman-docs/v10/unresolved-variable-v10-22.jpg"/>
 
 To check if the variable is available and in scope for the request, do the following:
 
@@ -436,6 +436,6 @@ To set a variable that's unresolved because it doesn't exist, do the following:
 1. Enter a **Name**, set a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
 1. Select **Set variable**.
 
-<img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/set-unresolved-variable-v9.jpg" width="300px"/>
+   <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/v10/set-unresolved-variable-v10-22.jpg" width="338px"/>
 
 > Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
