@@ -16,18 +16,15 @@ contextual_links:
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
 ---
 
-Postman integrations enable you to [observe the performance and availability of your APIs](https://www.postman.com/api-platform/api-observability/).
+Learn how to integrate popular API observability tools with Postman to track API performance, identify opportunities for API optimization, and share the collection-based monitor results.
 
-To observe your API, you can add an integration to view application performance management (APM) metrics from New Relic or Datadog within Postman. You can also use monitor integrations to send the results of [collection-based monitors](/docs/monitoring-your-api/intro-monitors/) to Slack, Splunk, and other channels.
+Postman enables you to view application performance management (APM) metrics from New Relic or Datadog inside Postman. You can also use monitor integrations to send the results of [collection-based monitors](/docs/monitoring-your-api/intro-monitors/) to Slack, Splunk, and other channels.
 
-## Contents
+To learn more about how observability and monitoring support the API-first development model, see [API observability](https://www.postman.com/api-platform/api-observability/) and [API monitoring](https://www.postman.com/api-platform/api-monitoring/), respectively.
 
-* [View APM metrics](#view-apm-metrics)
-* [Connect to monitor integrations](#connect-to-monitor-integrations)
+## View the APM metrics
 
-## View APM metrics
-
-Application performance management (APM) tools enable you to monitor the health and performance of your APIs. You can observe key metrics such as latency, throughput, and error rates.
+APM tools enable you to monitor the health and performance of your APIs. You can observe key metrics such as latency, throughput, and error rates.
 
 Postman integrates with popular APM tools so you can view API performance metrics in the same place where you define and test your API. To learn more, see the instructions for your APM tool:
 
@@ -36,6 +33,6 @@ Postman integrates with popular APM tools so you can view API performance metric
 
 ## Connect to monitor integrations
 
-[Postman Monitor integrations](/docs/integrations/intro-integrations/) enable you to send the results of collection-based monitors to a variety of applications and channels, such as Slack, Microsoft Teams, Datadog, or Splunk. To get started monitoring your API, view a list of [available monitor integrations](/docs/integrations/available-integrations/postman-integrations/#monitoring-and-alerts).
+[Postman Monitor integrations](/docs/integrations/intro-integrations/) enable you to send the results of collection-based monitors to a variety of applications and channels, such as Slack, Microsoft Teams, Datadog, or Splunk. To get started monitoring your API, see the list of [available monitor integrations](/docs/integrations/available-integrations/postman-integrations/#monitoring-and-alerts).
 
 >You can also send monitor results to a [custom webhook](/docs/integrations/webhooks/) to integrate monitors with your specific workflow.

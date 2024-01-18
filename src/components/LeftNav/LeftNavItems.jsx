@@ -1148,7 +1148,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Observe APIs',
+        name: 'Observe an API',
         subParentSlug: 'observing-an-api',
         slug: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
         subMenuItems2: [
