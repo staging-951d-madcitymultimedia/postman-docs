@@ -50,7 +50,7 @@ To add team members to Postbot, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**, then select **Postbot**.
-1. To add team members to Postbot, select **Add Members**. Adding team members to Postbot purchases additional seats. Learn more about [purchasing add-on products](/docs/billing/billing/#purchasing-add-on-products).
+1. To add team members to Postbot, select **Add Members**. Adding team members to Postbot purchases more seats. Learn more about [purchasing add-on products](/docs/billing/billing/#purchasing-add-on-products).
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-19.jpg"/>
 
@@ -64,14 +64,14 @@ To remove team members from Postbot, hover over a team member's name, and select
 
 > **[Enterprise solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
-As a Team Admin, you can manage [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) for your team: [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution). Adding team members to a solution can give them additional permissions within your and access to more features.
+As a Team Admin, you can manage [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) for your team: [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution). Adding team members to a solution can give them additional permissions within your team and access to more features.
 
 To add team members to a solution, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**.
 1. Select the Enterprise solution you'd like to manage: **Internal API Management** or **API Test Automation**.
-1. To add team members to a solution, select **Add Members**. Adding team members to a solution purchases additional licenses for that solution. Learn more about [managing Enterprise solutions licenses](/docs/billing/billing/#manage-enterprise-solutions-licenses).
+1. To add team members to a solution, select **Add Members**. Adding team members to a solution purchases more licenses for that solution. Learn more about [managing Enterprise solutions licenses](/docs/billing/billing/#manage-enterprise-solutions-licenses).
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-add-members-v10.jpg"/>
 

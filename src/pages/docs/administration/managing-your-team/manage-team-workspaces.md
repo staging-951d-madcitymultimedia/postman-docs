@@ -44,7 +44,7 @@ As a [Super Admin or Team Admin](/docs/collaborating-in-postman/roles-and-permis
 
 Fellow Super Admins and Team Admins can always create team workspaces. For other team members, you can specify which users and [groups](/docs/collaborating-in-postman/user-groups/) have permission to [create team workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
-If you specify users and groups, all other team members will require approval to create team workspaces by a Super Admin, Team Admin, or user with permission to create team workspaces. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until the request is approved.
+If you specify users and groups, all other team members will require approval to create team workspaces. A Super Admin, Team Admin, or user with permission to create team workspaces can approve a request. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until the request is approved.
 
 If you give all team members permission to create team workspaces, team members won't need approval to create team workspaces.
 

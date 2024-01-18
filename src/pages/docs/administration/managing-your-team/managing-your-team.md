@@ -23,7 +23,7 @@ contextual_links:
 
 Postman provides a variety of tools you can use to set up, manage, and secure your team. As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can streamline the onboarding process, manage access to workspaces and products, and customize your team's experience to align with your organization's goals.
 
-> If you've just created your Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to get started.
+> If you're setting up your Postman team, check out Postman's [onboarding checklist](/docs/administration/onboarding-checklist/) to get started.
 
 ## Contents
 
@@ -37,13 +37,13 @@ Postman provides a variety of tools you can use to set up, manage, and secure yo
 
 You can [invite collaborators](/docs/administration/managing-your-team/manage-team-members/#invite-users) to your Postman team, including Developers, Admins, external partners, and Guests. You can [update users' assigned roles](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles) and manage their access to resources as needed.
 
-If you're setting up an [Enterprise team](https://www.postman.com/pricing/), you can utilize [Postman groups](https://learning.postman.com/docs/collaborating-in-postman/user-groups/) to assign roles and manage access to elements at scale.
+If you're setting up an [Enterprise team](https://www.postman.com/pricing/), you can use [Postman groups](https://learning.postman.com/docs/collaborating-in-postman/user-groups/) to assign roles and manage access to elements at scale.
 
 ## Manage team workspaces
 
 [Team workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) enable you to share projects with collaborators and manage access to them within your team.
 
-If you're setting up a [Professional or Enterprise team](https://www.postman.com/pricing/), you can also create [private workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/). A private workspace is a team workspace that is only visible to the user who created it and team members who have been invited to join it.
+If you're setting up a [Professional or Enterprise team](https://www.postman.com/pricing/), you can also create [private workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/). A private workspace is a team workspace that's only visible to the user who created it and team members who have been invited to join it.
 
 If you're setting up an [Enterprise team](https://www.postman.com/pricing/), you can also [manage which users can create team workspaces](/docs/administration/managing-your-team/manage-team-workspaces/).
 

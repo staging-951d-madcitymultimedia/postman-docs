@@ -23,7 +23,7 @@ contextual_links:
 
 As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can invite collaborators, remove existing team members, and update user roles at any time in your team dashboard.
 
-With the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can also change your team's size to accommodate additional collaborators at any time in your billing cycle.
+With the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can also change your team's size to accommodate more collaborators at any time in your billing cycle.
 
 ## Contents
 
@@ -141,7 +141,7 @@ For help in removing team members and transferring data based on your team's con
 
 ## Manage team roles
 
-Each team member must have one or more team roles assigned to them, which will allow them to perform different actions within your team. Roles can be granted to team members individually, or to members of a [group](/docs/collaborating-in-postman/user-groups/).
+Each team member must have one or more team roles assigned to them, which will enable them to perform different actions within your team. Roles can be granted to team members individually, or to members of a [group](/docs/collaborating-in-postman/user-groups/).
 
 You can change a team member's roles at any time in the [team dashboard](https://go.postman.co/settings/team/members).
 
@@ -165,7 +165,7 @@ Super Admins can assign the Super Admin role to a user in the [team dashboard](h
 
 Regular Team Admins can't remove Super Admins from a team or remove their Super Admin role assignment.
 
-It's recommended that you create a service user that isn't tied to any individual and assign that user the Super Admin role. By doing so, your team can avoid the risk of a disruption in services due to an actual user leaving your company and ensure that your team's management is able to sign in to the service account when needed.
+It's recommended that you create a service user that isn't tied to any individual and assign that user the Super Admin role. By doing so, your team can avoid the risk of a disruption in services due to an actual user leaving your company. This ensures that your team's management is able to sign in to the service account when needed.
 
 ## Manage partners
 
@@ -199,7 +199,7 @@ You can assign roles and provide access to team resources at scale with Postman 
 
 ## Change team size
 
-You can change your team's size to accommodate additional collaborators at any time in your billing cycle. To do so, you need to have the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or get assistance from a team member with the Billing role.
+You can change your team's size to accommodate more collaborators at any time in your billing cycle. To do so, you need to have the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or request help from a team member with the Billing role.
 
 To change your team's size, you have two different options:
 
