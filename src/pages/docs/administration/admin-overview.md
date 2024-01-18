@@ -30,7 +30,7 @@ To set up a new Postman team, you can follow the steps in Postman's [onboarding 
 
 ## Set up and manage your Postman team
 
-You can [invite and manage collaborators](/docs/administration/managing-your-team/managing-your-team/#managing-team-members) in your Postman team, and update their assigned roles. You can also [adjust your team's Postman plan](/docs/administration/managing-your-team/managing-your-team/#managing-your-teams-postman-plan) as needed.
+You can [invite and manage collaborators](/docs/administration/managing-your-team/manage-team-members/) in your Postman team, and update their assigned roles. You can also [adjust your team's Postman plan](/docs/billing/billing/#team-and-plan-changes) as needed.
 
 You can [configure your team settings](/docs/administration/managing-your-team/team-settings/) to further customize the experience for both your Postman team and your API's consumers. This includes managing your team's public profile and making your team discoverable.
 

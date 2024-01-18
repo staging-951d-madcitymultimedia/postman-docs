@@ -43,7 +43,7 @@ To continue configuring your SAML application, do the following:
 
 1. Select **Save Authentication** in Postman.
 
-You can test your SAML configuration by creating a test user in Microsoft Entra ID and assigning them the Postman app. If you've chosen to [automatically add new users](/docs/administration/sso/admin-sso/#automatically-adding-new-users) when configuring SAML, you'll be able to immediately sign in Postman with the test user's credentials to confirm the process works as expected. If you haven't chosen to automatically add new users, you can manually [invite the test user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to your Postman team and then sign in to Postman with the test user's credentials.
+You can test your SAML configuration by creating a test user in Microsoft Entra ID and assigning them the Postman app. If you've chosen to [automatically add new users](/docs/administration/sso/admin-sso/#automatically-adding-new-users) when configuring SAML, you'll be able to immediately sign in Postman with the test user's credentials to confirm the process works as expected. If you haven't chosen to automatically add new users, you can manually [invite the test user](/docs/administration/managing-your-team/manage-team-members/#invite-users) to your Postman team and then sign in to Postman with the test user's credentials.
 
 > If you encounter any issues, confirm you've added and saved the correct configuration values on both Postman and Microsoft Entra ID. [Contact Postman support](https://www.postman.com/support/) for further help.
 

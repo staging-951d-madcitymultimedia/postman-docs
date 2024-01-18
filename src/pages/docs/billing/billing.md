@@ -237,7 +237,7 @@ If you are on a Basic or Professional plan, you can purchase Flow Editor and Pos
 
 Select **Modify Plan** under the plan type for your team. Update the number of Flow Editor and Postbot seats in the **Add-on products** section, then select **Next**. Select **Confirm Changes** to purchase more seats.
 
-You can manage which team members consume Postbot seats from the [product access dashboard](https://go.postman.co/settings/team/products-access). Learn how to [manage your team's access to Postbot](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-access-to-postbot).
+You can manage which team members consume Postbot seats from the [product access dashboard](https://go.postman.co/settings/team/products-access). Learn how to [manage your team's access to Postbot](/docs/administration/managing-your-team/manage-team-product-access/#manage-your-teams-access-to-postbot).
 
 If you are a Free plan user, you can purchase Postbot seats by selecting **Upgrade** in the Postman header and navigating to the bundle section to add Postbot. Update the number of Postbot seats and select from Annual or Monthly payment options, then select **Next**. Enter your billing information and payment method, then select **Confirm**.
 
@@ -249,7 +249,7 @@ As a Team Admin, you can purchase Enterprise solutions licenses for your Enterpr
 
 Select **Modify plan** under the plan type for your team. You can also select **Add to Plan** next to the solution you want to purchase more licenses for. Update the number of licenses in the **Solutions** section, then select **Next**. Select **Confirm Changes** to purchase more licenses.
 
-You can manage which team members consume the Enterprise solutions licenses from the [product access dashboard](https://go.postman.co/settings/team/products-access). Learn how to [manage your team's access to Enterprise solutions](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-access-to-enterprise-solutions).
+You can manage which team members consume the Enterprise solutions licenses from the [product access dashboard](https://go.postman.co/settings/team/products-access). Learn how to [manage your team's access to Enterprise solutions](/docs/administration/managing-your-team/manage-team-product-access/#manage-your-teams-access-to-enterprise-solutions).
 
 To learn more about the added capabilities of each solution, see [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
 
@@ -257,7 +257,7 @@ To learn more about the added capabilities of each solution, see [Enterprise sol
 
 ### Using Auto-Flex
 
-[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor, Postbot, and Enterprise solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
+[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor, Postbot, and Enterprise solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/manage-team-members/#invite-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
 All [Postman Basic, Professional, and Enterprise Essentials plans](https://www.postman.com/pricing) have Auto-Flex enabled automatically.
 
@@ -269,7 +269,7 @@ Your Auto-Flex billing cycle is dependent on your team's plan:
 
 * Annual plans are charged for newly added users on a quarterly basis.
 
-At any time during your Auto-Flex billing cycle, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users regardless of available seats.
+At any time during your Auto-Flex billing cycle, your team can [invite](/docs/administration/managing-your-team/manage-team-members/#invite-users) users regardless of available seats.
 
 Before your Auto-Flex billing cycle renews, all Billing and Admin team members receive a notification about any new users you added during that time period.
 
@@ -304,4 +304,4 @@ If you are on a Free plan with Postbot subscription and want to cancel your Post
 After learning how to navigate the billing dashboard, you can learn more about the Billing role and managing your team.
 
 * To learn more about the Billing team role, visit [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
-* For information on team management, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
+* For information on team management, visit the [Team management overview](/docs/administration/managing-your-team/managing-your-team/).

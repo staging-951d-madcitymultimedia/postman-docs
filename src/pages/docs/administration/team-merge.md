@@ -92,7 +92,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 2. [Export all data](/docs/getting-started/importing-and-exporting/exporting-data/) at once with a [JSON data dump](/docs/getting-started/importing-and-exporting/exporting-data/#exporting-data-dumps).
 3. The appointed Admin can then [re-import into the new team](/docs/getting-started/importing-and-exporting/importing-data/).
     > All collections included in the data dump will be imported into your selected workspace.
-4. When your new team is ready for users to join, the Admin on the new team can send invitations to all other team members. The invite link will prompt them to join the new team. Once they've joined the new team, you can [remove them from the original team](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+4. When your new team is ready for users to join, the Admin on the new team can send invitations to all other team members. The invite link will prompt them to join the new team. Once they've joined the new team, you can [remove them from the original team](/docs/administration/managing-your-team/manage-team-members/#remove-team-members).
 5. At this point, you can [re-share and organize collections into team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 6. Once the last team member from your previous team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
 
@@ -150,5 +150,5 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 After learning how to migrate data between teams, you can learn how to manage team roles and set up SSO:
 
-* To learn how to manage your team roles, invite team members to workspaces, and adjust your team size, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
+* To learn how to manage team members, roles, workspaces, and product access, visit the [Team management overview](/docs/administration/managing-your-team/managing-your-team/).
 * To learn how to set up single sign-on (SSO) for your Postman team, visit [Configure SSO](/docs/administration/sso/admin-sso/). (_Professional and Enterprise plans only_.)

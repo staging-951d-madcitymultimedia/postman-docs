@@ -117,7 +117,7 @@ To invite partners to a Partner Workspace, do the following:
 1. (Workspace Admins and Partner Managers only) Select **Make them Partner Lead** if you'd like them to also be able to manage and invite partners within the workspace.
 1. Select **Invite Partners**.
 
-Partner invites must be accepted by the email address you provided when you invited the individual. If a partner would like to use a different email address, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/managing-your-team/#managing-invites) and send a new one.
+Partner invites must be accepted by the email address you provided when you invited the individual. If a partner would like to use a different email address, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/manage-team-members/#invite-links) and send a new one.
 
 > Partners will sign in to your team with a Postman username and password, even if your team is restricted to signing in with [SSO](/docs/administration/sso/intro-sso/).
 
@@ -164,7 +164,7 @@ Workspace Admins and Partner Managers manage workspace settings, users, and role
 
 ### Managing users and roles
 
-You can assign team and Partner Workspace roles based on the functions team members and partners require. You can assign team roles for Partner Workspace roles at the [team level](/docs/administration/managing-your-team/managing-your-team/), and you can assign Partner Workspace roles at the [workspace level](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) and [collection level](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles). Learn more about [team and Partner Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-team-and-partner-workspace-roles).
+You can assign team and Partner Workspace roles based on the functions team members and partners require. You can assign team roles for Partner Workspace roles at the [team level](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles), and you can assign Partner Workspace roles at the [workspace level](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) and [collection level](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles). Learn more about [team and Partner Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-team-and-partner-workspace-roles).
 
 To learn more about collaborating as a team member or partner, see [Collaborating in a Partner Workspace](#collaborating-in-a-partner-workspace).
 
@@ -208,7 +208,7 @@ It's not recommended, but you can choose to delete an element entirely. To do so
 
 You can remove partners from individual Partner Workspaces. To remove a partner from a Partner Workspace, see [Managing workspace roles](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles).
 
-You can remove partners from a team. Removing a partner from a team removes them from all Partner Workspaces. If you remove the last Admin from the team, users assigned the Partner Manager role will be assigned the Admin role. Also, if you remove a partner from their last Partner Workspace, they'll be removed from the team. To remove a partner from a team, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+You can remove partners from a team. Removing a partner from a team removes them from all Partner Workspaces. If you remove the last Admin from the team, users assigned the Partner Manager role will be assigned the Admin role. Also, if you remove a partner from their last Partner Workspace, they'll be removed from the team. To remove a partner from a team, see [Remove team members](/docs/administration/managing-your-team/manage-team-members/#remove-team-members).
 
 ## Deleting a Partner Workspace
 

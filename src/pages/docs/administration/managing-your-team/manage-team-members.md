@@ -33,11 +33,11 @@ With the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#te
     * [Manage invites](#manage-invites)
     * [Invite partners](#invite-partners)
     * [Invite Guests](#invite-guests)
-* [Remove team members](#remove-team-members)
 * [Manage team roles](#manage-team-roles)
 * [Manage partners](#manage-partners)
 * [Manage Guests](#manage-guests)
 * [Manage groups](#manage-groups)
+* [Remove team members](#remove-team-members)
 * [Change team size](#change-team-size)
 
 ## Team dashboard
@@ -118,27 +118,6 @@ You can invite external partners to collaborate within a Partner Workspace. To l
 
 You can invite Guests to view specific collections and send requests in those collections. To learn more, see [Allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 
-## Remove team members
-
-> If you're on a Postman Enterprise plan, you can set up and use [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) to automate de-provisioning through your identity provider (IdP).
-
-To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name. Then to confirm, select **Remove Member**. When you remove a team member, you will still retain access to any data they have shared with the team.
-
-<img alt="Remove a team member" src="https://assets.postman.com/postman-docs/v10/team-dashboard-members-remove-v10.15.jpg"/>
-
-Reassign personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. You must reassign their personal workspaces if one of the following is true:
-
-* They're from an Enterprise team.
-* They're from a Free, Basic, or Professional team, and they have an account.
-
-> An account isn't associated with a team, and only the user can access it. To access an account, see [Switching between teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#switching-between-teams).
-
-When you remove a team member, their personal workspaces and the data within them move to an account if the following is true: they're from a Free, Basic, or Professional team and they don't have an account.
-
-For help in removing team members and transferring data based on your team's configuration, [contact Postman support](https://www.postman.com/support/).
-
-> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/billing/billing/#using-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/billing/billing/#changing-your-plan).
-
 ## Manage team roles
 
 Each team member must have one or more team roles assigned to them, which will enable them to perform different actions within your team. Roles can be granted to team members individually, or to members of a [group](/docs/collaborating-in-postman/user-groups/).
@@ -155,7 +134,7 @@ Teams can have two support accounts at no extra cost. Support accounts are team 
 
 To learn more about the team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
-### Managing Super Admins
+### Manage Super Admins
 
 > **[Super Admins are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
@@ -196,6 +175,27 @@ For information on how to remove an external user from a team or collection, see
 > **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You can assign roles and provide access to team resources at scale with Postman groups. To learn how to create and manage groups, see [Organize users into Postman groups](/docs/collaborating-in-postman/user-groups/).
+
+## Remove team members
+
+> If you're on a Postman Enterprise plan, you can set up and use [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) to automate de-provisioning through your identity provider (IdP).
+
+To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name. Then to confirm, select **Remove Member**. When you remove a team member, you will still retain access to any data they have shared with the team.
+
+<img alt="Remove a team member" src="https://assets.postman.com/postman-docs/v10/team-dashboard-members-remove-v10.15.jpg"/>
+
+Reassign personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. You must reassign their personal workspaces if one of the following is true:
+
+* They're from an Enterprise team.
+* They're from a Free, Basic, or Professional team, and they have an account.
+
+> An account isn't associated with a team, and only the user can access it. To access an account, see [Switching between teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#switching-between-teams).
+
+When you remove a team member, their personal workspaces and the data within them move to an account if the following is true: they're from a Free, Basic, or Professional team and they don't have an account.
+
+For help in removing team members and transferring data based on your team's configuration, [contact Postman support](https://www.postman.com/support/).
+
+> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid seats for your team unless the member was added by [Auto-Flex](/docs/billing/billing/#using-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid seats on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/billing/billing/#changing-your-plan).
 
 ## Change team size
 

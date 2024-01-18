@@ -73,7 +73,7 @@ These Flow examples include multiple APIs for different products and tools as we
 
 ## Enabling Postman Flows
 
-To get started using Postman Flows in a Professional or Basic plan, assign the Flow Editor role to one or more of your team members. The Flow Editor role is necessary for Professional and Basic plan team members to create, edit, and run Flows. For more information on adding a role to a user, see [Managing team roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+To get started using Postman Flows in a Professional or Basic plan, assign the Flow Editor role to one or more of your team members. The Flow Editor role is necessary for Professional and Basic plan team members to create, edit, and run Flows. For more information on adding a role to a user, see [Manage team roles](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles).
 
 The first time a team member in a Professional or Basic plan creates a Flow or selects **Flows** in the sidebar, a dialog notifies the team member that Postman is about to assign them the [Flow Editor](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role. Select **Continue** to assign the role or **Explore Flows gallery** to browse Flows templates, or close the dialog to cancel assigning the **Flow Editor** role.
 
