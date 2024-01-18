@@ -7,16 +7,16 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman 101 for Admins"
-    url: "https://youtu.be/rEKvQO8EYR8"
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/NwT062tYvzs?si=OKAzhZqKATKAOS9K"
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Managing team members and roles in Postman just got easier"
-    url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
-  - type: link
     name: "How to Securely Deploy Postman at Scale, Part 1: User Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"
+  - type: link
+    name: "How to securely deploy Postman at scale, part 2: information management"
+    url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
 ---
 
 > **[Some team options are only available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**

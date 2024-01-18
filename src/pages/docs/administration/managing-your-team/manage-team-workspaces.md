@@ -7,19 +7,13 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman 101 for Admins"
-    url: "https://youtu.be/rEKvQO8EYR8"
-  - type: link
-    name: "Securing APIs | Postman Enterprise"
-    url: "https://youtu.be/tiYgp4QEwZQ"
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/NwT062tYvzs?si=vllMPvkx05UTIHfO"
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Managing team members and roles in Postman just got easier"
-    url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
-  - type: link
-    name: "How to Securely Deploy Postman at Scale, Part 1: User Management"
-    url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"
+    name: "The ultimate guide to setting up team workspaces"
+    url: "https://blog.postman.com/the-ultimate-guide-to-setting-up-team-workspaces/"
 ---
 
 > **[Workspace management is available on Postman Enterprise plans.](https://www.postman.com/pricing)**

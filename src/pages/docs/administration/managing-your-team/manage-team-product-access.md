@@ -7,19 +7,16 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman 101 for Admins"
-    url: "https://youtu.be/rEKvQO8EYR8"
+    name: "Postman for Internal API Management"
+    url: "https://youtu.be/rkDUay18s9c?si=qoInw4zXqWCo5yGp"
   - type: link
-    name: "Securing APIs | Postman Enterprise"
-    url: "https://youtu.be/tiYgp4QEwZQ"
+    name: "Postman for API Test Automation"
+    url: "https://youtu.be/x9X4Jg-dQXI?si=48roT-4zPw4ffw8a"
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Managing team members and roles in Postman just got easier"
-    url: "https://blog.postman.com/managing-team-members-and-roles-in-postman-just-got-easier/"
-  - type: link
-    name: "How to Securely Deploy Postman at Scale, Part 1: User Management"
-    url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"
+    name: "Accelerate your API-first journey with Postman’s new Enterprise solutions"
+    url: "https://blog.postman.com/accelerate-api-first-journey-with-postman-enterprise-solutions/"
 ---
 
 > **[Some team options are only available on Postman Enterprise plans.](https://www.postman.com/pricing)**

@@ -7,8 +7,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman 101 for Admins"
-    url: "https://youtu.be/rEKvQO8EYR8"
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/NwT062tYvzs?si=OKAzhZqKATKAOS9K"
   - type: subtitle
     name: "Blog posts"
   - type: link
