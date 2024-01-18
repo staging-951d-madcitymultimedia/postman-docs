@@ -1,6 +1,6 @@
 ---
 title: "Team management overview"
-updated: 2024-01-09 
+updated: 2024-01-18
 contextual_links:
   - type: section
     name: "Additional resources"

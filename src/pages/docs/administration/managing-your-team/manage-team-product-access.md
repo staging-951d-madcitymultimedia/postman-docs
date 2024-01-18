@@ -1,6 +1,6 @@
 ---
 title: "Manage team members' product access"
-updated: 2023-06-08
+updated: 2024-01-18
 contextual_links:
   - type: section
     name: "Additional resources"
