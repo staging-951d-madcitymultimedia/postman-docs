@@ -22,36 +22,29 @@ contextual_links:
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"
 ---
 
-> **[Some team options are only available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
+> **[Some team options are only available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-Postman provides a variety of options to customize your team's experience, from the initial setup to ongoing team and plan management. As a Team Admin, you can streamline the onboarding process for your team, manage access control, and keep your team up to date with the latest version of Postman.
+As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage which team members have access to [Postbot](/docs/getting-started/basics/about-postbot/) and various [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
+
+Free, Basic, and Professional teams can [purchase Postbot as an add-on product](/docs/billing/billing/#purchasing-add-on-products). To learn more about Postbot, see [About Postbot](/docs/getting-started/basics/about-postbot/).
+
+Enterprise Essentials teams can [purchase Enterprise solutions](/docs/billing/billing/#manage-enterprise-solutions-licenses). To learn more about [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) for your team, see [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution).
 
 ## Contents
 
-* [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
-* [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
-
-<!-- ## Managing your team’s Postman plan
-
-You can manage your team size or upgrade your plan at any time during your team's billing cycle.
-
-For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
-
-### Upgrading your plan
-
-Team members with the Billing role can upgrade your team plan in the [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/billing/billing/#changing-your-plan). 
-
-## Updating your team’s Postman version
-
-If your team isn't on the latest version of the desktop app, you can update your team to ensure everyone has access to the complete Postman API development experience
+* [Manage your team's product access](#manage-your-teams-product-access)
+    * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
+    * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
 
 ## Manage your team's product access
 
-The [product access dashboard](https://go.postman.co/settings/team/products-access) enables you to manage which team members can access your team's products: Postbot and Enterprise solutions. -->
+You can manage which team members can access Postbot and Enterprise solutions in your [product access dashboard](https://go.postman.co/settings/team/products-access).
 
 ### Manage your team's access to Postbot
 
-As a Team Admin, you can manage [Postbot](/docs/getting-started/basics/about-postbot/) access for your team. When you add team members to Postbot, only added team members get an increased number of interactions with Postbot. To view your Postbot limits, go to your [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview).
+> **[Postbot is available for Free, Basic, and Professional plans.](https://www.postman.com/pricing)**
+
+Team members with [Postbot](/docs/getting-started/basics/about-postbot/) access get an increased number of interactions with Postbot. To view your team's Postbot limits, go to your [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview).
 
 To add team members to Postbot, do the following:
 
@@ -71,7 +64,7 @@ To remove team members from Postbot, hover over a team member's name, and select
 
 > **[Enterprise solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
-As a Team Admin, you can manage Enterprise solutions for you team: [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution). Depending on the solution, adding team members to a solution can give them additional permissions in your team. Adding team members to a solution also gives your team access to more features. To learn more about the added capabilities of each solution, see [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
+As a Team Admin, you can manage [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) for your team: [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution). Adding team members to a solution can give them additional permissions within your and access to more features.
 
 To add team members to a solution, do the following:
 
