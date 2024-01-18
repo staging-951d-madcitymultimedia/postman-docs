@@ -20,7 +20,7 @@ contextual_links:
     blog_tag: "collections"
 ---
 
-Learn how to create and manage Postman Collections, use collections in development workflows, take advantage of collection templates, and save multi-protocol requests into collections.
+Learn how to create and manage Postman Collections, use collections in development workflows, apply collection templates, and save multi-protocol requests into collections.
 
 ## Contents
 
