@@ -79,7 +79,7 @@ To view an API version in a workspace, do the following:
 
 To view an API version on the Private API Network, do the following:
 
-1. Select **API Network** in the Postman header, then select **Private API Network**.
+1. Select **API Network** in the Postman header, then select **View internal APIs**.
 1. Search or browse for an API, then select an API to view the available versions.
 
 > Learn more about viewing APIs on the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).

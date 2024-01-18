@@ -440,7 +440,7 @@ Creating a live collection activates an **Insights** tab where you can observe e
 
 > This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](mailto:live.insights.alpha@postman.com).
 
-![Insights tab](https://assets.postman.com/postman-docs/v10/live-insights-insights-tab-v10-21-3.jpg)
+![Insights tab](https://assets.postman.com/postman-docs/v10/live-insights-insights-tab-v10-21-4.jpg)
 
 Live Insights returns a list of categories for endpoints with most errors, endpoints with the highest error rate, endpoints with new errors over the last 7 days, and slowest endpoints, selectable from a dropdown list:
 
@@ -453,7 +453,7 @@ The **Errors** tab displays per-endpoint error states in a chronological order a
 
 > This feature is experimental and will continue to evolve. Send your feedback and ideas about the types of metrics you would like to see to [Live Insights Alpha team](mailto:live.insights.alpha@postman.com).
 
-![Errors tab](https://assets.postman.com/postman-docs/v10/live-insights-errors-tab-v10-19.jpg)
+![Errors tab](https://assets.postman.com/postman-docs/v10/live-insights-errors-tab-v10-21.jpg)
 
 ## Next steps
 

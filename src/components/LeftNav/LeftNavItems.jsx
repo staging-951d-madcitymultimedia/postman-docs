@@ -107,8 +107,12 @@ export const leftNavItems = [
       {
         name: 'Postman basics',
         subParentSlug: '/docs/getting-started/basics/',
-        slug: '/docs/getting-started/basics/navigating-postman/',
+        slug: '/docs/getting-started/basics/postman-basics/',
         subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/getting-started/basics/postman-basics/',
+          },
           {
             name: 'The Postman interface',
             url: '/docs/getting-started/basics/navigating-postman/',
@@ -146,8 +150,12 @@ export const leftNavItems = [
       {
         name: 'Install and configure',
         subParentSlug: '/docs/getting-started/installation/',
-        slug: '/docs/getting-started/installation/installation-and-updates/',
+        slug: '/docs/getting-started/installation/install-overview/',
         subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/getting-started/installation/install-overview/',
+          },
           {
             name: 'Installation and updates',
             url: '/docs/getting-started/installation/installation-and-updates/',
@@ -177,7 +185,7 @@ export const leftNavItems = [
         slug: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
         subMenuItems2: [
           {
-            name: 'Data import and export',
+            name: 'Overview',
             url: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
           },
           {
@@ -577,7 +585,7 @@ export const leftNavItems = [
         slug: '/docs/collections/running-collections/running-collections-overview/',
         subMenuItems2: [
           {
-            name: 'Test API functionality',
+            name: 'Overview',
             url: '/docs/collections/running-collections/running-collections-overview/',
           },
           {
@@ -1144,7 +1152,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Observe APIs',
+        name: 'Observe an API',
         subParentSlug: 'observing-an-api',
         slug: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
         subMenuItems2: [
@@ -1242,7 +1250,7 @@ export const leftNavItems = [
         slug: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
         subMenuItems2: [
           {
-            name: 'Share with Run in Postman',
+            name: 'Overview',
             url: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
           },
           {
@@ -1469,8 +1477,12 @@ export const leftNavItems = [
   {
     name: 'Billing',
     parentSlug: 'billing',
-    url: '/docs/billing/billing/',
+    url: '/docs/billing/billing-overview/',
     subMenuItems1: [
+      {
+        name: 'Overview',
+        url: '/docs/billing/billing-overview/',
+      },
       {
         name: 'Manage billing',
         url: '/docs/billing/billing/',

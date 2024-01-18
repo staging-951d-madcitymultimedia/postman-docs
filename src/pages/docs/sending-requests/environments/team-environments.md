@@ -134,7 +134,7 @@ If you need to update the initial value of a variable in an environment you have
 1. Select the team member you want to send the request to, and select the **Editor** role.
 1. Select **Send Request**. You'll get an email when your request is approved.
 
-![Viewer role on environment](https://assets.postman.com/postman-docs/v10/environment-request-access-v10-20.jpg)
+![Viewer role on environment](https://assets.postman.com/postman-docs/v10/environment-request-access-v10-22.jpg)
 
 ### Manage sensitive variable values
 
@@ -143,6 +143,8 @@ A variable's initial value is synced to your account using Postman's cloud serve
 If the initial value includes sensitive data, you can mask the value by selecting the **secret** variable type. When masked, the variable's values aren't visible and can't be copied. Keep in mind that anyone with access to the environment can unmask the variable by selecting the eye icon <img alt="Unmask variable icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px"> next to the variable.
 
 A variable's current value is used when sending requests in your local instance of Postman and is never synced to your Postman account or shared with your team. This means it's safe to use the current value for sensitive data such as API keys, passwords, or tokens. Keep in mind that if you [persist a variable](/docs/sending-requests/environments/environment-variables/#persist-environment-variables), the initial value is set to the current value. The value is then shared with anyone who can access the environment.
+
+<!-- You can also [use your Postman Vault to store secrets](/docs/sending-requests/postman-vault-secrets/) locally as secrets. Vault secrets are locally available to reuse in all of your workspaces in your Postman team, and aren't synced to the Postman cloud. This enables you to store and reuse sensitive data while using Postman. -->
 
 ## Fork an environment
 

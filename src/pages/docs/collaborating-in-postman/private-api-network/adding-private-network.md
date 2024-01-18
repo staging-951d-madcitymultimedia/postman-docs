@@ -65,7 +65,7 @@ You can use the Private API Network to learn about workspaces, collections, and 
 There are several ways to access the Private API Network:
 
 * Select **Home** from the Postman header, then select **Private API Network** in your team information on the left sidebar.
-* Select **API Network** from the Postman header, then select **Private API Network**.
+* Select **API Network** from the Postman header, then select **View internal APIs**.
 * Select **Search Postman** in the header, change the scope to **Private API Network**, then enter your search terms.
 
 ## Searching, filtering, and sorting
