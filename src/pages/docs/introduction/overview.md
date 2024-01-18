@@ -57,7 +57,7 @@ Postman has a powerful runtime based on Node.js that enables you to add dynamic 
 
 ## Use collections
 
-Postman Collections are groups of saved requests. You can use collections to organize and group your requests. They can then be run together. You can run collections manually, on a schedule, from a CI/CD pipeline, or from a webhook. To learn more about collections, see [Create, use, and run Postman Collections](/docs/collections/collections-overview/).
+Postman Collections are groups of saved requests. You can use collections to organize and group your requests. They can then be run together. You can run collections manually, on a schedule, from a CI/CD pipeline, or from a webhook. To learn more about collections, see [Organize and automate API requests in Postman Collections](/docs/collections/collections-overview/).
 
 ## Use Postman Flows
 
