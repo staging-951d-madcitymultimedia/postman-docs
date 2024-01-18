@@ -70,9 +70,7 @@ As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permis
 
 If you're on a [Postman Free, Basic, or Professional](https://www.postman.com/pricing/) plan, team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin. You can review all invites that have been sent in your [team dashboard](https://go.postman.co/settings/team/invites). For more details, see [Manage invites](#manage-invites).
 
-If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with you for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**. For more details, see [Managing invites](#managing-invites).
-
-You can let Postman users from your company directly request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery). You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**.
+If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with you for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members). For more details, see [Manage invites](#manage-invites).
 
 ### Manage invites
 
@@ -163,7 +161,7 @@ To learn more about the team roles that you can assign as a Team Admin, see [Tea
 
 If your team doesn't have a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) yet, a Team Admin can assign the role to anyone in the team. Once your team has at least one Super Admin, only a Super Admin can assign this role to another user.
 
-Super Admins can assign the Super Admin role to a user in the [team dashboard](https://go.postman.co/settings/team/members), while [inviting a new team member](#inviting-users), and to a [group](/docs/collaborating-in-postman/user-groups/#editing-a-group). If your team is using [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), a Super Admin must create the [SCIM credentials](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-provisioning) in order for SCIM to change the membership of a group that's been assigned the Super Admin role.
+Super Admins can assign the Super Admin role to a user in the [team dashboard](https://go.postman.co/settings/team/members), while [inviting a new team member](#invite-users), and to a [group](/docs/collaborating-in-postman/user-groups/#editing-a-group). If your team is using [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/), a Super Admin must create the [SCIM credentials](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-provisioning) in order for SCIM to change the membership of a group that's been assigned the Super Admin role.
 
 Regular Team Admins can't remove Super Admins from a team or remove their Super Admin role assignment.
 

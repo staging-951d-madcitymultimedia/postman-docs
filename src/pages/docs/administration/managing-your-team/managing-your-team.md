@@ -35,7 +35,7 @@ Postman provides a variety of tools you can use to set up, manage, and secure yo
 
 ## Manage team members
 
-You can [invite collaborators](/docs/administration/managing-your-team/manage-team-members/#inviting-users) to your Postman team, including Developers, Admins, external partners, and Guests. You can [update users' assigned roles](/docs/administration/managing-your-team/manage-team-members/#managing-team-roles) and manage their access to resources as needed.
+You can [invite collaborators](/docs/administration/managing-your-team/manage-team-members/#invite-users) to your Postman team, including Developers, Admins, external partners, and Guests. You can [update users' assigned roles](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles) and manage their access to resources as needed.
 
 If you're setting up an [Enterprise team](https://www.postman.com/pricing/), you can utilize [Postman groups](https://learning.postman.com/docs/collaborating-in-postman/user-groups/) to assign roles and manage access to elements at scale.
 
