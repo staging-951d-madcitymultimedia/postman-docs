@@ -23,7 +23,7 @@ contextual_links:
 
 As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can invite collaborators, remove existing team members, and update user roles at any time in your team dashboard.
 
-With the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can also change your team size to accommodate additional collaborators at any time in your billing cycle.
+With the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can also change your team's size to accommodate additional collaborators at any time in your billing cycle.
 
 ## Contents
 
@@ -35,9 +35,9 @@ With the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#te
     * [Invite Guests](#invite-guests)
 * [Remove team members](#remove-team-members)
 * [Manage team roles](#manage-team-roles)
-* [Manage groups](#manage-groups)
 * [Manage partners](#manage-partners)
 * [Manage Guests](#manage-guests)
+* [Manage groups](#manage-groups)
 * [Change team size](#change-team-size)
 
 ## Team dashboard
@@ -60,6 +60,8 @@ You can also invite a user to join your team with a link. To do so, select **Cop
 
 > If you're on a Postman Enterprise plan, you can set up and use [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) to provision user accounts at scale through your identity provider (IdP).
 
+<!--  -->
+
 > Depending on your [plan](https://www.postman.com/pricing), you can also invite [partners](#invite-partners) and [Guests](#invite-guests).
 
 ### Invite permissions
@@ -70,7 +72,7 @@ If you're on a [Postman Free, Basic, or Professional](https://www.postman.com/pr
 
 If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with you for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**. For more details, see [Managing invites](#managing-invites).
 
-You can let Postman users from your company directly request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery). You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**. 
+You can let Postman users from your company directly request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery). You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**.
 
 ### Manage invites
 
@@ -78,7 +80,7 @@ As a Team Admin, you can manage [pending invites](#invites-sent), review [reques
 
 #### Invites sent
 
-You can review pending invites that team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests**. To resend an invite, hover over the person's email address and select **Resend Invite**. To copy the invite link, select the copy invite link icon <img alt="Copy invite link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
+To review pending invites that team members have submitted, open your [team dashboard](https://go.postman.co/settings/team/members) and select **Invites and requests**. To resend an invite, hover over the person's email address and select **Resend Invite**. To copy the invite link, select the copy invite link icon <img alt="Copy invite link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
 
 <img alt="Review invites sent" src="https://assets.postman.com/postman-docs/v10/team-dashboard-invites-sent-v10.15.jpg"/>
 
@@ -90,7 +92,7 @@ If your team has enabled [team discovery](/docs/collaborating-in-postman/working
 
 #### Suggestions
 
-If the team member sending an invite isn't a Team Admin or a Developer inviting another Developer (on Free, Basic, or Professional plans), you or another Team Admin must review the invite suggestion. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members) by selecting **Invites and requests** and scrolling down to **Suggestions**.
+If the team member sending an invite isn't a Team Admin or a Developer inviting another Developer (on Free, Basic, or Professional plans), you or another Team Admin must review the invite suggestion. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members). To do so, select **Invites and requests** and scroll down to view **Suggestions**.
 
 To approve the suggestion and invite the user to your team, select **Invite**. To delete the invite, select the revoke invite icon <img alt="Revoke invite icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">.
 
@@ -98,7 +100,7 @@ To approve the suggestion and invite the user to your team, select **Invite**. T
 
 #### Invite links
 
-You can review the invites your team has sent by opening your [team dashboard](https://go.postman.co/settings/team/members) and selecting [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left menu. The list provides information about which users generated links, when they were generated, when they expire, and their URL.
+To review the invites your team has sent, open your [team dashboard](https://go.postman.co/settings/team/members) and select [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left menu. The list provides information about which users generated links, when they were generated, when they expire, and their URL.
 
 <img alt="Invite links dashboard" src="https://assets.postman.com/postman-docs/v10/manage-invite-links-v10.15.jpg"/>
 
@@ -157,8 +159,6 @@ To learn more about the team roles that you can assign as a Team Admin, see [Tea
 
 ### Managing Super Admins
 
-<!-- here -->
-
 > **[Super Admins are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 If your team doesn't have a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) yet, a Team Admin can assign the role to anyone in the team. Once your team has at least one Super Admin, only a Super Admin can assign this role to another user.
@@ -168,8 +168,6 @@ Super Admins can assign the Super Admin role to a user in the [team dashboard](h
 Regular Team Admins can't remove Super Admins from a team or remove their Super Admin role assignment.
 
 It's recommended that you create a service user that isn't tied to any individual and assign that user the Super Admin role. By doing so, your team can avoid the risk of a disruption in services due to an actual user leaving your company and ensure that your team's management is able to sign in to the service account when needed.
-
-## Manage groups
 
 ## Manage partners
 
@@ -181,13 +179,13 @@ You can manage external partners similarly to internal team members. To learn mo
 
 > **[Guests are available on Free, Basic, and Professional plans.](https://www.postman.com/pricing)**
 
-You can manage external users who have permission to view specific collections and send requests in the collections. External users with these permissions are assigned the [Guest role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). A [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can change an external user's role to the Developer role by going to your [team dashboard](https://go.postman.co/settings/team/members) and selecting **Convert**. When you change an external user's role from the Guest role to the Developer role, they're added to the team and get access to all team resources and workspaces.
+You can manage [Guests](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in your [team dashboard](https://go.postman.co/settings/team/members). To remove guests, select the remove guest icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" /> next to the user. To assign a Guest user the Developer role, select **Convert**. When you change an external user's role from the Guest role to the Developer role, they're added to the team and get access to all team resources and workspaces.
 
 <img alt="Convert Guest role" src="https://assets.postman.com/postman-docs/v10/manage-guests-v10.15.jpg"/>
 
 > Your team must have [available seats](/docs/billing/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/billing/billing/#using-auto-flex) to change an external user's role from the Guest role to the Developer role.
 
-A Team Admin can also view the workspaces and collections a user assigned the Guest role can access. Open your [team dashboard](https://go.postman.co/settings/team/members), locate the Guest user, and select **View resources**. Select the workspace name or collection name to open it in a new tab. You can also select the user's name to go to their Postman profile.
+To review the workspaces and collections a Guest has access to, open your [team dashboard](https://go.postman.co/settings/team/members). Locate the Guest user and select **View resources**. You can select the workspace name or collection name to open it in a new tab, or select the user's name to go to their Postman profile.
 
 <img alt="View resources a Guest can view" src="https://assets.postman.com/postman-docs/v10/view-resources-guests-v10.15.jpg" width="400px"/>
 
@@ -195,16 +193,19 @@ To learn more about sharing collections with external users, see [Allowing exter
 
 For information on how to remove an external user from a team or collection, see [Changing external user access to collections](/docs/collaborating-in-postman/sharing/#changing-external-user-access-to-collections).
 
+## Manage groups
+
+> **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+
+You can assign roles and provide access to team resources at scale with Postman groups. To learn how to create and manage groups, see [Organize users into Postman groups](/docs/collaborating-in-postman/user-groups/).
+
 ## Change team size
 
-<!-- 
+You can change your team's size to accommodate additional collaborators at any time in your billing cycle. To do so, you need to have the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or get assistance from a team member with the Billing role.
 
-### Changing team size
+To change your team's size, you have two different options:
 
-If you want to change your team's size, you have two different options:
-
-* **Change the number of paid seats** - Team members with the Billing role can change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
-* **Turn on Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/billing/billing/#using-auto-flex).
+* **Change the number of paid seats** - Change your team's number of paid seats in the [billing dashboard](https://go.postman.co/billing/overview).
+* **Turn on Auto-Flex** - Enable [Auto-Flex](/docs/billing/billing/#using-auto-flex) to let your team invite more users without having to pay in advance for more seats.
 
 For more information, see [Team and plan changes](/docs/billing/billing/#team-and-plan-changes).
- -->
