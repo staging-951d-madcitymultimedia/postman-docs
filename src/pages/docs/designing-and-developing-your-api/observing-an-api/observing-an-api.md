@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
 ---
 
-Learn how to integrate popular API observability tools with Postman to track API performance, identify opportunities for API optimization, and share the collection-based monitor results.
+Learn how to integrate popular API observability tools with Postman to track API performance, identify opportunities for API optimization, and share collection-based monitor results.
 
 Postman enables you to view application performance management (APM) metrics from New Relic or Datadog inside Postman. You can also use monitor integrations to send the results of [collection-based monitors](/docs/monitoring-your-api/intro-monitors/) to Slack, Splunk, and other channels.
 
