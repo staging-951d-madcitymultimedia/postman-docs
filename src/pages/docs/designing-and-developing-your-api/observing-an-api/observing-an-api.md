@@ -22,7 +22,7 @@ Postman enables you to view application performance management (APM) metrics fro
 
 To learn more about how observability and monitoring support the API-first development model, see [API observability](https://www.postman.com/api-platform/api-observability/) and [API monitoring](https://www.postman.com/api-platform/api-monitoring/), respectively.
 
-## View the APM metrics
+## View APM metrics
 
 APM tools enable you to monitor the health and performance of your APIs. You can observe key metrics such as latency, throughput, and error rates.
 
