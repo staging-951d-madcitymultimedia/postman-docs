@@ -17,6 +17,8 @@ To connect to an API that uses Mutual TLS (mTLS), you need to add a client certi
 
 You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that's registered with an internal certificate registry, requests sent from Postman will fail with a "self signed certificate" error. Adding a custom CA certificate will enable you to send requests to the endpoint without needing to [turn off SSL verification](#troubleshooting-certificate-errors).
 
+> If you're using the Postman web app to add and manage certificates, you must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
+
 ## Contents
 
 * [Managing certificates](#managing-certificates)
@@ -105,10 +107,10 @@ If certificate verification fails when sending a request, Postman displays an er
 To turn off SSL verification for the request, do the following:
 
 1. Open the request and select the **Settings** tab.
-1. Select **Enable SSL certificate verification** to turn off this setting.
+1. Toggle **Enable SSL certificate verification** to **OFF**.
 1. Send the request again.
 
-![SSL certificate verification](https://assets.postman.com/postman-docs/v10/certificates-ssl-verification-v10.jpg)
+![SSL certificate verification](https://assets.postman.com/postman-docs/v10/certificates-ssl-verification-v10-22.jpg)
 
 > You can turn off SSL verification globally in the [Postman settings](/docs/getting-started/installation/settings/) on the **General** tab.
 

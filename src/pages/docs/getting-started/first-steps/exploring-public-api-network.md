@@ -1,6 +1,6 @@
 ---
 title: "Discover APIs, workspaces, collections, and Flows on the Public API Network"
-updated: 2023-07-18
+updated: 2024-01-18
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -35,18 +35,18 @@ contextual_links:
 
 The Postman Public API Network is the largest network of APIs, workspaces, collections, and Flows by developers across the planet. Many of the teams and companies responsible for leading-edge APIs and technologies have public workspaces you can explore. Popular third-party APIs are also published, along with examples you can use as a starting point when writing your own APIs or collections.
 
-To access the Public API Network, visit [postman.com/explore](https://www.postman.com/explore) or select **Explore** in the header.
+To access the Public API Network, visit [postman.com/explore](https://www.postman.com/explore) or select **API Network > View all public APIs** in the header.
 
-<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10-1.jpg" />
+<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10-22.jpg" />
 
 There are a variety of ways to find APIs, workspaces, teams, collections, and Flows:
 
-* **Categories** showcases popular API categories in the Public API Network: [Artificial Intelligence](https://www.postman.com/category/artificial-intelligence), [Communication](https://www.postman.com/category/communication), [Data Analytics](https://www.postman.com/category/data-analytics), [Developer Productivity](https://www.postman.com/category/developer-productivity), [DevOps](https://www.postman.com/category/devops), [Financial Services](https://www.postman.com/category/financial-services), and [Payments](https://www.postman.com/category/payments).
-* **In the spotlight** highlights the latest exciting, useful, and noteworthy contributions to the Public API Network, handpicked by the experts at Postman.
-* **Trending workspaces, collections, and APIs** shows elements that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
-* The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, APIs, and Flows by default, but you can also use the search controls to limit a search to the Public API Network.
-* Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results by **Featured**, **Most Viewed**, and **Latest** using the **Sort by** dropdown list.
-* You can also filter Collections, APIs, and Workspaces using the categories listed on their results pages.
+* The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, APIs, and Flows by default. You can also change the scope to **Public API Network** to limit your search to the Public API Network.
+* **Spotlight** highlights the latest exciting, useful, and noteworthy contributions to the Public API Network, handpicked by the experts at Postman.
+* **Trending APIs** shows elements that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
+* **Categories** showcases popular API categories in the Public API Network: [Artificial Intelligence](https://www.postman.com/category/artificial-intelligence), [Communication](https://www.postman.com/category/communication), [Data Analytics](https://www.postman.com/category/data-analytics), [Developer Productivity](https://www.postman.com/category/developer-productivity), [DevOps](https://www.postman.com/category/devops), [Financial Services](https://www.postman.com/category/financial-services), [Payments](https://www.postman.com/category/payments), and more.
+* You can select to view **Collections**, **Workspaces**, and **Flows**. You can sort collection and workspace results by **Featured**, **New**, **Week**, and **All Time**. You can sort Flows results by **New**, **Most Viewed**, and **Most Forked**.
+* You can also filter collections using the categories listed on its results page.
 
 Check out some useful collections for getting started learning about APIs, requests, and Postman:
 

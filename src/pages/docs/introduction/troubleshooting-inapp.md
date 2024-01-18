@@ -11,7 +11,7 @@ If you have questions about Postman beyond what's covered in this guide, see [Po
 
 ## Contacting Postman product support
 
-You can contact Postman product support if you need help resolving any issues you find in Postman. Go to the [Postman Support Center](https://www.postman.com/support/) and select **Submit a Request**.
+You can contact Postman product support if you need help resolving any issues you find in Postman. Go to the [Postman Support Center](https://www.postman.com/support/) and select **Submit a request**.
 
 ## Locating Postman logs
 
