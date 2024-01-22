@@ -70,7 +70,7 @@ As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permis
 
 If you're on a [Postman Free, Basic, or Professional](https://www.postman.com/pricing/) plan, team members with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin. You can review all invites that have been sent in your [team dashboard](https://go.postman.co/settings/team/invites). For more details, see [Manage invites](#manage-invites).
 
-If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with you for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members). For more details, see [Manage invites](#manage-invites).
+If the team member sending the invite isn't a Developer inviting another Developer on a Free, Basic, or Professional plan or a Team Admin on any plan, their suggestion to add external users to your Postman team will be shared with Team Admins for approval. You can review these invite suggestions in your [team dashboard](https://go.postman.co/settings/team/members). For more details, see [Manage invites](#manage-invites).
 
 ### Manage invites
 
