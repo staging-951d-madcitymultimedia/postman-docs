@@ -1,6 +1,6 @@
 ---
 title: "Share collections with Run in Postman buttons"
-updated: 2022-09-21
+updated: 2024-01-10
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -30,14 +30,14 @@ contextual_links:
     url:  "https://www.postman.com/case-studies/box/"
 ---
 
-The **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg#icon" width="100px"/> is a way to share a Postman Collection (and optional environment) with your users. Live **Run in Postman** buttons automatically stay updated with changes to your collection, providing consumers with its most recent version. You can also attach an environment to your live button to help onboard new users to your API quickly and efficiently.
+The **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg#icon" width="100px"/> enables you to share your Postman Collection with other users. The button creates a [fork](/docs/collaborating-in-postman/using-version-control/forking-elements/) of the collection, which lets users stay updated with any changes to your collection and provides consumers with its most recent version. You can also attach an environment to your **Run in Postman** button to help onboard new users to your API quickly and efficiently.
+
+You can get started by [creating a **Run in Postman** button](/docs/publishing-your-api/run-in-postman/creating-run-button/) for your collection or [integrate the button](/docs/publishing-your-api/run-in-postman/run-button-API/) in your API documentation or developer portal.
+
+> Don't leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
 
 ## User interaction with your button
 
-When a user comes across the **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg#icon" width="100px"/> they can choose to fork the collection to their workspace, view the collection in the public workspace, or import the collection into Postman. Then, they can begin interacting with your API. The **Run in Postman** button allows the consumers to fork your collection, which creates a copy of the collection while maintaining a link to the parent.
+When a user comes across the **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg#icon" width="100px"/> in your collection they can choose to fork the collection to their workspace, view the collection in the public workspace, or import the collection into Postman. Then, they can begin interacting with your API. The **Run in Postman** button allows the consumers to fork your collection, which creates a copy of the collection while maintaining a link to the parent.
 
 <img alt="Fork collection for run in postman" src="https://assets.postman.com/postman-docs/fork-collection-for-run-in-postman.jpg" height="350px"/>
-
-**Run in Postman** buttons are only available for documentation and embed flows.
-
-> Don't leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
