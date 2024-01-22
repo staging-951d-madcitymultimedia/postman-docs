@@ -172,7 +172,7 @@ For information on how to remove an external user from a team or collection, see
 
 ## Manage groups
 
-> **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
+> **[Groups are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You can assign roles and provide access to team resources at scale with Postman groups. To learn how to create and manage groups, see [Organize users into Postman groups](/docs/collaborating-in-postman/user-groups/).
 

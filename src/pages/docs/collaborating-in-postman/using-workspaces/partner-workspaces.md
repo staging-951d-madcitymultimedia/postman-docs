@@ -117,7 +117,7 @@ To invite partners to a Partner Workspace, do the following:
 1. (Workspace Admins and Partner Managers only) Select **Make them Partner Lead** if you'd like them to also be able to manage and invite partners within the workspace.
 1. Select **Invite Partners**.
 
-Partner invites must be accepted by the email address you provided when you invited the individual. If a partner would like to use a different email address, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/manage-team-members/#invite-links) and send a new one.
+Partner invites must be accepted through the email address that was used to send the invite. If a partner wants to use a different email address, or if an invite was sent to the wrong email, you can [revoke the invite](/docs/administration/managing-your-team/manage-team-members/#invite-links) and send a new one.
 
 > Partners will sign in to your team with a Postman username and password, even if your team is restricted to signing in with [SSO](/docs/administration/sso/intro-sso/).
 

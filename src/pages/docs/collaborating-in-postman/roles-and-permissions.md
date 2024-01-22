@@ -268,7 +268,7 @@ Partner team and Partner Workspace roles relate to [Partner Workspaces](/docs/co
 You can [assign](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles) the Partner Manager role to team members at the team level, and [invite](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#inviting-collaborators-to-a-partner-workspace) partners with the Partner role:
 
 * **Partner Manager** - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
-* **Partner** - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to. All partners are assigned [Workspace Editor or Viewer](#workspace-roles) roles when invited to a Partner Workspace. You can edit Partner Workspace permissions for partners at the workspace and collection levels.
+* **Partner** - Can only access the Partner Workspaces they've been invited to. All partners are assigned [Workspace Editor or Viewer](#workspace-roles) roles when invited to a Partner Workspace. You can edit Partner Workspace permissions for partners at the workspace and collection levels.
 
 You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) Partner Workspace roles to partners at the workspace level:
 

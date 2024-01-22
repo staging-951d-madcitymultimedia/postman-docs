@@ -36,9 +36,9 @@ To begin setting up Postman, assign the Team Admin role to one or more users. Th
 
 ### Manage Team Admins and support users
 
-Identify users in your organization to be [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), giving them permission to manage team members and team settings. [Create a Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) for these users, and [assign them the Team Admin role](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles).
+Define [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) who will manage team members and team settings. [Create a Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) for these users, and [assign them the Team Admin role](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles).
 
-Team Admins can [assign the Super Admin role](/docs/administration/managing-your-team/manage-team-members/#managing-super-admins) to team members and [groups](/docs/collaborating-in-postman/user-groups/), giving them permission to manage everything with a team. It's recommended that you create a user account that isn't tied to an individual team member, and assign the Super Admin role to that user account.
+Team Admins can [assign the Super Admin role](/docs/administration/managing-your-team/manage-team-members/#manage-super-admins) to team members and [groups](/docs/collaborating-in-postman/user-groups/), giving them permission to manage everything with a team. It's recommended that you create a user account that isn't tied to an individual team member, and assign the Super Admin role to that user account.
 
 Team Admins can [assign the Admin and Billing roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to team members and groups. Team members who have only Admin or Billing roles (or both) become support users and don’t consume paid seats. Each team can have two support users.
 
