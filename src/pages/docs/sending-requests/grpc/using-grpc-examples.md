@@ -39,7 +39,7 @@ This walkthrough creates and executes a unary request, then saves the response a
 
 1. Select the **Select a method** dropdown list. When the list of methods has loaded, select **SayHello**.
 
-    ![New gRPC request](https://assets.postman.com/postman-docs/v10/grpc-save-example-1request-2-v10.jpg)
+    ![New gRPC request](https://assets.postman.com/postman-docs/v10/using-server-reflection-v10-22.jpg)
 
 1. Save the gRPC request to a collection.
 
@@ -49,7 +49,7 @@ This walkthrough creates and executes a unary request, then saves the response a
 
 1. Select **Save as Example**. The saved example opens in a new tab and you can see the saved example under the request in the sidebar.
 
-    ![gRPC Save example button](https://assets.postman.com/postman-docs/v10/grpc-save-example-4saveExampleButton-2-v10.jpg)
+    ![gRPC Save example button](https://assets.postman.com/postman-docs/v10/grpc-save-example-v10-22.jpg)
 
 ## Editing a gRPC example
 
@@ -63,7 +63,7 @@ This walkthrough edits a gRPC example.
 
     > The status codes are automatically populated based on the protobuf schema.
 
-    ![Select a status code](https://assets.postman.com/postman-docs/v10/grpc-save-example-2status-2-v10.jpg)
+    ![Select a status code](https://assets.postman.com/postman-docs/v10/grpc-save-example-2status-2-v10-22.jpg)
 
 1. Select **Save**.
 
@@ -77,7 +77,7 @@ This walkthrough uses a streaming method to create a gRPC example. Note how stre
 
 1. Select the **Add a Message** dropdown and select **Message stream**. This creates a sample message stream automatically using the message structure defined in the protobuf schema.
 
-    ![Select Message stream](https://assets.postman.com/postman-docs/v10/grpc-create-example-3stream-3-v10.jpg)
+    ![Select Message stream](https://assets.postman.com/postman-docs/v10/grpc-create-example-3stream-3-v10-22.jpg)
 
 1. Select **Save**.
 
@@ -103,13 +103,13 @@ This walkthrough shows how you can invoke a client streaming request with messag
 
 1. [Create an example for the request](#creating-a-grpc-example-from-scratch) with two different `"greeting"` messages.
 
-    ![Create an example](https://assets.postman.com/postman-docs/v10/grpc-example-message1-2-v10.jpg)
+    ![Create an example](https://assets.postman.com/postman-docs/v10/grpc-example-message1-2-v10-22.jpg)
 
 1. Select the request and select **Invoke**.
 
 1. Select the dropdown next to **Use Example Message**. Both messages from the example appear.
 
-    ![Example messages](https://assets.postman.com/postman-docs/v10/grpc-example-message2-2-v10.jpg)
+    ![Example messages](https://assets.postman.com/postman-docs/v10/grpc-example-message2-2-v10-22.jpg)
 
 1. Select a message from the dropdown list and select **Send**.
 
