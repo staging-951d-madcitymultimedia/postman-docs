@@ -18,8 +18,6 @@ gRPC uses [protobuf (protocol buffers)](https://developers.google.com/protocol-b
 
 While creating a new request, if the service definition isn't configured, Postman prompts you to configure it when you select the **Method selection** dropdown. This interface serves as a quick way to add your service definition and move on to invoking your request. From this menu, you can select a protobuf API available in your workspace or import a new one by dragging a `.proto` file from your local system and dropping it into Postman.
 
-<img src="https://assets.postman.com/postman-docs/v10/method-selection-dropdown-v10.jpg" alt="Configure service definition from method selection dropdown">
-
 To load a service definition to the request, you can either use server reflection to load the service definition, or use a protobuf API as the service definition.
 
 ## Contents
@@ -36,7 +34,7 @@ To load a service definition to the request, you can either use server reflectio
 
 If enabled by the server, server reflection can be the easiest way to add the service definition to the client. It fetches the latest information available in the schema from the server without you having to manually load a `.proto` file or create a protobuf schema. Enter the URL and Postman loads the service definition automatically.
 
-<img src="https://assets.postman.com/postman-docs/v10/using-server-reflection-v10.jpg" alt="Using service definition">
+<img src="https://assets.postman.com/postman-docs/v10/using-server-reflection-v10-22.jpg" alt="Using service definition">
 
 ## Using a protobuf API
 
@@ -46,7 +44,7 @@ If server reflection isn't enabled by the server, you can use a protobuf API as 
 
 Go to the **Service definition** tab and select **Select an API or paste a link to one**. This opens the **API selection** dropdown where you can browse through the available APIs and select the one you want to use.
 
-<img src="https://assets.postman.com/postman-docs/v10/using-api-from-workspace-v10.jpg" alt="Using a protobuf API from the workspace">
+<img src="https://assets.postman.com/postman-docs/v10/method-selection-dropdown-v10-22.jpg" alt="Using a protobuf API from the workspace">
 
 While testing the services, you can also switch to a different version of the selected API by selecting the **Version** selector next to the API name.
 
@@ -70,11 +68,11 @@ This will create a new protobuf API from the `.proto` file and use it in the req
 
 > You can also import the `.proto` file as an update to an existing API. While on the **Import as API** interface, you can select an API from the list of available APIs in the workspace and add the `.proto` file as a new version. You can also replace it with an existing version by selecting an existing version from the list.
 
-<img src="https://assets.postman.com/postman-docs/v10/import-proto-file-v10.jpg" alt="Importing a proto file">
+<img src="https://assets.postman.com/postman-docs/v10/import-proto-file-v10-22.jpg" alt="Importing a proto file">
 
 Instead of importing a `.proto` file from your local system, you can also fetch a `.proto` file from a URL by entering the URL into the import interface instead of selecting **Choose a file**.
 
-<img src="https://assets.postman.com/postman-docs/v10/load-proto-file-from-url-v10.jpg" alt="Loading proto file from a URL">
+<img src="https://assets.postman.com/postman-docs/v10/load-proto-file-from-url-v10-22.jpg" alt="Loading proto file from a URL">
 
 > Postman supports importing of multi-file schemas. You can import `.proto` files containing `import` directives referring to other files.
 
@@ -98,7 +96,7 @@ import "messages/HelloRequest.proto"
 
 In this scenario, you'll need to configure the parent directory of `enums` and `messages` (in other words, `protos`) as your import path in Postman. The added import path can look something like this: `/Users/johndoe/projects/my-app/protos/`. You can configure import paths in a request using the **Import paths option** in the **Import flow** after you select the file to import.
 
-<img src="https://assets.postman.com/postman-docs/v10/adding-import-paths-v10.jpg" alt="Adding import paths">
+<img src="https://assets.postman.com/postman-docs/v10/adding-import-paths-v10-22.jpg" alt="Adding import paths">
 
 ### Creating a new protobuf API
 
