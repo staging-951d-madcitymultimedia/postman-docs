@@ -22,9 +22,7 @@ contextual_links:
     url: "https://blog.postman.com/the-new-postman-api-platform/"
 ---
 
-Postman enables you to manage your API deployments by connecting to an API gateway. When you connect Postman to an API gateway, you can track your API deployment status and history.
-
-Postman offers integration with popular API gateways, such as [Apigee X](https://cloud.google.com/apigee), [Amazon API Gateway](https://aws.amazon.com/api-gateway/), and [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/).
+Postman enables you to manage your API deployments by connecting to an API gateway. When you connect Postman to an API gateway, you can track your API deployment status and history. Postman offers integration with popular API gateways, such as [Apigee X](https://cloud.google.com/apigee), [Amazon API Gateway](https://aws.amazon.com/api-gateway/), and [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/).
 
 ## Contents
 
