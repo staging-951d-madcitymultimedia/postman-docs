@@ -35,7 +35,7 @@ To connect to an MQTT service, you need a broker URL. This example uses the publ
 
 A message in the response area indicates that you're connected to the broker.
 
-  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-connected-v10-1.jpg" alt="Connect to a broker" width="500px"/>
+  <img src="https://assets.postman.com/postman-docs/v10/mqtt-connected-v10-22.jpg" alt="Connect to a broker" width="500px"/>
 
 > If you're using the Postman web app, use the Postman desktop agent to connect to an MQTT broker. See [About the Postman Agent](https://learning.postman.com/docs/getting-started/about-postman-agent/) for more information.
 
