@@ -1,6 +1,28 @@
 ---
 title: "Collaborate with your team in Postman"
 updated: 2024-01-25
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/5lscUV-Exac"
+  - type: link
+    name: "Postman Intergalactic | Working with Your Team in Postman"
+    url: "https://youtu.be/OifhKJCd_-M"
+  - type: link
+    name: "Collaboration & Documentation | Postman Enterprise"
+    url: "https://youtu.be/u1yEOo0dPfk"
+  - type: dynamic_blog
+    name: "Blog posts"
+    blog_tag: "collaboration"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "PayPal uses Postman collaboration capabilities"
+    url: "https://www.postman.com/case-studies/paypal/"
 ---
 
 Postman has a variety of tools you can use to improve the onboarding and collaboration experience for team members in your organization. With these features, you can ensure team members have access to relevant Postman teams for collaborating on API projects.
