@@ -43,7 +43,7 @@ In the [agent selector](#selecting-a-postman-agent-for-requests), you will be pr
 
 The Postman Cloud Agent enables you to bypass the limitations that exist in the browser by routing requests through Postman's cloud servers. The Cloud Agent overcomes the CORS limitations of browsers and acts as your agent for making API requests from the Postman web app.
 
-Your team can make a set number of requests using the Cloud Agent each month. Your [team's usage limits](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#team-usage-limits) are based on your [plan type](https://www.postman.com/pricing/). To view your team's usage of the Postman Cloud Agent, see [Managing resources](/docs/billing/billing/#managing-resources).
+Your team can make a set number of requests using the Cloud Agent each month. Your [team's usage limits](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/#team-usage-limits) are based on your [plan type](https://www.postman.com/pricing/). To view your team's usage of the Postman Cloud Agent, see [Managing resources](/docs/billing/billing/#managing-resources).
 
 > To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/billing/resource-usage/).
 

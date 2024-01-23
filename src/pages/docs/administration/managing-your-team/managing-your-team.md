@@ -123,7 +123,7 @@ Reassign their personal workspaces to another team member to ensure the team con
 * They're from an Enterprise team.
 * They're from a Free, Basic, or Professional team, and they have an account.
 
-> An account isn't associated with a team, and only the user can access it. To access an account, see [Switching between teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#switching-between-teams).
+> An account isn't associated with a team, and only the user can access it. To access an account, see [Switching between teams](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/#switching-between-teams).
 
 When you remove a team member, their personal workspaces and the data within them move to an account if the following is true: they're from a Free, Basic, or Professional team and they don't have an account.
 

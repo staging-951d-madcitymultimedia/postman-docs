@@ -35,6 +35,6 @@ Postman indicates the sync state of your workspace with the sync icon in the foo
 
 Some organizations have security guidelines that prevent team members from syncing data to the Postman cloud. In this situation, you can use the [lightweight Postman API Client](/docs/getting-started/basics/using-api-client/). All of your work in the lightweight API Client is stored locally and isn't synced online with Postman.
 
-You can delete data that's already synced to Postman by [deleting your account](/docs/getting-started/installation/postman-account/#deleting-your-account). Note that you must [leave all Postman teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) that you're a member of prior to deleting your account.
+You can delete data that's already synced to Postman by [deleting your account](/docs/getting-started/installation/postman-account/#deleting-your-account). Note that you must [leave all Postman teams](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/#leaving-a-team) that you're a member of prior to deleting your account.
 
 > Learn more about [Security at Postman](https://www.postman.com/trust/security/).
