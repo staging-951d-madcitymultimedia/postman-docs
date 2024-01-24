@@ -1,6 +1,6 @@
 ---
 title: "Store secrets locally in your Postman Vault"
-updated: 2024-01-10
+updated: 2024-02-12
 early_access: true
 plan: beta
 ---
@@ -23,7 +23,7 @@ To access your Postman Vault, select <img alt="Vault icon" src="https://assets.p
 
 ## Add sensitive data as secrets
 
-You can add sensitive data, such as API keys and passwords, as local secrets in your Postman Vault. You can also add secrets from the HTTP request builder. When you sign out of Postman, secrets are cleared from your Postman Vault.<!-- Secrets stored in your Postman Vault are encrypted using the AES-256-GCM encryption algorithm. -->
+You can add sensitive data, such as API keys and passwords, as local secrets in your Postman Vault. You can also add secrets from the HTTP request builder. When you sign out of Postman, secrets are cleared from your Postman Vault. Secrets stored in your Postman Vault are encrypted using the AES-256-GCM encryption algorithm.
 
 Vault secrets are available at the *vault* scope. Learn more about [scopes](/docs/sending-requests/variables/#variable-scopes) in Postman.
 
@@ -39,7 +39,9 @@ To add secrets to your Postman Vault, do the following:
 
         > To show or hide a vault secret's value, hover over the secret and select the eye icon <img alt="Unmask secret icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px">.
 
-    <!-- * **Domains** - The comma-separated list of domains you can send requests to with the vault variable. If a domain isn't in this list, you can't send the vault variable in your requests. By default, you can include vault variables in requests to any domain. To add domains, select **All** then enter your domains. -->
+    * **Allowed domains** - The comma-separated list of domains you're allowed to send requests to with the vault variable. By default, you can include vault variables in requests to any domain. To add domains, select **All** then enter your allowed domains.
+
+        > To allow sending requests to any subdomain of an allowed domain, use `*` to represent any subdomain. For example, add `*.example.com` to allow sending requests to any subdomain of `example.com`.
 
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**.
 
@@ -65,7 +67,7 @@ From the HTTP request builder, you can also [reference vault secrets](#use-secre
 
 ## Edit secrets
 
-You can edit secrets stored in your Postman Vault by adding new secrets, changing a secret's name, making secrets unavailable, or deleting secrets.
+You can edit secrets stored in your Postman Vault by updating secrets or allowed domains, changing a secret's name, making secrets unavailable, or deleting secrets.
 
 To edit vault secrets, select <img alt="Vault icon" src="https://assets.postman.com/postman-docs/icons/icon-vault.jpg#icon" width="12px"> **Vault** from the Postman footer. You can take the following actions:
 
