@@ -16,7 +16,9 @@ contextual_links:
     url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
 
-New featured snippet
+You can use Postman's _Collection Runner_ to test the performance of your API with the same requests, collections, and environments you use for [functional API tests](/docs/collections/running-collections/intro-to-collection-runs/).
+
+To configure a performance test, [create a collection](/docs/collections/using-collections/) with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. In the Collection Runner, you can set the duration of the test and the number of _virtual users_. Each virtual user runs the requests in the specified order in a repeating loop. All of the virtual users operate in parallel to simulate real-world load on your API. You can choose whether the number of virtual users is fixed for the duration of the test or ramps up and down during the test. You can also [upload a data file](/docs/collections/performance-testing/performance-test-data-files/) with custom values to use for each virtual user.
 
 ## Contents
 
