@@ -22,7 +22,6 @@ contextual_links:
 ---
 
 > **[Partner Workspaces are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
-
 > Multipartner mode is a beta capability and is only available to select Postman Enterprise customers who want to try it out. As you use the feature, please share any feedback or issues you encounter with your Customer Success Manager or directly with the [Product Team](mailto:ramji.enamuthu@postman.com).
 
 Partner Workspaces enable you to collaborate with your external partners and customers. You can use them to demo your API products to customers, onboard external developers faster, and reduce the time-to-first-call for your consumers.
