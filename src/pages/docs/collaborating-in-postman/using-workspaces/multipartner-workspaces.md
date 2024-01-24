@@ -2,7 +2,7 @@
 title: "Publish your APIs to multiple partners using a single Postman workspace"
 updated: 2024-01-24
 early_access: true
-plan: alpha
+plan: beta
 contextual_links:
   - type: section
     name: "Additional resources"
