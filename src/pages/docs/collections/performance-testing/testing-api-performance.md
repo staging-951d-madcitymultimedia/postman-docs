@@ -22,6 +22,11 @@ You can use the Postman desktop app to test the performance of your APIs. Perfor
 
 ## Contents
 
+* [Test API performance with virtual users](#test-api-performance-with-virtual-users)
+* [View real-time performance metrics](#view-real-time-performance-metrics)
+* [Find and debug performance issues](#find-and-debug-performance-issues)
+* [Use unique data for each virtual user](#use-unique-data-for-each-virtual-user)
+
 ## Test API performance with virtual users
 
 To [configure a performance test](/docs/collections/performance-testing/performance-test-configuration/), create a collection with the requests you want to send to your API. Postman uses these requests to simulate the activity of your API's users. Each _virtual user_ runs the requests in the specified order in a repeating loop. All of the virtual users operate in parallel to simulate real-world load on your API.
