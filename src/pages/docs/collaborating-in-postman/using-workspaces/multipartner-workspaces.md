@@ -22,7 +22,8 @@ contextual_links:
 ---
 
 > **[Partner Workspaces are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
-> Multipartner mode is a beta capability and is only available to select Postman Enterprise customers who want to try it out. As you use the feature, please share any feedback or issues you encounter with your Customer Success Manager or directly with the [Product Team](mailto:ramji.enamuthu@postman.com).
+
+_Multipartner mode is a beta capability and is only available to select Postman Enterprise customers who want to try it out. As you use the feature, please share any feedback or issues you encounter with your Customer Success Manager or directly with the [Product Team](mailto:ramji.enamuthu@postman.com)._
 
 Partner Workspaces enable you to collaborate with your external partners and customers. You can use them to demo your API products to customers, onboard external developers faster, and reduce the time-to-first-call for your consumers.
 
@@ -51,7 +52,7 @@ To enable multipartner mode, open any Partner Workspace and follow these steps:
 
     The confirmation modal describes the key capabilities of the multipartner mode. Once multipartner mode is turned on, this action can't be undone.
 
-1. Select **Enable multipartner mode**.
+1. Select **Limit Partner Visibility**.
 
     Now the partners in this workspace can't see each other or make any edits. They can view all workspace resources, send API requests, and see responses.
 
