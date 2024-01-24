@@ -1,31 +1,40 @@
 ---
-title: "Store secrets locally in your Postman Vault"
+title: "Store secrets locally with your Postman Vault"
 updated: 2024-02-12
 early_access: true
 plan: beta
 ---
 
-*Postman Vault* enables you to store secrets locally and reuse them throughout your Postman workspaces. This enables you to securely reuse sensitive data throughout your HTTP collections, environments, and requests. Only you can access and reuse secrets in your Postman Vault, and secrets aren't synced to the Postman cloud.
+*Postman Vault* enables you to store and reuse secrets in your local instance of Postman. This enables you to securely reuse sensitive data in your HTTP collections, environments, and requests. Only you can access and reuse secrets in your Postman Vault, and secrets aren't synced to the Postman cloud.
 
 You can use your Postman Vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/). You can also use your Postman Vault from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) with the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
 ## Contents
 
+* [About vault secrets](#about-vault-secrets)
 * [Access your Postman Vault](#access-your-postman-vault)
-* [Add sensitive data as secrets](#add-sensitive-data-as-secrets)
-* [Edit secrets](#edit-secrets)
-* [Use secrets](#use-secrets)
-* [Fix unresolved secrets](#fix-unresolved-secrets)
+* [Add sensitive data as vault secrets](#add-sensitive-data-as-vault-secrets)
+* [Edit vault secrets](#edit-vault-secrets)
+* [Use vault secrets](#use-vault-secrets)
+* [Fix unresolved vault secrets](#fix-unresolved-vault-secrets)
+
+## About vault secrets
+
+*Vault secrets* are sensitive data that you store in your Postman Vault and reuse in your local instance of Postman. Only you can reuse secrets in your local instance of Postman, and they aren't synced to the Postman cloud. Secrets stored in your Postman Vault are encrypted using the AES-256-GCM encryption algorithm. Also secrets are cleared from your Postman Vault when you sign out of Postman.
+
+<!-- *Vault secrets* are sensitive data that you store in your Postman Vault and reuse in your local instance of Postman. Postman Vault is available at the team level, enabling you to reuse vault secrets in all of the workspaces in your team. This can be useful when you're using the same sensitive data, such as an API key, in multiple places.
+
+Only you can reuse secrets in your local instance of Postman, and they aren't synced to the Postman cloud. Secrets stored in your Postman Vault are encrypted using the AES-256-GCM encryption algorithm. Also secrets are cleared from your Postman Vault when you sign out of Postman. -->
+
+Vault secrets are created at the *vault* scope. This enables you to access sensitive data stored in your Postman Vault and reuse them in your collections, requests, and environments. Vault secrets are available at the team level, enabling you to reuse vault secrets in all of the workspaces in your team. Vault secrets are useful when you're using the same sensitive data in multiple places throughout your workspaces, and you don't want that sensitive data synced to the Postman cloud. Learn more about [scopes](/docs/sending-requests/variables/#variable-scopes) in Postman.
 
 ## Access your Postman Vault
 
 To access your Postman Vault, select <img alt="Vault icon" src="https://assets.postman.com/postman-docs/icons/icon-vault.jpg#icon" width="12px"> **Vault** from the Postman footer. You can also use **Control+Shift+V** or **Ctrl+Shift+V** to access your Postman Vault. If you don't have any secrets stored in your Postman Vault, select **Add Vault Secret** to get started.
 
-## Add sensitive data as secrets
+## Add sensitive data as vault secrets
 
-You can add sensitive data, such as API keys and passwords, as local secrets in your Postman Vault. You can also add secrets from the HTTP request builder. When you sign out of Postman, secrets are cleared from your Postman Vault. Secrets stored in your Postman Vault are encrypted using the AES-256-GCM encryption algorithm.
-
-Vault secrets are available at the *vault* scope. Learn more about [scopes](/docs/sending-requests/variables/#variable-scopes) in Postman.
+You can add sensitive data, such as API keys and passwords, in your Postman Vault and reuse them in your local instance of Postman. You can also add secrets from the HTTP request builder.
 
 > Only you can access secrets stored in your Postman Vault.
 
@@ -34,7 +43,7 @@ To add secrets to your Postman Vault, do the following:
 1. Open your Postman Vault.
 1. Enter the following values in an empty row:
 
-    * **Key** - The name of the vault secret. Use the name to [reference the secret](#use-secrets).
+    * **Key** - The name of the vault secret. Use the name to [reference the secret](#use-vault-secrets).
     * **Value** - The value used when sending requests in your local instance of Postman. It's never synced to your account or shared with your team.
 
         > To show or hide a vault secret's value, hover over the secret and select the eye icon <img alt="Unmask secret icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px">.
@@ -49,9 +58,10 @@ To add secrets to your Postman Vault, do the following:
 
     ![Add secrets to Postman Vault](https://assets.postman.com/postman-docs/v10/add-postman-vault-variables-v10-22.jpg)
 
-To set data as vault secrets, do the following:
+To set data as vault secrets from the request builder, do the following:
 
-1. Select the data you need, for example in the address, parameters, or authorization of a request. Then select **Set as variable**.
+1. Select the data you need. You can select data from the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab.
+1. Select **Set as variable**.
 1. Select **+ Set as new variable**.
 
     <img src="https://assets.postman.com/postman-docs/v10/set-data-as-new-vault-secret-v10-22.jpg" alt="Set as new variable" width="350px"/>
@@ -61,11 +71,11 @@ To set data as vault secrets, do the following:
 
     ![Set as new vault secret](https://assets.postman.com/postman-docs/v10/set-data-as-vault-secret-v10-22.jpg)
 
-From the HTTP request builder, you can also [reference vault secrets](#use-secrets) that don't exist yet, then add new secrets to your Postman Vault. Enter a name that doesn't exist using the following syntax: `{{vault:secret-name}}`. Hover over the unresolved reference to the secret, enter the value, then select **Add Secret**.
+You can also [reference vault secrets](#use-vault-secrets) that don't exist yet, then add new secrets to your Postman Vault. In the request builder, enter a name that doesn't exist using the following syntax: `{{vault:secret-name}}`. You can enter a name in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. Hover over the unresolved reference to the secret, enter the value, then select **Add Secret**.
 
 ![Set as new vault secret](https://assets.postman.com/postman-docs/v10/reference-and-create-new-vault-secret-v10-22.jpg)
 
-## Edit secrets
+## Edit vault secrets
 
 You can edit secrets stored in your Postman Vault by updating secrets or allowed domains, changing a secret's name, making secrets unavailable, or deleting secrets.
 
@@ -82,9 +92,9 @@ To edit vault secrets, select <img alt="Vault icon" src="https://assets.postman.
 
 ![Edit vault secrets](https://assets.postman.com/postman-docs/v10/edit-postman-vault-variables-v10-22.jpg)
 
-## Use secrets
+## Use vault secrets
 
-You can reference vault secrets in your HTTP collections and requests in your Postman team. You can reference vault secrets as the values of your [global](/docs/sending-requests/variables/#defining-global-variables), [environment](/docs/sending-requests/variables/#defining-environment-variables), and [collection](/docs/sending-requests/variables/#defining-collection-variables) variables. You can also use the Collection Runner to [manually run collections](/docs/collections/running-collections/intro-to-collection-runs/) that reference vault secrets.
+You can reference vault secrets in your HTTP collections and requests from the **URL builder**, the **Params** tab, the **Authorization** tab, the **Headers** tab, and the **Body** tab. You can reference vault secrets as the values of your [global](/docs/sending-requests/variables/#defining-global-variables), [environment](/docs/sending-requests/variables/#defining-environment-variables), and [collection](/docs/sending-requests/variables/#defining-collection-variables) variables. You can also use the Collection Runner to [manually run collections](/docs/collections/running-collections/intro-to-collection-runs/) that reference vault secrets.
 
 Enclose the vault secret in double curly braces (`{{ }}`) and prefix the secret's name with `vault:` to reference it throughout your Postman team. For example, to reference a secret named "postman-api-key", use the following syntax:
 
@@ -107,7 +117,7 @@ pm.variables.get("vault:variable-key");
 
 > Secrets stored in your Postman Vault are redacted when they're logged to the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
 
-## Fix unresolved secrets
+## Fix unresolved vault secrets
 
 An *unresolved vault secret* is a secret that's not defined in your Postman Vault.
 
