@@ -44,7 +44,7 @@ The request section includes the required configurations to connect to the serve
 
     > You can't change the request protocol after you select **Save**.
 
-    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-21-11.gif" alt="Select protocol" />
+    <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-22.gif" alt="Select protocol" />
 
 * **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
