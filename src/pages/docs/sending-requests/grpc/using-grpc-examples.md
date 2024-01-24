@@ -49,7 +49,7 @@ This walkthrough creates and executes a unary request, then saves the response a
 
 1. Select **Save as Example**. The saved example opens in a new tab and you can see the saved example under the request in the sidebar.
 
-    ![gRPC Save example button](https://assets.postman.com/postman-docs/v10/grpc-save-example-v10-22.jpg)
+    ![gRPC Save example button](https://assets.postman.com/postman-docs/v10/grpc-save-example-v10-22-1.jpg)
 
 ## Editing a gRPC example
 
