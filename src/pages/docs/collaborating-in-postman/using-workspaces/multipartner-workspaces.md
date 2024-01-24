@@ -42,7 +42,7 @@ By enabling multipartner mode in a Partner Workspace, you can create a private, 
 
 The goal of this workspace is to provide a sandbox where customers and partners evaluate, onboard, and consume your APIs by sending successful requests quickly. A Partner user can't see other Partners and their activities in the workspace. They can see only your Team members, while comments and other collaborative features are turned off to maintain isolation between Partners.
 
-## Enable multipartner mode in a Partner workspace
+## Enable multipartner mode in a Partner Workspace
 
 To enable multipartner mode, open any Partner Workspace and follow these steps:
 
