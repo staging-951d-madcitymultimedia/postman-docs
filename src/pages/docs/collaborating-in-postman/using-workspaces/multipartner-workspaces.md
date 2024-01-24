@@ -58,7 +58,7 @@ To enable multipartner mode, open any Partner Workspace and follow these steps:
 
     Now the partners in this workspace can't see each other or make any edits. They can view all workspace resources, send API requests, and see responses.
 
-    <img alt="Workspace shared" src="https://assets.postman.com/postman-docs/v10/multipartner-workspace-shared-v10-22.jpg">
+    <img alt="Workspace shared" src="https://assets.postman.com/postman-docs/v10/multipartner-workspace-shared-v10-22.jpg" width="300px">
 
 The Workspace Overview and Settings pages update to display that multipartner mode is turned on. You are ready to add collections, set up the workspace, and invite partners just like in any other Partner Workspace.
 
