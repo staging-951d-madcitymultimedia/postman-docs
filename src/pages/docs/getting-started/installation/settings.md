@@ -144,8 +144,6 @@ Use the **Data** tab to request a bulk export of Postman data or to import data.
 
 Importing a dump file may overwrite your existing collections and environments, so use caution. Always make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/).
 
-If you have data on the [Scratch Pad](/docs/getting-started/basics/using-scratch-pad/), you can migrate the data to a workspace. Learn more about [migrating Scratch Pad data to a workspace](/docs/getting-started/basics/using-scratch-pad/#migrating-scratch-pad-data-to-a-workspace).
-
 ## Add-ons
 
 Select **Download Newman from npm** to download Newman, Postman's command line companion. Newman integrates your Postman collections with your build system and runs automated API tests. Learn more about [command line integration with Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
