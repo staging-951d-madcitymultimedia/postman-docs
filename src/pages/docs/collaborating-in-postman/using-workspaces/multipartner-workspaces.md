@@ -60,7 +60,7 @@ To enable multipartner mode, do the following:
 
     <img alt="Workspace shared" src="https://assets.postman.com/postman-docs/v10/multipartner-workspace-shared-v10-22.jpg" width="300px">
 
-The Workspace Overview and Settings pages update to display that multipartner mode is turned on. You are ready to add collections, set up the workspace, and invite partners just like in any other Partner Workspace.
+The workspace **Overview** and **Settings** pages update to display that multipartner mode is turned on. You are ready to add collections, set up the workspace, and invite partners just like in any other Partner Workspace.
 
 Use the fork feature to share collections and environments from your internal Team workspaces to the Partner workspace. Partners can only be invited as Viewers to this workspace. However, team members can be invited as Viewers, Editors, or Admins.
 
