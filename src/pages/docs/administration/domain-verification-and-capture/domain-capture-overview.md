@@ -13,9 +13,9 @@ contextual_links:
 
 > **[Domain verification is available on Postman Enterprise plans. Domain capture is available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**
 
-Domain verification and capture enable you to improve your team's onboarding experience and simplify team management. With these features, you can instantly give people access to the teams and resources they need to collaborate in Postman.
+Domain verification and capture enable you to improve your team's onboarding experience and simplify team management. With these features, Team Admins can instantly give people access to the teams and resources they need to collaborate in Postman.
 
-[Domain verification](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/) enables Postman to trust your team and its connection to your organization. When you verify your organization's domain, Postman will no longer require users' permission to join your team if they've verified their email addresses with the relevant domain. This enables you to instantly provide new teammates with all of the resources they’ll need to be successful contributors. Domain verification is one of the [prerequisites for enabling domain capture](#prerequisites-for-domain-capture).
+[Domain verification](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/) enables Postman to trust your team and its connection to your organization. When you verify your organization's domain, Team Admins can add users to your team who verified their email addresses with the relevant domain. Users won't need to accept an invite to join your team, enabling you to instantly provide new teammates with all of the resources they’ll need. Domain verification is one of the [prerequisites for enabling domain capture](#prerequisites-for-domain-capture).
 
 [Domain capture](/docs/administration/domain-verification-and-capture/enable-domain-capture/) consolidates all of the Postman user accounts that exist within your organization into one team. When you enable it, any accounts associated with the verified internet domain or subdomain will only be able to use Postman within your team. Moving forward, any Postman users who sign up for a new account with the relevant domain will be automatically added to your team as new members.
 

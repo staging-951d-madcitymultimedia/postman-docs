@@ -17,7 +17,7 @@ Postman provides you with a client interface to debug your MQTT-based APIs. If y
 
 You can create a new MQTT request, connect to a broker, subscribe to topics, publish messages, and view the messages received from the broker. You can save your MQTT request into a collection to reuse later, document it and share it with your teammates, and publish it to the community on [Postman's public API network](/docs/getting-started/exploring-public-api-network/).
 
-  <img src="https://assets.postman.com/postman-docs/v10/mqtt/mqtt-hero-v10-1.jpg" alt="MQTT interface" width="500px"/>
+  <img src="https://assets.postman.com/postman-docs/v10/mqtt-hero-v10-22.jpg" alt="MQTT interface" />
 
 ## Next steps
 

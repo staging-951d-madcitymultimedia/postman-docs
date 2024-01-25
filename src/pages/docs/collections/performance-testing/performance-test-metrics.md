@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
 
-During a [performance test](/docs/collections/performance-testing/testing-api-performance/), all requests are sent from your computer where you are running the Postman desktop app. You can view real-time metrics such as the average response time, error rate, and throughput. You can also customize the performance test graph to focus on the requests or test metrics you're most interested in.
+During a [performance test](/docs/collections/performance-testing/performance-test-configuration/), all requests are sent from your computer where you are running the Postman desktop app. You can view real-time metrics such as the average response time, error rate, and throughput. You can also customize the performance test graph to focus on the requests or test metrics you're most interested in.
 
 ## Contents
 
