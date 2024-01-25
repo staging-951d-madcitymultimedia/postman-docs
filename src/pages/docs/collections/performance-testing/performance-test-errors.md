@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
 
-During a [performance test](/docs/collections/performance-testing/testing-api-performance/), requests that result in a response other than a 2xx status code are tracked as errors. You can view details about the top errors that occurred during the test and error trends over time. Use this information to gain insight into when errors are occurring and the possible causes.
+During a [performance test](/docs/collections/performance-testing/performance-test-configuration/), requests that result in a response other than a 2xx status code are tracked as errors. You can view details about the top errors that occurred during the test and error trends over time. Use this information to gain insight into when errors are occurring and the possible causes.
 
 ## Contents
 
