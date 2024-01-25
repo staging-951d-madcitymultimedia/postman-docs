@@ -85,7 +85,7 @@ You can change the protocol for a new request. Select **New** in the sidebar and
 
 > You can't change the request protocol after you select **Save**.
 
-<img alt="Select protocol" src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-21-11.gif" />
+<img alt="Select protocol" src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-22.gif" />
 
 ### Setting request URLs
 
