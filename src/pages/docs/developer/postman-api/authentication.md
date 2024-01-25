@@ -69,7 +69,7 @@ Use **API key settings** to specify expiration periods for your keys.
 
 ### Use your Postman API key
 
-After you have a Postman API key, you must authenticate your requests to the Postman API by sending your API Key in the `X-Api-Key` header of every request you make. Your API Key provides access to any Postman data you have permissions for.
+After you have a Postman API key, you must authenticate your requests to the Postman API by sending your API key in the `X-Api-Key` header of every request you make. Your API key provides access to any Postman data you have permissions for.
 
 You can store your API key in a [variable](/docs/sending-requests/variables/). If you name it `postman-api-key`, the Postman API collection will use it automatically.
 
