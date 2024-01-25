@@ -20,7 +20,7 @@ contextual_links:
 The experience for captured users depends on their prior team status:
 
 * If a captured user is already on your organization's team and is not a member of any other teams, nothing changes for them.
-* If a captured user is a member of [multiple teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team), including your organization's team, they will no longer be able to authenticate into any other teams they are a member of.
+* If a captured user is a member of [multiple teams](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/#joining-a-team), including your organization's team, they will no longer be able to authenticate into any other teams they are a member of.
 * If a captured user isn't part of any team:
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to join your organization's team using SSO.

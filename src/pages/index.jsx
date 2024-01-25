@@ -132,7 +132,7 @@ class IndexPage extends React.Component {
                   <LandingCard
                     title="Collaborate with your team"
                     description="Use Postman to enhance collaboration within your team."
-                    link="/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+                    link="/docs/collaborating-in-postman/collaborate-in-postman-overview/"
                     cta="Start collaborating"
                     icon="https://voyager.postman.com/icon/community-three-people-icon-postman.svg"
                   />

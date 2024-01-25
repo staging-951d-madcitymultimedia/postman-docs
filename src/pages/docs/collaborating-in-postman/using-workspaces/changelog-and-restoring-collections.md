@@ -109,5 +109,5 @@ With a Postman Basic, Professional, or Enterprise account, you can send team act
 
 ## Next steps
 
-* For more on working with a team in Postman, read the [collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
+* For more on working with a team in Postman, read the [collaboration overview](/docs/collaborating-in-postman/collaborate-in-postman-overview/).
 * To learn how to invite input on your API projects, read [sharing your work](/docs/collaborating-in-postman/sharing/).

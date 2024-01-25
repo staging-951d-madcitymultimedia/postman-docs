@@ -75,7 +75,7 @@ To learn more about the Postman CLI, see [Explore Postman’s command-line compa
 
 Postman provides a variety of tools to enable and enhance [collaboration](https://www.postman.com/api-platform/api-collaboration/) within your team. You can create team workspaces, where team members can share their work and collaborate on API projects. Users can also discuss their work directly in Postman by commenting on collections and APIs, including on specific requests, versions, and inline on API definitions and scripts.
 
-To learn more about collaboration in Postman, see [Create, join, and manage teams in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
+To learn more about collaboration in Postman, see [Collaborate in Postman](/docs/collaborating-in-postman/collaborate-in-postman-overview/).
 
 ## Design and develop your API
 

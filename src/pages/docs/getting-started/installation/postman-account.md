@@ -19,7 +19,7 @@ contextual_links:
 warning: false
 ---
 
-Having a free Postman account enables you to [sync](/docs/getting-started/basics/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.
+Having a free Postman account enables you to [sync](/docs/getting-started/basics/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/collaborate-in-postman-overview/) with others on your API projects.
 
 > If you need help with your Postman account, you can contact the Postman [support team](https://www.postman.com/support/) or check out the Help Center's [account FAQs](https://support.postman.com/hc/en-us/sections/8180192954903-Account).
 
@@ -54,12 +54,12 @@ Your new Postman profile will be visible to collaborators and anyone viewing res
 
 ### Creating or joining a team
 
-During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/):
+During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/):
 
 * **Joining a team** - If you sign up with your company email and your company has a Postman account with team discovery enabled, there will be a list of [teams you can join](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
 * **Creating a team** - To create a team and optionally invite collaborators, select __Collaborate with people in new team__. Enter your team name and URL, then select __Continue__.
 
-> To learn more about joining and creating teams, see the [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
+> To learn more about joining and creating teams, see the [Create, join, and manage teams in Postman](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/).
 
 ## Signing in to Postman
 
@@ -158,7 +158,7 @@ You can [enable two-factor authentication](#setting-up-two-factor-authentication
 
 Deleting your account is an irreversible operation. Any data synced to your account will be deleted and no longer be accessible.
 
-You must leave all Postman teams that you're a member of prior to deleting your account. To do so, see [Leaving a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team).
+You must leave all Postman teams that you're a member of prior to deleting your account. To do so, see [Leaving a team](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/#leaving-a-team).
 
 If you're a member of an Enterprise team with [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled, you must contact a Team Admin to remove your Postman account from that team.
 
