@@ -107,7 +107,7 @@ To learn more about Postman's API Governance and API Security features, see [API
 
 Postman provides a variety of options to customize your team's experience, from the initial setup to ongoing team and plan management. As a Team Admin, you can streamline the onboarding process for your team, manage access control, and keep your team up to date with the latest version of Postman.
 
-To learn more about administering your Postman team, see the [Administration](/docs/administration/managing-your-team/managing-your-team/) section.
+To learn more about administering your Postman team, see the [Team management overview](/docs/administration/managing-your-team/managing-your-team/).
 
 ## Use reports
 
