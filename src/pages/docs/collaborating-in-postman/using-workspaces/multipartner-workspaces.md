@@ -44,7 +44,7 @@ The goal of this workspace is to provide a sandbox where customers and partners 
 
 ## Enable multipartner mode in a Partner Workspace
 
-To enable multipartner mode, open any Partner Workspace and follow these steps:
+To enable multipartner mode, do the following:
 
 1. Open an existing Partner Workspace or create a new one.
 1. In the Workspace Overview page, select **Workspace Settings**.
