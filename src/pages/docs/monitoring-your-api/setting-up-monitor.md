@@ -29,6 +29,8 @@ Create a new collection-based monitor to continuously check your API's health, r
 
 Other configuration options enable you to tailor the monitor to your specific API development workflow. You can also upload a data file with sets of values to use as variable inputs when running the monitor.
 
+> You can also schedule collection runs using the Collection Runner. Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Choose the Collection Runner to schedule runs for automating API tests and other use cases. Learn more about [Scheduling collection runs](/docs/collections/running-collections/scheduling-collection-runs/).
+
 ## Contents
 
 * [Creating a collection-based monitor](#creating-a-collection-based-monitor)
@@ -79,6 +81,8 @@ See the following sections for other configuration options you can select for yo
 ### Uploading a data file
 
 You can upload a data file to pass Postman sets of values to use during a monitor run. Postman will substitute the values for [variables](/docs/sending-requests/variables/) in requests or scripts in the monitored collection. By uploading a data file, you can run your tests with multiple sets of values within a single monitor run.
+
+> To learn more about uploading data files and attaching files to monitors, see the [Monitor FAQs](/docs/monitoring-your-api/faqs-monitors/#can-i-upload-data-files-or-attach-files-to-a-monitor).
 
 Data files can be in CSV or JSON format and must use the following structure:
 

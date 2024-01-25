@@ -1,6 +1,6 @@
 ---
 title: "Manipulate data in FQL"
-updated: 2023-03-29
+updated: 2024-01-12
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -1053,7 +1053,7 @@ $map(input.payments[].amount,$string)
 <tr>
 <td>Result</td>
 <td>
-$map(input.payments[].amount,$string)
+["110.48", "24.49", "110.48", "35.56"]
 </td>
 </tr>
 </tbody>
