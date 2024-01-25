@@ -126,7 +126,7 @@ When you leave a team, you no longer have access to the team's workspaces, inclu
 
 <img src="https://assets.postman.com/postman-docs/v10/leave-team-confirmation-v10-2.jpg" alt="Leave and delete team" width="500px"/>
 
-When you leave a team, you can also choose to keep your personal workspaces and the data within them in an account if the following is true: you're from a Free, Basic, or Professional team and you don't have an account.
+When you leave a team, you can also choose to keep your personal workspaces and the data within them in an account if you're from a Free, Basic, or Professional team and you don't have an account.
 
 <img src="https://assets.postman.com/postman-docs/v10/leave-team-keep-personal-data-confirmation-v10.jpg" alt="Leave team and keep personal data" width="500px"/>
 
