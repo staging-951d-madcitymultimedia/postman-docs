@@ -43,7 +43,7 @@ You can create and join teams in Postman, enabling you to collaborate with teamm
 
 ## About accounts and teams
 
-When you sign up for Postman as an individual, you create a [Postman account](/docs/getting-started/installation/postman-account/). If you [join a Postman team](#joining-a-team), you can decide to either move your workspaces and transfer ownership to the team or keep your workspaces separate and maintain ownership of them in your account. This decision affects your account:
+When you sign up for Postman as an individual user, you create a [Postman account](/docs/getting-started/installation/postman-account/). If you [join a Postman team](#joining-a-team), you can either move your workspaces and transfer ownership to the team or keep your workspaces separate and maintain ownership in your account. This decision affects your account in the following ways:
 
 * When you move your workspaces to a team, your account will cease to exist and you'll only have the option to switch between teams, rather than work in an account.
 * When you keep your workspaces, you'll retain your account and you can switch between the team and your account at any time.
