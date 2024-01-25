@@ -31,7 +31,7 @@ As your partner programs grow, so does your need to create, maintain and update 
 
 Multipartner mode enables you to:
 
-* Share and update Postman collections with multiple partners without having to update a separate workspace for each partner.
+* Share and update Postman Collections with multiple partners without having to update a separate workspace for each partner.
 * Invite your API partners and customers to understand the value and try out your APIs quickly before going deeper into integration.
 * Showcase real-world workflows and demos using your APIs.
 * Maintain a reference workspace for all your API end-points and documentation that can be shared with all your partners.
