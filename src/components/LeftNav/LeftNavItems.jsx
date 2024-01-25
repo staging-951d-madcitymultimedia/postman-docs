@@ -624,8 +624,12 @@ export const leftNavItems = [
         slug: '/docs/collections/performance-testing/testing-api-performance/',
         subMenuItems2: [
           {
-            name: 'Run a performance test',
+            name: 'Overview',
             url: '/docs/collections/performance-testing/testing-api-performance/',
+          },
+          {
+            name: 'Run a performance test',
+            url: '/docs/collections/performance-testing/performance-test-configuration/',
           },
           {
             name: 'View performance test metrics',
