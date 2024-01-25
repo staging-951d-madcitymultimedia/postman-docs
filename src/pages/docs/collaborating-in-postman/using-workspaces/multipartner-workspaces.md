@@ -47,7 +47,7 @@ The goal of this workspace is to provide a sandbox where customers and partners 
 To enable multipartner mode, do the following:
 
 1. Open an existing Partner Workspace or create a new one.
-1. In the Workspace Overview page, select **Workspace Settings**.
+1. In the Workspace Overview page, select <img alt="Workspace settings icon" src="https://assets.postman.com/postman-docs/v10/icon-sliders-v10.jpg#icon" width="24px"> **Workspace Settings**.
 1. Select **Enable multipartner mode**.
 
     <img alt="Enable multipartner mode" src="https://assets.postman.com/postman-docs/v10/multipartner-workspace-enable-v10-22-1.gif">
