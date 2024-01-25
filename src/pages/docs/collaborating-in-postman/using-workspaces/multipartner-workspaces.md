@@ -27,7 +27,7 @@ _Multipartner mode is a beta capability and is only available to select Postman 
 
 [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) enable you to collaborate with your external partners and customers. You can use Partner Workspaces to demo your API products to customers, onboard external developers faster, and reduce the time-to-first-call for your consumers.
 
-As your partner programs grow, so does your need to create, maintain and update multiple workspaces with nearly the same content in each one. A _multipartner_ mode within Partner Workspaces simplifies this workflow and helps you share your APIs easily with multiple customers and partners.
+As your partner programs grow, so does your need to create, maintain, and update multiple workspaces with nearly the same content in each one. A _multipartner_ mode within Partner Workspaces simplifies this workflow and helps you share your APIs easily with multiple customers and partners.
 
 Multipartner mode enables you to:
 
