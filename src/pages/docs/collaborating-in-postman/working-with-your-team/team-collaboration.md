@@ -143,7 +143,7 @@ Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/ove
 
 > To learn more about the resources included with your Postman plan and what happens when you reach your usage limits, go to [About resource usage](/docs/billing/resource-usage/).
 
-<img src="https://assets.postman.com/postman-docs/team-dropdown-resource-usage-v9-25.jpg" alt="Team resource usage information" width="342px"/>
+<img src="https://assets.postman.com/postman-docs/v10/team-dropdown-resource-usage-v10-22.jpg" alt="Team resource usage information" width="342px"/>
 
 Team members with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [purchase extra blocks](/docs/billing/billing/#purchasing-add-on-resources) of monitoring requests, mock server calls, and custom domains in the [billing dashboard](http://go.postman.co/billing).
 
