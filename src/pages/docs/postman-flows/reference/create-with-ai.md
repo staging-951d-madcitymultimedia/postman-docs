@@ -17,7 +17,7 @@ You can reference variables in your prompts with curly braces. For example, thes
 
 <img alt="Create AI block" src="https://assets.postman.com/postman-docs/v10/create-with-ai-block-v10.jpg" width="295px"/>
 
-**variable** - Take incoming data and assign it to a variable. Select the **Add data blocks** icon <img alt="Add data blocks icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to add more variables as data blocks. Use curly braces to reference variables in your prompts like this: {{value1}}.
+**variable** - Take incoming data and assign it to a variable. Select the **Add data blocks** icon <img alt="Add data blocks icon" src="https://assets.postman.com/postman-docs/v10/icon-pin-collection-v10.14.0.jpg#icon" width="16px"> to add more variables as data blocks. Use curly braces to reference variables in your prompts like this: `{{value1}}`.
 
 **Mode selection dropdown list** - Select **Text**, **Image**, or **JSON** to specify the type of data you want to create. Select **Smart** to let the **Create with AI** block automatically recognize the type of data based on your prompt.
 
