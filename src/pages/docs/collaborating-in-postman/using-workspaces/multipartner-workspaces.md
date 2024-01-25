@@ -38,7 +38,7 @@ Multipartner mode enables you to:
 
 ## Multipartner mode
 
-By enabling multipartner mode in a Partner Workspace, you can create a private, restricted-access workspace that's intentionally designed for publishing Postman Collections to multiple external partners. Partners can be invited to this workspace as Viewers only, see all the workspace content, and send API requests. Team members can make edits to the workspace, which are then available to the partners in real time.
+By enabling multipartner mode in a Partner Workspace, you can create a restricted-access workspace that's intentionally designed for publishing Postman Collections to multiple external partners. Partners can be invited to this workspace as Viewers only, see all the workspace content, and send API requests. Team members can make edits to the workspace, which are then available to the partners in real time.
 
 The goal of this workspace is to provide a sandbox where customers and partners evaluate, onboard, and consume your APIs by sending successful requests quickly. A Partner user can't see other Partners and their activities in the workspace. They can see only your Team members, while comments and other collaborative features are turned off to maintain isolation between Partners.
 
