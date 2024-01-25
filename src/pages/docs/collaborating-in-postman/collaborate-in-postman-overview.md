@@ -25,7 +25,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/paypal/"
 ---
 
-Postman has a variety of features that enable you to [collaborate with your team and API consumers](https://www.postman.com/api-platform/api-collaboration/). You can customize your workspace visibility, the roles assigned to collaborators, and more. With these features, you can tailor your collaboration strategy to each project's specific goals.
+Postman has a variety of features that enable you to [collaborate with your team and API consumers](https://www.postman.com/api-platform/api-collaboration/). You can change your workspace visibility, assign roles to collaborators, share your workspaces, and use Postman's API version control. With these features, you can tailor your collaboration strategy to each project's specific goals.
 
 ## Contents
 
@@ -37,11 +37,11 @@ Postman has a variety of features that enable you to [collaborate with your team
 
 ## Collaborate with your team
 
-You can [collaborate with team members](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) by creating and joining team workspaces and discussing your work with comments. You can also improve your team's onboarding experience with team discovery, enabling users in your organization to request to join your Postman team.
+[Collaborate with team members](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) by creating and joining team workspaces and discussing your work with comments. You can improve your team's onboarding experience with team discovery, enabling users in your organization to request to join your Postman team.
 
 ## Organize your projects using workspaces
 
-You can [organize your projects using workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), enabling you to collaborate with teammates or anyone in the Postman community. Use the visibility setting for a workspace to determine who can access it. You can create a workspace from scratch, or you can choose a workspace template to help you get started. You can also view changelogs for collections, workspaces, and APIs, enabling you to review actions taken on elements in your workspaces.
+You can [organize your projects using workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), enabling you to collaborate with teammates or anyone in the Postman community. Use the visibility setting for a workspace to determine who can access it. When you create a workspace, you can choose an empty workspace to start from scratch, or a workspace template to help you get started. You can also view changelogs for collections, workspaces, and APIs, enabling you to review actions taken on elements in your workspaces.
 
 ## Define roles and permissions
 
