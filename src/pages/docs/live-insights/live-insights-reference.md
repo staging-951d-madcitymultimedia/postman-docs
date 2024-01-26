@@ -1,6 +1,6 @@
 ---
 title: "Live Collections Agent reference"
-updated: 2023-10-30
+updated: 2024-01-26
 early_access: true
 plan: alpha
 contextual_links:
@@ -17,57 +17,6 @@ contextual_links:
 ---
 
 Use functions and parameters to customize your Live Collections Agent (LCA) deployment and filter the HTTP requests in your Postman Collection.
-
-## Contents
-
-* [kube inject](#kube-inject)
-* [apidump](#apidump)
-
-## kube inject
-
-Inject the Live Collections Agent into a Kubernetes deployment or set of deployment and output the result on the command line or into a file. See [Examples](#kube-inject-examples).
-
-### Required flags
-
-* `-f, --file string` - Path to the Kubernetes YAML file to be injected. This should contain a valid deployment manifest.
-* `--collection collectionID` - Name of the collection to which the traffic will be uploaded.
-
-### Optional flags
-
-* `-o, --output string` — Path to the output file. If not specified, the output will be printed to stdout.
-* `-s, --secret string[="true"]` — Whether to generate a Kubernetes secret manifest. If set to "true", the secret will be added to the modified Kubernetes YAML file. Specify a path to write the secret to a separate file; if this is done, an output file must also be specified with `--output`. (Default: `"false"`)
-
-> **NOTES**:
->
-> * The input file must be in YAML format and must contain at least one valid deployment manifest.
->
-> * If the `--secret` flag is set to a file path, the `--output` flag must also be set.
-
-### kube inject examples
-
-* Inject the set of deployment manifests found in `resources.yml` and print the result to standard out. Each injected deployment should send traffic from the collection to the Live Collections Agent.
-
-    ```bash
-    postman-lc-agent kube inject --collection collectionID -f resources.yml
-    ```
-
-* Inject any deployment manifests found in `resources.yml` similar to the previous execution. Also generate and add any secrets required for the Live Collections Agent to run.
-
-    ```bash
-    postman-lc-agent kube inject -s --collection collectionID -f resources.yml
-    ```
-
-* Output injected resources and any secret manifests to separate files:
-
-    ```bash
-    postman-lc-agent kube inject -s="secret.yml" --collection collectionID -f in.yml -o out.yml
-    ```
-
-* Apply generated resources via pipe using `kubectl`:
-
-    ```bash
-    postman-lc-agent kube inject -s --collection collectionID -f in.yml | kubectl apply -f -
-    ```
 
 ## apidump
 
