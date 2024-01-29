@@ -45,7 +45,7 @@ Postman supports the following provisioning features:
 
 * **Create user** - Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user if their email ID isn't attached to an existing Postman account. If a Postman account with the same email ID exists and it's associated with a domain your team has [verified](/docs/administration/domain-verification-and-capture/add-and-verify-a-domain/), the user will be automatically added to your team. If a Postman account with the same email ID exists and it's not associated with a verified domain, an email invite to join your Postman team is sent to the user. Once the user accepts the invite, they'll be added to your team.
 
-    > The newly added user will have the Developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+    > The newly added user will have the Developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles).
 
 * **Update user information**
 
@@ -59,7 +59,7 @@ Postman supports the following provisioning features:
 
     * **Reactivate user** - Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back to your Postman team.
 
-* **Create group** - Creates a new [user group](/docs/collaborating-in-postman/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each user, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a user's email ID, an [email invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
+* **Create group** - Creates a new [user group](/docs/collaborating-in-postman/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each user, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a user's email ID, an [email invite](/docs/administration/managing-your-team/manage-team-members/#manage-invites) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
 
     > Newly created groups will have the Developer role in Postman by default. You can later [update group roles in Postman](/docs/collaborating-in-postman/user-groups/#editing-team-roles-for-a-group) and [control a group's access to workspaces and individual Postman elements](/docs/collaborating-in-postman/user-groups/#managing-roles-on-workspaces-and-postman-elements), such as collections and APIs.
 

@@ -897,16 +897,24 @@ export const leftNavItems = [
   {
     name: 'Collaborate',
     parentSlug: 'collaborating-in-postman',
-    url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
+    url: '/docs/collaborating-in-postman/collaborate-in-postman-overview/',
     subMenuItems1: [
       {
         name: 'Overview',
+        url: '/docs/collaborating-in-postman/collaborate-in-postman-overview/',
+      },
+      {
+        name: 'Collaborate with your team',
         subParentSlug: 'working-with-your-team',
         slug: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
         subMenuItems2: [
           {
-            name: 'Create and manage a team',
+            name: 'Overview',
             url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
+          },
+          {
+            name: 'Create and manage a team',
+            url: '/docs/collaborating-in-postman/working-with-your-team/team-collaboration/',
           },
           {
             name: 'Team discovery',
@@ -1327,8 +1335,20 @@ export const leftNavItems = [
         slug: '/docs/administration/managing-your-team/managing-your-team/',
         subMenuItems2: [
           {
-            name: 'Manage your team',
+            name: 'Overview',
             url: '/docs/administration/managing-your-team/managing-your-team/',
+          },
+          {
+            name: 'Manage team members',
+            url: '/docs/administration/managing-your-team/manage-team-members/',
+          },
+          {
+            name: "Manage team workspaces",
+            url: '/docs/administration/managing-your-team/manage-team-workspaces/'
+          },
+          {
+            name: "Manage product access",
+            url: '/docs/administration/managing-your-team/manage-team-product-access/'
           },
           {
             name: 'Configure team settings',

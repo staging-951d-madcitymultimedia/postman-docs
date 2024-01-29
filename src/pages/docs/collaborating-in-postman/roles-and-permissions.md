@@ -53,9 +53,9 @@ Roles define user permissions within a Postman team and a user's level of access
 
 With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and give access to administrative and billing personnel. Each user on a team must have at least one role attached to them, and can hold multiple roles simultaneously.
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members, based on the functions those team members require:
+You can [assign](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles) one or more role types to team members, based on the functions those team members require:
 
-* **Super Admin** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages everything within a team, including team settings, members, roles, and resources. This role can view and manage all elements in [public, team, private, and personal workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Super Admins can perform all actions that other roles can perform. For information on assigning this role, see [Managing Super Admins](/docs/administration/managing-your-team/managing-your-team/#managing-super-admins).
+* **Super Admin** ([Enterprise plans only](https://www.postman.com/pricing)) - Manages everything within a team, including team settings, members, roles, and resources. This role can view and manage all elements in [public, team, private, and personal workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Super Admins can perform all actions that other roles can perform. For information on assigning this role, see [Manage Super Admins](/docs/administration/managing-your-team/manage-team-members/#manage-super-admins).
 * **Admin** - Manages team members and team settings. Can also view monitor metadata and run, pause, and resume monitors.
 * **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
@@ -104,7 +104,7 @@ There are additional specialized roles for [Enterprise](https://www.postman.com/
 
 ### Managing team roles
 
-To learn how to manage team roles in Postman, see [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
+To learn how to manage team roles in Postman, see [Manage your team](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles).
 
 ## Workspace roles
 
@@ -265,10 +265,10 @@ Partner team and Partner Workspace roles relate to [Partner Workspaces](/docs/co
 | **Workspace level** | Admin, Viewer, Editor | Viewer, Editor <br> Partner Lead (optional) |
 | **Collection level** | Viewer, Editor | Viewer, Editor |
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) the Partner Manager role to team members at the team level, and [invite](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#inviting-collaborators-to-a-partner-workspace) partners with the Partner role:
+You can [assign](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles) the Partner Manager role to team members at the team level, and [invite](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#inviting-collaborators-to-a-partner-workspace) partners with the Partner role:
 
 * **Partner Manager** - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
-* **Partner** - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to. All partners are assigned [Workspace Editor or Viewer](#workspace-roles) roles when invited to a Partner Workspace. You can edit Partner Workspace permissions for partners at the workspace and collection levels.
+* **Partner** - Can only access the Partner Workspaces they've been invited to. All partners are assigned [Workspace Editor or Viewer](#workspace-roles) roles when invited to a Partner Workspace. You can edit Partner Workspace permissions for partners at the workspace and collection levels.
 
 You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) Partner Workspace roles to partners at the workspace level:
 
@@ -291,7 +291,7 @@ To learn more about collaborating as a team member or partner, see [Collaboratin
 
 Network roles related to the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/) are applied at the team and folder level.
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) network roles at the team level:
+You can [assign](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles) network roles at the team level:
 
 * **API Network Manager** - Manages a team's Private API Network, including adding elements and reviewing requests to add them.
 
@@ -303,4 +303,4 @@ You can also [assign](/docs/collaborating-in-postman/private-api-network/organiz
 
 After learning about the roles available to team members, you can manage your team's level of access and control more effectively.
 
-* To learn more about team management, including managing team roles and inviting collaborators to join your team, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
+* To learn more about team management, including managing team roles and inviting collaborators to join your team, visit the [Team management overview](/docs/administration/managing-your-team/managing-your-team/).

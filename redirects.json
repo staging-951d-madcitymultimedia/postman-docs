@@ -33,7 +33,7 @@
   },
   {
     "from": "/docs/collaborating-in-postman/",
-    "to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+    "to": "/docs/collaborating-in-postman/collaborate-in-postman-overview/"
   },
   {
     "from": "/docs/collaborating-in-postman/using-workspaces/",
@@ -41,7 +41,7 @@
   },
   {
     "from": "/docs/collaborating_in_postman/",
-    "to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+    "to": "/docs/collaborating-in-postman/collaborate-in-postman-overview/"
   },
   {
     "from": "/docs/collaborating_in_postman/using_workspaces/",
@@ -517,11 +517,11 @@
   },
   {
     "from": "/docs/postman/collaboration/collaboration-intro/",
-    "to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+    "to": "/docs/collaborating-in-postman/collaborate-in-postman-overview/"
   },
   {
     "from": "/docs/postman/collaboration/collaboration_intro/",
-    "to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+    "to": "/docs/collaborating-in-postman/collaborate-in-postman-overview/"
   },
   {
     "from": "/docs/postman/collaboration/managing-your-team/",
@@ -901,7 +901,7 @@
   },
   {
     "from": "/docs/postman/launching-postman/collaboration/",
-    "to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+    "to": "/docs/collaborating-in-postman/collaborate-in-postman-overview/"
   },
   {
     "from": "/docs/postman/launching-postman/creating-the-first-collection/",
@@ -949,7 +949,7 @@
   },
   {
     "from": "/docs/postman/launching_postman/collaboration/",
-    "to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+    "to": "/docs/collaborating-in-postman/collaborate-in-postman-overview/"
   },
   {
     "from": "/docs/postman/launching_postman/creating_the_first_collection/",
@@ -1109,7 +1109,7 @@
   },
   {
     "from": "/docs/postman/notifications/",
-    "to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+    "to": "/docs/collaborating-in-postman/collaborate-in-postman-overview/"
   },
   {
     "from": "/docs/postman/postman-api/continuous-integration/",
@@ -2165,7 +2165,7 @@
   },
   {
     "from": "/docs/collaborating-in-postman/collaboration-intro/",
-    "to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+    "to": "/docs/collaborating-in-postman/collaborate-in-postman-overview/"
   },
   {
     "from": "/docs/postman/sending_api_requests/cookies/).%20%20",

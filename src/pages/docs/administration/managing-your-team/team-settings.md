@@ -143,13 +143,13 @@ You can select the following to add roles to users and groups, and review role a
 * Select **Groups** to manage your user groups and assign them roles.
 * Select **Roles and permissions** to view a complete list of permissions for users' roles at a team, collection, workspace, API, mock server, and monitor level.
 
-See [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information about roles you can assign to team members. See [Managing your team](/docs/administration/managing-your-team/managing-your-team/) for an overview of managing roles and users within your Postman team. See [Managing user groups](/docs/collaborating-in-postman/user-groups/) for more information about managing groups and adding roles to the groups.
+See [Define roles and permissions within a Postman team](/docs/collaborating-in-postman/roles-and-permissions/) for more information about roles you can assign to team members. See [Manage team members](/docs/administration/managing-your-team/manage-team-members/) to learn how to manage roles and users within your Postman team. See [Organize users into Postman groups](/docs/collaborating-in-postman/user-groups/) for more information about managing groups and adding roles to the groups.
 
 ## Reviewing invite links
 
 Select **Invite links** to review the invites your team has sent to others.
 
-See [Managing invites](/docs/administration/managing-your-team/managing-your-team/#managing-invites) to learn more about managing invites and invite links.
+See [Manage invites](/docs/administration/managing-your-team/manage-team-members/#manage-invites) to learn more about managing invites and invite links.
 
 ## Downloading the Postman Enterprise app
 
