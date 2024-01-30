@@ -253,6 +253,30 @@ export const leftNavItems = [
           {
             name: 'Request basics',
             url: '/docs/sending-requests/create-requests/request-basics/',
+          },
+          {
+            name: 'Parameters and body data',
+            url: '/docs/sending-requests/create-requests/parameters/',
+          },
+          {
+            name: 'Request headers',
+            url: '/docs/sending-requests/create-requests/headers/',
+          },
+          {
+            name: 'Test data storage',
+            url: '/docs/sending-requests/create-requests/test-data/',
+          },
+          {
+            name: 'Customize request settings',
+            url: '/docs/sending-requests/create-requests/request-settings/',
+          },
+          {
+            name: 'Group requests in collections',
+            url: '/docs/sending-requests/create-requests/intro-to-collections/',
+          },
+          {
+            name: 'Generate client code',
+            url: '/docs/sending-requests/create-requests/generate-code-snippets/',
           }
         ],
       },
@@ -316,10 +340,6 @@ export const leftNavItems = [
         url: '/docs/sending-requests/responses/',
       },
       {
-        name: 'Group requests in collections',
-        url: '/docs/sending-requests/intro-to-collections/',
-      },
-      {
         name: 'Store values in variables',
         url: '/docs/sending-requests/variables/',
       },
@@ -357,10 +377,6 @@ export const leftNavItems = [
       {
         name: 'Add and manage certificates',
         url: '/docs/sending-requests/certificates/',
-      },
-      {
-        name: 'Generate client code',
-        url: '/docs/sending-requests/generate-code-snippets/',
       },
       {
         name: 'Debug requests',

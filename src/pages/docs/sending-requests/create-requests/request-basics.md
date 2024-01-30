@@ -12,19 +12,6 @@ contextual_links:
   - type: link
     name: "How to use an API? | Intro to APIs Part 2"
     url:  "https://youtu.be/woRuedXZyi4"
-  - type: link
-    name: "Upload a File via POST Request | Postman Level Up"
-    url: "https://youtu.be/S7bwkys6D0E"
-  - type: subtitle
-    name: "Blog posts"
-  - type: link
-    name: "Introducing file storage for tests and requests"
-    url: "https://blog.postman.com/introducing-file-storage-for-tests-and-requests/"
-  - type: subtitle
-    name: "Public workspaces"
-  - type: link
-    name: "Postman Answers"
-    url:  "https://www.postman.com/postman/workspace/aa5fb3b8-0090-4b5e-b3b4-fa5c1f2d080d"
 ---
 
 Featured snippet
@@ -32,9 +19,11 @@ Featured snippet
 ## Contents
 
 * [Creating requests](#creating-requests)
-* [Selecting protocols](#selecting-protocols)
-* [Setting request URLs](#setting-request-urls)
-* [Selecting request methods](#selecting-request-methods)
+    * [Selecting protocols](#selecting-protocols)
+    * [Setting request URLs](#setting-request-urls)
+    * [Selecting request methods](#selecting-request-methods)
+* [Authenticating requests](#authenticating-requests)
+* [Using cookies](#using-cookies)
 * [Sending a request](#sending-a-request)
 * [Sharing your requests](#sharing-your-requests)
 * [Next steps](#next-steps)
@@ -59,7 +48,7 @@ If you have a request you want to run, you will need to know the URL, method, an
 
 To test sending a request in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then select __Send__.
 
-## Selecting protocols
+### Selecting protocols
 
 You can change the protocol for a new request. Select **New** in the sidebar and then select a request protocol, or select **+** to open a new tab. Select the protocol dropdown menu to the left of the request's name, and then select a different request protocol.
 
@@ -67,7 +56,7 @@ You can change the protocol for a new request. Select **New** in the sidebar and
 
 <img alt="Select protocol" src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-22.gif" />
 
-## Setting request URLs
+### Setting request URLs
 
 Each request you send in Postman requires a URL representing the API endpoint you are working with. Each operation you can perform using an API is typically associated with an endpoint. Each endpoint in an API is available at a particular URL. This is what you enter into Postman to access the API.
 
@@ -82,7 +71,7 @@ You can optionally enter _query_ parameters into the URL field, or you can [ente
 
 > You can use [next generation URL encoding](#encoding-your-request-urls) in your requests.
 
-## Selecting request methods
+### Selecting request methods
 
 By default, Postman will select the `GET` method for new request. `GET` methods are typically for retrieving data from an API. You can use a variety of other methods to send data to your APIs, including the following most common options:
 
@@ -105,6 +94,30 @@ The same location (sometimes called "route") can provide more than one endpoint 
 * Otherwise, specify your [parameters](#sending-parameters) and any [body data](#sending-body-data) you need to send to the API.
 * If you don't need to send data with your request, set up any required [authentication](#authenticating-requests) and [headers](#configuring-request-headers).
 
+## Authenticating requests
+
+Some APIs require auth details you can send in Postman. Authentication involves confirming the identity of the client sending a request, and authorization involves confirming that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
+
+![Request Auth](https://assets.postman.com/postman-docs/v10/authorization-tab-v10-21-12.jpg)
+
+Postman will automatically include your auth details in the relevant part of the request, for example in __Headers__.
+
+For more detail on implementing different types of auth in your Postman requests, check out the [Authorizing requests overview](/docs/sending-requests/authorization/authorization/).
+
+Once your auth and other request details are set up, select __Send__ to run your request.
+
+## Using cookies
+
+You can manage Cookies for your domains from Postman. Select __Cookies__ (under __Send__). For more information, see [Managing cookies](/docs/sending-requests/cookies/).
+
+<img src="https://assets.postman.com/postman-docs/cookies-dialog.jpg" alt="manage cookies dialog" width="450px" />
+
+## Sending a request
+
+Select **Send** to send a request.
+
+You'll get a response in the response time. Learn more about response data.
+
 ## Sharing your requests
 
 You can share requests with collaborators by going to the request you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the request you want to share, then select **Share**.
@@ -112,12 +125,6 @@ You can share requests with collaborators by going to the request you want to sh
 <img alt="Share request" src="https://assets.postman.com/postman-docs/v10/share-request-v10-21.jpg"/>
 
 For more details about sharing requests, see [Share your work in Postman](/docs/collaborating-in-postman/sharing/).
-
-## Sending a request
-
-Select **Send** to send a request.
-
-You'll get a response in the response time. Learn more about response data.
 
 ## Next steps
 
