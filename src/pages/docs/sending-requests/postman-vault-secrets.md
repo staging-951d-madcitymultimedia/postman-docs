@@ -5,47 +5,63 @@ early_access: true
 plan: beta
 ---
 
-*Postman Vault* enables you to store and reuse secrets in your local instance of Postman. This enables you to securely reuse sensitive data in your HTTP collections, environments, and requests. Only you can access and reuse secrets in your Postman Vault, and secrets aren't synced to the Postman cloud.
+*Postman Vault* enables you to store and reuse vault secrets in your local instance of Postman. This enables you to securely reuse sensitive data in your HTTP collections, environments, and requests. Only you can access and reuse vault secrets stored in your Postman Vault, and secrets aren't synced to the Postman cloud.
+
+When you first open your Postman Vault, you Postman generates a [vault key](#manage-your-vault-key) that enables you to access your encrypted vault secrets. Once you store your vault key in a secure location, you can [add sensitive data as vault secrets](#add-sensitive-data-as-vault-secrets) in your Postman Vault. Then you can [reference your vault secrets](#use-vault-secrets) in your HTTP collections, requests, and more.
 
 You can use your Postman Vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/) or the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app).
 
 ## Contents
 
-* [About vault secrets](#about-vault-secrets)
-* [Encrypt your vault secrets](#encrypt-your-vault-secrets)
+* [Benefits of using vault secrets](#benefits-of-using-vault-secrets)
 * [Access your Postman Vault](#access-your-postman-vault)
+* [Manage your vault key](#manage-your-vault-key)
 * [Add sensitive data as vault secrets](#add-sensitive-data-as-vault-secrets)
 * [Edit vault secrets](#edit-vault-secrets)
 * [Use vault secrets](#use-vault-secrets)
 * [Fix unresolved vault secrets](#fix-unresolved-vault-secrets)
 
-## About vault secrets
+## Benefits of using vault secrets
 
-*Vault secrets* are sensitive data that you store in your Postman Vault and reuse in your local instance of Postman. Only you can reuse your secrets in your local instance of Postman, and they aren't synced to the Postman cloud.
+*Vault secrets* are sensitive data, such as API keys and passwords, that you store in your Postman Vault and reuse in your local instance of Postman. Only you can access and reuse your vault secrets in your local instance of Postman, and they aren't synced to the Postman cloud.
 
-Vault secrets are created at the *vault* scope, which is the broadest scope compared to the [variable scopes](/docs/sending-requests/variables/#variable-scopes) in Postman. This enables you to securely access vault secrets at the team level, and reuse them in your collections, requests, and environments throughout your team. Vault secrets are useful when you're using the same sensitive data in multiple places throughout your workspaces, and you don't want that sensitive data synced to the Postman cloud.
+<!-- Vault secrets are useful when you're using the same sensitive data in multiple places throughout your workspaces, and you don't want that sensitive data synced to the Postman cloud. -->
+
+Vault secrets are useful when:
+
+* You're using the same sensitive data in multiple places throughout your workspaces.
+* You don't want your sensitive data synced to the Postman cloud.
+* You want to be the only user with access to your sensitive data.
+
+<!-- You can also store sensitive data as environment variables by selecting **secret** as the variable type. All workspace members can view a secret variable's initial and current values. Users with [Editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can change a variable's initial value and its variable type. Learn more about [variable types](/docs/sending-requests/variables/#variable-types) and how to [store sensitive data in environment variables](/docs/sending-requests/environments/environment-variables/). -->
+
+Vault secrets are created at the *vault* scope, which is the broadest scope compared to the [variable scopes](/docs/sending-requests/variables/#variable-scopes) in Postman. This enables you to securely access vault secrets at the team level, and reuse them in your collections, requests, and environments throughout your workspaces.
 
 > If a variable in a different scope has the same name as a vault secret, the value stored in a narrower scope won't be used. For example, if there is a collection variable named `postman-api-key` and a vault secret also named `postman-api-key`, the collection value won't be used when the request runs. Learn how to [reference vault secrets](#use-vault-secrets) in Postman.
 
 ## Access your Postman Vault
 
-To access your Postman Vault, select <img alt="Vault icon" src="https://assets.postman.com/postman-docs/icons/icon-vault.jpg#icon" width="12px"> **Vault** from the Postman footer. You can also use **Control+Shift+V** or **Ctrl+Shift+V** to access your Postman Vault.<!-- If you don't have any secrets stored in your Postman Vault, select **Add Vault Secret** to get started. -->
+To access your Postman Vault, select <img alt="Vault icon" src="https://assets.postman.com/postman-docs/icons/icon-vault.jpg#icon" width="12px"> **Vault** from the Postman footer. You can also use **Control+Shift+V** or **Ctrl+Shift+V** to access your Postman Vault.
 
-## Encrypt your vault secrets
+If this is your first time opening your Postman Vault, select **Set Up Vault**.
 
-When you open Postman Vault for the first time, you'll [get your vault key](#get-your-vault-key) that's used to encrypt your vault secrets. Use your vault key to access secrets in your Postman Vault. You can [reset your vault key](#reset-your-vault-key) if you lose it, but Postman will permanently delete your vault secrets.
+## Manage your vault key
 
-Your vault key encrypts vault secrets using the AES-256-GCM encryption algorithm, and your key isn't synced to the Postman cloud.
+When you open Postman Vault for the first time, Postman generates a [vault key](#generate-your-vault-key) that's used to access your encrypted vault secrets. You can [reset your vault key](#reset-your-vault-key) if you lose it, but Postman will permanently delete your vault secrets.
 
-When you get your vault key, you have the following options for storing and entering your key:
+Your vault secrets are encrypted using the AES-256-GCM encryption algorithm, and your vault key isn't synced to the Postman cloud.
 
-* Save your vault key in a secure location. When you sign in to Postman, you'll need to manually enter your vault key to access your Postman Vault.
-* Store your key in your operating system's native password manager. This enables Postman to automatically get your vault key and open your Postman Vault. If you're using Postman Vault from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app), you must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
+When Postman generates your vault key, you have the following options for storing your key:
 
-## Get your vault key
+* Save your vault key in a secure location. Each time you sign in to Postman, you'll need to manually enter your vault key, enabling you to access your Postman Vault and [reference your vault secrets](#use-vault-secrets).
+* Postman can store your key in your operating system's native password manager, such as Keychain Access on macOS. This enables Postman to automatically get your vault key, giving you access to your Postman Vault and vault secrets when you sign in to Postman.
+
+    > If you're using Postman Vault from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app), you must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent) so Postman can get your vault key.
+
+## Generate your vault key
 
 1. Open your Postman Vault. If this is your first time opening your Postman Vault, select **Encrypt Vault**.
-1. Save your vault key in a secure location. You can do the following to get your vault key:
+1. Save your vault key in a secure location. You can do the following to save your vault key:
 
     * Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy your vault key to your clipboard.
     * Select the download icon <img alt="Download icon" src="https://assets.postman.com/postman-docs/icon-download-v9.jpg#icon" width="16px"/> to download your vault key.
@@ -64,16 +80,14 @@ You can reset your vault key if you lose it, but Postman will permanently delete
 
 1. Sign out and back in to Postman, then open your Postman Vault.
 1. Select **Reset vault**.
-1. To delete your vault secrets and get a new vault key, select **Reset Vault**.
-1. [Save your vault key in a secure location.](#get-your-vault-key)
+1. To delete your vault secrets and generate a new vault key, select **Reset Vault**.
+1. [Save your vault key in a secure location.](#generate-your-vault-key)
 
 <!-- TODO: add screenshot -->
 
 ## Add sensitive data as vault secrets
 
-After you [encrypt your vault secrets](#encrypt-your-vault-secrets), you can add sensitive data, such as API keys and passwords, to your Postman Vault and reuse them in your local instance of Postman. You can also add secrets from the HTTP request builder.
-
-> Only you can access secrets stored in your Postman Vault.
+After you [generate your vault key](#generate-your-vault-key), you can add sensitive data, such as API keys and passwords, to your Postman Vault and reuse them in your local instance of Postman. You can also add secrets from the HTTP request builder.
 
 <!-- -->
 
@@ -124,6 +138,7 @@ To edit vault secrets, select <img alt="Vault icon" src="https://assets.postman.
 * To sort the list of secrets, select a column header. You can toggle between ascending and descending order.
 * To add a new secret, select **Add new secret** in the bottom row of the table.
 * To delete a secret, hover over a secrets and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
+* To update the list of allowed domains, select **All** or the current list of domains.
 * To make a secret unavailable without deleting it, clear the checkbox next to the secret. Any references to the secret will be unresolved. To make the secret available again, select the checkbox.
 * Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save any changes you've made.
 
@@ -163,7 +178,7 @@ A vault secret can be unresolved for the following reasons:
 * The secret isn't present in your Postman Vault.
 * The secret was created but the changes weren't saved.
 * The secret is turned off in your Postman Vault.
-* You haven't entered your vault key after signing in to Postman. Learn how to [encrypt your vault secrets](#encrypt-your-vault-secrets).
+* You haven't entered your vault key after signing in to Postman. Learn how to [manage your vault key](#manage-your-vault-key).
 
 When you're working on an API request, Postman highlights unresolved vault secrets in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. Postman highlights unresolved secret text in red.
 
