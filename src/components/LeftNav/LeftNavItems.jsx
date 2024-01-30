@@ -242,6 +242,21 @@ export const leftNavItems = [
         url: '/docs/sending-requests/requests/',
       },
       {
+        name: 'Create requests',
+        subParentSlug: 'create-requests',
+        slug: '/docs/sending-requests/create-requests/create-requests/',
+        subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/sending-requests/create-requests/create-requests/',
+          },
+          {
+            name: 'Request basics',
+            url: '/docs/sending-requests/create-requests/request-basics/',
+          }
+        ],
+      },
+      {
         name: 'Authorize requests',
         subParentSlug: 'authorization',
         slug: '/docs/sending-requests/authorization/authorization/',
