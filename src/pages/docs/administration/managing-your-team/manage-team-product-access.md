@@ -47,17 +47,17 @@ To add users to Postbot, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**, then select **Postbot**.
-1. To add team members to Postbot, select **Add Members**. To invite a user outside of the team by email, select **Invite members** and a new window will appear.
+2. To add team members to Postbot, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-19.jpg"/>
 
-1. Select team members you'd like to add to Postbot, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user.
+3. Select team members you'd like to add to Postbot, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user.
 
 ## Manage access to Enterprise solutions
 
 > **[Enterprise solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
-As a Team Admin, you can manage [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) for your team: [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution). Adding users to a solution can give them additional permissions within your team and access to more features.
+As a Team Admin, you can manage [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) for your team: [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution). Adding users to a solution can give them more permissions within your team and access to more features.
 
 > Adding users to a solution purchases more licenses for that solution. Learn more about [managing Enterprise solutions licenses](/docs/billing/billing/#manage-enterprise-solutions-licenses).
 
@@ -66,11 +66,11 @@ To add users to a solution, do the following:
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**.
 1. Select the Enterprise solution you'd like to manage: **Internal API Management** or **API Test Automation**.
-1. To add team members to a solution, select **Add Members**. To invite a user outside of the team by email, select **Invite members** and a new window will appear.
+2. To add team members to a solution, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
 
-    <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-add-members-v10.jpg"/>
+    <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-add-members-v10-23-1.jpg"/>
 
-1. Select team members you'd like to add to the solution, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user. Learn more about the benefits of adding users to the [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution) solutions.
+3. Select team members you'd like to add to the solution, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user. Learn more about the benefits of adding users to the [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution) solutions.
 
 ### Internal API Management solution
 
@@ -79,10 +79,10 @@ You can add users to the [Internal API Management solution](https://www.postman.
 When you add users to the Internal API Management solution:
 
 * You can then assign them the [API Network Manager and API Governance Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) roles. Learn how to [manage team roles](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles).
-* Only users included in this solution can publish or request to publish changes to the Private API Network, while the rest of the team can consume and read from the network.
-* Only users added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs. Users not added to this solution only have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
+* The users included in this solution can publish or request to publish changes to the Private API Network, while the rest of the team can consume and read from the network.
+* The users added to this solution can be assigned the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs. Users not added to this solution have the [API Viewer](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role.
 
-    > If users are assigned the API Editor role in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) and you add at least one user to the Internal API Management solution, users who are not added to this solution will no longer be assigned the API Editor role. They'll only be assigned the API Viewer role.
+    > If users are assigned the API Editor role in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) and you add at least one user to the Internal API Management solution, users who aren't added to this solution will no longer be assigned the API Editor role. They'll be assigned the API Viewer role.
 
 ### API Test Automation solution
 
@@ -97,4 +97,4 @@ When you add users to the API Test Automation solution:
 
 To remove users a product, hover over their name and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
-<img alt="Remove team members from Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-remove-members-v10.jpg"/>
+<img alt="Remove team members from Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-remove-members-v10-23.jpg"/>
