@@ -11,7 +11,7 @@ contextual_links:
     url: "https://blog.postman.com/announcing-public-workspace-metrics/"
 ---
 
-> [**The Public workspace metrics report is available on all Postman plans.**](https://www.postman.com/pricing)
+> [**The Public workspace metrics report is available to users on teams on all Postman plans.**](https://www.postman.com/pricing)
 
 The **Public workspace metrics** report dashboard provides metrics relevant to your team's public workspaces on the [Public API Network](/docs/collaborating-in-postman/public-api-network/public-api-network-overview/). This report enables you to track API consumer interest and activity in your APIs on the Public API Network. To view metrics in the Public workspace metrics report, you must have at least one [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) in your team.
 
