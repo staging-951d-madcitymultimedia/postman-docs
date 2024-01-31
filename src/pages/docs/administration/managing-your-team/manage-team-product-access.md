@@ -21,23 +21,21 @@ contextual_links:
 
 > **[Some team options are only available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage which team members and users have access to [Postbot](/docs/getting-started/basics/about-postbot/) and various [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
+As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage which team members and users have access to [Postbot](/docs/getting-started/basics/about-postbot/) and various [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions). You can manage which users can access these product solutions in your [product access dashboard](https://go.postman.co/settings/team/products-access).
 
-Free, Basic, and Professional teams can [purchase Postbot as an add-on product](/docs/billing/billing/#purchasing-add-on-products). To learn more about Postman’s AI assistant, see [About Postbot](/docs/getting-started/basics/about-postbot/).
+Free, Basic, and Professional teams can [purchase Postbot as an add-on product](/docs/billing/billing/#purchasing-add-on-products). To learn more about Postman’s AI assistant, see [About Postbot](/docs/getting-started/basics/about-postbot/). 
 
 Enterprise Essentials teams can [purchase Enterprise solutions](/docs/billing/billing/#manage-enterprise-solutions-licenses). To learn more about [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) for your team, see [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution).
 
 ## Contents
 
-* [Manage your product access](#manage-your-product-access)
-    * [Manage access to Postbot](#manage-access-to-postbot)
-    * [Manage access to Enterprise solutions](#manage-access-to-enterprise-solutions)
+* [Manage access to Postbot](#manage-access-to-postbot)
+* [Manage access to Enterprise solutions](#manage-access-to-enterprise-solutions)
+    * [Internal API Management solution](#internal-api-management-solution)
+    * [API Test Automation solution](#api-test-automation-solution)
+* [Remove users' product access](#remove-users-product-access)
 
-## Manage your product access
-
-You can manage which users can access Postbot and Enterprise solutions in your [product access dashboard](https://go.postman.co/settings/team/products-access).
-
-### Manage access to Postbot
+## Manage access to Postbot
 
 > **[Postbot is available for Free, Basic, and Professional plans.](https://www.postman.com/pricing)**
 
@@ -55,11 +53,7 @@ To add users to Postbot, do the following:
 
 1. Select team members you'd like to add to Postbot, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user.
 
-To remove users from Postbot, hover over their name and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
-
-<img alt="Remove team members from Postbot" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-remove-members-v10-19.jpg"/>
-
-### Manage access to Enterprise solutions
+## Manage access to Enterprise solutions
 
 > **[Enterprise solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
@@ -78,11 +72,7 @@ To add users to a solution, do the following:
 
 1. Select team members you'd like to add to the solution, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user. Learn more about the benefits of adding users to the [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution) solutions.
 
-To remove users from a solution, hover over their name and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
-
-<img alt="Remove team members from Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-remove-members-v10.jpg"/>
-
-#### Internal API Management solution
+### Internal API Management solution
 
 You can add users to the [Internal API Management solution](https://www.postman.com/solutions/internal-api-management/) for access to the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/), the [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/), and [API Governance](https://learning.postman.com/docs/api-governance/api-governance-overview/).
 
@@ -94,7 +84,7 @@ When you add users to the Internal API Management solution:
 
     > If users are assigned the API Editor role in the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) and you add at least one user to the Internal API Management solution, users who are not added to this solution will no longer be assigned the API Editor role. They'll only be assigned the API Viewer role.
 
-#### API Test Automation solution
+### API Test Automation solution
 
 You can add users to the [API Test Automation solution](https://www.postman.com/solutions/api-test-automation/) to increase their usage limits for the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/).
 
@@ -102,3 +92,9 @@ When you add users to the API Test Automation solution:
 
 * Added users get unlimited collections runs with the Collection Runner. You can [run collections on a schedule](/docs/collections/running-collections/scheduling-collection-runs/) to automate API tests.
 * Added users get increased usage limits for monitors. You can [run collections on a schedule with monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/) to automate reports on API tests, and more. Learn more about [monitor use cases](/docs/monitoring-your-api/intro-monitors/#monitor-use-cases).
+
+## Remove users' product access
+
+To remove users a product, hover over their name and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+
+<img alt="Remove team members from Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-remove-members-v10.jpg"/>
