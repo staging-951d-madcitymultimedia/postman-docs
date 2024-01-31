@@ -1,5 +1,5 @@
 ---
-title: "Manage team members' product access"
+title: "Manage product access"
 updated: 2024-02-15
 contextual_links:
   - type: section
@@ -21,7 +21,7 @@ contextual_links:
 
 > **[Some team options are only available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage which team members have access to [Postbot](/docs/getting-started/basics/about-postbot/) and various [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
+As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage which team members and users have access to [Postbot](/docs/getting-started/basics/about-postbot/) and various [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
 
 Free, Basic, and Professional teams can [purchase Postbot as an add-on product](/docs/billing/billing/#purchasing-add-on-products). To learn more about Postman’s AI assistant, see [About Postbot](/docs/getting-started/basics/about-postbot/).
 
@@ -29,15 +29,15 @@ Enterprise Essentials teams can [purchase Enterprise solutions](/docs/billing/bi
 
 ## Contents
 
-* [Manage your team's product access](#manage-your-teams-product-access)
-    * [Manage your team's access to Postbot](#manage-your-teams-access-to-postbot)
-    * [Manage your team's access to Enterprise solutions](#manage-your-teams-access-to-enterprise-solutions)
+* [Manage your product access](#manage-your-product-access)
+    * [Manage access to Postbot](#manage-access-to-postbot)
+    * [Manage access to Enterprise solutions](#manage-access-to-enterprise-solutions)
 
-## Manage your team's product access
+## Manage your product access
 
 You can manage which users can access Postbot and Enterprise solutions in your [product access dashboard](https://go.postman.co/settings/team/products-access).
 
-### Manage your team's access to Postbot
+### Manage access to Postbot
 
 > **[Postbot is available for Free, Basic, and Professional plans.](https://www.postman.com/pricing)**
 
@@ -49,7 +49,7 @@ To add users to Postbot, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**, then select **Postbot**.
-1. To add team members to Postbot, select **Add Members**. To invite a user by email, select **Invite members** and a new window will appear.
+1. To add team members to Postbot, select **Add Members**. To invite a user outside of the team by email, select **Invite members** and a new window will appear.
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-19.jpg"/>
 
@@ -59,7 +59,7 @@ To remove users from Postbot, hover over their name and select the delete icon <
 
 <img alt="Remove team members from Postbot" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-remove-members-v10-19.jpg"/>
 
-### Manage your team's access to Enterprise solutions
+### Manage access to Enterprise solutions
 
 > **[Enterprise solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
 
@@ -72,7 +72,7 @@ To add users to a solution, do the following:
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**.
 1. Select the Enterprise solution you'd like to manage: **Internal API Management** or **API Test Automation**.
-1. To add team members to a solution, select **Add Members**. To invite a user by email, select **Invite members**. A new window will appear.
+1. To add team members to a solution, select **Add Members**. To invite a user outside of the team by email, select **Invite members** and a new window will appear.
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-add-members-v10.jpg"/>
 
