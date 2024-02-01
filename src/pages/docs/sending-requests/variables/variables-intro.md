@@ -1,5 +1,5 @@
 ---
-title: "Work with variables and environments in Postman"
+title: "Reuse data with variables and environments in Postman"
 updated: 2024-02-01
 contextual_links:
   - type: section

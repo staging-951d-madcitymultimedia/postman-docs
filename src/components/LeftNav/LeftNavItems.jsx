@@ -373,11 +373,11 @@ export const leftNavItems = [
       {
         name: 'Variables and environments',
         subParentSlug: 'variables',
-        slug: '/docs/sending-requests/variables/variables-and-environments/',
+        slug: '/docs/sending-requests/variables/variables-intro/',
         subMenuItems2: [
           {
             name: 'Overview',
-            url: '/docs/sending-requests/variables/variables-and-environments/',
+            url: '/docs/sending-requests/variables/variables-intro/',
           },
           {
             name: 'Store values in variables',
