@@ -47,11 +47,11 @@ To add users to Postbot, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**, then select **Postbot**.
-2. To add team members to Postbot, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
+1. To add team members to Postbot, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-23.jpg"/>
 
-3. Select team members you'd like to add to Postbot, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user.
+1. Select team members you'd like to add to Postbot, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user.
 
 ## Manage access to Enterprise solutions
 
@@ -66,11 +66,11 @@ To add users to a solution, do the following:
 1. Select **Team** in the Postman header, then select **Team Settings**.
 1. Select **Product access**.
 1. Select the Enterprise solution you'd like to manage: **Internal API Management** or **API Test Automation**.
-2. To add team members to a solution, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
+1. To add team members to a solution, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-add-members-v10-23-1.jpg"/>
 
-3. Select team members you'd like to add to the solution, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user. Learn more about the benefits of adding users to the [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution) solutions.
+1. Select team members you'd like to add to the solution, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user. Learn more about the benefits of adding users to the [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution) solutions.
 
 ### Internal API Management solution
 
