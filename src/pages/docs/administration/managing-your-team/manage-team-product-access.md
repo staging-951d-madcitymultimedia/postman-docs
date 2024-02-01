@@ -49,7 +49,7 @@ To add users to Postbot, do the following:
 1. Select **Product access**, then select **Postbot**.
 2. To add team members to Postbot, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
 
-    <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-19.jpg"/>
+    <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-23.jpg"/>
 
 3. Select team members you'd like to add to Postbot, then select **Add Members**. If you invite a user, enter their email address the text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user.
 
