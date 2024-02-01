@@ -113,8 +113,6 @@ You can reset your vault key if you lose it, but Postman will permanently delete
 
 After you [save your vault key](#save-your-vault-key), you can add sensitive data, such as API keys and passwords, to your Postman Vault and reuse them in your local instance of Postman. You can also add secrets from the HTTP request builder.
 
-<!-- When you sign out of Postman, you must enter your vault key the next time you sign in. Otherwise, you won't be able to access your vault secrets. -->
-
 To add secrets to your Postman Vault, do the following:
 
 1. Open your Postman Vault.
