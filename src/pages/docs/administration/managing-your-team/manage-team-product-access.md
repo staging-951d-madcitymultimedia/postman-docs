@@ -23,7 +23,7 @@ contextual_links:
 
 As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage which team members and users have access to [Postbot](/docs/getting-started/basics/about-postbot/) and various [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions). You can manage which users can access these product solutions in your [product access dashboard](https://go.postman.co/settings/team/products-access).
 
-Free, Basic, and Professional teams can [purchase Postbot as an add-on product](/docs/billing/billing/#purchasing-add-on-products). To learn more about Postman’s AI assistant, see [About Postbot](/docs/getting-started/basics/about-postbot/). 
+Free, Basic, and Professional teams can [purchase Postbot as an add-on product](/docs/billing/billing/#purchasing-add-on-products). To learn more about Postman’s AI assistant, see [About Postbot](/docs/getting-started/basics/about-postbot/).
 
 Enterprise Essentials teams can [purchase Enterprise solutions](/docs/billing/billing/#manage-enterprise-solutions-licenses). To learn more about [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) for your team, see [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution).
 
