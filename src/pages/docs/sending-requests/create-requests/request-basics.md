@@ -44,6 +44,8 @@ Once your new tab is open, you can specify the details you need for your request
 
 > You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
+## Adding request detail
+
 If you have a request you want to run, you will need to know the URL, method, and other optional values such as auth and parameters.
 
 To test sending a request in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then select __Send__.

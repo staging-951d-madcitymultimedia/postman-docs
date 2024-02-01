@@ -40,7 +40,6 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 
 ## Contents
 
-* [Variables quick start](#variables-quick-start)
 * [Understanding variables](#understanding-variables)
 * [Variable scopes](#variable-scopes)
 * [Initial and current values](#initial-and-current-values)
@@ -49,21 +48,6 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 * [Using variables](#using-variables)
 * [Sharing and persisting data](#sharing-and-persisting-data)
 * [Fixing unresolved variables](#fixing-unresolved-variables)
-
-## Variables quick start
-
-To create and use a variable, do the following:
-
-1. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
-1. Next to **Globals**, select __Edit__ (or __Add__ if no variables have been added yet).
-1. Add a variable named `my_variable` and give it an initial value of `Hello`.
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save**, then close the environment tab.
-1. Open a new request tab and enter `https://postman-echo.com/get?var={{my_variable}}` as the URL. Hover over the variable name to inspect the variable's value and scope.
-
-    <img alt="View the variable value and scope" src="https://assets.postman.com/postman-docs/v10/variable-quick-start-hover-v10-22.jpg" />
-
-1. Select __Send__ and send the request. Inspect the response, which confirms that Postman sent the variable value to the API.
-1. Change the value in the environment quick look and send the request again.
 
 ## Understanding variables
 
