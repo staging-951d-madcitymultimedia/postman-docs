@@ -81,7 +81,7 @@ Because Partner Viewers are free, you can invite as many partners as you want to
 
 To invite partners to your multi-partner workspace, do the following:
 
-1. In the **Workspace Settings**, select the **Invite** button, then select _Partners_.
+1. In the **Workspace Settings**, select **Invite** and then select **Partners**.
 
     <img alt="Invite partners" src="https://assets.postman.com/postman-docs/v10/multipartner-workspace-invite-v10-22.jpg">
 
