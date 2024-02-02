@@ -15,7 +15,7 @@ contextual_links:
 
 As a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can add and verify a domain or subdomain. This enables Postman to implicitly trust your team and its connection to your organization. It also improves the onboarding process as you continue to grow your Postman team. Domain verification is one of the [prerequisites for enabling domain capture](/docs/administration/domain-verification-and-capture/domain-capture-overview/#prerequisites-for-domain-capture).
 
-When you verify your organization's domain, it removes the friction of adding users who have already verified their email addresses with the relevant domain when they created Postman accounts. Postman will no longer require users' permission to join your team, letting you instantly provide new teammates with all of the resources they’ll need to be successful contributors.
+When you verify your organization's domain, Team Admins can add users who have already verified their email addresses with the relevant domain when they created Postman accounts. Postman won't require users to accept an invite to join your team. This lets you instantly provide new teammates with all of the resources they’ll need to be successful contributors.
 
 Without a verified domain, individual accounts that you invite to your team are given the option to join or dismiss the invite. If they choose to join, they're also required to reauthenticate prior to accessing the team.
 

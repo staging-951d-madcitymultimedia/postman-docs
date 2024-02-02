@@ -110,7 +110,7 @@ The user will be automatically associated to the team with a [Developer role](/d
 The first time an existing Postman user [signs in to Postman using the authentication method](/docs/administration/sso/user-sso/), the user is automatically added to the team if one of the following is true:
 
 * The team has available seats and the [**Automatically add new users**](#automatically-adding-new-users) checkbox was selected during [authentication method configuration](#configuring-single-sign-on).
-* A Team Admin has [invited the user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join the team.
+* A Team Admin has [invited the user](/docs/administration/managing-your-team/manage-team-members/#invite-users) to join the team.
 
 The user will be automatically associated to the team with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) and have access to team resources.
 
@@ -128,7 +128,7 @@ By default, Postman only supports Service Provider (Postman)-initiated sign ins 
 
 ### Removing team access
 
-You must remove users from your team in Postman to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member in some situations. To learn more, see [Removing team members](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+You must remove users from your team in Postman to prevent access to shared resources. When you remove a user from your team, you'll still retain access to any data they have shared with the team. You'll also be able to reassign their personal workspaces and the data within them to a remaining team member in some situations. To learn more, see [Removing team members](/docs/administration/managing-your-team/manage-team-members/#remove-team-members).
 
 ## Troubleshooting
 

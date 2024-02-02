@@ -7,9 +7,6 @@ contextual_links:
   - type: link
     name: "Security and Compliance: A Shared Responsibility Model"
     url: "https://www.postman.com/trust/shared-responsibility/"
-  - type: link
-    name: "Managing your team"
-    url: "/docs/administration/managing-your-team/managing-your-team/"
 ---
 
 To get started using Postman within your organization, you can walk through the following tasks to set your Postman team up for success. It's recommended that you first collaborate with your identified Team Admins and your organization's IT team to set up, secure, and manage Postman in your organization. Then you can set up your Postman team by configuring relevant settings, inviting people to your team and assigning them roles, and creating workspace resources related to your projects.
@@ -39,9 +36,9 @@ To begin setting up Postman, assign the Team Admin role to one or more users. Th
 
 ### Manage Team Admins and support users
 
-Identify users in your organization to be [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), giving them permission to manage team members and team settings. [Create a Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) for these users, and [assign them the Team Admin role](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
+Define [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) who will manage team members and team settings. [Create a Postman account](/docs/getting-started/installation/postman-account/#signing-up-for-a-postman-account) for these users, and [assign them the Team Admin role](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles).
 
-Team Admins can [assign the Super Admin role](/docs/administration/managing-your-team/managing-your-team/#managing-super-admins) to team members and [groups](/docs/collaborating-in-postman/user-groups/), giving them permission to manage everything with a team. It's recommended that you create a user account that isn't tied to an individual team member, and assign the Super Admin role to that user account.
+Team Admins can [assign the Super Admin role](/docs/administration/managing-your-team/manage-team-members/#manage-super-admins) to team members and [groups](/docs/collaborating-in-postman/user-groups/), giving them permission to manage everything with a team. It's recommended that you create a user account that isn't tied to an individual team member, and assign the Super Admin role to that user account.
 
 Team Admins can [assign the Admin and Billing roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to team members and groups. Team members who have only Admin or Billing roles (or both) become support users and don’t consume paid seats. Each team can have two support users.
 
@@ -100,11 +97,11 @@ You can also [manage your team profile](/docs/administration/managing-your-team/
 
 ### Manage team members
 
-Team Admins can [manage team members](/docs/administration/managing-your-team/managing-your-team/#managing-team-members) by adding, removing, and assigning roles to users. You can also organize team members into groups, and assign roles to groups instead of individual users, enabling you to efficiently onboard new team members.
+Team Admins can [manage team members](/docs/administration/managing-your-team/manage-team-members/) by adding, removing, and assigning roles to users. You can also organize team members into groups, and assign roles to groups instead of individual users, enabling you to efficiently onboard new team members.
 
-You can [invite users to your team](/docs/administration/managing-your-team/managing-your-team/#inviting-users) by generating a shareable link or by inviting them through a direct email.
+You can [invite users to your team](/docs/administration/managing-your-team/manage-team-members/#invite-users) by generating a shareable link or by inviting them through a direct email.
 
-You can [assign team-level roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) to individual team members, enabling them to perform different actions within your team. You can also [organize team members into groups](/docs/collaborating-in-postman/user-groups/), and assign team-level roles to groups.
+You can [assign team-level roles](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles) to individual team members, enabling them to perform different actions within your team. You can also [organize team members into groups](/docs/collaborating-in-postman/user-groups/), and assign team-level roles to groups.
 
 > Learn more about [team-level roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
@@ -116,7 +113,7 @@ In your workspaces, you can [group your requests and examples into collections](
 
 You can assign [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to team members and groups at the [workspace level](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles). You can also assign [element-based roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) at the [element level](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles), such as collections and APIs.
 
-Depending on your [plan](https://www.postman.com/pricing), you may also be able to [manage who can create team workspaces](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-workspaces) in your team.
+Depending on your [plan](https://www.postman.com/pricing), you may also be able to [manage who can create team workspaces](/docs/administration/managing-your-team/manage-team-workspaces/#manage-team-workspaces) in your team.
 
 ### Configure integrations
 

@@ -1,6 +1,6 @@
 ---
 title: "Diagnose and troubleshoot errors"
-updated: 2023-12-27
+updated: 2024-01-26
 early_access: true
 plan: alpha
 contextual_links:
@@ -29,7 +29,6 @@ As you work with the Postman Live Collections Agent (LCA), you may encounter err
     * [What do I do if my traffic is encrypted?](#what-do-i-do-if-my-traffic-is-encrypted)
     * [What does the LCA agent do with sensitive data?](#what-does-the-lca-agent-do-with-sensitive-data)
     * [I can't update my collection.](#i-cant-update-my-collection)
-    * [How will the LCA running on my Kubernetes know my machine IP address?](#how-will-the-lca-running-on-my-kubernetes-know-my-machine-ip-address)
     * [I'm not seeing the traffic I'm looking for in my API model.](#im-not-seeing-the-traffic-im-looking-for-in-my-api-model)
     * [My API model is mostly health checks and infrastructure endpoints.](#my-api-model-is-mostly-health-checks-and-infrastructure-endpoints)
 
@@ -100,8 +99,6 @@ The following topics can help you get traffic in the right state and get API mod
 
 * [I can’t update my collection.](#i-cant-update-my-collection)
 
-* [How will the LCA running on my Kubernetes know my machine IP address?](#how-will-the-lca-running-on-my-kubernetes-know-my-machine-ip-address)
-
 * [I'm not seeing the traffic I'm looking for in my API model.](#im-not-seeing-the-traffic-im-looking-for-in-my-api-model)
 
 * [My API model is mostly health checks and infrastructure endpoints.](#my-api-model-is-mostly-health-checks-and-infrastructure-endpoints)
@@ -152,8 +149,6 @@ If your model is missing endpoints that you expect to be there, or is completely
 
 You'll see whether the LCA saw any traffic encrypted with TLS.
 
-If you’re running Kubernetes, follow the [installation instructions](/docs/live-insights/live-insights-gs) to install LCA as a sidecar. This enables the LCA to see encrypted traffic if a service mesh such as Istio is being used.
-
 #### Add a reverse proxy
 
 If HTTPS currently terminates at your application, then the LCA won't be able to see the unencrypted version of your data. You could reconfigure your deployment to let the LCA see the unencrypted data by adding a reverse proxy to serve as the HTTPS endpoint.
@@ -188,12 +183,6 @@ This issue can occur if you:
 
 * Don’t have permission to edit the collection. You need to be and remain an editor of the collection. Please contact your Workspace admin for access.
 
-### How will the LCA running on my Kubernetes know my machine IP address?
-
-The LCA is installed as a sidecar in the application pod, so it doesn't need to know the node IP address. It listens on the network interface for all traffic received (or sent by) the pod and reports each request using the hostname contained in the URL, rather than using network-layer information.
-
-Postman can see the IPv4 or IPv6 addresses used to send and receive information as part of packet capture, but that's not presented in the live collection.
-
 ### I'm not seeing the traffic I'm looking for in my API model.
 
 If you're not seeing the endpoints you're expecting in your first live collection, do not worry! There are a few reasons, many of them addressable.
@@ -213,7 +202,7 @@ Postman currently doesn't support these behaviors but plans to cover them in fut
 
 _I was able to successfully generate an API model, but most of what I'm seeing is health checks._
 
-Load balancers and orchestration systems often use a health endpoint to verify whether a service is live. Similarly, there are Kubernetes or AWS endpoints your system may call as part of its regular functioning.
+Load balancers and orchestration systems often use a health endpoint to verify whether a service is live. Similarly, there are AWS endpoints your system may call as part of its regular functioning.
 
 Because these endpoints get called regularly, regardless of whether there is other traffic, the health endpoints could clog up your API model.
 

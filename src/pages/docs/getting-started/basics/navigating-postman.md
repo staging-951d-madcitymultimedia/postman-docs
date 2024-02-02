@@ -54,7 +54,7 @@ The header enables you to create workspaces, access reports, explore the public 
 
   <img alt="Postman header left side" src="https://assets.postman.com/postman-docs/v10/postman-desktop-app-header-v10-21-11.jpg" width="369px"/>
 
-* **Home** - Go to your personal home page, which includes your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) if applicable.
+* **Home** - Go to your personal home page, which includes your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/) if applicable.
 * **Workspaces** - Search for workspaces, view your recently visited workspaces, or [create a new workspace](/docs/getting-started/first-steps/creating-your-first-workspace/).
 * **API Network** - Explore the [Public API Network](/docs/getting-started/first-steps/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/adding-private-network/).
 * <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman** - Search all workspaces, collections, requests, APIs, Flows, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).

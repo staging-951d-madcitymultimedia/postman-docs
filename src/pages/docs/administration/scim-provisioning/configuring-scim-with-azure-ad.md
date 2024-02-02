@@ -62,7 +62,7 @@ To map Postman user attributes to Microsoft Entra ID user attributes, do the fol
     `userPrincipalName` &#x2a; | `userName` | `email` | Direct | Yes | Always
     `surname` | `name.familyName` | `name`  | Direct| No | Always
     `givenName` | `name.givenName` | `name` | Direct | No | Always
-    `Switch([IsSoftDeleted], , "False", "True", "True", "False")` | `active` | `active` | Expression | No | Always
+    `Not([IsSoftDeleted])` | `active` | `active` | Expression | No | Always
 
     &#x2a; For `userPrincipalName`, set the value for **Matching precedence** to `1`.
 

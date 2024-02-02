@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-api-performance-testing/"
 ---
 
-When you configure a [performance test](/docs/collections/performance-testing/testing-api-performance/), you specify a number of _virtual users_. During the test, each virtual user (VU) runs the selected requests in the specified order in a repeating loop.
+When you [configure a performance test](/docs/collections/performance-testing/performance-test-configuration/), you specify a number of _virtual users_. During the test, each virtual user (VU) runs the selected requests in the specified order in a repeating loop.
 
 By default, each virtual user runs the same requests using the same values. You can customize the behavior of virtual users by importing a CSV or JSON file. Each virtual user can send requests using different values from the imported data file. This enables you to better simulate real-world traffic when testing the performance of your API.
 
@@ -34,7 +34,7 @@ Before you begin, [add variables](/docs/sending-requests/variables/) to the requ
 
 To run a performance test with a data file, do the following:
 
-1. [Configure a performance test](/docs/collections/performance-testing/testing-api-performance/#configure-a-performance-test), specifying the number of **Virtual users**, the **Test duration**, and a **Load profile**.
+1. [Configure a performance test](/docs/collections/performance-testing/performance-test-configuration), specifying the number of **Virtual users**, the **Test duration**, and a **Load profile**.
 
 1. Select a **Data file** with custom values to use for each virtual user. After you select your data file, a preview of the data file displays.
 
@@ -86,4 +86,4 @@ You can [view details about errors](/docs/collections/performance-testing/perfor
 
 <img alt="Viewing imported data for a request error" src="https://assets.postman.com/postman-docs/v10/performance-test-data-file-debug-v10-19.jpg" />
 
-> Data files aren't saved for [past performance test runs](/docs/collections/performance-testing/testing-api-performance/#view-past-performance-runs).
+> Data files aren't saved for [past performance test runs](/docs/collections/performance-testing/performance-test-configuration/#view-past-performance-runs).

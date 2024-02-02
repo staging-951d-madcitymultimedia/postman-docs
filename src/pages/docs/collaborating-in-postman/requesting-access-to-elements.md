@@ -18,7 +18,7 @@ contextual_links:
 
 By default, you can view [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) and the Postman elements in them, such as collections, APIs, environments, mock servers, and monitors, that are shared with your team. If you need to edit a workspace or element in it, a team member with [Admin access for the workspace](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) or [Editor access for an element](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) can assign you the [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles), or you can request it.
 
-To be assigned or request role access for a workspace or element, you first need to [join or get invited to the shared workspace](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/), or be an [external user with permission to view a collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
+To be assigned or request role access for a workspace or element, you first need to [join or get invited to the shared workspace](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/), or be an [external user with permission to view a collection](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 
 After you submit a request to access, team members with Admin access for the workspace or Editor access for an element will receive a notification requesting their approval.
 
