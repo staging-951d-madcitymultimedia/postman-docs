@@ -399,7 +399,7 @@ For example, for the request `https://postman-echo.com/get?customer_id={{cust_id
 
 A variable can be unresolved for the following reasons:
 
-* The variable isn't present in an [active scope](/docs/sending-requests/variables/#variable-scopes) for the request
+* The variable isn't present in an [active scope](#variable-scopes) for the request
 * The variable was created but the changes weren't saved
 * The environment in which the variable is present isn't active
 * The variable is turned off in an active environment

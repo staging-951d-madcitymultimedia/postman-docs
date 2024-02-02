@@ -26,7 +26,7 @@ Postman [automatically generates documentation](/docs/publishing-your-api/docume
 
 To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use the Postman editor to view how your content will look as you write it. Or use the classic Markdown editor to structure and format your descriptions using [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). All of your descriptions are included in the documentation for your collection.
 
-> You can also add a description when [creating a new request](/docs/sending-requests/requests/#creating-requests).
+> You can also add a description when [creating a new request](/docs/sending-requests/create-requests/create-requests/).
 
 ## Contents
 

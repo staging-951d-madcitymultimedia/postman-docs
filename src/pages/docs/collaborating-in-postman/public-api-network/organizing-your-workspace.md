@@ -67,7 +67,7 @@ To learn more about writing detailed documentation, see [The Good Documentation 
 
 ### Defining and describing variables
 
-For your [variables](/docs/sending-requests/variables/), you can write documentation describing the expected value and provide example values. Variables can be defined independently or stored within environments, and then applied across collections, enabling you to use variables for authentication, pagination, and other aspects of working with APIs. Variables can also define a state across multiple APIs and collections.
+For your [variables](/docs/sending-requests/variables/variables/), you can write documentation describing the expected value and provide example values. Variables can be defined independently or stored within environments, and then applied across collections, enabling you to use variables for authentication, pagination, and other aspects of working with APIs. Variables can also define a state across multiple APIs and collections.
 
 ### Writing descriptions for folders and requests
 

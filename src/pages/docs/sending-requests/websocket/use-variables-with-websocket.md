@@ -27,4 +27,4 @@ contextual_links:
 
 You can use Postman variables in the URL of a WebSocket connection or the body of a message. For example, you can create a variable named `my_host`, set the value to `example.com`, and then use `ws://{{my_host}}/api/example` as a URL. If you enter `{{` in either the URL field or message editor, you can autocomplete your variables.
 
-See [Using variables](/docs/sending-requests/variables/) for more information on how to store and reuse values in Postman.
+See [Using variables](/docs/sending-requests/variables/variables/) for more information on how to store and reuse values in Postman.

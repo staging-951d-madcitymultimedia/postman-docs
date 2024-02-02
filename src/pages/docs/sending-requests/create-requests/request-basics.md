@@ -1,5 +1,5 @@
 ---
-title: "Send a basic request to an API server in Postman"
+title: "Send a request with the Postman API client"
 updated: 2024-01-30
 contextual_links:
   - type: section
@@ -69,9 +69,9 @@ When you start typing in the URL input field, Postman will present a dropdown li
 
 > Postman will automatically add `http://` to the start of your URL if you don't specify a protocol.
 
-You can optionally enter _query_ parameters into the URL field, or you can [enter them in the Params tab](#sending-parameters). If your request uses _path_ parameters, [you can enter them directly into the URL field](#sending-parameters).
+You can optionally enter _query_ parameters into the URL field, or you can [enter them in the Params tab](/docs/sending-requests/create-requests/parameters/). If your request uses _path_ parameters, [you can enter them directly into the URL field](/docs/sending-requests/create-requests/parameters/).
 
-> You can use [next generation URL encoding](#encoding-your-request-urls) in your requests.
+> You can use [next generation URL encoding](/docs/sending-requests/create-requests/request-settings/#encoding-your-request-urls) in your requests.
 
 ### Selecting request methods
 
@@ -93,8 +93,8 @@ Postman supports a number of extra request methods by default, and you can use c
 The same location (sometimes called "route") can provide more than one endpoint by accepting different methods. For example, an API might have a `POST` `/customer` endpoint for adding a new customer, and a `GET` `/customer` endpoint for retrieving an existing customer.
 
 * If your request doesn't require parameters or authentication, you can select __Send__ to fetch a response.
-* Otherwise, specify your [parameters](#sending-parameters) and any [body data](#sending-body-data) you need to send to the API.
-* If you don't need to send data with your request, set up any required [authentication](#authenticating-requests) and [headers](#configuring-request-headers).
+* Otherwise, specify your [parameters](/docs/sending-requests/create-requests/parameters/) and any [body data](/docs/sending-requests/create-requests/parameters/) you need to send to the API.
+* If you don't need to send data with your request, set up any required [authentication](#authenticating-requests) and [headers](/docs/sending-requests/create-requests/headers/).
 
 ## Authenticating requests
 
@@ -120,6 +120,8 @@ Select **Send** to send a request.
 
 You'll get a response in the response time. Learn more about response data.
 
+You can see requests you sent in History and send them again. Or save to a collection (link).
+
 ## Sharing your requests
 
 You can share requests with collaborators by going to the request you want to share in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the request you want to share, then select **Share**.
@@ -130,6 +132,6 @@ For more details about sharing requests, see [Share your work in Postman](/docs/
 
 ## Next steps
 
-Once you have your request set up, select __Send__ and examine the [Response](/docs/sending-requests/responses/).
+Once you have your request set up, select __Send__ and examine the [Response](/docs/sending-requests/response-data/responses/).
 
 > <img alt="Collections icon" src="https://assets.postman.com/postman-docs/Collections.png#icon" width="24px"> To try out a collection template that has a typical REST API, select [REST API Basics](https://www.postman.com/templates/ddb19591-3097-41cf-82af-c84273e56719/REST-API-basics).

@@ -51,7 +51,7 @@ To create and send a request, do the following:
 
 ### Save the request to a collection
 
-Create a new collection and save the request to it. [Collections](/docs/sending-requests/intro-to-collections/) are groups of requests that you can use to organize your work and create API workflows.
+Create a new collection and save the request to it. [Collections](/docs/collections/collections-overview/) are groups of requests that you can use to organize your work and create API workflows.
 
 To save the request in a new collection, do the following:
 

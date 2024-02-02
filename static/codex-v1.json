@@ -13,24 +13,24 @@
     "filePath": "/docs/writing-scripts/test-scripts/"
   },
   "PMLC_COLLECTION_VARIABLE_OVERVIEW_V1": {
-      "filePath": "/docs/sending-requests/variables/",
+      "filePath": "/docs/sending-requests/variables/variables/",
       "subSectionID": "#variable-types"
   },
   "PMLC_COLLECTION_VARIABLE_INITIALVALUE_V1": {
-      "filePath": "/docs/sending-requests/variables/"
+      "filePath": "/docs/sending-requests/variables/variables/"
   },
   "PMLC_COLLECTION_VARIABLE_CURRENTVALUE_V1": {
-    "filePath": "/docs/sending-requests/variables/"
+    "filePath": "/docs/sending-requests/variables/variables/"
   },
   "PMLC_VARIABLE_TYPE_OVERVIEW_V1": {
-      "filePath": "/docs/sending-requests/variables/",
+      "filePath": "/docs/sending-requests/variables/variables/",
       "subSectionID": "#variable-types"
   },
   "PMLC_VARIABLE_VALUE_OVERVIEW_V1": {
-      "filePath": "/docs/sending-requests/variables/"
+      "filePath": "/docs/sending-requests/variables/variables/"
   },
   "PMLC_REQUEST_VARIABLE_OVERVIEW_V1": {
-    "filePath": "/docs/sending-requests/variables/"
+    "filePath": "/docs/sending-requests/variables/variables/"
   },
   "PMLC_AUTH_OVERVIEW_V1": {
       "filePath": "/docs/sending-requests/authorization/authorization/"

@@ -60,7 +60,7 @@ To edit environment variables, select **Environments** in the sidebar and select
 To edit an environment variable, select the variable and change any of the following:
 
 * **Variable** - The name of the variable. Use the name to [reference the variable](/docs/sending-requests/environments/managing-environments/#use-variables-in-requests-and-scripts) in requests and scripts.
-* **Type** - If you select **default**, the variable value is visible in plain text. If you select **secret**, the variable value is masked. Learn more about [variable types](/docs/sending-requests/variables/#variable-types).
+* **Type** - If you select **default**, the variable value is visible in plain text. If you select **secret**, the variable value is masked. Learn more about [variable types](/docs/sending-requests/variables/variables/#variable-types).
 
     > To show or hide a secret variable, hover over the variable and select the eye icon <img alt="Unmask variable icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px">.
 

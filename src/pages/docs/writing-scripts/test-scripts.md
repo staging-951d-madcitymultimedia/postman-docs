@@ -72,7 +72,7 @@ Postman also provides [templates](https://www.postman.com/templates/tags/1/Testi
 
 ## Add a test
 
-You can add tests to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you add and then change to suit your test logic.
+You can add tests to individual [requests](/docs/sending-requests/create-requests/create-requests/), [collections](/docs/sending-requests/create-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you add and then change to suit your test logic.
 
 To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. The output is in the response's __Test Results__ tab.
 

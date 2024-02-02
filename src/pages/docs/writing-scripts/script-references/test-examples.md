@@ -266,7 +266,7 @@ pm.test("Response property matches environment variable", function () {
 });
 ```
 
-> See [Using variables](/docs/sending-requests/variables/) to learn more about using variables in your test scripts.
+> See [Using variables](/docs/sending-requests/variables/variables/) to learn more about using variables in your test scripts.
 
 ### Assert a value type
 

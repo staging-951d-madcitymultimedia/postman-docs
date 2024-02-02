@@ -25,7 +25,7 @@ To access your Postman Vault, select <img alt="Vault icon" src="https://assets.p
 
 You can add sensitive data, such as API keys and passwords, as local secrets in your Postman Vault. You can also add secrets from the HTTP request builder. When you sign out of Postman, secrets are cleared from your Postman Vault.<!-- Secrets stored in your Postman Vault are encrypted using the AES-256-GCM encryption algorithm. -->
 
-Vault secrets are available at the *vault* scope. Learn more about [scopes](/docs/sending-requests/variables/#variable-scopes) in Postman.
+Vault secrets are available at the *vault* scope. Learn more about [scopes](/docs/sending-requests/variables/variables/#variable-scopes) in Postman.
 
 > Only you can access secrets stored in your Postman Vault.
 
@@ -82,7 +82,7 @@ To edit vault secrets, select <img alt="Vault icon" src="https://assets.postman.
 
 ## Use secrets
 
-You can reference vault secrets in your HTTP collections and requests in your Postman team. You can reference vault secrets as the values of your [global](/docs/sending-requests/variables/#defining-global-variables), [environment](/docs/sending-requests/variables/#defining-environment-variables), and [collection](/docs/sending-requests/variables/#defining-collection-variables) variables. You can also use the Collection Runner to [manually run collections](/docs/collections/running-collections/intro-to-collection-runs/) that reference vault secrets.
+You can reference vault secrets in your HTTP collections and requests in your Postman team. You can reference vault secrets as the values of your [global](/docs/sending-requests/variables/variables/#defining-global-variables), [environment](/docs/sending-requests/variables/variables/#defining-environment-variables), and [collection](/docs/sending-requests/variables/variables/#defining-collection-variables) variables. You can also use the Collection Runner to [manually run collections](/docs/collections/running-collections/intro-to-collection-runs/) that reference vault secrets.
 
 Enclose the vault secret in double curly braces (`{{ }}`) and prefix the secret's name with `vault:` to reference it throughout your Postman team. For example, to reference a secret named "postman-api-key", use the following syntax:
 
@@ -99,7 +99,7 @@ You can get the current value of a vault variable in your scripts using the foll
 pm.variables.get("vault:variable-key");
 ``` -->
 
-> When you reference a vault secret as the initial value of a variable, the reference to the secret (for example `{{vault:secret-name}}`) is synced using Postman's cloud servers, and shared with anyone who has access to the workspace. The secret stored in your Postman Vault isn't synced or shared. Learn more about [initial and current values](/docs/sending-requests/variables/#initial-and-current-values).
+> When you reference a vault secret as the initial value of a variable, the reference to the secret (for example `{{vault:secret-name}}`) is synced using Postman's cloud servers, and shared with anyone who has access to the workspace. The secret stored in your Postman Vault isn't synced or shared. Learn more about [initial and current values](/docs/sending-requests/variables/variables/#initial-and-current-values).
 
 <!-- -->
 

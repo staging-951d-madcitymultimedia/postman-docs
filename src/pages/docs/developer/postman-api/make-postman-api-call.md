@@ -56,8 +56,8 @@ After you create your API key, store it as a [Postman environment variable](/doc
 
 For best security practices, make sure that you:
 
-- Store your API key as a [**Secret type** variable](/docs/sending-requests/variables/#variable-types).
-- Store your API key as a [**Current value**](/docs/sending-requests/variables/#specifying-variable-detail) so you don’t share it with other team members.
+- Store your API key as a [**Secret type** variable](/docs/sending-requests/variables/variables/#variable-types).
+- Store your API key as a [**Current value**](/docs/sending-requests/variables/variables/#specifying-variable-detail) so you don’t share it with other team members.
 
 ## Make your first request
 

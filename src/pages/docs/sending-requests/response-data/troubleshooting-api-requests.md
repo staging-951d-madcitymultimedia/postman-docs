@@ -107,7 +107,7 @@ Issue | Resolving the issue
 **Invalid responses** | If your server sends the wrong response encoding errors, or invalid headers, Postman may fail to interpret the response.
 **TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
 **Postman errors** | It's possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, contact the Postman team using the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
-**Unresolved variables** | An unresolved variable isn't defined in an active scope that's available for the request it’s used in. For more information on why this happens and how to solve the problem, see [Fixing unresolved variables](/docs/sending-requests/variables/#fixing-unresolved-variables).
+**Unresolved variables** | An unresolved variable isn't defined in an active scope that's available for the request it’s used in. For more information on why this happens and how to solve the problem, see [Fixing unresolved variables](/docs/sending-requests/variables/variables/#fixing-unresolved-variables).
 **CORS** |If the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) fails to send your request, you may be experiencing a cross-origin resource sharing (CORS) error. Make sure you're using the best [Postman Agent](/docs/getting-started/basics/about-postman-agent/) for your request.
 
 ## Getting help

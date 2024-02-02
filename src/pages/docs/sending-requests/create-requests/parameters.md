@@ -40,7 +40,7 @@ You can add descriptions to your parameters and they'll appear for anyone sharin
 
 > You can use the __Bulk Edit__ option if you prefer to enter your parameters in plain text instead of using the request builder.
 
-If your request doesn't require body data, auth, or headers, select __Send__. Otherwise, set up your [body](#sending-body-data), [auth](#authenticating-requests), and [headers](#configuring-request-headers).
+If your request doesn't require body data, auth, or headers, select __Send__. Otherwise, set up your [body](#sending-body-data), [auth](/docs/sending-requests/create-requests/request-basics/#authenticating-requests), and [headers](/docs/sending-requests/create-requests/headers/).
 
 ## Sending body data
 
@@ -48,7 +48,7 @@ You will need to send body data with requests whenever you need to add or update
 
 The __Body__ tab in Postman enables you to specify the data you need to send with a request. You can send various different types of body data to suit your API.
 
-> If you're sending body data, make sure you have the correct [headers](#configuring-request-headers) selected to indicate the content type your API may need to process the received data.
+> If you're sending body data, make sure you have the correct [headers](/docs/sending-requests/create-requests/headers/) selected to indicate the content type your API may need to process the received data.
 >
 > * For form-data and urlencoded body types, Postman will automatically attach the correct `Content-Type` header.
 > * If you use raw mode for your body data, Postman will set a header based on the type you select (such as text or json).
@@ -65,7 +65,7 @@ Website forms often send data to APIs as `multipart/form-data`. You can replicat
 
 You can also attach a file using form data and send it with your request. Select **File** in the dropdown list next to a key name, then select the file you want to send. You can select a file from your local system, and Postman saves the file path in the request. The saved file path is relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory).
 
-You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](#upload-files-for-shared-requests-and-cloud-runs).
+You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](/docs/sending-requests/create-requests/test-data/).
 
 ![Add form data](https://assets.postman.com/postman-docs/v10/request-form-data-v10-22.jpg)
 
@@ -83,7 +83,7 @@ You can use raw body data to send anything you can enter as text. Use the __raw_
 
 > You can set a content type header manually if you need to override the one Postman sends automatically.
 
-You can use [variables](/docs/sending-requests/variables/) in your body data and Postman will populate their current values when sending your request.
+You can use [variables](/docs/sending-requests/variables/variables/) in your body data and Postman will populate their current values when sending your request.
 
 For JSON raw body data, you can add comments, and they will be stripped out when the request is sent. Single-line comments delimited with `//` and multi-line comments delimited with `/* */` will be removed in the request.
 
@@ -95,7 +95,7 @@ You can use __binary__ data to send information you can't enter manually in the 
 
 Select the file you want to send with the request. You can select a file from your local system, and Postman saves the file path in the request. The saved file path is relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory).
 
-You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](#upload-files-for-shared-requests-and-cloud-runs).
+You can also upload a file with test data to your Postman team. This is useful if you want to share the request with others on your team or use the request in a monitor or scheduled collection run. Learn more about [uploading files for shared requests and cloud runs](/docs/sending-requests/create-requests/test-data/).
 
 ![Add binary data](https://assets.postman.com/postman-docs/v10/request-binary-data-v10-22.jpg)
 

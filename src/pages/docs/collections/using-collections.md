@@ -67,7 +67,7 @@ To customize and configure a new collection, do the following:
 1. Select **Authorization** to configure authorization details for the collection.
 1. Select **Pre-request Script** to define a [pre-request script](/docs/writing-scripts/pre-request-scripts/) for your collection, which will run before requests are sent to the server.
 1. Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
-1. Select **Variables** to define values for [collection variables](/docs/sending-requests/variables/) to share across all requests in the collection.
+1. Select **Variables** to define values for [collection variables](/docs/sending-requests/variables/variables/) to share across all requests in the collection.
 
 > You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 

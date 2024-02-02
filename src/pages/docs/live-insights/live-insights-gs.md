@@ -254,7 +254,7 @@ Just like with the ordinary collections in Postman, a live collection enabled th
 * Body — Enables you to specify the data you need to send with a request.
 * Response — Gives you several tools to help you understand the response quickly. You can view the body in one of four views: Pretty, Raw, Preview, and Visualize.
 
-For more information, see [Building requests](/docs/sending-requests/requests/) and [Receiving responses](/docs/sending-requests/responses/).
+For more information, see [Send API requests and get response data in Postman](/docs/sending-requests/requests/).
 
 ## Observe Live Insights
 

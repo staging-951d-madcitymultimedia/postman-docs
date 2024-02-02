@@ -35,7 +35,7 @@ warning: false
 
 ---
 
-Postman's [GraphQL client](/docs/sending-requests/graphql/graphql-overview/) is tailored for making GraphQL requests, but you can also create GraphQL requests using Postman's [HTTP request interface](/docs/sending-requests/requests/). The HTTP request interface might be better for some use cases, like working with legacy systems or projects that include both GraphQL and non-GraphQL APIs.
+Postman's [GraphQL client](/docs/sending-requests/graphql/graphql-overview/) is tailored for making GraphQL requests, but you can also create GraphQL requests using Postman's [HTTP request interface](/docs/sending-requests/create-requests/request-basics/). The HTTP request interface might be better for some use cases, like working with legacy systems or projects that include both GraphQL and non-GraphQL APIs.
 
 ## Contents
 
@@ -65,7 +65,7 @@ Postman has built-in support for [sending GraphQL queries in the request body](#
 
     ![Using GraphQL variables](https://assets.postman.com/postman-docs/v10/graphql-http-variables-v10-22.jpg)
 
-> You can also [use Postman variables](/docs/sending-requests/variables/) as data inputs for GraphQL variables using `{{variable}}` syntax.
+> You can also [use Postman variables](/docs/sending-requests/variables/variables/) as data inputs for GraphQL variables using `{{variable}}` syntax.
 
 ### Import GraphQL schemas
 

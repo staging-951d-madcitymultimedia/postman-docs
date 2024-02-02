@@ -29,18 +29,18 @@ You can use [collection examples](/docs/sending-requests/examples/) to define st
 
 ## Using variables with mock servers
 
-[Variables](/docs/sending-requests/variables/) enable you to store values and use them in your requests and collection examples. If you change the value of a variable, the new value is used wherever the variable occurs.
+[Variables](/docs/sending-requests/variables/variables/) enable you to store values and use them in your requests and collection examples. If you change the value of a variable, the new value is used wherever the variable occurs.
 
-Postman mock servers support [environment variables](/docs/sending-requests/variables/#defining-environment-variables) and [collection variables](/docs/sending-requests/variables/#defining-collection-variables). (Mock servers don't support using global variables.)
+Postman mock servers support [environment variables](/docs/sending-requests/variables/variables/#defining-environment-variables) and [collection variables](/docs/sending-requests/variables/variables/#defining-collection-variables). (Mock servers don't support using global variables.)
 
 * To use environment variables, select the environment in the [mock server's configuration](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#editing-the-mock-server-configuration).
-* To use collection variables, define them on the **Variables** tab in the [collection you are mocking](/docs/sending-requests/variables/#defining-collection-variables).
+* To use collection variables, define them on the **Variables** tab in the [collection you are mocking](/docs/sending-requests/variables/variables/#defining-collection-variables).
 
-When you use an environment or collection variable in an example, the mock server resolves the variable and replaces it with the variable's initial value. If an environment variable and a collection variable have the same name, Postman uses the environment variable. Learn more about [variable scopes](/docs/sending-requests/variables/#variable-scopes).
+When you use an environment or collection variable in an example, the mock server resolves the variable and replaces it with the variable's initial value. If an environment variable and a collection variable have the same name, Postman uses the environment variable. Learn more about [variable scopes](/docs/sending-requests/variables/variables/#variable-scopes).
 
 <img alt="Using variables with mock servers" src="https://assets.postman.com/postman-docs/v10/mock-server-using-variables-v10-2.jpg" width="467px" />
 
-> If you save the URL of a mock server to a [variable](/docs/sending-requests/variables/), you can reference it across requests. For example, if you have a production server and a mock server, you can have an [environment](/docs/sending-requests/environments/managing-environments/) for each server. In each environment, create a variable with the same name for the mock URL. By using the variable in your requests, you can switch between the two environments to call the production server or the mock server.
+> If you save the URL of a mock server to a [variable](/docs/sending-requests/variables/variables/), you can reference it across requests. For example, if you have a production server and a mock server, you can have an [environment](/docs/sending-requests/environments/managing-environments/) for each server. In each environment, create a variable with the same name for the mock URL. By using the variable in your requests, you can switch between the two environments to call the production server or the mock server.
 
 ## Generating random data with dynamic variables
 

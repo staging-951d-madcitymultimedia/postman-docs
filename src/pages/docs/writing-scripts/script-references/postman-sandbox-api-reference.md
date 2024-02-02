@@ -52,11 +52,11 @@ You will carry out most of the Postman JavaScript API functionality using `pm.*`
 
 ### Using variables in scripts
 
-You can access and manipulate [variables](/docs/sending-requests/variables/) at each scope in Postman using the `pm` API.
+You can access and manipulate [variables](/docs/sending-requests/variables/variables/) at each scope in Postman using the `pm` API.
 
 > You can use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) to generate values when your requests run.
 
-Postman supports a variety of variable [scopes](/docs/sending-requests/variables/#variable-scopes). The `pm` object provides methods for accessing global, collection, and environment variables specifically, and `pm.variables` methods for accessing variables at different scopes and setting local variables.
+Postman supports a variety of variable [scopes](/docs/sending-requests/variables/variables/#variable-scopes). The `pm` object provides methods for accessing global, collection, and environment variables specifically, and `pm.variables` methods for accessing variables at different scopes and setting local variables.
 
 * Check if there is a Postman variable in the current scope:
 
