@@ -29,14 +29,21 @@ _Multi-partner mode is a beta capability and is only available to select Postman
 
 As your partner programs grow, so does your need to create, maintain, and update multiple workspaces with nearly the same content in each one. A _multi-partner_ mode within Partner Workspaces simplifies this workflow and helps you share your APIs easily with multiple customers and partners.
 
+## Contents
+
+* [Multi-partner mode](#multi-partner-mode)
+* [Enable multi-partner mode in a Partner Workspace](#enable-multi-partner-mode-in-a-partner-workspace)
+* [Invite partners to your multi-partner workspace](#invite-partners-to-your-multi-partner-workspace)
+* [Multi-partner workspace experience in Postman](#multi-partner-workspace-experience-in-postman)
+
+## Multi-partner mode
+
 Multi-partner mode enables you to:
 
 * Share and update Postman Collections with multiple partners without having to update a separate workspace for each partner.
 * Invite your API partners and customers to understand the value and try out your APIs quickly before going deeper into integration.
 * Showcase real-world workflows and demos using your APIs.
 * Maintain a reference workspace for all your API endpoints and documentation that can be shared with all your partners.
-
-## Multi-partner mode
 
 By enabling multi-partner mode in a Partner Workspace, you can create a restricted-access workspace that's intentionally designed for publishing Postman Collections to multiple external partners. Partners can be invited to this workspace as Viewers only, see all the workspace content, and send API requests. Team members can make edits to the workspace, which are then available to the partners in real time.
 
