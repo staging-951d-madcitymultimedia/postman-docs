@@ -119,7 +119,7 @@ To parse XML, use the following:
 const responseJson = xml2Json(pm.response.text());
 ```
 
-> If you're dealing with complex XML responses you may find [Console logging](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) useful.
+> If you're dealing with complex XML responses you may find [Console logging](/docs/sending-requests/response-data/troubleshooting-api-requests/#debugging-in-the-console) useful.
 
 To parse CSV, use the [CSV parse (csv-parse/lib/sync)](https://csv.js.org/parse/) utility:
 
@@ -402,7 +402,7 @@ Using `.deep` causes all `.equal`, `.include`, `.members`, `.keys`, and `.proper
 
 ### Assert the current environment
 
-Check the [active environment](/docs/sending-requests/environments/managing-environments/#switch-between-environments) in Postman:
+Check the [active environment](/docs/sending-requests/variables/managing-environments/#switch-between-environments) in Postman:
 
 ```js
 pm.test("Check the active environment", () => {
@@ -412,7 +412,7 @@ pm.test("Check the active environment", () => {
 
 ## Troubleshoot common test errors
 
-When you encounter errors or unexpected behavior in your test scripts, [the Postman Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()`, and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, and Postman data items such as variables. You can also use the `console.clear()` method to clear information from the console. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
+When you encounter errors or unexpected behavior in your test scripts, [the Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()`, and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, and Postman data items such as variables. You can also use the `console.clear()` method to clear information from the console. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
 
 ![Console info](https://assets.postman.com/postman-docs/v10/console-logs-in-pane-v10-2.jpg)
 

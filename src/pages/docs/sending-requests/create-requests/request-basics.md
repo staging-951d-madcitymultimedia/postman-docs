@@ -110,7 +110,7 @@ Once your auth and other request details are set up, select __Send__ to run your
 
 ## Using cookies
 
-You can manage Cookies for your domains from Postman. Select __Cookies__ (under __Send__). For more information, see [Managing cookies](/docs/sending-requests/cookies/).
+You can manage Cookies for your domains from Postman. Select __Cookies__ (under __Send__). For more information, see [Managing cookies](/docs/sending-requests/response-data/cookies/).
 
 <img src="https://assets.postman.com/postman-docs/cookies-dialog.jpg" alt="manage cookies dialog" width="450px" />
 

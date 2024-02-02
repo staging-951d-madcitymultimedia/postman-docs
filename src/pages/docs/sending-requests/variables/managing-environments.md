@@ -33,7 +33,7 @@ contextual_links:
 
 In Postman, an _environment_ is a set of one or more [variables](/docs/sending-requests/variables/variables/) that you can reference when [sending requests](/docs/sending-requests/create-requests/create-requests/) or [writing test scripts](/docs/writing-scripts/test-scripts/). You can create environments for the different types of work you do in Postman. When you switch between environments, all of the variables in your requests and scripts will use the values from the current environment. This is helpful if you need to use different values in your requests depending on the context, for example, if you're sending a request to a test server or a production server.
 
-> Environments can also help you to collaborate on Postman data if you're working as part of a team. You can use environments to share variables and manage the visibility of sensitive data such as API keys, passwords, or tokens. Learn more about [working with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
+> Environments can also help you to collaborate on Postman data if you're working as part of a team. You can use environments to share variables and manage the visibility of sensitive data such as API keys, passwords, or tokens. Learn more about [working with environments as a team in Postman](/docs/sending-requests/variables/team-environments/).
 
 ## Contents
 
@@ -71,7 +71,7 @@ To create a new environment, do the following:
 When you add a variable to an environment, you can specify the _Initial value_ (shared) and the _Current value_ (local) for the variable:
 
 * **Initial value (shared)** - This value is synced to your account using Postman's cloud servers. It's shared with any collaborators who have access to the environment. It's also made public when [publishing an environment along with a collection](/docs/publishing-your-api/publishing-your-docs/). If the value includes sensitive data, such as a password or key, you can mask the value by selecting the **secret** variable type.
-* **Current value (local)** - This value is used when sending requests in your local instance of Postman. It's never synced to your account or shared with your team _unless you [choose to persist it](/docs/sending-requests/environments/environment-variables/#persist-environment-variables)_.
+* **Current value (local)** - This value is used when sending requests in your local instance of Postman. It's never synced to your account or shared with your team _unless you [choose to persist it](/docs/sending-requests/variables/environment-variables/#persist-environment-variables)_.
 
 To add variables to an environment, do the following:
 
@@ -127,11 +127,11 @@ pm.environment.get("variable_name");
 
 If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable (but local and data variable values will supersede environment values). The value of any overridden variables will display in strikethrough format.
 
-> Learn more about [editing and setting environment variables in Postman](/docs/sending-requests/environments/environment-variables/).
+> Learn more about [editing and setting environment variables in Postman](/docs/sending-requests/variables/environment-variables/).
 
 ## Edit an environment
 
-> If you're working with environments as part of a team, you must have the Editor role to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+> If you're working with environments as part of a team, you must have the Editor role to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/variables/team-environments/#manage-environment-roles).
 
 To edit an environment, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
 
@@ -145,6 +145,6 @@ To edit an environment, select **Environments** in the sidebar and select an env
 
 Environments enable you to share data in Postman and collaborate with your team. Here are some more resources to help you use environments with your team:
 
-* To learn more about working with environment variables, visit [Edit and set environment variables in Postman](/docs/sending-requests/environments/environment-variables/).
-* To learn how to use environments to collaborate with your team, visit [Work with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
+* To learn more about working with environment variables, visit [Edit and set environment variables in Postman](/docs/sending-requests/variables/environment-variables/).
+* To learn how to use environments to collaborate with your team, visit [Work with environments as a team in Postman](/docs/sending-requests/variables/team-environments/).
 * To learn how to publish your environments, visit [Publish documentation in Postman](/docs/publishing-your-api/publishing-your-docs/) or [Create Run in Postman buttons](/docs/publishing-your-api/run-in-postman/creating-run-button/).

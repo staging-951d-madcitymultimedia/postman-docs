@@ -52,7 +52,7 @@ Before you can use the Postman API, you’ll need an API key. An API key is a wa
 
 ## Store your API key as an environment variable
 
-After you create your API key, store it as a [Postman environment variable](/docs/sending-requests/environments/managing-environments/#add-environment-variables) named `postman-api-key`. You can use environments to store values that you can later use to make your requests.
+After you create your API key, store it as a [Postman environment variable](/docs/sending-requests/variables/managing-environments/#add-environment-variables) named `postman-api-key`. You can use environments to store values that you can later use to make your requests.
 
 For best security practices, make sure that you:
 

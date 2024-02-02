@@ -30,7 +30,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/ovo/"
 ---
 
-Postman enables you to create _mock servers_ to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. By adding a mock server to your [collection](/docs/sending-requests/create-requests/intro-to-collections/) and adding [examples](/docs/sending-requests/examples/) to your requests, you can simulate the behavior of a real API.
+Postman enables you to create _mock servers_ to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. By adding a mock server to your [collection](/docs/sending-requests/create-requests/intro-to-collections/) and adding [examples](/docs/sending-requests/response-data/examples/) to your requests, you can simulate the behavior of a real API.
 
 When you send a request to a mock server, Postman matches the request to a saved example in your collection. Postman then responds with the data you added to the example. To view existing mock servers in your workspace, select **Mock Servers** in the sidebar.
 
@@ -145,7 +145,7 @@ To use body or header matching with a mock server, do the following:
 
 Use the mock server's URL to make calls to the mock server. Select **Mock Servers** in the sidebar, select a mock server, and select **Copy Mock URL**.
 
-Make sure the request you want to mock has at least one saved example. You can send a request and save the response as an example. You can also define a custom example. Learn more about [adding examples to a request](/docs/sending-requests/examples/#adding-an-example).
+Make sure the request you want to mock has at least one saved example. You can send a request and save the response as an example. You can also define a custom example. Learn more about [adding examples to a request](/docs/sending-requests/response-data/examples/#adding-an-example).
 
 Open a new request tab (or edit the address in an existing tab) and add the mock URL:
 

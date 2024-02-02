@@ -23,7 +23,7 @@ Selecting the link in the Flow opens the page to get an API key. Enter any organ
 
 ### Adding an API key to the Send Request block
 
-For this example, you don't need to secure the API key, so it can be pasted directly in the `api key` value in the **Send Request** block. Generally, it's a good idea to store the key securely as a secret value in a Postman [Environment](/docs/sending-requests/environments/managing-environments/) which you can then select in the **Send Request** block.
+For this example, you don't need to secure the API key, so it can be pasted directly in the `api key` value in the **Send Request** block. Generally, it's a good idea to store the key securely as a secret value in a Postman [Environment](/docs/sending-requests/variables/managing-environments/) which you can then select in the **Send Request** block.
 
 ### Setting up authorization from the Send Request block
 

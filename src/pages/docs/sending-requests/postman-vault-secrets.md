@@ -103,7 +103,7 @@ pm.variables.get("vault:variable-key");
 
 <!-- -->
 
-> Secrets stored in your Postman Vault are redacted when they're logged to the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
+> Secrets stored in your Postman Vault are redacted when they're logged to the [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/).
 
 ## Fix unresolved secrets
 

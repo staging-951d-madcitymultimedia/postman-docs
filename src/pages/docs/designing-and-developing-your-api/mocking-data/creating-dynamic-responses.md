@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-support-for-templating-in-postman-mock-servers/"
 ---
 
-You can use [collection examples](/docs/sending-requests/examples/) to define static responses that are returned by your [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). However, there may be cases when you want the mock server to return dynamic responses that include variable or random data. You might also want the mock server to return contextual responses to your request. With dynamic mock responses, you can simulate various scenarios without having to create an example for each scenario.
+You can use [collection examples](/docs/sending-requests/response-data/examples/) to define static responses that are returned by your [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). However, there may be cases when you want the mock server to return dynamic responses that include variable or random data. You might also want the mock server to return contextual responses to your request. With dynamic mock responses, you can simulate various scenarios without having to create an example for each scenario.
 
 ## Contents
 
@@ -40,7 +40,7 @@ When you use an environment or collection variable in an example, the mock serve
 
 <img alt="Using variables with mock servers" src="https://assets.postman.com/postman-docs/v10/mock-server-using-variables-v10-2.jpg" width="467px" />
 
-> If you save the URL of a mock server to a [variable](/docs/sending-requests/variables/variables/), you can reference it across requests. For example, if you have a production server and a mock server, you can have an [environment](/docs/sending-requests/environments/managing-environments/) for each server. In each environment, create a variable with the same name for the mock URL. By using the variable in your requests, you can switch between the two environments to call the production server or the mock server.
+> If you save the URL of a mock server to a [variable](/docs/sending-requests/variables/variables/), you can reference it across requests. For example, if you have a production server and a mock server, you can have an [environment](/docs/sending-requests/variables/managing-environments/) for each server. In each environment, create a variable with the same name for the mock URL. By using the variable in your requests, you can switch between the two environments to call the production server or the mock server.
 
 ## Generating random data with dynamic variables
 
@@ -116,7 +116,7 @@ This example shows how to use a template helper to access data from the body of 
 
     ![Creating a new request](https://assets.postman.com/postman-docs/v10/mock-server-template-request-v10-2.jpg)
 
-1. [Add an example](/docs/sending-requests/examples/) to the request. Then add the following body data to the example. The `{{$body}}` template helper is used to access the `username` value:
+1. [Add an example](/docs/sending-requests/response-data/examples/) to the request. Then add the following body data to the example. The `{{$body}}` template helper is used to access the `username` value:
 
     ```json
     {

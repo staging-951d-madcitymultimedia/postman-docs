@@ -62,7 +62,7 @@ The request section includes the required configurations to connect to the serve
 
     * **Service definition** -  A service definition makes the client aware of all the services and methods supported by the server and also message payload structure, supported fields and data types. A service definition is loaded automatically after you enter the URL if the server supports server reflection. Otherwise, you will be required to load a service definition manually either by uploading a `.proto` file or creating a protobuf API in Postman. Learn more about [working with service definitions](/docs/sending-requests/grpc/using-service-definition/).
 
-* **Scripts** - Postman has a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](/docs/sending-requests/variables/variables/). Learn more about [scripting in gRPC requests](/docs/sending-requests/grpc/scripting-in-grpc-request/).
+* **Scripts** - Postman has a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/), or dynamically read or update the values of [variables](/docs/sending-requests/variables/variables/). Learn more about [scripting in gRPC requests](/docs/sending-requests/grpc/scripting-in-grpc-request/).
 
 * **TLS Toggle** - Unlike HTTP which defines if the call is going to be executed over a secured or unsecured connection using the URL structure (`http://` for unsecured, `https://` for secured), with gRPC, the client needs to configure it manually. Based on the server requirement, you can choose to invoke the method over a secured or an unsecured connection using the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> before the URL.
 
@@ -127,7 +127,7 @@ The response section has the following items:
 
 * **More information** - This section gives you key information regarding performance and if the execution was successful. You can assess the performance of the API using the information on how long the execution took. The status code gives you information explaining whether the execution was successful. The status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by hovering on it.
 
-* **Save as example** - You can save responses to your gRPC requests as [examples](/docs/sending-requests/examples/). For streaming methods, you must end streaming before you can save an example. See [Using gRPC examples](/docs/sending-requests/grpc/using-grpc-examples/) to learn more.
+* **Save as example** - You can save responses to your gRPC requests as [examples](/docs/sending-requests/response-data/examples/). For streaming methods, you must end streaming before you can save an example. See [Using gRPC examples](/docs/sending-requests/grpc/using-grpc-examples/) to learn more.
 
 * **Wrap text button** - Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read longer responses without scrolling.
 
@@ -165,7 +165,7 @@ The right sidebar gives you access to more tools and information like documentat
 
 If you're having a problem using Postman's gRPC client, learn more about common issues and how to troubleshoot them.
 
-For more troubleshooting information, see [Troubleshoot app issues](/docs/introduction/troubleshooting-inapp/) and [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
+For more troubleshooting information, see [Troubleshoot app issues](/docs/introduction/troubleshooting-inapp/) and [Troubleshooting requests](/docs/sending-requests/response-data/troubleshooting-api-requests/).
 
 ### Service unavailable
 

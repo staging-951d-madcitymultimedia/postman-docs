@@ -117,7 +117,7 @@ Add descriptions to parameters and headers to help others understand and use the
 
 The parameter and header descriptions are visible to people who have access to your collection or anyone viewing your [published documentation](/docs/publishing-your-api/publishing-your-docs/). The descriptions appear in the documentation along with the request, next to the parameter or header name.
 
-> All key-value pairs are included in your documentation even if their checkboxes aren't selected. Use the description to note which parameters and headers are required and which are optional. Anyone using your collection can choose which key-value pairs to include when sending requests or [generating code snippets](/docs/sending-requests/generate-code-snippets/).
+> All key-value pairs are included in your documentation even if their checkboxes aren't selected. Use the description to note which parameters and headers are required and which are optional. Anyone using your collection can choose which key-value pairs to include when sending requests or [generating code snippets](/docs/sending-requests/create-requests/generate-code-snippets/).
 
 ## Including authorization details
 
@@ -129,7 +129,7 @@ If you [specify authorization details](/docs/sending-requests/authorization/spec
 
 ## Including examples
 
-Examples are paired requests and responses that show your endpoints in action. Any [examples you add to a collection](/docs/sending-requests/examples/#adding-an-example) are automatically included in the documentation. For each request, your documentation shows the example code snippets as well the example response body and headers.
+Examples are paired requests and responses that show your endpoints in action. Any [examples you add to a collection](/docs/sending-requests/response-data/examples/#adding-an-example) are automatically included in the documentation. For each request, your documentation shows the example code snippets as well the example response body and headers.
 
 > Examples are displayed when you [view the complete documentation](/docs/publishing-your-api/viewing-documentation/#viewing-documentation-for-a-collection) for a collection or when you [view published documentation](/docs/publishing-your-api/viewing-documentation/#viewing-public-documentation).
 

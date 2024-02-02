@@ -124,7 +124,7 @@ Using the `pm.expect` syntax gives your test result messages a different format.
 
 > Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.postman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
 
-Your code can test the request [environment](/docs/sending-requests/environments/managing-environments/), as in the following example:
+Your code can test the request [environment](/docs/sending-requests/variables/managing-environments/), as in the following example:
 
 ```js
 pm.test("environment to be production", function () {
@@ -173,7 +173,7 @@ You can write scripts to control the order in which your requests run using [bra
 If you are having trouble with your tests:
 
 * Check if there are any errors in your scripts. A red badge will highlight scripts with errors. You can also check the response section for specific errors.
-* Debug your tests using the [log statements](/docs/sending-requests/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
+* Debug your tests using the [log statements](/docs/sending-requests/response-data/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
 
 ## Write tests using Postbot
 

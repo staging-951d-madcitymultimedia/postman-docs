@@ -82,7 +82,7 @@ For example, imagine you had the following collection structured with a single f
 
 ![Console log statement](https://assets.postman.com/postman-docs/v10/console-log-statement-v10-21-1.jpg)
 
-If you created log statements in the pre-request and test script sections for the collection, folder, and requests, the execution order is returned in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
+If you created log statements in the pre-request and test script sections for the collection, folder, and requests, the execution order is returned in the [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/).
 
 ![Logs in the Console](https://assets.postman.com/postman-docs/v10/logs-in-console-v10-21-1.jpg)
 
@@ -94,4 +94,4 @@ The [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-ap
 
 ## Debugging scripts
 
-Debugging scripts can be written under either the **Pre-request Script** tab or the **Tests** tab, with helpful messages logged in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
+Debugging scripts can be written under either the **Pre-request Script** tab or the **Tests** tab, with helpful messages logged in the [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/).

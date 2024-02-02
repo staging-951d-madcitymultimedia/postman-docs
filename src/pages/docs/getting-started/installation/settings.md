@@ -150,7 +150,7 @@ Select **Download Newman from npm** to download Newman, Postman's command line c
 
 ## Certificates
 
-Use the **Certificates** tab to add and manage CA certificates and client certificates in Postman. Learn more about [managing certificates](/docs/sending-requests/certificates/).
+Use the **Certificates** tab to add and manage CA certificates and client certificates in Postman. Learn more about [managing certificates](/docs/sending-requests/authorization/certificates/).
 
 ## Connected accounts
 

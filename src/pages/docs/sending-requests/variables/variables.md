@@ -65,7 +65,7 @@ Variables in Postman are key-value pairs. Each variable name represents its key,
 
 You can use variables to pass data between requests and tests, for example if you are [chaining requests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-81122f8b-5e07-4760-9504-f4387f45d2bc) in a collection.
 
-You can use environments to group sets of variables together and share them with collaborators, for example if you use one set of config details for your production server and another for testing. See [Group sets of variables in Postman using environments](/docs/sending-requests/environments/managing-environments/) for more on how you can incorporate environments into your team workflows.
+You can use environments to group sets of variables together and share them with collaborators, for example if you use one set of config details for your production server and another for testing. See [Group sets of variables in Postman using environments](/docs/sending-requests/variables/managing-environments/) for more on how you can incorporate environments into your team workflows.
 
 <!-- You can also [use your Postman Vault to store secrets](/docs/sending-requests/postman-vault-secrets/) locally. Secrets are locally available to reuse in all of your workspaces in your Postman team, and aren't synced to the Postman cloud. This enables you to store and reuse sensitive data while using Postman. -->
 
@@ -77,7 +77,7 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 
 * **Global variables** enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Since global variables have the broadest scope available in Postman, they're well-suited for testing and prototyping. In later development phases, use more specific scopes.
 * **Collection variables** are available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. Collection variables are suitable if you're using a single environment, for example for auth or URL details.
-* **Environment variables** enable you to scope your work to different environments, for example local development versus testing or production. One environment can be active at a time. If you have a single environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+* **Environment variables** enable you to scope your work to different environments, for example local development versus testing or production. One environment can be active at a time. If you have a single environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/variables/team-environments/#manage-environment-roles).
 * **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/) or the [Collection Runner](/docs/collections/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
 * **Local variables** are temporary variables that are accessed in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete. Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
 
@@ -227,7 +227,7 @@ To edit an existing environment variable, do the following:
 > * If you have Editor access to the environment, you can add and edit variables.
 > * If you have Viewer access to the environment, you are restricted to updating the _current value_ of existing variables. Any variables you edit are accessible to you, but not to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 >
-> See [Managing environments](/docs/sending-requests/environments/managing-environments/) for more on working with environments in your team.
+> See [Managing environments](/docs/sending-requests/variables/managing-environments/) for more on working with environments in your team.
 
 You can also [define environment variables in scripts](#defining-variables-in-scripts).
 
@@ -347,7 +347,7 @@ See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sand
 
 #### Logging variables
 
-You can log variable values to the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/) while your requests run.
+You can log variable values to the [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/) while your requests run.
 
 Use the following syntax in your script to log the value of a variable:
 
@@ -387,7 +387,7 @@ Your local session in Postman can use values that are transient and visible to y
 
 You can edit a current value inline using the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> in the [workbench](/docs/getting-started/basics/navigating-postman/#environment-selector-and-environment-quick-look).
 
-For more information on working with variables as a team, see [Work with environments as a team in Postman](/docs/sending-requests/environments/team-environments/).
+For more information on working with variables as a team, see [Work with environments as a team in Postman](/docs/sending-requests/variables/team-environments/).
 
 > Local and data variables have current values, which don't persist beyond request or collection runs.
 
@@ -422,4 +422,4 @@ To set a variable that's unresolved because it doesn't exist, do the following:
 
    <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/v10/set-unresolved-variable-v10-22.jpg" width="338px"/>
 
-> Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
+> Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
