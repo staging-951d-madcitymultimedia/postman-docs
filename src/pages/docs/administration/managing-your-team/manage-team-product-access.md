@@ -95,6 +95,6 @@ When you add users to the API Test Automation solution:
 
 ## Remove users' product access
 
-To remove users a product, hover over their name and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+To remove users from a product, hover over their name and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
 <img alt="Remove team members from Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-remove-members-v10-23.jpg"/>
