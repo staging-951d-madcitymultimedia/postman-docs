@@ -21,7 +21,7 @@ contextual_links:
 
 > **[Some team options are only available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
-As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage which team members and users have access to [Postbot](/docs/getting-started/basics/about-postbot/) and various [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions). You can manage which users can access these product solutions in your [product access dashboard](https://go.postman.co/settings/team/products-access).
+As a [Team Admin or Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage which team members and users have access to [Postbot](/docs/getting-started/basics/about-postbot/) and various [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) in your [product access dashboard](https://go.postman.co/settings/team/products-access).
 
 Free, Basic, and Professional teams can [purchase Postbot as an add-on product](/docs/billing/billing/#purchasing-add-on-products). To learn more about Postman’s AI assistant, see [About Postbot](/docs/getting-started/basics/about-postbot/).
 
