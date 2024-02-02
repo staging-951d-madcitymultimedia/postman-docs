@@ -85,7 +85,7 @@ To invite partners to your multi-partner workspace, do the following:
 
     <img alt="Invite partners" src="https://assets.postman.com/postman-docs/v10/multipartner-workspace-invite-v10-22.jpg">
 
-1. Enter the partner's name or email. Alternatively, you can select **Add from file** to insert a .csv or .txt file containing contact information.
+1. Enter the partner's name or email. Alternatively, you can select **Add from file** to insert a CSV or TXT file containing contact information.
 1. Select **Viewer** role.
 
     > You can optionally select a Partner Lead role checkbox, to enable the partner to invite other partners to the workspace. However, Partner Leads can only invite other partners from their domain.
