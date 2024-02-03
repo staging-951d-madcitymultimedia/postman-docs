@@ -1,5 +1,5 @@
 ---
-title: "Publish your APIs to multiple partners using a single Postman workspace"
+title: "Collaborate with multiple partners using multi-partner mode"
 updated: 2024-02-02
 early_access: true
 plan: beta
@@ -71,7 +71,7 @@ To enable multi-partner mode, do the following:
 
 The workspace **Overview** and **Settings** pages update to display that multi-partner mode is turned on. You are ready to add collections, set up the workspace, and invite partners just like in any other Partner Workspace.
 
-Use the fork feature to share collections and environments from your internal team workspaces to the Partner Workspace.
+To share your work, we recommend that you fork collections and environments from your internal team workspace to the Partner Workspace.
 
 ## Invite partners to your multi-partner workspace
 
