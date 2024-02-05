@@ -66,7 +66,7 @@ When you start typing in the URL box, Postman will present a dropdown list of lo
 
 You can optionally enter _query_ parameters in the URL box, or you can enter them in the **Params** tab. If your request uses _path_ parameters, you can enter them in the URL box. Learn more about [sending parameters and body data with API requests in Postman](/docs/sending-requests/create-requests/parameters/).
 
-> You can use [next generation URL encoding](/docs/sending-requests/create-requests/request-settings/#encoding-your-request-urls) in your requests.
+> You can use [next generation URL encoding](/docs/sending-requests/create-requests/request-settings/#encode-your-request-urls) in your requests.
 
 ### Select request methods
 
