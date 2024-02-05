@@ -1,6 +1,6 @@
 ---
 title: "Upload files for shared requests and cloud runs"
-updated: 2024-01-30
+updated: 2024-02-05
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -22,15 +22,9 @@ contextual_links:
     url: "https://blog.postman.com/introducing-file-storage-for-tests-and-requests/"
 ---
 
-Featured snippet
-
-## Contents
-
-## Upload files for shared requests and cloud runs
-
 > **Test data storage is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** To learn more about availability for Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
 
-You can attach a file with test data to a request as form data or binary data. Postman will save the file path relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory) and use the file when sending the request. However, if you share the request in a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), the local file isn't shared. This means other team members won't be able to send the request unless they put a copy of the same file in their own local working directory. Also, a local file won't be available when sending a request from a [monitor](/docs/monitoring-your-api/intro-monitors/) or a [scheduled collection run](/docs/collections/running-collections/scheduling-collection-runs/), which are run in the Postman cloud and not locally.
+You can attach a file with test data to a request as [form data](/docs/sending-requests/create-requests/parameters/#form-data) or [binary data](/docs/sending-requests/create-requests/parameters/#binary-data). Postman will save the file path relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory) and use the file when sending the request. However, if you share the request in a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), the local file isn't shared. This means other team members won't be able to send the request unless they put a copy of the same file in their own local working directory. Also, a local file won't be available when sending a request from a [monitor](/docs/monitoring-your-api/intro-monitors/) or a [scheduled collection run](/docs/collections/running-collections/scheduling-collection-runs/), which are run in the Postman cloud and not locally.
 
 To enable sharing requests that use test data files, you can upload the files to your Postman team. Uploaded files are available to all members of your team and can be used to send requests that are shared in a workspace. Uploaded files are also available to requests sent from monitors and scheduled collection runs, and can be used from [Postman Flows](/docs/postman-flows/gs/flows-overview/) and the [Postman CLI](/docs/postman-cli/postman-cli-overview/) (but not [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/)).
 
