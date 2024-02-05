@@ -33,6 +33,16 @@ contextual_links:
     url: "https://www.postman.com/case-studies/intuit/"
 ---
 
+## Authenticating requests
+
+Some APIs require auth details you can send in Postman. Authentication involves confirming the identity of the client sending a request, and authorization involves confirming that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
+
+![Request Auth](https://assets.postman.com/postman-docs/v10/authorization-tab-v10-21-12.jpg)
+
+Postman will automatically include your auth details in the relevant part of the request, for example in __Headers__.
+
+## Original
+
 APIs use authorization to ensure that client requests access data securely. This can involve authenticating the sender of a request and confirming that they have permission to access or manipulate the relevant data. If you're building an API, you can choose from a variety of auth models. If you're integrating a third-party API, the required authorization will be specified by the API provider.
 
 You can pass auth details along with any request you send in Postman. Auth data can be included in the header, body, or as parameters to a request. If you enter your auth details in the __Authorization__ tab, Postman will automatically populate the relevant parts of the request for your chosen auth type. You can use variables and collections to define authorization details more safely and efficiently, enabling you to reuse the same information in multiple places.

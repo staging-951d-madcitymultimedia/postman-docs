@@ -40,7 +40,7 @@ You can add descriptions to your parameters and they'll appear for anyone sharin
 
 > You can use the __Bulk Edit__ option if you prefer to enter your parameters in plain text instead of using the request builder.
 
-If your request doesn't require body data, auth, or headers, select __Send__. Otherwise, set up your [body](#sending-body-data), [auth](/docs/sending-requests/create-requests/request-basics/#authenticating-requests), and [headers](/docs/sending-requests/create-requests/headers/).
+If your request doesn't require body data, auth, or headers, select __Send__. Otherwise, set up your [body](#sending-body-data), [auth](/docs/sending-requests/authorization/authorization/), and [headers](/docs/sending-requests/create-requests/headers/).
 
 ## Sending body data
 
