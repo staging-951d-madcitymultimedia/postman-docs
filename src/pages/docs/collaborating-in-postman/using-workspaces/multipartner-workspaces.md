@@ -71,7 +71,7 @@ To enable multi-partner mode, do the following:
 
 The workspace **Overview** and **Settings** pages update to display that multi-partner mode is turned on. You are ready to add collections, set up the workspace, and invite partners just like in any other Partner Workspace.
 
-To share your work, we recommend that you fork collections and environments from your internal team workspace to the Partner Workspace.
+To share your work, Postman recommends that you fork collections and environments from your internal team workspace to the Partner Workspace.
 
 ## Invite partners to your multi-partner workspace
 
@@ -81,9 +81,9 @@ Because Partner Viewers are free, you can invite as many partners as you want to
 
 To invite partners to your multi-partner workspace, do the following:
 
-1. In the **Workspace Settings**, select **Invite** and then select **Partners**.
+1. Open the workspace and select **Invite** in the Postman header.
 
-    <img alt="Invite partners" src="https://assets.postman.com/postman-docs/v10/multipartner-workspace-invite-v10-22.jpg">
+    <img alt="Invite partners" src="https://assets.postman.com/postman-docs/v10/multipartner-workspace-invite-v10-22.gif">
 
 1. Enter the partner's name or email. Alternatively, you can select **Add from file** to insert a CSV or TXT file containing contact information.
 1. Select **Viewer** role.
