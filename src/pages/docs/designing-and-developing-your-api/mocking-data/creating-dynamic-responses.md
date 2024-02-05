@@ -105,7 +105,7 @@ Use [object-path](https://www.npmjs.com/package/object-path) syntax to access sp
 
 This example shows how to use a template helper to access data from the body of the incoming request and return that data in the response from the mock server.
 
-1. In the mocked collection, [create a new request](/docs/sending-requests/requests/#raw-data) with the following body data:
+1. In the mocked collection, [create a new request](/docs/sending-requests/create-requests/parameters/#raw-data) with the following body data:
 
     ```json
     {
