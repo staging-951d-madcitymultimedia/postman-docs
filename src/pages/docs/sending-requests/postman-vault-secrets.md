@@ -47,7 +47,7 @@ Vault secrets are created at the *vault* scope, which is the broadest scope comp
 
 Both vault secrets and variables enable you to store and reference data in Postman. One may be a better fit than the other, depending on your use case or preferences.
 
-[Vault secrets](#about-vault-secrets) enable you to store and reuse sensitive data only in your local instance of Postman, and it isn't synced to the Postman cloud. This enables you to keep your sensitive data hidden from collaborators, and prevent collaborators from using your vault secrets. Vault secrets are masked by default, and only you can unmask them. Your sensitive data is also encrypted in your Postman Vault, requiring your vault key to gain access.
+[Vault secrets](#about-vault-secrets) enable you to store and reuse sensitive data only in your local instance of Postman, and they aren't synced to the Postman cloud. This enables you to keep your sensitive data hidden from collaborators, and prevent collaborators from using your vault secrets. Vault secrets are masked by default, and only you can unmask them. Your sensitive data is also encrypted in your Postman Vault, requiring your vault key to gain access.
 
 [Variables](/docs/sending-requests/variables/) enable you to store and reuse the same value, such as URLs or API keys, in multiple places. The following includes some options for storing data in variables:
 
