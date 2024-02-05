@@ -5,18 +5,19 @@ early_access: true
 plan: beta
 ---
 
-*Postman Vault* gives you a central place to store sensitive data as vault secrets in your local instance of Postman. This enables you to securely reuse sensitive data in your HTTP collections, environments, and requests. Only you can access and use your vault secrets, and secrets aren't synced to the Postman cloud.
+*Postman Vault* enables you to store sensitive data as vault secrets in your local instance of Postman. This enables you to securely reuse sensitive data in your HTTP collections, environments, and requests. Only you can access and use your vault secrets, and secrets aren't synced to the Postman cloud.
 
 When you first open your Postman Vault, Postman generates a [vault key](#manage-your-vault-key) that enables you to access your encrypted vault secrets. Once you store your vault key in a secure location, you can [add sensitive data as vault secrets](#add-sensitive-data-as-vault-secrets) in your Postman Vault. Then you can [reference your vault secrets](#use-vault-secrets) in your HTTP collections, requests, and more.
 
-You can use your Postman Vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/) or the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app).
+You can use your Postman Vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/) or the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app). Learn about Postman Vault [features that require the Postman desktop app or web app](#web-and-desktop-limitations).
 
-> Postman Vault doesn't support public workspaces if you're using the Postman web app. You must use the Postman desktop app to open your Postman Vault from a public workspace, and reference vault secrets in a public workspace.
+<!-- Postman Vault doesn't support public workspaces if you're using the Postman web app. You must use the Postman desktop app to open your Postman Vault from a public workspace, and reference vault secrets in a public workspace. -->
 
 ## Contents
 
 * [About vault secrets](#about-vault-secrets)
     * [Compare vault secrets and variables](#compare-vault-secrets-and-variables)
+    * [Web and desktop limitations](#web-and-desktop-limitations)
 * [Access your Postman Vault](#access-your-postman-vault)
 * [Manage your vault key](#manage-your-vault-key)
     * [Save your vault key](#save-your-vault-key)
@@ -54,6 +55,22 @@ Both vault secrets and variables enable you to store and reference data in Postm
 
 * You can set the variable type as [secret type](/docs/sending-requests/variables/#variable-types) in global and environment variables. This enables you to mask sensitive data in the initial and current values. Collaborators with access to the workspace can [view a secret type variable's values](/docs/sending-requests/variables/#viewing-and-changing-secret-variable-values). Also, collaborators with additional permissions can [change the variable type](/docs/sending-requests/variables/#changing-from-secret-to-default-variable-type), unmasking it for collaborators.
 
+### Web and desktop limitations
+
+Some Postman Vault features require the Postman desktop app or the Postman web app.
+
+The following features require the Postman desktop app:
+
+* **Open Postman Vault from public workspaces** - You must use the Postman desktop app to open your Postman Vault from a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), and reference vault secrets in a public workspace. If you're using the Postman web app, you must add new vault secrets to your Postman vault if you're opening it from a public workspace.
+
+* **Use vault secrets between teams** - You must use the Postman desktop app to use your vault secrets in another team. If you're using the Postman web app, you must add new vault secrets to your Postman Vault when you [switch, join, or leave teams](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/). <!-- TBD -->
+
+The following features require the Postman web app:
+
+* **Preserve vault secrets after signing out of Postman** - You must use the Postman web app to preserve your encrypted vault secrets after signing out of Postman. If you're using the Postman desktop app, vault secrets will be deleted from your Postman Vault after signing out of Postman, and you must add new vault secrets when you sign in to Postman with the desktop app.
+
+    > If you're using the Postman web app with Safari as your web browser, it deletes vault secrets from your local instance of Postman after seven days of inactivity. You must use a different web browser if you want your vault secrets available for more than seven days without inactivity. Learn more about the [browser requirements](/docs/getting-started/installation/installation-and-updates/#browser-requirements) for the Postman web app.
+
 ## Access your Postman Vault
 
 To access your Postman Vault, open a workspace then select <img alt="Vault icon" src="https://assets.postman.com/postman-docs/icons/icon-postman-vault.jpg#icon" width="14px"> **Vault** from the Postman footer. You can also use **Control+Shift+V** or **Ctrl+Shift+V** to access your Postman Vault.
@@ -65,7 +82,9 @@ You can open your vault secrets in Postman Vault as follows:
 
     > If you stored your vault key in your system's password manager, Postman automatically gets your vault key. You must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
-> Postman Vault doesn't support public workspaces if you're using the Postman web app. You must use the Postman desktop app to open your Postman Vault from a public workspace, and reference vault secrets in a public workspace.
+> Learn about Postman Vault [features that require the Postman desktop app or web app](#web-and-desktop-limitations).
+
+<!-- Postman Vault doesn't support public workspaces if you're using the Postman web app. You must use the Postman desktop app to open your Postman Vault from a public workspace, and reference vault secrets in a public workspace. -->
 
 ## Manage your vault key
 
@@ -207,6 +226,8 @@ A vault secret can be unresolved for the following reasons:
 * The secret is turned off in your Postman Vault.
 * The secret isn't allowed to be in requests to the domain.
 * You haven't entered your vault key since you last signed in to Postman.
+
+> For reasons why your vault secrets might be missing from your Postman Vault, see [Web and desktop limitations](#web-and-desktop-limitations).
 
 If the vault secret exists in your Postman Vault and it's turned off, hover over the reference to the secret, then select **Enable Secret**.
 
