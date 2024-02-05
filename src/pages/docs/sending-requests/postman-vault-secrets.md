@@ -80,7 +80,7 @@ You can open your vault secrets in Postman Vault as follows:
 * If this is your first time opening your Postman Vault, select **Set Up Vault** to [get your vault key](#manage-your-vault-key).
 * If Postman already generated your [vault key](#manage-your-vault-key), enter your vault key then select **Open Vault**. Then you can continue to [add](#add-sensitive-data-as-vault-secrets), [edit](#edit-vault-secrets), and [use](#use-vault-secrets) your vault secrets in Postman.
 
-    > If you stored your vault key in your system's password manager, Postman automatically gets your vault key. You must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
+    > If you stored your vault key in your system's password manager, Postman automatically gets your vault key. You must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent) if you're using the the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) so Postman can get your vault key.
 
 > Learn about Postman Vault [features that require the Postman desktop app or web app](#web-and-desktop-limitations).
 
