@@ -51,7 +51,7 @@ To add users to Postbot, do the following:
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-23.jpg"/>
 
-1. If you select **Add members**, select team members you'd like to add to Postbot, then select **Add Members**. If you select **Invite members**, select users from the dropdown list or enter the user's email address the **Invite by email** text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user.
+2. If you select **Add members**, select team members you'd like to add to Postbot, then select **Add Members**. If you select **Invite members**, select users from the dropdown list or enter the user's email address the **Invite by email** text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. An invitation email will be sent to the user.
 
 ## Manage access to Enterprise solutions
 
@@ -70,7 +70,7 @@ To add users to a solution, do the following:
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-add-members-v10-23-1.jpg"/>
 
-1. If you select **Add members**, select team members you'd like to add to the solution, then select **Add Members**. If you select **Invite members**, select users from the dropdown list or enter the users' email addresses the **Invite by email** text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. A confirmation email will be sent to the user.
+1. If you select **Add members**, select team members you'd like to add to the solution, then select **Add Members**. If you select **Invite members**, select users from the dropdown list or enter the users' email addresses the **Invite by email** text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. An invitation email will be sent to the user.
 
 ### Internal API Management solution
 
