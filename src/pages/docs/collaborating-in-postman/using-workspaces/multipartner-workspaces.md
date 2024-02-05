@@ -25,9 +25,9 @@ contextual_links:
 
 _Multi-partner mode is a beta capability and is only available to select Postman Enterprise customers who want to try it out. As you use the feature, please share any feedback or issues you encounter with your Customer Success Manager or directly with the [Product Team](mailto:partnerapi@postman.com)._
 
-[Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) enable you to collaborate with your external partners and customers. You can use Partner Workspaces to demo your API products to customers, onboard external developers faster, and reduce the time-to-first-call for your consumers.
+[Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) enable you to collaborate with your external partners and customers. You can use Partner Workspaces to demo your API products to external API partners and customers, onboard external developers faster, and reduce the time-to-first-call for your consumers.
 
-As your partner programs grow, so does your need to create, maintain, and update multiple workspaces with nearly the same content in each one. A _multi-partner_ mode within Partner Workspaces simplifies this workflow and helps you share your APIs easily with multiple customers and partners.
+As your partner programs grow, you need to create, maintain, and update multiple workspaces, one for each partner. _Multi-partner mode_ make this workflow simpler by enabling you to use the same workspace and collaborate with multiple partners.
 
 ## Contents
 
@@ -45,9 +45,9 @@ Multi-partner mode enables you to:
 * Showcase real-world workflows and demos using your APIs.
 * Maintain a reference workspace for all your API endpoints and documentation that can be shared with all your partners.
 
-By enabling multi-partner mode in a Partner Workspace, you can create a restricted-access workspace that's intentionally designed for publishing Postman Collections to multiple external partners. Partners can be invited to this workspace as Viewers only, see all the workspace content, and send API requests. Team members can make edits to the workspace, which are then available to the partners in real time.
+By enabling multi-partner mode in a Partner Workspace, you can create an invite-only partner workspace that's designed for sharing Postman Collections with multiple partners. Partners can be invited to this workspace as Viewers. They can see all the workspace content, send API requests, run collections, and generate code snippets. Team members can make edits to the workspace, which are then available to the partners in real time.
 
-The goal of this workspace is to provide a sandbox where customers and partners evaluate, onboard, and consume your APIs by sending successful requests quickly. A Partner user can't see other Partners and their activities in the workspace. They can see only your team members, while comments and other collaborative features are turned off to maintain isolation between Partners.
+The goal of this workspace is to provide a shared space where your partners can evaluate, onboard, and integrate your APIs quickly. A Partner user can't see other Partners and their activities in the workspace. They can see only your team members, while comments are turned off to maintain isolation between Partners.
 
 ## Enable multi-partner mode in a Partner Workspace
 
@@ -63,9 +63,9 @@ To enable multi-partner mode, do the following:
 
     The confirmation modal describes the key capabilities of the multi-partner mode.
 
-1. Select **Limit Partner Visibility**.
+1. Select **Enable multi-partner mode** again.
 
-    Now the partners in this workspace can't see each other or make any edits. They can view all workspace resources, send API requests, and see responses.
+    Now the partners in this workspace can't see each other or make any edits. They can view all workspace resources, send API requests, run collections, and see responses.
 
     <img alt="Workspace shared" src="https://assets.postman.com/postman-docs/v10/multipartner-workspace-shared-v10-22.jpg" width="300px">
 
