@@ -41,17 +41,17 @@ Enterprise Essentials teams can [purchase Enterprise solutions](/docs/billing/bi
 
 Users with [Postbot](/docs/getting-started/basics/about-postbot/) access get an increased number of interactions with Postbot. To view your team's Postbot limits, go to your [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview).
 
-> Adding users to Postbot purchases more seats. Learn more about [purchasing add-on products](/docs/billing/billing/#purchasing-add-on-products).
+> Using [Auto-Flex](/docs/billing/billing/#using-auto-flex), you can add users to Postbot without having to pay upfront.
 
 To add users to Postbot, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
-1. Select **Product access**, then select **Postbot**.
-1. To add team members to Postbot, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
+2. Select **Product access**, then select **Postbot**.
+3. To add team members to Postbot, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/product-access-postbot-v10-23.jpg"/>
 
-1. If you select **Add members**, select team members you'd like to add to Postbot, then select **Add Members**. If you select **Invite members**, select users from the dropdown list or enter the user's email address the **Invite by email** text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. An invitation email will be sent to the user.
+4. If you select **Add members**, select team members you'd like to add to Postbot, then select **Add Members**. If you select **Invite members**, select users from the dropdown list or enter the user's email address the **Invite by email** text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. An invitation email will be sent to the user.
 
 ## Manage access to Enterprise solutions
 
@@ -59,18 +59,18 @@ To add users to Postbot, do the following:
 
 As a Team Admin, you can manage [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions) for your team: [Internal API Management](#internal-api-management-solution) and [API Test Automation](#api-test-automation-solution). Adding users to a solution can give them more permissions within your team and access to more features.
 
-> Adding users to a solution purchases more licenses for that solution. Learn more about [managing Enterprise solutions licenses](/docs/billing/billing/#manage-enterprise-solutions-licenses).
+> [Auto-Flex](/docs/billing/billing/#using-auto-flex) enables your team to add users to solutions without having to pay upfront. Learn more about [managing Enterprise solutions licenses](/docs/billing/billing/#manage-enterprise-solutions-licenses).
 
 To add users to a solution, do the following:
 
 1. Select **Team** in the Postman header, then select **Team Settings**.
-1. Select **Product access**.
-1. Select the Enterprise solution you'd like to manage: **Internal API Management** or **API Test Automation**.
-1. To add team members to a solution, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
+2. Select **Product access**.
+3. Select the Enterprise solution you'd like to manage: **Internal API Management** or **API Test Automation**.
+4. To add team members to a solution, select **Add Members**. To invite a user outside of the team, select **Invite members** and a new window will appear.
 
     <img alt="Add team members to Enterprise solutions" src="https://assets.postman.com/postman-docs/v10/enterprise-solutions-add-members-v10-23-1.jpg"/>
 
-1. If you select **Add members**, select team members you'd like to add to the solution, then select **Add Members**. If you select **Invite members**, select users from the dropdown list or enter the users' email addresses the **Invite by email** text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. An invitation email will be sent to the user.
+5. If you select **Add members**, select team members you'd like to add to the solution, then select **Add Members**. If you select **Invite members**, select users from the dropdown list or enter the users' email addresses the **Invite by email** text box, assign them a role in the **Roles** dropdown list, then select **Send Invite**. An invitation email will be sent to the user.
 
 ### Internal API Management solution
 
@@ -91,7 +91,7 @@ You can add users to the [API Test Automation solution](https://www.postman.com/
 When you add users to the API Test Automation solution:
 
 * Added users get unlimited collections runs with the Collection Runner. You can [run collections on a schedule](/docs/collections/running-collections/scheduling-collection-runs/) to automate API tests.
-* Added users get increased usage limits for monitors. You can [run collections on a schedule with monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/) to automate reports on API tests, and more. Learn more about [monitor use cases](/docs/monitoring-your-api/intro-monitors/#monitor-use-cases).
+* Added users get increased usage limits for mocks and monitors. You can [run collections on a schedule with monitors](/docs/collections/running-collections/scheduling-collection-runs-monitors/) to automate reports on API tests and use mock servers to [create dynamic responses](/docs/designing-and-developing-your-api/mocking-data/creating-dynamic-responses/). Learn more about [monitor use cases](/docs/monitoring-your-api/intro-monitors/#monitor-use-cases) and [mock servers](/docs/designing-and-developing-your-api/mocking-data/mock-an-api/).
 
 ## Remove users' product access
 
