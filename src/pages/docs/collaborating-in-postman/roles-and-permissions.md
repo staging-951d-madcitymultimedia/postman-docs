@@ -204,7 +204,7 @@ You can [assign](/docs/sending-requests/variables/team-environments/#manage-envi
 * **Editor** - Can edit and manage environments
 * **Viewer** - Can view and use environments
 
-The following roles control access at the mock server level:
+The following roles control access at an environment level:
 
 Environment | Editor | Viewer
 --- | --- | ---
