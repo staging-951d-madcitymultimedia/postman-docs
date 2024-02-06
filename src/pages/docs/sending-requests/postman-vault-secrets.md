@@ -61,7 +61,7 @@ Some Postman Vault features require the Postman desktop app or the Postman web a
 
 The following features require the Postman desktop app:
 
-* **Open Postman Vault from public workspaces** - You must use the Postman desktop app to open your Postman Vault from a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), and reference vault secrets in a public workspace. If you're using the Postman web app, you must add new vault secrets to your Postman vault if you're opening it from a public workspace.
+* **Open Postman Vault from public workspaces** - You must use the Postman desktop app to open your Postman Vault from a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), and reference vault secrets in a public workspace. If you're using the Postman web app, you must add new vault secrets to your Postman Vault if you're opening it from a public workspace.
 
 * **Use vault secrets between teams** - You must use the Postman desktop app to use your vault secrets in another team. If you're using the Postman web app, you must add new vault secrets to your Postman Vault when you [switch, join, or leave teams](/docs/collaborating-in-postman/working-with-your-team/team-collaboration/). <!-- TBD -->
 
@@ -80,7 +80,7 @@ You can open your vault secrets in Postman Vault as follows:
 * If this is your first time opening your Postman Vault, select **Set Up Vault** to [get your vault key](#manage-your-vault-key).
 * If Postman already generated your [vault key](#manage-your-vault-key), enter your vault key then select **Open Vault**. Then you can continue to [add](#add-sensitive-data-as-vault-secrets), [edit](#edit-vault-secrets), and [use](#use-vault-secrets) your vault secrets in Postman.
 
-    > If you stored your vault key in your system's password manager, Postman automatically gets your vault key. You must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent) if you're using the the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) so Postman can get your vault key.
+    > If you stored your vault key in your system's password manager, Postman automatically gets your vault key. You must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent) if you're using the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) so Postman can get your vault key.
 
 > Learn about Postman Vault [features that require the Postman desktop app or web app](#web-and-desktop-limitations).
 
@@ -97,12 +97,9 @@ When Postman generates your vault key, you have the following options for saving
 * Save your vault key in a secure location. Each time you sign in to Postman, you'll need to manually enter your vault key, enabling you to access your Postman Vault and vault secrets.
 * Postman can store your vault key in your system's password manager, such as Keychain Access on macOS. This enables Postman to automatically get your vault key, giving you access to your Postman Vault and vault secrets when you sign in to Postman.
 
-    > If you're using Postman Vault from the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app), you must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent) so Postman can get your vault key.
-
 ### Save your vault key
 
-1. Open your Postman Vault. If this is your first time opening your Postman Vault, select **Encrypt Vault**.
-1. Save your vault key in a secure location. You can do the following to save your vault key:
+1. When you open your Postman Vault for the first time, save your vault key in a secure location. You can do the following to save your vault key:
 
     * Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy your vault key to your clipboard.
     * Select the download icon <img alt="Download icon" src="https://assets.postman.com/postman-docs/icon-download-v9.jpg#icon" width="16px"/> to download your vault key.
