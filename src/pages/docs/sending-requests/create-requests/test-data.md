@@ -24,9 +24,20 @@ contextual_links:
 
 > **Test data storage is available on [Postman Free, Basic, and Professional plans](https://www.postman.com/pricing/).** To learn more about availability for Enterprise plans, contact the [Postman sales team](https://www.postman.com/company/contact-sales/).
 
+Test data is made up of the data files you use to test various scenarios for your API. Postman provides test data storage, so you can upload data files to your Postman team. Anyone on your team can then use the files when sending API requests.
+
+## Contents
+
+* [About test data storage](#about-test-data-storage)
+* [Upload a file to your Postman team](#upload-a-file-to-your-postman-team)
+
+## About test data storage
+
 You can attach a file with test data to a request as [form data](/docs/sending-requests/create-requests/parameters/#form-data) or [binary data](/docs/sending-requests/create-requests/parameters/#binary-data). Postman will save the file path relative to your local [working directory](/docs/getting-started/installation/settings/#working-directory) and use the file when sending the request. However, if you share the request in a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/), the local file isn't shared. This means other team members won't be able to send the request unless they put a copy of the same file in their own local working directory. Also, a local file won't be available when sending a request from a [monitor](/docs/monitoring-your-api/intro-monitors/) or a [scheduled collection run](/docs/collections/running-collections/scheduling-collection-runs/), which are run in the Postman cloud and not locally.
 
 To enable sharing requests that use test data files, you can upload the files to your Postman team. Uploaded files are available to all members of your team and can be used to send requests that are shared in a workspace. Uploaded files are also available to requests sent from monitors and scheduled collection runs, and can be used from [Postman Flows](/docs/postman-flows/gs/flows-overview/) and the [Postman CLI](/docs/postman-cli/postman-cli-overview/) (but not [Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/)).
+
+## Upload a file to your Postman team
 
 > You must have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to upload a file for a request in the collection. Files can't be uploaded from scripts.
 

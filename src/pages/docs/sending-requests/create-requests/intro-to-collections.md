@@ -1,6 +1,6 @@
 ---
 title: "Group API requests with Postman Collections"
-updated: 2023-03-01
+updated: 2024-02-05
 contextual_links:
   - type: section
     name: "Additional resources"
@@ -15,15 +15,14 @@ contextual_links:
   - type: dynamic_blog
     name: "Blog posts"
     blog_tag: "collections"
-warning: false
 ---
 
-You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
+_Postman Collections_ enable you to save and group together your API requests and examples. You can use collections to keep your workspace organized, collaborate with teammates, and generate API documentation and API tests. You can also use collections to automate request runs as part of your API testing efforts.
 
-Select **Collections** in the sidebar for the list of collections in a workspace.
+Select **Collections** in the sidebar to view a list of collections in your current workspace.
 
 <img alt="" src="https://assets.postman.com/postman-docs/collections-overview.jpg" width="300px"/>
 
-* To learn more about collections, visit the [Collections overview](/docs/collections/collections-overview/).
-* To create, edit, delete, and work with your collections, visit [Using collections](/docs/collections/using-collections/).
-* For details on how to run your collection, visit [Using the Collection Runner](/docs/collections/running-collections/running-collections-overview/).
+* To learn more about collections, go to [Organize and automate API requests in Postman Collections](/docs/collections/collections-overview/).
+* To create and work with collections, go to [Create and manage request collections in Postman](/docs/collections/using-collections/).
+* To learn how to use the Collection Runner, visit [Test your API functionality](/docs/collections/running-collections/running-collections-overview/).
