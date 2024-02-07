@@ -38,8 +38,6 @@ Postman will indicate any whitespace or invalid characters in parts of your requ
 
 If Postman isn't able to send your request or doesn't receive a response, you will get a message with details about the error. Select __View in Console__ to get an overview of your request and to help identify the source of the issue.
 
-If your request doesn't work as expected, check out some [troubleshooting tips](/docs/sending-requests/response-data/troubleshooting-api-requests/).
-
 ## Debugging in the Console
 
 Every request sent by Postman is logged in the Postman Console, so you can view the detail of what happened when you sent a request. This means you can use the Console to help debug your requests when an API isn't behaving as you expect. Keeping the Console open while you work will increase the visibility of your network calls and log messages while debugging.

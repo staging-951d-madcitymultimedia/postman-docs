@@ -361,7 +361,7 @@ export const leftNavItems = [
             url: '/docs/sending-requests/response-data/examples/',
           },
           {
-            name: 'Create and capture cookies',
+            name: 'Create and send cookies',
             url: '/docs/sending-requests/response-data/cookies/',
           },
           {
