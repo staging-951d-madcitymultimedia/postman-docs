@@ -1,6 +1,6 @@
 ---
 title: "Add and manage CA and client certificates in Postman"
-updated: 2024-02-01
+updated: 2023-07-15
 contextual_links:
   - type: section
     name: "Additional resources"

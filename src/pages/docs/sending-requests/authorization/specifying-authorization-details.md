@@ -1,6 +1,6 @@
 ---
 title: "Add API authorization details to requests in Postman"
-updated: 2024-02-01
+updated: 2023-05-26
 contextual_links:
   - type: section
     name: "Additional resources"
