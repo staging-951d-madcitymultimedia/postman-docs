@@ -78,7 +78,7 @@ You can add users to the [Internal API Management solution](https://www.postman.
 
 When you add users to the Internal API Management solution:
 
-* You can assign them the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs
+* You can assign them the [API Editor](/docs/collaborating-in-postman/roles-and-permissions/#api-roles) role in Postman APIs, enabling them to create and edit an unlimited amount of APIs.
 * You can assign them the [API Network Manager and API Governance Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) roles. Learn how to [manage team roles](/docs/administration/managing-your-team/manage-team-members/#manage-team-roles).
 * They can publish or request to publish changes to the Private API Network.
 
