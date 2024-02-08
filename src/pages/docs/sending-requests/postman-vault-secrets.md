@@ -35,7 +35,7 @@ Vault secrets are useful when:
 * You don't want your sensitive data synced to the Postman cloud.
 * You want to be the only user with access to your sensitive data.
 * You want to specify the domains and subdomains you're allowed to send your sensitive data to.
-* You want your sensitive data encrypted, requiring a unique key to access it.
+* You want your sensitive data encrypted.
 
 Vault secrets are created at the *vault* scope, which is the broadest scope compared to the [variable scopes](/docs/sending-requests/variables/#variable-scopes) in Postman. This enables you to securely access and reuse vault secrets in your collections, requests, and environments throughout your workspaces.
 
@@ -45,9 +45,9 @@ Vault secrets are created at the *vault* scope, which is the broadest scope comp
 
 Both vault secrets and variables enable you to store and reference data in Postman. One may be a better fit than the other, depending on your use case or preferences.
 
-[Vault secrets](#about-vault-secrets) enable you to store and reuse sensitive data only in your local instance of Postman, and they aren't synced to the Postman cloud. This enables you to keep your sensitive data hidden from collaborators, and prevent collaborators from using your vault secrets. Vault secrets are masked by default, and only you can unmask them. Your sensitive data is also encrypted in your Postman Vault, requiring your vault key to gain access.
+[Vault secrets](#about-vault-secrets) enable you to store and reuse sensitive data only in your local instance of Postman, and they aren't synced to the Postman cloud. This enables you to keep your sensitive data hidden from collaborators, and prevent collaborators from using your vault secrets. Vault secrets are masked by default, and only you can unmask them. Your sensitive data is also encrypted in your Postman Vault.
 
-[Variables](/docs/sending-requests/variables/) enable you to store and reuse the same value, such as URLs or API keys, in multiple places. The following are some options for storing data in variables:
+[Variables](/docs/sending-requests/variables/) enable you to store and reuse the same value, such as URLs, in multiple places. The following are some options for storing data in variables:
 
 * You can add data as the [current value](/docs/sending-requests/variables/#initial-and-current-values) of a variable. This means the value is local to your instance of Postman and it isn't synced to the Postman cloud. You can choose to [persist a variable](/docs/sending-requests/variables/#sharing-and-persisting-data), which syncs the current value to the Postman cloud and shares it with collaborators.
 
@@ -70,7 +70,7 @@ You can open your vault secrets in Postman Vault as follows:
 
 When you open Postman Vault for the first time, Postman generates a [vault key](#save-your-vault-key) that's used to access your encrypted vault secrets. You can [reset your vault key](#reset-your-vault-key) if you lose it, but Postman will permanently delete your vault secrets. Once you save your vault key, you can [add vault secrets to your Postman Vault](#add-sensitive-data-as-vault-secrets).
 
-Your vault secrets are encrypted using the AES-256-GCM encryption algorithm, and your vault key isn't synced to the Postman cloud.
+Your vault secrets are encrypted using the AES-256-GCM encryption algorithm. Also your vault key isn't synced to the Postman cloud.
 
 When Postman generates your vault key, you have the following options for saving your key:
 
@@ -188,7 +188,7 @@ pm.variables.get("vault:variable-key");
 
 ![Reference vault secrets in Postman](https://assets.postman.com/postman-docs/v10/use-postman-vault-secrets-v10-23.jpg)
 
-> If you reference a vault secret as the initial value of a variable, the reference to the secret (for example `{{vault:secret-name}}`) is synced using Postman's cloud servers, and shared with anyone who has access to the workspace. The secret stored in your Postman Vault isn't synced or shared. Learn more about [initial and current values](/docs/sending-requests/variables/#initial-and-current-values).
+> If you reference a vault secret as the initial value of a variable, such as an environment variable, the reference to the secret (for example `{{vault:secret-name}}`) is synced using Postman's cloud servers, and shared with anyone who has access to the workspace. The vault secret's value stored in your Postman Vault isn't synced or shared. Learn more about [initial and current values](/docs/sending-requests/variables/#initial-and-current-values).
 
 <!-- -->
 
