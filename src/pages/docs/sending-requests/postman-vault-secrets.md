@@ -9,7 +9,7 @@ plan: beta
 
 When you first open your Postman Vault, Postman generates a [vault key](#manage-your-vault-key) that enables you to access your encrypted vault secrets. Once you store your vault key in a secure location, you can [add sensitive data as vault secrets](#add-sensitive-data-as-vault-secrets) in your Postman Vault. Then you can [reference your vault secrets](#use-vault-secrets) in your HTTP collections, requests, and more.
 
-You can use your Postman Vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/) or the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app). Learn about Postman Vault [features that require the Postman desktop app or the Postman web app](#web-and-desktop-limitations).
+You can use your Postman Vault from the [Postman desktop app](/docs/getting-started/installation/installation-and-updates/) or the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app). Learn about Postman Vault [features that require the Postman desktop app or the Postman web app](#feature-availability).
 
 ## Contents
 
@@ -23,7 +23,7 @@ You can use your Postman Vault from the [Postman desktop app](/docs/getting-star
 * [Edit vault secrets](#edit-vault-secrets)
 * [Use vault secrets](#use-vault-secrets)
 * [Fix unresolved vault secrets](#fix-unresolved-vault-secrets)
-* [Web and desktop limitations](#web-and-desktop-limitations)
+* [Feature availability](#feature-availability)
 
 ## About vault secrets
 
@@ -64,7 +64,7 @@ You can open your vault secrets in Postman Vault as follows:
 
     > If you stored your vault key in your system's password manager, Postman automatically gets your vault key. You must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent) if you're using the Postman web app so Postman can get your vault key.
 
-> Learn about Postman Vault [features that require the Postman desktop app or the Postman web app](#web-and-desktop-limitations).
+> Learn about Postman Vault [features that require the Postman desktop app or the Postman web app](#feature-availability).
 
 ## Manage your vault key
 
@@ -207,7 +207,7 @@ A vault secret can be unresolved for the following reasons:
 * The secret isn't allowed to be in requests to the domain.
 * You haven't entered your vault key since you last signed in to Postman.
 
-> Learn about Postman Vault [features that require the Postman desktop app or the Postman web app](#web-and-desktop-limitations).
+> Learn about Postman Vault [features that require the Postman desktop app or the Postman web app](#feature-availability).
 
 If the vault secret exists in your Postman Vault and it's turned off, hover over the reference to the secret, then select **Enable Secret**.
 
@@ -221,7 +221,7 @@ If a vault secret is referenced in your request and you haven't entered your vau
 
 ![Enter vault key to access vault secrets](https://assets.postman.com/postman-docs/v10/enter-postman-vault-key-v10-23.jpg)
 
-## Web and desktop limitations
+## Feature availability
 
 Some Postman Vault features require the Postman desktop app or the Postman web app.
 
@@ -235,4 +235,4 @@ The following features require the Postman web app:
 
 * **Preserve vault secrets after signing out of Postman** - You must use the Postman web app to preserve your encrypted vault secrets after signing out of Postman. If you're using the Postman desktop app, vault secrets won't be available from your Postman Vault after signing out of Postman. Then you can add new vault secrets when you sign in to Postman with the desktop app.
 
-    > If you're using the Postman web app with Safari as your web browser, it deletes vault secrets from your local instance of Postman after seven days of inactivity. You must use a different web browser if you want your vault secrets available for more than seven days without inactivity. Learn more about the [browser requirements](/docs/getting-started/installation/installation-and-updates/#browser-requirements) for the Postman web app.
+    > If you're using the Postman web app with Safari as your web browser, it deletes vault secrets from your local instance of Postman after seven days of inactivity. You must use a different web browser if you want your vault secrets available for more than seven days without inactivity. Learn about the [browser requirements](/docs/getting-started/installation/installation-and-updates/#browser-requirements) for the Postman web app.
