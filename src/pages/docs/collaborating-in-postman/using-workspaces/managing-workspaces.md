@@ -101,12 +101,12 @@ The visibility setting for a workspace determines who can access it. You must be
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select a **Visibility** for the workspace:
     * **Private** - Only invited team members can access ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
-    * **Team** - All team members can access.
     * **Partner** - Only invited team members and [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) can access ([Enterprise Ultimate plans only](https://www.postman.com/pricing)).
+    * **Team** - All team members can access.
     * **Public** - Everyone can view.
 1. Select **Update**.
 
-<img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/v10/edit-workspace-visibility-1-v10.jpg" width="450px"/>
+<img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/v10/workspace-settings-visibility-v10.23.jpg" width="450px"/>
 
 > You always have one personal workspace in Postman. If you change the visibility of all of your personal workspaces to private, team, or public, Postman creates a new personal workspace for you.
 
@@ -162,8 +162,6 @@ To change the role of people in a workspace, or to remove someone from a workspa
     * **Editor** - Can create and edit workspace resources.
     * **Viewer** - Can view, fork, and export workspace resources.
     * **Remove** - Removes the person from the workspace. (You can [invite the user](#sharing-workspaces) again in the future.)
-
-<img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/v10/workspace-change-role-v10-2.jpg" width="720px"/>
 
 ## Tagging a workspace
 
