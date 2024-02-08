@@ -35,9 +35,9 @@ To create a new workspace, do the following:
 1. Choose who can access the workspace:
     * A **Personal** workspace is visible to you. If you're on an Enterprise team, [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) will also have access to any personal workspaces created within the team.
     * A **Private** workspace is visible to you and to any team members you invite to it ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
+    * A **Partner** workspace is visible to your team and your external partners. Learn more about [using Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/). ([Postman Enterprise Ultimate plans only](https://www.postman.com/pricing))
     * A **Team** workspace is visible to everyone on your team.
     * A **Public** workspace is visible to all Postman users.
-    * A **Partner** workspace is visible to your team and your external partners. Learn more about [using Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/). ([Postman Enterprise Ultimate plans only](https://www.postman.com/pricing))
 1. Select **Create**.
 
     <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-visibility-v10.23.0.jpg" width="400px"/>
