@@ -17,6 +17,11 @@ contextual_links:
   - type: link
     name: "Partner Viewers are free for enterprise teams"
     url: "https://blog.postman.com/partner-viewers-are-free-for-enterprise-teams/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Partner Workspaces reduced API activation time for Canopy"
+    url: "https://www.postman.com/case-studies/canopy-servicing/"
 ---
 
 > **[Partner Workspaces are available on Postman Enterprise Ultimate plans.](https://www.postman.com/pricing)**

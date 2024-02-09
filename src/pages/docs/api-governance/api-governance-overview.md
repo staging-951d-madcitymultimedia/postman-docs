@@ -26,6 +26,11 @@ contextual_links:
   - type: link
     name: "5 ways to reduce exposure to API security risks"
     url: "https://blog.postman.com/5-ways-to-reduce-exposure-to-api-security-risks/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Sling TV/ DISH Network improved API Governance with Postman"
+    url: "https://www.postman.com/case-studies/sling/"
 ---
 
 > **[API Governance and API Security are available on Postman Enterprise plans.](https://www.postman.com/pricing)**

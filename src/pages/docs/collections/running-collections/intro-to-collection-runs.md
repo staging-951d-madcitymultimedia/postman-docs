@@ -24,6 +24,9 @@ contextual_links:
   - type: link
     name: "Lightspeed uses a collection runner to improve testing and QA times"
     url: "https://www.postman.com/case-studies/lightspeed-commerce/"
+  - type: link
+    name: "Axis Bank uses a collection runner to test APIs"
+    url: "https://www.postman.com/case-studies/axis-bank/"
 ---
 
 The _Collection Runner_ enables you to run the requests in a Postman Collection in a specified order to test the functionality of your API. The Collection Runner logs the [test results](/docs/writing-scripts/test-scripts/) for each request, and it can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and change the request workflow.

@@ -29,6 +29,9 @@ contextual_links:
   - type: link
     name: "Hathway uses separate environments for each client"
     url: "https://www.postman.com/case-studies/hathway/"
+  - type: link
+    name: "Sling TV/ DISH Network enhanced collaboration with environments"
+    url: "https://www.postman.com/case-studies/sling/"
 ---
 
 In Postman, an _environment_ is a set of one or more [variables](/docs/sending-requests/variables/) that you can reference when [sending requests](/docs/sending-requests/requests/) or [writing test scripts](/docs/writing-scripts/test-scripts/). You can create environments for the different types of work you do in Postman. When you switch between environments, all of the variables in your requests and scripts will use the values from the current environment. This is helpful if you need to use different values in your requests depending on the context, for example, if you're sending a request to a test server or a production server.

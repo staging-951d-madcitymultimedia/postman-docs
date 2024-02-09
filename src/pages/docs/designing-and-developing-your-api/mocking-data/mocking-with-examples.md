@@ -17,6 +17,11 @@ contextual_links:
   - type: link
     name: "Shifting Left with Postman"
     url: "https://blog.postman.com/shifting-left-with-postman/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Axis Bank uses mock servers to expedite development pipelines"
+    url: "https://www.postman.com/case-studies/axis-bank/"
 ---
 
 [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) simulate an API by returning predefined data, enabling you to develop or test an API before it's ready for production (or without using production data). In Postman, mock servers rely on [examples](/docs/sending-requests/examples/) saved in a collection to return mock data. Follow the steps below for a demonstration of how mock servers and examples work together, and to learn how you can integrate them into your API workflow.

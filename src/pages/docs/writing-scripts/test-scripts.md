@@ -28,6 +28,9 @@ contextual_links:
   - type: link
     name: "Visma reduces bug fixing time to under ten minutes with tests"
     url: "https://www.postman.com/case-studies/visma/"
+  - type: link
+    name: "Sling TV/ DISH Network use testing to identify integration issues"
+    url: "https://www.postman.com/case-studies/sling/"
   - type: subtitle
     name: "Public workspaces"
   - type: link
