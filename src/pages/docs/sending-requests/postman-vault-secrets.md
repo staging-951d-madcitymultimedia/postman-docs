@@ -70,7 +70,7 @@ You can open your vault secrets in Postman Vault as follows:
 
 When you open Postman Vault for the first time, Postman generates a [vault key](#save-your-vault-key) that's used to access your encrypted vault secrets. You can [reset your vault key](#reset-your-vault-key) if you lose it, but Postman will permanently delete your vault secrets. Once you save your vault key, you can [add vault secrets to your Postman Vault](#add-sensitive-data-as-vault-secrets).
 
-Your vault secrets are encrypted using the AES-256-GCM encryption algorithm. Also your vault key isn't synced to the Postman cloud.
+Your vault secrets are encrypted using the AES-256-GCM encryption algorithm.
 
 When Postman generates your vault key, you have the following options for saving your key:
 
