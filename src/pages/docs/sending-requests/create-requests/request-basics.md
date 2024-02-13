@@ -14,7 +14,7 @@ contextual_links:
     url:  "https://youtu.be/woRuedXZyi4"
 ---
 
-The Postman API client enables you to send API requests using HTTP, GraphQL, gRPC, or other common protocols. To create a new request, specify the request URL and the request method, such as GET or POST. After you save the request, you can share it with your team.
+The Postman API client enables you to send API requests using HTTP, GraphQL, gRPC, or other common protocols. To create a new request, specify the request URL and the request method, such as `GET` or `POST`. After you save the request, you can share it with your team.
 
 ## Contents
 
@@ -79,7 +79,7 @@ By default, Postman will select the `GET` method for new request. `GET` methods 
 
 <img alt="Request Methods" src="https://assets.postman.com/postman-docs/v10/request-methods-v10-2.jpg" width="340px"/>
 
-For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks. Then you can use a `POST` method to create a new task, or you can use a `PUT` or `PATCH` method to edit an existing task.
+For example, if you're working with an API for a to-do list application, you might use a `GET` method to retrieve the current list of tasks. Then you can use a `POST` method to create a new task, or you can use a `PUT` or `PATCH` method to edit an existing task.
 
 Postman supports a number of extra request methods by default, and you can use custom methods. Select the method dropdown list, edit the method name text, and save your new method. To delete a method, hover over it in the list and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
