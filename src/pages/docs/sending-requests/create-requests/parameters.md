@@ -17,7 +17,7 @@ contextual_links:
     url: "https://youtu.be/S7bwkys6D0E"
 ---
 
-The Postman API client enables you to send data along with your API requests. You can add query and path parameters to a request and specify their values. You can also add body data to a request in various formats, including form data, URL-encoded, raw, and binary.
+The Postman API client enables you to send data along with your HTTP requests. You can add query and path parameters to a request and specify their values. You can also add body data to a request in various formats, including form data, URL-encoded, raw, and binary.
 
 ## Contents
 
@@ -31,16 +31,16 @@ The Postman API client enables you to send data along with your API requests. Yo
 
 ## Send request parameters
 
-You can send path and query parameters with a request using the URL box or the __Params__ tab.
+You can specify path and query parameters for a request using the URL box or the __Params__ tab.
 
-* Query parameters are appended to the end of the request URL, following `?` and listed in key value pairs, separated by `&` using the following syntax: `?id=1&type=new`
+* Query parameters are appended to the end of the request URL, following `?` and listed in key-value pairs, separated by `&` as follows: `?id=1&type=new`
 * Path parameters form part of the request URL, and are referenced using placeholders preceded by `:` as in the following example: `/customer/:id`
 
-To send a query parameter, add it directly to the URL or select the **Params** tab and enter the name and value. When you enter your query parameters in either the URL or the **Params** tab, these values will update everywhere they're used in Postman.
+To specify a query parameter, add it directly to the URL or select the **Params** tab and enter the name and value. When you enter your query parameters in either the URL or the **Params** tab, these values will update everywhere they're used in Postman.
 
 > Parameters aren't automatically URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
 
-To send a path parameter, enter the parameter name into the URL box, after a colon, for example `:id`. When you enter a path parameter, Postman will populate it in the __Params__ tab, where you can also edit it.
+To specify a path parameter, enter the parameter name into the URL box, after a colon, for example `:id`. When you enter a path parameter, Postman will populate it in the __Params__ tab, where you can also edit it.
 
 You can add descriptions to your parameters and they'll appear for anyone sharing the request (for example in your workspace) or viewing your API documentation.
 
@@ -81,7 +81,7 @@ You can also upload a file with test data to your Postman team. This is useful i
 
 URL-encoded data uses the same encoding as URL parameters. If your API requires url-encoded data, select `x-www-form-urlencoded` in the __Body__ tab of your request. Enter your key-value pairs to send with the request and Postman will encode them before sending.
 
-> There is sometimes confusion between form data and url-encoded. If you are unsure which one you need, check with your API provider.
+> There is sometimes confusion between form data and URL-encoded. If you are unsure which one you need, check with your API provider.
 
 ### Raw data
 
