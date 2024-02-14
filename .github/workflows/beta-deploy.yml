@@ -62,6 +62,7 @@ jobs:
         run: |
             npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
             npm install
+            npm run test
             npm run clean
             npm run build:dev
             aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ steps.sanitized-branch.outputs.SANITIZED_BRANCH}}/ --delete
