@@ -37,7 +37,7 @@ Vault secrets are useful when:
 * You want to specify the domains and subdomains you're allowed to send your sensitive data to.
 * You want your sensitive data encrypted.
 
-Vault secrets are created at the *vault* scope, which is the broadest scope compared to the [variable scopes](/docs/sending-requests/variables/#variable-scopes) in Postman. This enables you to securely access and reuse vault secrets in your collections, requests, and environments throughout your workspaces.
+Vault secrets are created at the *vault* scope, which is the broadest scope compared to the [variable scopes](/docs/sending-requests/variables/variables/#variable-scopes) in Postman. This enables you to securely access and reuse vault secrets in your collections, requests, and environments throughout your workspaces.
 
 > If a variable in a different scope has the same name as a vault secret, the value stored in a narrower scope won't be used. For example, if there is a collection variable named `postman-api-key` and a vault secret also named `postman-api-key`, the collection value won't be used when the request runs. Learn how to [reference vault secrets](#use-vault-secrets) in Postman.
 
@@ -47,11 +47,11 @@ Both vault secrets and variables enable you to store and reference data in Postm
 
 [Vault secrets](#about-vault-secrets) enable you to store and reuse sensitive data only in your local instance of Postman, and they aren't synced to the Postman cloud. This enables you to keep your sensitive data hidden from collaborators, and prevent collaborators from using your vault secrets. Vault secrets are masked by default, and only you can unmask them. Your sensitive data is also encrypted in your Postman Vault.
 
-[Variables](/docs/sending-requests/variables/) enable you to store and reuse the same value, such as URLs, in multiple places. The following are some options for storing data in variables:
+[Variables](/docs/sending-requests/variables/variables/) enable you to store and reuse the same value, such as URLs, in multiple places. The following are some options for storing data in variables:
 
-* You can add data as the [current value](/docs/sending-requests/variables/#initial-and-current-values) of a variable. This means the value is local to your instance of Postman and it isn't synced to the Postman cloud. You can choose to [persist a variable](/docs/sending-requests/variables/#sharing-and-persisting-data), which syncs the current value to the Postman cloud and shares it with collaborators.
+* You can add data as the [current value](/docs/sending-requests/variables/variables/#initial-and-current-values) of a variable. This means the value is local to your instance of Postman and it isn't synced to the Postman cloud. You can choose to [persist a variable](/docs/sending-requests/variables/variables/#sharing-and-persisting-data), which syncs the current value to the Postman cloud and shares it with collaborators.
 
-* You can set the variable type as [secret type](/docs/sending-requests/variables/#variable-types) in global and environment variables. This enables you to mask sensitive data in the initial and current values. Collaborators with access to the workspace can [view a secret type variable's values](/docs/sending-requests/variables/#viewing-and-changing-secret-variable-values). Also, collaborators with additional permissions can [change the variable type](/docs/sending-requests/variables/#changing-from-secret-to-default-variable-type), unmasking it for collaborators.
+* You can set the variable type as [secret type](/docs/sending-requests/variables/variables/#variable-types) in global and environment variables. This enables you to mask sensitive data in the initial and current values. Collaborators with access to the workspace can [view a secret type variable's values](/docs/sending-requests/variables/variables/#viewing-and-changing-secret-variable-values). Also, collaborators with additional permissions can [change the variable type](/docs/sending-requests/variables/variables/#changing-from-secret-to-default-variable-type), unmasking it for collaborators.
 
 ## Access your Postman Vault
 
@@ -167,7 +167,7 @@ To edit vault secrets, select <img alt="Vault icon" src="https://assets.postman.
 
 ## Use vault secrets
 
-You can reference vault secrets in your HTTP collections and requests from the **URL builder**, the **Params** tab, the **Authorization** tab, the **Headers** tab, and the **Body** tab. You can reference vault secrets as the values of your [global](/docs/sending-requests/variables/#defining-global-variables), [environment](/docs/sending-requests/variables/#defining-environment-variables), and [collection](/docs/sending-requests/variables/#defining-collection-variables) variables. You can also use the Collection Runner to [manually run collections](/docs/collections/running-collections/intro-to-collection-runs/) that reference vault secrets.
+You can reference vault secrets in your HTTP collections and requests from the **URL builder**, the **Params** tab, the **Authorization** tab, the **Headers** tab, and the **Body** tab. You can reference vault secrets as the values of your [global](/docs/sending-requests/variables/variables/#defining-global-variables), [environment](/docs/sending-requests/variables/variables/#defining-environment-variables), and [collection](/docs/sending-requests/variables/variables/#defining-collection-variables) variables. You can also use the Collection Runner to [manually run collections](/docs/collections/running-collections/intro-to-collection-runs/) that reference vault secrets.
 
 > If you're using the Postman web app to send requests with references to vault secrets, you must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent) or the [Postman Browser Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-browser-agent).
 
@@ -188,7 +188,7 @@ pm.variables.get("vault:variable-key");
 
 ![Reference vault secrets in Postman](https://assets.postman.com/postman-docs/v10/use-postman-vault-secrets-v10-23.jpg)
 
-> If you reference a vault secret as the initial value of a variable, such as an environment variable, the reference to the secret (for example `{{vault:secret-name}}`) is synced using Postman's cloud servers, and shared with anyone who has access to the workspace. The vault secret's value stored in your Postman Vault isn't synced or shared. Learn more about [initial and current values](/docs/sending-requests/variables/#initial-and-current-values).
+> If you reference a vault secret as the initial value of a variable, such as an environment variable, the reference to the secret (for example `{{vault:secret-name}}`) is synced using Postman's cloud servers, and shared with anyone who has access to the workspace. The vault secret's value stored in your Postman Vault isn't synced or shared. Learn more about [initial and current values](/docs/sending-requests/variables/variables/#initial-and-current-values).
 
 <!-- -->
 
