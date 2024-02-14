@@ -38,7 +38,7 @@ An example is a request and related response that demonstrates how an API endpoi
 
 ## Manage cookies
 
-Web sites use cookies to save a user's session information and personalize page content for that user. You can [use Postman's cookie manager](/docs/sending-requests/response-data/cookies/) to view cookies for different domains and send cookies with API requests. You can create cookies from scratch, or [capture cookies](/docs/sending-requests/capturing-request-data/capture-overview/) using the Postman proxy or Postman Interceptor.
+Websites use cookies to save a user's session information and personalize page content for that user. You can [use Postman's cookie manager](/docs/sending-requests/response-data/cookies/) to view cookies for different domains and send cookies with API requests. You can create cookies from scratch, or [capture cookies](/docs/sending-requests/capturing-request-data/capture-overview/) using the Postman proxy or Postman Interceptor.
 
 ## Debug requests
 

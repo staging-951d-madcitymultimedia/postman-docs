@@ -83,7 +83,7 @@ To add variables to an environment, do the following:
 
 1. Select a variable **Type**. If you select **default** the variable value is visible in plain text. If you select **secret** the variable value is masked.
 
-    > If a variable's initial value has sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment. Learn more about [variable types](/docs/sending-requests/variables/variables/#variable-types).
+    > If a variable's initial value has sensitive data, select the **secret** variable type to prevent exposing the value when sharing or publishing the environment. Learn more about [variable types](/docs/sending-requests/variables/variables/#variable-types).
 
 1. Enter the **Initial value** and **Current value** for the variable. _Keep in mind that the initial value is shared with anyone who has access to the environment, and the initial value is made public if you publish the environment along with a collection._
 
@@ -105,7 +105,7 @@ To check a variable's value at a glance, select the environment quick look icon 
 
 <img alt="Environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-selector-v10-20.jpg"/>
 
-> If you want to make variables available no matter which environment is active, use [global variables](/docs/sending-requests/variables/variables/#defining-global-variables). The quick look lists any global variables you have declared or that are shared in your workspace.
+> If you want to make variables available regardless of which environment is active, use [global variables](/docs/sending-requests/variables/variables/#defining-global-variables). The quick look lists any global variables you have declared or that are shared in your workspace.
 
 ## Use variables in requests and scripts
 
@@ -125,7 +125,7 @@ You can access current environment variable values in your **Pre-request Script*
 pm.environment.get("variable_name");
 ```
 
-If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable (but local and data variable values will supersede environment values). The value of any overridden variables will display in strikethrough format.
+If more than one variable with the same name is available to a request, Postman will use the value from the variable with the narrowest [scope](/docs/sending-requests/variables/variables/#variable-scopes). Therefore, if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable. However, local and data variable values will supersede environment values. The value of any overridden variables will display in strikethrough format.
 
 > Learn more about [editing and setting environment variables in Postman](/docs/sending-requests/variables/environment-variables/).
 

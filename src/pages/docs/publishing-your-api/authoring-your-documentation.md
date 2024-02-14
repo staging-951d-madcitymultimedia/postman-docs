@@ -137,7 +137,7 @@ Examples are paired requests and responses that show your endpoints in action. A
 
 ## Adding links
 
-Use links to direct users to your repository, web site, or other online resources.
+Use links to direct users to your repository, website, or other online resources.
 
 * To add a link using the Postman editor, select the **Link** tool. Paste or enter the URL and the link text, and then select **Add**. (If you need to change the link later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
 
