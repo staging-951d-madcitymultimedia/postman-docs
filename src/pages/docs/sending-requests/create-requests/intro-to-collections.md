@@ -17,7 +17,7 @@ contextual_links:
     blog_tag: "collections"
 ---
 
-_Postman Collections_ enable you to save and group together your API requests and examples. You can use collections to keep your workspace organized, collaborate with teammates, and generate API documentation and API tests. You can also use collections to automate request runs as part of your API testing efforts.
+_Postman Collections_ enable you to group together your API requests and examples. You can use collections to keep your workspace organized, collaborate with teammates, and generate API documentation and API tests. You can also use collections to automate request runs as part of your API testing efforts.
 
 Select **Collections** in the sidebar to view a list of collections in your current workspace.
 

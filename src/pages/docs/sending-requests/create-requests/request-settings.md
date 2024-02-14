@@ -39,6 +39,6 @@ The processor will encode characters depending on where they occur in the URL:
 | Query | `"` `#` `&` `'` `<` `=` `>` `SPACE` |
 | Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` | `SPACE` |
 
-The processor is turned on by default in Postman, but you can turn off encoding if you are working with an unusual server implementation. To turn this setting on or off in your request, select **Settings > Encode URL automatically**.
+The processor is turned on by default in Postman, but you can turn off encoding if you are working with an unusual server implementation. To turn this setting on or off in your request, in the **Settings** tab select **Encode URL automatically**.
 
 > You can selectively encode parts of your URL by highlighting the text and right-clicking, then choosing **EncodeURIComponent**.

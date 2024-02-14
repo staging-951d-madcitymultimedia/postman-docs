@@ -46,7 +46,7 @@ The request section includes the required configurations to connect to the serve
 
     <img src="https://assets.postman.com/postman-docs/v10/select-protocol-v10-22.gif" alt="Select protocol" />
 
-* **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
+* **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL box. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
 * **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. For more details about the method types, see the [Invoking different types of methods](#invoking-different-types-of-methods) section.
 
@@ -104,7 +104,7 @@ To invoke a client streaming method, select the method from the **Method selecti
 
 With the server streaming method type, when a client invokes a method with all the details, the server can respond back with multiple messages.
 
-To invoke a server streaming method, select the method from the **Method selection** dropdown, enter the details, and select **Invoke**. The request goes into a persistent _streaming_ state and the responses from the server start appearing at the bottom in the response area. Depending on the use case, the stream closes automatically after the server has streamed all the messages. You can manually end the stream by selecting **Cancel** next to the URL field.
+To invoke a server streaming method, select the method from the **Method selection** dropdown, enter the details, and select **Invoke**. The request goes into a persistent _streaming_ state and the responses from the server start appearing at the bottom in the response area. Depending on the use case, the stream closes automatically after the server has streamed all the messages. You can manually end the stream by selecting **Cancel** next to the URL box.
 
 ### Invoking a bidirectional streaming method
 

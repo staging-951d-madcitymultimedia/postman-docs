@@ -271,7 +271,7 @@ export const leftNavItems = [
             url: '/docs/sending-requests/create-requests/request-settings/',
           },
           {
-            name: 'Save requests in collections',
+            name: 'Group requests in collections',
             url: '/docs/sending-requests/create-requests/intro-to-collections/',
           },
           {
