@@ -208,7 +208,7 @@ You can embed videos hosted on YouTube or Vimeo in your documentation. Your docu
 * To embed a video using the Markdown editor, use the following syntax:
 
     ```md
-    <video src="https://youtube.com/embed/1xTTNGacuaQ" alt="Set Up Live Collections" width="340" height="170"></video>
+    <video src="https://www.youtube.com/embed/FeqSWgx6FxY?si=-5pR5tgUQtPN8P6z" alt="View Public Workspace Metrics" width="340" height="170"></video>
     ```
 
 > You can't play videos when editing documentation. Select **Save**, and then select the video to start playback.

@@ -70,7 +70,7 @@ If the collection has multiple tags, select the **Collection tag** to use. (You 
 
 See the following sections for other configuration options you can select for your monitor. When you're finished, select **Create Monitor** to create the new monitor.
 
-![Create monitor page](https://assets.postman.com/postman-docs/v10/create-a-monitor-tab-1-v10.jpg)
+![Create monitor page](https://assets.postman.com/postman-docs/v10/create-a-monitor-tab-1-v10-22.jpg)
 
 > Because monitors run in the Postman cloud, they don't support requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/create-requests/parameters/). Instead, [upload your test data files](/docs/sending-requests/create-requests/test-data/) to make them available for monitors in the cloud.
 
