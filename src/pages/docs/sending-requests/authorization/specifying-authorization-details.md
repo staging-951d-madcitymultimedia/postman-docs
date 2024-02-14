@@ -33,17 +33,29 @@ contextual_links:
     url: "https://www.postman.com/case-studies/intuit/"
 ---
 
-With a request open in Postman, use the __Authorization__ tab to select an auth type, then complete the relevant details for your selected type. The correct data values will be determined by your API at the server side. If you're using a third party API, refer to the provider's documentation for any required auth details.
+With a request open in Postman, use the __Authorization__ tab to select an auth type, then complete the relevant details for your selected type. The correct data values will be determined by your API at the server side. If you're using a third-party API, refer to the provider's documentation for any required auth details.
 
 > Easier API authentication is available for certain public APIs. For more information, see [Authentication for public APIs](/docs/sending-requests/authorization/authentication-for-public-apis/).
+
+## Contents
+
+* [Select an authorization type](#select-an-authorization-type)
+* [View authorization details](#view-authorization-details)
+* [Inherit authorization](#inherit-authorization)
+
+## Select an authorization type
+
+When you select a type from the **Type** dropdown list, Postman will indicate which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Postman adds your auth details to the relevant parts of the request when you select or enter them, so you can preview how your data will be sent before you run the request.
+
+For more details on setting up each type of authorization, go to [Authorization types supported by Postman](/docs/sending-requests/authorization/authorization-types/).
 
 ![Authorization tab](https://assets.postman.com/postman-docs/v10/authorization-tab-v10-21-12.jpg)
 
 > You can use these auth types with Newman and monitors as well as in Postman.
 
-When you select a type from the **Type** dropdown list, Postman will indicate which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Postman adds your auth details to the relevant parts of the request when you select or enter them, so you can preview how your data will be sent before you run the request.
+## View authorization details
 
-Your auth data will appear in the relevant parts of the request, for example in the __Headers__ tab. To show headers that were added automatically, select __hidden__.
+After your select and set up an authorization type, you auth data will appear in the relevant parts of the request, for example in the __Headers__ tab. To show headers that were added automatically, select __hidden__.
 
 <img alt="Hidden headers" src="https://assets.postman.com/postman-docs/v10/hidden-headers-button-v10-21.jpg" width="439px" />
 
@@ -55,7 +67,7 @@ Your request auth can use environment, collection, and global [variables](/docs/
 
 You can inspect a raw dump of the entire request including auth data in the Postman Console after you send it.
 
-## Inheriting authorization
+## Inherit authorization
 
 If you group your requests in [collections](/docs/sending-requests/create-requests/intro-to-collections/) and folders, you can specify auth details to reuse throughout a group.
 
