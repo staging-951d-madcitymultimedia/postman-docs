@@ -320,7 +320,7 @@ const Header = (props) => {
                                 <h6 className="dropdown-header">{col.title}</h6>
                                 {col.subItemsCol.map((link) => (
                                   <a
-                                    className={`${link.link} dropdown-item`}
+                                    className={`${link.link ? `${link.link}` : ''} dropdown-item`}
                                     href={link.url}
                                     key={link.title}
                                   >

@@ -1,5 +1,21 @@
 [
   {
+    "from": "/docs/collections/live-collections/update-live-collections/",
+    "to": "/docs/collections/collections-overview/"
+  },
+  {
+    "from": "/docs/collections/live-collections/live-collections-setup/",
+    "to": "/docs/collections/collections-overview/"
+  },
+  {
+    "from": "/docs/collections/live-collections/live-collections-settings/",
+    "to": "/docs/collections/collections-overview/"
+  },
+  {
+    "from": "/docs/collections/live-collections/live-collections-overview/",
+    "to": "/docs/collections/collections-overview/"
+  },
+  {
     "from": "/docs/postman-flows/flows-intro/chaining-requests-with-data/",
     "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
   },
