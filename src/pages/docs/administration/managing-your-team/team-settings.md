@@ -21,7 +21,7 @@ contextual_links:
 
 Your [Team Settings](https://go.postman.co/settings/team/general) enable you to manage items such as your team's profile, discoverability, custom domains, authentication, and active invite links.
 
-<img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/v10/team-settings-configured-v10.jpg"/>
+<img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/v10/team-settings-profile-v10.23.jpg"/>
 
 ## Contents
 
@@ -40,13 +40,13 @@ Your [Team Settings](https://go.postman.co/settings/team/general) enable you to 
 
 ## Accessing team settings
 
-You can access team settings by selecting **Team** in the header, then selecting **Team Settings**.
+To access team settings, select **Team** in the header and then select **Team Settings**.
 
-<img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/v10/team-settings-menu-selected-v10.jpg" width="350px"/>
+<img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/v10/team-dropdown-settings-v10.23.jpg" width="350px"/>
 
 ## Managing your team profile
 
-Your team profile gives you a way to share important information about your team with other Postman users. The profile brings together all your team's public resources in one place, and can serve as a developer portal for your API's consumers.
+Your public team profile gives you a way to share important information about your team with other Postman users. The profile brings together all your team's public resources in one place, and can serve as a developer portal for your API's consumers.
 
 [Super Admins, Admins, and Community Managers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can edit your team profile, customize your team's branding, and manage the public visibility of your team profile.
 
@@ -64,19 +64,25 @@ Your team profile includes:
 
 ### Editing your team profile
 
-When you select **Team Settings**, you will be automatically directed to your **Team profile**. Next, select **View team profile**. Here, you can edit your team's summary, description, highlights, and more.
+Select **Team** in the header, then select **Team Settings**. Select **Edit Your Public Profile** to edit your team's summary, description, social media links, and highlights.
 
-<img alt="Edit your team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-edit-profile-v10.jpg" width="700px"/>
+<img alt="Edit your team profile" src="https://assets.postman.com/postman-docs/v10/edit-team-public-profile-v10.23.jpg"/>
 
-* **Team summary** - Select **Add Team Summary**. Use this space to add a summary about your team and the work you do, up to 140 characters. To edit your team summary, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
-* **Social links** - Select **Add Social Links**. You can add a link to your website and links to social media accounts. To edit these links, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
+* **Team summary** - Select **Add Team Summary** to add a brief summary about your team and the work you do. To edit your team summary, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
+
+* **Social links** - Select **Add Social Links** to link to your website and social media accounts. To edit these links, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
+
 * **Members** - To manage your team members, hover over this section and select **Manage**.
-* **About your team** - Select **Add Team Description**. To update your team description, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. The editor supports Markdown, or you can use the built-in text formatting tools.
-* **Highlights** - This section lets you show off your team's work to other Postman users. If you don't choose any elements to pin to this section, Postman displays the most popular elements that you've worked on. To update the highlighted elements, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Add or remove the desired elements, then select **Save**.
+
+* **About your team** - Select **Add Team Description** to include information about your team and organization. The editor supports Markdown, or you can use the built-in text formatting tools. To update your team description, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
+
+* **Highlights** - Highlighting elements enables you to show off your team's work to other Postman users. If you don't choose any elements to pin to this section, Postman displays the most popular elements that you've worked on. To update the highlighted elements, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Add or remove the desired elements, then select **Save**.
 
 #### Customizing your team's branding
 
-Select **Team profile** to add a team logo, cover photo, and favicon. These assets help you establish your team identity and ensure consistent branding.
+You can add a logo, cover photo, and favicon to your team profile. These assets help you establish your team identity and ensure consistent branding.
+
+To add these assets, select **Team** in the header and then select **Team Settings**.
 
 To add a team logo and cover photo, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">, then upload the image you want to use. To add a favicon, select **Upload** under the **Favicon** section.
 
