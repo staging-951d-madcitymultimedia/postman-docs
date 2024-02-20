@@ -57,13 +57,11 @@ Your team profile includes:
 * A **Related collections and flows from the community** section with collections and Flows using your team's APIs (suggested by Postman)
 * Links to all your team's public collections, APIs, workspaces, and Flows
 
-<img alt="Example of a filled-in team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-overview-v10.1.jpg" width="800px"/>
-
 ### Edit your team profile
 
 Select **Team** in the header, then select **Team Settings**. Select **Edit Your Public Profile** to edit your team's summary, description, social media links, and highlights.
 
-<img alt="Edit your team profile" src="https://assets.postman.com/postman-docs/v10/edit-team-public-profile-v10.23.jpg"/>
+<img alt="Edit your team profile" src="https://assets.postman.com/postman-docs/v10/edit-team-public-profile-v10.23.0.jpg"/>
 
 * **Team summary** - Select **Add Team Summary** to add a brief summary about your team and the work you do. To edit your team summary, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
 
