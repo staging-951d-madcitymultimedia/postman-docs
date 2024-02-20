@@ -58,7 +58,7 @@ The __Body__ tab enables you to specify the data you need to send with a request
 
 > If you're sending body data, make sure you have the correct [headers](/docs/sending-requests/create-requests/headers/) selected to indicate the content type your API may need to process the received data.
 >
-> * For form-data and urlencoded body types, Postman will automatically attach the correct `Content-Type` header.
+> * For `form-data` and `urlencoded` body types, Postman will automatically attach the correct `Content-Type` header.
 > * If you use raw mode for your body data, Postman will set a header based on the type you select (such as text or json).
 > * If you manually select a `Content-Type` header, that value will take precedence over what Postman sets.
 > * Postman doesn't set any header type for the binary body type.
