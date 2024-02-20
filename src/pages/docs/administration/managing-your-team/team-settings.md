@@ -69,7 +69,7 @@ Select **Team** in the header, then select **Team Settings**. Select **Edit Your
 
 * **Social links** - Select **Add Social Links** to link to your website and social media accounts. To edit these links, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
 
-* **Members** - To manage your team members, hover over this section and select **Manage**.
+* **Members** - Hover over this section and select **Manage** to manage your team members.
 
 * **About your team** - Select **Add Team Description** to include information about your team and organization. The editor supports Markdown, or you can use the built-in text formatting tools. To update your team description, hover over the section and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
 
