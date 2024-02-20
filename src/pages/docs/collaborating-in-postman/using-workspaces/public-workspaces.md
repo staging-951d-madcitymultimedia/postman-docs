@@ -62,7 +62,7 @@ To make your [team profile](https://go.postman.co/settings/team/general) public,
 1. Select **Team profile**.
 1. Select **Make team profile public** to set the profile to public.
 
-For information on how to create a public profile, see [Editing your team profile](/docs/administration/managing-your-team/team-settings/#editing-your-team-profile).
+For information on how to create a public profile, see [Editing your team profile](/docs/administration/managing-your-team/team-settings/#edit-your-team-profile).
 
 ## Creating a public workspace
 
