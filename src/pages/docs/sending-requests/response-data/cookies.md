@@ -1,5 +1,5 @@
 ---
-title: "Create and send cookies using Postman’s cookie manager"
+title: "Create and capture cookies using Postman's cookie manager"
 updated: 2022-03-02
 search_keyword: "pm.cookies.jar, cookies.jar"
 contextual_links:

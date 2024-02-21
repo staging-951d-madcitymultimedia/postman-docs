@@ -68,7 +68,7 @@ To learn more about Postman Flows, see [Build API applications visually using Po
 
 The Postman CLI is a secure command-line companion for Postman. You can use the Postman CLI to run a collection, send run results to Postman, check API definitions against configured API Governance and API Security rules, and more.
 
-To learn more about the Postman CLI, see [Explore Postman’s command-line companion](/docs/postman-cli/postman-cli-overview/).
+To learn more about the Postman CLI, see [Explore Postman's command-line companion](/docs/postman-cli/postman-cli-overview/).
 
 ## Collaborate in Postman
 

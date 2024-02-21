@@ -181,7 +181,7 @@ CORS is enabled for Postman mock servers, so you can stub your web apps with moc
 
 You can view and search the details of calls to your mock servers using the mock call log. To view the call log, select **Mock Servers** in the sidebar and select a mock server.
 
-<img alt="Viewing mock calls" src="https://assets.postman.com/postman-docs/v10/mock-server-call-log-v10-22.jpg" />
+<img alt="Viewing mock calls" src="https://assets.postman.com/postman-docs/v10/mock-server-call-log-v10-23.jpg" />
 
 The call log displays a list of calls made to the mock server URL. Each entry shows the time the request was sent, the request method and path, and a response overview.
 
@@ -200,7 +200,7 @@ You can use the mock call log to troubleshoot your requests to mock servers.
 
 If `No matching requests` displays in the **Response** column, this might mean there is a problem with your mock server configuration. Make sure there is an [example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you are mocking.
 
-<img alt="Troubleshooting mock calls" src="https://assets.postman.com/postman-docs/v10/mock-server-no-match-v10.jpg" />
+<img alt="Troubleshooting mock calls" src="https://assets.postman.com/postman-docs/v10/mock-server-no-match-v10-23.jpg" />
 
 In the case of a service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates.
 
