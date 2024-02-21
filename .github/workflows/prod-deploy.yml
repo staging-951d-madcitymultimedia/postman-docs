@@ -51,8 +51,9 @@ jobs:
         run: |
           npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
           npm install
+          npm run test
           npm run clean
-          npm run build:prod 
+          npm run build:prod
           aws s3 sync ./public/ s3://${{secrets.PROD_BUCKET_NAME}}/main/ --delete
 
       - name: Sync page-data.json files to marketing website s3 bucket

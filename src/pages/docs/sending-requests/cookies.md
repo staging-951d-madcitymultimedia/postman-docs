@@ -1,5 +1,5 @@
 ---
-title: "Create and capture cookies using Postman’s cookie manager"
+title: "Create and capture cookies using Postman's cookie manager"
 order: 28
 page_id: "cookies"
 updated: 2022-03-02
