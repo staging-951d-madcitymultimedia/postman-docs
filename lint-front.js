@@ -23,7 +23,7 @@ function readFiles(dirPath) {
           console.error(`ERROR: ** Smart quotes detected in title: ${data['title']} **`);
         }
       } else {
-        console.error(`Missing 'title' field in frontmatter`);
+        console.error(`Missing 'title' field in frontmatter (%s)`, itemPath);
       }
     }
  });
