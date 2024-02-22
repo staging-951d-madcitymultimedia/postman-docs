@@ -72,7 +72,7 @@ See the following sections for other configuration options you can select for yo
 
 ![Create monitor page](https://assets.postman.com/postman-docs/v10/create-a-monitor-tab-1-v10-22.jpg)
 
-> Because monitors run in the Postman cloud, they don't support requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/requests/#sending-body-data). Instead, [upload your test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs) to make them available for monitors in the cloud.
+> Because monitors run in the Postman cloud, they don't support requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/create-requests/parameters/). Instead, [upload your test data files](/docs/sending-requests/create-requests/test-data/) to make them available for monitors in the cloud.
 
 <!-- -->
 
@@ -80,7 +80,7 @@ See the following sections for other configuration options you can select for yo
 
 ### Uploading a data file
 
-You can upload a data file to pass Postman sets of values to use during a monitor run. Postman will substitute the values for [variables](/docs/sending-requests/variables/) in requests or scripts in the monitored collection. By uploading a data file, you can run your tests with multiple sets of values within a single monitor run.
+You can upload a data file to pass Postman sets of values to use during a monitor run. Postman will substitute the values for [variables](/docs/sending-requests/variables/variables/) in requests or scripts in the monitored collection. By uploading a data file, you can run your tests with multiple sets of values within a single monitor run.
 
 > To learn more about uploading data files and attaching files to monitors, see the [Monitor FAQs](/docs/monitoring-your-api/faqs-monitors/#can-i-upload-data-files-or-attach-files-to-a-monitor).
 
@@ -92,7 +92,7 @@ Data files can be in CSV or JSON format and must use the following structure:
 
 To upload a data file, select **Select File** to locate and open your CSV or JSON file. Postman will use the data file when running your monitor. Data files are limited to 1 MB in size and a maximum of 50 data rows (CSV) or 50 objects (JSON).
 
-> **How do I use data variables in requests and scripts?** In requests (URLs, parameters, headers, authorization, and body), use double curly braces around your variable name, for example: `{{variable}}`. In pre-request scripts and test scripts, use `pm.iterationData` to access and manipulate variables. Learn more about [using variables](/docs/sending-requests/variables/#using-variables) and [using pm.iterationData methods](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-data-variables-in-scripts).
+> **How do I use data variables in requests and scripts?** In requests (URLs, parameters, headers, authorization, and body), use double curly braces around your variable name, for example: `{{variable}}`. In pre-request scripts and test scripts, use `pm.iterationData` to access and manipulate variables. Learn more about [using variables](/docs/sending-requests/variables/variables/#using-variables) and [using pm.iterationData methods](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-data-variables-in-scripts).
 
 ### Scheduling monitors
 
@@ -146,7 +146,7 @@ Select **Follow redirects** to enable URL redirection for requests run by the mo
 
 ### Disabling SSL validation
 
-The **Enable SSL validation** option is selected by default. You can turn off SSL validation if you are using self-signed certificates and want to stop validations of SSL certificates. For more information, see [Working with certificates](/docs/sending-requests/certificates/) and [How to Troubleshoot SSL Certificate & Server Connection Issues](https://blog.postman.com/self-signed-ssl-certificate-troubleshooting/).
+The **Enable SSL validation** option is selected by default. You can turn off SSL validation if you are using self-signed certificates and want to stop validations of SSL certificates. For more information, see [Working with certificates](/docs/sending-requests/authorization/certificates/) and [How to Troubleshoot SSL Certificate & Server Connection Issues](https://blog.postman.com/self-signed-ssl-certificate-troubleshooting/).
 
 ## Working with collection-based monitors
 

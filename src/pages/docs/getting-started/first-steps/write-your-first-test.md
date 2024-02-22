@@ -35,7 +35,7 @@ contextual_links:
     url:  "https://academy.postman.com/path/api-beginner"
 ---
 
-_API tests_ are a way to ensure that your API is behaving as you expect it to. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or wrong parameters. You can write test scripts for your Postman API requests in JavaScript and add them to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you can add and then change to suit your test logic.
+_API tests_ are a way to ensure that your API is behaving as you expect it to. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or wrong parameters. You can write test scripts for your Postman API requests in JavaScript and add them to individual [requests](/docs/sending-requests/create-requests/create-requests/), [collections](/docs/sending-requests/create-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you can add and then change to suit your test logic.
 
 To write a test, do the following:
 

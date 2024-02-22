@@ -242,16 +242,59 @@ export const leftNavItems = [
         url: '/docs/sending-requests/requests/',
       },
       {
-        name: 'Authorize requests',
+        name: 'Create requests',
+        subParentSlug: 'create-requests',
+        slug: '/docs/sending-requests/create-requests/create-requests/',
+        subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/sending-requests/create-requests/create-requests/',
+          },
+          {
+            name: 'Request basics',
+            url: '/docs/sending-requests/create-requests/request-basics/',
+          },
+          {
+            name: 'Parameters and body data',
+            url: '/docs/sending-requests/create-requests/parameters/',
+          },
+          {
+            name: 'Request headers',
+            url: '/docs/sending-requests/create-requests/headers/',
+          },
+          {
+            name: 'Test data storage',
+            url: '/docs/sending-requests/create-requests/test-data/',
+          },
+          {
+            name: 'Customize request settings',
+            url: '/docs/sending-requests/create-requests/request-settings/',
+          },
+          {
+            name: 'Group requests in collections',
+            url: '/docs/sending-requests/create-requests/intro-to-collections/',
+          },
+          {
+            name: 'Generate client code',
+            url: '/docs/sending-requests/create-requests/generate-code-snippets/',
+          }
+        ],
+      },
+      {
+        name: 'Authentication and authorization',
         subParentSlug: 'authorization',
         slug: '/docs/sending-requests/authorization/authorization/',
         subMenuItems2: [
           {
-            name: 'Request authorization',
+            name: 'Overview',
             url: '/docs/sending-requests/authorization/authorization/',
           },
           {
-            name: 'Authentication setup',
+            name: 'Add certificates',
+            url: '/docs/sending-requests/authorization/certificates/',
+          },
+          {
+            name: 'Request authorization',
             url: '/docs/sending-requests/authorization/specifying-authorization-details/',
           },
           {
@@ -297,67 +340,70 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'API response structure',
-        url: '/docs/sending-requests/responses/',
-      },
-      {
-        name: 'Group requests in collections',
-        url: '/docs/sending-requests/intro-to-collections/',
-      },
-      {
-        name: 'Store values in variables',
-        url: '/docs/sending-requests/variables/',
-      },
-      {
-        name: 'Group values in environments',
-        subParentSlug: 'environments',
-        slug: '/docs/sending-requests/environments/managing-environments/',
+        name: 'Response data and cookies',
+        subParentSlug: 'response-data',
+        slug: '/docs/sending-requests/response-data/response-data/',
         subMenuItems2: [
           {
-            name: 'Create and use environments',
-            url: '/docs/sending-requests/environments/managing-environments/',
+            name: 'Overview',
+            url: '/docs/sending-requests/response-data/response-data/',
           },
           {
-            name: 'Set environment variables',
-            url: '/docs/sending-requests/environments/environment-variables/',
+            name: 'API response structure',
+            url: '/docs/sending-requests/response-data/responses/',
           },
           {
-            name: 'Manage team environments',
-            url: '/docs/sending-requests/environments/team-environments/',
+            name: 'Visualize request responses',
+            url: '/docs/sending-requests/response-data/visualizer/',
+          },
+          {
+            name: 'Create request response examples',
+            url: '/docs/sending-requests/response-data/examples/',
+          },
+          {
+            name: 'Create and send cookies',
+            url: '/docs/sending-requests/response-data/cookies/',
+          },
+          {
+            name: 'Debug requests',
+            url: '/docs/sending-requests/response-data/troubleshooting-api-requests/',
           },
         ]
       },
       {
-        name: 'Visualize request responses',
-        url: '/docs/sending-requests/visualizer/',
+        name: 'Variables and environments',
+        subParentSlug: 'variables',
+        slug: '/docs/sending-requests/variables/variables-intro/',
+        subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/sending-requests/variables/variables-intro/',
+          },
+          {
+            name: 'Store values in variables',
+            url: '/docs/sending-requests/variables/variables/',
+          },
+          {
+            name: 'Create and use environments',
+            url: '/docs/sending-requests/variables/managing-environments/',
+          },
+          {
+            name: 'Set environment variables',
+            url: '/docs/sending-requests/variables/environment-variables/',
+          },
+          {
+            name: 'Manage team environments',
+            url: '/docs/sending-requests/variables/team-environments/',
+          },
+        ]
       },
       {
-        name: 'Create request response examples',
-        url: '/docs/sending-requests/examples/',
-      },
-      {
-        name: 'Create and capture cookies',
-        url: '/docs/sending-requests/cookies/',
-      },
-      {
-        name: 'Add and manage certificates',
-        url: '/docs/sending-requests/certificates/',
-      },
-      {
-        name: 'Generate client code',
-        url: '/docs/sending-requests/generate-code-snippets/',
-      },
-      {
-        name: 'Debug requests',
-        url: '/docs/sending-requests/troubleshooting-api-requests/',
-      },
-      {
-        name: 'Capture request data',
+        name: 'Capture API traffic',
         subParentSlug: 'capturing-request-data',
         slug: '/docs/sending-requests/capturing-request-data/capture-overview/',
         subMenuItems2: [
           {
-            name: 'Capture API traffic',
+            name: 'Overview',
             url: '/docs/sending-requests/capturing-request-data/capture-overview/',
           },
           {
@@ -500,12 +546,12 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Send MQTT client requests',
+        name: 'MQTT',
         subParentSlug: 'mqtt-client',
         slug: '/docs/sending-requests/mqtt-client/mqtt-client-overview/',
         subMenuItems2: [
           {
-            name: 'MQTT requests',
+            name: 'Overview',
             url: '/docs/sending-requests/mqtt-client/mqtt-client-overview/'
           },
           {
@@ -519,8 +565,15 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Send SOAP requests',
-        url: '/docs/sending-requests/soap/making-soap-requests/',
+        name: 'SOAP',
+        subParentSlug: 'soap',
+        slug: '/docs/sending-requests/soap/making-soap-requests/',
+        subMenuItems2: [
+          {
+            name: 'Send SOAP requests',
+            url: '/docs/sending-requests/soap/making-soap-requests/'
+          },
+        ],
       },
     ],
   },

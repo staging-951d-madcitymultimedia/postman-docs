@@ -16,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/bring-your-apis-into-postman-faster-than-ever/"
 ---
 
-If you have [API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/), [collections](/docs/collections/using-collections/), or [environments](/docs/sending-requests/environments/managing-environments/) in a Git repository, you can import the data so you can work with it in Postman.
+If you have [API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/), [collections](/docs/collections/using-collections/), or [environments](/docs/sending-requests/variables/managing-environments/) in a Git repository, you can import the data so you can work with it in Postman.
 
 Postman supports importing from GitHub, Bitbucket, GitLab, and Azure DevOps repositories. You can import data from a local repository on your computer or from a remote repository hosted in the cloud.
 

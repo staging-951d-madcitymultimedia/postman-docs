@@ -80,7 +80,7 @@ You can watch team workspaces to receive a notification when a team member modif
 
 You can also watch specific elements within a team workspace to receive a notification when a team member modifies the element:
 
-* [Watching a collection](/docs/sending-requests/intro-to-collections/#watching-a-collection)
+* [Watching a collection](/docs/collections/using-collections/#watching-a-collection)
 * [Watching APIs](/docs/designing-and-developing-your-api/managing-apis/#watching-apis)
 
 ## Next steps

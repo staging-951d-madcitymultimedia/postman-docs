@@ -41,6 +41,6 @@ Select **Set up new authorization** to learn what authentication credentials you
 
 <img alt="Postman API authentication info and link" src="https://assets.postman.com/postman-docs/v10/save-auth-to-collection-v10-22.jpg"/>
 
-If you're creating an individual request, you can select **Save authorization** to save your credentials to an environment for reuse. If you're working on a request that's [inheriting authorization](/docs/sending-requests/authorization/specifying-authorization-details/#inheriting-authorization) from its parent collection, you can select **Save authorization to collection**, which will let you use it for other requests in your collection.
+If you're creating an individual request, you can select **Save authorization** to save your credentials to an environment for reuse. If you're working on a request that's [inheriting authorization](/docs/sending-requests/authorization/specifying-authorization-details/#inherit-authorization) from its parent collection, you can select **Save authorization to collection**, which will let you use it for other requests in your collection.
 
 If you're an API publisher, you can set up easier authentication for your public APIs in your team dashboard. For more information, see [Set up authentication for public APIs](/docs/publishing-your-api/setting-up-authentication-for-public-apis/).

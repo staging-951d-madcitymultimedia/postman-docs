@@ -31,7 +31,7 @@ contextual_links:
     url: "https://www.postman.com/case-studies/hathway/"
 ---
 
-An [environment](/docs/sending-requests/environments/managing-environments/) is a group of variables whose values you can change depending on your work context in Postman. After you [create an environment](/docs/sending-requests/environments/managing-environments/#create-an-environment), you can add new environment variables, change initial or current values, or delete variables. You can also set environment values using scripts, and you can persist variable values to make them available to your team.
+An [environment](/docs/sending-requests/variables/managing-environments/) is a group of variables whose values you can change depending on your work context in Postman. After you [create an environment](/docs/sending-requests/variables/managing-environments/#create-an-environment), you can add new environment variables, change initial or current values, or delete variables. You can also set environment values using scripts, and you can persist variable values to make them available to your team.
 
 ## Contents
 
@@ -44,7 +44,7 @@ An [environment](/docs/sending-requests/environments/managing-environments/) is 
 
 You can edit environment variables by adding new variables, changing a variable's type and values, or deleting variables.
 
-> If you're working with environments as part of a team, you must have the Editor role to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+> If you're working with environments as part of a team, you must have the Editor role to edit the environment or change initial values for variables. Learn more about [managing environment roles](/docs/sending-requests/variables/team-environments/#manage-environment-roles).
 
 To edit environment variables, select **Environments** in the sidebar and select an environment. From here you can take the following actions:
 
@@ -59,8 +59,8 @@ To edit environment variables, select **Environments** in the sidebar and select
 
 To edit an environment variable, select the variable and change any of the following:
 
-* **Variable** - The name of the variable. Use the name to [reference the variable](/docs/sending-requests/environments/managing-environments/#use-variables-in-requests-and-scripts) in requests and scripts.
-* **Type** - If you select **default**, the variable value is visible in plain text. If you select **secret**, the variable value is masked. Learn more about [variable types](/docs/sending-requests/variables/#variable-types).
+* **Variable** - The name of the variable. Use the name to [reference the variable](/docs/sending-requests/variables/managing-environments/#use-variables-in-requests-and-scripts) in requests and scripts.
+* **Type** - If you select **default**, the variable value is visible in plain text. If you select **secret**, the variable value is masked. Learn more about [variable types](/docs/sending-requests/variables/variables/#variable-types).
 
     > To show or hide a secret variable, hover over the variable and select the eye icon <img alt="Unmask variable icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px">.
 
@@ -71,13 +71,13 @@ When you're done editing environment variables, select <img alt="Save icon" src=
 
 ## Edit variables from the environment quick look
 
-You can edit the current value for variables in the [active environment](/docs/sending-requests/environments/managing-environments/#switch-between-environments) from the environment quick look. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a variable, then enter a new current value.
+You can edit the current value for variables in the [active environment](/docs/sending-requests/variables/managing-environments/#switch-between-environments) from the environment quick look. Select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the environment selector. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to a variable, then enter a new current value.
 
 <img alt="Using the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-edit-v10-20.jpg"/>
 
 ## Set environment variables from scripts
 
-You can change the values of environment variables from your **Pre-request Script** and **Tests** scripts. Use the [`pm.environment` method](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-environment-variables-in-scripts) to set an environment variable in the [active environment](/docs/sending-requests/environments/managing-environments/#switch-between-environments):
+You can change the values of environment variables from your **Pre-request Script** and **Tests** scripts. Use the [`pm.environment` method](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-environment-variables-in-scripts) to set an environment variable in the [active environment](/docs/sending-requests/variables/managing-environments/#switch-between-environments):
 
 ```js
 pm.environment.set("variable_key", "variable_value");
@@ -85,7 +85,7 @@ pm.environment.set("variable_key", "variable_value");
 
 If you use scripts to set values for environment variables, these values will be reflected in all requests that reference the variables. For example, you can use environments in conjunction with [the collection runner](/docs/collections/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/) to use updated values for a series of requests throughout a run and after the run completes.
 
-> To create new environment variables from a script, you must have Editor access to the environment. If you update or unset a value in a script when you have Viewer access, that change will be visible to you but won't be shared with other team members. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+> To create new environment variables from a script, you must have Editor access to the environment. If you update or unset a value in a script when you have Viewer access, that change will be visible to you but won't be shared with other team members. Learn more about [managing environment roles](/docs/sending-requests/variables/team-environments/#manage-environment-roles).
 
 ## Persist environment variables
 
@@ -93,7 +93,7 @@ An environment variable's current value is used in your local instance of Postma
 
 When you persist a variable, the variable's initial (shared) value is set to the current (local) value. The initial value is then synced to your Postman account, and anyone who has access to the environment can view the new initial value. If a variable's initial value has sensitive data, make sure to choose the **secret** variable type if you don't want to expose the value when sharing or publishing the environment.
 
-> To persist a variable, you must have Editor access to the environment. Learn more about [managing environment roles](/docs/sending-requests/environments/team-environments/#manage-environment-roles).
+> To persist a variable, you must have Editor access to the environment. Learn more about [managing environment roles](/docs/sending-requests/variables/team-environments/#manage-environment-roles).
 
 To persist an environment variable, do the following:
 

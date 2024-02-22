@@ -74,7 +74,7 @@ You can also use these endpoints to import an OpenAPI definition to create a col
 
 ### Environments and variables
 
-The [Environments API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-74aa54b5-9f5f-4ba5-923f-a6c805c14774) enable you to programmatically manage your [Postman environments](/docs/sending-requests/environments/managing-environments/). You can use this API to manage your [global variables](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-a75846bd-c1c7-43e3-88f6-a0c752db83c5), which scope your work to different environments (such as local development, testing, or production). You can also manage [collection variables](https://www.postman.com/postman/workspace/postman-public-workspace/request/12959542-24607f03-453e-4936-b544-78d99e05cd19), which are available throughout a collection's requests.
+The [Environments API](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-74aa54b5-9f5f-4ba5-923f-a6c805c14774) enable you to programmatically manage your [Postman environments](/docs/sending-requests/variables/managing-environments/). You can use this API to manage your [global variables](https://www.postman.com/postman/workspace/postman-public-workspace/folder/12959542-a75846bd-c1c7-43e3-88f6-a0c752db83c5), which scope your work to different environments (such as local development, testing, or production). You can also manage [collection variables](https://www.postman.com/postman/workspace/postman-public-workspace/request/12959542-24607f03-453e-4936-b544-78d99e05cd19), which are available throughout a collection's requests.
 
 ### APIs
 

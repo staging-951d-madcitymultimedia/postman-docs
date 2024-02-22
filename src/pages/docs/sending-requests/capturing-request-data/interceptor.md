@@ -96,7 +96,7 @@ You can work with the Interceptor session results in the following ways:
 * Select a request to view more details.
 * Select a request URL to open it as a new API request in Postman.
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
-* To add a cookie to the [Postman cookie jar](/docs/sending-requests/cookies/), select it and select **+ Add to Cookie Jar**.
+* To add a cookie to the [Postman cookie jar](/docs/sending-requests/response-data/cookies/), select it and select **+ Add to Cookie Jar**.
 
 <img alt="Viewing Interceptor results" src="https://assets.postman.com/postman-docs/v10/interceptor-view-results-v10-22.jpg" />
 
