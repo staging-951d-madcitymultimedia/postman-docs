@@ -52,11 +52,11 @@ You will carry out most of the Postman JavaScript API functionality using `pm.*`
 
 ### Using variables in scripts
 
-You can access and manipulate [variables](/docs/sending-requests/variables/) at each scope in Postman using the `pm` API.
+You can access and manipulate [variables](/docs/sending-requests/variables/variables/) at each scope in Postman using the `pm` API.
 
 > You can use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) to generate values when your requests run.
 
-Postman supports a variety of variable [scopes](/docs/sending-requests/variables/#variable-scopes). The `pm` object provides methods for accessing global, collection, and environment variables specifically, and `pm.variables` methods for accessing variables at different scopes and setting local variables.
+Postman supports a variety of variable [scopes](/docs/sending-requests/variables/variables/#variable-scopes). The `pm` object provides methods for accessing global, collection, and environment variables specifically, and `pm.variables` methods for accessing variables at different scopes and setting local variables.
 
 * Check if there is a Postman variable in the current scope:
 
@@ -186,7 +186,7 @@ pm.environment.unset(variableName:String):function
 pm.environment.clear():function
 ```
 
-> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/environments/team-environments/#manage-environment-roles) in the workspace.
+> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/variables/team-environments/#manage-environment-roles) in the workspace.
 
 #### Using collection variables in scripts
 
@@ -296,7 +296,7 @@ pm.globals.unset(variableName:String):function
 pm.globals.clear():function
 ```
 
-> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/environments/team-environments/#manage-environment-roles) in the workspace.
+> Note that your ability to edit variables depends on your [access level](/docs/sending-requests/variables/team-environments/#manage-environment-roles) in the workspace.
 
 #### Using data variables in scripts
 
@@ -511,7 +511,7 @@ pm.cookies.toObject():Function → Object
 
 You can also use `pm.cookies.jar` to specify a domain for access to request cookies.
 
-To enable programmatic access using the `pm.cookies.jar` methods, first add the cookie URL to the [allowlist](/docs/sending-requests/cookies/).
+To enable programmatic access using the `pm.cookies.jar` methods, first add the cookie URL to the [allowlist](/docs/sending-requests/response-data/cookies/).
 
 * Access the cookie jar object:
 
@@ -699,7 +699,7 @@ postman.setNextRequest(pm.environment.get('next'));
 
 ## Scripting Postman Visualizations
 
-Use `pm.visualizer.set` to specify a template to [display response data in the Postman Visualizer](/docs/sending-requests/visualizer/).
+Use `pm.visualizer.set` to specify a template to [display response data in the Postman Visualizer](/docs/sending-requests/response-data/visualizer/).
 
 ```js
 pm.visualizer.set(layout:String, data:Object, options:Object):Function

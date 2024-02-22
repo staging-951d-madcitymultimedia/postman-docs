@@ -28,7 +28,7 @@ contextual_links:
     url: "https://www.postman.com/postman/workspace/more-visualizer-examples/overview"
 ---
 
-The _Postman Visualizer_ provides a programmable way to visually represent your request [responses](/docs/sending-requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
+The _Postman Visualizer_ provides a programmable way to visually represent your request [responses](/docs/sending-requests/response-data/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
 
 ![Visualizer rendering](https://assets.postman.com/postman-docs/v10/visualizer-v10-22.jpg)
 

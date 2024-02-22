@@ -49,7 +49,7 @@ To use AWS Signature, do the following:
     * If you select __Request Headers__, Postman will add `Authorization` and `X-Amz-` prefixed fields in the __Headers__ tab.
     * If you select __Request URL__, Postman will add the auth details in __Params__ with keys prefixed `X-Amz-`.
 
-1. Enter your access key and secret values directly in the fields. For extra security, you can use [secret variables](/docs/sending-requests/variables/#variable-types) for these values.
+1. Enter your access key and secret values directly in the fields. For extra security, you can use [secret variables](/docs/sending-requests/variables/variables/#variable-types) for these values.
 
 1. You can optionally set advanced fields, but Postman will autogenerate these if necessary.
 

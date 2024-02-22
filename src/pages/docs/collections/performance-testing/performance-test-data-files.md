@@ -30,7 +30,7 @@ By default, each virtual user runs the same requests using the same values. You 
 
 Importing a data file enables you to populate variables with imported data when running a performance test. Each virtual user can use data from a different row in the data file, customizing their behavior and better simulating real-world usage of your API.
 
-Before you begin, [add variables](/docs/sending-requests/variables/) to the requests in your collection. Then [create a data file](#data-file-format) with the data to use for each variable.
+Before you begin, [add variables](/docs/sending-requests/variables/variables/) to the requests in your collection. Then [create a data file](#data-file-format) with the data to use for each variable.
 
 To run a performance test with a data file, do the following:
 
@@ -78,7 +78,7 @@ Format JSON files as an array of key-value pairs. Each key is the name of a vari
 
 <img alt="JSON format" src="https://assets.postman.com/postman-docs/v10/ramen-json-screenshot.jpg" width="300px"/>
 
-> Variable names are case sensitive, so make sure to use the same case for variables in Postman as in the CSV or JSON file. Variables in data files are resolved as [local variables](/docs/sending-requests/variables/#variable-scopes), so you can access them using `pm.variables.get("variable_key")`. Learn more about [using variables in scripts](/docs/sending-requests/variables/#using-variables-in-scripts).
+> Variable names are case sensitive, so make sure to use the same case for variables in Postman as in the CSV or JSON file. Variables in data files are resolved as [local variables](/docs/sending-requests/variables/variables/#variable-scopes), so you can access them using `pm.variables.get("variable_key")`. Learn more about [using variables in scripts](/docs/sending-requests/variables/variables/#using-variables-in-scripts).
 
 ## Debug errors when using data files
 

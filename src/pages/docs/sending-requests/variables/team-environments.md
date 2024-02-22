@@ -31,9 +31,9 @@ contextual_links:
     url: "https://www.postman.com/case-studies/hathway/"
 ---
 
-An [environment](/docs/sending-requests/environments/managing-environments/) enables you to collaborate on Postman data when you're working as part of a team. You can use environments to share a group of variable values and use those values when sending requests. You can also use environments to share and manage the visibility of sensitive data such as API keys, passwords, or tokens.
+An [environment](/docs/sending-requests/variables/managing-environments/) enables you to collaborate on Postman data when you're working as part of a team. You can use environments to share a group of variable values and use those values when sending requests. You can also use environments to share and manage the visibility of sensitive data such as API keys, passwords, or tokens.
 
-To get started, [create a new environment](/docs/sending-requests/environments/managing-environments/#create-an-environment), move an environment, or fork an environment in your team workspace. Then assign roles to team members to specify who can view or edit the environment.
+To get started, [create a new environment](/docs/sending-requests/variables/managing-environments/#create-an-environment), move an environment, or fork an environment in your team workspace. Then assign roles to team members to specify who can view or edit the environment.
 
 ## Contents
 
@@ -119,7 +119,7 @@ If you have Viewer access to an environment, a lock icon <img alt="Lock icon" sr
 
 ### Use an environment with the Editor role
 
-If you have the Editor role for an environment, you can edit the environment and update a variable's initial value. You can also [create and update variables from your scripts](/docs/sending-requests/environments/environment-variables/#set-environment-variables-from-scripts).
+If you have the Editor role for an environment, you can edit the environment and update a variable's initial value. You can also [create and update variables from your scripts](/docs/sending-requests/variables/environment-variables/#set-environment-variables-from-scripts).
 
 When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment. Make sure it's safe to share the value with your team and sync it with Postman's servers. Learn more about [managing sensitive variable values](#manage-sensitive-variable-values).
 
@@ -142,7 +142,7 @@ A variable's initial value is synced to your account using Postman's cloud serve
 
 If the initial value includes sensitive data, you can mask the value by selecting the **secret** variable type. When masked, the variable's values aren't visible and can't be copied. Keep in mind that anyone with access to the environment can unmask the variable by selecting the eye icon <img alt="Unmask variable icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px"> next to the variable.
 
-A variable's current value is used when sending requests in your local instance of Postman and is never synced to your Postman account or shared with your team. This means it's safe to use the current value for sensitive data such as API keys, passwords, or tokens. Keep in mind that if you [persist a variable](/docs/sending-requests/environments/environment-variables/#persist-environment-variables), the initial value is set to the current value. The value is then shared with anyone who can access the environment.
+A variable's current value is used when sending requests in your local instance of Postman and is never synced to your Postman account or shared with your team. This means it's safe to use the current value for sensitive data such as API keys, passwords, or tokens. Keep in mind that if you [persist a variable](/docs/sending-requests/variables/environment-variables/#persist-environment-variables), the initial value is set to the current value. The value is then shared with anyone who can access the environment.
 
 <!-- You can also [use your Postman Vault to store secrets](/docs/sending-requests/postman-vault-secrets/) locally as secrets. Vault secrets are locally available to reuse in all of your workspaces in your Postman team, and aren't synced to the Postman cloud. This enables you to store and reuse sensitive data while using Postman. -->
 

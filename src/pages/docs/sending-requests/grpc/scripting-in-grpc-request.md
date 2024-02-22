@@ -8,7 +8,7 @@ Postman has a powerful scripting environment that enables you to add JavaScript 
 * Before invoking the method and establishing a connection with the server, in the **Before invoke** tab.
 * After closing the connection with the server, in the **After response** tab.
 
-You can use scripts to write API tests, debug your requests (by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or dynamically read/update the values of [variables](/docs/sending-requests/variables/).
+You can use scripts to write API tests, debug your requests (by logging to [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/), or dynamically read/update the values of [variables](/docs/sending-requests/variables/variables/).
 
 ![gRPC scripts](https://assets.postman.com/postman-docs/v10/grpc-scripts-v10-22.jpg)
 

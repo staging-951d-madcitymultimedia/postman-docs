@@ -49,11 +49,11 @@ To change the protocol for a new request, do the following:
 
 ### Send parameters
 
-On the **Params** tab, add any parameters you’d like to append to the WebSocket URL. This works similarly to [sending parameters](/docs/sending-requests/requests/#sending-parameters) in a REST request.
+On the **Params** tab, add any parameters you’d like to append to the WebSocket URL. This works similarly to [sending parameters](/docs/sending-requests/create-requests/parameters/) in a REST request.
 
 ### Configure headers
 
-On the **Headers** tab, enter any headers you’d like to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/requests/#configuring-request-headers) in a REST request.
+On the **Headers** tab, enter any headers you’d like to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/create-requests/headers/) in a REST request.
 
 ### Configure request settings
 

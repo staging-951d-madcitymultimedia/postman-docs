@@ -67,7 +67,7 @@ To customize and configure a new collection, do the following:
 1. Select **Authorization** to configure authorization details for the collection.
 1. Select **Pre-request Script** to define a [pre-request script](/docs/writing-scripts/pre-request-scripts/) for your collection, which will run before requests are sent to the server.
 1. Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
-1. Select **Variables** to define values for [collection variables](/docs/sending-requests/variables/) to share across all requests in the collection.
+1. Select **Variables** to define values for [collection variables](/docs/sending-requests/variables/variables/) to share across all requests in the collection.
 
 > You can turn on autosave to automatically save your changes to collections, requests, and environments. Learn more about [autosave](/docs/getting-started/installation/settings/#application).
 
@@ -175,7 +175,7 @@ To share a collection with other users, you can:
 
 * Publish a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button.
 * Invite others to collaborate by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Share**. Learn more about [sharing elements in Postman](/docs/collaborating-in-postman/sharing/#sharing-postman-elements).
-    * To share a URL to a collection, folder, request, or example with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/environments/managing-environments/#switch-between-environments), copy the element's link to your clipboard, then send the link to team members you want to share with.
+    * To share a URL to a collection, folder, request, or example with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/variables/managing-environments/#switch-between-environments), copy the element's link to your clipboard, then send the link to team members you want to share with.
 * Allow external users who aren't in your Postman team to view collections by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, selecting **Share**, then turning on the toggle next to **Allow Guests to join your team and view this collection with the link**. Learn more about [allowing external users to view collections](/docs/collaborating-in-postman/sharing/#allowing-external-users-to-view-collections).
 * Move the collection to a shared workspace by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 * ([Enterprise](https://www.postman.com/pricing/)) Add the collection to your team's [Private API Network](/docs/collaborating-in-postman/private-api-network/private-network-requests/#requesting-to-add-a-collection-from-the-workbench).

@@ -22,7 +22,7 @@ If there are no collections in the workspace, six easy-to-use requests will appe
 
 This example uses [Postman's echo service API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation).
 
-> Postman Flows can run requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/requests/#sending-body-data). To make collaboration and publishing your Flow easier, [upload your test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs) to your Postman team.
+> Postman Flows can run requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/create-requests/parameters/). To make collaboration and publishing your Flow easier, [upload your test data files](/docs/sending-requests/create-requests/test-data/) to your Postman team.
 
 ### Variables
 
@@ -32,4 +32,4 @@ The variables part of the **Send Request** block opens automatically and enables
 
 <img src="https://assets.postman.com/postman-docs/v10/flows-add-a-variable-v10-20.gif" alt="Adding variables" fetchpriority="low" loading="lazy" />
 
-In this request, the two variables are named `value1` and `value2` and were set up in the request. (For more information on setting up variables in requests, visit [here](/docs/sending-requests/variables/).) Once the request runs, you can view the values in the **Success** output. The values returned are whatever the `value1` and `value2` variables are set to (in this example, `hello` and `there`).
+In this request, the two variables are named `value1` and `value2` and were set up in the request. (For more information on setting up variables in requests, visit [here](/docs/sending-requests/variables/variables/).) Once the request runs, you can view the values in the **Success** output. The values returned are whatever the `value1` and `value2` variables are set to (in this example, `hello` and `there`).

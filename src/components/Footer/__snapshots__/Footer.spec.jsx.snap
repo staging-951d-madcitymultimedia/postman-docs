@@ -31,7 +31,7 @@ exports[`Footer renders correctly 1`] = `
               <span
                 className="col-12 d-none d-md-block copyright"
               >
-                © 2023 Postman, Inc.
+                © 2024 Postman, Inc.
               </span>
             </div>
             <div
@@ -700,7 +700,7 @@ exports[`Footer renders correctly 1`] = `
               <span
                 className="col-12 copyright"
               >
-                © 2023 Postman, Inc.
+                © 2024 Postman, Inc.
               </span>
             </div>
           </div>

@@ -37,7 +37,7 @@ To help keep your API well defined, you can check your API definition as you wor
 
 ## Validating requests and responses
 
-For [collections linked to an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection), Postman can automatically detect any inconsistencies between the [requests](/docs/sending-requests/requests/) and [saved examples](/docs/sending-requests/examples/) in the collection and the [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). Postman can also compare [responses](/docs/sending-requests/responses/) received from the server to the API definition to make sure the API implementation aligns with the API design. Postman displays a warning for each detected issue. Select a warning to view the source of the issue so you can resolve it.
+For [collections linked to an API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection), Postman can automatically detect any inconsistencies between the [requests](/docs/sending-requests/create-requests/create-requests/) and [saved examples](/docs/sending-requests/response-data/examples/) in the collection and the [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). Postman can also compare [responses](/docs/sending-requests/response-data/responses/) received from the server to the API definition to make sure the API implementation aligns with the API design. Postman displays a warning for each detected issue. Select a warning to view the source of the issue so you can resolve it.
 
 > Request validation is supported for OpenAPI 3.0 and 3.1 definitions.
 
@@ -58,7 +58,7 @@ If Postman detects validation issues, an orange dot displays in the sidebar next
 
 To view the list of validation issues, select the warning icon in the tab of the collection, folder, request, or saved example. Postman provides details for each issue, including the element with the issue and details about the problem.
 
-Select an issue to view the element where the issue was detected. To resolve the issue, you can change the [request](/docs/sending-requests/requests/#adding-request-detail) or [saved example](/docs/sending-requests/examples/#editing-an-example), or you can change the [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#editing-an-api-definition-file). After you save your changes, if the problem is corrected, the issue disappears.
+Select an issue to view the element where the issue was detected. To resolve the issue, you can change the [request](/docs/sending-requests/create-requests/create-requests/) or [saved example](/docs/sending-requests/response-data/examples/#editing-an-example), or you can change the [API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#editing-an-api-definition-file). After you save your changes, if the problem is corrected, the issue disappears.
 
 <img alt="Viewing request validation issues" src="https://assets.postman.com/postman-docs/v10/request-validation-v10-15a.jpg" >
 

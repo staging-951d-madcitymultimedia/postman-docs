@@ -68,16 +68,16 @@ Collections with gRPC or WebSocket requests use a different format than collecti
 
 ## Associate environments with documentation
 
-An [environment](/docs/sending-requests/environments/managing-environments/) is a set of related [variables](/docs/sending-requests/variables/) you can use in Postman requests. You can also refer to variables when [writing descriptions](/docs/publishing-your-api/authoring-your-documentation/) in a collection. In each case, the initial value of the variable is automatically populated in the documentation.
+An [environment](/docs/sending-requests/variables/managing-environments/) is a set of related [variables](/docs/sending-requests/variables/variables/) you can use in Postman requests. You can also refer to variables when [writing descriptions](/docs/publishing-your-api/authoring-your-documentation/) in a collection. In each case, the initial value of the variable is automatically populated in the documentation.
 
 Anyone using your collection will be able to view the variables in the documentation if the associated environment is also shared with them. For public documentation, you can select an environment during the [publishing process](/docs/publishing-your-api/publishing-your-docs/). Publishing an environment makes it available to anyone [viewing public documentation](/docs/publishing-your-api/viewing-documentation/).
 
 To use an environment variable in your documentation, do the following:
 
-1. [Create a new environment](/docs/sending-requests/environments/managing-environments/) if one doesn't already exist.
-1. Make the environment active by selecting it in the [environment dropdown list](/docs/sending-requests/environments/managing-environments/#switch-between-environments).
-1. If needed, [add a new variable](/docs/sending-requests/environments/managing-environments/#add-environment-variables) to the environment.
-1. Add a [reference to the variable](/docs/sending-requests/variables/#accessing-variables) to requests or descriptions in your collection.
+1. [Create a new environment](/docs/sending-requests/variables/managing-environments/) if one doesn't already exist.
+1. Make the environment active by selecting it in the [environment dropdown list](/docs/sending-requests/variables/managing-environments/#switch-between-environments).
+1. If needed, [add a new variable](/docs/sending-requests/variables/managing-environments/#add-environment-variables) to the environment.
+1. Add a [reference to the variable](/docs/sending-requests/variables/variables/#using-variables) to requests or descriptions in your collection.
 
 <img alt="Referencing a variable" src="https://assets.postman.com/postman-docs/v10/documentation-add-variable-v10-16.jpg" width="566px">
 

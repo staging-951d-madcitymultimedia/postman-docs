@@ -1,7 +1,5 @@
 ---
-title: "Create and capture cookies using Postman’s cookie manager"
-order: 28
-page_id: "cookies"
+title: "Create and capture cookies using Postman's cookie manager"
 updated: 2022-03-02
 search_keyword: "pm.cookies.jar, cookies.jar"
 contextual_links:
@@ -12,9 +10,6 @@ contextual_links:
   - type: link
     name: "Syncing Cookies for Authentication | Postman Level Up"
     url: "https://www.youtube.com/watch?v=jfgFNw5SoUg"
-
-warning: false
-
 ---
 
 Postman's cookie manager enables you to view and edit cookies that are associated with different domains. You can manually create cookies for a domain, or you can [capture cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/) using the Postman proxy or Postman Interceptor. You can then use the cookies stored in the cookie jar when sending requests in Postman.

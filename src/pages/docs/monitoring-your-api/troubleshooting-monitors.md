@@ -15,7 +15,7 @@ The [Console Log](/docs/monitoring-your-api/viewing-monitor-results/#console-log
 
 [![Failed monitor run Console log](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)
 
-For more information on debugging with the Postman Console, see [Troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/).
+For more information on debugging with the Postman Console, see [Troubleshooting API requests](/docs/sending-requests/response-data/troubleshooting-api-requests/).
 
 ## Debugging local run attempts
 

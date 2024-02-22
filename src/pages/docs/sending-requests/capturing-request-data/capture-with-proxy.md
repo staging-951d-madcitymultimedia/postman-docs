@@ -75,7 +75,7 @@ When you start the proxy session, the Postman proxy begins capturing traffic sen
 
 To control an active proxy session, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Proxy active** in the footer to display the proxy session tab. (If the proxy session is paused, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Start proxy** in the footer.) The proxy tab shows the total duration of the session and the size of the data captured.
 
-With the proxy active, try opening a web browser and navigating to a web site, or open an app that communicates with a server. Requests appear on the proxy session tab as they're captured.
+With the proxy active, try opening a web browser and navigating to a website, or open an app that communicates with a server. Requests appear on the proxy session tab as they're captured.
 
 From the proxy session tab, you can take the following actions:
 
@@ -112,7 +112,7 @@ You can view and work with the proxy session results while the session is active
 * Select a request to view more details.
 * Select a request URL to open it as a new API request in Postman.
 * To delete a request or cookie, select it and select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete**.
-* To add a cookie to the [Postman cookie jar](/docs/sending-requests/cookies/), select it and select **+ Add to Cookie Jar**.
+* To add a cookie to the [Postman cookie jar](/docs/sending-requests/response-data/cookies/), select it and select **+ Add to Cookie Jar**.
 
 <img alt="View proxy session results" src="https://assets.postman.com/postman-docs/v10/proxy-view-results-v10-22.jpg" />
 

@@ -48,8 +48,7 @@ To get started using Postman, check out the [Get started](/docs/getting-started/
 
 ## Send requests
 
-You can send requests in Postman to connect to APIs you are working with. To learn more about how to send requests, see
-[Create and send API requests in Postman](/docs/sending-requests/requests/) and learn how to [send your first request](/docs/getting-started/first-steps/sending-the-first-request/).
+You can send requests in Postman to connect to APIs you are working with. To learn more about how to send requests, see [Send API requests and get response data in Postman](/docs/sending-requests/requests/) and learn how to [send your first request](/docs/getting-started/first-steps/sending-the-first-request/).
 
 ## Write scripts
 
@@ -69,7 +68,7 @@ To learn more about Postman Flows, see [Build API applications visually using Po
 
 The Postman CLI is a secure command-line companion for Postman. You can use the Postman CLI to run a collection, send run results to Postman, check API definitions against configured API Governance and API Security rules, and more.
 
-To learn more about the Postman CLI, see [Explore Postman’s command-line companion](/docs/postman-cli/postman-cli-overview/).
+To learn more about the Postman CLI, see [Explore Postman's command-line companion](/docs/postman-cli/postman-cli-overview/).
 
 ## Collaborate in Postman
 
