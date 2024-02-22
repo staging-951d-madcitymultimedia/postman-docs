@@ -45,7 +45,7 @@ Format JSON files as an array of key-value pairs. Each key is the name of a vari
 
 <img alt="JSON format" src="https://assets.postman.com/postman-docs/v10/ramen-json-screenshot.jpg" width="300px"/>
 
-> Variable names are case sensitive, so make sure to use the same case for variables in Postman as in the CSV or JSON file. Variables in data files are resolved as [local variables](/docs/sending-requests/variables/#variable-scopes), so you can access them using `pm.variables.get("variable_key")`. Learn more about [using variables in scripts](/docs/sending-requests/variables/#using-variables-in-scripts).
+> Variable names are case sensitive, so make sure to use the same case for variables in Postman as in the CSV or JSON file. Variables in data files are resolved as [local variables](/docs/sending-requests/variables/variables/#variable-scopes), so you can access them using `pm.variables.get("variable_key")`. Learn more about [using variables in scripts](/docs/sending-requests/variables/variables/#using-variables-in-scripts).
 
 ## Run a collection with data files
 

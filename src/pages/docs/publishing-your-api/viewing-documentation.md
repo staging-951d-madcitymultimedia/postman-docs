@@ -90,7 +90,7 @@ Use the options in the header to customize the appearance of the documentation:
 
 ![Published documentation example](https://assets.postman.com/postman-docs/v10/documentation-published-docs-v10.jpg)
 
-> Postman supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) for displaying sample code. Is a language you want to use not available? Is there a setting missing that you'd find useful? Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> and then select **Contribute on GitHub** to contribute to [the open-source project](https://github.com/postmanlabs/postman-code-generators).
+> Postman supports [various programming languages and frameworks](/docs/sending-requests/create-requests/generate-code-snippets/#supported-languagesframeworks) for displaying sample code. Is a language you want to use not available? Is there a setting missing that you'd find useful? Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> and then select **Contribute on GitHub** to contribute to [the open-source project](https://github.com/postmanlabs/postman-code-generators).
 
 ## Linking to public documentation
 

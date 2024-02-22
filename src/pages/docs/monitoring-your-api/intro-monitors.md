@@ -50,7 +50,7 @@ You’ll be alerted to any test failures once the monitor is running, so you can
 
 ## Use collection-based monitors
 
-You can [set up collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/), enabling you to run a series of requests from the Postman cloud based on a schedule. When creating a monitor, you choose a [collection](/docs/sending-requests/intro-to-collections/) with the requests you want to run. You can learn more about [use cases for collection-based monitors](#monitor-use-cases).
+You can [set up collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/), enabling you to run a series of requests from the Postman cloud based on a schedule. When creating a monitor, you choose a [collection](/docs/sending-requests/create-requests/intro-to-collections/) with the requests you want to run. You can learn more about [use cases for collection-based monitors](#monitor-use-cases).
 
 Depending on your [plan](https://www.postman.com/pricing), you can [configure monitors to run from static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/). This enables you to monitor APIs that are behind a restricted firewall.
 

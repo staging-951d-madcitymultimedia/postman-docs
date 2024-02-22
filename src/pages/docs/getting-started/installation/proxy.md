@@ -82,7 +82,7 @@ To configure Postman to use a custom proxy, do the following:
 
 If you're having problems sending requests from Postman, see the topics below for help resolving the issue.
 
-> For more help with configuration and request issues, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
+> For more help with configuration and request issues, see [Troubleshooting requests](/docs/sending-requests/response-data/troubleshooting-api-requests/).
 
 ### I can't send a request and my network requires a proxy
 

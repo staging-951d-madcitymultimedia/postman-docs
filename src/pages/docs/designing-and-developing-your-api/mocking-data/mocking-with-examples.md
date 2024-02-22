@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/shifting-left-with-postman/"
 ---
 
-[Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) simulate an API by returning predefined data, enabling you to develop or test an API before it's ready for production (or without using production data). In Postman, mock servers rely on [examples](/docs/sending-requests/examples/) saved in a collection to return mock data. Follow the steps below for a demonstration of how mock servers and examples work together, and to learn how you can integrate them into your API workflow.
+[Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) simulate an API by returning predefined data, enabling you to develop or test an API before it's ready for production (or without using production data). In Postman, mock servers rely on [examples](/docs/sending-requests/response-data/examples/) saved in a collection to return mock data. Follow the steps below for a demonstration of how mock servers and examples work together, and to learn how you can integrate them into your API workflow.
 
 ## Contents
 
@@ -51,7 +51,7 @@ To create and send a request, do the following:
 
 ### Save the request to a collection
 
-Create a new collection and save the request to it. [Collections](/docs/sending-requests/intro-to-collections/) are groups of requests that you can use to organize your work and create API workflows.
+Create a new collection and save the request to it. [Collections](/docs/collections/collections-overview/) are groups of requests that you can use to organize your work and create API workflows.
 
 To save the request in a new collection, do the following:
 

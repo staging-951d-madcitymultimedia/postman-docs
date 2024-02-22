@@ -153,7 +153,7 @@ When you select one or more requests from the list on the **Requests** tab, you 
 
 When you select one or more cookies from the list on the **Cookies** tab, you can use the following controls:
 
-* **+ Add to Cookie Jar** - add the request to the [Postman cookie jar](/docs/sending-requests/cookies/).
+* **+ Add to Cookie Jar** - add the request to the [Postman cookie jar](/docs/sending-requests/response-data/cookies/).
 
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete** - delete the cookie.
 

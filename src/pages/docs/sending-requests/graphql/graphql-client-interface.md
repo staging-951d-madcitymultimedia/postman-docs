@@ -57,7 +57,7 @@ The GraphQL client interface has three main sections:
 
 ## The request section
 
-In the GraphQL client's request section, you can enter an endpoint in the URL field as you would in the regular Postman request interface. But the GraphQL client adds GraphQL-specific features, including an interactive schema explorer.
+In the GraphQL client's request section, you can enter an endpoint in the URL box as you would in the regular Postman request interface. But the GraphQL client adds GraphQL-specific features, including an interactive schema explorer.
 
 <img src="https://assets.postman.com/postman-docs/v10/graphql-request-section-v10-22-1.jpg" alt="The request section">
 
@@ -67,14 +67,14 @@ In the GraphQL client's request section, you can enter an endpoint in the URL fi
 
     > You can't change the request protocol after you save the request.
 
-* **URL field** - Enter the GraphQL server's URL here. You can also select this field to browse URLs you've already used.
+* **URL box** - Enter the GraphQL server's URL here. You can also select this field to browse URLs you've already used.
 * **Tabs** - The following tabs are available:
     * **Query** - The **Query** tab has three subsections: the schema explorer, the query editor, and the variables editor.
     * **Authorization** - You can enter authorization credentials here. You can choose from a list of auth types including API key, basic auth, and bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/authorization).
     * **Headers** - The **Headers** tab enables you to pass headers with the request in the form of key-value pairs. The client uses these headers to provide information about the call to the server.
     * **Schema** - The **Schema** tab enables you to select an API and save it to the request. You can use GraphQL introspection, select an API from a Postman workspace, or import a schema from a local file or a URL. You can also select a specific published release of an API. The GraphQL client populates the schema explorer with fields from the chosen schema.
-    * **Scripts** - The **Scripts** tab accesses Postman's powerful scripting environment that enables you to add JavaScript code (scripts) to your GraphQL requests. You can use scripts to write API tests, debug your requests by logging them to the [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](https://learning.postman.com/docs/sending-requests/variables/).
-* **Schema explorer** - When you enter a GraphQL server's endpoint in the **URL field**, the endpoint's schema appears here. The schema explorer is also an interactive visual query editor where you can browse and select fields and arguments to [build queries](/docs/sending-requests/graphql/graphql-client-first-request/#create-a-graphql-request-with-one-query) in the query editor.
+    * **Scripts** - The **Scripts** tab accesses Postman's powerful scripting environment that enables you to add JavaScript code (scripts) to your GraphQL requests. You can use scripts to write API tests, debug your requests by logging them to the [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/), or dynamically read or update the values of [variables](/docs/sending-requests/variables/variables/).
+* **Schema explorer** - When you enter a GraphQL server's endpoint in the **URL box**, the endpoint's schema appears here. The schema explorer is also an interactive visual query editor where you can browse and select fields and arguments to [build queries](/docs/sending-requests/graphql/graphql-client-first-request/#create-a-graphql-request-with-one-query) in the query editor.
 * **Save button** - Saves the request to a collection. GraphQL requests can't be saved to collections that contain HTTP requests.
 * **Query button** - Executes the selected query. If there are multiple queries, a dropdown list is available where you can select individual queries to execute.
 * **Query editor** - Build and edit queries here. You can enter queries manually or build them with the schema explorer. You can [create multiple queries](/docs/sending-requests/graphql/graphql-client-first-request/#create-a-graphql-request-with-multiple-queries) in the query editor and run them individually.
@@ -82,7 +82,7 @@ In the GraphQL client's request section, you can enter an endpoint in the URL fi
 
 ## The response section
 
-When you execute a query, the response from the server appears here. The GraphQL client's response section is similar to Postman's regular [response viewer](/docs/sending-requests/responses/).
+When you execute a query, the response from the server appears here. The GraphQL client's response section is similar to Postman's regular [response viewer](/docs/sending-requests/response-data/responses/).
 
 <img src="https://assets.postman.com/postman-docs/v10/graphql-response-v10-20.jpg" alt="The response section">
 

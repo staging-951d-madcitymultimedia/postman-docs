@@ -72,7 +72,7 @@ Postman also provides [templates](https://www.postman.com/templates/tags/1/Testi
 
 ## Add a test
 
-You can add tests to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you add and then change to suit your test logic.
+You can add tests to individual [requests](/docs/sending-requests/create-requests/create-requests/), [collections](/docs/sending-requests/create-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you add and then change to suit your test logic.
 
 To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. The output is in the response's __Test Results__ tab.
 
@@ -124,7 +124,7 @@ Using the `pm.expect` syntax gives your test result messages a different format.
 
 > Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.postman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
 
-Your code can test the request [environment](/docs/sending-requests/environments/managing-environments/), as in the following example:
+Your code can test the request [environment](/docs/sending-requests/variables/managing-environments/), as in the following example:
 
 ```js
 pm.test("environment to be production", function () {
@@ -173,7 +173,7 @@ You can write scripts to control the order in which your requests run using [bra
 If you are having trouble with your tests:
 
 * Check if there are any errors in your scripts. A red badge will highlight scripts with errors. You can also check the response section for specific errors.
-* Debug your tests using the [log statements](/docs/sending-requests/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
+* Debug your tests using the [log statements](/docs/sending-requests/response-data/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
 
 ## Write tests using Postbot
 

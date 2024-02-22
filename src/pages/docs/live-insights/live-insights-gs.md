@@ -248,13 +248,13 @@ Select each request to see the query parameters, path variables, headers and the
 
 Just like with the ordinary collections in Postman, a live collection enabled through the LCA has these elements:
 
-* Query parameters — Sent with your requests using the URL field and the **Params** tab.
+* Query parameters — Sent with your requests using the URL box and the **Params** tab.
 * Path variables — Form part of the request URL, and are referenced using placeholders preceded by `:` as in this example: `/customer/:id`.
 * Headers — Provide more metadata about the operation you are performing.
 * Body — Enables you to specify the data you need to send with a request.
 * Response — Gives you several tools to help you understand the response quickly. You can view the body in one of four views: Pretty, Raw, Preview, and Visualize.
 
-For more information, see [Building requests](/docs/sending-requests/requests/) and [Receiving responses](/docs/sending-requests/responses/).
+For more information, see [Send API requests and get response data in Postman](/docs/sending-requests/requests/).
 
 ## Observe Live Insights
 
