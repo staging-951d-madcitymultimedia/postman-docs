@@ -50,7 +50,7 @@ There is no specific limit to the amount of data that can be sent or received pe
 
 You can upload a data file with sets of values to use as variable inputs when running the monitor, similar to the [collection runner](/docs/collections/running-collections/working-with-data-files/). Data files are limited to 1 MB in size and a maximum of 50 data rows (CSV) or 50 objects (JSON). Learn more about [uploading a data file for a monitor](/docs/monitoring-your-api/setting-up-monitor/#uploading-a-data-file).
 
-Because scheduled collection runs and monitors run in the Postman cloud, you can't attach form data or binary files to requests like you can in the [request builder](https://learning.postman.com/docs/sending-requests/requests/#form-data). Instead, you can add [raw data](https://learning.postman.com/docs/sending-requests/requests/#raw-data) on the request's **Body** tab to send JSON or other text data with the request.
+Because scheduled collection runs and monitors run in the Postman cloud, you can't attach form data or binary files to requests like you can in the [request builder](/docs/sending-requests/create-requests/parameters/#send-body-data-with-requests). Instead, you can add [raw data](/docs/sending-requests/create-requests/parameters/#raw-data) on the request's **Body** tab to send JSON or other text data with the request.
 
 > A monitor can also use files that can be retrieved by an API from cloud services such as Google Docs or Dropbox.
 

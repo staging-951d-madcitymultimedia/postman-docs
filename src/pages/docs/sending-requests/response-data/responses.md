@@ -69,7 +69,7 @@ Due to iframe sandbox restrictions, JavaScript and images are turned off in the 
 
 ### Visualize
 
-The **Visualize** view renders the data in the API response according to visualization code that you add to the requests **Tests**. For details on how to add, use, and debug visualization code, see [Visualizing responses](/docs/sending-requests/visualizer/).
+The **Visualize** view renders the data in the API response according to visualization code that you add to the requests **Tests**. For details on how to add, use, and debug visualization code, see [Visualizing responses](/docs/sending-requests/response-data/visualizer/).
 
 ![Response Visualize view](https://assets.postman.com/postman-docs/v10/response-visualize-view-v10-2.jpg)
 
@@ -77,7 +77,7 @@ The **Visualize** view renders the data in the API response according to visuali
 
 You can select **Cookies** to inspect cookies sent by the server. A cookie's entry includes its name, value, the associated domain and path, and other information about the cookie.
 
-To learn more about working with cookies in Postman, see  [Using cookies](/docs/sending-requests/cookies/).
+To learn more about working with cookies in Postman, see  [Using cookies](/docs/sending-requests/response-data/cookies/).
 
 ## Headers
 
@@ -93,7 +93,7 @@ To learn more about running tests against API requests in Postman, see [Writing 
 
 Postman displays network information when your API returns a response. Hover over the network icon <img alt="Network information icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg#icon" width="14px"> to get the local and remote IP addresses for the request you sent.
 
-When you make an `https` request, the network icon includes a padlock. When you hover over the icon, the network information will show more information including [certificate verification](/docs/sending-requests/certificates/) details.
+When you make an `https` request, the network icon includes a padlock. When you hover over the icon, the network information will show more information including [certificate verification](/docs/sending-requests/authorization/certificates/) details.
 
 <img alt="Hover over the network icon for network information" src="https://assets.postman.com/postman-docs/v10/https-network-info-response-v10-18.jpg" width="393px"/>
 
@@ -112,7 +112,7 @@ If you have **SSL verification** turned off and your request returns a certifica
 
 <img alt="Certificate error" src="https://assets.postman.com/postman-docs/v10/certificate-error-in-network-info-v10-18.jpg" width="393px"/>
 
-For requests that are successful and return data but with a certificate verification failure, the [Console](/docs/sending-requests/troubleshooting-api-requests/) displays a warning.
+For requests that are successful and return data but with a certificate verification failure, the [Console](/docs/sending-requests/response-data/troubleshooting-api-requests/) displays a warning.
 
 ## Response code
 
@@ -136,7 +136,7 @@ Postman displays the size of the response. Hover over the response size to get a
 
 If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, you can:
 
-* Select **Save as Example** to save the response as an [example](/docs/sending-requests/examples/) that you can access later.
+* Select **Save as Example** to save the response as an [example](/docs/sending-requests/response-data/examples/) that you can access later.
 * Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then **Save response to file** to save the response as a JSON file.
 * Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then  **Clear response** to remove any data in the response viewer. Note that for event-based requests, this is available after the stream is closed.
 

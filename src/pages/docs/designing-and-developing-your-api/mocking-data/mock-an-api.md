@@ -38,7 +38,7 @@ A _mock server_ enables you to simulate your API without having to configure a r
 
 ## Get started with mock servers in Postman
 
-Before you set up a new mock server, create a [collection](/docs/sending-requests/intro-to-collections/) with the API requests you want to mock, then add [saved examples](/docs/sending-requests/examples/) to each request. The examples have the data you want the mock server to return in response to each request.
+Before you set up a new mock server, create a [collection](/docs/sending-requests/create-requests/intro-to-collections/) with the API requests you want to mock, then add [saved examples](/docs/sending-requests/response-data/examples/) to each request. The examples have the data you want the mock server to return in response to each request.
 
 Once you have your collection, you're ready to [create a new mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). You can then [make calls to the mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#making-requests-to-mock-servers) from Postman or from a client application. The mock server simulates your API's behavior, enabling you to test your API or develop new functionality before your API is production ready.
 

@@ -118,4 +118,4 @@ When you change the folder and request sequence and **Automate runs via CLI** is
 
 ## Running a collection that uses test data files
 
-The Postman CLI can't run requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/requests/#sending-body-data). If your collection has requests that use files, [upload your test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs) to make them available to the Postman CLI.
+The Postman CLI can't run requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/create-requests/parameters/). If your collection has requests that use files, [upload your test data files](/docs/sending-requests/create-requests/test-data/) to make them available to the Postman CLI.

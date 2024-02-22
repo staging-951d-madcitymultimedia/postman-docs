@@ -42,7 +42,7 @@ To use Newman with Docker for macOS or Ubuntu, do the following:
     $ docker pull postman/newman;
     ```
 
-1. Run Newman commands on the image. For example, to run a [collection](/docs/sending-requests/intro-to-collections/), use the collection ID and your Postman API key:
+1. Run Newman commands on the image. For example, to run a [collection](/docs/sending-requests/create-requests/intro-to-collections/), use the collection ID and your Postman API key:
 
     * To get the collection ID, select a collection in the sidebar. Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> and copy the ID.
 
