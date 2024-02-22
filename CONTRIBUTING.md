@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make at [Issues](https://github.com/postmanlabs/postman-docs/issues).
+If you'd like to contribute to this repository, please first contact [Postman's docs team](mailto:docs-feedback@postman.com).
 
 We have a [code of conduct](https://www.postman.com/code-of-conduct) that you're expected to follow in all your interactions with the project.
 
@@ -20,7 +20,7 @@ If you run into issues when running the Learning Center locally, try the followi
 1. Enter `rm -rf node_modules; npm i` to remove all existing packages and perform a fresh install.
 1. Enter `gatsby clean` to clear the cache.
 
-If you still have issues running the Learning Center locally, feel free to [open an issue](https://github.com/postmanlabs/postman-docs/issues).
+If you still have issues running the Learning Center locally, contact [Postman's docs team](mailto:docs-feedback@postman.com).
 
 ### Workflow
 
