@@ -59,7 +59,7 @@ To publish the documentation for a collection, do the following:
     * **Custom domain** - Select a [custom domain](/docs/publishing-your-api/custom-doc-domains/) where you want to publish your documentation.
     * **Default layout** - Select a layout style for your documentation. **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
     * **Default Theme** - Select a light or dark theme for your documentation. You can also choose to use the system theme. Your documentation will use the selected theme by default, but users can switch between themes.
-    * **Logo** - By default, public documentation uses your [team logo](/docs/administration/managing-your-team/team-settings/#editing-your-team-profile). You can also select a custom logo for each theme (light and dark):
+    * **Logo** - By default, public documentation uses your [team logo](/docs/administration/managing-your-team/team-settings/#edit-your-team-profile). You can also select a custom logo for each theme (light and dark):
 
         * To add a logo, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and select **Upload**. Drag and drop an image file, or select an image file. Drag the handles to adjust the part of the image you want to display, then select **Upload**.
         * To delete a logo, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and select **Delete**.
