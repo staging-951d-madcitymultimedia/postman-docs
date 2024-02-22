@@ -45,15 +45,15 @@ While you're in the lightweight API Client, you can create new requests, send re
     >
     > <img alt="Switching the request type" src="https://assets.postman.com/postman-docs/v10/api-client-switch-request-type-v10-14.jpg" width="320px">
 
-* Select **Send** to send a request and view the response. Learn more about [receiving responses](/docs/sending-requests/responses/).
+* Select **Send** to send a request and view the response. Learn more about [receiving responses](/docs/sending-requests/response-data/responses/).
 
 * The sidebar shows a history of the requests you've sent. Select a request in the history to open it in a new tab. Learn more about [viewing your request history](/docs/getting-started/basics/navigating-postman/#history).
 
-* You can also use the lightweight API Client to write and execute [test scripts](/docs/writing-scripts/pre-request-scripts/) and to [visualize response data](/docs/sending-requests/visualizer/).
+* You can also use the lightweight API Client to write and execute [test scripts](/docs/writing-scripts/pre-request-scripts/) and to [visualize response data](/docs/sending-requests/response-data/visualizer/).
 
 ## Moving from the lightweight API Client to a workspace
 
-[Workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/) enable you to organize your Postman work and collaborate with teammates. When you're in a workspace, you can save requests to [collections](/docs/collections/using-collections/), use [environments](/docs/sending-requests/environments/managing-environments/) and [variables](/docs/sending-requests/variables/), build [APIs](/docs/designing-and-developing-your-api/the-api-workflow/), and more.
+[Workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/) enable you to organize your Postman work and collaborate with teammates. When you're in a workspace, you can save requests to [collections](/docs/collections/using-collections/), use [environments](/docs/sending-requests/variables/managing-environments/) and [variables](/docs/sending-requests/variables/variables/), build [APIs](/docs/designing-and-developing-your-api/the-api-workflow/), and more.
 
 To switch to a workspace, you need to sign up for a Postman account or sign in to your existing Postman account. You can move all of your open requests and history from the lightweight API Client to your workspace, so you can pick up right where you left off.
 

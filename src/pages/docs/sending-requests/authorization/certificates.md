@@ -1,5 +1,5 @@
 ---
-title: "Add and manage digital certificates in Postman"
+title: "Add and manage CA and client certificates in Postman"
 updated: 2023-07-15
 contextual_links:
   - type: section
@@ -15,7 +15,7 @@ You can add and manage certificates in Postman to enable authentication when sen
 
 To connect to an API that uses Mutual TLS (mTLS), you need to add a client certificate to Postman. Mutual TLS is an authentication method that requires both the client and the server to confirm their identity with a certificate. Once the identity of both parties is confirmed, an encrypted connection is established.
 
-You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that's registered with an internal certificate registry, requests sent from Postman will fail with a "self signed certificate" error. Adding a custom CA certificate will enable you to send requests to the endpoint without needing to [turn off SSL verification](#troubleshooting-certificate-errors).
+You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that's registered with an internal certificate registry, requests sent from Postman will fail with _SSL Error: Self signed certificate_. Adding a custom CA certificate will enable you to send requests to the endpoint without needing to [turn off SSL verification](#troubleshooting-certificate-errors).
 
 > If you're using the Postman web app to add and manage certificates, you must use the [Postman Desktop Agent](/docs/getting-started/basics/about-postman-agent/#the-postman-desktop-agent).
 
@@ -88,7 +88,7 @@ After adding a client certificate, you don't have to perform any extra steps to 
 
 ### Confirming a certificate was sent
 
-You can confirm that a certificate was sent using the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/). Open the Postman Console by selecting **Console** in the Postman footer, and then send a request.
+You can confirm that a certificate was sent using the [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/). Open the Postman Console by selecting **Console** in the Postman footer, and then send a request.
 
 In the example below, Postman sent the certificate because the request used `https://`. You can expand the request to view details about the certificate that was sent with the request.
 
@@ -118,6 +118,6 @@ If SSL verification is turned off, you can hover over the network icon <img alt=
 
 ![Network information error](https://assets.postman.com/postman-docs/v10/certificates-network-error-v10.jpg)
 
-You can also find more information about certificate errors in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
+You can also find more information about certificate errors in the [Postman Console](/docs/sending-requests/response-data/troubleshooting-api-requests/).
 
 ![Console certificate error](https://assets.postman.com/postman-docs/certificates-console-error-v9-14.jpg)

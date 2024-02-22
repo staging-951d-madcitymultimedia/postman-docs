@@ -53,7 +53,7 @@ You can [manage access](/docs/administration/managing-your-team/manage-team-prod
 
 ## Configure team settings
 
-You can manage a variety of settings in your [team settings dashboard](/docs/administration/managing-your-team/team-settings/#accessing-team-settings). From the dashboard, you can configure items such as your team's [profile](/docs/administration/managing-your-team/team-settings/#managing-your-team-profile), [discoverability](/docs/administration/managing-your-team/team-settings/#making-your-team-discoverable), [custom domains](/docs/administration/managing-your-team/team-settings/#adding-custom-domains), and [authentication methods](/docs/administration/managing-your-team/team-settings/#editing-authentication-methods).
+You can manage a variety of settings in your [team settings dashboard](/docs/administration/managing-your-team/team-settings/#access-team-settings). From the dashboard, you can configure items such as your team's [profile](/docs/administration/managing-your-team/team-settings/#manage-your-team-profile), [discoverability](/docs/administration/managing-your-team/team-settings/#make-your-team-discoverable), [custom domains](/docs/administration/managing-your-team/team-settings/#adding-custom-domains), and [authentication methods](/docs/administration/managing-your-team/team-settings/#edit-authentication-methods).
 
 ## Secure your Postman team
 

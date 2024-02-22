@@ -199,7 +199,7 @@ The following roles control access at an API level:
 
 ## Environment roles
 
-You can [assign](/docs/sending-requests/environments/team-environments/#manage-environment-roles) two role types for Postman environments: **Editor** and **Viewer**.
+You can [assign](/docs/sending-requests/variables/team-environments/#manage-environment-roles) two role types for Postman environments: **Editor** and **Viewer**.
 
 * **Editor** - Can edit and manage environments
 * **Viewer** - Can view and use environments

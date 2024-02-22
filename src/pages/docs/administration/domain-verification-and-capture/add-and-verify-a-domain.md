@@ -1,5 +1,5 @@
 ---
-title: "Verify your organization’s domain in Postman"
+title: "Verify your organization's domain in Postman"
 updated: 2023-10-03
 contextual_links:
   - type: section

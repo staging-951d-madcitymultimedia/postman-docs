@@ -64,3 +64,5 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 * **Download** - The zipped file is ready to download.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
+
+After exporting, you can import the data into any Postman instance. You must unzip the exported file before [importing the data into Postman](/docs/getting-started/importing-and-exporting/importing-data/#import-postman-data).

@@ -91,9 +91,9 @@ After you [set up Postman](#set-up-postman-in-your-organization), enable your te
 
 Super Admins and Team Admins can [configure your team settings](/docs/administration/managing-your-team/team-settings/) to ensure people in your organization can find and join your team. You can also keep your team profile updated for your API's consumers.
 
-You can [make your team discoverable](/docs/administration/managing-your-team/team-settings/#making-your-team-discoverable) to enable people in your organization to find and join your team. When team discovery is enabled, Postman displays a list of teams to join when users in your organization access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one.
+You can [make your team discoverable](/docs/administration/managing-your-team/team-settings/#make-your-team-discoverable) to enable people in your organization to find and join your team. When team discovery is enabled, Postman displays a list of teams to join when users in your organization access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one.
 
-You can also [manage your team profile](/docs/administration/managing-your-team/team-settings/#managing-your-team-profile) to share information about your team with other Postman users. This ensures your API's consumers have important details about your team's public resources.
+You can also [manage your team profile](/docs/administration/managing-your-team/team-settings/#manage-your-team-profile) to share information about your team with other Postman users. This ensures your API's consumers have important details about your team's public resources.
 
 ### Manage team members
 

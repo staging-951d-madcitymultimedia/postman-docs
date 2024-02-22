@@ -52,7 +52,7 @@ You can share your collections, requests, examples, collection folders, APIs, Fl
 * For collections, APIs, Flows, and environments, open the element you want to share, then select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share** from the element's overview page.
 * Hover over the element's name in the overview page and select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to copy the element's URL to the clipboard.
 * For requests and collection folders, you can also select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share and select **Copy link** to copy the element's URL to the clipboard.
-* To share a URL to a collection, collection folder, request, or example with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/environments/managing-environments/#switch-between-environments), copy the element's link to your clipboard, then send the link to team members you want to share with.
+* To share a URL to a collection, collection folder, request, or example with an active environment selected, [choose an environment using the environment selector](/docs/sending-requests/variables/managing-environments/#switch-between-environments), copy the element's link to your clipboard, then send the link to team members you want to share with.
 
 ### Sharing using names, emails, or groups
 

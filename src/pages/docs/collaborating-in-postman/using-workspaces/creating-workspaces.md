@@ -60,17 +60,19 @@ _Workspace as an element_ represents a whole container where being an Admin give
 
 1. To create a new workspace, select **Workspaces** in the header, then select **Create Workspace**.
 
-    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/workspace-switcher-v10.14.jpg" width="300px"/>
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-from-dropdown-v10.23.0.jpg" width="450px"/>
 
 1. You can select a [workspace template](#apply-a-template-to-a-workspace) like the API development template, the API testing template, and others to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections and environments, or select **Blank workspace** to create an empty workspace. Then select **Next**.
 
     > You can also apply a workspace template to a newly created workspace. To learn more, see [Apply a template to a workspace](#apply-a-template-to-a-workspace).
 
-    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10-2.jpg"/>
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-templates-v10.23.jpg"/>
 
-1. Use the visibility menu to choose a **Personal**, **Private**, **Team**, **Partner**, or **Public** workspace.
+1. Enter a **Name** for your workspace.
 
-    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-v10-3.jpg" width="400px"/>
+1. Use the visibility menu to choose a **Personal**, **Private**, **Partner**, **Team**, or **Public** workspace.
+
+    <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-visibility-v10.23.0.jpg" width="400px"/>
 
     ([Enterprise plans only](https://www.postman.com/pricing/)) If your [team manages who can create team workspaces](/docs/administration/managing-your-team/manage-team-workspaces/), users without permission to create team workspaces must submit a request for approval by a [Super Admin, Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), or user with permission to create team workspaces. You can also add an optional note to your request. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until your request is approved. Postman will notify you whether your request is approved or denied.
 

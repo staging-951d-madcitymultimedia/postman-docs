@@ -102,7 +102,7 @@ Once you've reached your usage limit, you will no longer be able to run performa
 
 ## Test data usage
 
-Test data is made up of the data files you use to test various scenarios for your API. Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for [uploaded test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs). Your plan also gives you a limited number of retrievals of uploaded files each month.
+Test data is made up of the data files you use to test various scenarios for your API. Your [Postman plan](https://www.postman.com/pricing/) gives you a limited amount of storage space you can use for [uploaded test data files](/docs/sending-requests/create-requests/test-data/). Your plan also gives you a limited number of retrievals of uploaded files each month.
 
 You can check your test data usage on the [Resource Usage dashboard](https://go.postman.co/billing/add-ons/overview). You can view the amount of test data storage your team is using and the number of times test data has been retrieved from Postman. Test data is retrieved each time a request that uses an uploaded file is sent manually or automatically from a [scheduled collection run](/docs/collections/running-collections/scheduling-collection-runs/), [monitor](/docs/monitoring-your-api/intro-monitors/), [Postman Flow](/docs/postman-flows/gs/flows-overview/), or the [Postman CLI](/docs/postman-cli/postman-cli-overview/). Multiple instances of the same file in a collection run or monitor run count as a single retrieval.
 

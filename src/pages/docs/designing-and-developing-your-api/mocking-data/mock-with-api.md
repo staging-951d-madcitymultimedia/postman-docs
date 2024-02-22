@@ -25,15 +25,15 @@ Setting up a [mock server](/docs/designing-and-developing-your-api/mocking-data/
 
 ## Step 1: Set up a collection for mocking
 
-In Postman, [create a new collection](/docs/sending-requests/intro-to-collections/#creating-collections) called `testAPI`. Optionally, you can also [create a new environment](/docs/sending-requests/environments/managing-environments/) called `testAPIEnv`. For this demonstration, you will set up a mock server that enables you to simulate each endpoint in the `testAPI` collection and view their responses.
+In Postman, [create a new collection](/docs/collections/using-collections/) called `testAPI`. Optionally, you can also [create a new environment](/docs/sending-requests/variables/managing-environments/) called `testAPIEnv`. For this demonstration, you will set up a mock server that enables you to simulate each endpoint in the `testAPI` collection and view their responses.
 
-[Add a new request](/docs/sending-requests/requests/#creating-requests) to the `testAPI` collection. In the example below, the collection has one request called `Request 1` that sends a `GET` request to `https://postman-echo.com/get?test=123`. Feel free to add more requests if you like.
+[Add a new request](/docs/sending-requests/create-requests/create-requests/) to the `testAPI` collection. In the example below, the collection has one request called `Request 1` that sends a `GET` request to `https://postman-echo.com/get?test=123`. Feel free to add more requests if you like.
 
-To send the request, open the first request in the collection and select **Send**. Then, in the response pane, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**. Repeat this process for each request in the collection. Your mock server uses these [saved examples](/docs/sending-requests/examples/) to return mock data.
+To send the request, open the first request in the collection and select **Send**. Then, in the response pane, select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save as Example**. Repeat this process for each request in the collection. Your mock server uses these [saved examples](/docs/sending-requests/response-data/examples/) to return mock data.
 
 <img alt="Response saved as an example" src="https://assets.postman.com/postman-docs/v10/mock-api-saved-example-v10.jpg" width="893px">
 
-> You can [edit an example](/docs/sending-requests/examples/#editing-an-example) to include the specific response body, header, or status code that you want the mocked endpoint to return. A request can have more than one example, in which case the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return.
+> You can [edit an example](/docs/sending-requests/response-data/examples/#editing-an-example) to include the specific response body, header, or status code that you want the mocked endpoint to return. A request can have more than one example, in which case the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return.
 
 ## Step 2: Retrieve the collection ID
 

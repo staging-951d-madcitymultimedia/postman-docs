@@ -1,5 +1,21 @@
 [
   {
+    "from": "/docs/collections/live-collections/update-live-collections/",
+    "to": "/docs/collections/collections-overview/"
+  },
+  {
+    "from": "/docs/collections/live-collections/live-collections-setup/",
+    "to": "/docs/collections/collections-overview/"
+  },
+  {
+    "from": "/docs/collections/live-collections/live-collections-settings/",
+    "to": "/docs/collections/collections-overview/"
+  },
+  {
+    "from": "/docs/collections/live-collections/live-collections-overview/",
+    "to": "/docs/collections/collections-overview/"
+  },
+  {
     "from": "/docs/postman-flows/flows-intro/chaining-requests-with-data/",
     "to": "/docs/postman-flows/tutorials/send-information-from-one-system-to-another/"
   },
@@ -665,11 +681,11 @@
   },
   {
     "from": "/docs/postman/collections/creating-collections/",
-    "to": "/docs/sending-requests/intro-to-collections/"
+    "to": "/docs/sending-requests/create-requests/intro-to-collections/"
   },
   {
     "from": "/docs/postman/collections/creating_collections/",
-    "to": "/docs/sending-requests/intro-to-collections/"
+    "to": "/docs/sending-requests/create-requests/intro-to-collections/"
   },
   {
     "from": "/docs/postman/collections/data-formats/",
@@ -681,7 +697,7 @@
   },
   {
     "from": "/docs/postman/collections/examples/",
-    "to": "/docs/sending-requests/examples/"
+    "to": "/docs/sending-requests/response-data/examples/"
   },
   {
     "from": "/docs/postman/collections/importing-and-exporting-data/",
@@ -693,19 +709,19 @@
   },
   {
     "from": "/docs/postman/collections/intro-to-collections/",
-    "to": "/docs/sending-requests/intro-to-collections/"
+    "to": "/docs/sending-requests/create-requests/intro-to-collections/"
   },
   {
     "from": "/docs/postman/collections/intro_to_collections/",
-    "to": "/docs/sending-requests/intro-to-collections/"
+    "to": "/docs/sending-requests/create-requests/intro-to-collections/"
   },
   {
     "from": "/docs/postman/collections/managing-collections/",
-    "to": "/docs/sending-requests/intro-to-collections/"
+    "to": "/docs/sending-requests/create-requests/intro-to-collections/"
   },
   {
     "from": "/docs/postman/collections/managing_collections/",
-    "to": "/docs/sending-requests/intro-to-collections/"
+    "to": "/docs/sending-requests/create-requests/intro-to-collections/"
   },
   {
     "from": "/docs/postman/collections/requesting-access-to-collections/",
@@ -725,11 +741,11 @@
   },
   {
     "from": "/docs/postman/collections/using-markdown-for-descriptions/",
-    "to": "/docs/sending-requests/intro-to-collections/"
+    "to": "/docs/sending-requests/create-requests/intro-to-collections/"
   },
   {
     "from": "/docs/postman/collections/using_markdown_for_descriptions/",
-    "to": "/docs/sending-requests/intro-to-collections/"
+    "to": "/docs/sending-requests/create-requests/intro-to-collections/"
   },
   {
     "from": "/docs/postman/collections/version-control-for-collections/",
@@ -837,23 +853,23 @@
   },
   {
     "from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
-    "to": "/docs/sending-requests/environments/managing-environments/"
+    "to": "/docs/sending-requests/variables/managing-environments/"
   },
   {
     "from": "/docs/postman/environments-and-globals/manage-environments/",
-    "to": "/docs/sending-requests/environments/managing-environments/"
+    "to": "/docs/sending-requests/variables/managing-environments/"
   },
   {
     "from": "/docs/postman/environments-and-globals/manage-globals/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/environments-and-globals/sessions/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/environments-and-globals/variables-complete-reference/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/environments-and-globals/variables-list/",
@@ -861,31 +877,31 @@
   },
   {
     "from": "/docs/postman/environments-and-globals/variables/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/environments_and_globals/intro_to_environments_and_globals/",
-    "to": "/docs/sending-requests/environments/managing-environments/"
+    "to": "/docs/sending-requests/variables/managing-environments/"
   },
   {
     "from": "/docs/postman/environments_and_globals/manage_environments/",
-    "to": "/docs/sending-requests/environments/managing-environments/"
+    "to": "/docs/sending-requests/variables/managing-environments/"
   },
   {
     "from": "/docs/postman/environments_and_globals/manage_globals/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/environments_and_globals/sessions/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/environments_and_globals/variables/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/environments_and_globals/variables_complete_reference/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/environments_and_globals/variables_list/",
@@ -1197,19 +1213,19 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/certificates/",
-    "to": "/docs/sending-requests/certificates/"
+    "to": "/docs/sending-requests/authorization/certificates/"
   },
   {
     "from": "/docs/postman/sending-api-requests/cookies/",
-    "to": "/docs/sending-requests/cookies/"
+    "to": "/docs/sending-requests/response-data/cookies/"
   },
   {
     "from": "/docs/postman/sending-api-requests/debugging-and-logs/",
-    "to": "/docs/sending-requests/troubleshooting-api-requests/"
+    "to": "/docs/sending-requests/response-data/troubleshooting-api-requests/"
   },
   {
     "from": "/docs/postman/sending-api-requests/generate-code-snippets/",
-    "to": "/docs/sending-requests/generate-code-snippets/"
+    "to": "/docs/sending-requests/create-requests/generate-code-snippets/"
   },
   {
     "from": "/docs/postman/sending-api-requests/graphql/",
@@ -1241,11 +1257,11 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/responses/",
-    "to": "/docs/sending-requests/responses/"
+    "to": "/docs/sending-requests/response-data/responses/"
   },
   {
     "from": "/docs/postman/sending-api-requests/troubleshooting-api-requests/",
-    "to": "/docs/sending-requests/troubleshooting-api-requests/"
+    "to": "/docs/sending-requests/response-data/troubleshooting-api-requests/"
   },
   {
     "from": "/docs/postman/sending-api-requests/validating-requests-against-schema/",
@@ -1253,7 +1269,7 @@
   },
   {
     "from": "/docs/postman/sending-api-requests/visualizer/",
-    "to": "/docs/sending-requests/visualizer/"
+    "to": "/docs/sending-requests/response-data/visualizer/"
   },
   {
     "from": "/docs/postman/sending-api-requests/working-with-tabs/",
@@ -1269,19 +1285,19 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/certificates/",
-    "to": "/docs/sending-requests/certificates/"
+    "to": "/docs/sending-requests/authorization/certificates/"
   },
   {
     "from": "/docs/postman/sending_api_requests/cookies/",
-    "to": "/docs/sending-requests/cookies/"
+    "to": "/docs/sending-requests/response-data/cookies/"
   },
   {
     "from": "/docs/postman/sending_api_requests/debugging_and_logs/",
-    "to": "/docs/sending-requests/troubleshooting-api-requests/"
+    "to": "/docs/sending-requests/response-data/troubleshooting-api-requests/"
   },
   {
     "from": "/docs/postman/sending_api_requests/generate_code_snippets/",
-    "to": "/docs/sending-requests/generate-code-snippets/"
+    "to": "/docs/sending-requests/create-requests/generate-code-snippets/"
   },
   {
     "from": "/docs/postman/sending_api_requests/graphql/",
@@ -1313,11 +1329,11 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/responses/",
-    "to": "/docs/sending-requests/responses/"
+    "to": "/docs/sending-requests/response-data/responses/"
   },
   {
     "from": "/docs/postman/sending_api_requests/troubleshooting_api_requests/",
-    "to": "/docs/sending-requests/troubleshooting-api-requests/"
+    "to": "/docs/sending-requests/response-data/troubleshooting-api-requests/"
   },
   {
     "from": "/docs/postman/sending_api_requests/validating_requests_against_schema/",
@@ -1325,7 +1341,7 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/visualizer/",
-    "to": "/docs/sending-requests/visualizer/"
+    "to": "/docs/sending-requests/response-data/visualizer/"
   },
   {
     "from": "/docs/postman/sending_api_requests/working_with_tabs/",
@@ -1381,7 +1397,7 @@
   },
   {
     "from": "/docs/postman/variables-and-environments/managing-environments/",
-    "to": "/docs/sending-requests/environments/managing-environments/"
+    "to": "/docs/sending-requests/variables/managing-environments/"
   },
   {
     "from": "/docs/postman/variables-and-environments/variables-list/",
@@ -1389,15 +1405,15 @@
   },
   {
     "from": "/docs/postman/variables-and-environments/variables/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/variables_and_environments/managing_environments/",
-    "to": "/docs/sending-requests/environments/managing-environments/"
+    "to": "/docs/sending-requests/variables/managing-environments/"
   },
   {
     "from": "/docs/postman/variables_and_environments/variables/",
-    "to": "/docs/sending-requests/variables/"
+    "to": "/docs/sending-requests/variables/variables/"
   },
   {
     "from": "/docs/postman/variables_and_environments/variables_list/",
@@ -1757,7 +1773,7 @@
   },
   {
     "from": "/docs/sending-and-viewing-responses/responses/",
-    "to": "/docs/sending-requests/responses/"
+    "to": "/docs/sending-requests/response-data/responses/"
   },
   {
     "from": "/docs/sending-requests/",
@@ -1773,7 +1789,7 @@
   },
   {
     "from": "/docs/sending_and_viewing_responses/responses/",
-    "to": "/docs/sending-requests/responses/"
+    "to": "/docs/sending-requests/response-data/responses/"
   },
   {
     "from": "/docs/sending_requests/",
@@ -2169,7 +2185,7 @@
   },
   {
     "from": "/docs/postman/sending_api_requests/cookies/).%20%20",
-    "to": "/docs/sending-requests/cookies/"
+    "to": "/docs/sending-requests/response-data/cookies/"
   },
   {
     "from": "/docs/postman/launching_postman/installation_and_updates/%E3%80%82",
@@ -2381,10 +2397,58 @@
   },
   {
     "from": "/docs/sending-requests/managing-environments/",
-    "to": "/docs/sending-requests/environments/managing-environments/"
+    "to": "/docs/sending-requests/variables/managing-environments/"
   },
   {
     "from": "/docs/sending-requests/graphql/graphql-client-overview/",
     "to": "/docs/sending-requests/graphql/graphql-overview/"
+  },
+  {
+    "from": "/docs/sending-requests/intro-to-collections/",
+    "to": "/docs/sending-requests/create-requests/intro-to-collections/"
+  },
+  {
+    "from": "/docs/sending-requests/generate-code-snippets/",
+    "to": "/docs/sending-requests/create-requests/generate-code-snippets/"
+  },
+  {
+    "from": "/docs/sending-requests/certificates/",
+    "to": "/docs/sending-requests/authorization/certificates/"
+  },
+  {
+    "from": "/docs/sending-requests/responses/",
+    "to": "/docs/sending-requests/response-data/responses/"
+  },
+  {
+    "from": "/docs/sending-requests/visualizer/",
+    "to": "/docs/sending-requests/response-data/visualizer/"
+  },
+  {
+    "from": "/docs/sending-requests/examples/",
+    "to": "/docs/sending-requests/response-data/examples/"
+  },
+  {
+    "from": "/docs/sending-requests/cookies/",
+    "to": "/docs/sending-requests/response-data/cookies/"
+  },
+  {
+    "from": "/docs/sending-requests/troubleshooting-api-requests/",
+    "to": "/docs/sending-requests/response-data/troubleshooting-api-requests/"
+  },
+  {
+    "from": "/docs/sending-requests/variables/",
+    "to": "/docs/sending-requests/variables/variables/"
+  },
+  {
+    "from": "/docs/sending-requests/environments/managing-environments/",
+    "to": "/docs/sending-requests/variables/managing-environments/"
+  },
+  {
+    "from": "/docs/sending-requests/environments/environment-variables/",
+    "to": "/docs/sending-requests/variables/environment-variables/"
+  },
+  {
+    "from": "/docs/sending-requests/environments/team-environments/",
+    "to": "/docs/sending-requests/variables/team-environments/"
   }
 ]

@@ -11,7 +11,7 @@ You can install the code generator library from [npm](https://www.npmjs.com/pack
 
 To get started using the code generator module, [check out the instructions for installation and usage in the project repo on GitHub](https://github.com/postmanlabs/postman-code-generators).
 
-> You can also generate client code for a request or collection [in Postman](/docs/sending-requests/generate-code-snippets/).
+> You can also generate client code for a request or collection [in Postman](/docs/sending-requests/create-requests/generate-code-snippets/).
 
 ## Contents
 

@@ -27,7 +27,7 @@ Before making your APIs available on [the Postman Public API Network](/docs/gett
 
 ## Customizing your team profile
 
-[Customize your team profile](/docs/administration/managing-your-team/team-settings/#managing-your-team-profile) with important information about your team. Add information that identifies you as the real company on the Public API Network. By default, your profile is only visible to your Postman team. [Make your team profile public](/docs/administration/managing-your-team/team-settings/#making-your-team-profile-public) to make your profile show up on Postman's [Explore](https://www.postman.com/explore) page.
+[Customize your team profile](/docs/administration/managing-your-team/team-settings/#manage-your-team-profile) with important information about your team. Add information that identifies you as the real company on the Public API Network. By default, your profile is only visible to your Postman team. [Make your team profile public](/docs/administration/managing-your-team/team-settings/#make-your-team-profile-public) to make your profile show up on Postman's [Explore](https://www.postman.com/explore) page.
 
 <img alt="Edit your team profile" src="https://assets.postman.com/postman-docs/v10/team-settings-edit-profile-v10.jpg" width="700px"/>
 
@@ -45,11 +45,11 @@ You can [create collections](/docs/collections/using-collections/#creating-colle
 
 ### Creating environments for different use cases
 
-You can [create environments](/docs/sending-requests/environments/managing-environments/) for different use cases, such as testing and production, and add them to your public workspace. This helps consumers understand what they need to configure with your API for their use case.
+You can [create environments](/docs/sending-requests/variables/managing-environments/) for different use cases, such as testing and production, and add them to your public workspace. This helps consumers understand what they need to configure with your API for their use case.
 
 ### Protecting sensitive data
 
-When [creating and sharing environment variables](/docs/sending-requests/environments/managing-environments/#add-environment-variables), specify example values as the Initial value for the variable. Don't add sensitive data as the Initial value because it's shared with users who can access the environment. The Current value is used in your local instance of Postman, and is never synced to your account or shared with your team unless you choose to persist it.
+When [creating and sharing environment variables](/docs/sending-requests/variables/managing-environments/#add-environment-variables), specify example values as the Initial value for the variable. Don't add sensitive data as the Initial value because it's shared with users who can access the environment. The Current value is used in your local instance of Postman, and is never synced to your account or shared with your team unless you choose to persist it.
 
 ![Add Environment](https://assets.postman.com/postman-docs/v10/environment-editor-v10-18.jpg)
 
@@ -67,7 +67,7 @@ To learn more about writing detailed documentation, see [The Good Documentation 
 
 ### Defining and describing variables
 
-For your [variables](/docs/sending-requests/variables/), you can write documentation describing the expected value and provide example values. Variables can be defined independently or stored within environments, and then applied across collections, enabling you to use variables for authentication, pagination, and other aspects of working with APIs. Variables can also define a state across multiple APIs and collections.
+For your [variables](/docs/sending-requests/variables/variables/), you can write documentation describing the expected value and provide example values. Variables can be defined independently or stored within environments, and then applied across collections, enabling you to use variables for authentication, pagination, and other aspects of working with APIs. Variables can also define a state across multiple APIs and collections.
 
 ### Writing descriptions for folders and requests
 
@@ -79,7 +79,7 @@ To learn more about collections and folders, see [Using collections](/docs/colle
 
 ### Adding examples to requests
 
-Save [examples](/docs/sending-requests/examples/) of your API's requests, responses, and messages to [use examples in your documentation](/docs/sending-requests/examples/#using-examples-in-documentation). This enables consumers to test your API using example data.
+Save [examples](/docs/sending-requests/response-data/examples/) of your API's requests, responses, and messages to [use examples in your documentation](/docs/sending-requests/response-data/examples/#using-examples-in-documentation). This enables consumers to test your API using example data.
 
 <img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/documentation-including-examples-v9.jpg" width="663px">
 

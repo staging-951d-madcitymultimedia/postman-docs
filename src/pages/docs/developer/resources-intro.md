@@ -27,7 +27,7 @@ Check out the pages in this section for an intro to developer resources that ena
 * [Postman Collection Format documentation](https://learning.postman.com/collection-format/)
     * The Collection Format is the specification that drives collections in Postman. It's portable and provides a unique interface for organizing API requests and modeling API workflows. It's machine and human-readable and can be used to generate client and server-side SDKs, documentation, and mock servers. Learn more at the Postman Collection Format documentation.
 * [Postman Collection SDK](/docs/developer/collection-sdk/)
-    * The Postman Collection SDK is a JavaScript module for working with Postman [collections](/docs/sending-requests/intro-to-collections/).
+    * The Postman Collection SDK is a JavaScript module for working with Postman [collections](/docs/sending-requests/create-requests/intro-to-collections/).
 * [Runtime library](/docs/developer/runtime-library/)
     * The Runtime library powers Postman request sending functionality.
 * [Code generators](/docs/developer/code-generators/)

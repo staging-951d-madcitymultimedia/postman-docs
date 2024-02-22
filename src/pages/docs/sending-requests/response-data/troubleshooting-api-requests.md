@@ -25,9 +25,18 @@ If your API request isn't behaving as expected, there can be many possible reaso
 
 ## Contents
 
+* [Troubleshooting your requests](#troubleshooting-your-requests)
 * [Debugging in the Console](#debugging-in-the-console)
 * [Common issues](#common-issues)
 * [Getting help](#getting-help)
+
+## Troubleshooting your requests
+
+Postman will indicate any whitespace or invalid characters in parts of your request that may not function as expected so that you can rectify your values. Invalid characters are highlighted in the request method, URL (including the path), parameters, headers (including your key names), and body.
+
+<img alt="Invalid Characters" src="https://assets.postman.com/postman-docs/invalid-character-message-v9.jpg" width="400px"/>
+
+If Postman isn't able to send your request or doesn't receive a response, you will get a message with details about the error. Select __View in Console__ to get an overview of your request and to help identify the source of the issue.
 
 ## Debugging in the Console
 
@@ -88,15 +97,15 @@ Issue | Resolving the issue
 **Connectivity** | If Postman fails to send your request, you may be experiencing connectivity issues. Check your connection by attempting to open a page in your web browser.
 **Firewalls** | Some firewalls may be configured to block non-browser connections. If this happens you will need to contact your network administrators for Postman to work.
 **Proxy configuration** | If you are using a proxy server to make requests, check your configuration. By default, Postman uses the proxy settings configured in your operating system's network settings. The [Postman Console](#debugging-in-the-console) will provide debugging information regarding proxy servers.
-**SSL certificates** | You may experience issues using HTTPS connections. You can turn off **SSL certificate verification** in [Settings](/docs/getting-started/installation/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **> Settings > General**. If that doesn't help, your server might be using a client-side SSL connection, which you can configure by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> > **Settings > Certificates**. Use the [Postman Console](#debugging-in-the-console) to ensure that the correct SSL certificate is being sent to the server. Learn more about [working with certificates](/docs/sending-requests/certificates/).
-**Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in [Settings](/docs/getting-started/installation/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **> Settings > Certificates**.
+**SSL certificates** | You may experience issues using HTTPS connections. You can turn off **SSL certificate verification** in [Settings](/docs/getting-started/installation/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> then **Settings > General**. If that doesn't help, your server might be using a client-side SSL connection, which you can configure by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> then **Settings > Certificates**. Use the [Postman Console](#debugging-in-the-console) to ensure that the correct SSL certificate is being sent to the server. Learn more about [working with certificates](/docs/sending-requests/authorization/certificates/).
+**Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/authorization/certificates/) in [Settings](/docs/getting-started/installation/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> then **Settings > Certificates**.
 **Wrong request URLs** | If you are using variables or path parameters with your request, make sure the final address is correct by opening the [Postman Console](#debugging-in-the-console), which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
 **Wrong protocol** | Check if you're using `https://` instead of `http://` in your URL (or the opposite).
-**Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. To avoid this issue, increase the **Request timeout** in [Settings](/docs/getting-started/installation/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **> Settings > General**.
+**Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. To avoid this issue, increase the **Request timeout** in [Settings](/docs/getting-started/installation/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> then **Settings > General**.
 **Invalid responses** | If your server sends the wrong response encoding errors, or invalid headers, Postman may fail to interpret the response.
 **TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
 **Postman errors** | It's possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, contact the Postman team using the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
-**Unresolved variables** | An unresolved variable isn't defined in an active scope that's available for the request it’s used in. For more information on why this happens and how to solve the problem, see [Fixing unresolved variables](/docs/sending-requests/variables/#fixing-unresolved-variables).
+**Unresolved variables** | An unresolved variable isn't defined in an active scope that's available for the request it’s used in. For more information on why this happens and how to solve the problem, see [Fixing unresolved variables](/docs/sending-requests/variables/variables/#fixing-unresolved-variables).
 **CORS** |If the [Postman web app](/docs/getting-started/installation/installation-and-updates/#use-the-postman-web-app) fails to send your request, you may be experiencing a cross-origin resource sharing (CORS) error. Make sure you're using the best [Postman Agent](/docs/getting-started/basics/about-postman-agent/) for your request.
 
 ## Getting help

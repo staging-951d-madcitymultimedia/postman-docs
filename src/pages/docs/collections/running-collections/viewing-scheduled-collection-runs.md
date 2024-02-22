@@ -80,7 +80,7 @@ Select a bar in the graph and select **Test Results** to get more detailed infor
 
 ### Console log
 
-Select a bar in the graph and select **Console Log** to view details about the run and the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a collection run such as preparing run, running, rerunning, and the run result, along with error and test failure information. Selecting a request in the Console log will open it in a tab, allowing you to review and edit the request as needed.
+Select a bar in the graph and select **Console Log** to view details about the run and the [`console.log`](/docs/sending-requests/response-data/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a collection run such as preparing run, running, rerunning, and the run result, along with error and test failure information. Selecting a request in the Console log will open it in a tab, allowing you to review and edit the request as needed.
 
 [![Console log](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)
 

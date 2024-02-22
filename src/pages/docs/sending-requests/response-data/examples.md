@@ -41,13 +41,13 @@ Examples are useful in several ways. Developers and testers can refer to example
 
 ## Adding an example
 
-An example is always associated with a [request](/docs/sending-requests/requests/) in a [collection](/docs/sending-requests/intro-to-collections/), and a request can have more than one example. To add an example to a request, send the request and then save the response as an example. You can also manually add an example to a request and define a custom response. After adding an example using either method, you can edit it at any time to make changes.
+An example is always associated with a [request](/docs/sending-requests/create-requests/create-requests/) in a [collection](/docs/sending-requests/create-requests/intro-to-collections/), and a request can have more than one example. To add an example to a request, send the request and then save the response as an example. You can also manually add an example to a request and define a custom response. After adding an example using either method, you can edit it at any time to make changes.
 
 > For optimal Postman performance, example responses must be smaller than 5 MB.
 
 ### Saving a response as an example
 
-When saving a [response](/docs/sending-requests/responses/) in Postman, you have the option to save it as an example.
+When saving a [response](/docs/sending-requests/response-data/responses/) in Postman, you have the option to save it as an example.
 
 1. Select **Collections** in the sidebar.
 1. Open a request and select **Send**.
@@ -61,7 +61,7 @@ When saving a [response](/docs/sending-requests/responses/) in Postman, you have
 
 ### Adding a custom example
 
-With a custom example, you can define how both the [request](/docs/sending-requests/requests/) and the [response](/docs/sending-requests/responses/) look, including the status code and response body.
+With a custom example, you can define how both the [request](/docs/sending-requests/create-requests/create-requests/) and the [response](/docs/sending-requests/response-data/responses/) look, including the status code and response body.
 
 1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a request and then select **Add example**.
