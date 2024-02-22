@@ -110,7 +110,7 @@ To import a GraphQL schema into your request manually, do the following:
 1. Under the **Body** tab, select the **raw** body type. Choose **Text** from the format dropdown list.
 1. Build your query in the request body using standard GraphQL formatting.
 
-    ![GraphQL query request body](https://assets.postman.com/postman-docs/v10/graphql-http-content-type-body-v10-22.jpg)
+    ![GraphQL query request body](https://assets.postman.com/postman-docs/v10/graphql-http-content-type-body-v10-20-1.jpg)
 
 ## Import the query as a cURL request
 
