@@ -25,6 +25,12 @@ contextual_links:
   - type: link
     name: "PayPal uses workspaces for private views"
     url: "https://www.postman.com/case-studies/paypal/"
+  - type: link
+    name: "Axis Bank reduces communication time with workspaces"
+    url: "https://www.postman.com/case-studies/axis-bank/"
+  - type: link
+    name: "Amadeus uses workspaces to drive innovation"
+    url: "https://www.postman.com/case-studies/amadeus/"
 ---
 
 Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/using-workspaces/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist in a single workspace at most. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).

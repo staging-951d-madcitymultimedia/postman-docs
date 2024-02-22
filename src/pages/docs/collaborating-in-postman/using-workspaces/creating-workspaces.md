@@ -20,6 +20,14 @@ contextual_links:
   - type: link
     name: "Set up workspaces and collaborate faster with workspace templates"
     url: "https://blog.postman.com/set-up-workspaces-and-collaborate-faster-with-workspace-templates/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Axis Bank reduces communication time with workspaces"
+    url: "https://www.postman.com/case-studies/axis-bank/"
+  - type: link
+    name: "Amadeus uses workspaces to drive innovation"
+    url: "https://www.postman.com/case-studies/amadeus/"
 ---
 
 Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked elements. By collaborating in a workspace, your edits sync with your team in real time.

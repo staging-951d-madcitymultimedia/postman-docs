@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "API Documentation | The Exploratory"
     url: "https://youtu.be/XNVo9WkCoak"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Axis Bank shortens development pipelines using public URLs"
+    url: "https://www.postman.com/case-studies/axis-bank/"
 ---
 
 [Documentation](/docs/publishing-your-api/api-documentation-overview/) helps you get more out of the collections and APIs that you work with in Postman. View documentation to learn more about the requests in a collection or how to interact with an API's endpoints.
